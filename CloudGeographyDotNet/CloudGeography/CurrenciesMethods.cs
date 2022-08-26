@@ -15,7 +15,7 @@ public partial class CloudGeographyClient
 
 		public List<Currency> GetAll() => Currencies;
 
-		public List<Currency> Get(params string[] currencyCodes) => Currencies.Where(key => currencyCodes.Contains(key.Code)).ToList();
+		public List<Currency> Get(params string[] currencyCodes) => Currencies.Where(key => currencyCodes.Select(key => key.Trim().ToUpper()).Contains(key.Code)).ToList();
 
 		public List<CountryCurrency> GetByCountry(string countryCode) => Client.Countries.Get(countryCode).Currencies;
 

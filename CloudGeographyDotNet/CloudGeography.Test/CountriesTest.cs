@@ -23,8 +23,24 @@ namespace CloudGeography.Test
 		public void Get_Countries_By_Country_Codes()
 		{
 			CloudGeographyClient client = new();
-			List<Country> country = client.Countries.Get(new[] {"AF", "AL"});
-			Assert.IsTrue(country.Any());
+			List<Country> countries = client.Countries.Get(new[] {"US", "LB"});
+
+			Assert.IsTrue(countries.Count == 2);
+
+			Assert.AreEqual("United States of America", countries.First(key => key.Code.Equals("US", StringComparison.OrdinalIgnoreCase)).Name);
+			Assert.AreEqual("Lebanon", countries.First(key => key.Code.Equals("LB", StringComparison.OrdinalIgnoreCase)).Name);
+		}
+
+		[TestMethod]
+		public void Get_Countries_By_CountryCode_Cases()
+		{
+			CloudGeographyClient client = new();
+			List<Country> countries = client.Countries.Get(new[] { "Us", "lB" });
+
+			Assert.IsTrue(countries.Count == 2);
+
+			Assert.AreEqual("United States of America", countries.First(key => key.Code.Equals("US", StringComparison.OrdinalIgnoreCase)).Name);
+			Assert.AreEqual("Lebanon", countries.First(key => key.Code.Equals("LB", StringComparison.OrdinalIgnoreCase)).Name);
 		}
 
 		[TestMethod]

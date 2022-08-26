@@ -15,7 +15,7 @@ public partial class CloudGeographyClient
 
 		public List<Language> GetAll() => Languages;
 
-		public List<Language> Get(params string[] languageCodes) => Languages.Where(key => languageCodes.Contains(key.Code)).ToList();
+		public List<Language> Get(params string[] languageCodes) => Languages.Where(key => languageCodes.Select(key => key.Trim().ToUpper()).Contains(key.Code)).ToList();
 
 		public List<CountryLanguage> GetByCountry(string countryCode) => Client.Countries.Get(countryCode).Languages;
 

@@ -16,7 +16,7 @@ public partial class CloudGeographyClient
 
 		public List<Country> GetAll() => Countries;
 
-		public List<Country> Get(params string[] countryCodes) => Countries.Where(key => countryCodes.Contains(key.Code)).ToList();
+		public List<Country> Get(params string[] countryCodes) => Countries.Where(key => countryCodes.Select(key => key.Trim().ToUpper()).Contains(key.Code)).ToList();
 
 		public Country? Get(string countryCode) => Countries.FirstOrDefault(key => key.Code.Equals(countryCode.Trim(), StringComparison.OrdinalIgnoreCase));
 

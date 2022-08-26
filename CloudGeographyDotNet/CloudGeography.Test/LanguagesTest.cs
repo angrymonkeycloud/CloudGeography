@@ -1,3 +1,5 @@
+using AngryMonkey.Cloud.Geography;
+
 namespace CloudGeography.Test
 {
 	[TestClass]
@@ -15,10 +17,25 @@ namespace CloudGeography.Test
 		public void Get_Languages_By_Language_Codes()
 		{
 			CloudGeographyClient client = new();
-			List<Language> languages = client.Languages.Get(new[] { "AA" , "AF" });
-			Assert.IsTrue(languages.Any());
+			List<Language> languages = client.Languages.Get(new[] { "EN" , "AR" });
+
+			Assert.IsTrue(languages.Count == 2);
+
+			Assert.AreEqual("English", languages.First(key => key.Code.Equals("EN", StringComparison.OrdinalIgnoreCase)).Name);
+			Assert.AreEqual("Arabic", languages.First(key => key.Code.Equals("AR", StringComparison.OrdinalIgnoreCase)).Name);
 		}
 
+		[TestMethod]
+		public void Get_Languages_By_LanguageCode_Cases()
+		{
+			CloudGeographyClient client = new();
+			List<Language> languages = client.Languages.Get(new[] { "En", "aR" });
+
+			Assert.IsTrue(languages.Count == 2);
+
+			Assert.AreEqual("English", languages.First(key => key.Code.Equals("EN", StringComparison.OrdinalIgnoreCase)).Name);
+			Assert.AreEqual("Arabic", languages.First(key => key.Code.Equals("AR", StringComparison.OrdinalIgnoreCase)).Name);
+		}
 
 		[TestMethod]
 		public void Get_Country_Languages_By_Country_Code()
