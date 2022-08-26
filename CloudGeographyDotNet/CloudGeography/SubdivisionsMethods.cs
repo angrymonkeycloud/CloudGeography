@@ -10,7 +10,7 @@ public partial class CloudGeographyClient
 
 		internal SubdivisionsMethods(CloudGeographyClient client) => Client = client;
 
-		public List<Subdivision> GetAll(string countryCode) => DeserializeModel<List<Subdivision>>($"{countryCode}-languages", "subdivisions") ?? new List<Subdivision>();
+		public List<Subdivision> GetAll(string countryCode) => DeserializeModel<List<Subdivision>>($"{countryCode}-subdivisions", "subdivisions") ?? new List<Subdivision>();
 
 		public List<Subdivision> Get(string countryCode, params string[] subdivisionCodes) => GetAll(countryCode).Where(key => subdivisionCodes.Contains(key.Code)).ToList();
 
