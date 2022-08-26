@@ -16,10 +16,17 @@ public partial class CloudGeographyClient
 
 		public List<Country> GetAll() => Countries;
 
-		public List<Country> Get(params string[] countryCodes) => Countries.Where(key => countryCodes.Select(key => key.Trim().ToUpper()).Contains(key.Code)).ToList();
+		public List<Country> Get(params string[] countryCodes) => Countries.Where(key => countryCodes.Any(c => key.CodeCheck(c))).ToList();
 
-		public Country? Get(string countryCode) => Countries.FirstOrDefault(key => key.Code.Equals(countryCode.Trim(), StringComparison.OrdinalIgnoreCase));
+		public Country? Get(string countryCode) => Countries.FirstOrDefault(key => key.CodeCheck(countryCode));
 
-		public List<Country> Get(int callingCode) => Countries.Where(key => key.CallingCode == callingCode).ToList();
+		public List<Country> GetByCallingCode(int callingCode)
+		{
+			string callingCodeString = callingCode.ToString().TrimStart('0');
+
+			callingCode = int.Parse(callingCodeString);
+
+			return Countries.Where(key => key.CallingCode == callingCode).ToList();
+		}
 	}
 }

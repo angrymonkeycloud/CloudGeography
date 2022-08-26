@@ -15,10 +15,10 @@ public partial class CloudGeographyClient
 
 		public List<Currency> GetAll() => Currencies;
 
-		public List<Currency> Get(params string[] currencyCodes) => Currencies.Where(key => currencyCodes.Select(key => key.Trim().ToUpper()).Contains(key.Code)).ToList();
+		public List<Currency> Get(params string[] currencyCodes) => Currencies.Where(key => currencyCodes.Any(c => key.CodeCheck(c))).ToList();
+
+		public Currency? Get(string currencyCode) => Currencies.FirstOrDefault(key => key.CodeCheck(currencyCode));
 
 		public List<CountryCurrency> GetByCountry(string countryCode) => Client.Countries.Get(countryCode).Currencies;
-
-		public Currency? Get(string currencyCode) => Currencies.FirstOrDefault(key => key.Code.Equals(currencyCode.Trim(), StringComparison.OrdinalIgnoreCase));
 	}
 }

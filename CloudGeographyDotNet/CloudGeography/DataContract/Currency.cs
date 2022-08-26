@@ -10,4 +10,11 @@ public class Currency
 	public string PluralShortName { get; set; }
 	public string ShortName { get; set; }
 	public string Symbol { get; set; }
+
+	internal bool CodeCheck(string code)
+	{
+		code = code.Trim().ToUpper();
+
+		return Code == code;
+	}
 }

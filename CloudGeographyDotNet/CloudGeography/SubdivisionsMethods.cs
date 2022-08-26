@@ -12,8 +12,8 @@ public partial class CloudGeographyClient
 
 		public List<Subdivision> GetAll(string countryCode) => DeserializeModel<List<Subdivision>>($"{countryCode}", "subdivisions") ?? new List<Subdivision>();
 
-		public List<Subdivision> Get(string countryCode, params string[] subdivisionCodes) => GetAll(countryCode).Where(key => subdivisionCodes.Select(key => key.Trim().ToUpper()).Contains(key.Code)).ToList();
+		public List<Subdivision> Get(string countryCode, params string[] subdivisionCodes) => GetAll(countryCode).Where(key => subdivisionCodes.Any(s => key.CodeCheck(s))).ToList();
 
-		public Subdivision? Get(string countryCode, string subdivisionCode) => GetAll(countryCode).FirstOrDefault(key => key.Code.Equals(subdivisionCode.Trim(), StringComparison.OrdinalIgnoreCase));
+		public Subdivision? Get(string countryCode, string subdivisionCode) => GetAll(countryCode).FirstOrDefault(key => key.CodeCheck(subdivisionCode));
 	}
 }

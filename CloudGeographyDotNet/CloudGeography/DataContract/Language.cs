@@ -8,4 +8,11 @@ public class Language
 	public string Direction { get; set; }
 	public string Name { get; set; }
 	public string NativeName { get; set; }
+
+	internal bool CodeCheck(string code)
+	{
+		code = code.Trim().ToUpper();
+
+		return Code == code || ThreeLettersCode == code;
+	}
 }

@@ -21,21 +21,9 @@ namespace CloudGeography.Test
         public void Get_Currencies_From_Currency_Codes()
         {
             CloudGeographyClient client = new();
-            List<Currency> Currencies = client.Currencies.Get(new[] { "USD", "LBP" });
+            List<Currency> Currencies = client.Currencies.Get(new[] { "USd", "LbP" });
 
             Assert.IsTrue(Currencies.Count == 2);
-
-			Assert.AreEqual("US Dollars", Currencies.First(key => key.Code.Equals("USD", StringComparison.OrdinalIgnoreCase)).NativeName);
-			Assert.AreEqual("Lebanese pound", Currencies.First(key => key.Code.Equals("LBP", StringComparison.OrdinalIgnoreCase)).Name);
-		}
-
-		[TestMethod]
-		public void Get_Currencies_By_CurrencyCode_Cases()
-		{
-			CloudGeographyClient client = new();
-			List<Currency> Currencies = client.Currencies.Get(new[] { "Usd", "lbP" });
-
-			Assert.IsTrue(Currencies.Count == 2);
 
 			Assert.AreEqual("US Dollars", Currencies.First(key => key.Code.Equals("USD", StringComparison.OrdinalIgnoreCase)).NativeName);
 			Assert.AreEqual("Lebanese pound", Currencies.First(key => key.Code.Equals("LBP", StringComparison.OrdinalIgnoreCase)).Name);

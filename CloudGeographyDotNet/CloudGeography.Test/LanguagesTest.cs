@@ -46,10 +46,20 @@ namespace CloudGeography.Test
 		}
 
 		[TestMethod]
-		public void Get_Language_By_Language_Code()
+		public void Get_Language_By_LanguageCode()
 		{
 			CloudGeographyClient client = new();
-			Language ?language = client.Languages.Get("EN");
+			Language? language = client.Languages.Get("En");
+
+			Assert.AreEqual("English", language?.Name);
+		}
+
+		[TestMethod]
+		public void Get_Language_By_LanguageCode_ThreeLetters()
+		{
+			CloudGeographyClient client = new();
+			Language? language = client.Languages.Get("eNG");
+
 			Assert.AreEqual("English", language?.Name);
 		}
 	}
