@@ -1,616 +1,443 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <RootNamespace>AngryMonkey.Cloud</RootNamespace>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<RootNamespace>AngryMonkey.Cloud</RootNamespace>
+		<Title>Cloud Geography</Title>
+		<AssemblyVersion>$(PackageVersion)</AssemblyVersion>
+		<FileVersion>$(PackageVersion)</FileVersion>
+		<Version>2.0.1</Version>
+		<AssemblyName>AngryMonkey.Cloud.Geography</AssemblyName>
+		<Authors>Angry Monkey</Authors>
+		<Description>A .Net client to retrieve Countries, Languages, and Currencies information.</Description>
+		<PackageProjectUrl>https://angrymonkeycloud.com/cloudgeography</PackageProjectUrl>
+		<PackageIcon>AngryMonkeyCloudLogo-64x64.png</PackageIcon>
+		<IncludeSymbols>False</IncludeSymbols>
+		<PackageOutputPath>..\..\NugetPackage\</PackageOutputPath>
+	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<Content Include="Data\**\*" Pack="true">
+			<PackageCopyToOutput>true</PackageCopyToOutput>
+		</Content>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Update="Data\countries.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\currencies.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\languages.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ad.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ae.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\af.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ag.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\al.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\am.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ao.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ar.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\at.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\au.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\az.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ba.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\bb.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\bd.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\be.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\bf.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\bg.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\bh.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\bi.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\bj.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\bm.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\bn.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\bo.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\bq.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\br.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\bs.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\bt.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\bw.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\by.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\bz.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ca.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\cd.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\cf.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\cg.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ch.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ci.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\cl.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\cm.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\cn.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\co.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\cr.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\cu.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\cv.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\cy.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\cz.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\de.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\dj.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\dk.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\dm.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\do.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\dz.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ec.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ee.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\eg.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\er.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\es.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\et.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\fi.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\fj.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\fm.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\fr.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ga.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\gb.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\gd.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ge.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\gh.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\gl.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\gm.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\gn.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\gq.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\gr.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\gt.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\gw.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\gy.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\hn.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\hr.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ht.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\hu.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\id.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ie.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\il.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\in.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\iq.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ir.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\is.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\it.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\jm.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\jo.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\jp.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ke.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\kg.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\kh.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ki.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\km.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\kn.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\kp.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\kr.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\kw.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\kz.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\la.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\lb.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\lc.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\li.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\lk.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\lr.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ls.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\lt.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\lu.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\lv.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ly.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ma.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\mc.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\md.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\me.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\mg.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\mh.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\mk.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ml.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\mm.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\mn.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\mr.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\mt.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\mu.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\mv.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\mw.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\mx.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\my.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\mz.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\na.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ne.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ng.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ni.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\nl.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\no.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\np.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\nr.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\nz.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\om.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\pa.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\pe.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\pg.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ph.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\pk.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\pl.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ps.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\pt.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\pw.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\py.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\qa.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ro.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\rs.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ru.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\rw.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\sa.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\sb.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\sc.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\sd.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\se.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\sg.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\sh.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\si.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\sk.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\sl.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\sm.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\sn.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\so.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\sr.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ss.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\st.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\sv.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\sy.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\td.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\tg.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\th.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\tj.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\tl.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\tm.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\tn.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\to.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\tr.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\tt.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\tv.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\tw.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\tz.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ua.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ug.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\us.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\uy.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\uz.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\vc.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ve.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\vn.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ws.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\ye.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\za.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\zm.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Data\subdivisions\zw.json">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
+		<None Remove="Data\countries.json" />
+		<None Remove="Data\currencies.json" />
+		<None Remove="Data\languages.json" />
+		<None Remove="Data\subdivisions\ad.json" />
+		<None Remove="Data\subdivisions\ae.json" />
+		<None Remove="Data\subdivisions\af.json" />
+		<None Remove="Data\subdivisions\ag.json" />
+		<None Remove="Data\subdivisions\al.json" />
+		<None Remove="Data\subdivisions\am.json" />
+		<None Remove="Data\subdivisions\ao.json" />
+		<None Remove="Data\subdivisions\ar.json" />
+		<None Remove="Data\subdivisions\at.json" />
+		<None Remove="Data\subdivisions\au.json" />
+		<None Remove="Data\subdivisions\az.json" />
+		<None Remove="Data\subdivisions\ba.json" />
+		<None Remove="Data\subdivisions\bb.json" />
+		<None Remove="Data\subdivisions\bd.json" />
+		<None Remove="Data\subdivisions\be.json" />
+		<None Remove="Data\subdivisions\bf.json" />
+		<None Remove="Data\subdivisions\bg.json" />
+		<None Remove="Data\subdivisions\bh.json" />
+		<None Remove="Data\subdivisions\bi.json" />
+		<None Remove="Data\subdivisions\bj.json" />
+		<None Remove="Data\subdivisions\bm.json" />
+		<None Remove="Data\subdivisions\bn.json" />
+		<None Remove="Data\subdivisions\bo.json" />
+		<None Remove="Data\subdivisions\bq.json" />
+		<None Remove="Data\subdivisions\br.json" />
+		<None Remove="Data\subdivisions\bs.json" />
+		<None Remove="Data\subdivisions\bt.json" />
+		<None Remove="Data\subdivisions\bw.json" />
+		<None Remove="Data\subdivisions\by.json" />
+		<None Remove="Data\subdivisions\bz.json" />
+		<None Remove="Data\subdivisions\ca.json" />
+		<None Remove="Data\subdivisions\cd.json" />
+		<None Remove="Data\subdivisions\cf.json" />
+		<None Remove="Data\subdivisions\cg.json" />
+		<None Remove="Data\subdivisions\ch.json" />
+		<None Remove="Data\subdivisions\ci.json" />
+		<None Remove="Data\subdivisions\cl.json" />
+		<None Remove="Data\subdivisions\cm.json" />
+		<None Remove="Data\subdivisions\cn.json" />
+		<None Remove="Data\subdivisions\co.json" />
+		<None Remove="Data\subdivisions\cr.json" />
+		<None Remove="Data\subdivisions\cu.json" />
+		<None Remove="Data\subdivisions\cv.json" />
+		<None Remove="Data\subdivisions\cy.json" />
+		<None Remove="Data\subdivisions\cz.json" />
+		<None Remove="Data\subdivisions\de.json" />
+		<None Remove="Data\subdivisions\dj.json" />
+		<None Remove="Data\subdivisions\dk.json" />
+		<None Remove="Data\subdivisions\dm.json" />
+		<None Remove="Data\subdivisions\do.json" />
+		<None Remove="Data\subdivisions\dz.json" />
+		<None Remove="Data\subdivisions\ec.json" />
+		<None Remove="Data\subdivisions\ee.json" />
+		<None Remove="Data\subdivisions\eg.json" />
+		<None Remove="Data\subdivisions\er.json" />
+		<None Remove="Data\subdivisions\es.json" />
+		<None Remove="Data\subdivisions\et.json" />
+		<None Remove="Data\subdivisions\fi.json" />
+		<None Remove="Data\subdivisions\fj.json" />
+		<None Remove="Data\subdivisions\fm.json" />
+		<None Remove="Data\subdivisions\fr.json" />
+		<None Remove="Data\subdivisions\ga.json" />
+		<None Remove="Data\subdivisions\gb.json" />
+		<None Remove="Data\subdivisions\gd.json" />
+		<None Remove="Data\subdivisions\ge.json" />
+		<None Remove="Data\subdivisions\gh.json" />
+		<None Remove="Data\subdivisions\gl.json" />
+		<None Remove="Data\subdivisions\gm.json" />
+		<None Remove="Data\subdivisions\gn.json" />
+		<None Remove="Data\subdivisions\gq.json" />
+		<None Remove="Data\subdivisions\gr.json" />
+		<None Remove="Data\subdivisions\gt.json" />
+		<None Remove="Data\subdivisions\gw.json" />
+		<None Remove="Data\subdivisions\gy.json" />
+		<None Remove="Data\subdivisions\hn.json" />
+		<None Remove="Data\subdivisions\hr.json" />
+		<None Remove="Data\subdivisions\ht.json" />
+		<None Remove="Data\subdivisions\hu.json" />
+		<None Remove="Data\subdivisions\id.json" />
+		<None Remove="Data\subdivisions\ie.json" />
+		<None Remove="Data\subdivisions\il.json" />
+		<None Remove="Data\subdivisions\in.json" />
+		<None Remove="Data\subdivisions\iq.json" />
+		<None Remove="Data\subdivisions\ir.json" />
+		<None Remove="Data\subdivisions\is.json" />
+		<None Remove="Data\subdivisions\it.json" />
+		<None Remove="Data\subdivisions\jm.json" />
+		<None Remove="Data\subdivisions\jo.json" />
+		<None Remove="Data\subdivisions\jp.json" />
+		<None Remove="Data\subdivisions\ke.json" />
+		<None Remove="Data\subdivisions\kg.json" />
+		<None Remove="Data\subdivisions\kh.json" />
+		<None Remove="Data\subdivisions\ki.json" />
+		<None Remove="Data\subdivisions\km.json" />
+		<None Remove="Data\subdivisions\kn.json" />
+		<None Remove="Data\subdivisions\kp.json" />
+		<None Remove="Data\subdivisions\kr.json" />
+		<None Remove="Data\subdivisions\kw.json" />
+		<None Remove="Data\subdivisions\kz.json" />
+		<None Remove="Data\subdivisions\la.json" />
+		<None Remove="Data\subdivisions\lb.json" />
+		<None Remove="Data\subdivisions\lc.json" />
+		<None Remove="Data\subdivisions\li.json" />
+		<None Remove="Data\subdivisions\lk.json" />
+		<None Remove="Data\subdivisions\lr.json" />
+		<None Remove="Data\subdivisions\ls.json" />
+		<None Remove="Data\subdivisions\lt.json" />
+		<None Remove="Data\subdivisions\lu.json" />
+		<None Remove="Data\subdivisions\lv.json" />
+		<None Remove="Data\subdivisions\ly.json" />
+		<None Remove="Data\subdivisions\ma.json" />
+		<None Remove="Data\subdivisions\mc.json" />
+		<None Remove="Data\subdivisions\md.json" />
+		<None Remove="Data\subdivisions\me.json" />
+		<None Remove="Data\subdivisions\mg.json" />
+		<None Remove="Data\subdivisions\mh.json" />
+		<None Remove="Data\subdivisions\mk.json" />
+		<None Remove="Data\subdivisions\ml.json" />
+		<None Remove="Data\subdivisions\mm.json" />
+		<None Remove="Data\subdivisions\mn.json" />
+		<None Remove="Data\subdivisions\mr.json" />
+		<None Remove="Data\subdivisions\mt.json" />
+		<None Remove="Data\subdivisions\mu.json" />
+		<None Remove="Data\subdivisions\mv.json" />
+		<None Remove="Data\subdivisions\mw.json" />
+		<None Remove="Data\subdivisions\mx.json" />
+		<None Remove="Data\subdivisions\my.json" />
+		<None Remove="Data\subdivisions\mz.json" />
+		<None Remove="Data\subdivisions\na.json" />
+		<None Remove="Data\subdivisions\ne.json" />
+		<None Remove="Data\subdivisions\ng.json" />
+		<None Remove="Data\subdivisions\ni.json" />
+		<None Remove="Data\subdivisions\nl.json" />
+		<None Remove="Data\subdivisions\no.json" />
+		<None Remove="Data\subdivisions\np.json" />
+		<None Remove="Data\subdivisions\nr.json" />
+		<None Remove="Data\subdivisions\nz.json" />
+		<None Remove="Data\subdivisions\om.json" />
+		<None Remove="Data\subdivisions\pa.json" />
+		<None Remove="Data\subdivisions\pe.json" />
+		<None Remove="Data\subdivisions\pg.json" />
+		<None Remove="Data\subdivisions\ph.json" />
+		<None Remove="Data\subdivisions\pk.json" />
+		<None Remove="Data\subdivisions\pl.json" />
+		<None Remove="Data\subdivisions\ps.json" />
+		<None Remove="Data\subdivisions\pt.json" />
+		<None Remove="Data\subdivisions\pw.json" />
+		<None Remove="Data\subdivisions\py.json" />
+		<None Remove="Data\subdivisions\qa.json" />
+		<None Remove="Data\subdivisions\ro.json" />
+		<None Remove="Data\subdivisions\rs.json" />
+		<None Remove="Data\subdivisions\ru.json" />
+		<None Remove="Data\subdivisions\rw.json" />
+		<None Remove="Data\subdivisions\sa.json" />
+		<None Remove="Data\subdivisions\sb.json" />
+		<None Remove="Data\subdivisions\sc.json" />
+		<None Remove="Data\subdivisions\sd.json" />
+		<None Remove="Data\subdivisions\se.json" />
+		<None Remove="Data\subdivisions\sg.json" />
+		<None Remove="Data\subdivisions\sh.json" />
+		<None Remove="Data\subdivisions\si.json" />
+		<None Remove="Data\subdivisions\sk.json" />
+		<None Remove="Data\subdivisions\sl.json" />
+		<None Remove="Data\subdivisions\sm.json" />
+		<None Remove="Data\subdivisions\sn.json" />
+		<None Remove="Data\subdivisions\so.json" />
+		<None Remove="Data\subdivisions\sr.json" />
+		<None Remove="Data\subdivisions\ss.json" />
+		<None Remove="Data\subdivisions\st.json" />
+		<None Remove="Data\subdivisions\sv.json" />
+		<None Remove="Data\subdivisions\sy.json" />
+		<None Remove="Data\subdivisions\td.json" />
+		<None Remove="Data\subdivisions\tg.json" />
+		<None Remove="Data\subdivisions\th.json" />
+		<None Remove="Data\subdivisions\tj.json" />
+		<None Remove="Data\subdivisions\tl.json" />
+		<None Remove="Data\subdivisions\tm.json" />
+		<None Remove="Data\subdivisions\tn.json" />
+		<None Remove="Data\subdivisions\to.json" />
+		<None Remove="Data\subdivisions\tr.json" />
+		<None Remove="Data\subdivisions\tt.json" />
+		<None Remove="Data\subdivisions\tv.json" />
+		<None Remove="Data\subdivisions\tw.json" />
+		<None Remove="Data\subdivisions\tz.json" />
+		<None Remove="Data\subdivisions\ua.json" />
+		<None Remove="Data\subdivisions\ug.json" />
+		<None Remove="Data\subdivisions\us.json" />
+		<None Remove="Data\subdivisions\uy.json" />
+		<None Remove="Data\subdivisions\uz.json" />
+		<None Remove="Data\subdivisions\vc.json" />
+		<None Remove="Data\subdivisions\ve.json" />
+		<None Remove="Data\subdivisions\vn.json" />
+		<None Remove="Data\subdivisions\ws.json" />
+		<None Remove="Data\subdivisions\ye.json" />
+		<None Remove="Data\subdivisions\za.json" />
+		<None Remove="Data\subdivisions\zm.json" />
+		<None Remove="Data\subdivisions\zw.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="Data\countries.json" />
+		<EmbeddedResource Include="Data\currencies.json" />
+		<EmbeddedResource Include="Data\languages.json" />
+		<EmbeddedResource Include="Data\subdivisions\ad.json" />
+		<EmbeddedResource Include="Data\subdivisions\ae.json" />
+		<EmbeddedResource Include="Data\subdivisions\af.json" />
+		<EmbeddedResource Include="Data\subdivisions\ag.json" />
+		<EmbeddedResource Include="Data\subdivisions\al.json" />
+		<EmbeddedResource Include="Data\subdivisions\am.json" />
+		<EmbeddedResource Include="Data\subdivisions\ao.json" />
+		<EmbeddedResource Include="Data\subdivisions\ar.json" />
+		<EmbeddedResource Include="Data\subdivisions\at.json" />
+		<EmbeddedResource Include="Data\subdivisions\au.json" />
+		<EmbeddedResource Include="Data\subdivisions\az.json" />
+		<EmbeddedResource Include="Data\subdivisions\ba.json" />
+		<EmbeddedResource Include="Data\subdivisions\bb.json" />
+		<EmbeddedResource Include="Data\subdivisions\bd.json" />
+		<EmbeddedResource Include="Data\subdivisions\be.json" />
+		<EmbeddedResource Include="Data\subdivisions\bf.json" />
+		<EmbeddedResource Include="Data\subdivisions\bg.json" />
+		<EmbeddedResource Include="Data\subdivisions\bh.json" />
+		<EmbeddedResource Include="Data\subdivisions\bi.json" />
+		<EmbeddedResource Include="Data\subdivisions\bj.json" />
+		<EmbeddedResource Include="Data\subdivisions\bm.json" />
+		<EmbeddedResource Include="Data\subdivisions\bn.json" />
+		<EmbeddedResource Include="Data\subdivisions\bo.json" />
+		<EmbeddedResource Include="Data\subdivisions\bq.json" />
+		<EmbeddedResource Include="Data\subdivisions\br.json" />
+		<EmbeddedResource Include="Data\subdivisions\bs.json" />
+		<EmbeddedResource Include="Data\subdivisions\bt.json" />
+		<EmbeddedResource Include="Data\subdivisions\bw.json" />
+		<EmbeddedResource Include="Data\subdivisions\by.json" />
+		<EmbeddedResource Include="Data\subdivisions\bz.json" />
+		<EmbeddedResource Include="Data\subdivisions\ca.json" />
+		<EmbeddedResource Include="Data\subdivisions\cd.json" />
+		<EmbeddedResource Include="Data\subdivisions\cf.json" />
+		<EmbeddedResource Include="Data\subdivisions\cg.json" />
+		<EmbeddedResource Include="Data\subdivisions\ch.json" />
+		<EmbeddedResource Include="Data\subdivisions\ci.json" />
+		<EmbeddedResource Include="Data\subdivisions\cl.json" />
+		<EmbeddedResource Include="Data\subdivisions\cm.json" />
+		<EmbeddedResource Include="Data\subdivisions\cn.json" />
+		<EmbeddedResource Include="Data\subdivisions\co.json" />
+		<EmbeddedResource Include="Data\subdivisions\cr.json" />
+		<EmbeddedResource Include="Data\subdivisions\cu.json" />
+		<EmbeddedResource Include="Data\subdivisions\cv.json" />
+		<EmbeddedResource Include="Data\subdivisions\cy.json" />
+		<EmbeddedResource Include="Data\subdivisions\cz.json" />
+		<EmbeddedResource Include="Data\subdivisions\de.json" />
+		<EmbeddedResource Include="Data\subdivisions\dj.json" />
+		<EmbeddedResource Include="Data\subdivisions\dk.json" />
+		<EmbeddedResource Include="Data\subdivisions\dm.json" />
+		<EmbeddedResource Include="Data\subdivisions\do.json" />
+		<EmbeddedResource Include="Data\subdivisions\dz.json" />
+		<EmbeddedResource Include="Data\subdivisions\ec.json" />
+		<EmbeddedResource Include="Data\subdivisions\ee.json" />
+		<EmbeddedResource Include="Data\subdivisions\eg.json" />
+		<EmbeddedResource Include="Data\subdivisions\er.json" />
+		<EmbeddedResource Include="Data\subdivisions\es.json" />
+		<EmbeddedResource Include="Data\subdivisions\et.json" />
+		<EmbeddedResource Include="Data\subdivisions\fi.json" />
+		<EmbeddedResource Include="Data\subdivisions\fj.json" />
+		<EmbeddedResource Include="Data\subdivisions\fm.json" />
+		<EmbeddedResource Include="Data\subdivisions\fr.json" />
+		<EmbeddedResource Include="Data\subdivisions\ga.json" />
+		<EmbeddedResource Include="Data\subdivisions\gb.json" />
+		<EmbeddedResource Include="Data\subdivisions\gd.json" />
+		<EmbeddedResource Include="Data\subdivisions\ge.json" />
+		<EmbeddedResource Include="Data\subdivisions\gh.json" />
+		<EmbeddedResource Include="Data\subdivisions\gl.json" />
+		<EmbeddedResource Include="Data\subdivisions\gm.json" />
+		<EmbeddedResource Include="Data\subdivisions\gn.json" />
+		<EmbeddedResource Include="Data\subdivisions\gq.json" />
+		<EmbeddedResource Include="Data\subdivisions\gr.json" />
+		<EmbeddedResource Include="Data\subdivisions\gt.json" />
+		<EmbeddedResource Include="Data\subdivisions\gw.json" />
+		<EmbeddedResource Include="Data\subdivisions\gy.json" />
+		<EmbeddedResource Include="Data\subdivisions\hn.json" />
+		<EmbeddedResource Include="Data\subdivisions\hr.json" />
+		<EmbeddedResource Include="Data\subdivisions\ht.json" />
+		<EmbeddedResource Include="Data\subdivisions\hu.json" />
+		<EmbeddedResource Include="Data\subdivisions\id.json" />
+		<EmbeddedResource Include="Data\subdivisions\ie.json" />
+		<EmbeddedResource Include="Data\subdivisions\il.json" />
+		<EmbeddedResource Include="Data\subdivisions\in.json" />
+		<EmbeddedResource Include="Data\subdivisions\iq.json" />
+		<EmbeddedResource Include="Data\subdivisions\ir.json" />
+		<EmbeddedResource Include="Data\subdivisions\is.json" />
+		<EmbeddedResource Include="Data\subdivisions\it.json" />
+		<EmbeddedResource Include="Data\subdivisions\jm.json" />
+		<EmbeddedResource Include="Data\subdivisions\jo.json" />
+		<EmbeddedResource Include="Data\subdivisions\jp.json" />
+		<EmbeddedResource Include="Data\subdivisions\ke.json" />
+		<EmbeddedResource Include="Data\subdivisions\kg.json" />
+		<EmbeddedResource Include="Data\subdivisions\kh.json" />
+		<EmbeddedResource Include="Data\subdivisions\ki.json" />
+		<EmbeddedResource Include="Data\subdivisions\km.json" />
+		<EmbeddedResource Include="Data\subdivisions\kn.json" />
+		<EmbeddedResource Include="Data\subdivisions\kp.json" />
+		<EmbeddedResource Include="Data\subdivisions\kr.json" />
+		<EmbeddedResource Include="Data\subdivisions\kw.json" />
+		<EmbeddedResource Include="Data\subdivisions\kz.json" />
+		<EmbeddedResource Include="Data\subdivisions\la.json" />
+		<EmbeddedResource Include="Data\subdivisions\lb.json" />
+		<EmbeddedResource Include="Data\subdivisions\lc.json" />
+		<EmbeddedResource Include="Data\subdivisions\li.json" />
+		<EmbeddedResource Include="Data\subdivisions\lk.json" />
+		<EmbeddedResource Include="Data\subdivisions\lr.json" />
+		<EmbeddedResource Include="Data\subdivisions\ls.json" />
+		<EmbeddedResource Include="Data\subdivisions\lt.json" />
+		<EmbeddedResource Include="Data\subdivisions\lu.json" />
+		<EmbeddedResource Include="Data\subdivisions\lv.json" />
+		<EmbeddedResource Include="Data\subdivisions\ly.json" />
+		<EmbeddedResource Include="Data\subdivisions\ma.json" />
+		<EmbeddedResource Include="Data\subdivisions\mc.json" />
+		<EmbeddedResource Include="Data\subdivisions\md.json" />
+		<EmbeddedResource Include="Data\subdivisions\me.json" />
+		<EmbeddedResource Include="Data\subdivisions\mg.json" />
+		<EmbeddedResource Include="Data\subdivisions\mh.json" />
+		<EmbeddedResource Include="Data\subdivisions\mk.json" />
+		<EmbeddedResource Include="Data\subdivisions\ml.json" />
+		<EmbeddedResource Include="Data\subdivisions\mm.json" />
+		<EmbeddedResource Include="Data\subdivisions\mn.json" />
+		<EmbeddedResource Include="Data\subdivisions\mr.json" />
+		<EmbeddedResource Include="Data\subdivisions\mt.json" />
+		<EmbeddedResource Include="Data\subdivisions\mu.json" />
+		<EmbeddedResource Include="Data\subdivisions\mv.json" />
+		<EmbeddedResource Include="Data\subdivisions\mw.json" />
+		<EmbeddedResource Include="Data\subdivisions\mx.json" />
+		<EmbeddedResource Include="Data\subdivisions\my.json" />
+		<EmbeddedResource Include="Data\subdivisions\mz.json" />
+		<EmbeddedResource Include="Data\subdivisions\na.json" />
+		<EmbeddedResource Include="Data\subdivisions\ne.json" />
+		<EmbeddedResource Include="Data\subdivisions\ng.json" />
+		<EmbeddedResource Include="Data\subdivisions\ni.json" />
+		<EmbeddedResource Include="Data\subdivisions\nl.json" />
+		<EmbeddedResource Include="Data\subdivisions\no.json" />
+		<EmbeddedResource Include="Data\subdivisions\np.json" />
+		<EmbeddedResource Include="Data\subdivisions\nr.json" />
+		<EmbeddedResource Include="Data\subdivisions\nz.json" />
+		<EmbeddedResource Include="Data\subdivisions\om.json" />
+		<EmbeddedResource Include="Data\subdivisions\pa.json" />
+		<EmbeddedResource Include="Data\subdivisions\pe.json" />
+		<EmbeddedResource Include="Data\subdivisions\pg.json" />
+		<EmbeddedResource Include="Data\subdivisions\ph.json" />
+		<EmbeddedResource Include="Data\subdivisions\pk.json" />
+		<EmbeddedResource Include="Data\subdivisions\pl.json" />
+		<EmbeddedResource Include="Data\subdivisions\ps.json" />
+		<EmbeddedResource Include="Data\subdivisions\pt.json" />
+		<EmbeddedResource Include="Data\subdivisions\pw.json" />
+		<EmbeddedResource Include="Data\subdivisions\py.json" />
+		<EmbeddedResource Include="Data\subdivisions\qa.json" />
+		<EmbeddedResource Include="Data\subdivisions\ro.json" />
+		<EmbeddedResource Include="Data\subdivisions\rs.json" />
+		<EmbeddedResource Include="Data\subdivisions\ru.json" />
+		<EmbeddedResource Include="Data\subdivisions\rw.json" />
+		<EmbeddedResource Include="Data\subdivisions\sa.json" />
+		<EmbeddedResource Include="Data\subdivisions\sb.json" />
+		<EmbeddedResource Include="Data\subdivisions\sc.json" />
+		<EmbeddedResource Include="Data\subdivisions\sd.json" />
+		<EmbeddedResource Include="Data\subdivisions\se.json" />
+		<EmbeddedResource Include="Data\subdivisions\sg.json" />
+		<EmbeddedResource Include="Data\subdivisions\sh.json" />
+		<EmbeddedResource Include="Data\subdivisions\si.json" />
+		<EmbeddedResource Include="Data\subdivisions\sk.json" />
+		<EmbeddedResource Include="Data\subdivisions\sl.json" />
+		<EmbeddedResource Include="Data\subdivisions\sm.json" />
+		<EmbeddedResource Include="Data\subdivisions\sn.json" />
+		<EmbeddedResource Include="Data\subdivisions\so.json" />
+		<EmbeddedResource Include="Data\subdivisions\sr.json" />
+		<EmbeddedResource Include="Data\subdivisions\ss.json" />
+		<EmbeddedResource Include="Data\subdivisions\st.json" />
+		<EmbeddedResource Include="Data\subdivisions\sv.json" />
+		<EmbeddedResource Include="Data\subdivisions\sy.json" />
+		<EmbeddedResource Include="Data\subdivisions\td.json" />
+		<EmbeddedResource Include="Data\subdivisions\tg.json" />
+		<EmbeddedResource Include="Data\subdivisions\th.json" />
+		<EmbeddedResource Include="Data\subdivisions\tj.json" />
+		<EmbeddedResource Include="Data\subdivisions\tl.json" />
+		<EmbeddedResource Include="Data\subdivisions\tm.json" />
+		<EmbeddedResource Include="Data\subdivisions\tn.json" />
+		<EmbeddedResource Include="Data\subdivisions\to.json" />
+		<EmbeddedResource Include="Data\subdivisions\tr.json" />
+		<EmbeddedResource Include="Data\subdivisions\tt.json" />
+		<EmbeddedResource Include="Data\subdivisions\tv.json" />
+		<EmbeddedResource Include="Data\subdivisions\tw.json" />
+		<EmbeddedResource Include="Data\subdivisions\tz.json" />
+		<EmbeddedResource Include="Data\subdivisions\ua.json" />
+		<EmbeddedResource Include="Data\subdivisions\ug.json" />
+		<EmbeddedResource Include="Data\subdivisions\us.json" />
+		<EmbeddedResource Include="Data\subdivisions\uy.json" />
+		<EmbeddedResource Include="Data\subdivisions\uz.json" />
+		<EmbeddedResource Include="Data\subdivisions\vc.json" />
+		<EmbeddedResource Include="Data\subdivisions\ve.json" />
+		<EmbeddedResource Include="Data\subdivisions\vn.json" />
+		<EmbeddedResource Include="Data\subdivisions\ws.json" />
+		<EmbeddedResource Include="Data\subdivisions\ye.json" />
+		<EmbeddedResource Include="Data\subdivisions\za.json" />
+		<EmbeddedResource Include="Data\subdivisions\zm.json" />
+		<EmbeddedResource Include="Data\subdivisions\zw.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="AngryMonkeyCloudLogo-64x64.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
 	</ItemGroup>
 </Project>

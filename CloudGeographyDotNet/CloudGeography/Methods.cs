@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics.Metrics;
 using System.Reflection;
+using System.Reflection.PortableExecutable;
 using Newtonsoft.Json;
 
 namespace AngryMonkey.Cloud;
@@ -21,10 +22,13 @@ public partial class CloudGeographyClient
 
 	internal static T? DeserializeModel<T>(string fileName, string directory = "")
 	{
-		string fullFileName = $"Data{(!string.IsNullOrEmpty(directory) ? $"\\{directory}" : null)}\\{fileName}.json";
+		Assembly assembly = Assembly.GetExecutingAssembly();
 
-		string fullPath = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, fullFileName));
+		string fullFileName = $"AngryMonkey.Cloud.Data.{(!string.IsNullOrEmpty(directory) ? $"{directory}." : null)}{fileName.ToLower()}.json";
 
-		return JsonConvert.DeserializeObject<T>(File.ReadAllText(fullPath));
+		using Stream stream = assembly.GetManifestResourceStream(fullFileName);
+		StreamReader reader = new(stream);
+
+		return JsonConvert.DeserializeObject<T>(reader.ReadToEnd());
 	}
 }

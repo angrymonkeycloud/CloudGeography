@@ -14,6 +14,14 @@ namespace CloudGeography.Test
 			Assert.IsTrue(subdivisions.Any());
 		}
 		[TestMethod]
+		public void Get_Subdivisions_By_CountryCode_NotAvailable()
+		{
+			CloudGeographyClient client = new();
+			List<Subdivision> subdivisions = client.Subdivisions.GetAll("XX");
+
+			Assert.IsTrue(!subdivisions.Any());
+		}
+		[TestMethod]
 		public void Get_Subdivisions_By_CountryCode_And_SubDivisionCode()
 		{
 			CloudGeographyClient client = new();
