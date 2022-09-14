@@ -1,13 +1,14 @@
 # Cloud Geography
 
-### IMPORTANT: Do not update this file directly, update files within the Docs folder and run Cloud Mate to generate this README.md file.
+ **IMPORTANT: Do not update this file directly, update files within the Docs folder and run Cloud Mate to generate this README.md file.**
+
 <br/>
 
-# Summary
+## Summary
 A .Net client to retrieve Countries, Languages, and Currencies information.The .Net client is built on .Net Standard so it supports Windows, Windows Store, Windows Phone, Mono, and Xamarin, also it has implemented an integrated caching so developers don't have to. Backend API is deployed on Microsoft Azure latest technology services. .Net client and backend API are both built using best practices as lead developers would expect.
 
 
-# Overview
+## Overview
 ```cs
  //gets all countries
  CloudGeographyClient client = new();
@@ -26,7 +27,8 @@ CloudGeographyClient client = new();
 List<Language> languages = client.Languages.GetAll();
 ```
 
-# Installation
+## Installation
+
 
 ### Package Manager
 
@@ -40,31 +42,31 @@ dotnet add package AngryMonkey.Cloud.Geography
 ```
 
 
-# Implementation
+### Implementation
 
 
-### NameSpace
+#### NameSpace
 
 ```cs     
 using AngryMonkey.Cloud;
 using AngryMonkey.Cloud.Geography;
 ```
 
-### Initialization
+#### Initialization
 
 ```cs
 CloudGeographyClient cloudGeography = new CloudGeographyClient();
 ```
 
 
-# Usage
+## Usage
 <br/>
 
-## For Countries:
+### For Countries:
 ---
 <br/>
 
-### Get all available countries
+#### Get all available countries
 <br/>
 
 ```cs
@@ -72,7 +74,7 @@ List<Country> countries = client.Countries.GetAll();
 ```
 <br/>
 
-### Get a country by its code
+#### Get a country by its code
 <br/>
 
  ```cs
@@ -84,7 +86,7 @@ Country country = client.Countries.Get("USA");
 ```
 <br/>
 
-### Get multiple countries by their code
+#### Get multiple countries by their code
 <br/>
 
 ```cs
@@ -97,7 +99,7 @@ List<Country> countries = client.Countries.Get(new[] {"CAN", "USA"});
 <br/>
 
 
-### Get a country by its phone code
+#### Get a country by its phone code
 <br/>
 
  ```cs
@@ -105,11 +107,11 @@ Country country = client.Countries.Get(1);
 //returns USA and Canada because they share the same phone code
 ```
 
-## For Currency:
+### For Currency:
 ---
 <br/>
 
-### Get all available currencies
+#### Get all available currencies
 <br/>
 
 ```cs
@@ -117,7 +119,7 @@ List<Currency> Currencies = client.Currencies.GetAll();
 ```
 <br/>
 
-### Get a currecny from its code
+#### Get a currecny from its code
 <br/>
 
  ```cs
@@ -125,7 +127,7 @@ Currency Currency = client.Currencies.Get("USD");
 ```
 <br/>
 
-### Get multiple currencies from currency codes
+#### Get multiple currencies from currency codes
 <br/>
 
 ```cs
@@ -133,7 +135,7 @@ List<Currency> Currencies = client.Currencies.Get(new[] { "AFN", "USD" });
 ```
 <br/>
 
-### Get  multiple currencies from country code
+#### Get  multiple currencies from country code
 <br/>
 
  ```cs
@@ -147,11 +149,11 @@ List<CountryCurrency> Currencies = client.Currencies.GetByCountry("USA");
 ```
 <br/>
 
-## For Language:
+### For Language:
 ---
 <br/>
 
-### Get all available langugaes
+#### Get all available langugaes
 <br/>
 
 ```cs
@@ -159,7 +161,7 @@ List<Language> languages = client.Languages.GetAll();
 ```
 <br/>
 
-### Get languages by language codes
+#### Get languages by language codes
 <br/>
 
 ```cs
@@ -167,7 +169,7 @@ List<Language> languages = client.Languages.Get(new[]{"USA","CA"});
 ```
 <br/>
 
-### Get languages by country code
+#### Get languages by country code
 <br/>
 
 ```cs
@@ -179,7 +181,7 @@ List<CountryLanguage> languages = client.Languages.GetByCountry("USA");
 ```
 <br/>
 
-### Get language by language code
+#### Get language by language code
 <br/>
 
  ```cs
