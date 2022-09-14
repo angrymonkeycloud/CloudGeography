@@ -60,7 +60,7 @@ CloudGeographyClient cloudGeography = new CloudGeographyClient();
 
 
 ## Usage
-<br/>
+ 
 
 ### For Countries:
 ---
@@ -82,7 +82,7 @@ Country country = client.Countries.Get("USA");
 ```
 
 #### Get multiple countries by their code
-<br/>
+ 
 
 ```cs
 //by 2 letters code
@@ -92,7 +92,7 @@ List<Country> countries = client.Countries.Get(new[] {"CA", "US"});
 List<Country> countries = client.Countries.Get(new[] {"CAN", "USA"});
 ```
 #### Get a country by its phone code
-<br/>
+ 
 
  ```cs
 Country country = client.Countries.Get(1);
