@@ -9,21 +9,21 @@ A .Net client to retrieve Countries, Languages, and Currencies information.The .
 
 # Overview
 ```cs
+ //gets all countries
  CloudGeographyClient client = new();
  List<Country> country = client.Countries.GetAll();
- //gets all countries
 ```
 
 ```cs
+//gets all currencies
 CloudGeographyClient client = new();
 List<Currency> Currencies = client.Currencies.GetAll();
-//gets all currencies
 ```
 
 ```cs
+//gets all languages
 CloudGeographyClient client = new();
 List<Language> languages = client.Languages.GetAll();
-//gets all languages
 ```
 
 # Installation
