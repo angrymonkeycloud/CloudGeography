@@ -3,23 +3,23 @@
      [
       {
         "Title": "Summary",
-        "Path": ["/docs/Summary.md"]
+        "Path": ["/Docs/Summary.md"]
        },
       {
         "Title": "Overview",
-        "Path": ["/docs/Overview.md"]
+        "Path": ["/Docs/Overview.md"]
        },
        {
         "Title": "Installation",
-        "Path": ["/docs/Installation.md"]
+        "Path": ["/Docs/Installation.md"]
        },
        {
         "Title": "Implementation",
-        "Path": ["/docs/Implementation.md"]
+        "Path": ["/Docs/Implementation.md"]
        },
        {
         "Title": "Usage",
-        "Path": ["/docs/Usage.md"]
+        "Path": ["/Docs/Usage.md"]
        }
      ]
 }
