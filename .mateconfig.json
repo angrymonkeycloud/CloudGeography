@@ -803,6 +803,10 @@
 		{
 			"input": "Data/subdivisions/zw.json",
 			"output": "CloudGeographyDotNet/CloudGeography/Data/subdivisions/zw.json"
+		},
+		{
+			"input": ["docs/Header.md","docs/Summary.md","docs/Overview.md","docs/Installation.md","docs/Implementation.md","docs/Usage.md"],
+			"output": "README.md"
 		}
 	]
 }
