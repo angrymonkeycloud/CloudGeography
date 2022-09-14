@@ -805,7 +805,7 @@
 			"output": "CloudGeographyDotNet/CloudGeography/Data/subdivisions/zw.json"
 		},
 		{
-			"input": ["docs/Header.md","docs/Summary.md","docs/Overview.md","docs/Installation.md","docs/Implementation.md","docs/Usage.md"],
+			"input": ["docs/Header.md","Docs/Summary.md","Docs/Overview.md","Docs/Installation.md","Docs/Implementation.md","Docs/Usage.md"],
 			"output": "README.md"
 		}
 	]

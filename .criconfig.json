@@ -1,0 +1,25 @@
+{
+    "Tabs":
+     [
+      {
+        "Title": "Summary",
+        "Path": ["/docs/Summary.md"]
+       },
+      {
+        "Title": "Overview",
+        "Path": ["/docs/Overview.md"]
+       },
+       {
+        "Title": "Installation",
+        "Path": ["/docs/Installation.md"]
+       },
+       {
+        "Title": "Implementation",
+        "Path": ["/docs/Implementation.md"]
+       },
+       {
+        "Title": "Usage",
+        "Path": ["/docs/Usage.md"]
+       }
+     ]
+}
