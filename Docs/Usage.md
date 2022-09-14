@@ -1,11 +1,11 @@
-# Usage
+## Usage
 <br/>
 
-## For Countries:
+### For Countries:
 ---
 <br/>
 
-### Get all available countries
+#### Get all available countries
 <br/>
 
 ```cs
@@ -13,7 +13,7 @@ List<Country> countries = client.Countries.GetAll();
 ```
 <br/>
 
-### Get a country by its code
+#### Get a country by its code
 <br/>
 
  ```cs
@@ -25,7 +25,7 @@ Country country = client.Countries.Get("USA");
 ```
 <br/>
 
-### Get multiple countries by their code
+#### Get multiple countries by their code
 <br/>
 
 ```cs
@@ -38,7 +38,7 @@ List<Country> countries = client.Countries.Get(new[] {"CAN", "USA"});
 <br/>
 
 
-### Get a country by its phone code
+#### Get a country by its phone code
 <br/>
 
  ```cs
@@ -46,11 +46,11 @@ Country country = client.Countries.Get(1);
 //returns USA and Canada because they share the same phone code
 ```
 
-## For Currency:
+### For Currency:
 ---
 <br/>
 
-### Get all available currencies
+#### Get all available currencies
 <br/>
 
 ```cs
@@ -58,7 +58,7 @@ List<Currency> Currencies = client.Currencies.GetAll();
 ```
 <br/>
 
-### Get a currecny from its code
+#### Get a currecny from its code
 <br/>
 
  ```cs
@@ -66,7 +66,7 @@ Currency Currency = client.Currencies.Get("USD");
 ```
 <br/>
 
-### Get multiple currencies from currency codes
+#### Get multiple currencies from currency codes
 <br/>
 
 ```cs
@@ -74,7 +74,7 @@ List<Currency> Currencies = client.Currencies.Get(new[] { "AFN", "USD" });
 ```
 <br/>
 
-### Get  multiple currencies from country code
+#### Get  multiple currencies from country code
 <br/>
 
  ```cs
@@ -88,11 +88,11 @@ List<CountryCurrency> Currencies = client.Currencies.GetByCountry("USA");
 ```
 <br/>
 
-## For Language:
+### For Language:
 ---
 <br/>
 
-### Get all available langugaes
+#### Get all available langugaes
 <br/>
 
 ```cs
@@ -100,7 +100,7 @@ List<Language> languages = client.Languages.GetAll();
 ```
 <br/>
 
-### Get languages by language codes
+#### Get languages by language codes
 <br/>
 
 ```cs
@@ -108,7 +108,7 @@ List<Language> languages = client.Languages.Get(new[]{"USA","CA"});
 ```
 <br/>
 
-### Get languages by country code
+#### Get languages by country code
 <br/>
 
 ```cs
@@ -120,7 +120,7 @@ List<CountryLanguage> languages = client.Languages.GetByCountry("USA");
 ```
 <br/>
 
-### Get language by language code
+#### Get language by language code
 <br/>
 
  ```cs

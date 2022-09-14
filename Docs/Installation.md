@@ -1,4 +1,4 @@
-# Installation
+## Installation
 
 ### Package Manager
 
