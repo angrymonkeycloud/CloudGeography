@@ -45,7 +45,7 @@ dotnet add package AngryMonkey.Cloud.Geography
 ## Implementation
 
 
-#### NameSpace
+#### Namespace
 
 ```cs     
 using AngryMonkey.Cloud;
@@ -63,7 +63,7 @@ CloudGeographyClient cloudGeography = new CloudGeographyClient();
  
 
 ### For Countries:
----
+------------
 
 #### Get all available countries
 
