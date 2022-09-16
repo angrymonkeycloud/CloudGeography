@@ -2,24 +2,20 @@
     "Tabs":
      [
       {
-        "Title": "Summary",
-        "Path": ["/Docs/Summary.md"]
-       },
-      {
         "Title": "Overview",
         "Path": ["/Docs/Overview.md"]
-       },
-       {
+      },
+      {
         "Title": "Installation",
         "Path": ["/Docs/Installation.md"]
-       },
-       {
+      },
+      {
         "Title": "Implementation",
         "Path": ["/Docs/Implementation.md"]
-       },
-       {
+      },
+      {
         "Title": "Usage",
         "Path": ["/Docs/Usage.md"]
-       }
+      }
      ]
 }

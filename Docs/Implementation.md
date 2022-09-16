@@ -1,7 +1,7 @@
 ## Implementation
 
 
-### NameSpace
+### Namespace
 
 ```cs     
 using AngryMonkey.Cloud;

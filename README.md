@@ -45,7 +45,7 @@ dotnet add package AngryMonkey.Cloud.Geography
 ## Implementation
 
 
-#### NameSpace
+#### Namespace
 
 ```cs     
 using AngryMonkey.Cloud;
@@ -58,12 +58,11 @@ using AngryMonkey.Cloud.Geography;
 CloudGeographyClient cloudGeography = new CloudGeographyClient();
 ```
 
-
 ## Usage
  
 
 ### For Countries:
----
+<br/>
 
 #### Get all available countries
 
@@ -93,14 +92,13 @@ List<Country> countries = client.Countries.Get(new[] {"CAN", "USA"});
 ```
 #### Get a country by its phone code
  
-
  ```cs
 Country country = client.Countries.Get(1);
 //returns USA and Canada because they share the same phone code
 ```
 
 ### For Currency:
----
+<br>
 
 #### Get all available currencies
 
@@ -130,7 +128,8 @@ List<CountryCurrency> Currencies = client.Currencies.GetByCountry("USA");
 ```
 
 ### For Language:
----
+
+<br/>
 
 #### Get all available langugaes
 
