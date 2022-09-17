@@ -61,8 +61,7 @@ CloudGeographyClient cloudGeography = new CloudGeographyClient();
 ## Usage
  
 
-### For Countries:
-<br/>
+### Countries:
 
 #### Get all available countries
 
@@ -97,8 +96,7 @@ Country country = client.Countries.Get(1);
 //returns USA and Canada because they share the same phone code
 ```
 
-### For Currency:
-<br>
+### Currency:
 
 #### Get all available currencies
 
@@ -127,9 +125,7 @@ List<CountryCurrency> Currencies = client.Currencies.GetByCountry("USA");
 //Note: A country can have multiple currencies
 ```
 
-### For Language:
-
-<br/>
+### Language:
 
 #### Get all available langugaes
 
