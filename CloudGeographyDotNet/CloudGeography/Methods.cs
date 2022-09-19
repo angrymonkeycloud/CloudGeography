@@ -11,6 +11,7 @@ public partial class CloudGeographyClient
 	public LanguagesMethods Languages { get; set; }
 	public CurrenciesMethods Currencies { get; set; }
 	public SubdivisionsMethods Subdivisions { get; set; }
+	public PhoneNumbersMethods PhoneNumbers { get; set; }
 
 	public CloudGeographyClient()
 	{
@@ -18,6 +19,7 @@ public partial class CloudGeographyClient
 		Languages = new LanguagesMethods(this);
 		Currencies = new CurrenciesMethods(this);
 		Subdivisions = new SubdivisionsMethods(this);
+		PhoneNumbers = new PhoneNumbersMethods(this);
 	}
 
 	internal static T? DeserializeModel<T>(string fileName, string directory = "")
