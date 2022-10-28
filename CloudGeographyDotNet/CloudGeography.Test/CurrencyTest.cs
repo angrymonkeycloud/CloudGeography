@@ -29,6 +29,7 @@ namespace CloudGeography.Test
 			Assert.AreEqual("Lebanese pound", Currencies.First(key => key.Code.Equals("LBP", StringComparison.OrdinalIgnoreCase)).Name);
 		}
 
+
 		[TestMethod]
         public void Get_Country_Currencies_By_Country_Code()
         {
@@ -36,6 +37,23 @@ namespace CloudGeography.Test
             List<CountryCurrency> Currencies = client.Currencies.GetByCountry("US");
             Assert.IsTrue(Currencies.Any());
         }
+
+        [TestMethod]
+        public void Get_Country_Currencies_By_Country_Code_is_null()
+        {
+            CloudGeographyClient client = new();
+            List<CountryCurrency> Currencies = client.Currencies.GetByCountry("US");
+            Assert.IsNotNull(Currencies[0]);
+        }
+
+        [TestMethod]
+        public void Get_Country_Currencies_By_Country_3_Letter_Code()
+        {
+            CloudGeographyClient client = new();
+            List<CountryCurrency> Currencies = client.Currencies.GetByCountry("UsA");
+            Assert.IsTrue(Currencies.Any());
+        }
+
         [TestMethod]
         public void Get_Currency_From_Currency_Code()
         {
