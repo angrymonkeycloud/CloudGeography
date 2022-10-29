@@ -25,7 +25,7 @@ namespace CloudGeography.Test
 		public void Get_All_Countries()
 		{
 			CloudGeographyClient client = new();
-			List<Country> country = client.Countries.GetAll();
+			List<Country> country = client.Countries.Get();
 
 			Assert.IsTrue(country.Any());
 		}

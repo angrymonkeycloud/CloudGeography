@@ -2,6 +2,6 @@
 
 public class CountryLanguage
 {
-	public Language Language { get; set; }
+	public string Code { get; set; }
 	public bool IsOfficial { get; set; }
 }

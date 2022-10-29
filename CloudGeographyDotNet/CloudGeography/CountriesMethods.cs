@@ -14,10 +14,7 @@ public partial class CloudGeographyClient
 
 		private List<Country> Countries => _countries ??= DeserializeModel<List<Country>>("countries") ?? new List<Country>();
 
-
-		public List<Country> GetAll() => Countries;
-
-		public List<Country> Get(params string[] countryCodes) => Countries.Where(key => countryCodes.Any(c => key.CodeCheck(c))).ToList();
+		public List<Country> Get(params string[] countryCodes) => countryCodes.Any() ? Countries.Where(key => countryCodes.Any(c => key.CodeCheck(c))).ToList() : Countries;
 
 		public Country? Get(string countryCode) => Countries.FirstOrDefault(key => key.CodeCheck(countryCode));
 

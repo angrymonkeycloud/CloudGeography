@@ -13,9 +13,7 @@ public partial class CloudGeographyClient
 
 		private List<Currency> Currencies => _currencies ??= DeserializeModel<List<Currency>>("currencies") ?? new List<Currency>();
 
-		public List<Currency> GetAll() => Currencies;
-
-		public List<Currency> Get(params string[] currencyCodes) => Currencies.Where(key => currencyCodes.Any(c => key.CodeCheck(c))).ToList();
+		public List<Currency> Get(params string[] currencyCodes) => currencyCodes.Any() ? Currencies.Where(key => currencyCodes.Any(c => key.CodeCheck(c))).ToList() : Currencies;
 
 		public Currency? Get(string currencyCode) => Currencies.FirstOrDefault(key => key.CodeCheck(currencyCode));
 

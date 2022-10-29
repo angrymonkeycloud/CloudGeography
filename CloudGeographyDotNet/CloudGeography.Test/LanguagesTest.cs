@@ -9,7 +9,7 @@ namespace CloudGeography.Test
 		public void Get_All_Languages()
 		{
 			CloudGeographyClient client = new();
-			List<Language> languages = client.Languages.GetAll();
+			List<Language> languages = client.Languages.Get();
 			Assert.IsTrue(languages.Any());
 		}
 
@@ -17,7 +17,7 @@ namespace CloudGeography.Test
 		public void Get_Languages_By_Language_Codes()
 		{
 			CloudGeographyClient client = new();
-			List<Language> languages = client.Languages.Get(new[] { "EN" , "AR" });
+			List<Language> languages = client.Languages.Get(new[] { "EN", "AR" });
 
 			Assert.IsTrue(languages.Count == 2);
 
@@ -43,6 +43,14 @@ namespace CloudGeography.Test
 			CloudGeographyClient client = new();
 			List<CountryLanguage> languages = client.Languages.GetByCountry("US");
 			Assert.IsTrue(languages.Any());
+		}
+
+		[TestMethod]
+		public void Get_Country_Languages_By_Country_Code_Where_Language_Is_Not_Null()
+		{
+			CloudGeographyClient client = new();
+			List<CountryLanguage> languages = client.Languages.GetByCountry("US");
+			Assert.IsNotNull(languages[0].Code);
 		}
 
 		[TestMethod]
