@@ -13,9 +13,7 @@ public partial class CloudGeographyClient
 
 		private List<Language> Languages => _languages ??= DeserializeModel<List<Language>>("languages") ?? new List<Language>();
 
-		public List<Language> GetAll() => Languages;
-
-		public List<Language> Get(params string[] languageCodes) => Languages.Where(key => languageCodes.Any(l => key.CodeCheck(l))).ToList();
+		public List<Language> Get(params string[] languageCodes) => languageCodes.Any() ? Languages.Where(key => languageCodes.Any(l => key.CodeCheck(l))).ToList() : Languages;
 
 		public List<CountryLanguage> GetByCountry(string countryCode) => Client.Countries.Get(countryCode).Languages;
 
