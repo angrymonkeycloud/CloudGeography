@@ -5,18 +5,15 @@ namespace AngryMonkey.Cloud;
 
 public partial class CloudGeographyClient
 {
-	public class CountriesMethods
+	public partial class CountriesMethods
 	{
-		private List<Country>? _countries;
 		private CloudGeographyClient Client { get; set; }
 
 		internal CountriesMethods(CloudGeographyClient client) => Client = client;
 
-		private List<Country> Countries => _countries ??= DeserializeModel<List<Country>>("countries") ?? new List<Country>();
+		public List<Country> Get(params string[] countryCodes) => countryCodes.Any() ? CountriesList.Where(key => countryCodes.Any(c => key.CodeCheck(c))).ToList() : CountriesList;
 
-		public List<Country> Get(params string[] countryCodes) => countryCodes.Any() ? Countries.Where(key => countryCodes.Any(c => key.CodeCheck(c))).ToList() : Countries;
-
-		public Country? Get(string countryCode) => Countries.FirstOrDefault(key => key.CodeCheck(countryCode));
+		public Country? Get(string countryCode) => CountriesList.FirstOrDefault(key => key.CodeCheck(countryCode));
 
 		public List<Country> GetByCallingCode(int callingCode)
 		{
@@ -24,7 +21,7 @@ public partial class CloudGeographyClient
 
 			callingCode = int.Parse(callingCodeString);
 
-			return Countries.Where(key => key.CallingCode == callingCode).ToList();
+			return CountriesList.Where(key => key.CallingCode == callingCode).ToList();
 		}
 
 		private List<string> CanadianCallingCodes { get; } = new()

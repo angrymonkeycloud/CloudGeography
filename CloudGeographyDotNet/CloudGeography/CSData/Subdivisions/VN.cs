@@ -1,0 +1,76 @@
+using AngryMonkey.Cloud.Geography;
+namespace AngryMonkey.Cloud;
+
+public partial class CloudGeographyClient
+{
+    private static void FillInSubdivisionsVN()
+    {
+        AddSubdivisions("VN", new List<Subdivision>()
+        {
+            new(){ Code ="44", LocalName="An Giang", Name="An Giang", Type="Province" },
+            new(){ Code ="54", LocalName="B?c Giang", Name="B?c Giang", Type="Province" },
+            new(){ Code ="53", LocalName="B?c K?n", Name="B?c K?n", Type="Province" },
+            new(){ Code ="55", LocalName="B?c Liêu", Name="B?c Liêu", Type="Province" },
+            new(){ Code ="56", LocalName="B?c Ninh", Name="B?c Ninh", Type="Province" },
+            new(){ Code ="50", LocalName="B?n Tre", Name="B?n Tre", Type="Province" },
+            new(){ Code ="43", LocalName="Bà R?a - Vung Tàu", Name="Bà R?a - Vung Tàu", Type="Province" },
+            new(){ Code ="31", LocalName="Bình Ð?nh", Name="Bình Ð?nh", Type="Province" },
+            new(){ Code ="57", LocalName="Bình Duong", Name="Bình Duong", Type="Province" },
+            new(){ Code ="58", LocalName="Bình Phu?c", Name="Bình Phu?c", Type="Province" },
+            new(){ Code ="40", LocalName="Bình Thu?n", Name="Bình Thu?n", Type="Province" },
+            new(){ Code ="59", LocalName="Cà Mau", Name="Cà Mau", Type="Province" },
+            new(){ Code ="CT", LocalName="Can Tho", Name="Can Tho", Type="Municipality" },
+            new(){ Code ="4", LocalName="Cao B?ng", Name="Cao B?ng", Type="Province" },
+            new(){ Code ="33", LocalName="Ð?k L?k", Name="Ð?k L?k", Type="Province" },
+            new(){ Code ="72", LocalName="Ð?k Nông", Name="Ð?k Nông", Type="Province" },
+            new(){ Code ="39", LocalName="Ð?ng Nai", Name="Ð?ng Nai", Type="Province" },
+            new(){ Code ="45", LocalName="Ð?ng Tháp", Name="Ð?ng Tháp", Type="Province" },
+            new(){ Code ="DN", LocalName="Da Nang", Name="Da Nang", Type="Municipality" },
+            new(){ Code ="71", LocalName="Ði?n Biên", Name="Ði?n Biên", Type="Province" },
+            new(){ Code ="30", LocalName="Gia Lai", Name="Gia Lai", Type="Province" },
+            new(){ Code ="61", LocalName="H?i Duong", Name="H?i Duong", Type="Province" },
+            new(){ Code ="73", LocalName="H?u Giang", Name="H?u Giang", Type="Province" },
+            new(){ Code ="3", LocalName="Hà Giang", Name="Hà Giang", Type="Province" },
+            new(){ Code ="63", LocalName="Hà Nam", Name="Hà Nam", Type="Province" },
+            new(){ Code ="HN", LocalName="Ha Noi", Name="Ha Noi", Type="Municipality" },
+            new(){ Code ="23", LocalName="Hà Tinh", Name="Hà Tinh", Type="Province" },
+            new(){ Code ="HP", LocalName="Hai Phong", Name="Hai Phong", Type="Municipality" },
+            new(){ Code ="SG", LocalName="Ho Chi Minh", Name="Ho Chi Minh", Type="Municipality" },
+            new(){ Code ="14", LocalName="Hòa Bình", Name="Hòa Bình", Type="Province" },
+            new(){ Code ="66", LocalName="Hung Yên", Name="Hung Yên", Type="Province" },
+            new(){ Code ="34", LocalName="Khánh Hòa", Name="Khánh Hòa", Type="Province" },
+            new(){ Code ="47", LocalName="Ki?n Giang", Name="Ki?n Giang", Type="Province" },
+            new(){ Code ="28", LocalName="Kon Tum", Name="Kon Tum", Type="Province" },
+            new(){ Code ="9", LocalName="L?ng Son", Name="L?ng Son", Type="Province" },
+            new(){ Code ="1", LocalName="Lai Châu", Name="Lai Châu", Type="Province" },
+            new(){ Code ="35", LocalName="Lâm Ð?ng", Name="Lâm Ð?ng", Type="Province" },
+            new(){ Code ="2", LocalName="Lào Cai", Name="Lào Cai", Type="Province" },
+            new(){ Code ="41", LocalName="Long An", Name="Long An", Type="Province" },
+            new(){ Code ="67", LocalName="Nam Ð?nh", Name="Nam Ð?nh", Type="Province" },
+            new(){ Code ="22", LocalName="Ngh? An", Name="Ngh? An", Type="Province" },
+            new(){ Code ="18", LocalName="Ninh Bình", Name="Ninh Bình", Type="Province" },
+            new(){ Code ="36", LocalName="Ninh Thu?n", Name="Ninh Thu?n", Type="Province" },
+            new(){ Code ="68", LocalName="Phú Th?", Name="Phú Th?", Type="Province" },
+            new(){ Code ="32", LocalName="Phú Yên", Name="Phú Yên", Type="Province" },
+            new(){ Code ="24", LocalName="Qu?ng Bình", Name="Qu?ng Bình", Type="Province" },
+            new(){ Code ="27", LocalName="Qu?ng Nam", Name="Qu?ng Nam", Type="Province" },
+            new(){ Code ="29", LocalName="Qu?ng Ngãi", Name="Qu?ng Ngãi", Type="Province" },
+            new(){ Code ="13", LocalName="Qu?ng Ninh", Name="Qu?ng Ninh", Type="Province" },
+            new(){ Code ="25", LocalName="Qu?ng Tr?", Name="Qu?ng Tr?", Type="Province" },
+            new(){ Code ="52", LocalName="Sóc Trang", Name="Sóc Trang", Type="Province" },
+            new(){ Code ="5", LocalName="Son La", Name="Son La", Type="Province" },
+            new(){ Code ="37", LocalName="Tây Ninh", Name="Tây Ninh", Type="Province" },
+            new(){ Code ="26", LocalName="Th?a Thiên-Hu?", Name="Th?a Thiên-Hu?", Type="Province" },
+            new(){ Code ="20", LocalName="Thái Bình", Name="Thái Bình", Type="Province" },
+            new(){ Code ="69", LocalName="Thái Nguyên", Name="Thái Nguyên", Type="Province" },
+            new(){ Code ="21", LocalName="Thanh Hóa", Name="Thanh Hóa", Type="Province" },
+            new(){ Code ="46", LocalName="Ti?n Giang", Name="Ti?n Giang", Type="Province" },
+            new(){ Code ="51", LocalName="Trà Vinh", Name="Trà Vinh", Type="Province" },
+            new(){ Code ="7", LocalName="Tuyên Quang", Name="Tuyên Quang", Type="Province" },
+            new(){ Code ="49", LocalName="Vinh Long", Name="Vinh Long", Type="Province" },
+            new(){ Code ="70", LocalName="Vinh Phúc", Name="Vinh Phúc", Type="Province" },
+            new(){ Code ="6", LocalName="Yên Bái", Name="Yên Bái", Type="Province" }
+
+        });
+    }
+}

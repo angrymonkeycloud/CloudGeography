@@ -14,7 +14,7 @@ public partial class CloudGeographyClient
 		{
 			try
 			{
-				return DeserializeModel<List<Subdivision>>($"{countryCode}", "subdivisions") ?? new List<Subdivision>();
+				return SubdivisionsList[countryCode];
 			}
 			catch { return new List<Subdivision>(); }
 		}
