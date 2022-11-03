@@ -3,7 +3,7 @@ namespace AngryMonkey.Cloud;
 
 public partial class CloudGeographyClient
 {
-    public partial class LanguagesMethods
+    public partial class CountriesMethods
     {
         internal static List<Country> CountriesList = new()
         {
