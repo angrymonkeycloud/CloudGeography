@@ -7,15 +7,69 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("ZA", new List<Subdivision>()
         {
-            new(){ Code ="EC", LocalName="Eastern Cape", Name="Eastern Cape", Type="Province" },
-            new(){ Code ="FS", LocalName="Free State", Name="Free State", Type="Province" },
-            new(){ Code ="GT", LocalName="Gauteng", Name="Gauteng", Type="Province" },
-            new(){ Code ="NL", LocalName="Kwazulu-Natal", Name="Kwazulu-Natal", Type="Province" },
-            new(){ Code ="LP", LocalName="Limpopo", Name="Limpopo", Type="Province" },
-            new(){ Code ="MP", LocalName="Mpumalanga", Name="Mpumalanga", Type="Province" },
-            new(){ Code ="NC", LocalName="Northern Cape", Name="Northern Cape", Type="Province" },
-            new(){ Code ="NW", LocalName="North-West", Name="North-West", Type="Province" },
-            new(){ Code ="WC", LocalName="Western Cape", Name="Western Cape", Type="Province" }
+            new()
+            { 
+                Code = "EC",
+                Type = "Province",
+                Name = "Eastern Cape",
+                LocalName = "Eastern Cape"
+            },
+            new()
+            { 
+                Code = "FS",
+                Type = "Province",
+                Name = "Free State",
+                LocalName = "Free State"
+            },
+            new()
+            { 
+                Code = "GT",
+                Type = "Province",
+                Name = "Gauteng",
+                LocalName = "Gauteng"
+            },
+            new()
+            { 
+                Code = "NL",
+                Type = "Province",
+                Name = "Kwazulu-Natal",
+                LocalName = "Kwazulu-Natal"
+            },
+            new()
+            { 
+                Code = "LP",
+                Type = "Province",
+                Name = "Limpopo",
+                LocalName = "Limpopo"
+            },
+            new()
+            { 
+                Code = "MP",
+                Type = "Province",
+                Name = "Mpumalanga",
+                LocalName = "Mpumalanga"
+            },
+            new()
+            { 
+                Code = "NC",
+                Type = "Province",
+                Name = "Northern Cape",
+                LocalName = "Northern Cape"
+            },
+            new()
+            { 
+                Code = "NW",
+                Type = "Province",
+                Name = "North-West",
+                LocalName = "North-West"
+            },
+            new()
+            { 
+                Code = "WC",
+                Type = "Province",
+                Name = "Western Cape",
+                LocalName = "Western Cape"
+            }
 
         });
     }

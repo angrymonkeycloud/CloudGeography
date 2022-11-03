@@ -7,14 +7,62 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("AG", new List<Subdivision>()
         {
-            new(){ Code ="1", LocalName="Barbuda", Name="Barbuda", Type="Dependency" },
-            new(){ Code ="2", LocalName="Redonda", Name="Redonda", Type="Dependency" },
-            new(){ Code ="3", LocalName="Saint George", Name="Saint George", Type="Parish" },
-            new(){ Code ="4", LocalName="Saint John", Name="Saint John", Type="Parish" },
-            new(){ Code ="5", LocalName="Saint Mary", Name="Saint Mary", Type="Parish" },
-            new(){ Code ="6", LocalName="Saint Paul", Name="Saint Paul", Type="Parish" },
-            new(){ Code ="7", LocalName="Saint Peter", Name="Saint Peter", Type="Parish" },
-            new(){ Code ="8", LocalName="Saint Philip", Name="Saint Philip", Type="Parish" }
+            new()
+            { 
+                Code = "1",
+                Type = "Dependency",
+                Name = "Barbuda",
+                LocalName = "Barbuda"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "Dependency",
+                Name = "Redonda",
+                LocalName = "Redonda"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "Parish",
+                Name = "Saint George",
+                LocalName = "Saint George"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "Parish",
+                Name = "Saint John",
+                LocalName = "Saint John"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "Parish",
+                Name = "Saint Mary",
+                LocalName = "Saint Mary"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "Parish",
+                Name = "Saint Paul",
+                LocalName = "Saint Paul"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "Parish",
+                Name = "Saint Peter",
+                LocalName = "Saint Peter"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "Parish",
+                Name = "Saint Philip",
+                LocalName = "Saint Philip"
+            }
 
         });
     }

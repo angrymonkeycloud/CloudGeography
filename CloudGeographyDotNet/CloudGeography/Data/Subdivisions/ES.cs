@@ -7,56 +7,356 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("ES", new List<Subdivision>()
         {
-            new(){ Code ="C", LocalName="A Coruña", Name="A Coruña", Type="Province" },
-            new(){ Code ="VI", LocalName="Álava / Araba", Name="Álava / Araba", Type="Province" },
-            new(){ Code ="AB", LocalName="Albacete", Name="Albacete", Type="Province" },
-            new(){ Code ="A", LocalName="Alicante / Alacant", Name="Alicante / Alacant", Type="Province" },
-            new(){ Code ="AL", LocalName="Almería", Name="Almería", Type="Province" },
-            new(){ Code ="O", LocalName="Asturias", Name="Asturias", Type="Province" },
-            new(){ Code ="AV", LocalName="Ávila", Name="Ávila", Type="Province" },
-            new(){ Code ="BA", LocalName="Badajoz", Name="Badajoz", Type="Province" },
-            new(){ Code ="PM", LocalName="Balears", Name="Balears", Type="Province" },
-            new(){ Code ="B", LocalName="Barcelona", Name="Barcelona", Type="Province" },
-            new(){ Code ="BI", LocalName="Biskaia", Name="Biskaia", Type="Province" },
-            new(){ Code ="BU", LocalName="Burgos", Name="Burgos", Type="Province" },
-            new(){ Code ="CC", LocalName="Cáceres", Name="Cáceres", Type="Province" },
-            new(){ Code ="CA", LocalName="Cádiz", Name="Cádiz", Type="Province" },
-            new(){ Code ="S", LocalName="Cantabria", Name="Cantabria", Type="Province" },
-            new(){ Code ="CS", LocalName="Castellón / Castelló", Name="Castellón / Castelló", Type="Province" },
-            new(){ Code ="CR", LocalName="Ciudad Real", Name="Ciudad Real", Type="Province" },
-            new(){ Code ="CO", LocalName="Córdoba", Name="Córdoba", Type="Province" },
-            new(){ Code ="CU", LocalName="Cuenca", Name="Cuenca", Type="Province" },
-            new(){ Code ="SS", LocalName="Gipuzkoa", Name="Gipuzkoa", Type="Province" },
-            new(){ Code ="GI", LocalName="Girona", Name="Girona", Type="Province" },
-            new(){ Code ="GR", LocalName="Granada", Name="Granada", Type="Province" },
-            new(){ Code ="GU", LocalName="Guadalajara", Name="Guadalajara", Type="Province" },
-            new(){ Code ="H", LocalName="Huelva", Name="Huelva", Type="Province" },
-            new(){ Code ="HU", LocalName="Huesca", Name="Huesca", Type="Province" },
-            new(){ Code ="J", LocalName="Jaén", Name="Jaén", Type="Province" },
-            new(){ Code ="LO", LocalName="La Rioja", Name="La Rioja", Type="Province" },
-            new(){ Code ="GC", LocalName="Las Palmas", Name="Las Palmas", Type="Province" },
-            new(){ Code ="LE", LocalName="León", Name="León", Type="Province" },
-            new(){ Code ="L", LocalName="Lleida", Name="Lleida", Type="Province" },
-            new(){ Code ="LU", LocalName="Lugo", Name="Lugo", Type="Province" },
-            new(){ Code ="M", LocalName="Madrid", Name="Madrid", Type="Province" },
-            new(){ Code ="MA", LocalName="Málaga", Name="Málaga", Type="Province" },
-            new(){ Code ="MU", LocalName="Murcia", Name="Murcia", Type="Province" },
-            new(){ Code ="NA", LocalName="Navarra / Nafarroa", Name="Navarra / Nafarroa", Type="Province" },
-            new(){ Code ="OR", LocalName="Ourense", Name="Ourense", Type="Province" },
-            new(){ Code ="P", LocalName="Palencia", Name="Palencia", Type="Province" },
-            new(){ Code ="PO", LocalName="Pontevedra", Name="Pontevedra", Type="Province" },
-            new(){ Code ="SA", LocalName="Salamanca", Name="Salamanca", Type="Province" },
-            new(){ Code ="TF", LocalName="Santa Cruz de Tenerife", Name="Santa Cruz de Tenerife", Type="Province" },
-            new(){ Code ="SG", LocalName="Segovia", Name="Segovia", Type="Province" },
-            new(){ Code ="SE", LocalName="Sevilla", Name="Sevilla", Type="Province" },
-            new(){ Code ="SO", LocalName="Soria", Name="Soria", Type="Province" },
-            new(){ Code ="T", LocalName="Tarragona", Name="Tarragona", Type="Province" },
-            new(){ Code ="TE", LocalName="Teruel", Name="Teruel", Type="Province" },
-            new(){ Code ="TO", LocalName="Toledo", Name="Toledo", Type="Province" },
-            new(){ Code ="V", LocalName="Valencia / València", Name="Valencia / València", Type="Province" },
-            new(){ Code ="VA", LocalName="Valladolid", Name="Valladolid", Type="Province" },
-            new(){ Code ="ZA", LocalName="Zamora", Name="Zamora", Type="Province" },
-            new(){ Code ="Z", LocalName="Zaragoza", Name="Zaragoza", Type="Province" }
+            new()
+            { 
+                Code = "C",
+                Type = "Province",
+                Name = "A Coruña",
+                LocalName = "A Coruña"
+            },
+            new()
+            { 
+                Code = "VI",
+                Type = "Province",
+                Name = "Álava / Araba",
+                LocalName = "Álava / Araba"
+            },
+            new()
+            { 
+                Code = "AB",
+                Type = "Province",
+                Name = "Albacete",
+                LocalName = "Albacete"
+            },
+            new()
+            { 
+                Code = "A",
+                Type = "Province",
+                Name = "Alicante / Alacant",
+                LocalName = "Alicante / Alacant"
+            },
+            new()
+            { 
+                Code = "AL",
+                Type = "Province",
+                Name = "Almería",
+                LocalName = "Almería"
+            },
+            new()
+            { 
+                Code = "O",
+                Type = "Province",
+                Name = "Asturias",
+                LocalName = "Asturias"
+            },
+            new()
+            { 
+                Code = "AV",
+                Type = "Province",
+                Name = "Ávila",
+                LocalName = "Ávila"
+            },
+            new()
+            { 
+                Code = "BA",
+                Type = "Province",
+                Name = "Badajoz",
+                LocalName = "Badajoz"
+            },
+            new()
+            { 
+                Code = "PM",
+                Type = "Province",
+                Name = "Balears",
+                LocalName = "Balears"
+            },
+            new()
+            { 
+                Code = "B",
+                Type = "Province",
+                Name = "Barcelona",
+                LocalName = "Barcelona"
+            },
+            new()
+            { 
+                Code = "BI",
+                Type = "Province",
+                Name = "Biskaia",
+                LocalName = "Biskaia"
+            },
+            new()
+            { 
+                Code = "BU",
+                Type = "Province",
+                Name = "Burgos",
+                LocalName = "Burgos"
+            },
+            new()
+            { 
+                Code = "CC",
+                Type = "Province",
+                Name = "Cáceres",
+                LocalName = "Cáceres"
+            },
+            new()
+            { 
+                Code = "CA",
+                Type = "Province",
+                Name = "Cádiz",
+                LocalName = "Cádiz"
+            },
+            new()
+            { 
+                Code = "S",
+                Type = "Province",
+                Name = "Cantabria",
+                LocalName = "Cantabria"
+            },
+            new()
+            { 
+                Code = "CS",
+                Type = "Province",
+                Name = "Castellón / Castelló",
+                LocalName = "Castellón / Castelló"
+            },
+            new()
+            { 
+                Code = "CR",
+                Type = "Province",
+                Name = "Ciudad Real",
+                LocalName = "Ciudad Real"
+            },
+            new()
+            { 
+                Code = "CO",
+                Type = "Province",
+                Name = "Córdoba",
+                LocalName = "Córdoba"
+            },
+            new()
+            { 
+                Code = "CU",
+                Type = "Province",
+                Name = "Cuenca",
+                LocalName = "Cuenca"
+            },
+            new()
+            { 
+                Code = "SS",
+                Type = "Province",
+                Name = "Gipuzkoa",
+                LocalName = "Gipuzkoa"
+            },
+            new()
+            { 
+                Code = "GI",
+                Type = "Province",
+                Name = "Girona",
+                LocalName = "Girona"
+            },
+            new()
+            { 
+                Code = "GR",
+                Type = "Province",
+                Name = "Granada",
+                LocalName = "Granada"
+            },
+            new()
+            { 
+                Code = "GU",
+                Type = "Province",
+                Name = "Guadalajara",
+                LocalName = "Guadalajara"
+            },
+            new()
+            { 
+                Code = "H",
+                Type = "Province",
+                Name = "Huelva",
+                LocalName = "Huelva"
+            },
+            new()
+            { 
+                Code = "HU",
+                Type = "Province",
+                Name = "Huesca",
+                LocalName = "Huesca"
+            },
+            new()
+            { 
+                Code = "J",
+                Type = "Province",
+                Name = "Jaén",
+                LocalName = "Jaén"
+            },
+            new()
+            { 
+                Code = "LO",
+                Type = "Province",
+                Name = "La Rioja",
+                LocalName = "La Rioja"
+            },
+            new()
+            { 
+                Code = "GC",
+                Type = "Province",
+                Name = "Las Palmas",
+                LocalName = "Las Palmas"
+            },
+            new()
+            { 
+                Code = "LE",
+                Type = "Province",
+                Name = "León",
+                LocalName = "León"
+            },
+            new()
+            { 
+                Code = "L",
+                Type = "Province",
+                Name = "Lleida",
+                LocalName = "Lleida"
+            },
+            new()
+            { 
+                Code = "LU",
+                Type = "Province",
+                Name = "Lugo",
+                LocalName = "Lugo"
+            },
+            new()
+            { 
+                Code = "M",
+                Type = "Province",
+                Name = "Madrid",
+                LocalName = "Madrid"
+            },
+            new()
+            { 
+                Code = "MA",
+                Type = "Province",
+                Name = "Málaga",
+                LocalName = "Málaga"
+            },
+            new()
+            { 
+                Code = "MU",
+                Type = "Province",
+                Name = "Murcia",
+                LocalName = "Murcia"
+            },
+            new()
+            { 
+                Code = "NA",
+                Type = "Province",
+                Name = "Navarra / Nafarroa",
+                LocalName = "Navarra / Nafarroa"
+            },
+            new()
+            { 
+                Code = "OR",
+                Type = "Province",
+                Name = "Ourense",
+                LocalName = "Ourense"
+            },
+            new()
+            { 
+                Code = "P",
+                Type = "Province",
+                Name = "Palencia",
+                LocalName = "Palencia"
+            },
+            new()
+            { 
+                Code = "PO",
+                Type = "Province",
+                Name = "Pontevedra",
+                LocalName = "Pontevedra"
+            },
+            new()
+            { 
+                Code = "SA",
+                Type = "Province",
+                Name = "Salamanca",
+                LocalName = "Salamanca"
+            },
+            new()
+            { 
+                Code = "TF",
+                Type = "Province",
+                Name = "Santa Cruz de Tenerife",
+                LocalName = "Santa Cruz de Tenerife"
+            },
+            new()
+            { 
+                Code = "SG",
+                Type = "Province",
+                Name = "Segovia",
+                LocalName = "Segovia"
+            },
+            new()
+            { 
+                Code = "SE",
+                Type = "Province",
+                Name = "Sevilla",
+                LocalName = "Sevilla"
+            },
+            new()
+            { 
+                Code = "SO",
+                Type = "Province",
+                Name = "Soria",
+                LocalName = "Soria"
+            },
+            new()
+            { 
+                Code = "T",
+                Type = "Province",
+                Name = "Tarragona",
+                LocalName = "Tarragona"
+            },
+            new()
+            { 
+                Code = "TE",
+                Type = "Province",
+                Name = "Teruel",
+                LocalName = "Teruel"
+            },
+            new()
+            { 
+                Code = "TO",
+                Type = "Province",
+                Name = "Toledo",
+                LocalName = "Toledo"
+            },
+            new()
+            { 
+                Code = "V",
+                Type = "Province",
+                Name = "Valencia / València",
+                LocalName = "Valencia / València"
+            },
+            new()
+            { 
+                Code = "VA",
+                Type = "Province",
+                Name = "Valladolid",
+                LocalName = "Valladolid"
+            },
+            new()
+            { 
+                Code = "ZA",
+                Type = "Province",
+                Name = "Zamora",
+                LocalName = "Zamora"
+            },
+            new()
+            { 
+                Code = "Z",
+                Type = "Province",
+                Name = "Zaragoza",
+                LocalName = "Zaragoza"
+            }
 
         });
     }

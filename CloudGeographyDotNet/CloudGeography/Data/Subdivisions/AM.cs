@@ -7,17 +7,83 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("AM", new List<Subdivision>()
         {
-            new(){ Code ="SH", LocalName="Շիրակ", Name="Shirak", Type="Province" },
-            new(){ Code ="AG", LocalName="Արագածոտն", Name="Aragatsotn", Type="Province" },
-            new(){ Code ="AR", LocalName="Արարատ", Name="Ararat", Type="Province" },
-            new(){ Code ="AV", LocalName="Արմավիր", Name="Armavir", Type="Province" },
-            new(){ Code ="GR", LocalName="Գեղարքունիք ", Name="Gegharkunik ", Type="Province" },
-            new(){ Code ="KT", LocalName="Կոտայք", Name="Kotayk", Type="Province" },
-            new(){ Code ="LO", LocalName="Լոռի", Name="Lori", Type="Province" },
-            new(){ Code ="SU", LocalName="Սյունիք", Name="Syunik", Type="Province" },
-            new(){ Code ="TV", LocalName="Տավուշ", Name="Tavush", Type="Province" },
-            new(){ Code ="VD", LocalName="Վայոց Ձոր", Name="Vayots Dzor", Type="Province" },
-            new(){ Code ="ER", LocalName="Երևան", Name="Yerevan", Type="City" }
+            new()
+            { 
+                Code = "SH",
+                Type = "Province",
+                Name = "Shirak",
+                LocalName = "Շիրակ"
+            },
+            new()
+            { 
+                Code = "AG",
+                Type = "Province",
+                Name = "Aragatsotn",
+                LocalName = "Արագածոտն"
+            },
+            new()
+            { 
+                Code = "AR",
+                Type = "Province",
+                Name = "Ararat",
+                LocalName = "Արարատ"
+            },
+            new()
+            { 
+                Code = "AV",
+                Type = "Province",
+                Name = "Armavir",
+                LocalName = "Արմավիր"
+            },
+            new()
+            { 
+                Code = "GR",
+                Type = "Province",
+                Name = "Gegharkunik ",
+                LocalName = "Գեղարքունիք "
+            },
+            new()
+            { 
+                Code = "KT",
+                Type = "Province",
+                Name = "Kotayk",
+                LocalName = "Կոտայք"
+            },
+            new()
+            { 
+                Code = "LO",
+                Type = "Province",
+                Name = "Lori",
+                LocalName = "Լոռի"
+            },
+            new()
+            { 
+                Code = "SU",
+                Type = "Province",
+                Name = "Syunik",
+                LocalName = "Սյունիք"
+            },
+            new()
+            { 
+                Code = "TV",
+                Type = "Province",
+                Name = "Tavush",
+                LocalName = "Տավուշ"
+            },
+            new()
+            { 
+                Code = "VD",
+                Type = "Province",
+                Name = "Vayots Dzor",
+                LocalName = "Վայոց Ձոր"
+            },
+            new()
+            { 
+                Code = "ER",
+                Type = "City",
+                Name = "Yerevan",
+                LocalName = "Երևան"
+            }
 
         });
     }

@@ -7,19 +7,97 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("TL", new List<Subdivision>()
         {
-            new(){ Code ="AL", LocalName="Aileu", Name="Aileu", Type="District" },
-            new(){ Code ="AN", LocalName="Ainaro", Name="Ainaro", Type="District" },
-            new(){ Code ="BA", LocalName="Baucau", Name="Baucau", Type="District" },
-            new(){ Code ="BO", LocalName="Bobonaro", Name="Bobonaro", Type="District" },
-            new(){ Code ="CO", LocalName="Cova Lima", Name="Cova Lima", Type="District" },
-            new(){ Code ="DI", LocalName="Díli", Name="Díli", Type="District" },
-            new(){ Code ="ER", LocalName="Ermera", Name="Ermera", Type="District" },
-            new(){ Code ="LA", LocalName="Lautem", Name="Lautem", Type="District" },
-            new(){ Code ="LI", LocalName="Liquiça", Name="Liquiça", Type="District" },
-            new(){ Code ="MT", LocalName="Manatuto", Name="Manatuto", Type="District" },
-            new(){ Code ="MF", LocalName="Manufahi", Name="Manufahi", Type="District" },
-            new(){ Code ="OE", LocalName="Oecussi", Name="Oecussi", Type="District" },
-            new(){ Code ="VI", LocalName="Viqueque", Name="Viqueque", Type="District" }
+            new()
+            { 
+                Code = "AL",
+                Type = "District",
+                Name = "Aileu",
+                LocalName = "Aileu"
+            },
+            new()
+            { 
+                Code = "AN",
+                Type = "District",
+                Name = "Ainaro",
+                LocalName = "Ainaro"
+            },
+            new()
+            { 
+                Code = "BA",
+                Type = "District",
+                Name = "Baucau",
+                LocalName = "Baucau"
+            },
+            new()
+            { 
+                Code = "BO",
+                Type = "District",
+                Name = "Bobonaro",
+                LocalName = "Bobonaro"
+            },
+            new()
+            { 
+                Code = "CO",
+                Type = "District",
+                Name = "Cova Lima",
+                LocalName = "Cova Lima"
+            },
+            new()
+            { 
+                Code = "DI",
+                Type = "District",
+                Name = "Díli",
+                LocalName = "Díli"
+            },
+            new()
+            { 
+                Code = "ER",
+                Type = "District",
+                Name = "Ermera",
+                LocalName = "Ermera"
+            },
+            new()
+            { 
+                Code = "LA",
+                Type = "District",
+                Name = "Lautem",
+                LocalName = "Lautem"
+            },
+            new()
+            { 
+                Code = "LI",
+                Type = "District",
+                Name = "Liquiça",
+                LocalName = "Liquiça"
+            },
+            new()
+            { 
+                Code = "MT",
+                Type = "District",
+                Name = "Manatuto",
+                LocalName = "Manatuto"
+            },
+            new()
+            { 
+                Code = "MF",
+                Type = "District",
+                Name = "Manufahi",
+                LocalName = "Manufahi"
+            },
+            new()
+            { 
+                Code = "OE",
+                Type = "District",
+                Name = "Oecussi",
+                LocalName = "Oecussi"
+            },
+            new()
+            { 
+                Code = "VI",
+                Type = "District",
+                Name = "Viqueque",
+                LocalName = "Viqueque"
+            }
 
         });
     }

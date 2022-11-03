@@ -7,43 +7,265 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("MD", new List<Subdivision>()
         {
-            new(){ Code ="AN", LocalName="Raionul Anenii Noi", Name="Anenii Noi", Type="District" },
-            new(){ Code ="BA", LocalName="Balti", Name="Balti", Type="Municipality" },
-            new(){ Code ="BS", LocalName="Basarabeasca", Name="Basarabeasca", Type="District" },
-            new(){ Code ="BD", LocalName="Bendery", Name="Bender", Type="Municipality" },
-            new(){ Code ="BR", LocalName="Briceni", Name="Briceni", Type="District" },
-            new(){ Code ="CA", LocalName="Cahul", Name="Cahul", Type="District" },
-            new(){ Code ="CL", LocalName="Calarasi", Name="Calarasi", Type="District" },
-            new(){ Code ="CT", LocalName="Cantemir", Name="Cantemir", Type="District" },
-            new(){ Code ="CS", LocalName="Causeni", Name="Causeni", Type="District" },
-            new(){ Code ="CU", LocalName="Chisinau", Name="Chisinau", Type="Municipality" },
-            new(){ Code ="CM", LocalName="Cimislia", Name="Cimislia", Type="District" },
-            new(){ Code ="CR", LocalName="Criuleni", Name="Criuleni", Type="District" },
-            new(){ Code ="DO", LocalName="Donduseni", Name="Donduseni", Type="District" },
-            new(){ Code ="DR", LocalName="Drochia", Name="Drochia", Type="District" },
-            new(){ Code ="DU", LocalName="Dubasari", Name="Dubasari", Type="District" },
-            new(){ Code ="ED", LocalName="Edinet", Name="Edinet", Type="District" },
-            new(){ Code ="FA", LocalName="Falesti", Name="Falesti", Type="District" },
-            new(){ Code ="FL", LocalName="Floresti", Name="Floresti", Type="District" },
-            new(){ Code ="GZ", LocalName="Găgăuzia", Name="Gagauzia", Type="Territory" },
-            new(){ Code ="GL", LocalName="Glodeni", Name="Glodeni", Type="District" },
-            new(){ Code ="HI", LocalName="Hîncesti", Name="Hîncesti", Type="District" },
-            new(){ Code ="IA", LocalName="Ialoveni", Name="Ialoveni", Type="District" },
-            new(){ Code ="LE", LocalName="Leova", Name="Leova", Type="District" },
-            new(){ Code ="NI", LocalName="Nisporeni", Name="Nisporeni", Type="District" },
-            new(){ Code ="OC", LocalName="Ocniþa", Name="Ocniþa", Type="District" },
-            new(){ Code ="OR", LocalName="Orhei", Name="Orhei", Type="District" },
-            new(){ Code ="RE", LocalName="Rezina", Name="Rezina", Type="District" },
-            new(){ Code ="RI", LocalName="Rîscani", Name="Rîscani", Type="District" },
-            new(){ Code ="SI", LocalName="Sîngerei", Name="Sîngerei", Type="District" },
-            new(){ Code ="SD", LocalName="Soldanesti", Name="Soldanesti", Type="District" },
-            new(){ Code ="SO", LocalName="Soroca", Name="Soroca", Type="District" },
-            new(){ Code ="SV", LocalName="Stefan Voda", Name="Stefan Voda", Type="District" },
-            new(){ Code ="SN", LocalName="Stînga Nistrului", Name="Stînga Nistrului", Type="Territory" },
-            new(){ Code ="ST", LocalName="Straseni", Name="Straseni", Type="District" },
-            new(){ Code ="TA", LocalName="Taraclia", Name="Taraclia", Type="District" },
-            new(){ Code ="TE", LocalName="Telenesti", Name="Telenesti", Type="District" },
-            new(){ Code ="UN", LocalName="Ungheni", Name="Ungheni", Type="District" }
+            new()
+            { 
+                Code = "AN",
+                Type = "District",
+                Name = "Anenii Noi",
+                LocalName = "Raionul Anenii Noi"
+            },
+            new()
+            { 
+                Code = "BA",
+                Type = "Municipality",
+                Name = "Balti",
+                LocalName = "Balti"
+            },
+            new()
+            { 
+                Code = "BS",
+                Type = "District",
+                Name = "Basarabeasca",
+                LocalName = "Basarabeasca"
+            },
+            new()
+            { 
+                Code = "BD",
+                Type = "Municipality",
+                Name = "Bender",
+                LocalName = "Bendery"
+            },
+            new()
+            { 
+                Code = "BR",
+                Type = "District",
+                Name = "Briceni",
+                LocalName = "Briceni"
+            },
+            new()
+            { 
+                Code = "CA",
+                Type = "District",
+                Name = "Cahul",
+                LocalName = "Cahul"
+            },
+            new()
+            { 
+                Code = "CL",
+                Type = "District",
+                Name = "Calarasi",
+                LocalName = "Calarasi"
+            },
+            new()
+            { 
+                Code = "CT",
+                Type = "District",
+                Name = "Cantemir",
+                LocalName = "Cantemir"
+            },
+            new()
+            { 
+                Code = "CS",
+                Type = "District",
+                Name = "Causeni",
+                LocalName = "Causeni"
+            },
+            new()
+            { 
+                Code = "CU",
+                Type = "Municipality",
+                Name = "Chisinau",
+                LocalName = "Chisinau"
+            },
+            new()
+            { 
+                Code = "CM",
+                Type = "District",
+                Name = "Cimislia",
+                LocalName = "Cimislia"
+            },
+            new()
+            { 
+                Code = "CR",
+                Type = "District",
+                Name = "Criuleni",
+                LocalName = "Criuleni"
+            },
+            new()
+            { 
+                Code = "DO",
+                Type = "District",
+                Name = "Donduseni",
+                LocalName = "Donduseni"
+            },
+            new()
+            { 
+                Code = "DR",
+                Type = "District",
+                Name = "Drochia",
+                LocalName = "Drochia"
+            },
+            new()
+            { 
+                Code = "DU",
+                Type = "District",
+                Name = "Dubasari",
+                LocalName = "Dubasari"
+            },
+            new()
+            { 
+                Code = "ED",
+                Type = "District",
+                Name = "Edinet",
+                LocalName = "Edinet"
+            },
+            new()
+            { 
+                Code = "FA",
+                Type = "District",
+                Name = "Falesti",
+                LocalName = "Falesti"
+            },
+            new()
+            { 
+                Code = "FL",
+                Type = "District",
+                Name = "Floresti",
+                LocalName = "Floresti"
+            },
+            new()
+            { 
+                Code = "GZ",
+                Type = "Territory",
+                Name = "Gagauzia",
+                LocalName = "Găgăuzia"
+            },
+            new()
+            { 
+                Code = "GL",
+                Type = "District",
+                Name = "Glodeni",
+                LocalName = "Glodeni"
+            },
+            new()
+            { 
+                Code = "HI",
+                Type = "District",
+                Name = "Hîncesti",
+                LocalName = "Hîncesti"
+            },
+            new()
+            { 
+                Code = "IA",
+                Type = "District",
+                Name = "Ialoveni",
+                LocalName = "Ialoveni"
+            },
+            new()
+            { 
+                Code = "LE",
+                Type = "District",
+                Name = "Leova",
+                LocalName = "Leova"
+            },
+            new()
+            { 
+                Code = "NI",
+                Type = "District",
+                Name = "Nisporeni",
+                LocalName = "Nisporeni"
+            },
+            new()
+            { 
+                Code = "OC",
+                Type = "District",
+                Name = "Ocniþa",
+                LocalName = "Ocniþa"
+            },
+            new()
+            { 
+                Code = "OR",
+                Type = "District",
+                Name = "Orhei",
+                LocalName = "Orhei"
+            },
+            new()
+            { 
+                Code = "RE",
+                Type = "District",
+                Name = "Rezina",
+                LocalName = "Rezina"
+            },
+            new()
+            { 
+                Code = "RI",
+                Type = "District",
+                Name = "Rîscani",
+                LocalName = "Rîscani"
+            },
+            new()
+            { 
+                Code = "SI",
+                Type = "District",
+                Name = "Sîngerei",
+                LocalName = "Sîngerei"
+            },
+            new()
+            { 
+                Code = "SD",
+                Type = "District",
+                Name = "Soldanesti",
+                LocalName = "Soldanesti"
+            },
+            new()
+            { 
+                Code = "SO",
+                Type = "District",
+                Name = "Soroca",
+                LocalName = "Soroca"
+            },
+            new()
+            { 
+                Code = "SV",
+                Type = "District",
+                Name = "Stefan Voda",
+                LocalName = "Stefan Voda"
+            },
+            new()
+            { 
+                Code = "SN",
+                Type = "Territory",
+                Name = "Stînga Nistrului",
+                LocalName = "Stînga Nistrului"
+            },
+            new()
+            { 
+                Code = "ST",
+                Type = "District",
+                Name = "Straseni",
+                LocalName = "Straseni"
+            },
+            new()
+            { 
+                Code = "TA",
+                Type = "District",
+                Name = "Taraclia",
+                LocalName = "Taraclia"
+            },
+            new()
+            { 
+                Code = "TE",
+                Type = "District",
+                Name = "Telenesti",
+                LocalName = "Telenesti"
+            },
+            new()
+            { 
+                Code = "UN",
+                Type = "District",
+                Name = "Ungheni",
+                LocalName = "Ungheni"
+            }
 
         });
     }

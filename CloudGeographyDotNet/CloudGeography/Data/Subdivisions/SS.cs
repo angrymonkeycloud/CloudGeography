@@ -7,16 +7,76 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("SS", new List<Subdivision>()
         {
-            new(){ Code ="EC", LocalName="Central Equatoria", Name="Central Equatoria", Type="State" },
-            new(){ Code ="EE", LocalName="Eastern Equatoria", Name="Eastern Equatoria", Type="State" },
-            new(){ Code ="JG", LocalName="Jonglei", Name="Jonglei", Type="State" },
-            new(){ Code ="LK", LocalName="Lakes", Name="Lakes", Type="State" },
-            new(){ Code ="BN", LocalName="Northern Bahr el Ghazal", Name="Northern Bahr el Ghazal", Type="State" },
-            new(){ Code ="UY", LocalName="Unity", Name="Unity", Type="State" },
-            new(){ Code ="NU", LocalName="Upper Nile", Name="Upper Nile", Type="State" },
-            new(){ Code ="WR", LocalName="Warrap", Name="Warrap", Type="State" },
-            new(){ Code ="BW", LocalName="Western Bahr el Ghazal", Name="Western Bahr el Ghazal", Type="State" },
-            new(){ Code ="EW", LocalName="Western Equatoria", Name="Western Equatoria", Type="State" }
+            new()
+            { 
+                Code = "EC",
+                Type = "State",
+                Name = "Central Equatoria",
+                LocalName = "Central Equatoria"
+            },
+            new()
+            { 
+                Code = "EE",
+                Type = "State",
+                Name = "Eastern Equatoria",
+                LocalName = "Eastern Equatoria"
+            },
+            new()
+            { 
+                Code = "JG",
+                Type = "State",
+                Name = "Jonglei",
+                LocalName = "Jonglei"
+            },
+            new()
+            { 
+                Code = "LK",
+                Type = "State",
+                Name = "Lakes",
+                LocalName = "Lakes"
+            },
+            new()
+            { 
+                Code = "BN",
+                Type = "State",
+                Name = "Northern Bahr el Ghazal",
+                LocalName = "Northern Bahr el Ghazal"
+            },
+            new()
+            { 
+                Code = "UY",
+                Type = "State",
+                Name = "Unity",
+                LocalName = "Unity"
+            },
+            new()
+            { 
+                Code = "NU",
+                Type = "State",
+                Name = "Upper Nile",
+                LocalName = "Upper Nile"
+            },
+            new()
+            { 
+                Code = "WR",
+                Type = "State",
+                Name = "Warrap",
+                LocalName = "Warrap"
+            },
+            new()
+            { 
+                Code = "BW",
+                Type = "State",
+                Name = "Western Bahr el Ghazal",
+                LocalName = "Western Bahr el Ghazal"
+            },
+            new()
+            { 
+                Code = "EW",
+                Type = "State",
+                Name = "Western Equatoria",
+                LocalName = "Western Equatoria"
+            }
 
         });
     }

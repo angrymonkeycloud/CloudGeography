@@ -7,34 +7,202 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("BG", new List<Subdivision>()
         {
-            new(){ Code ="1", LocalName="Благоевград", Name="Blagoevgrad", Type="Province" },
-            new(){ Code ="2", LocalName="Бургас", Name="Burgas", Type="Province" },
-            new(){ Code ="8", LocalName="Добрич", Name="Dobrich", Type="Province" },
-            new(){ Code ="7", LocalName="Габрово", Name="Gabrovo", Type="Province" },
-            new(){ Code ="26", LocalName="Хасково", Name="Haskovo", Type="Province" },
-            new(){ Code ="9", LocalName="Кърджали", Name="Kardzhali", Type="Province" },
-            new(){ Code ="10", LocalName="Кюстендил", Name="Kyustendil", Type="Province" },
-            new(){ Code ="11", LocalName="Ловеч", Name="Lovech", Type="Province" },
-            new(){ Code ="12", LocalName="Монтана", Name="Montana", Type="Province" },
-            new(){ Code ="13", LocalName="Пазарджик", Name="Pazardzik", Type="Province" },
-            new(){ Code ="14", LocalName="Перник", Name="Pernik", Type="Province" },
-            new(){ Code ="15", LocalName="Плевен", Name="Pleven", Type="Province" },
-            new(){ Code ="16", LocalName="Пловдив", Name="Plovdiv", Type="Province" },
-            new(){ Code ="17", LocalName="Разград", Name="Razgrad", Type="Province" },
-            new(){ Code ="18", LocalName="Русе", Name="Ruse", Type="Province" },
-            new(){ Code ="27", LocalName="Шумен", Name="Shumen", Type="Province" },
-            new(){ Code ="19", LocalName="Шумен", Name="Silistra", Type="Province" },
-            new(){ Code ="20", LocalName="Сливен", Name="Sliven", Type="Province" },
-            new(){ Code ="21", LocalName="Смолян", Name="Smolyan", Type="Province" },
-            new(){ Code ="23", LocalName="Софийска", Name="Sofia", Type="Province" },
-            new(){ Code ="22", LocalName="София-град", Name="Sofia City", Type="Province" },
-            new(){ Code ="24", LocalName="Стара Загора", Name="Stara Zagora", Type="Province" },
-            new(){ Code ="25", LocalName="Търговище", Name="Targovishte", Type="Province" },
-            new(){ Code ="3", LocalName="Варна", Name="Varna", Type="Province" },
-            new(){ Code ="4", LocalName="Велико Търново", Name="Veliko Tarnovo", Type="Province" },
-            new(){ Code ="5", LocalName="Видин", Name="Vidin", Type="Province" },
-            new(){ Code ="6", LocalName="Враца", Name="Vratsa", Type="Province" },
-            new(){ Code ="28", LocalName="Ямбол", Name="Yambol", Type="Province" }
+            new()
+            { 
+                Code = "1",
+                Type = "Province",
+                Name = "Blagoevgrad",
+                LocalName = "Благоевград"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "Province",
+                Name = "Burgas",
+                LocalName = "Бургас"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "Province",
+                Name = "Dobrich",
+                LocalName = "Добрич"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "Province",
+                Name = "Gabrovo",
+                LocalName = "Габрово"
+            },
+            new()
+            { 
+                Code = "26",
+                Type = "Province",
+                Name = "Haskovo",
+                LocalName = "Хасково"
+            },
+            new()
+            { 
+                Code = "9",
+                Type = "Province",
+                Name = "Kardzhali",
+                LocalName = "Кърджали"
+            },
+            new()
+            { 
+                Code = "10",
+                Type = "Province",
+                Name = "Kyustendil",
+                LocalName = "Кюстендил"
+            },
+            new()
+            { 
+                Code = "11",
+                Type = "Province",
+                Name = "Lovech",
+                LocalName = "Ловеч"
+            },
+            new()
+            { 
+                Code = "12",
+                Type = "Province",
+                Name = "Montana",
+                LocalName = "Монтана"
+            },
+            new()
+            { 
+                Code = "13",
+                Type = "Province",
+                Name = "Pazardzik",
+                LocalName = "Пазарджик"
+            },
+            new()
+            { 
+                Code = "14",
+                Type = "Province",
+                Name = "Pernik",
+                LocalName = "Перник"
+            },
+            new()
+            { 
+                Code = "15",
+                Type = "Province",
+                Name = "Pleven",
+                LocalName = "Плевен"
+            },
+            new()
+            { 
+                Code = "16",
+                Type = "Province",
+                Name = "Plovdiv",
+                LocalName = "Пловдив"
+            },
+            new()
+            { 
+                Code = "17",
+                Type = "Province",
+                Name = "Razgrad",
+                LocalName = "Разград"
+            },
+            new()
+            { 
+                Code = "18",
+                Type = "Province",
+                Name = "Ruse",
+                LocalName = "Русе"
+            },
+            new()
+            { 
+                Code = "27",
+                Type = "Province",
+                Name = "Shumen",
+                LocalName = "Шумен"
+            },
+            new()
+            { 
+                Code = "19",
+                Type = "Province",
+                Name = "Silistra",
+                LocalName = "Шумен"
+            },
+            new()
+            { 
+                Code = "20",
+                Type = "Province",
+                Name = "Sliven",
+                LocalName = "Сливен"
+            },
+            new()
+            { 
+                Code = "21",
+                Type = "Province",
+                Name = "Smolyan",
+                LocalName = "Смолян"
+            },
+            new()
+            { 
+                Code = "23",
+                Type = "Province",
+                Name = "Sofia",
+                LocalName = "Софийска"
+            },
+            new()
+            { 
+                Code = "22",
+                Type = "Province",
+                Name = "Sofia City",
+                LocalName = "София-град"
+            },
+            new()
+            { 
+                Code = "24",
+                Type = "Province",
+                Name = "Stara Zagora",
+                LocalName = "Стара Загора"
+            },
+            new()
+            { 
+                Code = "25",
+                Type = "Province",
+                Name = "Targovishte",
+                LocalName = "Търговище"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "Province",
+                Name = "Varna",
+                LocalName = "Варна"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "Province",
+                Name = "Veliko Tarnovo",
+                LocalName = "Велико Търново"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "Province",
+                Name = "Vidin",
+                LocalName = "Видин"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "Province",
+                Name = "Vratsa",
+                LocalName = "Враца"
+            },
+            new()
+            { 
+                Code = "28",
+                Type = "Province",
+                Name = "Yambol",
+                LocalName = "Ямбол"
+            }
 
         });
     }

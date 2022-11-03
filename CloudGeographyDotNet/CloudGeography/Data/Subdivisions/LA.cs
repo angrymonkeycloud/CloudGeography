@@ -7,24 +7,132 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("LA", new List<Subdivision>()
         {
-            new(){ Code ="AT", LocalName="Attapu", Name="Attapu", Type="Province" },
-            new(){ Code ="BK", LocalName="Bokèo", Name="Bokèo", Type="Province" },
-            new(){ Code ="BL", LocalName="Bolikhamxai", Name="Bolikhamxai", Type="Province" },
-            new(){ Code ="CH", LocalName="Champasak", Name="Champasak", Type="Province" },
-            new(){ Code ="HO", LocalName="Houaphan", Name="Houaphan", Type="Province" },
-            new(){ Code ="KH", LocalName="Khammouan", Name="Khammouan", Type="Province" },
-            new(){ Code ="LM", LocalName="Louang Namtha", Name="Louang Namtha", Type="Province" },
-            new(){ Code ="LP", LocalName="Louangphabang", Name="Louangphabang", Type="Province" },
-            new(){ Code ="OU", LocalName="Oudômxai", Name="Oudômxai", Type="Province" },
-            new(){ Code ="PH", LocalName="Phôngsali", Name="Phôngsali", Type="Province" },
-            new(){ Code ="SL", LocalName="Salavan", Name="Salavan", Type="Province" },
-            new(){ Code ="SV", LocalName="Savannakhét", Name="Savannakhét", Type="Province" },
-            new(){ Code ="VI", LocalName="Vientiane", Name="Vientiane", Type="Province" },
-            new(){ Code ="VT", LocalName="Vientiane", Name="Vientiane", Type="Prefecture" },
-            new(){ Code ="XA", LocalName="Xaignabouli", Name="Xaignabouli", Type="Province" },
-            new(){ Code ="XS", LocalName="Xaisômboun", Name="Xaisômboun", Type="Province" },
-            new(){ Code ="XE", LocalName="Xékong", Name="Xékong", Type="Province" },
-            new(){ Code ="XI", LocalName="Xiangkhouang", Name="Xiangkhouang", Type="Province" }
+            new()
+            { 
+                Code = "AT",
+                Type = "Province",
+                Name = "Attapu",
+                LocalName = "Attapu"
+            },
+            new()
+            { 
+                Code = "BK",
+                Type = "Province",
+                Name = "Bokèo",
+                LocalName = "Bokèo"
+            },
+            new()
+            { 
+                Code = "BL",
+                Type = "Province",
+                Name = "Bolikhamxai",
+                LocalName = "Bolikhamxai"
+            },
+            new()
+            { 
+                Code = "CH",
+                Type = "Province",
+                Name = "Champasak",
+                LocalName = "Champasak"
+            },
+            new()
+            { 
+                Code = "HO",
+                Type = "Province",
+                Name = "Houaphan",
+                LocalName = "Houaphan"
+            },
+            new()
+            { 
+                Code = "KH",
+                Type = "Province",
+                Name = "Khammouan",
+                LocalName = "Khammouan"
+            },
+            new()
+            { 
+                Code = "LM",
+                Type = "Province",
+                Name = "Louang Namtha",
+                LocalName = "Louang Namtha"
+            },
+            new()
+            { 
+                Code = "LP",
+                Type = "Province",
+                Name = "Louangphabang",
+                LocalName = "Louangphabang"
+            },
+            new()
+            { 
+                Code = "OU",
+                Type = "Province",
+                Name = "Oudômxai",
+                LocalName = "Oudômxai"
+            },
+            new()
+            { 
+                Code = "PH",
+                Type = "Province",
+                Name = "Phôngsali",
+                LocalName = "Phôngsali"
+            },
+            new()
+            { 
+                Code = "SL",
+                Type = "Province",
+                Name = "Salavan",
+                LocalName = "Salavan"
+            },
+            new()
+            { 
+                Code = "SV",
+                Type = "Province",
+                Name = "Savannakhét",
+                LocalName = "Savannakhét"
+            },
+            new()
+            { 
+                Code = "VI",
+                Type = "Province",
+                Name = "Vientiane",
+                LocalName = "Vientiane"
+            },
+            new()
+            { 
+                Code = "VT",
+                Type = "Prefecture",
+                Name = "Vientiane",
+                LocalName = "Vientiane"
+            },
+            new()
+            { 
+                Code = "XA",
+                Type = "Province",
+                Name = "Xaignabouli",
+                LocalName = "Xaignabouli"
+            },
+            new()
+            { 
+                Code = "XS",
+                Type = "Province",
+                Name = "Xaisômboun",
+                LocalName = "Xaisômboun"
+            },
+            new()
+            { 
+                Code = "XE",
+                Type = "Province",
+                Name = "Xékong",
+                LocalName = "Xékong"
+            },
+            new()
+            { 
+                Code = "XI",
+                Type = "Province",
+                Name = "Xiangkhouang",
+                LocalName = "Xiangkhouang"
+            }
 
         });
     }

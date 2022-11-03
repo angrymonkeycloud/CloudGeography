@@ -7,10 +7,34 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("SL", new List<Subdivision>()
         {
-            new(){ Code ="E", LocalName="Eastern", Name="Eastern", Type="Province" },
-            new(){ Code ="N", LocalName="Northern", Name="Northern", Type="Province" },
-            new(){ Code ="S", LocalName="Southern", Name="Southern", Type="Province" },
-            new(){ Code ="W", LocalName="Western Area", Name="Western Area", Type="Area" }
+            new()
+            { 
+                Code = "E",
+                Type = "Province",
+                Name = "Eastern",
+                LocalName = "Eastern"
+            },
+            new()
+            { 
+                Code = "N",
+                Type = "Province",
+                Name = "Northern",
+                LocalName = "Northern"
+            },
+            new()
+            { 
+                Code = "S",
+                Type = "Province",
+                Name = "Southern",
+                LocalName = "Southern"
+            },
+            new()
+            { 
+                Code = "W",
+                Type = "Area",
+                Name = "Western Area",
+                LocalName = "Western Area"
+            }
 
         });
     }

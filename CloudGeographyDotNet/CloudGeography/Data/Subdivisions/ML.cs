@@ -7,15 +7,69 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("ML", new List<Subdivision>()
         {
-            new(){ Code ="BKO", LocalName="Bamako", Name="Bamako", Type="District" },
-            new(){ Code ="7", LocalName="Gao", Name="Gao", Type="Region" },
-            new(){ Code ="1", LocalName="Kayes", Name="Kayes", Type="Region" },
-            new(){ Code ="8", LocalName="Kidal", Name="Kidal", Type="Region" },
-            new(){ Code ="2", LocalName="Koulikoro", Name="Koulikoro", Type="Region" },
-            new(){ Code ="5", LocalName="Mopti", Name="Mopti", Type="Region" },
-            new(){ Code ="4", LocalName="Ségou", Name="Ségou", Type="Region" },
-            new(){ Code ="3", LocalName="Sikasso", Name="Sikasso", Type="Region" },
-            new(){ Code ="6", LocalName="Tombouctou", Name="Tombouctou", Type="Region" }
+            new()
+            { 
+                Code = "BKO",
+                Type = "District",
+                Name = "Bamako",
+                LocalName = "Bamako"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "Region",
+                Name = "Gao",
+                LocalName = "Gao"
+            },
+            new()
+            { 
+                Code = "1",
+                Type = "Region",
+                Name = "Kayes",
+                LocalName = "Kayes"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "Region",
+                Name = "Kidal",
+                LocalName = "Kidal"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "Region",
+                Name = "Koulikoro",
+                LocalName = "Koulikoro"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "Region",
+                Name = "Mopti",
+                LocalName = "Mopti"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "Region",
+                Name = "Ségou",
+                LocalName = "Ségou"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "Region",
+                Name = "Sikasso",
+                LocalName = "Sikasso"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "Region",
+                Name = "Tombouctou",
+                LocalName = "Tombouctou"
+            }
 
         });
     }

@@ -7,48 +7,300 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("DO", new List<Subdivision>()
         {
-            new(){ Code ="2", LocalName="Azua", Name="Azua", Type="Province" },
-            new(){ Code ="3", LocalName="Baoruco", Name="Baoruco", Type="Province" },
-            new(){ Code ="4", LocalName="Barahona", Name="Barahona", Type="Province" },
-            new(){ Code ="33", LocalName="Cibao Nordeste", Name="Cibao Nordeste", Type="Region" },
-            new(){ Code ="34", LocalName="Cibao Noroeste", Name="Cibao Noroeste", Type="Region" },
-            new(){ Code ="35", LocalName="Cibao Norte", Name="Cibao Norte", Type="Region" },
-            new(){ Code ="36", LocalName="Cibao Sur", Name="Cibao Sur", Type="Region" },
-            new(){ Code ="5", LocalName="Dajabón", Name="Dajabón", Type="Province" },
-            new(){ Code ="1", LocalName="Distrito Nacional", Name="Distrito Nacional", Type="District" },
-            new(){ Code ="6", LocalName="Duarte", Name="Duarte", Type="Province" },
-            new(){ Code ="8", LocalName="El Seibo", Name="El Seibo", Type="Province" },
-            new(){ Code ="37", LocalName="El Valle", Name="El Valle", Type="Region" },
-            new(){ Code ="7", LocalName="Elías Piña", Name="Elías Piña", Type="Province" },
-            new(){ Code ="38", LocalName="Enriquillo", Name="Enriquillo", Type="Region" },
-            new(){ Code ="9", LocalName="Espaillat", Name="Espaillat", Type="Province" },
-            new(){ Code ="30", LocalName="Hato Mayor", Name="Hato Mayor", Type="Province" },
-            new(){ Code ="19", LocalName="Hermanas Mirabal", Name="Hermanas Mirabal", Type="Province" },
-            new(){ Code ="39", LocalName="Higuamo", Name="Higuamo", Type="Region" },
-            new(){ Code ="10", LocalName="Independencia", Name="Independencia", Type="Province" },
-            new(){ Code ="11", LocalName="La Altagracia", Name="La Altagracia", Type="Province" },
-            new(){ Code ="12", LocalName="La Romana", Name="La Romana", Type="Province" },
-            new(){ Code ="13", LocalName="La Vega", Name="La Vega", Type="Province" },
-            new(){ Code ="14", LocalName="María Trinidad Sánchez", Name="María Trinidad Sánchez", Type="Province" },
-            new(){ Code ="28", LocalName="Monseñor Nouel", Name="Monseñor Nouel", Type="Province" },
-            new(){ Code ="15", LocalName="Monte Cristi", Name="Monte Cristi", Type="Province" },
-            new(){ Code ="29", LocalName="Monte Plata", Name="Monte Plata", Type="Province" },
-            new(){ Code ="40", LocalName="Ozama", Name="Ozama", Type="Region" },
-            new(){ Code ="16", LocalName="Pedernales", Name="Pedernales", Type="Province" },
-            new(){ Code ="17", LocalName="Peravia", Name="Peravia", Type="Province" },
-            new(){ Code ="18", LocalName="Puerto Plata", Name="Puerto Plata", Type="Province" },
-            new(){ Code ="20", LocalName="Samaná", Name="Samaná", Type="Province" },
-            new(){ Code ="21", LocalName="San Cristóbal", Name="San Cristóbal", Type="Province" },
-            new(){ Code ="31", LocalName="San José de Ocoa", Name="San José de Ocoa", Type="Province" },
-            new(){ Code ="22", LocalName="San Juan", Name="San Juan", Type="Province" },
-            new(){ Code ="23", LocalName="San Pedro de Macorís", Name="San Pedro de Macorís", Type="Province" },
-            new(){ Code ="24", LocalName="Sánchez Ramírez", Name="Sánchez Ramírez", Type="Province" },
-            new(){ Code ="25", LocalName="Santiago", Name="Santiago", Type="Province" },
-            new(){ Code ="26", LocalName="Santiago Rodríguez", Name="Santiago Rodríguez", Type="Province" },
-            new(){ Code ="32", LocalName="Santo Domingo", Name="Santo Domingo", Type="Province" },
-            new(){ Code ="41", LocalName="Valdesia", Name="Valdesia", Type="Region" },
-            new(){ Code ="27", LocalName="Valverde", Name="Valverde", Type="Province" },
-            new(){ Code ="42", LocalName="Yuma", Name="Yuma", Type="Region" }
+            new()
+            { 
+                Code = "2",
+                Type = "Province",
+                Name = "Azua",
+                LocalName = "Azua"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "Province",
+                Name = "Baoruco",
+                LocalName = "Baoruco"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "Province",
+                Name = "Barahona",
+                LocalName = "Barahona"
+            },
+            new()
+            { 
+                Code = "33",
+                Type = "Region",
+                Name = "Cibao Nordeste",
+                LocalName = "Cibao Nordeste"
+            },
+            new()
+            { 
+                Code = "34",
+                Type = "Region",
+                Name = "Cibao Noroeste",
+                LocalName = "Cibao Noroeste"
+            },
+            new()
+            { 
+                Code = "35",
+                Type = "Region",
+                Name = "Cibao Norte",
+                LocalName = "Cibao Norte"
+            },
+            new()
+            { 
+                Code = "36",
+                Type = "Region",
+                Name = "Cibao Sur",
+                LocalName = "Cibao Sur"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "Province",
+                Name = "Dajabón",
+                LocalName = "Dajabón"
+            },
+            new()
+            { 
+                Code = "1",
+                Type = "District",
+                Name = "Distrito Nacional",
+                LocalName = "Distrito Nacional"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "Province",
+                Name = "Duarte",
+                LocalName = "Duarte"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "Province",
+                Name = "El Seibo",
+                LocalName = "El Seibo"
+            },
+            new()
+            { 
+                Code = "37",
+                Type = "Region",
+                Name = "El Valle",
+                LocalName = "El Valle"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "Province",
+                Name = "Elías Piña",
+                LocalName = "Elías Piña"
+            },
+            new()
+            { 
+                Code = "38",
+                Type = "Region",
+                Name = "Enriquillo",
+                LocalName = "Enriquillo"
+            },
+            new()
+            { 
+                Code = "9",
+                Type = "Province",
+                Name = "Espaillat",
+                LocalName = "Espaillat"
+            },
+            new()
+            { 
+                Code = "30",
+                Type = "Province",
+                Name = "Hato Mayor",
+                LocalName = "Hato Mayor"
+            },
+            new()
+            { 
+                Code = "19",
+                Type = "Province",
+                Name = "Hermanas Mirabal",
+                LocalName = "Hermanas Mirabal"
+            },
+            new()
+            { 
+                Code = "39",
+                Type = "Region",
+                Name = "Higuamo",
+                LocalName = "Higuamo"
+            },
+            new()
+            { 
+                Code = "10",
+                Type = "Province",
+                Name = "Independencia",
+                LocalName = "Independencia"
+            },
+            new()
+            { 
+                Code = "11",
+                Type = "Province",
+                Name = "La Altagracia",
+                LocalName = "La Altagracia"
+            },
+            new()
+            { 
+                Code = "12",
+                Type = "Province",
+                Name = "La Romana",
+                LocalName = "La Romana"
+            },
+            new()
+            { 
+                Code = "13",
+                Type = "Province",
+                Name = "La Vega",
+                LocalName = "La Vega"
+            },
+            new()
+            { 
+                Code = "14",
+                Type = "Province",
+                Name = "María Trinidad Sánchez",
+                LocalName = "María Trinidad Sánchez"
+            },
+            new()
+            { 
+                Code = "28",
+                Type = "Province",
+                Name = "Monseñor Nouel",
+                LocalName = "Monseñor Nouel"
+            },
+            new()
+            { 
+                Code = "15",
+                Type = "Province",
+                Name = "Monte Cristi",
+                LocalName = "Monte Cristi"
+            },
+            new()
+            { 
+                Code = "29",
+                Type = "Province",
+                Name = "Monte Plata",
+                LocalName = "Monte Plata"
+            },
+            new()
+            { 
+                Code = "40",
+                Type = "Region",
+                Name = "Ozama",
+                LocalName = "Ozama"
+            },
+            new()
+            { 
+                Code = "16",
+                Type = "Province",
+                Name = "Pedernales",
+                LocalName = "Pedernales"
+            },
+            new()
+            { 
+                Code = "17",
+                Type = "Province",
+                Name = "Peravia",
+                LocalName = "Peravia"
+            },
+            new()
+            { 
+                Code = "18",
+                Type = "Province",
+                Name = "Puerto Plata",
+                LocalName = "Puerto Plata"
+            },
+            new()
+            { 
+                Code = "20",
+                Type = "Province",
+                Name = "Samaná",
+                LocalName = "Samaná"
+            },
+            new()
+            { 
+                Code = "21",
+                Type = "Province",
+                Name = "San Cristóbal",
+                LocalName = "San Cristóbal"
+            },
+            new()
+            { 
+                Code = "31",
+                Type = "Province",
+                Name = "San José de Ocoa",
+                LocalName = "San José de Ocoa"
+            },
+            new()
+            { 
+                Code = "22",
+                Type = "Province",
+                Name = "San Juan",
+                LocalName = "San Juan"
+            },
+            new()
+            { 
+                Code = "23",
+                Type = "Province",
+                Name = "San Pedro de Macorís",
+                LocalName = "San Pedro de Macorís"
+            },
+            new()
+            { 
+                Code = "24",
+                Type = "Province",
+                Name = "Sánchez Ramírez",
+                LocalName = "Sánchez Ramírez"
+            },
+            new()
+            { 
+                Code = "25",
+                Type = "Province",
+                Name = "Santiago",
+                LocalName = "Santiago"
+            },
+            new()
+            { 
+                Code = "26",
+                Type = "Province",
+                Name = "Santiago Rodríguez",
+                LocalName = "Santiago Rodríguez"
+            },
+            new()
+            { 
+                Code = "32",
+                Type = "Province",
+                Name = "Santo Domingo",
+                LocalName = "Santo Domingo"
+            },
+            new()
+            { 
+                Code = "41",
+                Type = "Region",
+                Name = "Valdesia",
+                LocalName = "Valdesia"
+            },
+            new()
+            { 
+                Code = "27",
+                Type = "Province",
+                Name = "Valverde",
+                LocalName = "Valverde"
+            },
+            new()
+            { 
+                Code = "42",
+                Type = "Region",
+                Name = "Yuma",
+                LocalName = "Yuma"
+            }
 
         });
     }

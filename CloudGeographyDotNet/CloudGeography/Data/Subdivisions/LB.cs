@@ -7,14 +7,62 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("LB", new List<Subdivision>()
         {
-            new(){ Code ="AK", LocalName="عكار", Name="Akkar", Type="Governorate" },
-            new(){ Code ="BH", LocalName="بعلبك - الهرمل", Name="Baalbek-Hermel", Type="Governorate" },
-            new(){ Code ="BA", LocalName="بيروت", Name="Beirut", Type="Governorate" },
-            new(){ Code ="BI", LocalName="البقاع", Name="Beqaa", Type="Governorate" },
-            new(){ Code ="JL", LocalName="جبل لبنان", Name="Mount Lebanon", Type="Governorate" },
-            new(){ Code ="NA", LocalName="النبطية", Name="Nabatieh", Type="Governorate" },
-            new(){ Code ="AS", LocalName="الشمال", Name="North", Type="Governorate" },
-            new(){ Code ="JA", LocalName="الجنوب", Name="South", Type="Governorate" }
+            new()
+            { 
+                Code = "AK",
+                Type = "Governorate",
+                Name = "Akkar",
+                LocalName = "عكار"
+            },
+            new()
+            { 
+                Code = "BH",
+                Type = "Governorate",
+                Name = "Baalbek-Hermel",
+                LocalName = "بعلبك - الهرمل"
+            },
+            new()
+            { 
+                Code = "BA",
+                Type = "Governorate",
+                Name = "Beirut",
+                LocalName = "بيروت"
+            },
+            new()
+            { 
+                Code = "BI",
+                Type = "Governorate",
+                Name = "Beqaa",
+                LocalName = "البقاع"
+            },
+            new()
+            { 
+                Code = "JL",
+                Type = "Governorate",
+                Name = "Mount Lebanon",
+                LocalName = "جبل لبنان"
+            },
+            new()
+            { 
+                Code = "NA",
+                Type = "Governorate",
+                Name = "Nabatieh",
+                LocalName = "النبطية"
+            },
+            new()
+            { 
+                Code = "AS",
+                Type = "Governorate",
+                Name = "North",
+                LocalName = "الشمال"
+            },
+            new()
+            { 
+                Code = "JA",
+                Type = "Governorate",
+                Name = "South",
+                LocalName = "الجنوب"
+            }
 
         });
     }

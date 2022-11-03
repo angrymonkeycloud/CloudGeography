@@ -7,12 +7,48 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("TM", new List<Subdivision>()
         {
-            new(){ Code ="A", LocalName="Ahal", Name="Ahal", Type="Region" },
-            new(){ Code ="S", LocalName="Asgabat", Name="Asgabat", Type="City" },
-            new(){ Code ="B", LocalName="Balkan", Name="Balkan", Type="Region" },
-            new(){ Code ="D", LocalName="Dasoguz", Name="Dasoguz", Type="Region" },
-            new(){ Code ="L", LocalName="Lebap", Name="Lebap", Type="Region" },
-            new(){ Code ="M", LocalName="Mary", Name="Mary", Type="Region" }
+            new()
+            { 
+                Code = "A",
+                Type = "Region",
+                Name = "Ahal",
+                LocalName = "Ahal"
+            },
+            new()
+            { 
+                Code = "S",
+                Type = "City",
+                Name = "Asgabat",
+                LocalName = "Asgabat"
+            },
+            new()
+            { 
+                Code = "B",
+                Type = "Region",
+                Name = "Balkan",
+                LocalName = "Balkan"
+            },
+            new()
+            { 
+                Code = "D",
+                Type = "Region",
+                Name = "Dasoguz",
+                LocalName = "Dasoguz"
+            },
+            new()
+            { 
+                Code = "L",
+                Type = "Region",
+                Name = "Lebap",
+                LocalName = "Lebap"
+            },
+            new()
+            { 
+                Code = "M",
+                Type = "Region",
+                Name = "Mary",
+                LocalName = "Mary"
+            }
 
         });
     }

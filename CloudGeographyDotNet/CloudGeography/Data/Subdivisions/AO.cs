@@ -7,24 +7,132 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("AO", new List<Subdivision>()
         {
-            new(){ Code ="BGO", LocalName="Bengo", Name="Bengo", Type="Province" },
-            new(){ Code ="BGU", LocalName="Benguela", Name="Benguela", Type="Province" },
-            new(){ Code ="BIE", LocalName="Bié", Name="Bié", Type="Province" },
-            new(){ Code ="CAB", LocalName="Cabinda", Name="Cabinda", Type="Province" },
-            new(){ Code ="CNN", LocalName="Cunene", Name="Cunene", Type="Province" },
-            new(){ Code ="HUA", LocalName="Huambo", Name="Huambo", Type="Province" },
-            new(){ Code ="HUI", LocalName="Huíla", Name="Huíla", Type="Province" },
-            new(){ Code ="CCU", LocalName="Kuando Kubango", Name="Kuando Kubango", Type="Province" },
-            new(){ Code ="CNO", LocalName="Kwanza Norte", Name="Kwanza Norte", Type="Province" },
-            new(){ Code ="CUS", LocalName="Kwanza Sul", Name="Kwanza Sul", Type="Province" },
-            new(){ Code ="LUA", LocalName="Luanda", Name="Luanda", Type="Province" },
-            new(){ Code ="LNO", LocalName="Lunda Norte", Name="Lunda Norte", Type="Province" },
-            new(){ Code ="LSU", LocalName="Lunda Sul", Name="Lunda Sul", Type="Province" },
-            new(){ Code ="MAL", LocalName="Malange", Name="Malange", Type="Province" },
-            new(){ Code ="MOX", LocalName="Moxico", Name="Moxico", Type="Province" },
-            new(){ Code ="NAM", LocalName="Namibe", Name="Namibe", Type="Province" },
-            new(){ Code ="UIG", LocalName="Uíge", Name="Uíge", Type="Province" },
-            new(){ Code ="ZAI", LocalName="Zaire", Name="Zaire", Type="Province" }
+            new()
+            { 
+                Code = "BGO",
+                Type = "Province",
+                Name = "Bengo",
+                LocalName = "Bengo"
+            },
+            new()
+            { 
+                Code = "BGU",
+                Type = "Province",
+                Name = "Benguela",
+                LocalName = "Benguela"
+            },
+            new()
+            { 
+                Code = "BIE",
+                Type = "Province",
+                Name = "Bié",
+                LocalName = "Bié"
+            },
+            new()
+            { 
+                Code = "CAB",
+                Type = "Province",
+                Name = "Cabinda",
+                LocalName = "Cabinda"
+            },
+            new()
+            { 
+                Code = "CNN",
+                Type = "Province",
+                Name = "Cunene",
+                LocalName = "Cunene"
+            },
+            new()
+            { 
+                Code = "HUA",
+                Type = "Province",
+                Name = "Huambo",
+                LocalName = "Huambo"
+            },
+            new()
+            { 
+                Code = "HUI",
+                Type = "Province",
+                Name = "Huíla",
+                LocalName = "Huíla"
+            },
+            new()
+            { 
+                Code = "CCU",
+                Type = "Province",
+                Name = "Kuando Kubango",
+                LocalName = "Kuando Kubango"
+            },
+            new()
+            { 
+                Code = "CNO",
+                Type = "Province",
+                Name = "Kwanza Norte",
+                LocalName = "Kwanza Norte"
+            },
+            new()
+            { 
+                Code = "CUS",
+                Type = "Province",
+                Name = "Kwanza Sul",
+                LocalName = "Kwanza Sul"
+            },
+            new()
+            { 
+                Code = "LUA",
+                Type = "Province",
+                Name = "Luanda",
+                LocalName = "Luanda"
+            },
+            new()
+            { 
+                Code = "LNO",
+                Type = "Province",
+                Name = "Lunda Norte",
+                LocalName = "Lunda Norte"
+            },
+            new()
+            { 
+                Code = "LSU",
+                Type = "Province",
+                Name = "Lunda Sul",
+                LocalName = "Lunda Sul"
+            },
+            new()
+            { 
+                Code = "MAL",
+                Type = "Province",
+                Name = "Malange",
+                LocalName = "Malange"
+            },
+            new()
+            { 
+                Code = "MOX",
+                Type = "Province",
+                Name = "Moxico",
+                LocalName = "Moxico"
+            },
+            new()
+            { 
+                Code = "NAM",
+                Type = "Province",
+                Name = "Namibe",
+                LocalName = "Namibe"
+            },
+            new()
+            { 
+                Code = "UIG",
+                Type = "Province",
+                Name = "Uíge",
+                LocalName = "Uíge"
+            },
+            new()
+            { 
+                Code = "ZAI",
+                Type = "Province",
+                Name = "Zaire",
+                LocalName = "Zaire"
+            }
 
         });
     }

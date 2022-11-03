@@ -7,32 +7,188 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("PE", new List<Subdivision>()
         {
-            new(){ Code ="AMA", LocalName="Amazonas", Name="Amazonas", Type="Region" },
-            new(){ Code ="ANC", LocalName="Ancash", Name="Ancash", Type="Region" },
-            new(){ Code ="APU", LocalName="Apurímac", Name="Apurímac", Type="Region" },
-            new(){ Code ="ARE", LocalName="Arequipa", Name="Arequipa", Type="Region" },
-            new(){ Code ="AYA", LocalName="Ayacucho", Name="Ayacucho", Type="Region" },
-            new(){ Code ="CAJ", LocalName="Cajamarca", Name="Cajamarca", Type="Region" },
-            new(){ Code ="CUS", LocalName="Cuzco", Name="Cuzco", Type="Region" },
-            new(){ Code ="CAL", LocalName="El Callao", Name="El Callao", Type="Region" },
-            new(){ Code ="HUV", LocalName="Huancavelica", Name="Huancavelica", Type="Region" },
-            new(){ Code ="HUC", LocalName="Huánuco", Name="Huánuco", Type="Region" },
-            new(){ Code ="ICA", LocalName="Ica", Name="Ica", Type="Region" },
-            new(){ Code ="JUN", LocalName="Junín", Name="Junín", Type="Region" },
-            new(){ Code ="LAL", LocalName="La Libertad", Name="La Libertad", Type="Region" },
-            new(){ Code ="LAM", LocalName="Lambayeque", Name="Lambayeque", Type="Region" },
-            new(){ Code ="LIM", LocalName="Lima", Name="Lima", Type="Region" },
-            new(){ Code ="LMA", LocalName="Lima hatun llaqta", Name="Lima hatun llaqta", Type="Municipality" },
-            new(){ Code ="LOR", LocalName="Loreto", Name="Loreto", Type="Region" },
-            new(){ Code ="MDD", LocalName="Madre de Dios", Name="Madre de Dios", Type="Region" },
-            new(){ Code ="MOQ", LocalName="Moquegua", Name="Moquegua", Type="Region" },
-            new(){ Code ="PAS", LocalName="Pasco", Name="Pasco", Type="Region" },
-            new(){ Code ="PIU", LocalName="Piura", Name="Piura", Type="Region" },
-            new(){ Code ="PUN", LocalName="Puno", Name="Puno", Type="Region" },
-            new(){ Code ="SAM", LocalName="San Martín", Name="San Martín", Type="Region" },
-            new(){ Code ="TAC", LocalName="Tacna", Name="Tacna", Type="Region" },
-            new(){ Code ="TUM", LocalName="Tumbes", Name="Tumbes", Type="Region" },
-            new(){ Code ="UCA", LocalName="Ucayali", Name="Ucayali", Type="Region" }
+            new()
+            { 
+                Code = "AMA",
+                Type = "Region",
+                Name = "Amazonas",
+                LocalName = "Amazonas"
+            },
+            new()
+            { 
+                Code = "ANC",
+                Type = "Region",
+                Name = "Ancash",
+                LocalName = "Ancash"
+            },
+            new()
+            { 
+                Code = "APU",
+                Type = "Region",
+                Name = "Apurímac",
+                LocalName = "Apurímac"
+            },
+            new()
+            { 
+                Code = "ARE",
+                Type = "Region",
+                Name = "Arequipa",
+                LocalName = "Arequipa"
+            },
+            new()
+            { 
+                Code = "AYA",
+                Type = "Region",
+                Name = "Ayacucho",
+                LocalName = "Ayacucho"
+            },
+            new()
+            { 
+                Code = "CAJ",
+                Type = "Region",
+                Name = "Cajamarca",
+                LocalName = "Cajamarca"
+            },
+            new()
+            { 
+                Code = "CUS",
+                Type = "Region",
+                Name = "Cuzco",
+                LocalName = "Cuzco"
+            },
+            new()
+            { 
+                Code = "CAL",
+                Type = "Region",
+                Name = "El Callao",
+                LocalName = "El Callao"
+            },
+            new()
+            { 
+                Code = "HUV",
+                Type = "Region",
+                Name = "Huancavelica",
+                LocalName = "Huancavelica"
+            },
+            new()
+            { 
+                Code = "HUC",
+                Type = "Region",
+                Name = "Huánuco",
+                LocalName = "Huánuco"
+            },
+            new()
+            { 
+                Code = "ICA",
+                Type = "Region",
+                Name = "Ica",
+                LocalName = "Ica"
+            },
+            new()
+            { 
+                Code = "JUN",
+                Type = "Region",
+                Name = "Junín",
+                LocalName = "Junín"
+            },
+            new()
+            { 
+                Code = "LAL",
+                Type = "Region",
+                Name = "La Libertad",
+                LocalName = "La Libertad"
+            },
+            new()
+            { 
+                Code = "LAM",
+                Type = "Region",
+                Name = "Lambayeque",
+                LocalName = "Lambayeque"
+            },
+            new()
+            { 
+                Code = "LIM",
+                Type = "Region",
+                Name = "Lima",
+                LocalName = "Lima"
+            },
+            new()
+            { 
+                Code = "LMA",
+                Type = "Municipality",
+                Name = "Lima hatun llaqta",
+                LocalName = "Lima hatun llaqta"
+            },
+            new()
+            { 
+                Code = "LOR",
+                Type = "Region",
+                Name = "Loreto",
+                LocalName = "Loreto"
+            },
+            new()
+            { 
+                Code = "MDD",
+                Type = "Region",
+                Name = "Madre de Dios",
+                LocalName = "Madre de Dios"
+            },
+            new()
+            { 
+                Code = "MOQ",
+                Type = "Region",
+                Name = "Moquegua",
+                LocalName = "Moquegua"
+            },
+            new()
+            { 
+                Code = "PAS",
+                Type = "Region",
+                Name = "Pasco",
+                LocalName = "Pasco"
+            },
+            new()
+            { 
+                Code = "PIU",
+                Type = "Region",
+                Name = "Piura",
+                LocalName = "Piura"
+            },
+            new()
+            { 
+                Code = "PUN",
+                Type = "Region",
+                Name = "Puno",
+                LocalName = "Puno"
+            },
+            new()
+            { 
+                Code = "SAM",
+                Type = "Region",
+                Name = "San Martín",
+                LocalName = "San Martín"
+            },
+            new()
+            { 
+                Code = "TAC",
+                Type = "Region",
+                Name = "Tacna",
+                LocalName = "Tacna"
+            },
+            new()
+            { 
+                Code = "TUM",
+                Type = "Region",
+                Name = "Tumbes",
+                LocalName = "Tumbes"
+            },
+            new()
+            { 
+                Code = "UCA",
+                Type = "Region",
+                Name = "Ucayali",
+                LocalName = "Ucayali"
+            }
 
         });
     }

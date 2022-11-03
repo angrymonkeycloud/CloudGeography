@@ -7,11 +7,41 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("TO", new List<Subdivision>()
         {
-            new(){ Code ="1", LocalName="'Eua", Name="'Eua", Type="Division" },
-            new(){ Code ="2", LocalName="Ha'apai", Name="Ha'apai", Type="Division" },
-            new(){ Code ="3", LocalName="Niuas", Name="Niuas", Type="Division" },
-            new(){ Code ="4", LocalName="Tongatapu", Name="Tongatapu", Type="Division" },
-            new(){ Code ="5", LocalName="Vava'u", Name="Vava'u", Type="Division" }
+            new()
+            { 
+                Code = "1",
+                Type = "Division",
+                Name = "'Eua",
+                LocalName = "'Eua"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "Division",
+                Name = "Ha'apai",
+                LocalName = "Ha'apai"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "Division",
+                Name = "Niuas",
+                LocalName = "Niuas"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "Division",
+                Name = "Tongatapu",
+                LocalName = "Tongatapu"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "Division",
+                Name = "Vava'u",
+                LocalName = "Vava'u"
+            }
 
         });
     }

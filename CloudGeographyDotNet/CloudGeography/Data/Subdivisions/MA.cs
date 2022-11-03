@@ -7,69 +7,447 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("MA", new List<Subdivision>()
         {
-            new(){ Code ="AGD", LocalName="Agadir-Ida-Outanane", Name="Agadir-Ida-Outanane", Type="Prefecture" },
-            new(){ Code ="HAO", LocalName="Al Haouz", Name="Al Haouz", Type="Province" },
-            new(){ Code ="HOC", LocalName="Al Hoceïma", Name="Al Hoceïma", Type="Province" },
-            new(){ Code ="AOU", LocalName="Aousserd", Name="Aousserd", Type="Prefecture" },
-            new(){ Code ="ASZ", LocalName="Assa-Zag", Name="Assa-Zag", Type="Province" },
-            new(){ Code ="AZI", LocalName="Azilal", Name="Azilal", Type="Province" },
-            new(){ Code ="BES", LocalName="Ben Slimane", Name="Ben Slimane", Type="Province" },
-            new(){ Code ="BEM", LocalName="Beni Mellal", Name="Beni Mellal", Type="Province" },
-            new(){ Code ="BER", LocalName="Berkane", Name="Berkane", Type="Province" },
-            new(){ Code ="BOD", LocalName="Boujdour", Name="Boujdour", Type="Province" },
-            new(){ Code ="BOM", LocalName="Boulemane", Name="Boulemane", Type="Province" },
-            new(){ Code ="CAS", LocalName="Casablanca", Name="Casablanca", Type="Prefecture" },
-            new(){ Code ="CHE", LocalName="Chefchaouene", Name="Chefchaouene", Type="Province" },
-            new(){ Code ="CHI", LocalName="Chichaoua", Name="Chichaoua", Type="Province" },
-            new(){ Code ="CHT", LocalName="Chtouka-Ait Baha", Name="Chtouka-Ait Baha", Type="Province" },
-            new(){ Code ="HAJ", LocalName="El Hajeb", Name="El Hajeb", Type="Province" },
-            new(){ Code ="JDI", LocalName="El Jadida", Name="El Jadida", Type="Province" },
-            new(){ Code ="ERR", LocalName="Errachidia", Name="Errachidia", Type="Province" },
-            new(){ Code ="ESM", LocalName="Es Smara", Name="Es Smara", Type="Province" },
-            new(){ Code ="ESI", LocalName="Essaouira", Name="Essaouira", Type="Province" },
-            new(){ Code ="FAH", LocalName="Fahs-Beni Makada", Name="Fahs-Beni Makada", Type="Prefecture" },
-            new(){ Code ="FES", LocalName="Fès-Dar-Dbibegh", Name="Fès-Dar-Dbibegh", Type="Prefecture" },
-            new(){ Code ="FIG", LocalName="Figuig", Name="Figuig", Type="Province" },
-            new(){ Code ="GUE", LocalName="Guelmim", Name="Guelmim", Type="Province" },
-            new(){ Code ="IFR", LocalName="Ifrane", Name="Ifrane", Type="Province" },
-            new(){ Code ="INE", LocalName="Inezgane-Ait Melloul", Name="Inezgane-Ait Melloul", Type="Prefecture" },
-            new(){ Code ="JRA", LocalName="Jrada", Name="Jrada", Type="Province" },
-            new(){ Code ="KES", LocalName="Kelaat Sraghna", Name="Kelaat Sraghna", Type="Province" },
-            new(){ Code ="KEN", LocalName="Kénitra", Name="Kénitra", Type="Province" },
-            new(){ Code ="KHE", LocalName="Khemisset", Name="Khemisset", Type="Province" },
-            new(){ Code ="KHN", LocalName="Khenifra", Name="Khenifra", Type="Province" },
-            new(){ Code ="KHO", LocalName="Khouribga", Name="Khouribga", Type="Province" },
-            new(){ Code ="LAA", LocalName="Laâyoune", Name="Laâyoune", Type="Province" },
-            new(){ Code ="LAR", LocalName="Larache", Name="Larache", Type="Province" },
-            new(){ Code ="MMD", LocalName="Marrakech-Medina", Name="Marrakech-Medina", Type="Prefecture" },
-            new(){ Code ="MMN", LocalName="Marrakech-Menara", Name="Marrakech-Menara", Type="Prefecture" },
-            new(){ Code ="MED", LocalName="Médiouna", Name="Médiouna", Type="Province" },
-            new(){ Code ="MEK", LocalName="Meknès*", Name="Meknès*", Type="Prefecture" },
-            new(){ Code ="MOH", LocalName="Mohammadia", Name="Mohammadia", Type="Prefecture" },
-            new(){ Code ="MOU", LocalName="Moulay Yacoub", Name="Moulay Yacoub", Type="Province" },
-            new(){ Code ="NAD", LocalName="Nador", Name="Nador", Type="Province" },
-            new(){ Code ="NOU", LocalName="Nouaceur", Name="Nouaceur", Type="Province" },
-            new(){ Code ="OUA", LocalName="Ouarzazate", Name="Ouarzazate", Type="Province" },
-            new(){ Code ="OUD", LocalName="Oued ed Dahab", Name="Oued ed Dahab", Type="Province" },
-            new(){ Code ="OUJ", LocalName="Oujda-Angad", Name="Oujda-Angad", Type="Prefecture" },
-            new(){ Code ="RAB", LocalName="Rabat", Name="Rabat", Type="Prefecture" },
-            new(){ Code ="SAF", LocalName="Safi", Name="Safi", Type="Province" },
-            new(){ Code ="SAL", LocalName="Salé", Name="Salé", Type="Prefecture" },
-            new(){ Code ="SEF", LocalName="Sefrou", Name="Sefrou", Type="Province" },
-            new(){ Code ="SET", LocalName="Settat", Name="Settat", Type="Province" },
-            new(){ Code ="SIK", LocalName="Sidi Kacem", Name="Sidi Kacem", Type="Province" },
-            new(){ Code ="SYB", LocalName="Sidi Youssef Ben Ali", Name="Sidi Youssef Ben Ali", Type="Prefecture" },
-            new(){ Code ="SKH", LocalName="Skhirate-Témara", Name="Skhirate-Témara", Type="Prefecture" },
-            new(){ Code ="TNG", LocalName="Tanger-Assilah", Name="Tanger-Assilah", Type="Prefecture" },
-            new(){ Code ="TNT", LocalName="Tan-Tan", Name="Tan-Tan", Type="Province" },
-            new(){ Code ="TAO", LocalName="Taounate", Name="Taounate", Type="Province" },
-            new(){ Code ="TAI", LocalName="Taourirt", Name="Taourirt", Type="Province" },
-            new(){ Code ="TAR", LocalName="Taroudannt", Name="Taroudannt", Type="Province" },
-            new(){ Code ="TAT", LocalName="Tata", Name="Tata", Type="Province" },
-            new(){ Code ="TAZ", LocalName="Taza", Name="Taza", Type="Province" },
-            new(){ Code ="TET", LocalName="Tétouan*", Name="Tétouan*", Type="Prefecture" },
-            new(){ Code ="TIZ", LocalName="Tiznit", Name="Tiznit", Type="Province" },
-            new(){ Code ="ZAG", LocalName="Zagora", Name="Zagora", Type="Province" }
+            new()
+            { 
+                Code = "AGD",
+                Type = "Prefecture",
+                Name = "Agadir-Ida-Outanane",
+                LocalName = "Agadir-Ida-Outanane"
+            },
+            new()
+            { 
+                Code = "HAO",
+                Type = "Province",
+                Name = "Al Haouz",
+                LocalName = "Al Haouz"
+            },
+            new()
+            { 
+                Code = "HOC",
+                Type = "Province",
+                Name = "Al Hoceïma",
+                LocalName = "Al Hoceïma"
+            },
+            new()
+            { 
+                Code = "AOU",
+                Type = "Prefecture",
+                Name = "Aousserd",
+                LocalName = "Aousserd"
+            },
+            new()
+            { 
+                Code = "ASZ",
+                Type = "Province",
+                Name = "Assa-Zag",
+                LocalName = "Assa-Zag"
+            },
+            new()
+            { 
+                Code = "AZI",
+                Type = "Province",
+                Name = "Azilal",
+                LocalName = "Azilal"
+            },
+            new()
+            { 
+                Code = "BES",
+                Type = "Province",
+                Name = "Ben Slimane",
+                LocalName = "Ben Slimane"
+            },
+            new()
+            { 
+                Code = "BEM",
+                Type = "Province",
+                Name = "Beni Mellal",
+                LocalName = "Beni Mellal"
+            },
+            new()
+            { 
+                Code = "BER",
+                Type = "Province",
+                Name = "Berkane",
+                LocalName = "Berkane"
+            },
+            new()
+            { 
+                Code = "BOD",
+                Type = "Province",
+                Name = "Boujdour",
+                LocalName = "Boujdour"
+            },
+            new()
+            { 
+                Code = "BOM",
+                Type = "Province",
+                Name = "Boulemane",
+                LocalName = "Boulemane"
+            },
+            new()
+            { 
+                Code = "CAS",
+                Type = "Prefecture",
+                Name = "Casablanca",
+                LocalName = "Casablanca"
+            },
+            new()
+            { 
+                Code = "CHE",
+                Type = "Province",
+                Name = "Chefchaouene",
+                LocalName = "Chefchaouene"
+            },
+            new()
+            { 
+                Code = "CHI",
+                Type = "Province",
+                Name = "Chichaoua",
+                LocalName = "Chichaoua"
+            },
+            new()
+            { 
+                Code = "CHT",
+                Type = "Province",
+                Name = "Chtouka-Ait Baha",
+                LocalName = "Chtouka-Ait Baha"
+            },
+            new()
+            { 
+                Code = "HAJ",
+                Type = "Province",
+                Name = "El Hajeb",
+                LocalName = "El Hajeb"
+            },
+            new()
+            { 
+                Code = "JDI",
+                Type = "Province",
+                Name = "El Jadida",
+                LocalName = "El Jadida"
+            },
+            new()
+            { 
+                Code = "ERR",
+                Type = "Province",
+                Name = "Errachidia",
+                LocalName = "Errachidia"
+            },
+            new()
+            { 
+                Code = "ESM",
+                Type = "Province",
+                Name = "Es Smara",
+                LocalName = "Es Smara"
+            },
+            new()
+            { 
+                Code = "ESI",
+                Type = "Province",
+                Name = "Essaouira",
+                LocalName = "Essaouira"
+            },
+            new()
+            { 
+                Code = "FAH",
+                Type = "Prefecture",
+                Name = "Fahs-Beni Makada",
+                LocalName = "Fahs-Beni Makada"
+            },
+            new()
+            { 
+                Code = "FES",
+                Type = "Prefecture",
+                Name = "Fès-Dar-Dbibegh",
+                LocalName = "Fès-Dar-Dbibegh"
+            },
+            new()
+            { 
+                Code = "FIG",
+                Type = "Province",
+                Name = "Figuig",
+                LocalName = "Figuig"
+            },
+            new()
+            { 
+                Code = "GUE",
+                Type = "Province",
+                Name = "Guelmim",
+                LocalName = "Guelmim"
+            },
+            new()
+            { 
+                Code = "IFR",
+                Type = "Province",
+                Name = "Ifrane",
+                LocalName = "Ifrane"
+            },
+            new()
+            { 
+                Code = "INE",
+                Type = "Prefecture",
+                Name = "Inezgane-Ait Melloul",
+                LocalName = "Inezgane-Ait Melloul"
+            },
+            new()
+            { 
+                Code = "JRA",
+                Type = "Province",
+                Name = "Jrada",
+                LocalName = "Jrada"
+            },
+            new()
+            { 
+                Code = "KES",
+                Type = "Province",
+                Name = "Kelaat Sraghna",
+                LocalName = "Kelaat Sraghna"
+            },
+            new()
+            { 
+                Code = "KEN",
+                Type = "Province",
+                Name = "Kénitra",
+                LocalName = "Kénitra"
+            },
+            new()
+            { 
+                Code = "KHE",
+                Type = "Province",
+                Name = "Khemisset",
+                LocalName = "Khemisset"
+            },
+            new()
+            { 
+                Code = "KHN",
+                Type = "Province",
+                Name = "Khenifra",
+                LocalName = "Khenifra"
+            },
+            new()
+            { 
+                Code = "KHO",
+                Type = "Province",
+                Name = "Khouribga",
+                LocalName = "Khouribga"
+            },
+            new()
+            { 
+                Code = "LAA",
+                Type = "Province",
+                Name = "Laâyoune",
+                LocalName = "Laâyoune"
+            },
+            new()
+            { 
+                Code = "LAR",
+                Type = "Province",
+                Name = "Larache",
+                LocalName = "Larache"
+            },
+            new()
+            { 
+                Code = "MMD",
+                Type = "Prefecture",
+                Name = "Marrakech-Medina",
+                LocalName = "Marrakech-Medina"
+            },
+            new()
+            { 
+                Code = "MMN",
+                Type = "Prefecture",
+                Name = "Marrakech-Menara",
+                LocalName = "Marrakech-Menara"
+            },
+            new()
+            { 
+                Code = "MED",
+                Type = "Province",
+                Name = "Médiouna",
+                LocalName = "Médiouna"
+            },
+            new()
+            { 
+                Code = "MEK",
+                Type = "Prefecture",
+                Name = "Meknès*",
+                LocalName = "Meknès*"
+            },
+            new()
+            { 
+                Code = "MOH",
+                Type = "Prefecture",
+                Name = "Mohammadia",
+                LocalName = "Mohammadia"
+            },
+            new()
+            { 
+                Code = "MOU",
+                Type = "Province",
+                Name = "Moulay Yacoub",
+                LocalName = "Moulay Yacoub"
+            },
+            new()
+            { 
+                Code = "NAD",
+                Type = "Province",
+                Name = "Nador",
+                LocalName = "Nador"
+            },
+            new()
+            { 
+                Code = "NOU",
+                Type = "Province",
+                Name = "Nouaceur",
+                LocalName = "Nouaceur"
+            },
+            new()
+            { 
+                Code = "OUA",
+                Type = "Province",
+                Name = "Ouarzazate",
+                LocalName = "Ouarzazate"
+            },
+            new()
+            { 
+                Code = "OUD",
+                Type = "Province",
+                Name = "Oued ed Dahab",
+                LocalName = "Oued ed Dahab"
+            },
+            new()
+            { 
+                Code = "OUJ",
+                Type = "Prefecture",
+                Name = "Oujda-Angad",
+                LocalName = "Oujda-Angad"
+            },
+            new()
+            { 
+                Code = "RAB",
+                Type = "Prefecture",
+                Name = "Rabat",
+                LocalName = "Rabat"
+            },
+            new()
+            { 
+                Code = "SAF",
+                Type = "Province",
+                Name = "Safi",
+                LocalName = "Safi"
+            },
+            new()
+            { 
+                Code = "SAL",
+                Type = "Prefecture",
+                Name = "Salé",
+                LocalName = "Salé"
+            },
+            new()
+            { 
+                Code = "SEF",
+                Type = "Province",
+                Name = "Sefrou",
+                LocalName = "Sefrou"
+            },
+            new()
+            { 
+                Code = "SET",
+                Type = "Province",
+                Name = "Settat",
+                LocalName = "Settat"
+            },
+            new()
+            { 
+                Code = "SIK",
+                Type = "Province",
+                Name = "Sidi Kacem",
+                LocalName = "Sidi Kacem"
+            },
+            new()
+            { 
+                Code = "SYB",
+                Type = "Prefecture",
+                Name = "Sidi Youssef Ben Ali",
+                LocalName = "Sidi Youssef Ben Ali"
+            },
+            new()
+            { 
+                Code = "SKH",
+                Type = "Prefecture",
+                Name = "Skhirate-Témara",
+                LocalName = "Skhirate-Témara"
+            },
+            new()
+            { 
+                Code = "TNG",
+                Type = "Prefecture",
+                Name = "Tanger-Assilah",
+                LocalName = "Tanger-Assilah"
+            },
+            new()
+            { 
+                Code = "TNT",
+                Type = "Province",
+                Name = "Tan-Tan",
+                LocalName = "Tan-Tan"
+            },
+            new()
+            { 
+                Code = "TAO",
+                Type = "Province",
+                Name = "Taounate",
+                LocalName = "Taounate"
+            },
+            new()
+            { 
+                Code = "TAI",
+                Type = "Province",
+                Name = "Taourirt",
+                LocalName = "Taourirt"
+            },
+            new()
+            { 
+                Code = "TAR",
+                Type = "Province",
+                Name = "Taroudannt",
+                LocalName = "Taroudannt"
+            },
+            new()
+            { 
+                Code = "TAT",
+                Type = "Province",
+                Name = "Tata",
+                LocalName = "Tata"
+            },
+            new()
+            { 
+                Code = "TAZ",
+                Type = "Province",
+                Name = "Taza",
+                LocalName = "Taza"
+            },
+            new()
+            { 
+                Code = "TET",
+                Type = "Prefecture",
+                Name = "Tétouan*",
+                LocalName = "Tétouan*"
+            },
+            new()
+            { 
+                Code = "TIZ",
+                Type = "Province",
+                Name = "Tiznit",
+                LocalName = "Tiznit"
+            },
+            new()
+            { 
+                Code = "ZAG",
+                Type = "Province",
+                Name = "Zagora",
+                LocalName = "Zagora"
+            }
 
         });
     }

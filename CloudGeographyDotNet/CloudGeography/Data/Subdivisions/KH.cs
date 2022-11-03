@@ -7,31 +7,181 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("KH", new List<Subdivision>()
         {
-            new(){ Code ="1", LocalName="ខេត្តបន្ទាយមានជ័យ", Name="Banteay Meanchey", Type="Province" },
-            new(){ Code ="2", LocalName="បាត់ដំបង", Name="Battambang", Type="Province" },
-            new(){ Code ="3", LocalName="កំពង់ចាម", Name="Kampong Cham", Type="Province" },
-            new(){ Code ="4", LocalName="ខេត្តកំពង់ឆ្នាំង", Name="Kampong Chhnang", Type="Province" },
-            new(){ Code ="5", LocalName="ខេត្តកំពង់ស្ពឺ", Name="Kampong Speu", Type="Province" },
-            new(){ Code ="6", LocalName="ខេត្តកំពង់ធំ", Name="Kampong Thom", Type="Province" },
-            new(){ Code ="7", LocalName="ខេត្តកំពត", Name="Kampot", Type="Province" },
-            new(){ Code ="8", LocalName="កណ្ដាល", Name="Kandal", Type="Province" },
-            new(){ Code ="23", LocalName="កែប", Name="Kep", Type="Province" },
-            new(){ Code ="9", LocalName="កណ្ដាល", Name="Koh Kong", Type="Province" },
-            new(){ Code ="10", LocalName="ក្រចេះ", Name="Kratié", Type="Province" },
-            new(){ Code ="11", LocalName="មណ្ឌលគិរី", Name="Mondulkiri", Type="Province" },
-            new(){ Code ="22", LocalName="ឧត្ដរមានជ័យ", Name="Oddar Meanchey", Type="Province" },
-            new(){ Code ="24", LocalName="ប៉ៃលិន", Name="Pailin", Type="Province" },
-            new(){ Code ="12", LocalName="រាជធានីភ្នំពេញ", Name="Phnom Penh", Type="Municipality" },
-            new(){ Code ="13", LocalName="ព្រះវិហារ", Name="Preah Vihear", Type="Province" },
-            new(){ Code ="14", LocalName="ខេត្តព្រៃវែង", Name="Prey Veng", Type="Province" },
-            new(){ Code ="15", LocalName="ខេត្តពោធិ៏សាត់", Name="Pursat", Type="Province" },
-            new(){ Code ="16", LocalName="រតនគិរី", Name="Ratanakiri", Type="Province" },
-            new(){ Code ="17", LocalName="សៀមរាប", Name="Siem Reap", Type="Province" },
-            new(){ Code ="18", LocalName="ខេត្តព្រះសីហនុ", Name="Sihanoukville", Type="Province" },
-            new(){ Code ="19", LocalName="ស្ទឹងត្រែង", Name="Stueng Traeng", Type="Province" },
-            new(){ Code ="20", LocalName="ស្វាយរៀង", Name="Svaay Rieng", Type="Province" },
-            new(){ Code ="21", LocalName="ខេត្តតាកែវ", Name="Takéo", Type="Province" },
-            new(){ Code ="25", LocalName="ត្បូងឃ្មុំ", Name="Tbong Khmum", Type="Province" }
+            new()
+            { 
+                Code = "1",
+                Type = "Province",
+                Name = "Banteay Meanchey",
+                LocalName = "ខេត្តបន្ទាយមានជ័យ"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "Province",
+                Name = "Battambang",
+                LocalName = "បាត់ដំបង"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "Province",
+                Name = "Kampong Cham",
+                LocalName = "កំពង់ចាម"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "Province",
+                Name = "Kampong Chhnang",
+                LocalName = "ខេត្តកំពង់ឆ្នាំង"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "Province",
+                Name = "Kampong Speu",
+                LocalName = "ខេត្តកំពង់ស្ពឺ"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "Province",
+                Name = "Kampong Thom",
+                LocalName = "ខេត្តកំពង់ធំ"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "Province",
+                Name = "Kampot",
+                LocalName = "ខេត្តកំពត"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "Province",
+                Name = "Kandal",
+                LocalName = "កណ្ដាល"
+            },
+            new()
+            { 
+                Code = "23",
+                Type = "Province",
+                Name = "Kep",
+                LocalName = "កែប"
+            },
+            new()
+            { 
+                Code = "9",
+                Type = "Province",
+                Name = "Koh Kong",
+                LocalName = "កណ្ដាល"
+            },
+            new()
+            { 
+                Code = "10",
+                Type = "Province",
+                Name = "Kratié",
+                LocalName = "ក្រចេះ"
+            },
+            new()
+            { 
+                Code = "11",
+                Type = "Province",
+                Name = "Mondulkiri",
+                LocalName = "មណ្ឌលគិរី"
+            },
+            new()
+            { 
+                Code = "22",
+                Type = "Province",
+                Name = "Oddar Meanchey",
+                LocalName = "ឧត្ដរមានជ័យ"
+            },
+            new()
+            { 
+                Code = "24",
+                Type = "Province",
+                Name = "Pailin",
+                LocalName = "ប៉ៃលិន"
+            },
+            new()
+            { 
+                Code = "12",
+                Type = "Municipality",
+                Name = "Phnom Penh",
+                LocalName = "រាជធានីភ្នំពេញ"
+            },
+            new()
+            { 
+                Code = "13",
+                Type = "Province",
+                Name = "Preah Vihear",
+                LocalName = "ព្រះវិហារ"
+            },
+            new()
+            { 
+                Code = "14",
+                Type = "Province",
+                Name = "Prey Veng",
+                LocalName = "ខេត្តព្រៃវែង"
+            },
+            new()
+            { 
+                Code = "15",
+                Type = "Province",
+                Name = "Pursat",
+                LocalName = "ខេត្តពោធិ៏សាត់"
+            },
+            new()
+            { 
+                Code = "16",
+                Type = "Province",
+                Name = "Ratanakiri",
+                LocalName = "រតនគិរី"
+            },
+            new()
+            { 
+                Code = "17",
+                Type = "Province",
+                Name = "Siem Reap",
+                LocalName = "សៀមរាប"
+            },
+            new()
+            { 
+                Code = "18",
+                Type = "Province",
+                Name = "Sihanoukville",
+                LocalName = "ខេត្តព្រះសីហនុ"
+            },
+            new()
+            { 
+                Code = "19",
+                Type = "Province",
+                Name = "Stueng Traeng",
+                LocalName = "ស្ទឹងត្រែង"
+            },
+            new()
+            { 
+                Code = "20",
+                Type = "Province",
+                Name = "Svaay Rieng",
+                LocalName = "ស្វាយរៀង"
+            },
+            new()
+            { 
+                Code = "21",
+                Type = "Province",
+                Name = "Takéo",
+                LocalName = "ខេត្តតាកែវ"
+            },
+            new()
+            { 
+                Code = "25",
+                Type = "Province",
+                Name = "Tbong Khmum",
+                LocalName = "ត្បូងឃ្មុំ"
+            }
 
         });
     }

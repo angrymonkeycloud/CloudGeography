@@ -7,13 +7,55 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("GQ", new List<Subdivision>()
         {
-            new(){ Code ="AN", LocalName="Annobón", Name="Annobón", Type="Province" },
-            new(){ Code ="BN", LocalName="Bioko Norte", Name="Bioko Norte", Type="Province" },
-            new(){ Code ="BS", LocalName="Bioko Sur", Name="Bioko Sur", Type="Province" },
-            new(){ Code ="CS", LocalName="Centro Sur", Name="Centro Sur", Type="Province" },
-            new(){ Code ="KN", LocalName="Kié-Ntem", Name="Kié-Ntem", Type="Province" },
-            new(){ Code ="LI", LocalName="Litoral", Name="Litoral", Type="Province" },
-            new(){ Code ="WN", LocalName="Wele-Nzas", Name="Wele-Nzas", Type="Province" }
+            new()
+            { 
+                Code = "AN",
+                Type = "Province",
+                Name = "Annobón",
+                LocalName = "Annobón"
+            },
+            new()
+            { 
+                Code = "BN",
+                Type = "Province",
+                Name = "Bioko Norte",
+                LocalName = "Bioko Norte"
+            },
+            new()
+            { 
+                Code = "BS",
+                Type = "Province",
+                Name = "Bioko Sur",
+                LocalName = "Bioko Sur"
+            },
+            new()
+            { 
+                Code = "CS",
+                Type = "Province",
+                Name = "Centro Sur",
+                LocalName = "Centro Sur"
+            },
+            new()
+            { 
+                Code = "KN",
+                Type = "Province",
+                Name = "Kié-Ntem",
+                LocalName = "Kié-Ntem"
+            },
+            new()
+            { 
+                Code = "LI",
+                Type = "Province",
+                Name = "Litoral",
+                LocalName = "Litoral"
+            },
+            new()
+            { 
+                Code = "WN",
+                Type = "Province",
+                Name = "Wele-Nzas",
+                LocalName = "Wele-Nzas"
+            }
 
         });
     }

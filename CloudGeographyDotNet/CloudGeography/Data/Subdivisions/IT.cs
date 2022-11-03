@@ -7,116 +7,776 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("IT", new List<Subdivision>()
         {
-            new(){ Code ="AG", LocalName="Agrigento", Name="Agrigento", Type="Province" },
-            new(){ Code ="AL", LocalName="Alessandria", Name="Alessandria", Type="Province" },
-            new(){ Code ="AN", LocalName="Ancona", Name="Ancona", Type="Province" },
-            new(){ Code ="AO", LocalName="Aosta / Aoste", Name="Aosta / Aoste", Type="Province" },
-            new(){ Code ="AR", LocalName="Arezzo", Name="Arezzo", Type="Province" },
-            new(){ Code ="AP", LocalName="Ascoli Piceno", Name="Ascoli Piceno", Type="Province" },
-            new(){ Code ="AT", LocalName="Asti", Name="Asti", Type="Province" },
-            new(){ Code ="AV", LocalName="Avellino", Name="Avellino", Type="Province" },
-            new(){ Code ="BA", LocalName="Bari", Name="Bari", Type="Province" },
-            new(){ Code ="BT", LocalName="Barletta-Andria-Trani", Name="Barletta-Andria-Trani", Type="Province" },
-            new(){ Code ="BL", LocalName="Belluno", Name="Belluno", Type="Province" },
-            new(){ Code ="BN", LocalName="Benevento", Name="Benevento", Type="Province" },
-            new(){ Code ="BG", LocalName="Bergamo", Name="Bergamo", Type="Province" },
-            new(){ Code ="BI", LocalName="Biella", Name="Biella", Type="Province" },
-            new(){ Code ="BO", LocalName="Bologna", Name="Bologna", Type="Province" },
-            new(){ Code ="BZ", LocalName="Bolzano / Bozen", Name="Bolzano / Bozen", Type="Province" },
-            new(){ Code ="BS", LocalName="Brescia", Name="Brescia", Type="Province" },
-            new(){ Code ="BR", LocalName="Brindisi", Name="Brindisi", Type="Province" },
-            new(){ Code ="CA", LocalName="Cagliari", Name="Cagliari", Type="Province" },
-            new(){ Code ="CL", LocalName="Caltanissetta", Name="Caltanissetta", Type="Province" },
-            new(){ Code ="CB", LocalName="Campobasso", Name="Campobasso", Type="Province" },
-            new(){ Code ="CI", LocalName="Carbonia-Iglesias", Name="Carbonia-Iglesias", Type="Province" },
-            new(){ Code ="CE", LocalName="Caserta", Name="Caserta", Type="Province" },
-            new(){ Code ="CT", LocalName="Catania", Name="Catania", Type="Province" },
-            new(){ Code ="CZ", LocalName="Catanzaro", Name="Catanzaro", Type="Province" },
-            new(){ Code ="CH", LocalName="Chieti", Name="Chieti", Type="Province" },
-            new(){ Code ="CO", LocalName="Como", Name="Como", Type="Province" },
-            new(){ Code ="CS", LocalName="Cosenza", Name="Cosenza", Type="Province" },
-            new(){ Code ="CR", LocalName="Cremona", Name="Cremona", Type="Province" },
-            new(){ Code ="KR", LocalName="Crotone", Name="Crotone", Type="Province" },
-            new(){ Code ="CN", LocalName="Cuneo", Name="Cuneo", Type="Province" },
-            new(){ Code ="EN", LocalName="Enna", Name="Enna", Type="Province" },
-            new(){ Code ="FM", LocalName="Fermo", Name="Fermo", Type="Province" },
-            new(){ Code ="FE", LocalName="Ferrara", Name="Ferrara", Type="Province" },
-            new(){ Code ="FI", LocalName="Firenze", Name="Firenze", Type="Province" },
-            new(){ Code ="FG", LocalName="Foggia", Name="Foggia", Type="Province" },
-            new(){ Code ="FC", LocalName="Forlì-Cesena", Name="Forlì-Cesena", Type="Province" },
-            new(){ Code ="FR", LocalName="Frosinone", Name="Frosinone", Type="Province" },
-            new(){ Code ="GE", LocalName="Genova", Name="Genova", Type="Province" },
-            new(){ Code ="GO", LocalName="Gorizia", Name="Gorizia", Type="Province" },
-            new(){ Code ="GR", LocalName="Grosseto", Name="Grosseto", Type="Province" },
-            new(){ Code ="IM", LocalName="Imperia", Name="Imperia", Type="Province" },
-            new(){ Code ="IS", LocalName="Isernia", Name="Isernia", Type="Province" },
-            new(){ Code ="SP", LocalName="La Spezia", Name="La Spezia", Type="Province" },
-            new(){ Code ="AQ", LocalName="L'Aquila", Name="L'Aquila", Type="Province" },
-            new(){ Code ="LT", LocalName="Latina", Name="Latina", Type="Province" },
-            new(){ Code ="LE", LocalName="Lecce", Name="Lecce", Type="Province" },
-            new(){ Code ="LC", LocalName="Lecco", Name="Lecco", Type="Province" },
-            new(){ Code ="LI", LocalName="Livorno", Name="Livorno", Type="Province" },
-            new(){ Code ="LO", LocalName="Lodi", Name="Lodi", Type="Province" },
-            new(){ Code ="LU", LocalName="Lucca", Name="Lucca", Type="Province" },
-            new(){ Code ="MC", LocalName="Macerata", Name="Macerata", Type="Province" },
-            new(){ Code ="MN", LocalName="Mantova", Name="Mantova", Type="Province" },
-            new(){ Code ="MS", LocalName="Massa-Carrara", Name="Massa-Carrara", Type="Province" },
-            new(){ Code ="MT", LocalName="Matera", Name="Matera", Type="Province" },
-            new(){ Code ="VS", LocalName="Medio Campidano", Name="Medio Campidano", Type="Province" },
-            new(){ Code ="ME", LocalName="Messina", Name="Messina", Type="Province" },
-            new(){ Code ="MI", LocalName="Milano", Name="Milano", Type="Province" },
-            new(){ Code ="MO", LocalName="Modena", Name="Modena", Type="Province" },
-            new(){ Code ="MB", LocalName="Monza e Brianza", Name="Monza e Brianza", Type="Province" },
-            new(){ Code ="NA", LocalName="Napoli", Name="Napoli", Type="Province" },
-            new(){ Code ="NO", LocalName="Novara", Name="Novara", Type="Province" },
-            new(){ Code ="NU", LocalName="Nuoro", Name="Nuoro", Type="Province" },
-            new(){ Code ="OG", LocalName="Ogliastra", Name="Ogliastra", Type="Province" },
-            new(){ Code ="OT", LocalName="Olbia-Tempio", Name="Olbia-Tempio", Type="Province" },
-            new(){ Code ="OR", LocalName="Oristano", Name="Oristano", Type="Province" },
-            new(){ Code ="PD", LocalName="Padova", Name="Padova", Type="Province" },
-            new(){ Code ="PA", LocalName="Palermo", Name="Palermo", Type="Province" },
-            new(){ Code ="PR", LocalName="Parma", Name="Parma", Type="Province" },
-            new(){ Code ="PV", LocalName="Pavia", Name="Pavia", Type="Province" },
-            new(){ Code ="PG", LocalName="Perugia", Name="Perugia", Type="Province" },
-            new(){ Code ="PU", LocalName="Pesaro e Urbino", Name="Pesaro e Urbino", Type="Province" },
-            new(){ Code ="PE", LocalName="Pescara", Name="Pescara", Type="Province" },
-            new(){ Code ="PC", LocalName="Piacenza", Name="Piacenza", Type="Province" },
-            new(){ Code ="PI", LocalName="Pisa", Name="Pisa", Type="Province" },
-            new(){ Code ="PT", LocalName="Pistoia", Name="Pistoia", Type="Province" },
-            new(){ Code ="PN", LocalName="Pordenone", Name="Pordenone", Type="Province" },
-            new(){ Code ="PZ", LocalName="Potenza", Name="Potenza", Type="Province" },
-            new(){ Code ="PO", LocalName="Prato", Name="Prato", Type="Province" },
-            new(){ Code ="RG", LocalName="Ragusa", Name="Ragusa", Type="Province" },
-            new(){ Code ="RA", LocalName="Ravenna", Name="Ravenna", Type="Province" },
-            new(){ Code ="RC", LocalName="Reggio Calabria", Name="Reggio Calabria", Type="Province" },
-            new(){ Code ="RE", LocalName="Reggio Emilia", Name="Reggio Emilia", Type="Province" },
-            new(){ Code ="RI", LocalName="Rieti", Name="Rieti", Type="Province" },
-            new(){ Code ="RN", LocalName="Rimini", Name="Rimini", Type="Province" },
-            new(){ Code ="RM", LocalName="Roma", Name="Roma", Type="Province" },
-            new(){ Code ="RO", LocalName="Rovigo", Name="Rovigo", Type="Province" },
-            new(){ Code ="SA", LocalName="Salerno", Name="Salerno", Type="Province" },
-            new(){ Code ="SS", LocalName="Sassari", Name="Sassari", Type="Province" },
-            new(){ Code ="SV", LocalName="Savona", Name="Savona", Type="Province" },
-            new(){ Code ="SI", LocalName="Siena", Name="Siena", Type="Province" },
-            new(){ Code ="SR", LocalName="Siracusa", Name="Siracusa", Type="Province" },
-            new(){ Code ="SO", LocalName="Sondrio", Name="Sondrio", Type="Province" },
-            new(){ Code ="TA", LocalName="Taranto", Name="Taranto", Type="Province" },
-            new(){ Code ="TE", LocalName="Teramo", Name="Teramo", Type="Province" },
-            new(){ Code ="TR", LocalName="Terni", Name="Terni", Type="Province" },
-            new(){ Code ="TO", LocalName="Torino", Name="Torino", Type="Province" },
-            new(){ Code ="TP", LocalName="Trapani", Name="Trapani", Type="Province" },
-            new(){ Code ="TN", LocalName="Trento", Name="Trento", Type="Province" },
-            new(){ Code ="TV", LocalName="Treviso", Name="Treviso", Type="Province" },
-            new(){ Code ="TS", LocalName="Trieste", Name="Trieste", Type="Province" },
-            new(){ Code ="UD", LocalName="Udine", Name="Udine", Type="Province" },
-            new(){ Code ="VA", LocalName="Varese", Name="Varese", Type="Province" },
-            new(){ Code ="VE", LocalName="Venezia", Name="Venezia", Type="Province" },
-            new(){ Code ="VB", LocalName="Verbano-Cusio-Ossola", Name="Verbano-Cusio-Ossola", Type="Province" },
-            new(){ Code ="VC", LocalName="Vercelli", Name="Vercelli", Type="Province" },
-            new(){ Code ="VR", LocalName="Verona", Name="Verona", Type="Province" },
-            new(){ Code ="VV", LocalName="Vibo Valentia", Name="Vibo Valentia", Type="Province" },
-            new(){ Code ="VI", LocalName="Vicenza", Name="Vicenza", Type="Province" },
-            new(){ Code ="VT", LocalName="Viterbo", Name="Viterbo", Type="Province" }
+            new()
+            { 
+                Code = "AG",
+                Type = "Province",
+                Name = "Agrigento",
+                LocalName = "Agrigento"
+            },
+            new()
+            { 
+                Code = "AL",
+                Type = "Province",
+                Name = "Alessandria",
+                LocalName = "Alessandria"
+            },
+            new()
+            { 
+                Code = "AN",
+                Type = "Province",
+                Name = "Ancona",
+                LocalName = "Ancona"
+            },
+            new()
+            { 
+                Code = "AO",
+                Type = "Province",
+                Name = "Aosta / Aoste",
+                LocalName = "Aosta / Aoste"
+            },
+            new()
+            { 
+                Code = "AR",
+                Type = "Province",
+                Name = "Arezzo",
+                LocalName = "Arezzo"
+            },
+            new()
+            { 
+                Code = "AP",
+                Type = "Province",
+                Name = "Ascoli Piceno",
+                LocalName = "Ascoli Piceno"
+            },
+            new()
+            { 
+                Code = "AT",
+                Type = "Province",
+                Name = "Asti",
+                LocalName = "Asti"
+            },
+            new()
+            { 
+                Code = "AV",
+                Type = "Province",
+                Name = "Avellino",
+                LocalName = "Avellino"
+            },
+            new()
+            { 
+                Code = "BA",
+                Type = "Province",
+                Name = "Bari",
+                LocalName = "Bari"
+            },
+            new()
+            { 
+                Code = "BT",
+                Type = "Province",
+                Name = "Barletta-Andria-Trani",
+                LocalName = "Barletta-Andria-Trani"
+            },
+            new()
+            { 
+                Code = "BL",
+                Type = "Province",
+                Name = "Belluno",
+                LocalName = "Belluno"
+            },
+            new()
+            { 
+                Code = "BN",
+                Type = "Province",
+                Name = "Benevento",
+                LocalName = "Benevento"
+            },
+            new()
+            { 
+                Code = "BG",
+                Type = "Province",
+                Name = "Bergamo",
+                LocalName = "Bergamo"
+            },
+            new()
+            { 
+                Code = "BI",
+                Type = "Province",
+                Name = "Biella",
+                LocalName = "Biella"
+            },
+            new()
+            { 
+                Code = "BO",
+                Type = "Province",
+                Name = "Bologna",
+                LocalName = "Bologna"
+            },
+            new()
+            { 
+                Code = "BZ",
+                Type = "Province",
+                Name = "Bolzano / Bozen",
+                LocalName = "Bolzano / Bozen"
+            },
+            new()
+            { 
+                Code = "BS",
+                Type = "Province",
+                Name = "Brescia",
+                LocalName = "Brescia"
+            },
+            new()
+            { 
+                Code = "BR",
+                Type = "Province",
+                Name = "Brindisi",
+                LocalName = "Brindisi"
+            },
+            new()
+            { 
+                Code = "CA",
+                Type = "Province",
+                Name = "Cagliari",
+                LocalName = "Cagliari"
+            },
+            new()
+            { 
+                Code = "CL",
+                Type = "Province",
+                Name = "Caltanissetta",
+                LocalName = "Caltanissetta"
+            },
+            new()
+            { 
+                Code = "CB",
+                Type = "Province",
+                Name = "Campobasso",
+                LocalName = "Campobasso"
+            },
+            new()
+            { 
+                Code = "CI",
+                Type = "Province",
+                Name = "Carbonia-Iglesias",
+                LocalName = "Carbonia-Iglesias"
+            },
+            new()
+            { 
+                Code = "CE",
+                Type = "Province",
+                Name = "Caserta",
+                LocalName = "Caserta"
+            },
+            new()
+            { 
+                Code = "CT",
+                Type = "Province",
+                Name = "Catania",
+                LocalName = "Catania"
+            },
+            new()
+            { 
+                Code = "CZ",
+                Type = "Province",
+                Name = "Catanzaro",
+                LocalName = "Catanzaro"
+            },
+            new()
+            { 
+                Code = "CH",
+                Type = "Province",
+                Name = "Chieti",
+                LocalName = "Chieti"
+            },
+            new()
+            { 
+                Code = "CO",
+                Type = "Province",
+                Name = "Como",
+                LocalName = "Como"
+            },
+            new()
+            { 
+                Code = "CS",
+                Type = "Province",
+                Name = "Cosenza",
+                LocalName = "Cosenza"
+            },
+            new()
+            { 
+                Code = "CR",
+                Type = "Province",
+                Name = "Cremona",
+                LocalName = "Cremona"
+            },
+            new()
+            { 
+                Code = "KR",
+                Type = "Province",
+                Name = "Crotone",
+                LocalName = "Crotone"
+            },
+            new()
+            { 
+                Code = "CN",
+                Type = "Province",
+                Name = "Cuneo",
+                LocalName = "Cuneo"
+            },
+            new()
+            { 
+                Code = "EN",
+                Type = "Province",
+                Name = "Enna",
+                LocalName = "Enna"
+            },
+            new()
+            { 
+                Code = "FM",
+                Type = "Province",
+                Name = "Fermo",
+                LocalName = "Fermo"
+            },
+            new()
+            { 
+                Code = "FE",
+                Type = "Province",
+                Name = "Ferrara",
+                LocalName = "Ferrara"
+            },
+            new()
+            { 
+                Code = "FI",
+                Type = "Province",
+                Name = "Firenze",
+                LocalName = "Firenze"
+            },
+            new()
+            { 
+                Code = "FG",
+                Type = "Province",
+                Name = "Foggia",
+                LocalName = "Foggia"
+            },
+            new()
+            { 
+                Code = "FC",
+                Type = "Province",
+                Name = "Forlì-Cesena",
+                LocalName = "Forlì-Cesena"
+            },
+            new()
+            { 
+                Code = "FR",
+                Type = "Province",
+                Name = "Frosinone",
+                LocalName = "Frosinone"
+            },
+            new()
+            { 
+                Code = "GE",
+                Type = "Province",
+                Name = "Genova",
+                LocalName = "Genova"
+            },
+            new()
+            { 
+                Code = "GO",
+                Type = "Province",
+                Name = "Gorizia",
+                LocalName = "Gorizia"
+            },
+            new()
+            { 
+                Code = "GR",
+                Type = "Province",
+                Name = "Grosseto",
+                LocalName = "Grosseto"
+            },
+            new()
+            { 
+                Code = "IM",
+                Type = "Province",
+                Name = "Imperia",
+                LocalName = "Imperia"
+            },
+            new()
+            { 
+                Code = "IS",
+                Type = "Province",
+                Name = "Isernia",
+                LocalName = "Isernia"
+            },
+            new()
+            { 
+                Code = "SP",
+                Type = "Province",
+                Name = "La Spezia",
+                LocalName = "La Spezia"
+            },
+            new()
+            { 
+                Code = "AQ",
+                Type = "Province",
+                Name = "L'Aquila",
+                LocalName = "L'Aquila"
+            },
+            new()
+            { 
+                Code = "LT",
+                Type = "Province",
+                Name = "Latina",
+                LocalName = "Latina"
+            },
+            new()
+            { 
+                Code = "LE",
+                Type = "Province",
+                Name = "Lecce",
+                LocalName = "Lecce"
+            },
+            new()
+            { 
+                Code = "LC",
+                Type = "Province",
+                Name = "Lecco",
+                LocalName = "Lecco"
+            },
+            new()
+            { 
+                Code = "LI",
+                Type = "Province",
+                Name = "Livorno",
+                LocalName = "Livorno"
+            },
+            new()
+            { 
+                Code = "LO",
+                Type = "Province",
+                Name = "Lodi",
+                LocalName = "Lodi"
+            },
+            new()
+            { 
+                Code = "LU",
+                Type = "Province",
+                Name = "Lucca",
+                LocalName = "Lucca"
+            },
+            new()
+            { 
+                Code = "MC",
+                Type = "Province",
+                Name = "Macerata",
+                LocalName = "Macerata"
+            },
+            new()
+            { 
+                Code = "MN",
+                Type = "Province",
+                Name = "Mantova",
+                LocalName = "Mantova"
+            },
+            new()
+            { 
+                Code = "MS",
+                Type = "Province",
+                Name = "Massa-Carrara",
+                LocalName = "Massa-Carrara"
+            },
+            new()
+            { 
+                Code = "MT",
+                Type = "Province",
+                Name = "Matera",
+                LocalName = "Matera"
+            },
+            new()
+            { 
+                Code = "VS",
+                Type = "Province",
+                Name = "Medio Campidano",
+                LocalName = "Medio Campidano"
+            },
+            new()
+            { 
+                Code = "ME",
+                Type = "Province",
+                Name = "Messina",
+                LocalName = "Messina"
+            },
+            new()
+            { 
+                Code = "MI",
+                Type = "Province",
+                Name = "Milano",
+                LocalName = "Milano"
+            },
+            new()
+            { 
+                Code = "MO",
+                Type = "Province",
+                Name = "Modena",
+                LocalName = "Modena"
+            },
+            new()
+            { 
+                Code = "MB",
+                Type = "Province",
+                Name = "Monza e Brianza",
+                LocalName = "Monza e Brianza"
+            },
+            new()
+            { 
+                Code = "NA",
+                Type = "Province",
+                Name = "Napoli",
+                LocalName = "Napoli"
+            },
+            new()
+            { 
+                Code = "NO",
+                Type = "Province",
+                Name = "Novara",
+                LocalName = "Novara"
+            },
+            new()
+            { 
+                Code = "NU",
+                Type = "Province",
+                Name = "Nuoro",
+                LocalName = "Nuoro"
+            },
+            new()
+            { 
+                Code = "OG",
+                Type = "Province",
+                Name = "Ogliastra",
+                LocalName = "Ogliastra"
+            },
+            new()
+            { 
+                Code = "OT",
+                Type = "Province",
+                Name = "Olbia-Tempio",
+                LocalName = "Olbia-Tempio"
+            },
+            new()
+            { 
+                Code = "OR",
+                Type = "Province",
+                Name = "Oristano",
+                LocalName = "Oristano"
+            },
+            new()
+            { 
+                Code = "PD",
+                Type = "Province",
+                Name = "Padova",
+                LocalName = "Padova"
+            },
+            new()
+            { 
+                Code = "PA",
+                Type = "Province",
+                Name = "Palermo",
+                LocalName = "Palermo"
+            },
+            new()
+            { 
+                Code = "PR",
+                Type = "Province",
+                Name = "Parma",
+                LocalName = "Parma"
+            },
+            new()
+            { 
+                Code = "PV",
+                Type = "Province",
+                Name = "Pavia",
+                LocalName = "Pavia"
+            },
+            new()
+            { 
+                Code = "PG",
+                Type = "Province",
+                Name = "Perugia",
+                LocalName = "Perugia"
+            },
+            new()
+            { 
+                Code = "PU",
+                Type = "Province",
+                Name = "Pesaro e Urbino",
+                LocalName = "Pesaro e Urbino"
+            },
+            new()
+            { 
+                Code = "PE",
+                Type = "Province",
+                Name = "Pescara",
+                LocalName = "Pescara"
+            },
+            new()
+            { 
+                Code = "PC",
+                Type = "Province",
+                Name = "Piacenza",
+                LocalName = "Piacenza"
+            },
+            new()
+            { 
+                Code = "PI",
+                Type = "Province",
+                Name = "Pisa",
+                LocalName = "Pisa"
+            },
+            new()
+            { 
+                Code = "PT",
+                Type = "Province",
+                Name = "Pistoia",
+                LocalName = "Pistoia"
+            },
+            new()
+            { 
+                Code = "PN",
+                Type = "Province",
+                Name = "Pordenone",
+                LocalName = "Pordenone"
+            },
+            new()
+            { 
+                Code = "PZ",
+                Type = "Province",
+                Name = "Potenza",
+                LocalName = "Potenza"
+            },
+            new()
+            { 
+                Code = "PO",
+                Type = "Province",
+                Name = "Prato",
+                LocalName = "Prato"
+            },
+            new()
+            { 
+                Code = "RG",
+                Type = "Province",
+                Name = "Ragusa",
+                LocalName = "Ragusa"
+            },
+            new()
+            { 
+                Code = "RA",
+                Type = "Province",
+                Name = "Ravenna",
+                LocalName = "Ravenna"
+            },
+            new()
+            { 
+                Code = "RC",
+                Type = "Province",
+                Name = "Reggio Calabria",
+                LocalName = "Reggio Calabria"
+            },
+            new()
+            { 
+                Code = "RE",
+                Type = "Province",
+                Name = "Reggio Emilia",
+                LocalName = "Reggio Emilia"
+            },
+            new()
+            { 
+                Code = "RI",
+                Type = "Province",
+                Name = "Rieti",
+                LocalName = "Rieti"
+            },
+            new()
+            { 
+                Code = "RN",
+                Type = "Province",
+                Name = "Rimini",
+                LocalName = "Rimini"
+            },
+            new()
+            { 
+                Code = "RM",
+                Type = "Province",
+                Name = "Roma",
+                LocalName = "Roma"
+            },
+            new()
+            { 
+                Code = "RO",
+                Type = "Province",
+                Name = "Rovigo",
+                LocalName = "Rovigo"
+            },
+            new()
+            { 
+                Code = "SA",
+                Type = "Province",
+                Name = "Salerno",
+                LocalName = "Salerno"
+            },
+            new()
+            { 
+                Code = "SS",
+                Type = "Province",
+                Name = "Sassari",
+                LocalName = "Sassari"
+            },
+            new()
+            { 
+                Code = "SV",
+                Type = "Province",
+                Name = "Savona",
+                LocalName = "Savona"
+            },
+            new()
+            { 
+                Code = "SI",
+                Type = "Province",
+                Name = "Siena",
+                LocalName = "Siena"
+            },
+            new()
+            { 
+                Code = "SR",
+                Type = "Province",
+                Name = "Siracusa",
+                LocalName = "Siracusa"
+            },
+            new()
+            { 
+                Code = "SO",
+                Type = "Province",
+                Name = "Sondrio",
+                LocalName = "Sondrio"
+            },
+            new()
+            { 
+                Code = "TA",
+                Type = "Province",
+                Name = "Taranto",
+                LocalName = "Taranto"
+            },
+            new()
+            { 
+                Code = "TE",
+                Type = "Province",
+                Name = "Teramo",
+                LocalName = "Teramo"
+            },
+            new()
+            { 
+                Code = "TR",
+                Type = "Province",
+                Name = "Terni",
+                LocalName = "Terni"
+            },
+            new()
+            { 
+                Code = "TO",
+                Type = "Province",
+                Name = "Torino",
+                LocalName = "Torino"
+            },
+            new()
+            { 
+                Code = "TP",
+                Type = "Province",
+                Name = "Trapani",
+                LocalName = "Trapani"
+            },
+            new()
+            { 
+                Code = "TN",
+                Type = "Province",
+                Name = "Trento",
+                LocalName = "Trento"
+            },
+            new()
+            { 
+                Code = "TV",
+                Type = "Province",
+                Name = "Treviso",
+                LocalName = "Treviso"
+            },
+            new()
+            { 
+                Code = "TS",
+                Type = "Province",
+                Name = "Trieste",
+                LocalName = "Trieste"
+            },
+            new()
+            { 
+                Code = "UD",
+                Type = "Province",
+                Name = "Udine",
+                LocalName = "Udine"
+            },
+            new()
+            { 
+                Code = "VA",
+                Type = "Province",
+                Name = "Varese",
+                LocalName = "Varese"
+            },
+            new()
+            { 
+                Code = "VE",
+                Type = "Province",
+                Name = "Venezia",
+                LocalName = "Venezia"
+            },
+            new()
+            { 
+                Code = "VB",
+                Type = "Province",
+                Name = "Verbano-Cusio-Ossola",
+                LocalName = "Verbano-Cusio-Ossola"
+            },
+            new()
+            { 
+                Code = "VC",
+                Type = "Province",
+                Name = "Vercelli",
+                LocalName = "Vercelli"
+            },
+            new()
+            { 
+                Code = "VR",
+                Type = "Province",
+                Name = "Verona",
+                LocalName = "Verona"
+            },
+            new()
+            { 
+                Code = "VV",
+                Type = "Province",
+                Name = "Vibo Valentia",
+                LocalName = "Vibo Valentia"
+            },
+            new()
+            { 
+                Code = "VI",
+                Type = "Province",
+                Name = "Vicenza",
+                LocalName = "Vicenza"
+            },
+            new()
+            { 
+                Code = "VT",
+                Type = "Province",
+                Name = "Viterbo",
+                LocalName = "Viterbo"
+            }
 
         });
     }

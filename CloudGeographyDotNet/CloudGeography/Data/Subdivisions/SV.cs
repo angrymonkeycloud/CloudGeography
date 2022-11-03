@@ -7,20 +7,104 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("SV", new List<Subdivision>()
         {
-            new(){ Code ="AH", LocalName="Ahuachapán", Name="Ahuachapán", Type="Department" },
-            new(){ Code ="CA", LocalName="Cabañas", Name="Cabañas", Type="Department" },
-            new(){ Code ="CH", LocalName="Chalatenango", Name="Chalatenango", Type="Department" },
-            new(){ Code ="CU", LocalName="Cuscatlán", Name="Cuscatlán", Type="Department" },
-            new(){ Code ="LI", LocalName="La Libertad", Name="La Libertad", Type="Department" },
-            new(){ Code ="PA", LocalName="La Paz", Name="La Paz", Type="Department" },
-            new(){ Code ="UN", LocalName="La Unión", Name="La Unión", Type="Department" },
-            new(){ Code ="MO", LocalName="Morazán", Name="Morazán", Type="Department" },
-            new(){ Code ="SM", LocalName="San Miguel", Name="San Miguel", Type="Department" },
-            new(){ Code ="SS", LocalName="San Salvador", Name="San Salvador", Type="Department" },
-            new(){ Code ="SV", LocalName="San Vicente", Name="San Vicente", Type="Department" },
-            new(){ Code ="SA", LocalName="Santa Ana", Name="Santa Ana", Type="Department" },
-            new(){ Code ="SO", LocalName="Sonsonate", Name="Sonsonate", Type="Department" },
-            new(){ Code ="US", LocalName="Usulután", Name="Usulután", Type="Department" }
+            new()
+            { 
+                Code = "AH",
+                Type = "Department",
+                Name = "Ahuachapán",
+                LocalName = "Ahuachapán"
+            },
+            new()
+            { 
+                Code = "CA",
+                Type = "Department",
+                Name = "Cabañas",
+                LocalName = "Cabañas"
+            },
+            new()
+            { 
+                Code = "CH",
+                Type = "Department",
+                Name = "Chalatenango",
+                LocalName = "Chalatenango"
+            },
+            new()
+            { 
+                Code = "CU",
+                Type = "Department",
+                Name = "Cuscatlán",
+                LocalName = "Cuscatlán"
+            },
+            new()
+            { 
+                Code = "LI",
+                Type = "Department",
+                Name = "La Libertad",
+                LocalName = "La Libertad"
+            },
+            new()
+            { 
+                Code = "PA",
+                Type = "Department",
+                Name = "La Paz",
+                LocalName = "La Paz"
+            },
+            new()
+            { 
+                Code = "UN",
+                Type = "Department",
+                Name = "La Unión",
+                LocalName = "La Unión"
+            },
+            new()
+            { 
+                Code = "MO",
+                Type = "Department",
+                Name = "Morazán",
+                LocalName = "Morazán"
+            },
+            new()
+            { 
+                Code = "SM",
+                Type = "Department",
+                Name = "San Miguel",
+                LocalName = "San Miguel"
+            },
+            new()
+            { 
+                Code = "SS",
+                Type = "Department",
+                Name = "San Salvador",
+                LocalName = "San Salvador"
+            },
+            new()
+            { 
+                Code = "SV",
+                Type = "Department",
+                Name = "San Vicente",
+                LocalName = "San Vicente"
+            },
+            new()
+            { 
+                Code = "SA",
+                Type = "Department",
+                Name = "Santa Ana",
+                LocalName = "Santa Ana"
+            },
+            new()
+            { 
+                Code = "SO",
+                Type = "Department",
+                Name = "Sonsonate",
+                LocalName = "Sonsonate"
+            },
+            new()
+            { 
+                Code = "US",
+                Type = "Department",
+                Name = "Usulután",
+                LocalName = "Usulután"
+            }
 
         });
     }

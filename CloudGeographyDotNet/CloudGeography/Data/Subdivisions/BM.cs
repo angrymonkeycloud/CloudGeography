@@ -7,17 +7,83 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("BM", new List<Subdivision>()
         {
-            new(){ Code ="A", LocalName="City of Hamilton", Name="City of Hamilton", Type="Municipality" },
-            new(){ Code ="6", LocalName="Devonshire", Name="Devonshire", Type="Parish" },
-            new(){ Code ="8", LocalName="Hamilton", Name="Hamilton", Type="Parish" },
-            new(){ Code ="4", LocalName="Paget", Name="Paget", Type="Parish" },
-            new(){ Code ="5", LocalName="Pembroke", Name="Pembroke", Type="Parish" },
-            new(){ Code ="1", LocalName="Sandys", Name="Sandys", Type="Parish" },
-            new(){ Code ="7", LocalName="Smith's", Name="Smith's", Type="Parish" },
-            new(){ Code ="2", LocalName="Southampton", Name="Southampton", Type="Parish" },
-            new(){ Code ="9", LocalName="St George's", Name="St George's", Type="Parish" },
-            new(){ Code ="B", LocalName="Town of St. George", Name="Town of St. George", Type="Municipality" },
-            new(){ Code ="3", LocalName="Warwick", Name="Warwick", Type="Parish" }
+            new()
+            { 
+                Code = "A",
+                Type = "Municipality",
+                Name = "City of Hamilton",
+                LocalName = "City of Hamilton"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "Parish",
+                Name = "Devonshire",
+                LocalName = "Devonshire"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "Parish",
+                Name = "Hamilton",
+                LocalName = "Hamilton"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "Parish",
+                Name = "Paget",
+                LocalName = "Paget"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "Parish",
+                Name = "Pembroke",
+                LocalName = "Pembroke"
+            },
+            new()
+            { 
+                Code = "1",
+                Type = "Parish",
+                Name = "Sandys",
+                LocalName = "Sandys"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "Parish",
+                Name = "Smith's",
+                LocalName = "Smith's"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "Parish",
+                Name = "Southampton",
+                LocalName = "Southampton"
+            },
+            new()
+            { 
+                Code = "9",
+                Type = "Parish",
+                Name = "St George's",
+                LocalName = "St George's"
+            },
+            new()
+            { 
+                Code = "B",
+                Type = "Municipality",
+                Name = "Town of St. George",
+                LocalName = "Town of St. George"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "Parish",
+                Name = "Warwick",
+                LocalName = "Warwick"
+            }
 
         });
     }

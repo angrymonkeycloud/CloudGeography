@@ -7,20 +7,104 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("CZ", new List<Subdivision>()
         {
-            new(){ Code ="31", LocalName="Jihoceský kraj", Name="Jihoceský kraj", Type="Region" },
-            new(){ Code ="64", LocalName="Jihomoravský kraj", Name="Jihomoravský kraj", Type="Region" },
-            new(){ Code ="41", LocalName="Karlovarský kraj", Name="Karlovarský kraj", Type="Region" },
-            new(){ Code ="63", LocalName="Kraj Vysocina", Name="Kraj Vysocina", Type="Region" },
-            new(){ Code ="52", LocalName="Královéhradecký kraj", Name="Královéhradecký kraj", Type="Region" },
-            new(){ Code ="51", LocalName="Liberecký kraj", Name="Liberecký kraj", Type="Region" },
-            new(){ Code ="80", LocalName="Moravskoslezský kraj", Name="Moravskoslezský kraj", Type="Region" },
-            new(){ Code ="71", LocalName="Olomoucký kraj", Name="Olomoucký kraj", Type="Region" },
-            new(){ Code ="53", LocalName="Pardubický kraj", Name="Pardubický kraj", Type="Region" },
-            new(){ Code ="32", LocalName="Plzenský kraj", Name="Plzenský kraj", Type="Region" },
-            new(){ Code ="10", LocalName="Praha", Name="Praha", Type="Region" },
-            new(){ Code ="20", LocalName="Stredoceský kraj", Name="Stredoceský kraj", Type="Region" },
-            new(){ Code ="42", LocalName="Ústecký kraj", Name="Ústecký kraj", Type="Region" },
-            new(){ Code ="72", LocalName="Zlínský kraj", Name="Zlínský kraj", Type="Region" }
+            new()
+            { 
+                Code = "31",
+                Type = "Region",
+                Name = "Jihoceský kraj",
+                LocalName = "Jihoceský kraj"
+            },
+            new()
+            { 
+                Code = "64",
+                Type = "Region",
+                Name = "Jihomoravský kraj",
+                LocalName = "Jihomoravský kraj"
+            },
+            new()
+            { 
+                Code = "41",
+                Type = "Region",
+                Name = "Karlovarský kraj",
+                LocalName = "Karlovarský kraj"
+            },
+            new()
+            { 
+                Code = "63",
+                Type = "Region",
+                Name = "Kraj Vysocina",
+                LocalName = "Kraj Vysocina"
+            },
+            new()
+            { 
+                Code = "52",
+                Type = "Region",
+                Name = "Královéhradecký kraj",
+                LocalName = "Královéhradecký kraj"
+            },
+            new()
+            { 
+                Code = "51",
+                Type = "Region",
+                Name = "Liberecký kraj",
+                LocalName = "Liberecký kraj"
+            },
+            new()
+            { 
+                Code = "80",
+                Type = "Region",
+                Name = "Moravskoslezský kraj",
+                LocalName = "Moravskoslezský kraj"
+            },
+            new()
+            { 
+                Code = "71",
+                Type = "Region",
+                Name = "Olomoucký kraj",
+                LocalName = "Olomoucký kraj"
+            },
+            new()
+            { 
+                Code = "53",
+                Type = "Region",
+                Name = "Pardubický kraj",
+                LocalName = "Pardubický kraj"
+            },
+            new()
+            { 
+                Code = "32",
+                Type = "Region",
+                Name = "Plzenský kraj",
+                LocalName = "Plzenský kraj"
+            },
+            new()
+            { 
+                Code = "10",
+                Type = "Region",
+                Name = "Praha",
+                LocalName = "Praha"
+            },
+            new()
+            { 
+                Code = "20",
+                Type = "Region",
+                Name = "Stredoceský kraj",
+                LocalName = "Stredoceský kraj"
+            },
+            new()
+            { 
+                Code = "42",
+                Type = "Region",
+                Name = "Ústecký kraj",
+                LocalName = "Ústecký kraj"
+            },
+            new()
+            { 
+                Code = "72",
+                Type = "Region",
+                Name = "Zlínský kraj",
+                LocalName = "Zlínský kraj"
+            }
 
         });
     }

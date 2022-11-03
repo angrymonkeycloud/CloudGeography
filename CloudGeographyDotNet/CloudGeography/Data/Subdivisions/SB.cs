@@ -7,16 +7,76 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("SB", new List<Subdivision>()
         {
-            new(){ Code ="CT", LocalName="Capital Territory", Name="Capital Territory", Type="Territory" },
-            new(){ Code ="CE", LocalName="Central", Name="Central", Type="Province" },
-            new(){ Code ="CH", LocalName="Choiseul", Name="Choiseul", Type="Province" },
-            new(){ Code ="GU", LocalName="Guadalcanal", Name="Guadalcanal", Type="Province" },
-            new(){ Code ="IS", LocalName="Isabel", Name="Isabel", Type="Province" },
-            new(){ Code ="MK", LocalName="Makira-Ulawa", Name="Makira-Ulawa", Type="Province" },
-            new(){ Code ="ML", LocalName="Malaita", Name="Malaita", Type="Province" },
-            new(){ Code ="RB", LocalName="Rennell and Bellona", Name="Rennell and Bellona", Type="Province" },
-            new(){ Code ="TE", LocalName="Temotu", Name="Temotu", Type="Province" },
-            new(){ Code ="WE", LocalName="Western", Name="Western", Type="Province" }
+            new()
+            { 
+                Code = "CT",
+                Type = "Territory",
+                Name = "Capital Territory",
+                LocalName = "Capital Territory"
+            },
+            new()
+            { 
+                Code = "CE",
+                Type = "Province",
+                Name = "Central",
+                LocalName = "Central"
+            },
+            new()
+            { 
+                Code = "CH",
+                Type = "Province",
+                Name = "Choiseul",
+                LocalName = "Choiseul"
+            },
+            new()
+            { 
+                Code = "GU",
+                Type = "Province",
+                Name = "Guadalcanal",
+                LocalName = "Guadalcanal"
+            },
+            new()
+            { 
+                Code = "IS",
+                Type = "Province",
+                Name = "Isabel",
+                LocalName = "Isabel"
+            },
+            new()
+            { 
+                Code = "MK",
+                Type = "Province",
+                Name = "Makira-Ulawa",
+                LocalName = "Makira-Ulawa"
+            },
+            new()
+            { 
+                Code = "ML",
+                Type = "Province",
+                Name = "Malaita",
+                LocalName = "Malaita"
+            },
+            new()
+            { 
+                Code = "RB",
+                Type = "Province",
+                Name = "Rennell and Bellona",
+                LocalName = "Rennell and Bellona"
+            },
+            new()
+            { 
+                Code = "TE",
+                Type = "Province",
+                Name = "Temotu",
+                LocalName = "Temotu"
+            },
+            new()
+            { 
+                Code = "WE",
+                Type = "Province",
+                Name = "Western",
+                LocalName = "Western"
+            }
 
         });
     }

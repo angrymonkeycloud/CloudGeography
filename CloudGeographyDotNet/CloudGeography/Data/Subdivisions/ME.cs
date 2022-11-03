@@ -7,29 +7,167 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("ME", new List<Subdivision>()
         {
-            new(){ Code ="21", LocalName="abljak", Name="abljak", Type="Municipality" },
-            new(){ Code ="18", LocalName="avnik", Name="avnik", Type="Municipality" },
-            new(){ Code ="1", LocalName="Andrijevica", Name="Andrijevica", Type="Municipality" },
-            new(){ Code ="2", LocalName="Bar", Name="Bar", Type="Municipality" },
-            new(){ Code ="3", LocalName="Berane", Name="Berane", Type="Municipality" },
-            new(){ Code ="4", LocalName="Bijelo Polje", Name="Bijelo Polje", Type="Municipality" },
-            new(){ Code ="5", LocalName="Budva", Name="Budva", Type="Municipality" },
-            new(){ Code ="6", LocalName="Cetinje", Name="Cetinje", Type="Municipality" },
-            new(){ Code ="7", LocalName="Danilovgrad", Name="Danilovgrad", Type="Municipality" },
-            new(){ Code ="22", LocalName="Gusinje", Name="Gusinje", Type="Municipality" },
-            new(){ Code ="8", LocalName="Herceg-Novi", Name="Herceg-Novi", Type="Municipality" },
-            new(){ Code ="9", LocalName="Kolain", Name="Kolain", Type="Municipality" },
-            new(){ Code ="10", LocalName="Kotor", Name="Kotor", Type="Municipality" },
-            new(){ Code ="11", LocalName="Mojkovac", Name="Mojkovac", Type="Municipality" },
-            new(){ Code ="12", LocalName="Nikic´", Name="Nikic´", Type="Municipality" },
-            new(){ Code ="23", LocalName="Petnjica", Name="Petnjica", Type="Municipality" },
-            new(){ Code ="13", LocalName="Plav", Name="Plav", Type="Municipality" },
-            new(){ Code ="14", LocalName="Pljevlja", Name="Pljevlja", Type="Municipality" },
-            new(){ Code ="15", LocalName="Pluine", Name="Pluine", Type="Municipality" },
-            new(){ Code ="16", LocalName="Podgorica", Name="Podgorica", Type="Municipality" },
-            new(){ Code ="17", LocalName="Roaje", Name="Roaje", Type="Municipality" },
-            new(){ Code ="19", LocalName="Tivat", Name="Tivat", Type="Municipality" },
-            new(){ Code ="20", LocalName="Ulcinj", Name="Ulcinj", Type="Municipality" }
+            new()
+            { 
+                Code = "21",
+                Type = "Municipality",
+                Name = "abljak",
+                LocalName = "abljak"
+            },
+            new()
+            { 
+                Code = "18",
+                Type = "Municipality",
+                Name = "avnik",
+                LocalName = "avnik"
+            },
+            new()
+            { 
+                Code = "1",
+                Type = "Municipality",
+                Name = "Andrijevica",
+                LocalName = "Andrijevica"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "Municipality",
+                Name = "Bar",
+                LocalName = "Bar"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "Municipality",
+                Name = "Berane",
+                LocalName = "Berane"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "Municipality",
+                Name = "Bijelo Polje",
+                LocalName = "Bijelo Polje"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "Municipality",
+                Name = "Budva",
+                LocalName = "Budva"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "Municipality",
+                Name = "Cetinje",
+                LocalName = "Cetinje"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "Municipality",
+                Name = "Danilovgrad",
+                LocalName = "Danilovgrad"
+            },
+            new()
+            { 
+                Code = "22",
+                Type = "Municipality",
+                Name = "Gusinje",
+                LocalName = "Gusinje"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "Municipality",
+                Name = "Herceg-Novi",
+                LocalName = "Herceg-Novi"
+            },
+            new()
+            { 
+                Code = "9",
+                Type = "Municipality",
+                Name = "Kolain",
+                LocalName = "Kolain"
+            },
+            new()
+            { 
+                Code = "10",
+                Type = "Municipality",
+                Name = "Kotor",
+                LocalName = "Kotor"
+            },
+            new()
+            { 
+                Code = "11",
+                Type = "Municipality",
+                Name = "Mojkovac",
+                LocalName = "Mojkovac"
+            },
+            new()
+            { 
+                Code = "12",
+                Type = "Municipality",
+                Name = "Nikic´",
+                LocalName = "Nikic´"
+            },
+            new()
+            { 
+                Code = "23",
+                Type = "Municipality",
+                Name = "Petnjica",
+                LocalName = "Petnjica"
+            },
+            new()
+            { 
+                Code = "13",
+                Type = "Municipality",
+                Name = "Plav",
+                LocalName = "Plav"
+            },
+            new()
+            { 
+                Code = "14",
+                Type = "Municipality",
+                Name = "Pljevlja",
+                LocalName = "Pljevlja"
+            },
+            new()
+            { 
+                Code = "15",
+                Type = "Municipality",
+                Name = "Pluine",
+                LocalName = "Pluine"
+            },
+            new()
+            { 
+                Code = "16",
+                Type = "Municipality",
+                Name = "Podgorica",
+                LocalName = "Podgorica"
+            },
+            new()
+            { 
+                Code = "17",
+                Type = "Municipality",
+                Name = "Roaje",
+                LocalName = "Roaje"
+            },
+            new()
+            { 
+                Code = "19",
+                Type = "Municipality",
+                Name = "Tivat",
+                LocalName = "Tivat"
+            },
+            new()
+            { 
+                Code = "20",
+                Type = "Municipality",
+                Name = "Ulcinj",
+                LocalName = "Ulcinj"
+            }
 
         });
     }

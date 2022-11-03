@@ -7,14 +7,62 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("NE", new List<Subdivision>()
         {
-            new(){ Code ="1", LocalName="Agadez", Name="Agadez", Type="Region" },
-            new(){ Code ="2", LocalName="Diffa", Name="Diffa", Type="Region" },
-            new(){ Code ="3", LocalName="Dosso", Name="Dosso", Type="Region" },
-            new(){ Code ="4", LocalName="Maradi", Name="Maradi", Type="Region" },
-            new(){ Code ="8", LocalName="Niamey", Name="Niamey", Type="District" },
-            new(){ Code ="5", LocalName="Tahoua", Name="Tahoua", Type="Region" },
-            new(){ Code ="6", LocalName="Tillabéri", Name="Tillabéri", Type="Region" },
-            new(){ Code ="7", LocalName="Zinder", Name="Zinder", Type="Region" }
+            new()
+            { 
+                Code = "1",
+                Type = "Region",
+                Name = "Agadez",
+                LocalName = "Agadez"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "Region",
+                Name = "Diffa",
+                LocalName = "Diffa"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "Region",
+                Name = "Dosso",
+                LocalName = "Dosso"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "Region",
+                Name = "Maradi",
+                LocalName = "Maradi"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "District",
+                Name = "Niamey",
+                LocalName = "Niamey"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "Region",
+                Name = "Tahoua",
+                LocalName = "Tahoua"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "Region",
+                Name = "Tillabéri",
+                LocalName = "Tillabéri"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "Region",
+                Name = "Zinder",
+                LocalName = "Zinder"
+            }
 
         });
     }

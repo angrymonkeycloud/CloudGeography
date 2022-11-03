@@ -7,11 +7,41 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("TJ", new List<Subdivision>()
         {
-            new(){ Code ="DU", LocalName="Dushanbe", Name="Dushanbe", Type="Territory" },
-            new(){ Code ="KT", LocalName="Khatlon", Name="Khatlon", Type="Region" },
-            new(){ Code ="GB", LocalName="Kuhistoni Badakhshon", Name="Kuhistoni Badakhshon", Type="Region" },
-            new(){ Code ="RA", LocalName="Nohiyahoi Tobei Jumhurí", Name="Nohiyahoi Tobei Jumhurí", Type="District" },
-            new(){ Code ="SU", LocalName="Sughd", Name="Sughd", Type="Region" }
+            new()
+            { 
+                Code = "DU",
+                Type = "Territory",
+                Name = "Dushanbe",
+                LocalName = "Dushanbe"
+            },
+            new()
+            { 
+                Code = "KT",
+                Type = "Region",
+                Name = "Khatlon",
+                LocalName = "Khatlon"
+            },
+            new()
+            { 
+                Code = "GB",
+                Type = "Region",
+                Name = "Kuhistoni Badakhshon",
+                LocalName = "Kuhistoni Badakhshon"
+            },
+            new()
+            { 
+                Code = "RA",
+                Type = "District",
+                Name = "Nohiyahoi Tobei Jumhurí",
+                LocalName = "Nohiyahoi Tobei Jumhurí"
+            },
+            new()
+            { 
+                Code = "SU",
+                Type = "Region",
+                Name = "Sughd",
+                LocalName = "Sughd"
+            }
 
         });
     }

@@ -7,10 +7,34 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("BN", new List<Subdivision>()
         {
-            new(){ Code ="BE", LocalName="Belait", Name="Belait", Type="District" },
-            new(){ Code ="BM", LocalName="Brunei-Muara", Name="Brunei-Muara", Type="District" },
-            new(){ Code ="TE", LocalName="Temburong", Name="Temburong", Type="District" },
-            new(){ Code ="TU", LocalName="Tutong", Name="Tutong", Type="District" }
+            new()
+            { 
+                Code = "BE",
+                Type = "District",
+                Name = "Belait",
+                LocalName = "Belait"
+            },
+            new()
+            { 
+                Code = "BM",
+                Type = "District",
+                Name = "Brunei-Muara",
+                LocalName = "Brunei-Muara"
+            },
+            new()
+            { 
+                Code = "TE",
+                Type = "District",
+                Name = "Temburong",
+                LocalName = "Temburong"
+            },
+            new()
+            { 
+                Code = "TU",
+                Type = "District",
+                Name = "Tutong",
+                LocalName = "Tutong"
+            }
 
         });
     }

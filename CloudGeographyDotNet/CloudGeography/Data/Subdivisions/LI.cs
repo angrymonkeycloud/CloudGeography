@@ -7,17 +7,83 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("LI", new List<Subdivision>()
         {
-            new(){ Code ="1", LocalName="Balzers", Name="Balzers", Type="Commune" },
-            new(){ Code ="2", LocalName="Eschen", Name="Eschen", Type="Commune" },
-            new(){ Code ="3", LocalName="Gamprin", Name="Gamprin", Type="Commune" },
-            new(){ Code ="4", LocalName="Mauren", Name="Mauren", Type="Commune" },
-            new(){ Code ="5", LocalName="Planken", Name="Planken", Type="Commune" },
-            new(){ Code ="6", LocalName="Ruggell", Name="Ruggell", Type="Commune" },
-            new(){ Code ="7", LocalName="Schaan", Name="Schaan", Type="Commune" },
-            new(){ Code ="8", LocalName="Schellenberg", Name="Schellenberg", Type="Commune" },
-            new(){ Code ="9", LocalName="Triesen", Name="Triesen", Type="Commune" },
-            new(){ Code ="10", LocalName="Triesenberg", Name="Triesenberg", Type="Commune" },
-            new(){ Code ="11", LocalName="Vaduz", Name="Vaduz", Type="Commune" }
+            new()
+            { 
+                Code = "1",
+                Type = "Commune",
+                Name = "Balzers",
+                LocalName = "Balzers"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "Commune",
+                Name = "Eschen",
+                LocalName = "Eschen"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "Commune",
+                Name = "Gamprin",
+                LocalName = "Gamprin"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "Commune",
+                Name = "Mauren",
+                LocalName = "Mauren"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "Commune",
+                Name = "Planken",
+                LocalName = "Planken"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "Commune",
+                Name = "Ruggell",
+                LocalName = "Ruggell"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "Commune",
+                Name = "Schaan",
+                LocalName = "Schaan"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "Commune",
+                Name = "Schellenberg",
+                LocalName = "Schellenberg"
+            },
+            new()
+            { 
+                Code = "9",
+                Type = "Commune",
+                Name = "Triesen",
+                LocalName = "Triesen"
+            },
+            new()
+            { 
+                Code = "10",
+                Type = "Commune",
+                Name = "Triesenberg",
+                LocalName = "Triesenberg"
+            },
+            new()
+            { 
+                Code = "11",
+                Type = "Commune",
+                Name = "Vaduz",
+                LocalName = "Vaduz"
+            }
 
         });
     }

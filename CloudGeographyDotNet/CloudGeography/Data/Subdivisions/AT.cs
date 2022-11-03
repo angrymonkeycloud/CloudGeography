@@ -7,15 +7,69 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("AT", new List<Subdivision>()
         {
-            new(){ Code ="1", LocalName="Burgenland", Name="Burgenland", Type="State" },
-            new(){ Code ="2", LocalName="Kärnten", Name="Kärnten", Type="State" },
-            new(){ Code ="3", LocalName="Niederösterreich", Name="Niederösterreich", Type="State" },
-            new(){ Code ="4", LocalName="Oberösterreich", Name="Oberösterreich", Type="State" },
-            new(){ Code ="5", LocalName="Salzburg", Name="Salzburg", Type="State" },
-            new(){ Code ="6", LocalName="Steiermark", Name="Steiermark", Type="State" },
-            new(){ Code ="7", LocalName="Tirol", Name="Tirol", Type="State" },
-            new(){ Code ="8", LocalName="Vorarlberg", Name="Vorarlberg", Type="State" },
-            new(){ Code ="9", LocalName="Wien", Name="Wien", Type="State" }
+            new()
+            { 
+                Code = "1",
+                Type = "State",
+                Name = "Burgenland",
+                LocalName = "Burgenland"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "State",
+                Name = "Kärnten",
+                LocalName = "Kärnten"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "State",
+                Name = "Niederösterreich",
+                LocalName = "Niederösterreich"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "State",
+                Name = "Oberösterreich",
+                LocalName = "Oberösterreich"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "State",
+                Name = "Salzburg",
+                LocalName = "Salzburg"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "State",
+                Name = "Steiermark",
+                LocalName = "Steiermark"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "State",
+                Name = "Tirol",
+                LocalName = "Tirol"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "State",
+                Name = "Vorarlberg",
+                LocalName = "Vorarlberg"
+            },
+            new()
+            { 
+                Code = "9",
+                Type = "State",
+                Name = "Wien",
+                LocalName = "Wien"
+            }
 
         });
     }

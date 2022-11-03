@@ -7,13 +7,55 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("CR", new List<Subdivision>()
         {
-            new(){ Code ="A", LocalName="Alajuela", Name="Alajuela", Type="Province" },
-            new(){ Code ="C", LocalName="Cartago", Name="Cartago", Type="Province" },
-            new(){ Code ="G", LocalName="Guanacaste", Name="Guanacaste", Type="Province" },
-            new(){ Code ="H", LocalName="Heredia", Name="Heredia", Type="Province" },
-            new(){ Code ="L", LocalName="Limón", Name="Limón", Type="Province" },
-            new(){ Code ="P", LocalName="Puntarenas", Name="Puntarenas", Type="Province" },
-            new(){ Code ="SJ", LocalName="San José", Name="San José", Type="Province" }
+            new()
+            { 
+                Code = "A",
+                Type = "Province",
+                Name = "Alajuela",
+                LocalName = "Alajuela"
+            },
+            new()
+            { 
+                Code = "C",
+                Type = "Province",
+                Name = "Cartago",
+                LocalName = "Cartago"
+            },
+            new()
+            { 
+                Code = "G",
+                Type = "Province",
+                Name = "Guanacaste",
+                LocalName = "Guanacaste"
+            },
+            new()
+            { 
+                Code = "H",
+                Type = "Province",
+                Name = "Heredia",
+                LocalName = "Heredia"
+            },
+            new()
+            { 
+                Code = "L",
+                Type = "Province",
+                Name = "Limón",
+                LocalName = "Limón"
+            },
+            new()
+            { 
+                Code = "P",
+                Type = "Province",
+                Name = "Puntarenas",
+                LocalName = "Puntarenas"
+            },
+            new()
+            { 
+                Code = "SJ",
+                Type = "Province",
+                Name = "San José",
+                LocalName = "San José"
+            }
 
         });
     }

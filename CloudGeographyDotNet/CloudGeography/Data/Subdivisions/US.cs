@@ -7,57 +7,363 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("US", new List<Subdivision>()
         {
-            new(){ Code ="AL", LocalName="Alabama", Name="Alabama", Type="State" },
-            new(){ Code ="AK", LocalName="Alaska", Name="Alaska", Type="State" },
-            new(){ Code ="AZ", LocalName="Arizona", Name="Arizona", Type="State" },
-            new(){ Code ="AR", LocalName="Arkansas", Name="Arkansas", Type="State" },
-            new(){ Code ="CA", LocalName="California", Name="California", Type="State" },
-            new(){ Code ="CO", LocalName="Colorado", Name="Colorado", Type="State" },
-            new(){ Code ="CT", LocalName="Connecticut", Name="Connecticut", Type="State" },
-            new(){ Code ="DE", LocalName="Delaware", Name="Delaware", Type="State" },
-            new(){ Code ="DC", LocalName="District of Columbia", Name="District of Columbia", Type="District" },
-            new(){ Code ="FL", LocalName="Florida", Name="Florida", Type="State" },
-            new(){ Code ="GA", LocalName="Georgia", Name="Georgia", Type="State" },
-            new(){ Code ="HI", LocalName="Hawaii", Name="Hawaii", Type="State" },
-            new(){ Code ="ID", LocalName="Idaho", Name="Idaho", Type="State" },
-            new(){ Code ="IL", LocalName="Illinois", Name="Illinois", Type="State" },
-            new(){ Code ="IN", LocalName="Indiana", Name="Indiana", Type="State" },
-            new(){ Code ="IA", LocalName="Iowa", Name="Iowa", Type="State" },
-            new(){ Code ="KS", LocalName="Kansas", Name="Kansas", Type="State" },
-            new(){ Code ="KY", LocalName="Kentucky", Name="Kentucky", Type="State" },
-            new(){ Code ="LA", LocalName="Louisiana", Name="Louisiana", Type="State" },
-            new(){ Code ="ME", LocalName="Maine", Name="Maine", Type="State" },
-            new(){ Code ="MD", LocalName="Maryland", Name="Maryland", Type="State" },
-            new(){ Code ="MA", LocalName="Massachusetts", Name="Massachusetts", Type="State" },
-            new(){ Code ="MI", LocalName="Michigan", Name="Michigan", Type="State" },
-            new(){ Code ="MN", LocalName="Minnesota", Name="Minnesota", Type="State" },
-            new(){ Code ="MS", LocalName="Mississippi", Name="Mississippi", Type="State" },
-            new(){ Code ="MO", LocalName="Missouri", Name="Missouri", Type="State" },
-            new(){ Code ="MT", LocalName="Montana", Name="Montana", Type="State" },
-            new(){ Code ="NE", LocalName="Nebraska", Name="Nebraska", Type="State" },
-            new(){ Code ="NV", LocalName="Nevada", Name="Nevada", Type="State" },
-            new(){ Code ="NH", LocalName="New Hampshire", Name="New Hampshire", Type="State" },
-            new(){ Code ="NJ", LocalName="New Jersey", Name="New Jersey", Type="State" },
-            new(){ Code ="NM", LocalName="New Mexico", Name="New Mexico", Type="State" },
-            new(){ Code ="NY", LocalName="New York", Name="New York", Type="State" },
-            new(){ Code ="NC", LocalName="North Carolina", Name="North Carolina", Type="State" },
-            new(){ Code ="ND", LocalName="North Dakota", Name="North Dakota", Type="State" },
-            new(){ Code ="OH", LocalName="Ohio", Name="Ohio", Type="State" },
-            new(){ Code ="OK", LocalName="Oklahoma", Name="Oklahoma", Type="State" },
-            new(){ Code ="OR", LocalName="Oregon", Name="Oregon", Type="State" },
-            new(){ Code ="PA", LocalName="Pennsylvania", Name="Pennsylvania", Type="State" },
-            new(){ Code ="RI", LocalName="Rhode Island", Name="Rhode Island", Type="State" },
-            new(){ Code ="SC", LocalName="South Carolina", Name="South Carolina", Type="State" },
-            new(){ Code ="SD", LocalName="South Dakota", Name="South Dakota", Type="State" },
-            new(){ Code ="TN", LocalName="Tennessee", Name="Tennessee", Type="State" },
-            new(){ Code ="TX", LocalName="Texas", Name="Texas", Type="State" },
-            new(){ Code ="UT", LocalName="Utah", Name="Utah", Type="State" },
-            new(){ Code ="VT", LocalName="Vermont", Name="Vermont", Type="State" },
-            new(){ Code ="VA", LocalName="Virginia", Name="Virginia", Type="State" },
-            new(){ Code ="WA", LocalName="Washington", Name="Washington", Type="State" },
-            new(){ Code ="WV", LocalName="West Virginia", Name="West Virginia", Type="State" },
-            new(){ Code ="WI", LocalName="Wisconsin", Name="Wisconsin", Type="State" },
-            new(){ Code ="WY", LocalName="Wyoming", Name="Wyoming", Type="State" }
+            new()
+            { 
+                Code = "AL",
+                Type = "State",
+                Name = "Alabama",
+                LocalName = "Alabama"
+            },
+            new()
+            { 
+                Code = "AK",
+                Type = "State",
+                Name = "Alaska",
+                LocalName = "Alaska"
+            },
+            new()
+            { 
+                Code = "AZ",
+                Type = "State",
+                Name = "Arizona",
+                LocalName = "Arizona"
+            },
+            new()
+            { 
+                Code = "AR",
+                Type = "State",
+                Name = "Arkansas",
+                LocalName = "Arkansas"
+            },
+            new()
+            { 
+                Code = "CA",
+                Type = "State",
+                Name = "California",
+                LocalName = "California"
+            },
+            new()
+            { 
+                Code = "CO",
+                Type = "State",
+                Name = "Colorado",
+                LocalName = "Colorado"
+            },
+            new()
+            { 
+                Code = "CT",
+                Type = "State",
+                Name = "Connecticut",
+                LocalName = "Connecticut"
+            },
+            new()
+            { 
+                Code = "DE",
+                Type = "State",
+                Name = "Delaware",
+                LocalName = "Delaware"
+            },
+            new()
+            { 
+                Code = "DC",
+                Type = "District",
+                Name = "District of Columbia",
+                LocalName = "District of Columbia"
+            },
+            new()
+            { 
+                Code = "FL",
+                Type = "State",
+                Name = "Florida",
+                LocalName = "Florida"
+            },
+            new()
+            { 
+                Code = "GA",
+                Type = "State",
+                Name = "Georgia",
+                LocalName = "Georgia"
+            },
+            new()
+            { 
+                Code = "HI",
+                Type = "State",
+                Name = "Hawaii",
+                LocalName = "Hawaii"
+            },
+            new()
+            { 
+                Code = "ID",
+                Type = "State",
+                Name = "Idaho",
+                LocalName = "Idaho"
+            },
+            new()
+            { 
+                Code = "IL",
+                Type = "State",
+                Name = "Illinois",
+                LocalName = "Illinois"
+            },
+            new()
+            { 
+                Code = "IN",
+                Type = "State",
+                Name = "Indiana",
+                LocalName = "Indiana"
+            },
+            new()
+            { 
+                Code = "IA",
+                Type = "State",
+                Name = "Iowa",
+                LocalName = "Iowa"
+            },
+            new()
+            { 
+                Code = "KS",
+                Type = "State",
+                Name = "Kansas",
+                LocalName = "Kansas"
+            },
+            new()
+            { 
+                Code = "KY",
+                Type = "State",
+                Name = "Kentucky",
+                LocalName = "Kentucky"
+            },
+            new()
+            { 
+                Code = "LA",
+                Type = "State",
+                Name = "Louisiana",
+                LocalName = "Louisiana"
+            },
+            new()
+            { 
+                Code = "ME",
+                Type = "State",
+                Name = "Maine",
+                LocalName = "Maine"
+            },
+            new()
+            { 
+                Code = "MD",
+                Type = "State",
+                Name = "Maryland",
+                LocalName = "Maryland"
+            },
+            new()
+            { 
+                Code = "MA",
+                Type = "State",
+                Name = "Massachusetts",
+                LocalName = "Massachusetts"
+            },
+            new()
+            { 
+                Code = "MI",
+                Type = "State",
+                Name = "Michigan",
+                LocalName = "Michigan"
+            },
+            new()
+            { 
+                Code = "MN",
+                Type = "State",
+                Name = "Minnesota",
+                LocalName = "Minnesota"
+            },
+            new()
+            { 
+                Code = "MS",
+                Type = "State",
+                Name = "Mississippi",
+                LocalName = "Mississippi"
+            },
+            new()
+            { 
+                Code = "MO",
+                Type = "State",
+                Name = "Missouri",
+                LocalName = "Missouri"
+            },
+            new()
+            { 
+                Code = "MT",
+                Type = "State",
+                Name = "Montana",
+                LocalName = "Montana"
+            },
+            new()
+            { 
+                Code = "NE",
+                Type = "State",
+                Name = "Nebraska",
+                LocalName = "Nebraska"
+            },
+            new()
+            { 
+                Code = "NV",
+                Type = "State",
+                Name = "Nevada",
+                LocalName = "Nevada"
+            },
+            new()
+            { 
+                Code = "NH",
+                Type = "State",
+                Name = "New Hampshire",
+                LocalName = "New Hampshire"
+            },
+            new()
+            { 
+                Code = "NJ",
+                Type = "State",
+                Name = "New Jersey",
+                LocalName = "New Jersey"
+            },
+            new()
+            { 
+                Code = "NM",
+                Type = "State",
+                Name = "New Mexico",
+                LocalName = "New Mexico"
+            },
+            new()
+            { 
+                Code = "NY",
+                Type = "State",
+                Name = "New York",
+                LocalName = "New York"
+            },
+            new()
+            { 
+                Code = "NC",
+                Type = "State",
+                Name = "North Carolina",
+                LocalName = "North Carolina"
+            },
+            new()
+            { 
+                Code = "ND",
+                Type = "State",
+                Name = "North Dakota",
+                LocalName = "North Dakota"
+            },
+            new()
+            { 
+                Code = "OH",
+                Type = "State",
+                Name = "Ohio",
+                LocalName = "Ohio"
+            },
+            new()
+            { 
+                Code = "OK",
+                Type = "State",
+                Name = "Oklahoma",
+                LocalName = "Oklahoma"
+            },
+            new()
+            { 
+                Code = "OR",
+                Type = "State",
+                Name = "Oregon",
+                LocalName = "Oregon"
+            },
+            new()
+            { 
+                Code = "PA",
+                Type = "State",
+                Name = "Pennsylvania",
+                LocalName = "Pennsylvania"
+            },
+            new()
+            { 
+                Code = "RI",
+                Type = "State",
+                Name = "Rhode Island",
+                LocalName = "Rhode Island"
+            },
+            new()
+            { 
+                Code = "SC",
+                Type = "State",
+                Name = "South Carolina",
+                LocalName = "South Carolina"
+            },
+            new()
+            { 
+                Code = "SD",
+                Type = "State",
+                Name = "South Dakota",
+                LocalName = "South Dakota"
+            },
+            new()
+            { 
+                Code = "TN",
+                Type = "State",
+                Name = "Tennessee",
+                LocalName = "Tennessee"
+            },
+            new()
+            { 
+                Code = "TX",
+                Type = "State",
+                Name = "Texas",
+                LocalName = "Texas"
+            },
+            new()
+            { 
+                Code = "UT",
+                Type = "State",
+                Name = "Utah",
+                LocalName = "Utah"
+            },
+            new()
+            { 
+                Code = "VT",
+                Type = "State",
+                Name = "Vermont",
+                LocalName = "Vermont"
+            },
+            new()
+            { 
+                Code = "VA",
+                Type = "State",
+                Name = "Virginia",
+                LocalName = "Virginia"
+            },
+            new()
+            { 
+                Code = "WA",
+                Type = "State",
+                Name = "Washington",
+                LocalName = "Washington"
+            },
+            new()
+            { 
+                Code = "WV",
+                Type = "State",
+                Name = "West Virginia",
+                LocalName = "West Virginia"
+            },
+            new()
+            { 
+                Code = "WI",
+                Type = "State",
+                Name = "Wisconsin",
+                LocalName = "Wisconsin"
+            },
+            new()
+            { 
+                Code = "WY",
+                Type = "State",
+                Name = "Wyoming",
+                LocalName = "Wyoming"
+            }
 
         });
     }

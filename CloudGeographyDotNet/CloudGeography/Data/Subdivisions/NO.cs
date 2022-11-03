@@ -7,25 +7,139 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("NO", new List<Subdivision>()
         {
-            new(){ Code ="2", LocalName="Akershus", Name="Akershus", Type="County" },
-            new(){ Code ="9", LocalName="Aust-Agder", Name="Aust-Agder", Type="County" },
-            new(){ Code ="6", LocalName="Buskerud", Name="Buskerud", Type="County" },
-            new(){ Code ="20", LocalName="Finnmark", Name="Finnmark", Type="County" },
-            new(){ Code ="4", LocalName="Hedmark", Name="Hedmark", Type="County" },
-            new(){ Code ="12", LocalName="Hordaland", Name="Hordaland", Type="County" },
-            new(){ Code ="15", LocalName="Møre og Romsdal", Name="Møre og Romsdal", Type="County" },
-            new(){ Code ="18", LocalName="Nordland", Name="Nordland", Type="County" },
-            new(){ Code ="17", LocalName="Nord-Trøndelag", Name="Nord-Trøndelag", Type="County" },
-            new(){ Code ="5", LocalName="Oppland", Name="Oppland", Type="County" },
-            new(){ Code ="3", LocalName="Oslo", Name="Oslo", Type="County" },
-            new(){ Code ="1", LocalName="Østfold", Name="Østfold", Type="County" },
-            new(){ Code ="11", LocalName="Rogaland", Name="Rogaland", Type="County" },
-            new(){ Code ="14", LocalName="Sogn og Fjordane", Name="Sogn og Fjordane", Type="County" },
-            new(){ Code ="16", LocalName="Sør-Trøndelag", Name="Sør-Trøndelag", Type="County" },
-            new(){ Code ="8", LocalName="Telemark", Name="Telemark", Type="County" },
-            new(){ Code ="19", LocalName="Troms", Name="Troms", Type="County" },
-            new(){ Code ="10", LocalName="Vest-Agder", Name="Vest-Agder", Type="County" },
-            new(){ Code ="7", LocalName="Vestfold", Name="Vestfold", Type="County" }
+            new()
+            { 
+                Code = "2",
+                Type = "County",
+                Name = "Akershus",
+                LocalName = "Akershus"
+            },
+            new()
+            { 
+                Code = "9",
+                Type = "County",
+                Name = "Aust-Agder",
+                LocalName = "Aust-Agder"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "County",
+                Name = "Buskerud",
+                LocalName = "Buskerud"
+            },
+            new()
+            { 
+                Code = "20",
+                Type = "County",
+                Name = "Finnmark",
+                LocalName = "Finnmark"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "County",
+                Name = "Hedmark",
+                LocalName = "Hedmark"
+            },
+            new()
+            { 
+                Code = "12",
+                Type = "County",
+                Name = "Hordaland",
+                LocalName = "Hordaland"
+            },
+            new()
+            { 
+                Code = "15",
+                Type = "County",
+                Name = "Møre og Romsdal",
+                LocalName = "Møre og Romsdal"
+            },
+            new()
+            { 
+                Code = "18",
+                Type = "County",
+                Name = "Nordland",
+                LocalName = "Nordland"
+            },
+            new()
+            { 
+                Code = "17",
+                Type = "County",
+                Name = "Nord-Trøndelag",
+                LocalName = "Nord-Trøndelag"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "County",
+                Name = "Oppland",
+                LocalName = "Oppland"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "County",
+                Name = "Oslo",
+                LocalName = "Oslo"
+            },
+            new()
+            { 
+                Code = "1",
+                Type = "County",
+                Name = "Østfold",
+                LocalName = "Østfold"
+            },
+            new()
+            { 
+                Code = "11",
+                Type = "County",
+                Name = "Rogaland",
+                LocalName = "Rogaland"
+            },
+            new()
+            { 
+                Code = "14",
+                Type = "County",
+                Name = "Sogn og Fjordane",
+                LocalName = "Sogn og Fjordane"
+            },
+            new()
+            { 
+                Code = "16",
+                Type = "County",
+                Name = "Sør-Trøndelag",
+                LocalName = "Sør-Trøndelag"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "County",
+                Name = "Telemark",
+                LocalName = "Telemark"
+            },
+            new()
+            { 
+                Code = "19",
+                Type = "County",
+                Name = "Troms",
+                LocalName = "Troms"
+            },
+            new()
+            { 
+                Code = "10",
+                Type = "County",
+                Name = "Vest-Agder",
+                LocalName = "Vest-Agder"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "County",
+                Name = "Vestfold",
+                LocalName = "Vestfold"
+            }
 
         });
     }

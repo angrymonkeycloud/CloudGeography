@@ -7,38 +7,230 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("MX", new List<Subdivision>()
         {
-            new(){ Code ="AGU", LocalName="Aguascalientes", Name="Aguascalientes", Type="State" },
-            new(){ Code ="BCN", LocalName="Baja California", Name="Baja California", Type="State" },
-            new(){ Code ="BCS", LocalName="Baja California Sur", Name="Baja California Sur", Type="State" },
-            new(){ Code ="CAM", LocalName="Campeche", Name="Campeche", Type="State" },
-            new(){ Code ="CHP", LocalName="Chiapas", Name="Chiapas", Type="State" },
-            new(){ Code ="CHH", LocalName="Chihuahua", Name="Chihuahua", Type="State" },
-            new(){ Code ="CMX", LocalName="Ciudad de Mexico", Name="Ciudad de Mexico", Type="District" },
-            new(){ Code ="COA", LocalName="Coahuila de Zaragoza", Name="Coahuila de Zaragoza", Type="State" },
-            new(){ Code ="COL", LocalName="Colima", Name="Colima", Type="State" },
-            new(){ Code ="DUR", LocalName="Durango", Name="Durango", Type="State" },
-            new(){ Code ="GUA", LocalName="Guanajuato", Name="Guanajuato", Type="State" },
-            new(){ Code ="GRO", LocalName="Guerrero", Name="Guerrero", Type="State" },
-            new(){ Code ="HID", LocalName="Hidalgo", Name="Hidalgo", Type="State" },
-            new(){ Code ="JAL", LocalName="Jalisco", Name="Jalisco", Type="State" },
-            new(){ Code ="MEX", LocalName="México", Name="México", Type="State" },
-            new(){ Code ="MIC", LocalName="Michoacán de Ocampo", Name="Michoacán de Ocampo", Type="State" },
-            new(){ Code ="MOR", LocalName="Morelos", Name="Morelos", Type="State" },
-            new(){ Code ="NAY", LocalName="Nayarit", Name="Nayarit", Type="State" },
-            new(){ Code ="NLE", LocalName="Nuevo León", Name="Nuevo León", Type="State" },
-            new(){ Code ="OAX", LocalName="Oaxaca", Name="Oaxaca", Type="State" },
-            new(){ Code ="PUE", LocalName="Puebla", Name="Puebla", Type="State" },
-            new(){ Code ="QUE", LocalName="Querétaro", Name="Querétaro", Type="State" },
-            new(){ Code ="ROO", LocalName="Quintana Roo", Name="Quintana Roo", Type="State" },
-            new(){ Code ="SLP", LocalName="San Luis Potosí", Name="San Luis Potosí", Type="State" },
-            new(){ Code ="SIN", LocalName="Sinaloa", Name="Sinaloa", Type="State" },
-            new(){ Code ="SON", LocalName="Sonora", Name="Sonora", Type="State" },
-            new(){ Code ="TAB", LocalName="Tabasco", Name="Tabasco", Type="State" },
-            new(){ Code ="TAM", LocalName="Tamaulipas", Name="Tamaulipas", Type="State" },
-            new(){ Code ="TLA", LocalName="Tlaxcala", Name="Tlaxcala", Type="State" },
-            new(){ Code ="VER", LocalName="Veracruz de Ignacio de la Llave", Name="Veracruz de Ignacio de la Llave", Type="State" },
-            new(){ Code ="YUC", LocalName="Yucatán", Name="Yucatán", Type="State" },
-            new(){ Code ="ZAC", LocalName="Zacatecas", Name="Zacatecas", Type="State" }
+            new()
+            { 
+                Code = "AGU",
+                Type = "State",
+                Name = "Aguascalientes",
+                LocalName = "Aguascalientes"
+            },
+            new()
+            { 
+                Code = "BCN",
+                Type = "State",
+                Name = "Baja California",
+                LocalName = "Baja California"
+            },
+            new()
+            { 
+                Code = "BCS",
+                Type = "State",
+                Name = "Baja California Sur",
+                LocalName = "Baja California Sur"
+            },
+            new()
+            { 
+                Code = "CAM",
+                Type = "State",
+                Name = "Campeche",
+                LocalName = "Campeche"
+            },
+            new()
+            { 
+                Code = "CHP",
+                Type = "State",
+                Name = "Chiapas",
+                LocalName = "Chiapas"
+            },
+            new()
+            { 
+                Code = "CHH",
+                Type = "State",
+                Name = "Chihuahua",
+                LocalName = "Chihuahua"
+            },
+            new()
+            { 
+                Code = "CMX",
+                Type = "District",
+                Name = "Ciudad de Mexico",
+                LocalName = "Ciudad de Mexico"
+            },
+            new()
+            { 
+                Code = "COA",
+                Type = "State",
+                Name = "Coahuila de Zaragoza",
+                LocalName = "Coahuila de Zaragoza"
+            },
+            new()
+            { 
+                Code = "COL",
+                Type = "State",
+                Name = "Colima",
+                LocalName = "Colima"
+            },
+            new()
+            { 
+                Code = "DUR",
+                Type = "State",
+                Name = "Durango",
+                LocalName = "Durango"
+            },
+            new()
+            { 
+                Code = "GUA",
+                Type = "State",
+                Name = "Guanajuato",
+                LocalName = "Guanajuato"
+            },
+            new()
+            { 
+                Code = "GRO",
+                Type = "State",
+                Name = "Guerrero",
+                LocalName = "Guerrero"
+            },
+            new()
+            { 
+                Code = "HID",
+                Type = "State",
+                Name = "Hidalgo",
+                LocalName = "Hidalgo"
+            },
+            new()
+            { 
+                Code = "JAL",
+                Type = "State",
+                Name = "Jalisco",
+                LocalName = "Jalisco"
+            },
+            new()
+            { 
+                Code = "MEX",
+                Type = "State",
+                Name = "México",
+                LocalName = "México"
+            },
+            new()
+            { 
+                Code = "MIC",
+                Type = "State",
+                Name = "Michoacán de Ocampo",
+                LocalName = "Michoacán de Ocampo"
+            },
+            new()
+            { 
+                Code = "MOR",
+                Type = "State",
+                Name = "Morelos",
+                LocalName = "Morelos"
+            },
+            new()
+            { 
+                Code = "NAY",
+                Type = "State",
+                Name = "Nayarit",
+                LocalName = "Nayarit"
+            },
+            new()
+            { 
+                Code = "NLE",
+                Type = "State",
+                Name = "Nuevo León",
+                LocalName = "Nuevo León"
+            },
+            new()
+            { 
+                Code = "OAX",
+                Type = "State",
+                Name = "Oaxaca",
+                LocalName = "Oaxaca"
+            },
+            new()
+            { 
+                Code = "PUE",
+                Type = "State",
+                Name = "Puebla",
+                LocalName = "Puebla"
+            },
+            new()
+            { 
+                Code = "QUE",
+                Type = "State",
+                Name = "Querétaro",
+                LocalName = "Querétaro"
+            },
+            new()
+            { 
+                Code = "ROO",
+                Type = "State",
+                Name = "Quintana Roo",
+                LocalName = "Quintana Roo"
+            },
+            new()
+            { 
+                Code = "SLP",
+                Type = "State",
+                Name = "San Luis Potosí",
+                LocalName = "San Luis Potosí"
+            },
+            new()
+            { 
+                Code = "SIN",
+                Type = "State",
+                Name = "Sinaloa",
+                LocalName = "Sinaloa"
+            },
+            new()
+            { 
+                Code = "SON",
+                Type = "State",
+                Name = "Sonora",
+                LocalName = "Sonora"
+            },
+            new()
+            { 
+                Code = "TAB",
+                Type = "State",
+                Name = "Tabasco",
+                LocalName = "Tabasco"
+            },
+            new()
+            { 
+                Code = "TAM",
+                Type = "State",
+                Name = "Tamaulipas",
+                LocalName = "Tamaulipas"
+            },
+            new()
+            { 
+                Code = "TLA",
+                Type = "State",
+                Name = "Tlaxcala",
+                LocalName = "Tlaxcala"
+            },
+            new()
+            { 
+                Code = "VER",
+                Type = "State",
+                Name = "Veracruz de Ignacio de la Llave",
+                LocalName = "Veracruz de Ignacio de la Llave"
+            },
+            new()
+            { 
+                Code = "YUC",
+                Type = "State",
+                Name = "Yucatán",
+                LocalName = "Yucatán"
+            },
+            new()
+            { 
+                Code = "ZAC",
+                Type = "State",
+                Name = "Zacatecas",
+                LocalName = "Zacatecas"
+            }
 
         });
     }

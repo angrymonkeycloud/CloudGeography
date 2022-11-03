@@ -7,28 +7,160 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("TW", new List<Subdivision>()
         {
-            new(){ Code ="CHA", LocalName="Changhua", Name="Changhua", Type="County" },
-            new(){ Code ="CYQ", LocalName="Chiayi", Name="Chiayi", Type="County" },
-            new(){ Code ="CYI", LocalName="Chiayi", Name="Chiayi", Type="City" },
-            new(){ Code ="HSQ", LocalName="Hsinchu", Name="Hsinchu", Type="County" },
-            new(){ Code ="HSZ", LocalName="Hsinchu", Name="Hsinchu", Type="City" },
-            new(){ Code ="HUA", LocalName="Hualien", Name="Hualien", Type="County" },
-            new(){ Code ="KHH", LocalName="Kaohsiung", Name="Kaohsiung", Type="Municipality" },
-            new(){ Code ="KEE", LocalName="Keelung", Name="Keelung", Type="City" },
-            new(){ Code ="KIN", LocalName="Kinmen", Name="Kinmen", Type="County" },
-            new(){ Code ="LIE", LocalName="Lienchiang", Name="Lienchiang", Type="County" },
-            new(){ Code ="MIA", LocalName="Miaoli", Name="Miaoli", Type="County" },
-            new(){ Code ="NAN", LocalName="Nantou", Name="Nantou", Type="County" },
-            new(){ Code ="NWT", LocalName="New Taipei", Name="New Taipei", Type="Municipality" },
-            new(){ Code ="PEN", LocalName="Penghu", Name="Penghu", Type="County" },
-            new(){ Code ="PIF", LocalName="Pingtung", Name="Pingtung", Type="County" },
-            new(){ Code ="TXG", LocalName="Taichung", Name="Taichung", Type="Municipality" },
-            new(){ Code ="TNN", LocalName="Tainan", Name="Tainan", Type="Municipality" },
-            new(){ Code ="TPE", LocalName="Taipei", Name="Taipei", Type="Municipality" },
-            new(){ Code ="TTT", LocalName="Taitung", Name="Taitung", Type="County" },
-            new(){ Code ="TAO", LocalName="Taoyuan", Name="Taoyuan", Type="Municipality" },
-            new(){ Code ="ILA", LocalName="Yilan", Name="Yilan", Type="County" },
-            new(){ Code ="YUN", LocalName="Yunlin", Name="Yunlin", Type="County" }
+            new()
+            { 
+                Code = "CHA",
+                Type = "County",
+                Name = "Changhua",
+                LocalName = "Changhua"
+            },
+            new()
+            { 
+                Code = "CYQ",
+                Type = "County",
+                Name = "Chiayi",
+                LocalName = "Chiayi"
+            },
+            new()
+            { 
+                Code = "CYI",
+                Type = "City",
+                Name = "Chiayi",
+                LocalName = "Chiayi"
+            },
+            new()
+            { 
+                Code = "HSQ",
+                Type = "County",
+                Name = "Hsinchu",
+                LocalName = "Hsinchu"
+            },
+            new()
+            { 
+                Code = "HSZ",
+                Type = "City",
+                Name = "Hsinchu",
+                LocalName = "Hsinchu"
+            },
+            new()
+            { 
+                Code = "HUA",
+                Type = "County",
+                Name = "Hualien",
+                LocalName = "Hualien"
+            },
+            new()
+            { 
+                Code = "KHH",
+                Type = "Municipality",
+                Name = "Kaohsiung",
+                LocalName = "Kaohsiung"
+            },
+            new()
+            { 
+                Code = "KEE",
+                Type = "City",
+                Name = "Keelung",
+                LocalName = "Keelung"
+            },
+            new()
+            { 
+                Code = "KIN",
+                Type = "County",
+                Name = "Kinmen",
+                LocalName = "Kinmen"
+            },
+            new()
+            { 
+                Code = "LIE",
+                Type = "County",
+                Name = "Lienchiang",
+                LocalName = "Lienchiang"
+            },
+            new()
+            { 
+                Code = "MIA",
+                Type = "County",
+                Name = "Miaoli",
+                LocalName = "Miaoli"
+            },
+            new()
+            { 
+                Code = "NAN",
+                Type = "County",
+                Name = "Nantou",
+                LocalName = "Nantou"
+            },
+            new()
+            { 
+                Code = "NWT",
+                Type = "Municipality",
+                Name = "New Taipei",
+                LocalName = "New Taipei"
+            },
+            new()
+            { 
+                Code = "PEN",
+                Type = "County",
+                Name = "Penghu",
+                LocalName = "Penghu"
+            },
+            new()
+            { 
+                Code = "PIF",
+                Type = "County",
+                Name = "Pingtung",
+                LocalName = "Pingtung"
+            },
+            new()
+            { 
+                Code = "TXG",
+                Type = "Municipality",
+                Name = "Taichung",
+                LocalName = "Taichung"
+            },
+            new()
+            { 
+                Code = "TNN",
+                Type = "Municipality",
+                Name = "Tainan",
+                LocalName = "Tainan"
+            },
+            new()
+            { 
+                Code = "TPE",
+                Type = "Municipality",
+                Name = "Taipei",
+                LocalName = "Taipei"
+            },
+            new()
+            { 
+                Code = "TTT",
+                Type = "County",
+                Name = "Taitung",
+                LocalName = "Taitung"
+            },
+            new()
+            { 
+                Code = "TAO",
+                Type = "Municipality",
+                Name = "Taoyuan",
+                LocalName = "Taoyuan"
+            },
+            new()
+            { 
+                Code = "ILA",
+                Type = "County",
+                Name = "Yilan",
+                LocalName = "Yilan"
+            },
+            new()
+            { 
+                Code = "YUN",
+                Type = "County",
+                Name = "Yunlin",
+                LocalName = "Yunlin"
+            }
 
         });
     }

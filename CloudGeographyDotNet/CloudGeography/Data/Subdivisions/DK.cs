@@ -7,11 +7,41 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("DK", new List<Subdivision>()
         {
-            new(){ Code ="84", LocalName="Hovedstaden", Name="Hovedstaden", Type="Region" },
-            new(){ Code ="82", LocalName="Midtjylland", Name="Midtjylland", Type="Region" },
-            new(){ Code ="81", LocalName="Nordjylland", Name="Nordjylland", Type="Region" },
-            new(){ Code ="85", LocalName="Sjælland", Name="Sjælland", Type="Region" },
-            new(){ Code ="83", LocalName="Syddanmark", Name="Syddanmark", Type="Region" }
+            new()
+            { 
+                Code = "84",
+                Type = "Region",
+                Name = "Hovedstaden",
+                LocalName = "Hovedstaden"
+            },
+            new()
+            { 
+                Code = "82",
+                Type = "Region",
+                Name = "Midtjylland",
+                LocalName = "Midtjylland"
+            },
+            new()
+            { 
+                Code = "81",
+                Type = "Region",
+                Name = "Nordjylland",
+                LocalName = "Nordjylland"
+            },
+            new()
+            { 
+                Code = "85",
+                Type = "Region",
+                Name = "Sjælland",
+                LocalName = "Sjælland"
+            },
+            new()
+            { 
+                Code = "83",
+                Type = "Region",
+                Name = "Syddanmark",
+                LocalName = "Syddanmark"
+            }
 
         });
     }

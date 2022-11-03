@@ -7,21 +7,111 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("LR", new List<Subdivision>()
         {
-            new(){ Code ="BM", LocalName="Bomi", Name="Bomi", Type="County" },
-            new(){ Code ="BG", LocalName="Bong", Name="Bong", Type="County" },
-            new(){ Code ="GP", LocalName="Gbarpolu", Name="Gbarpolu", Type="County" },
-            new(){ Code ="GB", LocalName="Grand Bassa", Name="Grand Bassa", Type="County" },
-            new(){ Code ="CM", LocalName="Grand Cape Mount", Name="Grand Cape Mount", Type="County" },
-            new(){ Code ="GG", LocalName="Grand Gedeh", Name="Grand Gedeh", Type="County" },
-            new(){ Code ="GK", LocalName="Grand Kru", Name="Grand Kru", Type="County" },
-            new(){ Code ="LO", LocalName="Lofa", Name="Lofa", Type="County" },
-            new(){ Code ="MG", LocalName="Margibi", Name="Margibi", Type="County" },
-            new(){ Code ="MY", LocalName="Maryland", Name="Maryland", Type="County" },
-            new(){ Code ="MO", LocalName="Montserrado", Name="Montserrado", Type="County" },
-            new(){ Code ="NI", LocalName="Nimba", Name="Nimba", Type="County" },
-            new(){ Code ="RI", LocalName="River Cess", Name="River Cess", Type="County" },
-            new(){ Code ="RG", LocalName="River Gee", Name="River Gee", Type="County" },
-            new(){ Code ="SI", LocalName="Sinoe", Name="Sinoe", Type="County" }
+            new()
+            { 
+                Code = "BM",
+                Type = "County",
+                Name = "Bomi",
+                LocalName = "Bomi"
+            },
+            new()
+            { 
+                Code = "BG",
+                Type = "County",
+                Name = "Bong",
+                LocalName = "Bong"
+            },
+            new()
+            { 
+                Code = "GP",
+                Type = "County",
+                Name = "Gbarpolu",
+                LocalName = "Gbarpolu"
+            },
+            new()
+            { 
+                Code = "GB",
+                Type = "County",
+                Name = "Grand Bassa",
+                LocalName = "Grand Bassa"
+            },
+            new()
+            { 
+                Code = "CM",
+                Type = "County",
+                Name = "Grand Cape Mount",
+                LocalName = "Grand Cape Mount"
+            },
+            new()
+            { 
+                Code = "GG",
+                Type = "County",
+                Name = "Grand Gedeh",
+                LocalName = "Grand Gedeh"
+            },
+            new()
+            { 
+                Code = "GK",
+                Type = "County",
+                Name = "Grand Kru",
+                LocalName = "Grand Kru"
+            },
+            new()
+            { 
+                Code = "LO",
+                Type = "County",
+                Name = "Lofa",
+                LocalName = "Lofa"
+            },
+            new()
+            { 
+                Code = "MG",
+                Type = "County",
+                Name = "Margibi",
+                LocalName = "Margibi"
+            },
+            new()
+            { 
+                Code = "MY",
+                Type = "County",
+                Name = "Maryland",
+                LocalName = "Maryland"
+            },
+            new()
+            { 
+                Code = "MO",
+                Type = "County",
+                Name = "Montserrado",
+                LocalName = "Montserrado"
+            },
+            new()
+            { 
+                Code = "NI",
+                Type = "County",
+                Name = "Nimba",
+                LocalName = "Nimba"
+            },
+            new()
+            { 
+                Code = "RI",
+                Type = "County",
+                Name = "River Cess",
+                LocalName = "River Cess"
+            },
+            new()
+            { 
+                Code = "RG",
+                Type = "County",
+                Name = "River Gee",
+                LocalName = "River Gee"
+            },
+            new()
+            { 
+                Code = "SI",
+                Type = "County",
+                Name = "Sinoe",
+                LocalName = "Sinoe"
+            }
 
         });
     }

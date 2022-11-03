@@ -7,18 +7,90 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("NL", new List<Subdivision>()
         {
-            new(){ Code ="DR", LocalName="Drenthe", Name="Drenthe", Type="Province" },
-            new(){ Code ="FL", LocalName="Flevoland", Name="Flevoland", Type="Province" },
-            new(){ Code ="FR", LocalName="Fryslân", Name="Fryslân", Type="Province" },
-            new(){ Code ="GE", LocalName="Gelderland", Name="Gelderland", Type="Province" },
-            new(){ Code ="GR", LocalName="Groningen", Name="Groningen", Type="Province" },
-            new(){ Code ="LI", LocalName="Limburg", Name="Limburg", Type="Province" },
-            new(){ Code ="NB", LocalName="Noord-Brabant", Name="Noord-Brabant", Type="Province" },
-            new(){ Code ="NH", LocalName="Noord-Holland", Name="Noord-Holland", Type="Province" },
-            new(){ Code ="OV", LocalName="Overijssel", Name="Overijssel", Type="Province" },
-            new(){ Code ="UT", LocalName="Utrecht", Name="Utrecht", Type="Province" },
-            new(){ Code ="ZE", LocalName="Zeeland", Name="Zeeland", Type="Province" },
-            new(){ Code ="ZH", LocalName="Zuid-Holland", Name="Zuid-Holland", Type="Province" }
+            new()
+            { 
+                Code = "DR",
+                Type = "Province",
+                Name = "Drenthe",
+                LocalName = "Drenthe"
+            },
+            new()
+            { 
+                Code = "FL",
+                Type = "Province",
+                Name = "Flevoland",
+                LocalName = "Flevoland"
+            },
+            new()
+            { 
+                Code = "FR",
+                Type = "Province",
+                Name = "Fryslân",
+                LocalName = "Fryslân"
+            },
+            new()
+            { 
+                Code = "GE",
+                Type = "Province",
+                Name = "Gelderland",
+                LocalName = "Gelderland"
+            },
+            new()
+            { 
+                Code = "GR",
+                Type = "Province",
+                Name = "Groningen",
+                LocalName = "Groningen"
+            },
+            new()
+            { 
+                Code = "LI",
+                Type = "Province",
+                Name = "Limburg",
+                LocalName = "Limburg"
+            },
+            new()
+            { 
+                Code = "NB",
+                Type = "Province",
+                Name = "Noord-Brabant",
+                LocalName = "Noord-Brabant"
+            },
+            new()
+            { 
+                Code = "NH",
+                Type = "Province",
+                Name = "Noord-Holland",
+                LocalName = "Noord-Holland"
+            },
+            new()
+            { 
+                Code = "OV",
+                Type = "Province",
+                Name = "Overijssel",
+                LocalName = "Overijssel"
+            },
+            new()
+            { 
+                Code = "UT",
+                Type = "Province",
+                Name = "Utrecht",
+                LocalName = "Utrecht"
+            },
+            new()
+            { 
+                Code = "ZE",
+                Type = "Province",
+                Name = "Zeeland",
+                LocalName = "Zeeland"
+            },
+            new()
+            { 
+                Code = "ZH",
+                Type = "Province",
+                Name = "Zuid-Holland",
+                LocalName = "Zuid-Holland"
+            }
 
         });
     }

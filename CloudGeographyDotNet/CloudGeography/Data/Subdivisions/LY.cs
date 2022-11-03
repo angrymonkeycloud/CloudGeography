@@ -7,28 +7,160 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("LY", new List<Subdivision>()
         {
-            new(){ Code ="BU", LocalName="Al Butnan", Name="Al Butnan", Type="Popularate" },
-            new(){ Code ="JA", LocalName="Al Jabal al Akh?ar", Name="Al Jabal al Akh?ar", Type="Popularate" },
-            new(){ Code ="JG", LocalName="Al Jabal al Gharbi", Name="Al Jabal al Gharbi", Type="Popularate" },
-            new(){ Code ="JI", LocalName="Al Jafarah", Name="Al Jafarah", Type="Popularate" },
-            new(){ Code ="JU", LocalName="Al Jufrah", Name="Al Jufrah", Type="Popularate" },
-            new(){ Code ="KF", LocalName="Al Kufrah", Name="Al Kufrah", Type="Popularate" },
-            new(){ Code ="MJ", LocalName="Al Marj", Name="Al Marj", Type="Popularate" },
-            new(){ Code ="MB", LocalName="Al Marqab", Name="Al Marqab", Type="Popularate" },
-            new(){ Code ="WA", LocalName="Al Wa?at", Name="Al Wa?at", Type="Popularate" },
-            new(){ Code ="NQ", LocalName="An Nuqat al Khams", Name="An Nuqat al Khams", Type="Popularate" },
-            new(){ Code ="ZA", LocalName="Az Zawiyah", Name="Az Zawiyah", Type="Popularate" },
-            new(){ Code ="BA", LocalName="Banghazi", Name="Banghazi", Type="Popularate" },
-            new(){ Code ="DR", LocalName="Darnah", Name="Darnah", Type="Popularate" },
-            new(){ Code ="GT", LocalName="Ghat", Name="Ghat", Type="Popularate" },
-            new(){ Code ="MI", LocalName="Misratah", Name="Misratah", Type="Popularate" },
-            new(){ Code ="MQ", LocalName="Murzuq", Name="Murzuq", Type="Popularate" },
-            new(){ Code ="NL", LocalName="Nalut", Name="Nalut", Type="Popularate" },
-            new(){ Code ="SB", LocalName="Sabha", Name="Sabha", Type="Popularate" },
-            new(){ Code ="SR", LocalName="Surt", Name="Surt", Type="Popularate" },
-            new(){ Code ="TB", LocalName="Tarabulus", Name="Tarabulus", Type="Popularate" },
-            new(){ Code ="WD", LocalName="Wadi al Hayat", Name="Wadi al Hayat", Type="Popularate" },
-            new(){ Code ="WS", LocalName="Wadi ash Shati?", Name="Wadi ash Shati?", Type="Popularate" }
+            new()
+            { 
+                Code = "BU",
+                Type = "Popularate",
+                Name = "Al Butnan",
+                LocalName = "Al Butnan"
+            },
+            new()
+            { 
+                Code = "JA",
+                Type = "Popularate",
+                Name = "Al Jabal al Akh?ar",
+                LocalName = "Al Jabal al Akh?ar"
+            },
+            new()
+            { 
+                Code = "JG",
+                Type = "Popularate",
+                Name = "Al Jabal al Gharbi",
+                LocalName = "Al Jabal al Gharbi"
+            },
+            new()
+            { 
+                Code = "JI",
+                Type = "Popularate",
+                Name = "Al Jafarah",
+                LocalName = "Al Jafarah"
+            },
+            new()
+            { 
+                Code = "JU",
+                Type = "Popularate",
+                Name = "Al Jufrah",
+                LocalName = "Al Jufrah"
+            },
+            new()
+            { 
+                Code = "KF",
+                Type = "Popularate",
+                Name = "Al Kufrah",
+                LocalName = "Al Kufrah"
+            },
+            new()
+            { 
+                Code = "MJ",
+                Type = "Popularate",
+                Name = "Al Marj",
+                LocalName = "Al Marj"
+            },
+            new()
+            { 
+                Code = "MB",
+                Type = "Popularate",
+                Name = "Al Marqab",
+                LocalName = "Al Marqab"
+            },
+            new()
+            { 
+                Code = "WA",
+                Type = "Popularate",
+                Name = "Al Wa?at",
+                LocalName = "Al Wa?at"
+            },
+            new()
+            { 
+                Code = "NQ",
+                Type = "Popularate",
+                Name = "An Nuqat al Khams",
+                LocalName = "An Nuqat al Khams"
+            },
+            new()
+            { 
+                Code = "ZA",
+                Type = "Popularate",
+                Name = "Az Zawiyah",
+                LocalName = "Az Zawiyah"
+            },
+            new()
+            { 
+                Code = "BA",
+                Type = "Popularate",
+                Name = "Banghazi",
+                LocalName = "Banghazi"
+            },
+            new()
+            { 
+                Code = "DR",
+                Type = "Popularate",
+                Name = "Darnah",
+                LocalName = "Darnah"
+            },
+            new()
+            { 
+                Code = "GT",
+                Type = "Popularate",
+                Name = "Ghat",
+                LocalName = "Ghat"
+            },
+            new()
+            { 
+                Code = "MI",
+                Type = "Popularate",
+                Name = "Misratah",
+                LocalName = "Misratah"
+            },
+            new()
+            { 
+                Code = "MQ",
+                Type = "Popularate",
+                Name = "Murzuq",
+                LocalName = "Murzuq"
+            },
+            new()
+            { 
+                Code = "NL",
+                Type = "Popularate",
+                Name = "Nalut",
+                LocalName = "Nalut"
+            },
+            new()
+            { 
+                Code = "SB",
+                Type = "Popularate",
+                Name = "Sabha",
+                LocalName = "Sabha"
+            },
+            new()
+            { 
+                Code = "SR",
+                Type = "Popularate",
+                Name = "Surt",
+                LocalName = "Surt"
+            },
+            new()
+            { 
+                Code = "TB",
+                Type = "Popularate",
+                Name = "Tarabulus",
+                LocalName = "Tarabulus"
+            },
+            new()
+            { 
+                Code = "WD",
+                Type = "Popularate",
+                Name = "Wadi al Hayat",
+                LocalName = "Wadi al Hayat"
+            },
+            new()
+            { 
+                Code = "WS",
+                Type = "Popularate",
+                Name = "Wadi ash Shati?",
+                LocalName = "Wadi ash Shati?"
+            }
 
         });
     }

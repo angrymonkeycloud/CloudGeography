@@ -7,10 +7,34 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("FM", new List<Subdivision>()
         {
-            new(){ Code ="TRK", LocalName="Chuuk", Name="Chuuk", Type="State" },
-            new(){ Code ="KSA", LocalName="Kosrae", Name="Kosrae", Type="State" },
-            new(){ Code ="PNI", LocalName="Pohnpei", Name="Pohnpei", Type="State" },
-            new(){ Code ="YAP", LocalName="Yap", Name="Yap", Type="State" }
+            new()
+            { 
+                Code = "TRK",
+                Type = "State",
+                Name = "Chuuk",
+                LocalName = "Chuuk"
+            },
+            new()
+            { 
+                Code = "KSA",
+                Type = "State",
+                Name = "Kosrae",
+                LocalName = "Kosrae"
+            },
+            new()
+            { 
+                Code = "PNI",
+                Type = "State",
+                Name = "Pohnpei",
+                LocalName = "Pohnpei"
+            },
+            new()
+            { 
+                Code = "YAP",
+                Type = "State",
+                Name = "Yap",
+                LocalName = "Yap"
+            }
 
         });
     }

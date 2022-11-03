@@ -7,20 +7,104 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("SY", new List<Subdivision>()
         {
-            new(){ Code ="HA", LocalName="الحسكة", Name="AI Hasakah", Type="Governorate" },
-            new(){ Code ="HL", LocalName="حلب", Name="Aleppo", Type="Governorate" },
-            new(){ Code ="SU", LocalName="السويداء", Name="As-Suwayda", Type="Governorate" },
-            new(){ Code ="DI", LocalName="دمشق‎", Name="Damascus", Type="Governorate" },
-            new(){ Code ="DR", LocalName="درعا", Name="Daraa", Type="Governorate" },
-            new(){ Code ="DY", LocalName="دير الزور", Name="Deir ez-Zor", Type="Governorate" },
-            new(){ Code ="HM", LocalName="حماة", Name="Hama", Type="Governorate" },
-            new(){ Code ="HI", LocalName="حمص", Name="Homs", Type="Governorate" },
-            new(){ Code ="ID", LocalName="ادلب", Name="Idlib", Type="Governorate" },
-            new(){ Code ="LA", LocalName="اللاذقية", Name="Latakia", Type="Governorate" },
-            new(){ Code ="QU", LocalName="القنيطرة", Name="Quneitra", Type="Governorate" },
-            new(){ Code ="RA", LocalName="الرقة", Name="Raqqa", Type="Governorate" },
-            new(){ Code ="RD", LocalName="ريف دمشق", Name="Rif Dimashq", Type="Governorate" },
-            new(){ Code ="TA", LocalName="طرطوس", Name="Tartus", Type="Governorate" }
+            new()
+            { 
+                Code = "HA",
+                Type = "Governorate",
+                Name = "AI Hasakah",
+                LocalName = "الحسكة"
+            },
+            new()
+            { 
+                Code = "HL",
+                Type = "Governorate",
+                Name = "Aleppo",
+                LocalName = "حلب"
+            },
+            new()
+            { 
+                Code = "SU",
+                Type = "Governorate",
+                Name = "As-Suwayda",
+                LocalName = "السويداء"
+            },
+            new()
+            { 
+                Code = "DI",
+                Type = "Governorate",
+                Name = "Damascus",
+                LocalName = "دمشق‎"
+            },
+            new()
+            { 
+                Code = "DR",
+                Type = "Governorate",
+                Name = "Daraa",
+                LocalName = "درعا"
+            },
+            new()
+            { 
+                Code = "DY",
+                Type = "Governorate",
+                Name = "Deir ez-Zor",
+                LocalName = "دير الزور"
+            },
+            new()
+            { 
+                Code = "HM",
+                Type = "Governorate",
+                Name = "Hama",
+                LocalName = "حماة"
+            },
+            new()
+            { 
+                Code = "HI",
+                Type = "Governorate",
+                Name = "Homs",
+                LocalName = "حمص"
+            },
+            new()
+            { 
+                Code = "ID",
+                Type = "Governorate",
+                Name = "Idlib",
+                LocalName = "ادلب"
+            },
+            new()
+            { 
+                Code = "LA",
+                Type = "Governorate",
+                Name = "Latakia",
+                LocalName = "اللاذقية"
+            },
+            new()
+            { 
+                Code = "QU",
+                Type = "Governorate",
+                Name = "Quneitra",
+                LocalName = "القنيطرة"
+            },
+            new()
+            { 
+                Code = "RA",
+                Type = "Governorate",
+                Name = "Raqqa",
+                LocalName = "الرقة"
+            },
+            new()
+            { 
+                Code = "RD",
+                Type = "Governorate",
+                Name = "Rif Dimashq",
+                LocalName = "ريف دمشق"
+            },
+            new()
+            { 
+                Code = "TA",
+                Type = "Governorate",
+                Name = "Tartus",
+                LocalName = "طرطوس"
+            }
 
         });
     }

@@ -7,23 +7,125 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("CF", new List<Subdivision>()
         {
-            new(){ Code ="BB", LocalName="Bamingui-Bangoran", Name="Bamingui-Bangoran", Type="Prefecture" },
-            new(){ Code ="BGF", LocalName="Bangui", Name="Bangui", Type="Commune" },
-            new(){ Code ="BK", LocalName="Basse-Kotto", Name="Basse-Kotto", Type="Prefecture" },
-            new(){ Code ="KB", LocalName="Gribingui", Name="Gribingui", Type="Prefecture" },
-            new(){ Code ="HK", LocalName="Haute-Kotto", Name="Haute-Kotto", Type="Prefecture" },
-            new(){ Code ="HM", LocalName="Haut-Mbomou", Name="Haut-Mbomou", Type="Prefecture" },
-            new(){ Code ="KG", LocalName="Kémo-Gribingui", Name="Kémo-Gribingui", Type="Prefecture" },
-            new(){ Code ="LB", LocalName="Lobaye", Name="Lobaye", Type="Prefecture" },
-            new(){ Code ="HS", LocalName="Mambéré-Kadéï", Name="Mambéré-Kadéï", Type="Prefecture" },
-            new(){ Code ="MB", LocalName="Mbomou", Name="Mbomou", Type="Prefecture" },
-            new(){ Code ="NM", LocalName="Nana-Mambéré", Name="Nana-Mambéré", Type="Prefecture" },
-            new(){ Code ="MP", LocalName="Ombella-Mpoko", Name="Ombella-Mpoko", Type="Prefecture" },
-            new(){ Code ="UK", LocalName="Ouaka", Name="Ouaka", Type="Prefecture" },
-            new(){ Code ="AC", LocalName="Ouham", Name="Ouham", Type="Prefecture" },
-            new(){ Code ="OP", LocalName="Ouham-Pendé", Name="Ouham-Pendé", Type="Prefecture" },
-            new(){ Code ="SE", LocalName="Sangha", Name="Sangha", Type="Prefecture" },
-            new(){ Code ="VK", LocalName="Vakaga", Name="Vakaga", Type="Prefecture" }
+            new()
+            { 
+                Code = "BB",
+                Type = "Prefecture",
+                Name = "Bamingui-Bangoran",
+                LocalName = "Bamingui-Bangoran"
+            },
+            new()
+            { 
+                Code = "BGF",
+                Type = "Commune",
+                Name = "Bangui",
+                LocalName = "Bangui"
+            },
+            new()
+            { 
+                Code = "BK",
+                Type = "Prefecture",
+                Name = "Basse-Kotto",
+                LocalName = "Basse-Kotto"
+            },
+            new()
+            { 
+                Code = "KB",
+                Type = "Prefecture",
+                Name = "Gribingui",
+                LocalName = "Gribingui"
+            },
+            new()
+            { 
+                Code = "HK",
+                Type = "Prefecture",
+                Name = "Haute-Kotto",
+                LocalName = "Haute-Kotto"
+            },
+            new()
+            { 
+                Code = "HM",
+                Type = "Prefecture",
+                Name = "Haut-Mbomou",
+                LocalName = "Haut-Mbomou"
+            },
+            new()
+            { 
+                Code = "KG",
+                Type = "Prefecture",
+                Name = "Kémo-Gribingui",
+                LocalName = "Kémo-Gribingui"
+            },
+            new()
+            { 
+                Code = "LB",
+                Type = "Prefecture",
+                Name = "Lobaye",
+                LocalName = "Lobaye"
+            },
+            new()
+            { 
+                Code = "HS",
+                Type = "Prefecture",
+                Name = "Mambéré-Kadéï",
+                LocalName = "Mambéré-Kadéï"
+            },
+            new()
+            { 
+                Code = "MB",
+                Type = "Prefecture",
+                Name = "Mbomou",
+                LocalName = "Mbomou"
+            },
+            new()
+            { 
+                Code = "NM",
+                Type = "Prefecture",
+                Name = "Nana-Mambéré",
+                LocalName = "Nana-Mambéré"
+            },
+            new()
+            { 
+                Code = "MP",
+                Type = "Prefecture",
+                Name = "Ombella-Mpoko",
+                LocalName = "Ombella-Mpoko"
+            },
+            new()
+            { 
+                Code = "UK",
+                Type = "Prefecture",
+                Name = "Ouaka",
+                LocalName = "Ouaka"
+            },
+            new()
+            { 
+                Code = "AC",
+                Type = "Prefecture",
+                Name = "Ouham",
+                LocalName = "Ouham"
+            },
+            new()
+            { 
+                Code = "OP",
+                Type = "Prefecture",
+                Name = "Ouham-Pendé",
+                LocalName = "Ouham-Pendé"
+            },
+            new()
+            { 
+                Code = "SE",
+                Type = "Prefecture",
+                Name = "Sangha",
+                LocalName = "Sangha"
+            },
+            new()
+            { 
+                Code = "VK",
+                Type = "Prefecture",
+                Name = "Vakaga",
+                LocalName = "Vakaga"
+            }
 
         });
     }

@@ -7,8 +7,20 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("ST", new List<Subdivision>()
         {
-            new(){ Code ="P", LocalName="Príncipe", Name="Príncipe", Type="Province" },
-            new(){ Code ="S", LocalName="São Tomé", Name="São Tomé", Type="Province" }
+            new()
+            { 
+                Code = "P",
+                Type = "Province",
+                Name = "Príncipe",
+                LocalName = "Príncipe"
+            },
+            new()
+            { 
+                Code = "S",
+                Type = "Province",
+                Name = "São Tomé",
+                LocalName = "São Tomé"
+            }
 
         });
     }

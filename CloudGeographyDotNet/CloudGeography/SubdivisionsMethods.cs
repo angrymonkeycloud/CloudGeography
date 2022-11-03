@@ -10,7 +10,7 @@ public partial class CloudGeographyClient
 
 		internal SubdivisionsMethods(CloudGeographyClient client) => Client = client;
 
-		public List<Subdivision> GetAll(string countryCode)
+		private static List<Subdivision> GetAll(string countryCode)
 		{
 			try
 			{
@@ -19,7 +19,7 @@ public partial class CloudGeographyClient
 			catch { return new List<Subdivision>(); }
 		}
 
-		public List<Subdivision> Get(string countryCode, params string[] subdivisionCodes) => GetAll(countryCode).Where(key => subdivisionCodes.Any(s => key.CodeCheck(s))).ToList();
+		public List<Subdivision> Get(string countryCode, params string[] subdivisionCodes) => subdivisionCodes.Any() ? GetAll(countryCode).Where(key => subdivisionCodes.Any(s => key.CodeCheck(s))).ToList() : GetAll(countryCode);
 
 		public Subdivision? Get(string countryCode, string subdivisionCode) => GetAll(countryCode).FirstOrDefault(key => key.CodeCheck(subdivisionCode));
 	}

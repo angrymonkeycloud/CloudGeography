@@ -7,40 +7,244 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("ID", new List<Subdivision>()
         {
-            new(){ Code ="AC", LocalName="Aceh", Name="Aceh", Type="Province" },
-            new(){ Code ="BA", LocalName="Bali", Name="Bali", Type="Province" },
-            new(){ Code ="BT", LocalName="Banten", Name="Banten", Type="Province" },
-            new(){ Code ="BE", LocalName="Bengkulu", Name="Bengkulu", Type="Province" },
-            new(){ Code ="GO", LocalName="Gorontalo", Name="Gorontalo", Type="Province" },
-            new(){ Code ="JK", LocalName="Jakarta Raya", Name="Jakarta Raya", Type="District" },
-            new(){ Code ="JA", LocalName="Jambi", Name="Jambi", Type="Province" },
-            new(){ Code ="JB", LocalName="Jawa Barat", Name="Jawa Barat", Type="Province" },
-            new(){ Code ="JT", LocalName="Jawa Tengah", Name="Jawa Tengah", Type="Province" },
-            new(){ Code ="JI", LocalName="Jawa Timur", Name="Jawa Timur", Type="Province" },
-            new(){ Code ="KB", LocalName="Kalimantan Barat", Name="Kalimantan Barat", Type="Province" },
-            new(){ Code ="KS", LocalName="Kalimantan Selatan", Name="Kalimantan Selatan", Type="Province" },
-            new(){ Code ="KT", LocalName="Kalimantan Tengah", Name="Kalimantan Tengah", Type="Province" },
-            new(){ Code ="KI", LocalName="Kalimantan Timur", Name="Kalimantan Timur", Type="Province" },
-            new(){ Code ="KU", LocalName="Kalimantan Utara", Name="Kalimantan Utara", Type="Province" },
-            new(){ Code ="BB", LocalName="Kepulauan Bangka Belitung", Name="Kepulauan Bangka Belitung", Type="Province" },
-            new(){ Code ="KR", LocalName="Kepulauan Riau", Name="Kepulauan Riau", Type="Province" },
-            new(){ Code ="LA", LocalName="Lampung", Name="Lampung", Type="Province" },
-            new(){ Code ="MA", LocalName="Maluku", Name="Maluku", Type="Province" },
-            new(){ Code ="MU", LocalName="Maluku Utara", Name="Maluku Utara", Type="Province" },
-            new(){ Code ="NB", LocalName="Nusa Tenggara Barat", Name="Nusa Tenggara Barat", Type="Province" },
-            new(){ Code ="NT", LocalName="Nusa Tenggara Timur", Name="Nusa Tenggara Timur", Type="Province" },
-            new(){ Code ="PA", LocalName="Papua", Name="Papua", Type="Province" },
-            new(){ Code ="PB", LocalName="Papua Barat", Name="Papua Barat", Type="Province" },
-            new(){ Code ="RI", LocalName="Riau", Name="Riau", Type="Province" },
-            new(){ Code ="SR", LocalName="Sulawesi Barat", Name="Sulawesi Barat", Type="Province" },
-            new(){ Code ="SN", LocalName="Sulawesi Selatan", Name="Sulawesi Selatan", Type="Province" },
-            new(){ Code ="ST", LocalName="Sulawesi Tengah", Name="Sulawesi Tengah", Type="Province" },
-            new(){ Code ="SG", LocalName="Sulawesi Tenggara", Name="Sulawesi Tenggara", Type="Province" },
-            new(){ Code ="SA", LocalName="Sulawesi Utara", Name="Sulawesi Utara", Type="Province" },
-            new(){ Code ="SB", LocalName="Sumatera Barat", Name="Sumatera Barat", Type="Province" },
-            new(){ Code ="SS", LocalName="Sumatera Selatan", Name="Sumatera Selatan", Type="Province" },
-            new(){ Code ="SU", LocalName="Sumatera Utara", Name="Sumatera Utara", Type="Province" },
-            new(){ Code ="YO", LocalName="Yogyakarta", Name="Yogyakarta", Type="Region" }
+            new()
+            { 
+                Code = "AC",
+                Type = "Province",
+                Name = "Aceh",
+                LocalName = "Aceh"
+            },
+            new()
+            { 
+                Code = "BA",
+                Type = "Province",
+                Name = "Bali",
+                LocalName = "Bali"
+            },
+            new()
+            { 
+                Code = "BT",
+                Type = "Province",
+                Name = "Banten",
+                LocalName = "Banten"
+            },
+            new()
+            { 
+                Code = "BE",
+                Type = "Province",
+                Name = "Bengkulu",
+                LocalName = "Bengkulu"
+            },
+            new()
+            { 
+                Code = "GO",
+                Type = "Province",
+                Name = "Gorontalo",
+                LocalName = "Gorontalo"
+            },
+            new()
+            { 
+                Code = "JK",
+                Type = "District",
+                Name = "Jakarta Raya",
+                LocalName = "Jakarta Raya"
+            },
+            new()
+            { 
+                Code = "JA",
+                Type = "Province",
+                Name = "Jambi",
+                LocalName = "Jambi"
+            },
+            new()
+            { 
+                Code = "JB",
+                Type = "Province",
+                Name = "Jawa Barat",
+                LocalName = "Jawa Barat"
+            },
+            new()
+            { 
+                Code = "JT",
+                Type = "Province",
+                Name = "Jawa Tengah",
+                LocalName = "Jawa Tengah"
+            },
+            new()
+            { 
+                Code = "JI",
+                Type = "Province",
+                Name = "Jawa Timur",
+                LocalName = "Jawa Timur"
+            },
+            new()
+            { 
+                Code = "KB",
+                Type = "Province",
+                Name = "Kalimantan Barat",
+                LocalName = "Kalimantan Barat"
+            },
+            new()
+            { 
+                Code = "KS",
+                Type = "Province",
+                Name = "Kalimantan Selatan",
+                LocalName = "Kalimantan Selatan"
+            },
+            new()
+            { 
+                Code = "KT",
+                Type = "Province",
+                Name = "Kalimantan Tengah",
+                LocalName = "Kalimantan Tengah"
+            },
+            new()
+            { 
+                Code = "KI",
+                Type = "Province",
+                Name = "Kalimantan Timur",
+                LocalName = "Kalimantan Timur"
+            },
+            new()
+            { 
+                Code = "KU",
+                Type = "Province",
+                Name = "Kalimantan Utara",
+                LocalName = "Kalimantan Utara"
+            },
+            new()
+            { 
+                Code = "BB",
+                Type = "Province",
+                Name = "Kepulauan Bangka Belitung",
+                LocalName = "Kepulauan Bangka Belitung"
+            },
+            new()
+            { 
+                Code = "KR",
+                Type = "Province",
+                Name = "Kepulauan Riau",
+                LocalName = "Kepulauan Riau"
+            },
+            new()
+            { 
+                Code = "LA",
+                Type = "Province",
+                Name = "Lampung",
+                LocalName = "Lampung"
+            },
+            new()
+            { 
+                Code = "MA",
+                Type = "Province",
+                Name = "Maluku",
+                LocalName = "Maluku"
+            },
+            new()
+            { 
+                Code = "MU",
+                Type = "Province",
+                Name = "Maluku Utara",
+                LocalName = "Maluku Utara"
+            },
+            new()
+            { 
+                Code = "NB",
+                Type = "Province",
+                Name = "Nusa Tenggara Barat",
+                LocalName = "Nusa Tenggara Barat"
+            },
+            new()
+            { 
+                Code = "NT",
+                Type = "Province",
+                Name = "Nusa Tenggara Timur",
+                LocalName = "Nusa Tenggara Timur"
+            },
+            new()
+            { 
+                Code = "PA",
+                Type = "Province",
+                Name = "Papua",
+                LocalName = "Papua"
+            },
+            new()
+            { 
+                Code = "PB",
+                Type = "Province",
+                Name = "Papua Barat",
+                LocalName = "Papua Barat"
+            },
+            new()
+            { 
+                Code = "RI",
+                Type = "Province",
+                Name = "Riau",
+                LocalName = "Riau"
+            },
+            new()
+            { 
+                Code = "SR",
+                Type = "Province",
+                Name = "Sulawesi Barat",
+                LocalName = "Sulawesi Barat"
+            },
+            new()
+            { 
+                Code = "SN",
+                Type = "Province",
+                Name = "Sulawesi Selatan",
+                LocalName = "Sulawesi Selatan"
+            },
+            new()
+            { 
+                Code = "ST",
+                Type = "Province",
+                Name = "Sulawesi Tengah",
+                LocalName = "Sulawesi Tengah"
+            },
+            new()
+            { 
+                Code = "SG",
+                Type = "Province",
+                Name = "Sulawesi Tenggara",
+                LocalName = "Sulawesi Tenggara"
+            },
+            new()
+            { 
+                Code = "SA",
+                Type = "Province",
+                Name = "Sulawesi Utara",
+                LocalName = "Sulawesi Utara"
+            },
+            new()
+            { 
+                Code = "SB",
+                Type = "Province",
+                Name = "Sumatera Barat",
+                LocalName = "Sumatera Barat"
+            },
+            new()
+            { 
+                Code = "SS",
+                Type = "Province",
+                Name = "Sumatera Selatan",
+                LocalName = "Sumatera Selatan"
+            },
+            new()
+            { 
+                Code = "SU",
+                Type = "Province",
+                Name = "Sumatera Utara",
+                LocalName = "Sumatera Utara"
+            },
+            new()
+            { 
+                Code = "YO",
+                Type = "Region",
+                Name = "Yogyakarta",
+                LocalName = "Yogyakarta"
+            }
 
         });
     }

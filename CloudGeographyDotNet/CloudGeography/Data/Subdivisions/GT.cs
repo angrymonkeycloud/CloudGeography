@@ -7,28 +7,160 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("GT", new List<Subdivision>()
         {
-            new(){ Code ="AV", LocalName="Alta Verapaz", Name="Alta Verapaz", Type="Department" },
-            new(){ Code ="BV", LocalName="Baja Verapaz", Name="Baja Verapaz", Type="Department" },
-            new(){ Code ="CM", LocalName="Chimaltenango", Name="Chimaltenango", Type="Department" },
-            new(){ Code ="CQ", LocalName="Chiquimula", Name="Chiquimula", Type="Department" },
-            new(){ Code ="PR", LocalName="El Progreso", Name="El Progreso", Type="Department" },
-            new(){ Code ="ES", LocalName="Escuintla", Name="Escuintla", Type="Department" },
-            new(){ Code ="GU", LocalName="Guatemala", Name="Guatemala", Type="Department" },
-            new(){ Code ="HU", LocalName="Huehuetenango", Name="Huehuetenango", Type="Department" },
-            new(){ Code ="IZ", LocalName="Izabal", Name="Izabal", Type="Department" },
-            new(){ Code ="JA", LocalName="Jalapa", Name="Jalapa", Type="Department" },
-            new(){ Code ="JU", LocalName="Jutiapa", Name="Jutiapa", Type="Department" },
-            new(){ Code ="PE", LocalName="Petén", Name="Petén", Type="Department" },
-            new(){ Code ="QZ", LocalName="Quetzaltenango", Name="Quetzaltenango", Type="Department" },
-            new(){ Code ="QC", LocalName="Quiché", Name="Quiché", Type="Department" },
-            new(){ Code ="RE", LocalName="Retalhuleu", Name="Retalhuleu", Type="Department" },
-            new(){ Code ="SA", LocalName="Sacatepéquez", Name="Sacatepéquez", Type="Department" },
-            new(){ Code ="SM", LocalName="San Marcos", Name="San Marcos", Type="Department" },
-            new(){ Code ="SR", LocalName="Santa Rosa", Name="Santa Rosa", Type="Department" },
-            new(){ Code ="SO", LocalName="Sololá", Name="Sololá", Type="Department" },
-            new(){ Code ="SU", LocalName="Suchitepéquez", Name="Suchitepéquez", Type="Department" },
-            new(){ Code ="TO", LocalName="Totonicapán", Name="Totonicapán", Type="Department" },
-            new(){ Code ="ZA", LocalName="Zacapa", Name="Zacapa", Type="Department" }
+            new()
+            { 
+                Code = "AV",
+                Type = "Department",
+                Name = "Alta Verapaz",
+                LocalName = "Alta Verapaz"
+            },
+            new()
+            { 
+                Code = "BV",
+                Type = "Department",
+                Name = "Baja Verapaz",
+                LocalName = "Baja Verapaz"
+            },
+            new()
+            { 
+                Code = "CM",
+                Type = "Department",
+                Name = "Chimaltenango",
+                LocalName = "Chimaltenango"
+            },
+            new()
+            { 
+                Code = "CQ",
+                Type = "Department",
+                Name = "Chiquimula",
+                LocalName = "Chiquimula"
+            },
+            new()
+            { 
+                Code = "PR",
+                Type = "Department",
+                Name = "El Progreso",
+                LocalName = "El Progreso"
+            },
+            new()
+            { 
+                Code = "ES",
+                Type = "Department",
+                Name = "Escuintla",
+                LocalName = "Escuintla"
+            },
+            new()
+            { 
+                Code = "GU",
+                Type = "Department",
+                Name = "Guatemala",
+                LocalName = "Guatemala"
+            },
+            new()
+            { 
+                Code = "HU",
+                Type = "Department",
+                Name = "Huehuetenango",
+                LocalName = "Huehuetenango"
+            },
+            new()
+            { 
+                Code = "IZ",
+                Type = "Department",
+                Name = "Izabal",
+                LocalName = "Izabal"
+            },
+            new()
+            { 
+                Code = "JA",
+                Type = "Department",
+                Name = "Jalapa",
+                LocalName = "Jalapa"
+            },
+            new()
+            { 
+                Code = "JU",
+                Type = "Department",
+                Name = "Jutiapa",
+                LocalName = "Jutiapa"
+            },
+            new()
+            { 
+                Code = "PE",
+                Type = "Department",
+                Name = "Petén",
+                LocalName = "Petén"
+            },
+            new()
+            { 
+                Code = "QZ",
+                Type = "Department",
+                Name = "Quetzaltenango",
+                LocalName = "Quetzaltenango"
+            },
+            new()
+            { 
+                Code = "QC",
+                Type = "Department",
+                Name = "Quiché",
+                LocalName = "Quiché"
+            },
+            new()
+            { 
+                Code = "RE",
+                Type = "Department",
+                Name = "Retalhuleu",
+                LocalName = "Retalhuleu"
+            },
+            new()
+            { 
+                Code = "SA",
+                Type = "Department",
+                Name = "Sacatepéquez",
+                LocalName = "Sacatepéquez"
+            },
+            new()
+            { 
+                Code = "SM",
+                Type = "Department",
+                Name = "San Marcos",
+                LocalName = "San Marcos"
+            },
+            new()
+            { 
+                Code = "SR",
+                Type = "Department",
+                Name = "Santa Rosa",
+                LocalName = "Santa Rosa"
+            },
+            new()
+            { 
+                Code = "SO",
+                Type = "Department",
+                Name = "Sololá",
+                LocalName = "Sololá"
+            },
+            new()
+            { 
+                Code = "SU",
+                Type = "Department",
+                Name = "Suchitepéquez",
+                LocalName = "Suchitepéquez"
+            },
+            new()
+            { 
+                Code = "TO",
+                Type = "Department",
+                Name = "Totonicapán",
+                LocalName = "Totonicapán"
+            },
+            new()
+            { 
+                Code = "ZA",
+                Type = "Department",
+                Name = "Zacapa",
+                LocalName = "Zacapa"
+            }
 
         });
     }

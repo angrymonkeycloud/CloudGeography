@@ -7,19 +7,97 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("GR", new List<Subdivision>()
         {
-            new(){ Code ="A", LocalName="Anatolikí Makedonía kai Thráki", Name="Anatolikí Makedonía kai Thráki", Type="Region" },
-            new(){ Code ="I", LocalName="Attikí", Name="Attikí", Type="Region" },
-            new(){ Code ="G", LocalName="Dytikí Elláda", Name="Dytikí Elláda", Type="Region" },
-            new(){ Code ="C", LocalName="Dytiki Makedonia", Name="Dytiki Makedonia", Type="Region" },
-            new(){ Code ="F", LocalName="Ionía Nísia", Name="Ionía Nísia", Type="Region" },
-            new(){ Code ="D", LocalName="Ípeiros", Name="Ípeiros", Type="Region" },
-            new(){ Code ="B", LocalName="Kentrikí Makedonía", Name="Kentrikí Makedonía", Type="Region" },
-            new(){ Code ="M", LocalName="Kríti", Name="Kríti", Type="Region" },
-            new(){ Code ="L", LocalName="Notío Aigaío", Name="Notío Aigaío", Type="Region" },
-            new(){ Code ="J", LocalName="Peloponnísos", Name="Peloponnísos", Type="Region" },
-            new(){ Code ="H", LocalName="Stereá Elláda", Name="Stereá Elláda", Type="Region" },
-            new(){ Code ="E", LocalName="Thessalía", Name="Thessalía", Type="Region" },
-            new(){ Code ="K", LocalName="Voreío Aigaío", Name="Voreío Aigaío", Type="Region" }
+            new()
+            { 
+                Code = "A",
+                Type = "Region",
+                Name = "Anatolikí Makedonía kai Thráki",
+                LocalName = "Anatolikí Makedonía kai Thráki"
+            },
+            new()
+            { 
+                Code = "I",
+                Type = "Region",
+                Name = "Attikí",
+                LocalName = "Attikí"
+            },
+            new()
+            { 
+                Code = "G",
+                Type = "Region",
+                Name = "Dytikí Elláda",
+                LocalName = "Dytikí Elláda"
+            },
+            new()
+            { 
+                Code = "C",
+                Type = "Region",
+                Name = "Dytiki Makedonia",
+                LocalName = "Dytiki Makedonia"
+            },
+            new()
+            { 
+                Code = "F",
+                Type = "Region",
+                Name = "Ionía Nísia",
+                LocalName = "Ionía Nísia"
+            },
+            new()
+            { 
+                Code = "D",
+                Type = "Region",
+                Name = "Ípeiros",
+                LocalName = "Ípeiros"
+            },
+            new()
+            { 
+                Code = "B",
+                Type = "Region",
+                Name = "Kentrikí Makedonía",
+                LocalName = "Kentrikí Makedonía"
+            },
+            new()
+            { 
+                Code = "M",
+                Type = "Region",
+                Name = "Kríti",
+                LocalName = "Kríti"
+            },
+            new()
+            { 
+                Code = "L",
+                Type = "Region",
+                Name = "Notío Aigaío",
+                LocalName = "Notío Aigaío"
+            },
+            new()
+            { 
+                Code = "J",
+                Type = "Region",
+                Name = "Peloponnísos",
+                LocalName = "Peloponnísos"
+            },
+            new()
+            { 
+                Code = "H",
+                Type = "Region",
+                Name = "Stereá Elláda",
+                LocalName = "Stereá Elláda"
+            },
+            new()
+            { 
+                Code = "E",
+                Type = "Region",
+                Name = "Thessalía",
+                LocalName = "Thessalía"
+            },
+            new()
+            { 
+                Code = "K",
+                Type = "Region",
+                Name = "Voreío Aigaío",
+                LocalName = "Voreío Aigaío"
+            }
 
         });
     }

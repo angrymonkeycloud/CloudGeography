@@ -7,87 +7,573 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("RU", new List<Subdivision>()
         {
-            new(){ Code ="AD", LocalName="Adygeya", Name="Adygeya", Type="Republic" },
-            new(){ Code ="AL", LocalName="Altay", Name="Altay", Type="Republic" },
-            new(){ Code ="ALT", LocalName="Altayskiy kray", Name="Altayskiy kray", Type="Territory" },
-            new(){ Code ="AMU", LocalName="Amurskaya oblast'", Name="Amurskaya oblast'", Type="Region" },
-            new(){ Code ="ARK", LocalName="Arkhangel'skaya oblast", Name="Arkhangel'skaya oblast", Type="Region" },
-            new(){ Code ="AST", LocalName="Astrakhanskaya oblast'", Name="Astrakhanskaya oblast'", Type="Region" },
-            new(){ Code ="BA", LocalName="Bashkortostan", Name="Bashkortostan", Type="Republic" },
-            new(){ Code ="BEL", LocalName="Belgorodskaya oblast'", Name="Belgorodskaya oblast'", Type="Region" },
-            new(){ Code ="BRY", LocalName="Bryanskaya oblast'", Name="Bryanskaya oblast'", Type="Region" },
-            new(){ Code ="BU", LocalName="Buryatiya", Name="Buryatiya", Type="Republic" },
-            new(){ Code ="CE", LocalName="Chechenskaya Respublika", Name="Chechenskaya Respublika", Type="Republic" },
-            new(){ Code ="CHE", LocalName="Chelyabinskaya oblast'", Name="Chelyabinskaya oblast'", Type="Region" },
-            new(){ Code ="CHU", LocalName="Chukotskiy avtonomnyy okrug", Name="Chukotskiy avtonomnyy okrug", Type="District" },
-            new(){ Code ="CU", LocalName="Chuvashskaya Respublika", Name="Chuvashskaya Respublika", Type="Republic" },
-            new(){ Code ="DA", LocalName="Dagestan", Name="Dagestan", Type="Republic" },
-            new(){ Code ="IN", LocalName="Ingushskaya Respublika", Name="Ingushskaya Respublika", Type="Republic" },
-            new(){ Code ="IRK", LocalName="Irkutskaya oblast'", Name="Irkutskaya oblast'", Type="Region" },
-            new(){ Code ="IVA", LocalName="Ivanovskaya oblast'", Name="Ivanovskaya oblast'", Type="Region" },
-            new(){ Code ="KB", LocalName="Kabardino-Balkarskaya Respublika", Name="Kabardino-Balkarskaya Respublika", Type="Republic" },
-            new(){ Code ="KGD", LocalName="Kaliningradskaya oblast", Name="Kaliningradskaya oblast", Type="Region" },
-            new(){ Code ="KL", LocalName="Kalmykiya", Name="Kalmykiya", Type="Republic" },
-            new(){ Code ="KLU", LocalName="Kaluzhskaya oblast'", Name="Kaluzhskaya oblast'", Type="Region" },
-            new(){ Code ="KAM", LocalName="Kamchatskaya oblast'", Name="Kamchatskaya oblast'", Type="Region" },
-            new(){ Code ="KC", LocalName="Karachayevo-Cherkesskaya Respublika", Name="Karachayevo-Cherkesskaya Respublika", Type="Republic" },
-            new(){ Code ="KR", LocalName="Kareliya", Name="Kareliya", Type="Republic" },
-            new(){ Code ="KEM", LocalName="Kemerovskaya oblast'", Name="Kemerovskaya oblast'", Type="Region" },
-            new(){ Code ="KHA", LocalName="Khabarovskiy kray", Name="Khabarovskiy kray", Type="Territory" },
-            new(){ Code ="KK", LocalName="Khakasiya", Name="Khakasiya", Type="Republic" },
-            new(){ Code ="KHM", LocalName="Khanty-Mansiyskiy avtonomnyy okrug", Name="Khanty-Mansiyskiy avtonomnyy okrug", Type="District" },
-            new(){ Code ="KIR", LocalName="Kirovskaya oblast'", Name="Kirovskaya oblast'", Type="Region" },
-            new(){ Code ="KO", LocalName="Komi", Name="Komi", Type="Republic" },
-            new(){ Code ="KOS", LocalName="Kostromskaya oblast'", Name="Kostromskaya oblast'", Type="Region" },
-            new(){ Code ="KDA", LocalName="Krasnodarskiy kray", Name="Krasnodarskiy kray", Type="Territory" },
-            new(){ Code ="KYA", LocalName="Krasnoyarskiy kray", Name="Krasnoyarskiy kray", Type="Territory" },
-            new(){ Code ="KGN", LocalName="Kurganskaya oblast'", Name="Kurganskaya oblast'", Type="Region" },
-            new(){ Code ="KRS", LocalName="Kurskaya oblast'", Name="Kurskaya oblast'", Type="Region" },
-            new(){ Code ="LEN", LocalName="Leningradskaya oblast'", Name="Leningradskaya oblast'", Type="Region" },
-            new(){ Code ="LIP", LocalName="Lipetskaya oblast'", Name="Lipetskaya oblast'", Type="Region" },
-            new(){ Code ="MAG", LocalName="Magadanskaya oblast'", Name="Magadanskaya oblast'", Type="Region" },
-            new(){ Code ="ME", LocalName="Mariy El", Name="Mariy El", Type="Republic" },
-            new(){ Code ="MO", LocalName="Mordoviya", Name="Mordoviya", Type="Republic" },
-            new(){ Code ="MOS", LocalName="Moskovskaya oblast'", Name="Moskovskaya oblast'", Type="Region" },
-            new(){ Code ="MUR", LocalName="Murmanskaya oblast'", Name="Murmanskaya oblast'", Type="Region" },
-            new(){ Code ="NEN", LocalName="Nenetskiy avtonomnyy okrug", Name="Nenetskiy avtonomnyy okrug", Type="District" },
-            new(){ Code ="NIZ", LocalName="Nizhegorodskaya oblast'", Name="Nizhegorodskaya oblast'", Type="Region" },
-            new(){ Code ="NGR", LocalName="Novgorodskaya oblast'", Name="Novgorodskaya oblast'", Type="Region" },
-            new(){ Code ="NVS", LocalName="Novosibirskaya oblast'", Name="Novosibirskaya oblast'", Type="Region" },
-            new(){ Code ="OMS", LocalName="Omskaya oblast'", Name="Omskaya oblast'", Type="Region" },
-            new(){ Code ="ORE", LocalName="Orenburgskaya oblast'", Name="Orenburgskaya oblast'", Type="Region" },
-            new(){ Code ="ORL", LocalName="Orlovskaya oblast'", Name="Orlovskaya oblast'", Type="Region" },
-            new(){ Code ="PNZ", LocalName="Penzenskaya oblast'", Name="Penzenskaya oblast'", Type="Region" },
-            new(){ Code ="PER", LocalName="Perm", Name="Perm", Type="Territory" },
-            new(){ Code ="PRI", LocalName="Primorskiy kray", Name="Primorskiy kray", Type="Territory" },
-            new(){ Code ="PSK", LocalName="Pskovskaya oblast'", Name="Pskovskaya oblast'", Type="Region" },
-            new(){ Code ="ROS", LocalName="Rostovskaya oblast'", Name="Rostovskaya oblast'", Type="Region" },
-            new(){ Code ="RYA", LocalName="Ryazanskaya oblast'", Name="Ryazanskaya oblast'", Type="Region" },
-            new(){ Code ="SA", LocalName="Sakha", Name="Sakha", Type="Republic" },
-            new(){ Code ="SAK", LocalName="Sakhalinskaya oblast'", Name="Sakhalinskaya oblast'", Type="Region" },
-            new(){ Code ="SAM", LocalName="Samarskaya oblast'", Name="Samarskaya oblast'", Type="Region" },
-            new(){ Code ="SAR", LocalName="Saratovskaya oblast'", Name="Saratovskaya oblast'", Type="Region" },
-            new(){ Code ="SE", LocalName="Severnaya Osetiya", Name="Severnaya Osetiya", Type="Republic" },
-            new(){ Code ="SMO", LocalName="Smolenskaya oblast'", Name="Smolenskaya oblast'", Type="Region" },
-            new(){ Code ="STA", LocalName="Stavropol'skiy kray", Name="Stavropol'skiy kray", Type="Territory" },
-            new(){ Code ="SVE", LocalName="Sverdlovskaya oblast'", Name="Sverdlovskaya oblast'", Type="Region" },
-            new(){ Code ="TAM", LocalName="Tambovskaya oblast'", Name="Tambovskaya oblast'", Type="Region" },
-            new(){ Code ="TA", LocalName="Tatarstan", Name="Tatarstan", Type="Republic" },
-            new(){ Code ="TOM", LocalName="Tomskaya oblast'", Name="Tomskaya oblast'", Type="Region" },
-            new(){ Code ="TUL", LocalName="Tul'skaya oblast'", Name="Tul'skaya oblast'", Type="Region" },
-            new(){ Code ="TVE", LocalName="Tverskaya oblast'", Name="Tverskaya oblast'", Type="Region" },
-            new(){ Code ="TYU", LocalName="Tyumenskaya oblast'", Name="Tyumenskaya oblast'", Type="Region" },
-            new(){ Code ="TY", LocalName="Tyva", Name="Tyva", Type="Republic" },
-            new(){ Code ="UD", LocalName="Udmurtskaya Respublika", Name="Udmurtskaya Respublika", Type="Republic" },
-            new(){ Code ="ULY", LocalName="Ul'yanovskaya oblast'", Name="Ul'yanovskaya oblast'", Type="Region" },
-            new(){ Code ="VLA", LocalName="Vladimirskaya oblast'", Name="Vladimirskaya oblast'", Type="Region" },
-            new(){ Code ="VGG", LocalName="Volgogradskaya oblast'", Name="Volgogradskaya oblast'", Type="Region" },
-            new(){ Code ="VLG", LocalName="Vologodskaya oblast'", Name="Vologodskaya oblast'", Type="Region" },
-            new(){ Code ="VOR", LocalName="Voronezhskaya oblast'", Name="Voronezhskaya oblast'", Type="Region" },
-            new(){ Code ="YAN", LocalName="Yamalo-Nenetskiy avtonomnyy okrug", Name="Yamalo-Nenetskiy avtonomnyy okrug", Type="District" },
-            new(){ Code ="YAR", LocalName="Yaroslavskaya oblast'", Name="Yaroslavskaya oblast'", Type="Region" },
-            new(){ Code ="YEV", LocalName="Yevreyskaya avtonomnaya oblast'", Name="Yevreyskaya avtonomnaya oblast'", Type="Region" },
-            new(){ Code ="ZAB", LocalName="Zabaykal'skiy kray", Name="Zabaykal'skiy kray", Type="Territory" }
+            new()
+            { 
+                Code = "AD",
+                Type = "Republic",
+                Name = "Adygeya",
+                LocalName = "Adygeya"
+            },
+            new()
+            { 
+                Code = "AL",
+                Type = "Republic",
+                Name = "Altay",
+                LocalName = "Altay"
+            },
+            new()
+            { 
+                Code = "ALT",
+                Type = "Territory",
+                Name = "Altayskiy kray",
+                LocalName = "Altayskiy kray"
+            },
+            new()
+            { 
+                Code = "AMU",
+                Type = "Region",
+                Name = "Amurskaya oblast'",
+                LocalName = "Amurskaya oblast'"
+            },
+            new()
+            { 
+                Code = "ARK",
+                Type = "Region",
+                Name = "Arkhangel'skaya oblast",
+                LocalName = "Arkhangel'skaya oblast"
+            },
+            new()
+            { 
+                Code = "AST",
+                Type = "Region",
+                Name = "Astrakhanskaya oblast'",
+                LocalName = "Astrakhanskaya oblast'"
+            },
+            new()
+            { 
+                Code = "BA",
+                Type = "Republic",
+                Name = "Bashkortostan",
+                LocalName = "Bashkortostan"
+            },
+            new()
+            { 
+                Code = "BEL",
+                Type = "Region",
+                Name = "Belgorodskaya oblast'",
+                LocalName = "Belgorodskaya oblast'"
+            },
+            new()
+            { 
+                Code = "BRY",
+                Type = "Region",
+                Name = "Bryanskaya oblast'",
+                LocalName = "Bryanskaya oblast'"
+            },
+            new()
+            { 
+                Code = "BU",
+                Type = "Republic",
+                Name = "Buryatiya",
+                LocalName = "Buryatiya"
+            },
+            new()
+            { 
+                Code = "CE",
+                Type = "Republic",
+                Name = "Chechenskaya Respublika",
+                LocalName = "Chechenskaya Respublika"
+            },
+            new()
+            { 
+                Code = "CHE",
+                Type = "Region",
+                Name = "Chelyabinskaya oblast'",
+                LocalName = "Chelyabinskaya oblast'"
+            },
+            new()
+            { 
+                Code = "CHU",
+                Type = "District",
+                Name = "Chukotskiy avtonomnyy okrug",
+                LocalName = "Chukotskiy avtonomnyy okrug"
+            },
+            new()
+            { 
+                Code = "CU",
+                Type = "Republic",
+                Name = "Chuvashskaya Respublika",
+                LocalName = "Chuvashskaya Respublika"
+            },
+            new()
+            { 
+                Code = "DA",
+                Type = "Republic",
+                Name = "Dagestan",
+                LocalName = "Dagestan"
+            },
+            new()
+            { 
+                Code = "IN",
+                Type = "Republic",
+                Name = "Ingushskaya Respublika",
+                LocalName = "Ingushskaya Respublika"
+            },
+            new()
+            { 
+                Code = "IRK",
+                Type = "Region",
+                Name = "Irkutskaya oblast'",
+                LocalName = "Irkutskaya oblast'"
+            },
+            new()
+            { 
+                Code = "IVA",
+                Type = "Region",
+                Name = "Ivanovskaya oblast'",
+                LocalName = "Ivanovskaya oblast'"
+            },
+            new()
+            { 
+                Code = "KB",
+                Type = "Republic",
+                Name = "Kabardino-Balkarskaya Respublika",
+                LocalName = "Kabardino-Balkarskaya Respublika"
+            },
+            new()
+            { 
+                Code = "KGD",
+                Type = "Region",
+                Name = "Kaliningradskaya oblast",
+                LocalName = "Kaliningradskaya oblast"
+            },
+            new()
+            { 
+                Code = "KL",
+                Type = "Republic",
+                Name = "Kalmykiya",
+                LocalName = "Kalmykiya"
+            },
+            new()
+            { 
+                Code = "KLU",
+                Type = "Region",
+                Name = "Kaluzhskaya oblast'",
+                LocalName = "Kaluzhskaya oblast'"
+            },
+            new()
+            { 
+                Code = "KAM",
+                Type = "Region",
+                Name = "Kamchatskaya oblast'",
+                LocalName = "Kamchatskaya oblast'"
+            },
+            new()
+            { 
+                Code = "KC",
+                Type = "Republic",
+                Name = "Karachayevo-Cherkesskaya Respublika",
+                LocalName = "Karachayevo-Cherkesskaya Respublika"
+            },
+            new()
+            { 
+                Code = "KR",
+                Type = "Republic",
+                Name = "Kareliya",
+                LocalName = "Kareliya"
+            },
+            new()
+            { 
+                Code = "KEM",
+                Type = "Region",
+                Name = "Kemerovskaya oblast'",
+                LocalName = "Kemerovskaya oblast'"
+            },
+            new()
+            { 
+                Code = "KHA",
+                Type = "Territory",
+                Name = "Khabarovskiy kray",
+                LocalName = "Khabarovskiy kray"
+            },
+            new()
+            { 
+                Code = "KK",
+                Type = "Republic",
+                Name = "Khakasiya",
+                LocalName = "Khakasiya"
+            },
+            new()
+            { 
+                Code = "KHM",
+                Type = "District",
+                Name = "Khanty-Mansiyskiy avtonomnyy okrug",
+                LocalName = "Khanty-Mansiyskiy avtonomnyy okrug"
+            },
+            new()
+            { 
+                Code = "KIR",
+                Type = "Region",
+                Name = "Kirovskaya oblast'",
+                LocalName = "Kirovskaya oblast'"
+            },
+            new()
+            { 
+                Code = "KO",
+                Type = "Republic",
+                Name = "Komi",
+                LocalName = "Komi"
+            },
+            new()
+            { 
+                Code = "KOS",
+                Type = "Region",
+                Name = "Kostromskaya oblast'",
+                LocalName = "Kostromskaya oblast'"
+            },
+            new()
+            { 
+                Code = "KDA",
+                Type = "Territory",
+                Name = "Krasnodarskiy kray",
+                LocalName = "Krasnodarskiy kray"
+            },
+            new()
+            { 
+                Code = "KYA",
+                Type = "Territory",
+                Name = "Krasnoyarskiy kray",
+                LocalName = "Krasnoyarskiy kray"
+            },
+            new()
+            { 
+                Code = "KGN",
+                Type = "Region",
+                Name = "Kurganskaya oblast'",
+                LocalName = "Kurganskaya oblast'"
+            },
+            new()
+            { 
+                Code = "KRS",
+                Type = "Region",
+                Name = "Kurskaya oblast'",
+                LocalName = "Kurskaya oblast'"
+            },
+            new()
+            { 
+                Code = "LEN",
+                Type = "Region",
+                Name = "Leningradskaya oblast'",
+                LocalName = "Leningradskaya oblast'"
+            },
+            new()
+            { 
+                Code = "LIP",
+                Type = "Region",
+                Name = "Lipetskaya oblast'",
+                LocalName = "Lipetskaya oblast'"
+            },
+            new()
+            { 
+                Code = "MAG",
+                Type = "Region",
+                Name = "Magadanskaya oblast'",
+                LocalName = "Magadanskaya oblast'"
+            },
+            new()
+            { 
+                Code = "ME",
+                Type = "Republic",
+                Name = "Mariy El",
+                LocalName = "Mariy El"
+            },
+            new()
+            { 
+                Code = "MO",
+                Type = "Republic",
+                Name = "Mordoviya",
+                LocalName = "Mordoviya"
+            },
+            new()
+            { 
+                Code = "MOS",
+                Type = "Region",
+                Name = "Moskovskaya oblast'",
+                LocalName = "Moskovskaya oblast'"
+            },
+            new()
+            { 
+                Code = "MUR",
+                Type = "Region",
+                Name = "Murmanskaya oblast'",
+                LocalName = "Murmanskaya oblast'"
+            },
+            new()
+            { 
+                Code = "NEN",
+                Type = "District",
+                Name = "Nenetskiy avtonomnyy okrug",
+                LocalName = "Nenetskiy avtonomnyy okrug"
+            },
+            new()
+            { 
+                Code = "NIZ",
+                Type = "Region",
+                Name = "Nizhegorodskaya oblast'",
+                LocalName = "Nizhegorodskaya oblast'"
+            },
+            new()
+            { 
+                Code = "NGR",
+                Type = "Region",
+                Name = "Novgorodskaya oblast'",
+                LocalName = "Novgorodskaya oblast'"
+            },
+            new()
+            { 
+                Code = "NVS",
+                Type = "Region",
+                Name = "Novosibirskaya oblast'",
+                LocalName = "Novosibirskaya oblast'"
+            },
+            new()
+            { 
+                Code = "OMS",
+                Type = "Region",
+                Name = "Omskaya oblast'",
+                LocalName = "Omskaya oblast'"
+            },
+            new()
+            { 
+                Code = "ORE",
+                Type = "Region",
+                Name = "Orenburgskaya oblast'",
+                LocalName = "Orenburgskaya oblast'"
+            },
+            new()
+            { 
+                Code = "ORL",
+                Type = "Region",
+                Name = "Orlovskaya oblast'",
+                LocalName = "Orlovskaya oblast'"
+            },
+            new()
+            { 
+                Code = "PNZ",
+                Type = "Region",
+                Name = "Penzenskaya oblast'",
+                LocalName = "Penzenskaya oblast'"
+            },
+            new()
+            { 
+                Code = "PER",
+                Type = "Territory",
+                Name = "Perm",
+                LocalName = "Perm"
+            },
+            new()
+            { 
+                Code = "PRI",
+                Type = "Territory",
+                Name = "Primorskiy kray",
+                LocalName = "Primorskiy kray"
+            },
+            new()
+            { 
+                Code = "PSK",
+                Type = "Region",
+                Name = "Pskovskaya oblast'",
+                LocalName = "Pskovskaya oblast'"
+            },
+            new()
+            { 
+                Code = "ROS",
+                Type = "Region",
+                Name = "Rostovskaya oblast'",
+                LocalName = "Rostovskaya oblast'"
+            },
+            new()
+            { 
+                Code = "RYA",
+                Type = "Region",
+                Name = "Ryazanskaya oblast'",
+                LocalName = "Ryazanskaya oblast'"
+            },
+            new()
+            { 
+                Code = "SA",
+                Type = "Republic",
+                Name = "Sakha",
+                LocalName = "Sakha"
+            },
+            new()
+            { 
+                Code = "SAK",
+                Type = "Region",
+                Name = "Sakhalinskaya oblast'",
+                LocalName = "Sakhalinskaya oblast'"
+            },
+            new()
+            { 
+                Code = "SAM",
+                Type = "Region",
+                Name = "Samarskaya oblast'",
+                LocalName = "Samarskaya oblast'"
+            },
+            new()
+            { 
+                Code = "SAR",
+                Type = "Region",
+                Name = "Saratovskaya oblast'",
+                LocalName = "Saratovskaya oblast'"
+            },
+            new()
+            { 
+                Code = "SE",
+                Type = "Republic",
+                Name = "Severnaya Osetiya",
+                LocalName = "Severnaya Osetiya"
+            },
+            new()
+            { 
+                Code = "SMO",
+                Type = "Region",
+                Name = "Smolenskaya oblast'",
+                LocalName = "Smolenskaya oblast'"
+            },
+            new()
+            { 
+                Code = "STA",
+                Type = "Territory",
+                Name = "Stavropol'skiy kray",
+                LocalName = "Stavropol'skiy kray"
+            },
+            new()
+            { 
+                Code = "SVE",
+                Type = "Region",
+                Name = "Sverdlovskaya oblast'",
+                LocalName = "Sverdlovskaya oblast'"
+            },
+            new()
+            { 
+                Code = "TAM",
+                Type = "Region",
+                Name = "Tambovskaya oblast'",
+                LocalName = "Tambovskaya oblast'"
+            },
+            new()
+            { 
+                Code = "TA",
+                Type = "Republic",
+                Name = "Tatarstan",
+                LocalName = "Tatarstan"
+            },
+            new()
+            { 
+                Code = "TOM",
+                Type = "Region",
+                Name = "Tomskaya oblast'",
+                LocalName = "Tomskaya oblast'"
+            },
+            new()
+            { 
+                Code = "TUL",
+                Type = "Region",
+                Name = "Tul'skaya oblast'",
+                LocalName = "Tul'skaya oblast'"
+            },
+            new()
+            { 
+                Code = "TVE",
+                Type = "Region",
+                Name = "Tverskaya oblast'",
+                LocalName = "Tverskaya oblast'"
+            },
+            new()
+            { 
+                Code = "TYU",
+                Type = "Region",
+                Name = "Tyumenskaya oblast'",
+                LocalName = "Tyumenskaya oblast'"
+            },
+            new()
+            { 
+                Code = "TY",
+                Type = "Republic",
+                Name = "Tyva",
+                LocalName = "Tyva"
+            },
+            new()
+            { 
+                Code = "UD",
+                Type = "Republic",
+                Name = "Udmurtskaya Respublika",
+                LocalName = "Udmurtskaya Respublika"
+            },
+            new()
+            { 
+                Code = "ULY",
+                Type = "Region",
+                Name = "Ul'yanovskaya oblast'",
+                LocalName = "Ul'yanovskaya oblast'"
+            },
+            new()
+            { 
+                Code = "VLA",
+                Type = "Region",
+                Name = "Vladimirskaya oblast'",
+                LocalName = "Vladimirskaya oblast'"
+            },
+            new()
+            { 
+                Code = "VGG",
+                Type = "Region",
+                Name = "Volgogradskaya oblast'",
+                LocalName = "Volgogradskaya oblast'"
+            },
+            new()
+            { 
+                Code = "VLG",
+                Type = "Region",
+                Name = "Vologodskaya oblast'",
+                LocalName = "Vologodskaya oblast'"
+            },
+            new()
+            { 
+                Code = "VOR",
+                Type = "Region",
+                Name = "Voronezhskaya oblast'",
+                LocalName = "Voronezhskaya oblast'"
+            },
+            new()
+            { 
+                Code = "YAN",
+                Type = "District",
+                Name = "Yamalo-Nenetskiy avtonomnyy okrug",
+                LocalName = "Yamalo-Nenetskiy avtonomnyy okrug"
+            },
+            new()
+            { 
+                Code = "YAR",
+                Type = "Region",
+                Name = "Yaroslavskaya oblast'",
+                LocalName = "Yaroslavskaya oblast'"
+            },
+            new()
+            { 
+                Code = "YEV",
+                Type = "Region",
+                Name = "Yevreyskaya avtonomnaya oblast'",
+                LocalName = "Yevreyskaya avtonomnaya oblast'"
+            },
+            new()
+            { 
+                Code = "ZAB",
+                Type = "Territory",
+                Name = "Zabaykal'skiy kray",
+                LocalName = "Zabaykal'skiy kray"
+            }
 
         });
     }

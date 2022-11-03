@@ -7,33 +7,195 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("EG", new List<Subdivision>()
         {
-            new(){ Code ="DK", LocalName="Ad Daqahliyah", Name="Ad Daqahliyah", Type="Governorate" },
-            new(){ Code ="FYM", LocalName="AI Fayyum", Name="AI Fayyum", Type="Governorate" },
-            new(){ Code ="GH", LocalName="AI Gharbiyah", Name="AI Gharbiyah", Type="Governorate" },
-            new(){ Code ="ALX", LocalName="AI Iskandariyah", Name="AI Iskandariyah", Type="Governorate" },
-            new(){ Code ="IS", LocalName="AI Isma 'iliyah", Name="AI Isma 'iliyah", Type="Governorate" },
-            new(){ Code ="GZ", LocalName="AI Jizah", Name="AI Jizah", Type="Governorate" },
-            new(){ Code ="MNF", LocalName="AI Minufiyah", Name="AI Minufiyah", Type="Governorate" },
-            new(){ Code ="MN", LocalName="AI Minya", Name="AI Minya", Type="Governorate" },
-            new(){ Code ="C", LocalName="AI Qahirah", Name="AI Qahirah", Type="Governorate" },
-            new(){ Code ="KB", LocalName="AI Qalyubiyah", Name="AI Qalyubiyah", Type="Governorate" },
-            new(){ Code ="WAD", LocalName="AI Wadi al Jadid", Name="AI Wadi al Jadid", Type="Governorate" },
-            new(){ Code ="BA", LocalName="Al Ba?r al A?mar", Name="Al Ba?r al A?mar", Type="Governorate" },
-            new(){ Code ="BH", LocalName="Al Bu?ayrah", Name="Al Bu?ayrah", Type="Governorate" },
-            new(){ Code ="LX", LocalName="Al Uqsur", Name="Al Uqsur", Type="Governorate" },
-            new(){ Code ="SUZ", LocalName="As Suways", Name="As Suways", Type="Governorate" },
-            new(){ Code ="SHR", LocalName="Ash Sharqiyah", Name="Ash Sharqiyah", Type="Governorate" },
-            new(){ Code ="ASN", LocalName="Aswan", Name="Aswan", Type="Governorate" },
-            new(){ Code ="AST", LocalName="Asyut", Name="Asyut", Type="Governorate" },
-            new(){ Code ="BNS", LocalName="Bani Suwayf", Name="Bani Suwayf", Type="Governorate" },
-            new(){ Code ="PTS", LocalName="Bur Sa'id", Name="Bur Sa'id", Type="Governorate" },
-            new(){ Code ="DT", LocalName="Dumyat", Name="Dumyat", Type="Governorate" },
-            new(){ Code ="JS", LocalName="Janub Sina'", Name="Janub Sina'", Type="Governorate" },
-            new(){ Code ="KFS", LocalName="Kafr ash Shaykh", Name="Kafr ash Shaykh", Type="Governorate" },
-            new(){ Code ="MT", LocalName="Matruh", Name="Matruh", Type="Governorate" },
-            new(){ Code ="KN", LocalName="Qina", Name="Qina", Type="Governorate" },
-            new(){ Code ="SIN", LocalName="Shamal Sina'", Name="Shamal Sina'", Type="Governorate" },
-            new(){ Code ="SHG", LocalName="Suhaj", Name="Suhaj", Type="Governorate" }
+            new()
+            { 
+                Code = "DK",
+                Type = "Governorate",
+                Name = "Ad Daqahliyah",
+                LocalName = "Ad Daqahliyah"
+            },
+            new()
+            { 
+                Code = "FYM",
+                Type = "Governorate",
+                Name = "AI Fayyum",
+                LocalName = "AI Fayyum"
+            },
+            new()
+            { 
+                Code = "GH",
+                Type = "Governorate",
+                Name = "AI Gharbiyah",
+                LocalName = "AI Gharbiyah"
+            },
+            new()
+            { 
+                Code = "ALX",
+                Type = "Governorate",
+                Name = "AI Iskandariyah",
+                LocalName = "AI Iskandariyah"
+            },
+            new()
+            { 
+                Code = "IS",
+                Type = "Governorate",
+                Name = "AI Isma 'iliyah",
+                LocalName = "AI Isma 'iliyah"
+            },
+            new()
+            { 
+                Code = "GZ",
+                Type = "Governorate",
+                Name = "AI Jizah",
+                LocalName = "AI Jizah"
+            },
+            new()
+            { 
+                Code = "MNF",
+                Type = "Governorate",
+                Name = "AI Minufiyah",
+                LocalName = "AI Minufiyah"
+            },
+            new()
+            { 
+                Code = "MN",
+                Type = "Governorate",
+                Name = "AI Minya",
+                LocalName = "AI Minya"
+            },
+            new()
+            { 
+                Code = "C",
+                Type = "Governorate",
+                Name = "AI Qahirah",
+                LocalName = "AI Qahirah"
+            },
+            new()
+            { 
+                Code = "KB",
+                Type = "Governorate",
+                Name = "AI Qalyubiyah",
+                LocalName = "AI Qalyubiyah"
+            },
+            new()
+            { 
+                Code = "WAD",
+                Type = "Governorate",
+                Name = "AI Wadi al Jadid",
+                LocalName = "AI Wadi al Jadid"
+            },
+            new()
+            { 
+                Code = "BA",
+                Type = "Governorate",
+                Name = "Al Ba?r al A?mar",
+                LocalName = "Al Ba?r al A?mar"
+            },
+            new()
+            { 
+                Code = "BH",
+                Type = "Governorate",
+                Name = "Al Bu?ayrah",
+                LocalName = "Al Bu?ayrah"
+            },
+            new()
+            { 
+                Code = "LX",
+                Type = "Governorate",
+                Name = "Al Uqsur",
+                LocalName = "Al Uqsur"
+            },
+            new()
+            { 
+                Code = "SUZ",
+                Type = "Governorate",
+                Name = "As Suways",
+                LocalName = "As Suways"
+            },
+            new()
+            { 
+                Code = "SHR",
+                Type = "Governorate",
+                Name = "Ash Sharqiyah",
+                LocalName = "Ash Sharqiyah"
+            },
+            new()
+            { 
+                Code = "ASN",
+                Type = "Governorate",
+                Name = "Aswan",
+                LocalName = "Aswan"
+            },
+            new()
+            { 
+                Code = "AST",
+                Type = "Governorate",
+                Name = "Asyut",
+                LocalName = "Asyut"
+            },
+            new()
+            { 
+                Code = "BNS",
+                Type = "Governorate",
+                Name = "Bani Suwayf",
+                LocalName = "Bani Suwayf"
+            },
+            new()
+            { 
+                Code = "PTS",
+                Type = "Governorate",
+                Name = "Bur Sa'id",
+                LocalName = "Bur Sa'id"
+            },
+            new()
+            { 
+                Code = "DT",
+                Type = "Governorate",
+                Name = "Dumyat",
+                LocalName = "Dumyat"
+            },
+            new()
+            { 
+                Code = "JS",
+                Type = "Governorate",
+                Name = "Janub Sina'",
+                LocalName = "Janub Sina'"
+            },
+            new()
+            { 
+                Code = "KFS",
+                Type = "Governorate",
+                Name = "Kafr ash Shaykh",
+                LocalName = "Kafr ash Shaykh"
+            },
+            new()
+            { 
+                Code = "MT",
+                Type = "Governorate",
+                Name = "Matruh",
+                LocalName = "Matruh"
+            },
+            new()
+            { 
+                Code = "KN",
+                Type = "Governorate",
+                Name = "Qina",
+                LocalName = "Qina"
+            },
+            new()
+            { 
+                Code = "SIN",
+                Type = "Governorate",
+                Name = "Shamal Sina'",
+                LocalName = "Shamal Sina'"
+            },
+            new()
+            { 
+                Code = "SHG",
+                Type = "Governorate",
+                Name = "Suhaj",
+                LocalName = "Suhaj"
+            }
 
         });
     }

@@ -7,24 +7,132 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("PY", new List<Subdivision>()
         {
-            new(){ Code ="16", LocalName="Alto Paraguay", Name="Alto Paraguay", Type="Department" },
-            new(){ Code ="10", LocalName="Alto Paraná", Name="Alto Paraná", Type="Department" },
-            new(){ Code ="13", LocalName="Amambay", Name="Amambay", Type="Department" },
-            new(){ Code ="ASU", LocalName="Asunción", Name="Asunción", Type="Capital" },
-            new(){ Code ="19", LocalName="Boquerón", Name="Boquerón", Type="Department" },
-            new(){ Code ="5", LocalName="Caaguazú", Name="Caaguazú", Type="Department" },
-            new(){ Code ="6", LocalName="Caazapá", Name="Caazapá", Type="Department" },
-            new(){ Code ="14", LocalName="Canindeyú", Name="Canindeyú", Type="Department" },
-            new(){ Code ="11", LocalName="Central", Name="Central", Type="Department" },
-            new(){ Code ="1", LocalName="Concepción", Name="Concepción", Type="Department" },
-            new(){ Code ="3", LocalName="Cordillera", Name="Cordillera", Type="Department" },
-            new(){ Code ="4", LocalName="Guairá", Name="Guairá", Type="Department" },
-            new(){ Code ="7", LocalName="Itapúa", Name="Itapúa", Type="Department" },
-            new(){ Code ="8", LocalName="Misiones", Name="Misiones", Type="Department" },
-            new(){ Code ="12", LocalName="Ñeembucú", Name="Ñeembucú", Type="Department" },
-            new(){ Code ="9", LocalName="Paraguarí", Name="Paraguarí", Type="Department" },
-            new(){ Code ="15", LocalName="Presidente Hayes", Name="Presidente Hayes", Type="Department" },
-            new(){ Code ="2", LocalName="San Pedro", Name="San Pedro", Type="Department" }
+            new()
+            { 
+                Code = "16",
+                Type = "Department",
+                Name = "Alto Paraguay",
+                LocalName = "Alto Paraguay"
+            },
+            new()
+            { 
+                Code = "10",
+                Type = "Department",
+                Name = "Alto Paraná",
+                LocalName = "Alto Paraná"
+            },
+            new()
+            { 
+                Code = "13",
+                Type = "Department",
+                Name = "Amambay",
+                LocalName = "Amambay"
+            },
+            new()
+            { 
+                Code = "ASU",
+                Type = "Capital",
+                Name = "Asunción",
+                LocalName = "Asunción"
+            },
+            new()
+            { 
+                Code = "19",
+                Type = "Department",
+                Name = "Boquerón",
+                LocalName = "Boquerón"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "Department",
+                Name = "Caaguazú",
+                LocalName = "Caaguazú"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "Department",
+                Name = "Caazapá",
+                LocalName = "Caazapá"
+            },
+            new()
+            { 
+                Code = "14",
+                Type = "Department",
+                Name = "Canindeyú",
+                LocalName = "Canindeyú"
+            },
+            new()
+            { 
+                Code = "11",
+                Type = "Department",
+                Name = "Central",
+                LocalName = "Central"
+            },
+            new()
+            { 
+                Code = "1",
+                Type = "Department",
+                Name = "Concepción",
+                LocalName = "Concepción"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "Department",
+                Name = "Cordillera",
+                LocalName = "Cordillera"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "Department",
+                Name = "Guairá",
+                LocalName = "Guairá"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "Department",
+                Name = "Itapúa",
+                LocalName = "Itapúa"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "Department",
+                Name = "Misiones",
+                LocalName = "Misiones"
+            },
+            new()
+            { 
+                Code = "12",
+                Type = "Department",
+                Name = "Ñeembucú",
+                LocalName = "Ñeembucú"
+            },
+            new()
+            { 
+                Code = "9",
+                Type = "Department",
+                Name = "Paraguarí",
+                LocalName = "Paraguarí"
+            },
+            new()
+            { 
+                Code = "15",
+                Type = "Department",
+                Name = "Presidente Hayes",
+                LocalName = "Presidente Hayes"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "Department",
+                Name = "San Pedro",
+                LocalName = "San Pedro"
+            }
 
         });
     }

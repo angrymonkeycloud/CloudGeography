@@ -7,88 +7,580 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("PH", new List<Subdivision>()
         {
-            new(){ Code ="ABR", LocalName="Abra", Name="Abra", Type="Province" },
-            new(){ Code ="AGN", LocalName="Agusan del Norte", Name="Agusan del Norte", Type="Province" },
-            new(){ Code ="AGS", LocalName="Agusan del Sur", Name="Agusan del Sur", Type="Province" },
-            new(){ Code ="AKL", LocalName="Aklan", Name="Aklan", Type="Province" },
-            new(){ Code ="ALB", LocalName="Albay", Name="Albay", Type="Province" },
-            new(){ Code ="ANT", LocalName="Antique", Name="Antique", Type="Province" },
-            new(){ Code ="APA", LocalName="Apayao", Name="Apayao", Type="Province" },
-            new(){ Code ="AUR", LocalName="Aurora", Name="Aurora", Type="Province" },
-            new(){ Code ="BAS", LocalName="Basilan", Name="Basilan", Type="Province" },
-            new(){ Code ="BAN", LocalName="Bataan", Name="Bataan", Type="Province" },
-            new(){ Code ="BTN", LocalName="Batanes", Name="Batanes", Type="Province" },
-            new(){ Code ="BTG", LocalName="Batangas", Name="Batangas", Type="Province" },
-            new(){ Code ="BEN", LocalName="Benguet", Name="Benguet", Type="Province" },
-            new(){ Code ="BIL", LocalName="Biliran", Name="Biliran", Type="Province" },
-            new(){ Code ="BOH", LocalName="Bohol", Name="Bohol", Type="Province" },
-            new(){ Code ="BUK", LocalName="Bukidnon", Name="Bukidnon", Type="Province" },
-            new(){ Code ="BUL", LocalName="Bulacan", Name="Bulacan", Type="Province" },
-            new(){ Code ="CAG", LocalName="Cagayan", Name="Cagayan", Type="Province" },
-            new(){ Code ="CAN", LocalName="Camarines Norte", Name="Camarines Norte", Type="Province" },
-            new(){ Code ="CAS", LocalName="Camarines Sur", Name="Camarines Sur", Type="Province" },
-            new(){ Code ="CAM", LocalName="Camiguin", Name="Camiguin", Type="Province" },
-            new(){ Code ="CAP", LocalName="Capiz", Name="Capiz", Type="Province" },
-            new(){ Code ="CAT", LocalName="Catanduanes", Name="Catanduanes", Type="Province" },
-            new(){ Code ="CAV", LocalName="Cavite", Name="Cavite", Type="Province" },
-            new(){ Code ="CEB", LocalName="Cebu", Name="Cebu", Type="Province" },
-            new(){ Code ="COM", LocalName="Compostela Valley", Name="Compostela Valley", Type="Province" },
-            new(){ Code ="DAV", LocalName="Davao del Norte", Name="Davao del Norte", Type="Province" },
-            new(){ Code ="DAS", LocalName="Davao del Sur", Name="Davao del Sur", Type="Province" },
-            new(){ Code ="DAO", LocalName="Davao Oriental", Name="Davao Oriental", Type="Province" },
-            new(){ Code ="DIN", LocalName="Dinagat Islands", Name="Dinagat Islands", Type="Province" },
-            new(){ Code ="EAS", LocalName="Eastern Samar", Name="Eastern Samar", Type="Province" },
-            new(){ Code ="GUI", LocalName="Guimaras", Name="Guimaras", Type="Province" },
-            new(){ Code ="IFU", LocalName="Ifugao", Name="Ifugao", Type="Province" },
-            new(){ Code ="ILN", LocalName="Ilocos Norte", Name="Ilocos Norte", Type="Province" },
-            new(){ Code ="ILS", LocalName="Ilocos Sur", Name="Ilocos Sur", Type="Province" },
-            new(){ Code ="ILI", LocalName="Iloilo", Name="Iloilo", Type="Province" },
-            new(){ Code ="ISA", LocalName="Isabela", Name="Isabela", Type="Province" },
-            new(){ Code ="KAL", LocalName="Kalinga-Apayao", Name="Kalinga-Apayao", Type="Province" },
-            new(){ Code ="DVO", LocalName="Kanlurang Dabaw", Name="Kanlurang Dabaw", Type="Province" },
-            new(){ Code ="NCO", LocalName="Kotabato", Name="Kotabato", Type="Province" },
-            new(){ Code ="LUN", LocalName="La Union", Name="La Union", Type="Province" },
-            new(){ Code ="LAG", LocalName="Laguna", Name="Laguna", Type="Province" },
-            new(){ Code ="LAN", LocalName="Lanao del Norte", Name="Lanao del Norte", Type="Province" },
-            new(){ Code ="LAS", LocalName="Lanao del Sur", Name="Lanao del Sur", Type="Province" },
-            new(){ Code ="LEY", LocalName="Leyte", Name="Leyte", Type="Province" },
-            new(){ Code ="MAG", LocalName="Maguindanao", Name="Maguindanao", Type="Province" },
-            new(){ Code ="MAD", LocalName="Marinduque", Name="Marinduque", Type="Province" },
-            new(){ Code ="MAS", LocalName="Masbate", Name="Masbate", Type="Province" },
-            new(){ Code ="MDC", LocalName="Mindoro Occidental", Name="Mindoro Occidental", Type="Province" },
-            new(){ Code ="MDR", LocalName="Mindoro Oriental", Name="Mindoro Oriental", Type="Province" },
-            new(){ Code ="MSC", LocalName="Misamis Occidental", Name="Misamis Occidental", Type="Province" },
-            new(){ Code ="MSR", LocalName="Misamis Oriental", Name="Misamis Oriental", Type="Province" },
-            new(){ Code ="MOU", LocalName="Mountain Province", Name="Mountain Province", Type="Province" },
-            new(){ Code ="0", LocalName="National Capital Région", Name="National Capital Région", Type="Region" },
-            new(){ Code ="NEC", LocalName="Negros occidental", Name="Negros occidental", Type="Province" },
-            new(){ Code ="NER", LocalName="Negros oriental", Name="Negros oriental", Type="Province" },
-            new(){ Code ="NSA", LocalName="Northern Samar", Name="Northern Samar", Type="Province" },
-            new(){ Code ="NUE", LocalName="Nueva Ecija", Name="Nueva Ecija", Type="Province" },
-            new(){ Code ="NUV", LocalName="Nueva Vizcaya", Name="Nueva Vizcaya", Type="Province" },
-            new(){ Code ="PLW", LocalName="Palawan", Name="Palawan", Type="Province" },
-            new(){ Code ="PAM", LocalName="Pampanga", Name="Pampanga", Type="Province" },
-            new(){ Code ="PAN", LocalName="Pangasinan", Name="Pangasinan", Type="Province" },
-            new(){ Code ="QUE", LocalName="Quezon", Name="Quezon", Type="Province" },
-            new(){ Code ="QUI", LocalName="Quirino", Name="Quirino", Type="Province" },
-            new(){ Code ="RIZ", LocalName="Rizal", Name="Rizal", Type="Province" },
-            new(){ Code ="ROM", LocalName="Romblon", Name="Romblon", Type="Province" },
-            new(){ Code ="SAR", LocalName="Sarangani", Name="Sarangani", Type="Province" },
-            new(){ Code ="SIG", LocalName="Siquijor", Name="Siquijor", Type="Province" },
-            new(){ Code ="SOR", LocalName="Sorsogon", Name="Sorsogon", Type="Province" },
-            new(){ Code ="SCO", LocalName="South Cotabato", Name="South Cotabato", Type="Province" },
-            new(){ Code ="SLE", LocalName="Southern Leyte", Name="Southern Leyte", Type="Province" },
-            new(){ Code ="SUK", LocalName="Sultan Kudarat", Name="Sultan Kudarat", Type="Province" },
-            new(){ Code ="SLU", LocalName="Sulu", Name="Sulu", Type="Province" },
-            new(){ Code ="SUN", LocalName="Surigao del Norte", Name="Surigao del Norte", Type="Province" },
-            new(){ Code ="SUR", LocalName="Surigao del Sur", Name="Surigao del Sur", Type="Province" },
-            new(){ Code ="TAR", LocalName="Tarlac", Name="Tarlac", Type="Province" },
-            new(){ Code ="TAW", LocalName="Tawi-Tawi", Name="Tawi-Tawi", Type="Province" },
-            new(){ Code ="WSA", LocalName="Western Samar", Name="Western Samar", Type="Province" },
-            new(){ Code ="ZMB", LocalName="Zambales", Name="Zambales", Type="Province" },
-            new(){ Code ="ZAN", LocalName="Zamboanga del Norte", Name="Zamboanga del Norte", Type="Province" },
-            new(){ Code ="ZAS", LocalName="Zamboanga del Sur", Name="Zamboanga del Sur", Type="Province" },
-            new(){ Code ="ZSI", LocalName="Zamboanga Sibuguey", Name="Zamboanga Sibuguey", Type="Province" }
+            new()
+            { 
+                Code = "ABR",
+                Type = "Province",
+                Name = "Abra",
+                LocalName = "Abra"
+            },
+            new()
+            { 
+                Code = "AGN",
+                Type = "Province",
+                Name = "Agusan del Norte",
+                LocalName = "Agusan del Norte"
+            },
+            new()
+            { 
+                Code = "AGS",
+                Type = "Province",
+                Name = "Agusan del Sur",
+                LocalName = "Agusan del Sur"
+            },
+            new()
+            { 
+                Code = "AKL",
+                Type = "Province",
+                Name = "Aklan",
+                LocalName = "Aklan"
+            },
+            new()
+            { 
+                Code = "ALB",
+                Type = "Province",
+                Name = "Albay",
+                LocalName = "Albay"
+            },
+            new()
+            { 
+                Code = "ANT",
+                Type = "Province",
+                Name = "Antique",
+                LocalName = "Antique"
+            },
+            new()
+            { 
+                Code = "APA",
+                Type = "Province",
+                Name = "Apayao",
+                LocalName = "Apayao"
+            },
+            new()
+            { 
+                Code = "AUR",
+                Type = "Province",
+                Name = "Aurora",
+                LocalName = "Aurora"
+            },
+            new()
+            { 
+                Code = "BAS",
+                Type = "Province",
+                Name = "Basilan",
+                LocalName = "Basilan"
+            },
+            new()
+            { 
+                Code = "BAN",
+                Type = "Province",
+                Name = "Bataan",
+                LocalName = "Bataan"
+            },
+            new()
+            { 
+                Code = "BTN",
+                Type = "Province",
+                Name = "Batanes",
+                LocalName = "Batanes"
+            },
+            new()
+            { 
+                Code = "BTG",
+                Type = "Province",
+                Name = "Batangas",
+                LocalName = "Batangas"
+            },
+            new()
+            { 
+                Code = "BEN",
+                Type = "Province",
+                Name = "Benguet",
+                LocalName = "Benguet"
+            },
+            new()
+            { 
+                Code = "BIL",
+                Type = "Province",
+                Name = "Biliran",
+                LocalName = "Biliran"
+            },
+            new()
+            { 
+                Code = "BOH",
+                Type = "Province",
+                Name = "Bohol",
+                LocalName = "Bohol"
+            },
+            new()
+            { 
+                Code = "BUK",
+                Type = "Province",
+                Name = "Bukidnon",
+                LocalName = "Bukidnon"
+            },
+            new()
+            { 
+                Code = "BUL",
+                Type = "Province",
+                Name = "Bulacan",
+                LocalName = "Bulacan"
+            },
+            new()
+            { 
+                Code = "CAG",
+                Type = "Province",
+                Name = "Cagayan",
+                LocalName = "Cagayan"
+            },
+            new()
+            { 
+                Code = "CAN",
+                Type = "Province",
+                Name = "Camarines Norte",
+                LocalName = "Camarines Norte"
+            },
+            new()
+            { 
+                Code = "CAS",
+                Type = "Province",
+                Name = "Camarines Sur",
+                LocalName = "Camarines Sur"
+            },
+            new()
+            { 
+                Code = "CAM",
+                Type = "Province",
+                Name = "Camiguin",
+                LocalName = "Camiguin"
+            },
+            new()
+            { 
+                Code = "CAP",
+                Type = "Province",
+                Name = "Capiz",
+                LocalName = "Capiz"
+            },
+            new()
+            { 
+                Code = "CAT",
+                Type = "Province",
+                Name = "Catanduanes",
+                LocalName = "Catanduanes"
+            },
+            new()
+            { 
+                Code = "CAV",
+                Type = "Province",
+                Name = "Cavite",
+                LocalName = "Cavite"
+            },
+            new()
+            { 
+                Code = "CEB",
+                Type = "Province",
+                Name = "Cebu",
+                LocalName = "Cebu"
+            },
+            new()
+            { 
+                Code = "COM",
+                Type = "Province",
+                Name = "Compostela Valley",
+                LocalName = "Compostela Valley"
+            },
+            new()
+            { 
+                Code = "DAV",
+                Type = "Province",
+                Name = "Davao del Norte",
+                LocalName = "Davao del Norte"
+            },
+            new()
+            { 
+                Code = "DAS",
+                Type = "Province",
+                Name = "Davao del Sur",
+                LocalName = "Davao del Sur"
+            },
+            new()
+            { 
+                Code = "DAO",
+                Type = "Province",
+                Name = "Davao Oriental",
+                LocalName = "Davao Oriental"
+            },
+            new()
+            { 
+                Code = "DIN",
+                Type = "Province",
+                Name = "Dinagat Islands",
+                LocalName = "Dinagat Islands"
+            },
+            new()
+            { 
+                Code = "EAS",
+                Type = "Province",
+                Name = "Eastern Samar",
+                LocalName = "Eastern Samar"
+            },
+            new()
+            { 
+                Code = "GUI",
+                Type = "Province",
+                Name = "Guimaras",
+                LocalName = "Guimaras"
+            },
+            new()
+            { 
+                Code = "IFU",
+                Type = "Province",
+                Name = "Ifugao",
+                LocalName = "Ifugao"
+            },
+            new()
+            { 
+                Code = "ILN",
+                Type = "Province",
+                Name = "Ilocos Norte",
+                LocalName = "Ilocos Norte"
+            },
+            new()
+            { 
+                Code = "ILS",
+                Type = "Province",
+                Name = "Ilocos Sur",
+                LocalName = "Ilocos Sur"
+            },
+            new()
+            { 
+                Code = "ILI",
+                Type = "Province",
+                Name = "Iloilo",
+                LocalName = "Iloilo"
+            },
+            new()
+            { 
+                Code = "ISA",
+                Type = "Province",
+                Name = "Isabela",
+                LocalName = "Isabela"
+            },
+            new()
+            { 
+                Code = "KAL",
+                Type = "Province",
+                Name = "Kalinga-Apayao",
+                LocalName = "Kalinga-Apayao"
+            },
+            new()
+            { 
+                Code = "DVO",
+                Type = "Province",
+                Name = "Kanlurang Dabaw",
+                LocalName = "Kanlurang Dabaw"
+            },
+            new()
+            { 
+                Code = "NCO",
+                Type = "Province",
+                Name = "Kotabato",
+                LocalName = "Kotabato"
+            },
+            new()
+            { 
+                Code = "LUN",
+                Type = "Province",
+                Name = "La Union",
+                LocalName = "La Union"
+            },
+            new()
+            { 
+                Code = "LAG",
+                Type = "Province",
+                Name = "Laguna",
+                LocalName = "Laguna"
+            },
+            new()
+            { 
+                Code = "LAN",
+                Type = "Province",
+                Name = "Lanao del Norte",
+                LocalName = "Lanao del Norte"
+            },
+            new()
+            { 
+                Code = "LAS",
+                Type = "Province",
+                Name = "Lanao del Sur",
+                LocalName = "Lanao del Sur"
+            },
+            new()
+            { 
+                Code = "LEY",
+                Type = "Province",
+                Name = "Leyte",
+                LocalName = "Leyte"
+            },
+            new()
+            { 
+                Code = "MAG",
+                Type = "Province",
+                Name = "Maguindanao",
+                LocalName = "Maguindanao"
+            },
+            new()
+            { 
+                Code = "MAD",
+                Type = "Province",
+                Name = "Marinduque",
+                LocalName = "Marinduque"
+            },
+            new()
+            { 
+                Code = "MAS",
+                Type = "Province",
+                Name = "Masbate",
+                LocalName = "Masbate"
+            },
+            new()
+            { 
+                Code = "MDC",
+                Type = "Province",
+                Name = "Mindoro Occidental",
+                LocalName = "Mindoro Occidental"
+            },
+            new()
+            { 
+                Code = "MDR",
+                Type = "Province",
+                Name = "Mindoro Oriental",
+                LocalName = "Mindoro Oriental"
+            },
+            new()
+            { 
+                Code = "MSC",
+                Type = "Province",
+                Name = "Misamis Occidental",
+                LocalName = "Misamis Occidental"
+            },
+            new()
+            { 
+                Code = "MSR",
+                Type = "Province",
+                Name = "Misamis Oriental",
+                LocalName = "Misamis Oriental"
+            },
+            new()
+            { 
+                Code = "MOU",
+                Type = "Province",
+                Name = "Mountain Province",
+                LocalName = "Mountain Province"
+            },
+            new()
+            { 
+                Code = "0",
+                Type = "Region",
+                Name = "National Capital Région",
+                LocalName = "National Capital Région"
+            },
+            new()
+            { 
+                Code = "NEC",
+                Type = "Province",
+                Name = "Negros occidental",
+                LocalName = "Negros occidental"
+            },
+            new()
+            { 
+                Code = "NER",
+                Type = "Province",
+                Name = "Negros oriental",
+                LocalName = "Negros oriental"
+            },
+            new()
+            { 
+                Code = "NSA",
+                Type = "Province",
+                Name = "Northern Samar",
+                LocalName = "Northern Samar"
+            },
+            new()
+            { 
+                Code = "NUE",
+                Type = "Province",
+                Name = "Nueva Ecija",
+                LocalName = "Nueva Ecija"
+            },
+            new()
+            { 
+                Code = "NUV",
+                Type = "Province",
+                Name = "Nueva Vizcaya",
+                LocalName = "Nueva Vizcaya"
+            },
+            new()
+            { 
+                Code = "PLW",
+                Type = "Province",
+                Name = "Palawan",
+                LocalName = "Palawan"
+            },
+            new()
+            { 
+                Code = "PAM",
+                Type = "Province",
+                Name = "Pampanga",
+                LocalName = "Pampanga"
+            },
+            new()
+            { 
+                Code = "PAN",
+                Type = "Province",
+                Name = "Pangasinan",
+                LocalName = "Pangasinan"
+            },
+            new()
+            { 
+                Code = "QUE",
+                Type = "Province",
+                Name = "Quezon",
+                LocalName = "Quezon"
+            },
+            new()
+            { 
+                Code = "QUI",
+                Type = "Province",
+                Name = "Quirino",
+                LocalName = "Quirino"
+            },
+            new()
+            { 
+                Code = "RIZ",
+                Type = "Province",
+                Name = "Rizal",
+                LocalName = "Rizal"
+            },
+            new()
+            { 
+                Code = "ROM",
+                Type = "Province",
+                Name = "Romblon",
+                LocalName = "Romblon"
+            },
+            new()
+            { 
+                Code = "SAR",
+                Type = "Province",
+                Name = "Sarangani",
+                LocalName = "Sarangani"
+            },
+            new()
+            { 
+                Code = "SIG",
+                Type = "Province",
+                Name = "Siquijor",
+                LocalName = "Siquijor"
+            },
+            new()
+            { 
+                Code = "SOR",
+                Type = "Province",
+                Name = "Sorsogon",
+                LocalName = "Sorsogon"
+            },
+            new()
+            { 
+                Code = "SCO",
+                Type = "Province",
+                Name = "South Cotabato",
+                LocalName = "South Cotabato"
+            },
+            new()
+            { 
+                Code = "SLE",
+                Type = "Province",
+                Name = "Southern Leyte",
+                LocalName = "Southern Leyte"
+            },
+            new()
+            { 
+                Code = "SUK",
+                Type = "Province",
+                Name = "Sultan Kudarat",
+                LocalName = "Sultan Kudarat"
+            },
+            new()
+            { 
+                Code = "SLU",
+                Type = "Province",
+                Name = "Sulu",
+                LocalName = "Sulu"
+            },
+            new()
+            { 
+                Code = "SUN",
+                Type = "Province",
+                Name = "Surigao del Norte",
+                LocalName = "Surigao del Norte"
+            },
+            new()
+            { 
+                Code = "SUR",
+                Type = "Province",
+                Name = "Surigao del Sur",
+                LocalName = "Surigao del Sur"
+            },
+            new()
+            { 
+                Code = "TAR",
+                Type = "Province",
+                Name = "Tarlac",
+                LocalName = "Tarlac"
+            },
+            new()
+            { 
+                Code = "TAW",
+                Type = "Province",
+                Name = "Tawi-Tawi",
+                LocalName = "Tawi-Tawi"
+            },
+            new()
+            { 
+                Code = "WSA",
+                Type = "Province",
+                Name = "Western Samar",
+                LocalName = "Western Samar"
+            },
+            new()
+            { 
+                Code = "ZMB",
+                Type = "Province",
+                Name = "Zambales",
+                LocalName = "Zambales"
+            },
+            new()
+            { 
+                Code = "ZAN",
+                Type = "Province",
+                Name = "Zamboanga del Norte",
+                LocalName = "Zamboanga del Norte"
+            },
+            new()
+            { 
+                Code = "ZAS",
+                Type = "Province",
+                Name = "Zamboanga del Sur",
+                LocalName = "Zamboanga del Sur"
+            },
+            new()
+            { 
+                Code = "ZSI",
+                Type = "Province",
+                Name = "Zamboanga Sibuguey",
+                LocalName = "Zamboanga Sibuguey"
+            }
 
         });
     }

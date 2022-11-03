@@ -7,23 +7,125 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("MU", new List<Subdivision>()
         {
-            new(){ Code ="AG", LocalName="Agalega Islands", Name="Agalega Islands", Type="Dependency" },
-            new(){ Code ="BR", LocalName="Beau Bassin-Rose Hill", Name="Beau Bassin-Rose Hill", Type="City" },
-            new(){ Code ="BL", LocalName="Black River", Name="Black River", Type="District" },
-            new(){ Code ="CC", LocalName="Cargados Carajos Shoals", Name="Cargados Carajos Shoals", Type="Dependency" },
-            new(){ Code ="CU", LocalName="Curepipe", Name="Curepipe", Type="City" },
-            new(){ Code ="FL", LocalName="Flacq", Name="Flacq", Type="District" },
-            new(){ Code ="GP", LocalName="Grand Port", Name="Grand Port", Type="District" },
-            new(){ Code ="MO", LocalName="Moka", Name="Moka", Type="District" },
-            new(){ Code ="PA", LocalName="Pamplemousses", Name="Pamplemousses", Type="District" },
-            new(){ Code ="PW", LocalName="Plaines wilhems", Name="Plaines wilhems", Type="District" },
-            new(){ Code ="PL", LocalName="Port Louis", Name="Port Louis", Type="District" },
-            new(){ Code ="PU", LocalName="Port Louis", Name="Port Louis", Type="City" },
-            new(){ Code ="QB", LocalName="Quatre Bornes", Name="Quatre Bornes", Type="City" },
-            new(){ Code ="RR", LocalName="Rivière du Rempart", Name="Rivière du Rempart", Type="District" },
-            new(){ Code ="RO", LocalName="Rodrigues Island", Name="Rodrigues Island", Type="Dependency" },
-            new(){ Code ="SA", LocalName="Savanne", Name="Savanne", Type="District" },
-            new(){ Code ="VP", LocalName="Vacoas-Phoenix", Name="Vacoas-Phoenix", Type="City" }
+            new()
+            { 
+                Code = "AG",
+                Type = "Dependency",
+                Name = "Agalega Islands",
+                LocalName = "Agalega Islands"
+            },
+            new()
+            { 
+                Code = "BR",
+                Type = "City",
+                Name = "Beau Bassin-Rose Hill",
+                LocalName = "Beau Bassin-Rose Hill"
+            },
+            new()
+            { 
+                Code = "BL",
+                Type = "District",
+                Name = "Black River",
+                LocalName = "Black River"
+            },
+            new()
+            { 
+                Code = "CC",
+                Type = "Dependency",
+                Name = "Cargados Carajos Shoals",
+                LocalName = "Cargados Carajos Shoals"
+            },
+            new()
+            { 
+                Code = "CU",
+                Type = "City",
+                Name = "Curepipe",
+                LocalName = "Curepipe"
+            },
+            new()
+            { 
+                Code = "FL",
+                Type = "District",
+                Name = "Flacq",
+                LocalName = "Flacq"
+            },
+            new()
+            { 
+                Code = "GP",
+                Type = "District",
+                Name = "Grand Port",
+                LocalName = "Grand Port"
+            },
+            new()
+            { 
+                Code = "MO",
+                Type = "District",
+                Name = "Moka",
+                LocalName = "Moka"
+            },
+            new()
+            { 
+                Code = "PA",
+                Type = "District",
+                Name = "Pamplemousses",
+                LocalName = "Pamplemousses"
+            },
+            new()
+            { 
+                Code = "PW",
+                Type = "District",
+                Name = "Plaines wilhems",
+                LocalName = "Plaines wilhems"
+            },
+            new()
+            { 
+                Code = "PL",
+                Type = "District",
+                Name = "Port Louis",
+                LocalName = "Port Louis"
+            },
+            new()
+            { 
+                Code = "PU",
+                Type = "City",
+                Name = "Port Louis",
+                LocalName = "Port Louis"
+            },
+            new()
+            { 
+                Code = "QB",
+                Type = "City",
+                Name = "Quatre Bornes",
+                LocalName = "Quatre Bornes"
+            },
+            new()
+            { 
+                Code = "RR",
+                Type = "District",
+                Name = "Rivière du Rempart",
+                LocalName = "Rivière du Rempart"
+            },
+            new()
+            { 
+                Code = "RO",
+                Type = "Dependency",
+                Name = "Rodrigues Island",
+                LocalName = "Rodrigues Island"
+            },
+            new()
+            { 
+                Code = "SA",
+                Type = "District",
+                Name = "Savanne",
+                LocalName = "Savanne"
+            },
+            new()
+            { 
+                Code = "VP",
+                Type = "City",
+                Name = "Vacoas-Phoenix",
+                LocalName = "Vacoas-Phoenix"
+            }
 
         });
     }

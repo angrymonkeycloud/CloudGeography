@@ -7,30 +7,174 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("EC", new List<Subdivision>()
         {
-            new(){ Code ="A", LocalName="Azuay", Name="Azuay", Type="Province" },
-            new(){ Code ="B", LocalName="Bolívar", Name="Bolívar", Type="Province" },
-            new(){ Code ="F", LocalName="Cañar", Name="Cañar", Type="Province" },
-            new(){ Code ="C", LocalName="Carchi", Name="Carchi", Type="Province" },
-            new(){ Code ="H", LocalName="Chimborazo", Name="Chimborazo", Type="Province" },
-            new(){ Code ="X", LocalName="Cotopaxi", Name="Cotopaxi", Type="Province" },
-            new(){ Code ="O", LocalName="El Oro", Name="El Oro", Type="Province" },
-            new(){ Code ="E", LocalName="Esmeraldas", Name="Esmeraldas", Type="Province" },
-            new(){ Code ="W", LocalName="Galápagos", Name="Galápagos", Type="Province" },
-            new(){ Code ="G", LocalName="Guayas", Name="Guayas", Type="Province" },
-            new(){ Code ="I", LocalName="Imbabura", Name="Imbabura", Type="Province" },
-            new(){ Code ="L", LocalName="Loja", Name="Loja", Type="Province" },
-            new(){ Code ="R", LocalName="Los Ríos", Name="Los Ríos", Type="Province" },
-            new(){ Code ="M", LocalName="Manabí", Name="Manabí", Type="Province" },
-            new(){ Code ="S", LocalName="Morona-Santiago", Name="Morona-Santiago", Type="Province" },
-            new(){ Code ="N", LocalName="Napo", Name="Napo", Type="Province" },
-            new(){ Code ="D", LocalName="Orellana", Name="Orellana", Type="Province" },
-            new(){ Code ="Y", LocalName="Pastaza", Name="Pastaza", Type="Province" },
-            new(){ Code ="P", LocalName="Pichincha", Name="Pichincha", Type="Province" },
-            new(){ Code ="SE", LocalName="Santa Elena", Name="Santa Elena", Type="Province" },
-            new(){ Code ="SD", LocalName="Santo Domingo de los Tsáchilas", Name="Santo Domingo de los Tsáchilas", Type="Province" },
-            new(){ Code ="U", LocalName="Sucumbíos", Name="Sucumbíos", Type="Province" },
-            new(){ Code ="T", LocalName="Tungurahua", Name="Tungurahua", Type="Province" },
-            new(){ Code ="Z", LocalName="Zamora-Chinchipe", Name="Zamora-Chinchipe", Type="Province" }
+            new()
+            { 
+                Code = "A",
+                Type = "Province",
+                Name = "Azuay",
+                LocalName = "Azuay"
+            },
+            new()
+            { 
+                Code = "B",
+                Type = "Province",
+                Name = "Bolívar",
+                LocalName = "Bolívar"
+            },
+            new()
+            { 
+                Code = "F",
+                Type = "Province",
+                Name = "Cañar",
+                LocalName = "Cañar"
+            },
+            new()
+            { 
+                Code = "C",
+                Type = "Province",
+                Name = "Carchi",
+                LocalName = "Carchi"
+            },
+            new()
+            { 
+                Code = "H",
+                Type = "Province",
+                Name = "Chimborazo",
+                LocalName = "Chimborazo"
+            },
+            new()
+            { 
+                Code = "X",
+                Type = "Province",
+                Name = "Cotopaxi",
+                LocalName = "Cotopaxi"
+            },
+            new()
+            { 
+                Code = "O",
+                Type = "Province",
+                Name = "El Oro",
+                LocalName = "El Oro"
+            },
+            new()
+            { 
+                Code = "E",
+                Type = "Province",
+                Name = "Esmeraldas",
+                LocalName = "Esmeraldas"
+            },
+            new()
+            { 
+                Code = "W",
+                Type = "Province",
+                Name = "Galápagos",
+                LocalName = "Galápagos"
+            },
+            new()
+            { 
+                Code = "G",
+                Type = "Province",
+                Name = "Guayas",
+                LocalName = "Guayas"
+            },
+            new()
+            { 
+                Code = "I",
+                Type = "Province",
+                Name = "Imbabura",
+                LocalName = "Imbabura"
+            },
+            new()
+            { 
+                Code = "L",
+                Type = "Province",
+                Name = "Loja",
+                LocalName = "Loja"
+            },
+            new()
+            { 
+                Code = "R",
+                Type = "Province",
+                Name = "Los Ríos",
+                LocalName = "Los Ríos"
+            },
+            new()
+            { 
+                Code = "M",
+                Type = "Province",
+                Name = "Manabí",
+                LocalName = "Manabí"
+            },
+            new()
+            { 
+                Code = "S",
+                Type = "Province",
+                Name = "Morona-Santiago",
+                LocalName = "Morona-Santiago"
+            },
+            new()
+            { 
+                Code = "N",
+                Type = "Province",
+                Name = "Napo",
+                LocalName = "Napo"
+            },
+            new()
+            { 
+                Code = "D",
+                Type = "Province",
+                Name = "Orellana",
+                LocalName = "Orellana"
+            },
+            new()
+            { 
+                Code = "Y",
+                Type = "Province",
+                Name = "Pastaza",
+                LocalName = "Pastaza"
+            },
+            new()
+            { 
+                Code = "P",
+                Type = "Province",
+                Name = "Pichincha",
+                LocalName = "Pichincha"
+            },
+            new()
+            { 
+                Code = "SE",
+                Type = "Province",
+                Name = "Santa Elena",
+                LocalName = "Santa Elena"
+            },
+            new()
+            { 
+                Code = "SD",
+                Type = "Province",
+                Name = "Santo Domingo de los Tsáchilas",
+                LocalName = "Santo Domingo de los Tsáchilas"
+            },
+            new()
+            { 
+                Code = "U",
+                Type = "Province",
+                Name = "Sucumbíos",
+                LocalName = "Sucumbíos"
+            },
+            new()
+            { 
+                Code = "T",
+                Type = "Province",
+                Name = "Tungurahua",
+                LocalName = "Tungurahua"
+            },
+            new()
+            { 
+                Code = "Z",
+                Type = "Province",
+                Name = "Zamora-Chinchipe",
+                LocalName = "Zamora-Chinchipe"
+            }
 
         });
     }

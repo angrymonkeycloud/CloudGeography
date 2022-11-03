@@ -7,83 +7,545 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("TH", new List<Subdivision>()
         {
-            new(){ Code ="37", LocalName="Amnat Charoen", Name="Amnat Charoen", Type="Province" },
-            new(){ Code ="15", LocalName="Ang Thong", Name="Ang Thong", Type="Province" },
-            new(){ Code ="38", LocalName="Bueng Kan", Name="Bueng Kan", Type="Province" },
-            new(){ Code ="31", LocalName="Buri Ram", Name="Buri Ram", Type="Province" },
-            new(){ Code ="24", LocalName="Chachoengsao", Name="Chachoengsao", Type="Province" },
-            new(){ Code ="18", LocalName="Chai Nat", Name="Chai Nat", Type="Province" },
-            new(){ Code ="36", LocalName="Chaiyaphum", Name="Chaiyaphum", Type="Province" },
-            new(){ Code ="22", LocalName="Chanthaburi", Name="Chanthaburi", Type="Province" },
-            new(){ Code ="50", LocalName="Chiang Mai", Name="Chiang Mai", Type="Province" },
-            new(){ Code ="57", LocalName="Chiang Rai", Name="Chiang Rai", Type="Province" },
-            new(){ Code ="20", LocalName="Chon Buri", Name="Chon Buri", Type="Province" },
-            new(){ Code ="86", LocalName="Chumphon", Name="Chumphon", Type="Province" },
-            new(){ Code ="46", LocalName="Kalasin", Name="Kalasin", Type="Province" },
-            new(){ Code ="62", LocalName="Kamphaeng Phet", Name="Kamphaeng Phet", Type="Province" },
-            new(){ Code ="71", LocalName="Kanchanaburi", Name="Kanchanaburi", Type="Province" },
-            new(){ Code ="40", LocalName="Khon Kaen", Name="Khon Kaen", Type="Province" },
-            new(){ Code ="81", LocalName="Krabi", Name="Krabi", Type="Province" },
-            new(){ Code ="10", LocalName="Krung Thep Maha Nakhon", Name="Krung Thep Maha Nakhon", Type="MetropolitanAdministration" },
-            new(){ Code ="52", LocalName="Lampang", Name="Lampang", Type="Province" },
-            new(){ Code ="51", LocalName="Lamphun", Name="Lamphun", Type="Province" },
-            new(){ Code ="42", LocalName="Loei", Name="Loei", Type="Province" },
-            new(){ Code ="16", LocalName="Lop Buri", Name="Lop Buri", Type="Province" },
-            new(){ Code ="58", LocalName="Mae Hong Son", Name="Mae Hong Son", Type="Province" },
-            new(){ Code ="44", LocalName="Maha Sarakham", Name="Maha Sarakham", Type="Province" },
-            new(){ Code ="49", LocalName="Mukdahan", Name="Mukdahan", Type="Province" },
-            new(){ Code ="26", LocalName="Nakhon Nayok", Name="Nakhon Nayok", Type="Province" },
-            new(){ Code ="73", LocalName="Nakhon Pathom", Name="Nakhon Pathom", Type="Province" },
-            new(){ Code ="48", LocalName="Nakhon Phanom", Name="Nakhon Phanom", Type="Province" },
-            new(){ Code ="30", LocalName="Nakhon Ratchasima", Name="Nakhon Ratchasima", Type="Province" },
-            new(){ Code ="60", LocalName="Nakhon Sawan", Name="Nakhon Sawan", Type="Province" },
-            new(){ Code ="80", LocalName="Nakhon Si Thammarat", Name="Nakhon Si Thammarat", Type="Province" },
-            new(){ Code ="55", LocalName="Nan", Name="Nan", Type="Province" },
-            new(){ Code ="96", LocalName="Narathiwat", Name="Narathiwat", Type="Province" },
-            new(){ Code ="39", LocalName="Nong Bua Lam Phu", Name="Nong Bua Lam Phu", Type="Province" },
-            new(){ Code ="43", LocalName="Nong Khai", Name="Nong Khai", Type="Province" },
-            new(){ Code ="12", LocalName="Nonthaburi", Name="Nonthaburi", Type="Province" },
-            new(){ Code ="13", LocalName="Pathum Thani", Name="Pathum Thani", Type="Province" },
-            new(){ Code ="94", LocalName="Pattani", Name="Pattani", Type="Province" },
-            new(){ Code ="82", LocalName="Phangnga", Name="Phangnga", Type="Province" },
-            new(){ Code ="93", LocalName="Phatthalung", Name="Phatthalung", Type="Province" },
-            new(){ Code ="56", LocalName="Phayao", Name="Phayao", Type="Province" },
-            new(){ Code ="67", LocalName="Phetchabun", Name="Phetchabun", Type="Province" },
-            new(){ Code ="76", LocalName="Phetchaburi", Name="Phetchaburi", Type="Province" },
-            new(){ Code ="66", LocalName="Phichit", Name="Phichit", Type="Province" },
-            new(){ Code ="65", LocalName="Phitsanulok", Name="Phitsanulok", Type="Province" },
-            new(){ Code ="14", LocalName="Phra Nakhon Si Ayutthaya", Name="Phra Nakhon Si Ayutthaya", Type="Province" },
-            new(){ Code ="54", LocalName="Phrae", Name="Phrae", Type="Province" },
-            new(){ Code ="83", LocalName="Phuket", Name="Phuket", Type="Province" },
-            new(){ Code ="25", LocalName="Prachin Buri", Name="Prachin Buri", Type="Province" },
-            new(){ Code ="77", LocalName="Prachuap Khiri Khan", Name="Prachuap Khiri Khan", Type="Province" },
-            new(){ Code ="85", LocalName="Ranong", Name="Ranong", Type="Province" },
-            new(){ Code ="70", LocalName="Ratchaburi", Name="Ratchaburi", Type="Province" },
-            new(){ Code ="21", LocalName="Rayong", Name="Rayong", Type="Province" },
-            new(){ Code ="45", LocalName="Roi Et", Name="Roi Et", Type="Province" },
-            new(){ Code ="27", LocalName="Sa Kaeo", Name="Sa Kaeo", Type="Province" },
-            new(){ Code ="47", LocalName="Sakon Nakhon", Name="Sakon Nakhon", Type="Province" },
-            new(){ Code ="11", LocalName="Samut Prakan", Name="Samut Prakan", Type="Province" },
-            new(){ Code ="74", LocalName="Samut Sakhon", Name="Samut Sakhon", Type="Province" },
-            new(){ Code ="75", LocalName="Samut Songkhram", Name="Samut Songkhram", Type="Province" },
-            new(){ Code ="19", LocalName="Saraburi", Name="Saraburi", Type="Province" },
-            new(){ Code ="91", LocalName="Satun", Name="Satun", Type="Province" },
-            new(){ Code ="33", LocalName="Si Sa Ket", Name="Si Sa Ket", Type="Province" },
-            new(){ Code ="17", LocalName="Sing Buri", Name="Sing Buri", Type="Province" },
-            new(){ Code ="90", LocalName="Songkhla", Name="Songkhla", Type="Province" },
-            new(){ Code ="64", LocalName="Sukhothai", Name="Sukhothai", Type="Province" },
-            new(){ Code ="72", LocalName="Suphan Buri", Name="Suphan Buri", Type="Province" },
-            new(){ Code ="84", LocalName="Surat Thani", Name="Surat Thani", Type="Province" },
-            new(){ Code ="32", LocalName="Surin", Name="Surin", Type="Province" },
-            new(){ Code ="63", LocalName="Tak", Name="Tak", Type="Province" },
-            new(){ Code ="92", LocalName="Trang", Name="Trang", Type="Province" },
-            new(){ Code ="23", LocalName="Trat", Name="Trat", Type="Province" },
-            new(){ Code ="34", LocalName="Ubon Ratchathani", Name="Ubon Ratchathani", Type="Province" },
-            new(){ Code ="41", LocalName="Udon Thani", Name="Udon Thani", Type="Province" },
-            new(){ Code ="61", LocalName="Uthai Thani", Name="Uthai Thani", Type="Province" },
-            new(){ Code ="53", LocalName="Uttaradit", Name="Uttaradit", Type="Province" },
-            new(){ Code ="95", LocalName="Yala", Name="Yala", Type="Province" },
-            new(){ Code ="35", LocalName="Yasothon", Name="Yasothon", Type="Province" }
+            new()
+            { 
+                Code = "37",
+                Type = "Province",
+                Name = "Amnat Charoen",
+                LocalName = "Amnat Charoen"
+            },
+            new()
+            { 
+                Code = "15",
+                Type = "Province",
+                Name = "Ang Thong",
+                LocalName = "Ang Thong"
+            },
+            new()
+            { 
+                Code = "38",
+                Type = "Province",
+                Name = "Bueng Kan",
+                LocalName = "Bueng Kan"
+            },
+            new()
+            { 
+                Code = "31",
+                Type = "Province",
+                Name = "Buri Ram",
+                LocalName = "Buri Ram"
+            },
+            new()
+            { 
+                Code = "24",
+                Type = "Province",
+                Name = "Chachoengsao",
+                LocalName = "Chachoengsao"
+            },
+            new()
+            { 
+                Code = "18",
+                Type = "Province",
+                Name = "Chai Nat",
+                LocalName = "Chai Nat"
+            },
+            new()
+            { 
+                Code = "36",
+                Type = "Province",
+                Name = "Chaiyaphum",
+                LocalName = "Chaiyaphum"
+            },
+            new()
+            { 
+                Code = "22",
+                Type = "Province",
+                Name = "Chanthaburi",
+                LocalName = "Chanthaburi"
+            },
+            new()
+            { 
+                Code = "50",
+                Type = "Province",
+                Name = "Chiang Mai",
+                LocalName = "Chiang Mai"
+            },
+            new()
+            { 
+                Code = "57",
+                Type = "Province",
+                Name = "Chiang Rai",
+                LocalName = "Chiang Rai"
+            },
+            new()
+            { 
+                Code = "20",
+                Type = "Province",
+                Name = "Chon Buri",
+                LocalName = "Chon Buri"
+            },
+            new()
+            { 
+                Code = "86",
+                Type = "Province",
+                Name = "Chumphon",
+                LocalName = "Chumphon"
+            },
+            new()
+            { 
+                Code = "46",
+                Type = "Province",
+                Name = "Kalasin",
+                LocalName = "Kalasin"
+            },
+            new()
+            { 
+                Code = "62",
+                Type = "Province",
+                Name = "Kamphaeng Phet",
+                LocalName = "Kamphaeng Phet"
+            },
+            new()
+            { 
+                Code = "71",
+                Type = "Province",
+                Name = "Kanchanaburi",
+                LocalName = "Kanchanaburi"
+            },
+            new()
+            { 
+                Code = "40",
+                Type = "Province",
+                Name = "Khon Kaen",
+                LocalName = "Khon Kaen"
+            },
+            new()
+            { 
+                Code = "81",
+                Type = "Province",
+                Name = "Krabi",
+                LocalName = "Krabi"
+            },
+            new()
+            { 
+                Code = "10",
+                Type = "MetropolitanAdministration",
+                Name = "Krung Thep Maha Nakhon",
+                LocalName = "Krung Thep Maha Nakhon"
+            },
+            new()
+            { 
+                Code = "52",
+                Type = "Province",
+                Name = "Lampang",
+                LocalName = "Lampang"
+            },
+            new()
+            { 
+                Code = "51",
+                Type = "Province",
+                Name = "Lamphun",
+                LocalName = "Lamphun"
+            },
+            new()
+            { 
+                Code = "42",
+                Type = "Province",
+                Name = "Loei",
+                LocalName = "Loei"
+            },
+            new()
+            { 
+                Code = "16",
+                Type = "Province",
+                Name = "Lop Buri",
+                LocalName = "Lop Buri"
+            },
+            new()
+            { 
+                Code = "58",
+                Type = "Province",
+                Name = "Mae Hong Son",
+                LocalName = "Mae Hong Son"
+            },
+            new()
+            { 
+                Code = "44",
+                Type = "Province",
+                Name = "Maha Sarakham",
+                LocalName = "Maha Sarakham"
+            },
+            new()
+            { 
+                Code = "49",
+                Type = "Province",
+                Name = "Mukdahan",
+                LocalName = "Mukdahan"
+            },
+            new()
+            { 
+                Code = "26",
+                Type = "Province",
+                Name = "Nakhon Nayok",
+                LocalName = "Nakhon Nayok"
+            },
+            new()
+            { 
+                Code = "73",
+                Type = "Province",
+                Name = "Nakhon Pathom",
+                LocalName = "Nakhon Pathom"
+            },
+            new()
+            { 
+                Code = "48",
+                Type = "Province",
+                Name = "Nakhon Phanom",
+                LocalName = "Nakhon Phanom"
+            },
+            new()
+            { 
+                Code = "30",
+                Type = "Province",
+                Name = "Nakhon Ratchasima",
+                LocalName = "Nakhon Ratchasima"
+            },
+            new()
+            { 
+                Code = "60",
+                Type = "Province",
+                Name = "Nakhon Sawan",
+                LocalName = "Nakhon Sawan"
+            },
+            new()
+            { 
+                Code = "80",
+                Type = "Province",
+                Name = "Nakhon Si Thammarat",
+                LocalName = "Nakhon Si Thammarat"
+            },
+            new()
+            { 
+                Code = "55",
+                Type = "Province",
+                Name = "Nan",
+                LocalName = "Nan"
+            },
+            new()
+            { 
+                Code = "96",
+                Type = "Province",
+                Name = "Narathiwat",
+                LocalName = "Narathiwat"
+            },
+            new()
+            { 
+                Code = "39",
+                Type = "Province",
+                Name = "Nong Bua Lam Phu",
+                LocalName = "Nong Bua Lam Phu"
+            },
+            new()
+            { 
+                Code = "43",
+                Type = "Province",
+                Name = "Nong Khai",
+                LocalName = "Nong Khai"
+            },
+            new()
+            { 
+                Code = "12",
+                Type = "Province",
+                Name = "Nonthaburi",
+                LocalName = "Nonthaburi"
+            },
+            new()
+            { 
+                Code = "13",
+                Type = "Province",
+                Name = "Pathum Thani",
+                LocalName = "Pathum Thani"
+            },
+            new()
+            { 
+                Code = "94",
+                Type = "Province",
+                Name = "Pattani",
+                LocalName = "Pattani"
+            },
+            new()
+            { 
+                Code = "82",
+                Type = "Province",
+                Name = "Phangnga",
+                LocalName = "Phangnga"
+            },
+            new()
+            { 
+                Code = "93",
+                Type = "Province",
+                Name = "Phatthalung",
+                LocalName = "Phatthalung"
+            },
+            new()
+            { 
+                Code = "56",
+                Type = "Province",
+                Name = "Phayao",
+                LocalName = "Phayao"
+            },
+            new()
+            { 
+                Code = "67",
+                Type = "Province",
+                Name = "Phetchabun",
+                LocalName = "Phetchabun"
+            },
+            new()
+            { 
+                Code = "76",
+                Type = "Province",
+                Name = "Phetchaburi",
+                LocalName = "Phetchaburi"
+            },
+            new()
+            { 
+                Code = "66",
+                Type = "Province",
+                Name = "Phichit",
+                LocalName = "Phichit"
+            },
+            new()
+            { 
+                Code = "65",
+                Type = "Province",
+                Name = "Phitsanulok",
+                LocalName = "Phitsanulok"
+            },
+            new()
+            { 
+                Code = "14",
+                Type = "Province",
+                Name = "Phra Nakhon Si Ayutthaya",
+                LocalName = "Phra Nakhon Si Ayutthaya"
+            },
+            new()
+            { 
+                Code = "54",
+                Type = "Province",
+                Name = "Phrae",
+                LocalName = "Phrae"
+            },
+            new()
+            { 
+                Code = "83",
+                Type = "Province",
+                Name = "Phuket",
+                LocalName = "Phuket"
+            },
+            new()
+            { 
+                Code = "25",
+                Type = "Province",
+                Name = "Prachin Buri",
+                LocalName = "Prachin Buri"
+            },
+            new()
+            { 
+                Code = "77",
+                Type = "Province",
+                Name = "Prachuap Khiri Khan",
+                LocalName = "Prachuap Khiri Khan"
+            },
+            new()
+            { 
+                Code = "85",
+                Type = "Province",
+                Name = "Ranong",
+                LocalName = "Ranong"
+            },
+            new()
+            { 
+                Code = "70",
+                Type = "Province",
+                Name = "Ratchaburi",
+                LocalName = "Ratchaburi"
+            },
+            new()
+            { 
+                Code = "21",
+                Type = "Province",
+                Name = "Rayong",
+                LocalName = "Rayong"
+            },
+            new()
+            { 
+                Code = "45",
+                Type = "Province",
+                Name = "Roi Et",
+                LocalName = "Roi Et"
+            },
+            new()
+            { 
+                Code = "27",
+                Type = "Province",
+                Name = "Sa Kaeo",
+                LocalName = "Sa Kaeo"
+            },
+            new()
+            { 
+                Code = "47",
+                Type = "Province",
+                Name = "Sakon Nakhon",
+                LocalName = "Sakon Nakhon"
+            },
+            new()
+            { 
+                Code = "11",
+                Type = "Province",
+                Name = "Samut Prakan",
+                LocalName = "Samut Prakan"
+            },
+            new()
+            { 
+                Code = "74",
+                Type = "Province",
+                Name = "Samut Sakhon",
+                LocalName = "Samut Sakhon"
+            },
+            new()
+            { 
+                Code = "75",
+                Type = "Province",
+                Name = "Samut Songkhram",
+                LocalName = "Samut Songkhram"
+            },
+            new()
+            { 
+                Code = "19",
+                Type = "Province",
+                Name = "Saraburi",
+                LocalName = "Saraburi"
+            },
+            new()
+            { 
+                Code = "91",
+                Type = "Province",
+                Name = "Satun",
+                LocalName = "Satun"
+            },
+            new()
+            { 
+                Code = "33",
+                Type = "Province",
+                Name = "Si Sa Ket",
+                LocalName = "Si Sa Ket"
+            },
+            new()
+            { 
+                Code = "17",
+                Type = "Province",
+                Name = "Sing Buri",
+                LocalName = "Sing Buri"
+            },
+            new()
+            { 
+                Code = "90",
+                Type = "Province",
+                Name = "Songkhla",
+                LocalName = "Songkhla"
+            },
+            new()
+            { 
+                Code = "64",
+                Type = "Province",
+                Name = "Sukhothai",
+                LocalName = "Sukhothai"
+            },
+            new()
+            { 
+                Code = "72",
+                Type = "Province",
+                Name = "Suphan Buri",
+                LocalName = "Suphan Buri"
+            },
+            new()
+            { 
+                Code = "84",
+                Type = "Province",
+                Name = "Surat Thani",
+                LocalName = "Surat Thani"
+            },
+            new()
+            { 
+                Code = "32",
+                Type = "Province",
+                Name = "Surin",
+                LocalName = "Surin"
+            },
+            new()
+            { 
+                Code = "63",
+                Type = "Province",
+                Name = "Tak",
+                LocalName = "Tak"
+            },
+            new()
+            { 
+                Code = "92",
+                Type = "Province",
+                Name = "Trang",
+                LocalName = "Trang"
+            },
+            new()
+            { 
+                Code = "23",
+                Type = "Province",
+                Name = "Trat",
+                LocalName = "Trat"
+            },
+            new()
+            { 
+                Code = "34",
+                Type = "Province",
+                Name = "Ubon Ratchathani",
+                LocalName = "Ubon Ratchathani"
+            },
+            new()
+            { 
+                Code = "41",
+                Type = "Province",
+                Name = "Udon Thani",
+                LocalName = "Udon Thani"
+            },
+            new()
+            { 
+                Code = "61",
+                Type = "Province",
+                Name = "Uthai Thani",
+                LocalName = "Uthai Thani"
+            },
+            new()
+            { 
+                Code = "53",
+                Type = "Province",
+                Name = "Uttaradit",
+                LocalName = "Uttaradit"
+            },
+            new()
+            { 
+                Code = "95",
+                Type = "Province",
+                Name = "Yala",
+                LocalName = "Yala"
+            },
+            new()
+            { 
+                Code = "35",
+                Type = "Province",
+                Name = "Yasothon",
+                LocalName = "Yasothon"
+            }
 
         });
     }

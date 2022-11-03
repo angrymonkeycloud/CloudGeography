@@ -7,84 +7,552 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("AZ", new List<Subdivision>()
         {
-            new(){ Code ="ABS", LocalName="Abseron", Name="Abseron", Type="Rayon" },
-            new(){ Code ="AGC", LocalName="Agcab?di", Name="Agcab?di", Type="Rayon" },
-            new(){ Code ="AGM", LocalName="Agdam", Name="Agdam", Type="Rayon" },
-            new(){ Code ="AGS", LocalName="Agdas", Name="Agdas", Type="Rayon" },
-            new(){ Code ="AGA", LocalName="Agstafa", Name="Agstafa", Type="Rayon" },
-            new(){ Code ="AGU", LocalName="Agsu", Name="Agsu", Type="Rayon" },
-            new(){ Code ="AST", LocalName="Astara", Name="Astara", Type="Rayon" },
-            new(){ Code ="BAR", LocalName="B?rd?", Name="B?rd?", Type="Rayon" },
-            new(){ Code ="BAB", LocalName="Bab?k", Name="Bab?k", Type="Rayon" },
-            new(){ Code ="BA", LocalName="Baki", Name="Baki", Type="Municipality" },
-            new(){ Code ="BAL", LocalName="Balak?n", Name="Balak?n", Type="Rayon" },
-            new(){ Code ="BEY", LocalName="Beyl?qan", Name="Beyl?qan", Type="Rayon" },
-            new(){ Code ="BIL", LocalName="Bil?suvar", Name="Bil?suvar", Type="Rayon" },
-            new(){ Code ="CAB", LocalName="C?brayil", Name="C?brayil", Type="Rayon" },
-            new(){ Code ="CAL", LocalName="C?lilabad", Name="C?lilabad", Type="Rayon" },
-            new(){ Code ="CUL", LocalName="Culfa", Name="Culfa", Type="Rayon" },
-            new(){ Code ="DAS", LocalName="Dask?s?n", Name="Dask?s?n", Type="Rayon" },
-            new(){ Code ="FUZ", LocalName="Füzuli", Name="Füzuli", Type="Rayon" },
-            new(){ Code ="GAD", LocalName="G?d?b?y", Name="G?d?b?y", Type="Rayon" },
-            new(){ Code ="GA", LocalName="G?nc?", Name="G?nc?", Type="Municipality" },
-            new(){ Code ="GOR", LocalName="Goranboy", Name="Goranboy", Type="Rayon" },
-            new(){ Code ="GOY", LocalName="Göyçay", Name="Göyçay", Type="Rayon" },
-            new(){ Code ="GYG", LocalName="Göygöl", Name="Göygöl", Type="Rayon" },
-            new(){ Code ="HAC", LocalName="Haciqabul", Name="Haciqabul", Type="Rayon" },
-            new(){ Code ="IMI", LocalName="Imisli", Name="Imisli", Type="Rayon" },
-            new(){ Code ="ISM", LocalName="Ismayilli", Name="Ismayilli", Type="Rayon" },
-            new(){ Code ="KAL", LocalName="K?lb?c?r", Name="K?lb?c?r", Type="Rayon" },
-            new(){ Code ="KAN", LocalName="K?ng?rli", Name="K?ng?rli", Type="Rayon" },
-            new(){ Code ="KUR", LocalName="Kürd?mir", Name="Kürd?mir", Type="Rayon" },
-            new(){ Code ="LA", LocalName="L?nk?ran", Name="L?nk?ran", Type="Municipality" },
-            new(){ Code ="LAN", LocalName="L?nk?ran", Name="L?nk?ran", Type="Rayon" },
-            new(){ Code ="LAC", LocalName="Laçin", Name="Laçin", Type="Rayon" },
-            new(){ Code ="LER", LocalName="Lerik", Name="Lerik", Type="Rayon" },
-            new(){ Code ="MAS", LocalName="Masalli", Name="Masalli", Type="Rayon" },
-            new(){ Code ="MI", LocalName="Ming?çevir", Name="Ming?çevir", Type="Municipality" },
-            new(){ Code ="NA", LocalName="Naftalan", Name="Naftalan", Type="Municipality" },
-            new(){ Code ="NX", LocalName="Naxçivan", Name="Naxçivan", Type="Republic" },
-            new(){ Code ="NV", LocalName="Naxçivan", Name="Naxçivan", Type="Municipality" },
-            new(){ Code ="NEF", LocalName="Neftçala", Name="Neftçala", Type="Rayon" },
-            new(){ Code ="OGU", LocalName="Oguz", Name="Oguz", Type="Rayon" },
-            new(){ Code ="ORD", LocalName="Ordubad", Name="Ordubad", Type="Rayon" },
-            new(){ Code ="QAB", LocalName="Q?b?l?", Name="Q?b?l?", Type="Rayon" },
-            new(){ Code ="QAX", LocalName="Qax", Name="Qax", Type="Rayon" },
-            new(){ Code ="QAZ", LocalName="Qazax", Name="Qazax", Type="Rayon" },
-            new(){ Code ="QOB", LocalName="Qobustan", Name="Qobustan", Type="Rayon" },
-            new(){ Code ="QBA", LocalName="Quba", Name="Quba", Type="Rayon" },
-            new(){ Code ="QBI", LocalName="Qubadli", Name="Qubadli", Type="Rayon" },
-            new(){ Code ="QUS", LocalName="Qusar", Name="Qusar", Type="Rayon" },
-            new(){ Code ="SAD", LocalName="S?d?r?k", Name="S?d?r?k", Type="Rayon" },
-            new(){ Code ="SA", LocalName="S?ki", Name="S?ki", Type="Municipality" },
-            new(){ Code ="SAK", LocalName="S?ki", Name="S?ki", Type="Rayon" },
-            new(){ Code ="SKR", LocalName="S?mkir", Name="S?mkir", Type="Rayon" },
-            new(){ Code ="SAR", LocalName="S?rur", Name="S?rur", Type="Rayon" },
-            new(){ Code ="SAT", LocalName="Saatli", Name="Saatli", Type="Rayon" },
-            new(){ Code ="SAB", LocalName="Sabirabad", Name="Sabirabad", Type="Rayon" },
-            new(){ Code ="SBN", LocalName="Sabran", Name="Sabran", Type="Rayon" },
-            new(){ Code ="SAH", LocalName="Sahbuz", Name="Sahbuz", Type="Rayon" },
-            new(){ Code ="SAL", LocalName="Salyan", Name="Salyan", Type="Rayon" },
-            new(){ Code ="SMI", LocalName="Samaxi", Name="Samaxi", Type="Rayon" },
-            new(){ Code ="SMX", LocalName="Samux", Name="Samux", Type="Rayon" },
-            new(){ Code ="SR", LocalName="Sirvan", Name="Sirvan", Type="Municipality" },
-            new(){ Code ="SIY", LocalName="Siy?z?n", Name="Siy?z?n", Type="Rayon" },
-            new(){ Code ="SM", LocalName="Sumqayit", Name="Sumqayit", Type="Municipality" },
-            new(){ Code ="SUS", LocalName="Susa", Name="Susa", Type="Rayon" },
-            new(){ Code ="TAR", LocalName="T?rt?r", Name="T?rt?r", Type="Rayon" },
-            new(){ Code ="TOV", LocalName="Tovuz", Name="Tovuz", Type="Rayon" },
-            new(){ Code ="UCA", LocalName="Ucar", Name="Ucar", Type="Rayon" },
-            new(){ Code ="XAC", LocalName="Xaçmaz", Name="Xaçmaz", Type="Rayon" },
-            new(){ Code ="XA", LocalName="Xank?ndi", Name="Xank?ndi", Type="Municipality" },
-            new(){ Code ="XIZ", LocalName="Xizi", Name="Xizi", Type="Rayon" },
-            new(){ Code ="XCI", LocalName="Xocali", Name="Xocali", Type="Rayon" },
-            new(){ Code ="XVD", LocalName="Xocav?nd", Name="Xocav?nd", Type="Rayon" },
-            new(){ Code ="YAR", LocalName="Yardimli", Name="Yardimli", Type="Rayon" },
-            new(){ Code ="YEV", LocalName="Yevlax", Name="Yevlax", Type="Rayon" },
-            new(){ Code ="YE", LocalName="Yevlax", Name="Yevlax", Type="Municipality" },
-            new(){ Code ="ZAN", LocalName="Z?ngilan", Name="Z?ngilan", Type="Rayon" },
-            new(){ Code ="ZAR", LocalName="Z?rdab", Name="Z?rdab", Type="Rayon" },
-            new(){ Code ="ZAQ", LocalName="Zaqatala", Name="Zaqatala", Type="Rayon" }
+            new()
+            { 
+                Code = "ABS",
+                Type = "Rayon",
+                Name = "Abseron",
+                LocalName = "Abseron"
+            },
+            new()
+            { 
+                Code = "AGC",
+                Type = "Rayon",
+                Name = "Agcab?di",
+                LocalName = "Agcab?di"
+            },
+            new()
+            { 
+                Code = "AGM",
+                Type = "Rayon",
+                Name = "Agdam",
+                LocalName = "Agdam"
+            },
+            new()
+            { 
+                Code = "AGS",
+                Type = "Rayon",
+                Name = "Agdas",
+                LocalName = "Agdas"
+            },
+            new()
+            { 
+                Code = "AGA",
+                Type = "Rayon",
+                Name = "Agstafa",
+                LocalName = "Agstafa"
+            },
+            new()
+            { 
+                Code = "AGU",
+                Type = "Rayon",
+                Name = "Agsu",
+                LocalName = "Agsu"
+            },
+            new()
+            { 
+                Code = "AST",
+                Type = "Rayon",
+                Name = "Astara",
+                LocalName = "Astara"
+            },
+            new()
+            { 
+                Code = "BAR",
+                Type = "Rayon",
+                Name = "B?rd?",
+                LocalName = "B?rd?"
+            },
+            new()
+            { 
+                Code = "BAB",
+                Type = "Rayon",
+                Name = "Bab?k",
+                LocalName = "Bab?k"
+            },
+            new()
+            { 
+                Code = "BA",
+                Type = "Municipality",
+                Name = "Baki",
+                LocalName = "Baki"
+            },
+            new()
+            { 
+                Code = "BAL",
+                Type = "Rayon",
+                Name = "Balak?n",
+                LocalName = "Balak?n"
+            },
+            new()
+            { 
+                Code = "BEY",
+                Type = "Rayon",
+                Name = "Beyl?qan",
+                LocalName = "Beyl?qan"
+            },
+            new()
+            { 
+                Code = "BIL",
+                Type = "Rayon",
+                Name = "Bil?suvar",
+                LocalName = "Bil?suvar"
+            },
+            new()
+            { 
+                Code = "CAB",
+                Type = "Rayon",
+                Name = "C?brayil",
+                LocalName = "C?brayil"
+            },
+            new()
+            { 
+                Code = "CAL",
+                Type = "Rayon",
+                Name = "C?lilabad",
+                LocalName = "C?lilabad"
+            },
+            new()
+            { 
+                Code = "CUL",
+                Type = "Rayon",
+                Name = "Culfa",
+                LocalName = "Culfa"
+            },
+            new()
+            { 
+                Code = "DAS",
+                Type = "Rayon",
+                Name = "Dask?s?n",
+                LocalName = "Dask?s?n"
+            },
+            new()
+            { 
+                Code = "FUZ",
+                Type = "Rayon",
+                Name = "Füzuli",
+                LocalName = "Füzuli"
+            },
+            new()
+            { 
+                Code = "GAD",
+                Type = "Rayon",
+                Name = "G?d?b?y",
+                LocalName = "G?d?b?y"
+            },
+            new()
+            { 
+                Code = "GA",
+                Type = "Municipality",
+                Name = "G?nc?",
+                LocalName = "G?nc?"
+            },
+            new()
+            { 
+                Code = "GOR",
+                Type = "Rayon",
+                Name = "Goranboy",
+                LocalName = "Goranboy"
+            },
+            new()
+            { 
+                Code = "GOY",
+                Type = "Rayon",
+                Name = "Göyçay",
+                LocalName = "Göyçay"
+            },
+            new()
+            { 
+                Code = "GYG",
+                Type = "Rayon",
+                Name = "Göygöl",
+                LocalName = "Göygöl"
+            },
+            new()
+            { 
+                Code = "HAC",
+                Type = "Rayon",
+                Name = "Haciqabul",
+                LocalName = "Haciqabul"
+            },
+            new()
+            { 
+                Code = "IMI",
+                Type = "Rayon",
+                Name = "Imisli",
+                LocalName = "Imisli"
+            },
+            new()
+            { 
+                Code = "ISM",
+                Type = "Rayon",
+                Name = "Ismayilli",
+                LocalName = "Ismayilli"
+            },
+            new()
+            { 
+                Code = "KAL",
+                Type = "Rayon",
+                Name = "K?lb?c?r",
+                LocalName = "K?lb?c?r"
+            },
+            new()
+            { 
+                Code = "KAN",
+                Type = "Rayon",
+                Name = "K?ng?rli",
+                LocalName = "K?ng?rli"
+            },
+            new()
+            { 
+                Code = "KUR",
+                Type = "Rayon",
+                Name = "Kürd?mir",
+                LocalName = "Kürd?mir"
+            },
+            new()
+            { 
+                Code = "LA",
+                Type = "Municipality",
+                Name = "L?nk?ran",
+                LocalName = "L?nk?ran"
+            },
+            new()
+            { 
+                Code = "LAN",
+                Type = "Rayon",
+                Name = "L?nk?ran",
+                LocalName = "L?nk?ran"
+            },
+            new()
+            { 
+                Code = "LAC",
+                Type = "Rayon",
+                Name = "Laçin",
+                LocalName = "Laçin"
+            },
+            new()
+            { 
+                Code = "LER",
+                Type = "Rayon",
+                Name = "Lerik",
+                LocalName = "Lerik"
+            },
+            new()
+            { 
+                Code = "MAS",
+                Type = "Rayon",
+                Name = "Masalli",
+                LocalName = "Masalli"
+            },
+            new()
+            { 
+                Code = "MI",
+                Type = "Municipality",
+                Name = "Ming?çevir",
+                LocalName = "Ming?çevir"
+            },
+            new()
+            { 
+                Code = "NA",
+                Type = "Municipality",
+                Name = "Naftalan",
+                LocalName = "Naftalan"
+            },
+            new()
+            { 
+                Code = "NX",
+                Type = "Republic",
+                Name = "Naxçivan",
+                LocalName = "Naxçivan"
+            },
+            new()
+            { 
+                Code = "NV",
+                Type = "Municipality",
+                Name = "Naxçivan",
+                LocalName = "Naxçivan"
+            },
+            new()
+            { 
+                Code = "NEF",
+                Type = "Rayon",
+                Name = "Neftçala",
+                LocalName = "Neftçala"
+            },
+            new()
+            { 
+                Code = "OGU",
+                Type = "Rayon",
+                Name = "Oguz",
+                LocalName = "Oguz"
+            },
+            new()
+            { 
+                Code = "ORD",
+                Type = "Rayon",
+                Name = "Ordubad",
+                LocalName = "Ordubad"
+            },
+            new()
+            { 
+                Code = "QAB",
+                Type = "Rayon",
+                Name = "Q?b?l?",
+                LocalName = "Q?b?l?"
+            },
+            new()
+            { 
+                Code = "QAX",
+                Type = "Rayon",
+                Name = "Qax",
+                LocalName = "Qax"
+            },
+            new()
+            { 
+                Code = "QAZ",
+                Type = "Rayon",
+                Name = "Qazax",
+                LocalName = "Qazax"
+            },
+            new()
+            { 
+                Code = "QOB",
+                Type = "Rayon",
+                Name = "Qobustan",
+                LocalName = "Qobustan"
+            },
+            new()
+            { 
+                Code = "QBA",
+                Type = "Rayon",
+                Name = "Quba",
+                LocalName = "Quba"
+            },
+            new()
+            { 
+                Code = "QBI",
+                Type = "Rayon",
+                Name = "Qubadli",
+                LocalName = "Qubadli"
+            },
+            new()
+            { 
+                Code = "QUS",
+                Type = "Rayon",
+                Name = "Qusar",
+                LocalName = "Qusar"
+            },
+            new()
+            { 
+                Code = "SAD",
+                Type = "Rayon",
+                Name = "S?d?r?k",
+                LocalName = "S?d?r?k"
+            },
+            new()
+            { 
+                Code = "SA",
+                Type = "Municipality",
+                Name = "S?ki",
+                LocalName = "S?ki"
+            },
+            new()
+            { 
+                Code = "SAK",
+                Type = "Rayon",
+                Name = "S?ki",
+                LocalName = "S?ki"
+            },
+            new()
+            { 
+                Code = "SKR",
+                Type = "Rayon",
+                Name = "S?mkir",
+                LocalName = "S?mkir"
+            },
+            new()
+            { 
+                Code = "SAR",
+                Type = "Rayon",
+                Name = "S?rur",
+                LocalName = "S?rur"
+            },
+            new()
+            { 
+                Code = "SAT",
+                Type = "Rayon",
+                Name = "Saatli",
+                LocalName = "Saatli"
+            },
+            new()
+            { 
+                Code = "SAB",
+                Type = "Rayon",
+                Name = "Sabirabad",
+                LocalName = "Sabirabad"
+            },
+            new()
+            { 
+                Code = "SBN",
+                Type = "Rayon",
+                Name = "Sabran",
+                LocalName = "Sabran"
+            },
+            new()
+            { 
+                Code = "SAH",
+                Type = "Rayon",
+                Name = "Sahbuz",
+                LocalName = "Sahbuz"
+            },
+            new()
+            { 
+                Code = "SAL",
+                Type = "Rayon",
+                Name = "Salyan",
+                LocalName = "Salyan"
+            },
+            new()
+            { 
+                Code = "SMI",
+                Type = "Rayon",
+                Name = "Samaxi",
+                LocalName = "Samaxi"
+            },
+            new()
+            { 
+                Code = "SMX",
+                Type = "Rayon",
+                Name = "Samux",
+                LocalName = "Samux"
+            },
+            new()
+            { 
+                Code = "SR",
+                Type = "Municipality",
+                Name = "Sirvan",
+                LocalName = "Sirvan"
+            },
+            new()
+            { 
+                Code = "SIY",
+                Type = "Rayon",
+                Name = "Siy?z?n",
+                LocalName = "Siy?z?n"
+            },
+            new()
+            { 
+                Code = "SM",
+                Type = "Municipality",
+                Name = "Sumqayit",
+                LocalName = "Sumqayit"
+            },
+            new()
+            { 
+                Code = "SUS",
+                Type = "Rayon",
+                Name = "Susa",
+                LocalName = "Susa"
+            },
+            new()
+            { 
+                Code = "TAR",
+                Type = "Rayon",
+                Name = "T?rt?r",
+                LocalName = "T?rt?r"
+            },
+            new()
+            { 
+                Code = "TOV",
+                Type = "Rayon",
+                Name = "Tovuz",
+                LocalName = "Tovuz"
+            },
+            new()
+            { 
+                Code = "UCA",
+                Type = "Rayon",
+                Name = "Ucar",
+                LocalName = "Ucar"
+            },
+            new()
+            { 
+                Code = "XAC",
+                Type = "Rayon",
+                Name = "Xaçmaz",
+                LocalName = "Xaçmaz"
+            },
+            new()
+            { 
+                Code = "XA",
+                Type = "Municipality",
+                Name = "Xank?ndi",
+                LocalName = "Xank?ndi"
+            },
+            new()
+            { 
+                Code = "XIZ",
+                Type = "Rayon",
+                Name = "Xizi",
+                LocalName = "Xizi"
+            },
+            new()
+            { 
+                Code = "XCI",
+                Type = "Rayon",
+                Name = "Xocali",
+                LocalName = "Xocali"
+            },
+            new()
+            { 
+                Code = "XVD",
+                Type = "Rayon",
+                Name = "Xocav?nd",
+                LocalName = "Xocav?nd"
+            },
+            new()
+            { 
+                Code = "YAR",
+                Type = "Rayon",
+                Name = "Yardimli",
+                LocalName = "Yardimli"
+            },
+            new()
+            { 
+                Code = "YEV",
+                Type = "Rayon",
+                Name = "Yevlax",
+                LocalName = "Yevlax"
+            },
+            new()
+            { 
+                Code = "YE",
+                Type = "Municipality",
+                Name = "Yevlax",
+                LocalName = "Yevlax"
+            },
+            new()
+            { 
+                Code = "ZAN",
+                Type = "Rayon",
+                Name = "Z?ngilan",
+                LocalName = "Z?ngilan"
+            },
+            new()
+            { 
+                Code = "ZAR",
+                Type = "Rayon",
+                Name = "Z?rdab",
+                LocalName = "Z?rdab"
+            },
+            new()
+            { 
+                Code = "ZAQ",
+                Type = "Rayon",
+                Name = "Zaqatala",
+                LocalName = "Zaqatala"
+            }
 
         });
     }

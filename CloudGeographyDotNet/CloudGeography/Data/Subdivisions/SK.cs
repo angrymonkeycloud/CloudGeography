@@ -7,14 +7,62 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("SK", new List<Subdivision>()
         {
-            new(){ Code ="ZI", LocalName="ilinský kraj", Name="ilinský kraj", Type="Region" },
-            new(){ Code ="BC", LocalName="Banskobystrický kraj", Name="Banskobystrický kraj", Type="Region" },
-            new(){ Code ="BL", LocalName="Bratislavský kraj", Name="Bratislavský kraj", Type="Region" },
-            new(){ Code ="KI", LocalName="Koický kraj", Name="Koický kraj", Type="Region" },
-            new(){ Code ="NI", LocalName="Nitriansky kraj", Name="Nitriansky kraj", Type="Region" },
-            new(){ Code ="PV", LocalName="Preovský kraj", Name="Preovský kraj", Type="Region" },
-            new(){ Code ="TC", LocalName="Trenciansky kraj", Name="Trenciansky kraj", Type="Region" },
-            new(){ Code ="TA", LocalName="Trnavský kraj", Name="Trnavský kraj", Type="Region" }
+            new()
+            { 
+                Code = "ZI",
+                Type = "Region",
+                Name = "ilinský kraj",
+                LocalName = "ilinský kraj"
+            },
+            new()
+            { 
+                Code = "BC",
+                Type = "Region",
+                Name = "Banskobystrický kraj",
+                LocalName = "Banskobystrický kraj"
+            },
+            new()
+            { 
+                Code = "BL",
+                Type = "Region",
+                Name = "Bratislavský kraj",
+                LocalName = "Bratislavský kraj"
+            },
+            new()
+            { 
+                Code = "KI",
+                Type = "Region",
+                Name = "Koický kraj",
+                LocalName = "Koický kraj"
+            },
+            new()
+            { 
+                Code = "NI",
+                Type = "Region",
+                Name = "Nitriansky kraj",
+                LocalName = "Nitriansky kraj"
+            },
+            new()
+            { 
+                Code = "PV",
+                Type = "Region",
+                Name = "Preovský kraj",
+                LocalName = "Preovský kraj"
+            },
+            new()
+            { 
+                Code = "TC",
+                Type = "Region",
+                Name = "Trenciansky kraj",
+                LocalName = "Trenciansky kraj"
+            },
+            new()
+            { 
+                Code = "TA",
+                Type = "Region",
+                Name = "Trnavský kraj",
+                LocalName = "Trnavský kraj"
+            }
 
         });
     }

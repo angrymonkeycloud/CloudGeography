@@ -7,33 +7,195 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("UA", new List<Subdivision>()
         {
-            new(){ Code ="43", LocalName="Avtonomna Respublika Krym", Name="Avtonomna Respublika Krym", Type="Republic" },
-            new(){ Code ="71", LocalName="Cherkaska oblast", Name="Cherkaska oblast", Type="Region" },
-            new(){ Code ="74", LocalName="Chernihivska oblast", Name="Chernihivska oblast", Type="Region" },
-            new(){ Code ="77", LocalName="Chernivetska oblast", Name="Chernivetska oblast", Type="Region" },
-            new(){ Code ="12", LocalName="Dnipropetrovska oblast", Name="Dnipropetrovska oblast", Type="Region" },
-            new(){ Code ="14", LocalName="Donetska oblast", Name="Donetska oblast", Type="Region" },
-            new(){ Code ="26", LocalName="Ivano-Frankivska oblast", Name="Ivano-Frankivska oblast", Type="Region" },
-            new(){ Code ="63", LocalName="Kharkivska oblast", Name="Kharkivska oblast", Type="Region" },
-            new(){ Code ="65", LocalName="Khersonska oblast", Name="Khersonska oblast", Type="Region" },
-            new(){ Code ="68", LocalName="Khmelnytska oblast", Name="Khmelnytska oblast", Type="Region" },
-            new(){ Code ="35", LocalName="Kirovohradska oblast", Name="Kirovohradska oblast", Type="Region" },
-            new(){ Code ="30", LocalName="Kyiv", Name="Kyiv", Type="City" },
-            new(){ Code ="32", LocalName="Kyivska oblast", Name="Kyivska oblast", Type="Region" },
-            new(){ Code ="9", LocalName="Luhanska oblast", Name="Luhanska oblast", Type="Region" },
-            new(){ Code ="46", LocalName="Lvivska oblast", Name="Lvivska oblast", Type="Region" },
-            new(){ Code ="48", LocalName="Mykolaivska oblast", Name="Mykolaivska oblast", Type="Region" },
-            new(){ Code ="51", LocalName="Odeska oblast", Name="Odeska oblast", Type="Region" },
-            new(){ Code ="53", LocalName="Poltavska oblast", Name="Poltavska oblast", Type="Region" },
-            new(){ Code ="56", LocalName="Rivnenska oblast", Name="Rivnenska oblast", Type="Region" },
-            new(){ Code ="40", LocalName="Sevastopol", Name="Sevastopol", Type="City" },
-            new(){ Code ="59", LocalName="Sumska oblast", Name="Sumska oblast", Type="Region" },
-            new(){ Code ="61", LocalName="Ternopilska oblast", Name="Ternopilska oblast", Type="Region" },
-            new(){ Code ="5", LocalName="Vinnytska oblast", Name="Vinnytska oblast", Type="Region" },
-            new(){ Code ="7", LocalName="Volynska oblast", Name="Volynska oblast", Type="Region" },
-            new(){ Code ="21", LocalName="Zakarpatska oblast", Name="Zakarpatska oblast", Type="Region" },
-            new(){ Code ="23", LocalName="Zaporizka oblast", Name="Zaporizka oblast", Type="Region" },
-            new(){ Code ="18", LocalName="Zhytomyrska oblast", Name="Zhytomyrska oblast", Type="Region" }
+            new()
+            { 
+                Code = "43",
+                Type = "Republic",
+                Name = "Avtonomna Respublika Krym",
+                LocalName = "Avtonomna Respublika Krym"
+            },
+            new()
+            { 
+                Code = "71",
+                Type = "Region",
+                Name = "Cherkaska oblast",
+                LocalName = "Cherkaska oblast"
+            },
+            new()
+            { 
+                Code = "74",
+                Type = "Region",
+                Name = "Chernihivska oblast",
+                LocalName = "Chernihivska oblast"
+            },
+            new()
+            { 
+                Code = "77",
+                Type = "Region",
+                Name = "Chernivetska oblast",
+                LocalName = "Chernivetska oblast"
+            },
+            new()
+            { 
+                Code = "12",
+                Type = "Region",
+                Name = "Dnipropetrovska oblast",
+                LocalName = "Dnipropetrovska oblast"
+            },
+            new()
+            { 
+                Code = "14",
+                Type = "Region",
+                Name = "Donetska oblast",
+                LocalName = "Donetska oblast"
+            },
+            new()
+            { 
+                Code = "26",
+                Type = "Region",
+                Name = "Ivano-Frankivska oblast",
+                LocalName = "Ivano-Frankivska oblast"
+            },
+            new()
+            { 
+                Code = "63",
+                Type = "Region",
+                Name = "Kharkivska oblast",
+                LocalName = "Kharkivska oblast"
+            },
+            new()
+            { 
+                Code = "65",
+                Type = "Region",
+                Name = "Khersonska oblast",
+                LocalName = "Khersonska oblast"
+            },
+            new()
+            { 
+                Code = "68",
+                Type = "Region",
+                Name = "Khmelnytska oblast",
+                LocalName = "Khmelnytska oblast"
+            },
+            new()
+            { 
+                Code = "35",
+                Type = "Region",
+                Name = "Kirovohradska oblast",
+                LocalName = "Kirovohradska oblast"
+            },
+            new()
+            { 
+                Code = "30",
+                Type = "City",
+                Name = "Kyiv",
+                LocalName = "Kyiv"
+            },
+            new()
+            { 
+                Code = "32",
+                Type = "Region",
+                Name = "Kyivska oblast",
+                LocalName = "Kyivska oblast"
+            },
+            new()
+            { 
+                Code = "9",
+                Type = "Region",
+                Name = "Luhanska oblast",
+                LocalName = "Luhanska oblast"
+            },
+            new()
+            { 
+                Code = "46",
+                Type = "Region",
+                Name = "Lvivska oblast",
+                LocalName = "Lvivska oblast"
+            },
+            new()
+            { 
+                Code = "48",
+                Type = "Region",
+                Name = "Mykolaivska oblast",
+                LocalName = "Mykolaivska oblast"
+            },
+            new()
+            { 
+                Code = "51",
+                Type = "Region",
+                Name = "Odeska oblast",
+                LocalName = "Odeska oblast"
+            },
+            new()
+            { 
+                Code = "53",
+                Type = "Region",
+                Name = "Poltavska oblast",
+                LocalName = "Poltavska oblast"
+            },
+            new()
+            { 
+                Code = "56",
+                Type = "Region",
+                Name = "Rivnenska oblast",
+                LocalName = "Rivnenska oblast"
+            },
+            new()
+            { 
+                Code = "40",
+                Type = "City",
+                Name = "Sevastopol",
+                LocalName = "Sevastopol"
+            },
+            new()
+            { 
+                Code = "59",
+                Type = "Region",
+                Name = "Sumska oblast",
+                LocalName = "Sumska oblast"
+            },
+            new()
+            { 
+                Code = "61",
+                Type = "Region",
+                Name = "Ternopilska oblast",
+                LocalName = "Ternopilska oblast"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "Region",
+                Name = "Vinnytska oblast",
+                LocalName = "Vinnytska oblast"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "Region",
+                Name = "Volynska oblast",
+                LocalName = "Volynska oblast"
+            },
+            new()
+            { 
+                Code = "21",
+                Type = "Region",
+                Name = "Zakarpatska oblast",
+                LocalName = "Zakarpatska oblast"
+            },
+            new()
+            { 
+                Code = "23",
+                Type = "Region",
+                Name = "Zaporizka oblast",
+                LocalName = "Zaporizka oblast"
+            },
+            new()
+            { 
+                Code = "18",
+                Type = "Region",
+                Name = "Zhytomyrska oblast",
+                LocalName = "Zhytomyrska oblast"
+            }
 
         });
     }

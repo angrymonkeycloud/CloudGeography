@@ -7,32 +7,188 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("MH", new List<Subdivision>()
         {
-            new(){ Code ="ALL", LocalName="Ailinglapalap", Name="Ailinglapalap", Type="Municipality" },
-            new(){ Code ="ALK", LocalName="Ailuk", Name="Ailuk", Type="Municipality" },
-            new(){ Code ="ARN", LocalName="Arno", Name="Arno", Type="Municipality" },
-            new(){ Code ="AUR", LocalName="Aur", Name="Aur", Type="Municipality" },
-            new(){ Code ="KIL", LocalName="Bikini and Kili", Name="Bikini and Kili", Type="Municipality" },
-            new(){ Code ="EBO", LocalName="Ebon", Name="Ebon", Type="Municipality" },
-            new(){ Code ="ENI", LocalName="Enewetak and Ujelang", Name="Enewetak and Ujelang", Type="Municipality" },
-            new(){ Code ="JAB", LocalName="Jabat", Name="Jabat", Type="Municipality" },
-            new(){ Code ="JAL", LocalName="Jaluit", Name="Jaluit", Type="Municipality" },
-            new(){ Code ="KWA", LocalName="Kwajalein", Name="Kwajalein", Type="Municipality" },
-            new(){ Code ="LAE", LocalName="Lae", Name="Lae", Type="Municipality" },
-            new(){ Code ="LIB", LocalName="Lib", Name="Lib", Type="Municipality" },
-            new(){ Code ="LIK", LocalName="Likiep", Name="Likiep", Type="Municipality" },
-            new(){ Code ="MAJ", LocalName="Majuro", Name="Majuro", Type="Municipality" },
-            new(){ Code ="MAL", LocalName="Maloelap", Name="Maloelap", Type="Municipality" },
-            new(){ Code ="MEJ", LocalName="Mejit", Name="Mejit", Type="Municipality" },
-            new(){ Code ="MIL", LocalName="Mili", Name="Mili", Type="Municipality" },
-            new(){ Code ="NMK", LocalName="Namdrik", Name="Namdrik", Type="Municipality" },
-            new(){ Code ="NMU", LocalName="Namu", Name="Namu", Type="Municipality" },
-            new(){ Code ="L", LocalName="Ralik chain", Name="Ralik chain", Type="District" },
-            new(){ Code ="T", LocalName="Ratak chain", Name="Ratak chain", Type="District" },
-            new(){ Code ="RON", LocalName="Rongelap", Name="Rongelap", Type="Municipality" },
-            new(){ Code ="UJA", LocalName="Ujae", Name="Ujae", Type="Municipality" },
-            new(){ Code ="UTI", LocalName="Utrik", Name="Utrik", Type="Municipality" },
-            new(){ Code ="WTH", LocalName="Wotho", Name="Wotho", Type="Municipality" },
-            new(){ Code ="WTJ", LocalName="Wotje", Name="Wotje", Type="Municipality" }
+            new()
+            { 
+                Code = "ALL",
+                Type = "Municipality",
+                Name = "Ailinglapalap",
+                LocalName = "Ailinglapalap"
+            },
+            new()
+            { 
+                Code = "ALK",
+                Type = "Municipality",
+                Name = "Ailuk",
+                LocalName = "Ailuk"
+            },
+            new()
+            { 
+                Code = "ARN",
+                Type = "Municipality",
+                Name = "Arno",
+                LocalName = "Arno"
+            },
+            new()
+            { 
+                Code = "AUR",
+                Type = "Municipality",
+                Name = "Aur",
+                LocalName = "Aur"
+            },
+            new()
+            { 
+                Code = "KIL",
+                Type = "Municipality",
+                Name = "Bikini and Kili",
+                LocalName = "Bikini and Kili"
+            },
+            new()
+            { 
+                Code = "EBO",
+                Type = "Municipality",
+                Name = "Ebon",
+                LocalName = "Ebon"
+            },
+            new()
+            { 
+                Code = "ENI",
+                Type = "Municipality",
+                Name = "Enewetak and Ujelang",
+                LocalName = "Enewetak and Ujelang"
+            },
+            new()
+            { 
+                Code = "JAB",
+                Type = "Municipality",
+                Name = "Jabat",
+                LocalName = "Jabat"
+            },
+            new()
+            { 
+                Code = "JAL",
+                Type = "Municipality",
+                Name = "Jaluit",
+                LocalName = "Jaluit"
+            },
+            new()
+            { 
+                Code = "KWA",
+                Type = "Municipality",
+                Name = "Kwajalein",
+                LocalName = "Kwajalein"
+            },
+            new()
+            { 
+                Code = "LAE",
+                Type = "Municipality",
+                Name = "Lae",
+                LocalName = "Lae"
+            },
+            new()
+            { 
+                Code = "LIB",
+                Type = "Municipality",
+                Name = "Lib",
+                LocalName = "Lib"
+            },
+            new()
+            { 
+                Code = "LIK",
+                Type = "Municipality",
+                Name = "Likiep",
+                LocalName = "Likiep"
+            },
+            new()
+            { 
+                Code = "MAJ",
+                Type = "Municipality",
+                Name = "Majuro",
+                LocalName = "Majuro"
+            },
+            new()
+            { 
+                Code = "MAL",
+                Type = "Municipality",
+                Name = "Maloelap",
+                LocalName = "Maloelap"
+            },
+            new()
+            { 
+                Code = "MEJ",
+                Type = "Municipality",
+                Name = "Mejit",
+                LocalName = "Mejit"
+            },
+            new()
+            { 
+                Code = "MIL",
+                Type = "Municipality",
+                Name = "Mili",
+                LocalName = "Mili"
+            },
+            new()
+            { 
+                Code = "NMK",
+                Type = "Municipality",
+                Name = "Namdrik",
+                LocalName = "Namdrik"
+            },
+            new()
+            { 
+                Code = "NMU",
+                Type = "Municipality",
+                Name = "Namu",
+                LocalName = "Namu"
+            },
+            new()
+            { 
+                Code = "L",
+                Type = "District",
+                Name = "Ralik chain",
+                LocalName = "Ralik chain"
+            },
+            new()
+            { 
+                Code = "T",
+                Type = "District",
+                Name = "Ratak chain",
+                LocalName = "Ratak chain"
+            },
+            new()
+            { 
+                Code = "RON",
+                Type = "Municipality",
+                Name = "Rongelap",
+                LocalName = "Rongelap"
+            },
+            new()
+            { 
+                Code = "UJA",
+                Type = "Municipality",
+                Name = "Ujae",
+                LocalName = "Ujae"
+            },
+            new()
+            { 
+                Code = "UTI",
+                Type = "Municipality",
+                Name = "Utrik",
+                LocalName = "Utrik"
+            },
+            new()
+            { 
+                Code = "WTH",
+                Type = "Municipality",
+                Name = "Wotho",
+                LocalName = "Wotho"
+            },
+            new()
+            { 
+                Code = "WTJ",
+                Type = "Municipality",
+                Name = "Wotje",
+                LocalName = "Wotje"
+            }
 
         });
     }

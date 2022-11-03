@@ -7,15 +7,69 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("BO", new List<Subdivision>()
         {
-            new(){ Code ="H", LocalName="Chuquisaca", Name="Chuquisaca", Type="Department" },
-            new(){ Code ="C", LocalName="Cochabamba", Name="Cochabamba", Type="Department" },
-            new(){ Code ="B", LocalName="El Beni", Name="El Beni", Type="Department" },
-            new(){ Code ="L", LocalName="La Paz", Name="La Paz", Type="Department" },
-            new(){ Code ="O", LocalName="Oruro", Name="Oruro", Type="Department" },
-            new(){ Code ="N", LocalName="Pando", Name="Pando", Type="Department" },
-            new(){ Code ="P", LocalName="Potosí", Name="Potosí", Type="Department" },
-            new(){ Code ="S", LocalName="Santa Cruz", Name="Santa Cruz", Type="Department" },
-            new(){ Code ="T", LocalName="Tarija", Name="Tarija", Type="Department" }
+            new()
+            { 
+                Code = "H",
+                Type = "Department",
+                Name = "Chuquisaca",
+                LocalName = "Chuquisaca"
+            },
+            new()
+            { 
+                Code = "C",
+                Type = "Department",
+                Name = "Cochabamba",
+                LocalName = "Cochabamba"
+            },
+            new()
+            { 
+                Code = "B",
+                Type = "Department",
+                Name = "El Beni",
+                LocalName = "El Beni"
+            },
+            new()
+            { 
+                Code = "L",
+                Type = "Department",
+                Name = "La Paz",
+                LocalName = "La Paz"
+            },
+            new()
+            { 
+                Code = "O",
+                Type = "Department",
+                Name = "Oruro",
+                LocalName = "Oruro"
+            },
+            new()
+            { 
+                Code = "N",
+                Type = "Department",
+                Name = "Pando",
+                LocalName = "Pando"
+            },
+            new()
+            { 
+                Code = "P",
+                Type = "Department",
+                Name = "Potosí",
+                LocalName = "Potosí"
+            },
+            new()
+            { 
+                Code = "S",
+                Type = "Department",
+                Name = "Santa Cruz",
+                LocalName = "Santa Cruz"
+            },
+            new()
+            { 
+                Code = "T",
+                Type = "Department",
+                Name = "Tarija",
+                LocalName = "Tarija"
+            }
 
         });
     }

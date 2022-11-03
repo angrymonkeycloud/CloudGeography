@@ -7,77 +7,503 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("MK", new List<Subdivision>()
         {
-            new(){ Code ="2", LocalName="Арачиново", Name="Aracinovo", Type="Municipality" },
-            new(){ Code ="3", LocalName="Берово", Name="Berovo", Type="Municipality" },
-            new(){ Code ="4", LocalName="Битола", Name="Bitola", Type="Municipality" },
-            new(){ Code ="5", LocalName="Богданци", Name="Bogdanci", Type="Municipality" },
-            new(){ Code ="6", LocalName="Боговиње", Name="Bogovinje", Type="Municipality" },
-            new(){ Code ="7", LocalName="Босилово", Name="Bosilovo", Type="Municipality" },
-            new(){ Code ="8", LocalName="Брвеница", Name="Brvenica", Type="Municipality" },
-            new(){ Code ="80", LocalName="Чашка", Name="Čaška", Type="Municipality" },
-            new(){ Code ="78", LocalName="Центар Жупа", Name="Centar Župa", Type="Municipality" },
-            new(){ Code ="81", LocalName="Чешиново-Облешево", Name="Češinovo-Obleševo ", Type="Municipality" },
-            new(){ Code ="82", LocalName="Чучер Сандево", Name="Čučer-Sandevo", Type="Municipality" },
-            new(){ Code ="21", LocalName="Дебар", Name="Debar", Type="Municipality" },
-            new(){ Code ="22", LocalName="Дебарца", Name="Debarca", Type="Municipality" },
-            new(){ Code ="23", LocalName="Делчево", Name="Delčevo", Type="Municipality" },
-            new(){ Code ="25", LocalName="Демир Хисар", Name="Demir Hisar", Type="Municipality" },
-            new(){ Code ="24", LocalName="Демир Капија", Name="Demir Kapija", Type="Municipality" },
-            new(){ Code ="26", LocalName="Дојран", Name="Dojran", Type="Municipality" },
-            new(){ Code ="27", LocalName="Долнени", Name="Dolneni", Type="Municipality" },
-            new(){ Code ="18", LocalName="Гевгелија", Name="Gevgelija", Type="Municipality" },
-            new(){ Code ="19", LocalName="Гостивар", Name="Gostivar", Type="Municipality" },
-            new(){ Code ="20", LocalName="Градско", Name="Gradsko", Type="Municipality" },
-            new(){ Code ="34", LocalName="Илинден", Name="Ilinden", Type="Municipality" },
-            new(){ Code ="35", LocalName="Jegunovce", Name="Jegunovce", Type="Municipality" },
-            new(){ Code ="37", LocalName="Карбинци", Name="Karbinci", Type="Municipality" },
-            new(){ Code ="36", LocalName="Кавадарци", Name="Kavadarci", Type="Municipality" },
-            new(){ Code ="40", LocalName="Кичево", Name="Kicevo", Type="Municipality" },
-            new(){ Code ="42", LocalName="Кочани", Name="Kocani", Type="Municipality" },
-            new(){ Code ="41", LocalName="Конче", Name="Konce", Type="Municipality" },
-            new(){ Code ="43", LocalName="Кратово", Name="Kratovo", Type="Municipality" },
-            new(){ Code ="44", LocalName="Крива Паланка", Name="Kriva Palanka", Type="Municipality" },
-            new(){ Code ="45", LocalName="Кривогаштани", Name="Krivogatani", Type="Municipality" },
-            new(){ Code ="46", LocalName="Крушево", Name="Kruševo", Type="Municipality" },
-            new(){ Code ="47", LocalName="Куманово", Name="Kumanovo", Type="Municipality" },
-            new(){ Code ="48", LocalName="Липково", Name="Lipkovo", Type="Municipality" },
-            new(){ Code ="49", LocalName="Лозово", Name="Lozovo", Type="Municipality" },
-            new(){ Code ="51", LocalName="Македонска Каменица", Name="Makedonska Kamenica", Type="Municipality" },
-            new(){ Code ="52", LocalName="Македонски Брод", Name="Makedonski Brod", Type="Municipality" },
-            new(){ Code ="50", LocalName="Маврово и Ростуша", Name="Mavrovo and Rostuša", Type="Municipality" },
-            new(){ Code ="53", LocalName="Могила", Name="Mogila", Type="Municipality" },
-            new(){ Code ="54", LocalName="Неготино", Name="Negotino", Type="Municipality" },
-            new(){ Code ="55", LocalName="Новаци", Name="Novaci", Type="Municipality" },
-            new(){ Code ="56", LocalName="Ново Село", Name="Novo Selo", Type="Municipality" },
-            new(){ Code ="58", LocalName="Охрид", Name="Ohrid", Type="Municipality" },
-            new(){ Code ="60", LocalName="Пехчево", Name="Pehcevo", Type="Municipality" },
-            new(){ Code ="59", LocalName="Петровец", Name="Petrovec", Type="Municipality" },
-            new(){ Code ="61", LocalName="Пласница", Name="Plasnica", Type="Municipality" },
-            new(){ Code ="62", LocalName="Пласница", Name="Prilep", Type="Municipality" },
-            new(){ Code ="63", LocalName="Пробиштип", Name="Probištip", Type="Municipality" },
-            new(){ Code ="64", LocalName="Радовиш", Name="Radoviš", Type="Municipality" },
-            new(){ Code ="65", LocalName="Ранковце", Name="Rankovce", Type="Municipality" },
-            new(){ Code ="66", LocalName="Ресен", Name="Resen", Type="Municipality" },
-            new(){ Code ="67", LocalName="Ресен", Name="Rosoman", Type="Municipality" },
-            new(){ Code ="85", LocalName="Скопски", Name="Skopje", Type="Municipality" },
-            new(){ Code ="70", LocalName="Сопиште", Name="Sopište", Type="Municipality" },
-            new(){ Code ="71", LocalName="Старо Нагоричане", Name="Staro Nagoričane", Type="Municipality" },
-            new(){ Code ="83", LocalName="Штип", Name="Štip", Type="Municipality" },
-            new(){ Code ="72", LocalName="Струга", Name="Struga", Type="Municipality" },
-            new(){ Code ="73", LocalName="Струмица", Name="Strumica", Type="Municipality" },
-            new(){ Code ="74", LocalName="Студеничани", Name="Studenicani", Type="Municipality" },
-            new(){ Code ="69", LocalName="Свети Николе", Name="Sveti Nikole", Type="Municipality" },
-            new(){ Code ="75", LocalName="Теарце", Name="Tearce", Type="Municipality" },
-            new(){ Code ="76", LocalName="Тетово", Name="Tetovo", Type="Municipality" },
-            new(){ Code ="10", LocalName="Валандово", Name="Valandovo", Type="Municipality" },
-            new(){ Code ="11", LocalName="Василево", Name="Vasilevo", Type="Municipality" },
-            new(){ Code ="13", LocalName="Велес", Name="Veles", Type="Municipality" },
-            new(){ Code ="12", LocalName="Вевчани", Name="Vevcani", Type="Municipality" },
-            new(){ Code ="14", LocalName="Виница", Name="Vinica", Type="Municipality" },
-            new(){ Code ="16", LocalName="Врапчиште", Name="Vrapcite", Type="Municipality" },
-            new(){ Code ="32", LocalName="Зелениково", Name="Zelenikovo", Type="Municipality" },
-            new(){ Code ="30", LocalName="Желино", Name="Želino", Type="Municipality" },
-            new(){ Code ="33", LocalName="Зрновци", Name="Zrnovci", Type="Municipality" }
+            new()
+            { 
+                Code = "2",
+                Type = "Municipality",
+                Name = "Aracinovo",
+                LocalName = "Арачиново"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "Municipality",
+                Name = "Berovo",
+                LocalName = "Берово"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "Municipality",
+                Name = "Bitola",
+                LocalName = "Битола"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "Municipality",
+                Name = "Bogdanci",
+                LocalName = "Богданци"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "Municipality",
+                Name = "Bogovinje",
+                LocalName = "Боговиње"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "Municipality",
+                Name = "Bosilovo",
+                LocalName = "Босилово"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "Municipality",
+                Name = "Brvenica",
+                LocalName = "Брвеница"
+            },
+            new()
+            { 
+                Code = "80",
+                Type = "Municipality",
+                Name = "Čaška",
+                LocalName = "Чашка"
+            },
+            new()
+            { 
+                Code = "78",
+                Type = "Municipality",
+                Name = "Centar Župa",
+                LocalName = "Центар Жупа"
+            },
+            new()
+            { 
+                Code = "81",
+                Type = "Municipality",
+                Name = "Češinovo-Obleševo ",
+                LocalName = "Чешиново-Облешево"
+            },
+            new()
+            { 
+                Code = "82",
+                Type = "Municipality",
+                Name = "Čučer-Sandevo",
+                LocalName = "Чучер Сандево"
+            },
+            new()
+            { 
+                Code = "21",
+                Type = "Municipality",
+                Name = "Debar",
+                LocalName = "Дебар"
+            },
+            new()
+            { 
+                Code = "22",
+                Type = "Municipality",
+                Name = "Debarca",
+                LocalName = "Дебарца"
+            },
+            new()
+            { 
+                Code = "23",
+                Type = "Municipality",
+                Name = "Delčevo",
+                LocalName = "Делчево"
+            },
+            new()
+            { 
+                Code = "25",
+                Type = "Municipality",
+                Name = "Demir Hisar",
+                LocalName = "Демир Хисар"
+            },
+            new()
+            { 
+                Code = "24",
+                Type = "Municipality",
+                Name = "Demir Kapija",
+                LocalName = "Демир Капија"
+            },
+            new()
+            { 
+                Code = "26",
+                Type = "Municipality",
+                Name = "Dojran",
+                LocalName = "Дојран"
+            },
+            new()
+            { 
+                Code = "27",
+                Type = "Municipality",
+                Name = "Dolneni",
+                LocalName = "Долнени"
+            },
+            new()
+            { 
+                Code = "18",
+                Type = "Municipality",
+                Name = "Gevgelija",
+                LocalName = "Гевгелија"
+            },
+            new()
+            { 
+                Code = "19",
+                Type = "Municipality",
+                Name = "Gostivar",
+                LocalName = "Гостивар"
+            },
+            new()
+            { 
+                Code = "20",
+                Type = "Municipality",
+                Name = "Gradsko",
+                LocalName = "Градско"
+            },
+            new()
+            { 
+                Code = "34",
+                Type = "Municipality",
+                Name = "Ilinden",
+                LocalName = "Илинден"
+            },
+            new()
+            { 
+                Code = "35",
+                Type = "Municipality",
+                Name = "Jegunovce",
+                LocalName = "Jegunovce"
+            },
+            new()
+            { 
+                Code = "37",
+                Type = "Municipality",
+                Name = "Karbinci",
+                LocalName = "Карбинци"
+            },
+            new()
+            { 
+                Code = "36",
+                Type = "Municipality",
+                Name = "Kavadarci",
+                LocalName = "Кавадарци"
+            },
+            new()
+            { 
+                Code = "40",
+                Type = "Municipality",
+                Name = "Kicevo",
+                LocalName = "Кичево"
+            },
+            new()
+            { 
+                Code = "42",
+                Type = "Municipality",
+                Name = "Kocani",
+                LocalName = "Кочани"
+            },
+            new()
+            { 
+                Code = "41",
+                Type = "Municipality",
+                Name = "Konce",
+                LocalName = "Конче"
+            },
+            new()
+            { 
+                Code = "43",
+                Type = "Municipality",
+                Name = "Kratovo",
+                LocalName = "Кратово"
+            },
+            new()
+            { 
+                Code = "44",
+                Type = "Municipality",
+                Name = "Kriva Palanka",
+                LocalName = "Крива Паланка"
+            },
+            new()
+            { 
+                Code = "45",
+                Type = "Municipality",
+                Name = "Krivogatani",
+                LocalName = "Кривогаштани"
+            },
+            new()
+            { 
+                Code = "46",
+                Type = "Municipality",
+                Name = "Kruševo",
+                LocalName = "Крушево"
+            },
+            new()
+            { 
+                Code = "47",
+                Type = "Municipality",
+                Name = "Kumanovo",
+                LocalName = "Куманово"
+            },
+            new()
+            { 
+                Code = "48",
+                Type = "Municipality",
+                Name = "Lipkovo",
+                LocalName = "Липково"
+            },
+            new()
+            { 
+                Code = "49",
+                Type = "Municipality",
+                Name = "Lozovo",
+                LocalName = "Лозово"
+            },
+            new()
+            { 
+                Code = "51",
+                Type = "Municipality",
+                Name = "Makedonska Kamenica",
+                LocalName = "Македонска Каменица"
+            },
+            new()
+            { 
+                Code = "52",
+                Type = "Municipality",
+                Name = "Makedonski Brod",
+                LocalName = "Македонски Брод"
+            },
+            new()
+            { 
+                Code = "50",
+                Type = "Municipality",
+                Name = "Mavrovo and Rostuša",
+                LocalName = "Маврово и Ростуша"
+            },
+            new()
+            { 
+                Code = "53",
+                Type = "Municipality",
+                Name = "Mogila",
+                LocalName = "Могила"
+            },
+            new()
+            { 
+                Code = "54",
+                Type = "Municipality",
+                Name = "Negotino",
+                LocalName = "Неготино"
+            },
+            new()
+            { 
+                Code = "55",
+                Type = "Municipality",
+                Name = "Novaci",
+                LocalName = "Новаци"
+            },
+            new()
+            { 
+                Code = "56",
+                Type = "Municipality",
+                Name = "Novo Selo",
+                LocalName = "Ново Село"
+            },
+            new()
+            { 
+                Code = "58",
+                Type = "Municipality",
+                Name = "Ohrid",
+                LocalName = "Охрид"
+            },
+            new()
+            { 
+                Code = "60",
+                Type = "Municipality",
+                Name = "Pehcevo",
+                LocalName = "Пехчево"
+            },
+            new()
+            { 
+                Code = "59",
+                Type = "Municipality",
+                Name = "Petrovec",
+                LocalName = "Петровец"
+            },
+            new()
+            { 
+                Code = "61",
+                Type = "Municipality",
+                Name = "Plasnica",
+                LocalName = "Пласница"
+            },
+            new()
+            { 
+                Code = "62",
+                Type = "Municipality",
+                Name = "Prilep",
+                LocalName = "Пласница"
+            },
+            new()
+            { 
+                Code = "63",
+                Type = "Municipality",
+                Name = "Probištip",
+                LocalName = "Пробиштип"
+            },
+            new()
+            { 
+                Code = "64",
+                Type = "Municipality",
+                Name = "Radoviš",
+                LocalName = "Радовиш"
+            },
+            new()
+            { 
+                Code = "65",
+                Type = "Municipality",
+                Name = "Rankovce",
+                LocalName = "Ранковце"
+            },
+            new()
+            { 
+                Code = "66",
+                Type = "Municipality",
+                Name = "Resen",
+                LocalName = "Ресен"
+            },
+            new()
+            { 
+                Code = "67",
+                Type = "Municipality",
+                Name = "Rosoman",
+                LocalName = "Ресен"
+            },
+            new()
+            { 
+                Code = "85",
+                Type = "Municipality",
+                Name = "Skopje",
+                LocalName = "Скопски"
+            },
+            new()
+            { 
+                Code = "70",
+                Type = "Municipality",
+                Name = "Sopište",
+                LocalName = "Сопиште"
+            },
+            new()
+            { 
+                Code = "71",
+                Type = "Municipality",
+                Name = "Staro Nagoričane",
+                LocalName = "Старо Нагоричане"
+            },
+            new()
+            { 
+                Code = "83",
+                Type = "Municipality",
+                Name = "Štip",
+                LocalName = "Штип"
+            },
+            new()
+            { 
+                Code = "72",
+                Type = "Municipality",
+                Name = "Struga",
+                LocalName = "Струга"
+            },
+            new()
+            { 
+                Code = "73",
+                Type = "Municipality",
+                Name = "Strumica",
+                LocalName = "Струмица"
+            },
+            new()
+            { 
+                Code = "74",
+                Type = "Municipality",
+                Name = "Studenicani",
+                LocalName = "Студеничани"
+            },
+            new()
+            { 
+                Code = "69",
+                Type = "Municipality",
+                Name = "Sveti Nikole",
+                LocalName = "Свети Николе"
+            },
+            new()
+            { 
+                Code = "75",
+                Type = "Municipality",
+                Name = "Tearce",
+                LocalName = "Теарце"
+            },
+            new()
+            { 
+                Code = "76",
+                Type = "Municipality",
+                Name = "Tetovo",
+                LocalName = "Тетово"
+            },
+            new()
+            { 
+                Code = "10",
+                Type = "Municipality",
+                Name = "Valandovo",
+                LocalName = "Валандово"
+            },
+            new()
+            { 
+                Code = "11",
+                Type = "Municipality",
+                Name = "Vasilevo",
+                LocalName = "Василево"
+            },
+            new()
+            { 
+                Code = "13",
+                Type = "Municipality",
+                Name = "Veles",
+                LocalName = "Велес"
+            },
+            new()
+            { 
+                Code = "12",
+                Type = "Municipality",
+                Name = "Vevcani",
+                LocalName = "Вевчани"
+            },
+            new()
+            { 
+                Code = "14",
+                Type = "Municipality",
+                Name = "Vinica",
+                LocalName = "Виница"
+            },
+            new()
+            { 
+                Code = "16",
+                Type = "Municipality",
+                Name = "Vrapcite",
+                LocalName = "Врапчиште"
+            },
+            new()
+            { 
+                Code = "32",
+                Type = "Municipality",
+                Name = "Zelenikovo",
+                LocalName = "Зелениково"
+            },
+            new()
+            { 
+                Code = "30",
+                Type = "Municipality",
+                Name = "Želino",
+                LocalName = "Желино"
+            },
+            new()
+            { 
+                Code = "33",
+                Type = "Municipality",
+                Name = "Zrnovci",
+                LocalName = "Зрновци"
+            }
 
         });
     }

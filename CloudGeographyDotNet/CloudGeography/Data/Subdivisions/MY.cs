@@ -7,22 +7,118 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("MY", new List<Subdivision>()
         {
-            new(){ Code ="1", LocalName="Johor", Name="Johor", Type="State" },
-            new(){ Code ="2", LocalName="Kedah", Name="Kedah", Type="State" },
-            new(){ Code ="3", LocalName="Kelantan", Name="Kelantan", Type="State" },
-            new(){ Code ="4", LocalName="Melaka", Name="Melaka", Type="State" },
-            new(){ Code ="5", LocalName="Negeri Sembilan", Name="Negeri Sembilan", Type="State" },
-            new(){ Code ="6", LocalName="Pahang", Name="Pahang", Type="State" },
-            new(){ Code ="8", LocalName="Perak", Name="Perak", Type="State" },
-            new(){ Code ="9", LocalName="Perlis", Name="Perlis", Type="State" },
-            new(){ Code ="7", LocalName="Pulau Pinang", Name="Pulau Pinang", Type="State" },
-            new(){ Code ="12", LocalName="Sabah", Name="Sabah", Type="State" },
-            new(){ Code ="13", LocalName="Sarawak", Name="Sarawak", Type="State" },
-            new(){ Code ="10", LocalName="Selangor", Name="Selangor", Type="State" },
-            new(){ Code ="11", LocalName="Terengganu", Name="Terengganu", Type="State" },
-            new(){ Code ="14", LocalName="Wilayah Persekutuan Kuala Lumpur", Name="Wilayah Persekutuan Kuala Lumpur", Type="Territory" },
-            new(){ Code ="15", LocalName="Wilayah Persekutuan Labuan", Name="Wilayah Persekutuan Labuan", Type="Territory" },
-            new(){ Code ="16", LocalName="Wilayah Persekutuan Putrajaya", Name="Wilayah Persekutuan Putrajaya", Type="Territory" }
+            new()
+            { 
+                Code = "1",
+                Type = "State",
+                Name = "Johor",
+                LocalName = "Johor"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "State",
+                Name = "Kedah",
+                LocalName = "Kedah"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "State",
+                Name = "Kelantan",
+                LocalName = "Kelantan"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "State",
+                Name = "Melaka",
+                LocalName = "Melaka"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "State",
+                Name = "Negeri Sembilan",
+                LocalName = "Negeri Sembilan"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "State",
+                Name = "Pahang",
+                LocalName = "Pahang"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "State",
+                Name = "Perak",
+                LocalName = "Perak"
+            },
+            new()
+            { 
+                Code = "9",
+                Type = "State",
+                Name = "Perlis",
+                LocalName = "Perlis"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "State",
+                Name = "Pulau Pinang",
+                LocalName = "Pulau Pinang"
+            },
+            new()
+            { 
+                Code = "12",
+                Type = "State",
+                Name = "Sabah",
+                LocalName = "Sabah"
+            },
+            new()
+            { 
+                Code = "13",
+                Type = "State",
+                Name = "Sarawak",
+                LocalName = "Sarawak"
+            },
+            new()
+            { 
+                Code = "10",
+                Type = "State",
+                Name = "Selangor",
+                LocalName = "Selangor"
+            },
+            new()
+            { 
+                Code = "11",
+                Type = "State",
+                Name = "Terengganu",
+                LocalName = "Terengganu"
+            },
+            new()
+            { 
+                Code = "14",
+                Type = "Territory",
+                Name = "Wilayah Persekutuan Kuala Lumpur",
+                LocalName = "Wilayah Persekutuan Kuala Lumpur"
+            },
+            new()
+            { 
+                Code = "15",
+                Type = "Territory",
+                Name = "Wilayah Persekutuan Labuan",
+                LocalName = "Wilayah Persekutuan Labuan"
+            },
+            new()
+            { 
+                Code = "16",
+                Type = "Territory",
+                Name = "Wilayah Persekutuan Putrajaya",
+                LocalName = "Wilayah Persekutuan Putrajaya"
+            }
 
         });
     }

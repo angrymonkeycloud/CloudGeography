@@ -7,10 +7,34 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("BH", new List<Subdivision>()
         {
-            new(){ Code ="13", LocalName="محافظة العاصمة", Name="Capital Governorate", Type="Governorate" },
-            new(){ Code ="15", LocalName="محافظة المحرق", Name="Muharraq Governorate", Type="Governorate" },
-            new(){ Code ="17", LocalName="المحافظة الشمالية", Name="Northern Governorate", Type="Governorate" },
-            new(){ Code ="14", LocalName="المحافظة الجنوبية", Name="Southern Governorate", Type="Governorate" }
+            new()
+            { 
+                Code = "13",
+                Type = "Governorate",
+                Name = "Capital Governorate",
+                LocalName = "محافظة العاصمة"
+            },
+            new()
+            { 
+                Code = "15",
+                Type = "Governorate",
+                Name = "Muharraq Governorate",
+                LocalName = "محافظة المحرق"
+            },
+            new()
+            { 
+                Code = "17",
+                Type = "Governorate",
+                Name = "Northern Governorate",
+                LocalName = "المحافظة الشمالية"
+            },
+            new()
+            { 
+                Code = "14",
+                Type = "Governorate",
+                Name = "Southern Governorate",
+                LocalName = "المحافظة الجنوبية"
+            }
 
         });
     }

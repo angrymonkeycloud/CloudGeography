@@ -7,13 +7,55 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("AE", new List<Subdivision>()
         {
-            new(){ Code ="AZ", LocalName="أَبُـوظَـبِي", Name="Abu Dhabi", Type="Emirate" },
-            new(){ Code ="AJ", LocalName="عجمان", Name="Ajman", Type="Emirate" },
-            new(){ Code ="FU", LocalName="الفجيرة", Name="Al Fujairah", Type="Emirate" },
-            new(){ Code ="DU", LocalName="دبيّ", Name="Dubai", Type="Emirate" },
-            new(){ Code ="RK", LocalName="رَأْس ٱلْخَيْمَة", Name="Ras Al Khaimah", Type="Emirate" },
-            new(){ Code ="SH", LocalName="ٱلشَّارِقَة", Name="Sharjah", Type="Emirate" },
-            new(){ Code ="UQ", LocalName="أم القيوين", Name="Umm Al Quwain", Type="Emirate" }
+            new()
+            { 
+                Code = "AZ",
+                Type = "Emirate",
+                Name = "Abu Dhabi",
+                LocalName = "أَبُـوظَـبِي"
+            },
+            new()
+            { 
+                Code = "AJ",
+                Type = "Emirate",
+                Name = "Ajman",
+                LocalName = "عجمان"
+            },
+            new()
+            { 
+                Code = "FU",
+                Type = "Emirate",
+                Name = "Al Fujairah",
+                LocalName = "الفجيرة"
+            },
+            new()
+            { 
+                Code = "DU",
+                Type = "Emirate",
+                Name = "Dubai",
+                LocalName = "دبيّ"
+            },
+            new()
+            { 
+                Code = "RK",
+                Type = "Emirate",
+                Name = "Ras Al Khaimah",
+                LocalName = "رَأْس ٱلْخَيْمَة"
+            },
+            new()
+            { 
+                Code = "SH",
+                Type = "Emirate",
+                Name = "Sharjah",
+                LocalName = "ٱلشَّارِقَة"
+            },
+            new()
+            { 
+                Code = "UQ",
+                Type = "Emirate",
+                Name = "Umm Al Quwain",
+                LocalName = "أم القيوين"
+            }
 
         });
     }

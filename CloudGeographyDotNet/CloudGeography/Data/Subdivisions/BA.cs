@@ -7,9 +7,27 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("BA", new List<Subdivision>()
         {
-            new(){ Code ="BRC", LocalName="Brčko Distrikt", Name="Brčko District", Type="District" },
-            new(){ Code ="BIH", LocalName="Federacija Bosne i Hercegovine", Name="Federation of Bosnia and Herzegovina", Type="Entity" },
-            new(){ Code ="SRP", LocalName="Република Српскa", Name="Republika Srpska", Type="Entity" }
+            new()
+            { 
+                Code = "BRC",
+                Type = "District",
+                Name = "Brčko District",
+                LocalName = "Brčko Distrikt"
+            },
+            new()
+            { 
+                Code = "BIH",
+                Type = "Entity",
+                Name = "Federation of Bosnia and Herzegovina",
+                LocalName = "Federacija Bosne i Hercegovine"
+            },
+            new()
+            { 
+                Code = "SRP",
+                Type = "Entity",
+                Name = "Republika Srpska",
+                LocalName = "Република Српскa"
+            }
 
         });
     }

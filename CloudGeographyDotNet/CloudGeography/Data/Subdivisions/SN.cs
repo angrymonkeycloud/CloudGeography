@@ -7,20 +7,104 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("SN", new List<Subdivision>()
         {
-            new(){ Code ="DK", LocalName="Dakar", Name="Dakar", Type="Region" },
-            new(){ Code ="DB", LocalName="Diourbel", Name="Diourbel", Type="Region" },
-            new(){ Code ="FK", LocalName="Fatick", Name="Fatick", Type="Region" },
-            new(){ Code ="KA", LocalName="Kaffrine", Name="Kaffrine", Type="Region" },
-            new(){ Code ="KL", LocalName="Kaolack", Name="Kaolack", Type="Region" },
-            new(){ Code ="KE", LocalName="Kédougou", Name="Kédougou", Type="Region" },
-            new(){ Code ="KD", LocalName="Kolda", Name="Kolda", Type="Region" },
-            new(){ Code ="LG", LocalName="Louga", Name="Louga", Type="Region" },
-            new(){ Code ="MT", LocalName="Matam", Name="Matam", Type="Region" },
-            new(){ Code ="SL", LocalName="Saint-Louis", Name="Saint-Louis", Type="Region" },
-            new(){ Code ="SE", LocalName="Sédhiou", Name="Sédhiou", Type="Region" },
-            new(){ Code ="TC", LocalName="Tambacounda", Name="Tambacounda", Type="Region" },
-            new(){ Code ="TH", LocalName="Thiès", Name="Thiès", Type="Region" },
-            new(){ Code ="ZG", LocalName="Ziguinchor", Name="Ziguinchor", Type="Region" }
+            new()
+            { 
+                Code = "DK",
+                Type = "Region",
+                Name = "Dakar",
+                LocalName = "Dakar"
+            },
+            new()
+            { 
+                Code = "DB",
+                Type = "Region",
+                Name = "Diourbel",
+                LocalName = "Diourbel"
+            },
+            new()
+            { 
+                Code = "FK",
+                Type = "Region",
+                Name = "Fatick",
+                LocalName = "Fatick"
+            },
+            new()
+            { 
+                Code = "KA",
+                Type = "Region",
+                Name = "Kaffrine",
+                LocalName = "Kaffrine"
+            },
+            new()
+            { 
+                Code = "KL",
+                Type = "Region",
+                Name = "Kaolack",
+                LocalName = "Kaolack"
+            },
+            new()
+            { 
+                Code = "KE",
+                Type = "Region",
+                Name = "Kédougou",
+                LocalName = "Kédougou"
+            },
+            new()
+            { 
+                Code = "KD",
+                Type = "Region",
+                Name = "Kolda",
+                LocalName = "Kolda"
+            },
+            new()
+            { 
+                Code = "LG",
+                Type = "Region",
+                Name = "Louga",
+                LocalName = "Louga"
+            },
+            new()
+            { 
+                Code = "MT",
+                Type = "Region",
+                Name = "Matam",
+                LocalName = "Matam"
+            },
+            new()
+            { 
+                Code = "SL",
+                Type = "Region",
+                Name = "Saint-Louis",
+                LocalName = "Saint-Louis"
+            },
+            new()
+            { 
+                Code = "SE",
+                Type = "Region",
+                Name = "Sédhiou",
+                LocalName = "Sédhiou"
+            },
+            new()
+            { 
+                Code = "TC",
+                Type = "Region",
+                Name = "Tambacounda",
+                LocalName = "Tambacounda"
+            },
+            new()
+            { 
+                Code = "TH",
+                Type = "Region",
+                Name = "Thiès",
+                LocalName = "Thiès"
+            },
+            new()
+            { 
+                Code = "ZG",
+                Type = "Region",
+                Name = "Ziguinchor",
+                LocalName = "Ziguinchor"
+            }
 
         });
     }

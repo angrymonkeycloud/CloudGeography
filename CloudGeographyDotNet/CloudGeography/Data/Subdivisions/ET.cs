@@ -7,15 +7,69 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("ET", new List<Subdivision>()
         {
-            new(){ Code ="AF", LocalName="Afar", Name="Afar", Type="State" },
-            new(){ Code ="AM", LocalName="Amara", Name="Amara", Type="State" },
-            new(){ Code ="BE", LocalName="Binshangul Gumuz", Name="Binshangul Gumuz", Type="State" },
-            new(){ Code ="GA", LocalName="Gambela Hizboch", Name="Gambela Hizboch", Type="State" },
-            new(){ Code ="HA", LocalName="Hareri Hizb", Name="Hareri Hizb", Type="State" },
-            new(){ Code ="OR", LocalName="Oromiya", Name="Oromiya", Type="State" },
-            new(){ Code ="SO", LocalName="Sumale", Name="Sumale", Type="State" },
-            new(){ Code ="TI", LocalName="Tigray", Name="Tigray", Type="State" },
-            new(){ Code ="SN", LocalName="YeDebub Biheroch Bihereseboch na Hizboch", Name="YeDebub Biheroch Bihereseboch na Hizboch", Type="State" }
+            new()
+            { 
+                Code = "AF",
+                Type = "State",
+                Name = "Afar",
+                LocalName = "Afar"
+            },
+            new()
+            { 
+                Code = "AM",
+                Type = "State",
+                Name = "Amara",
+                LocalName = "Amara"
+            },
+            new()
+            { 
+                Code = "BE",
+                Type = "State",
+                Name = "Binshangul Gumuz",
+                LocalName = "Binshangul Gumuz"
+            },
+            new()
+            { 
+                Code = "GA",
+                Type = "State",
+                Name = "Gambela Hizboch",
+                LocalName = "Gambela Hizboch"
+            },
+            new()
+            { 
+                Code = "HA",
+                Type = "State",
+                Name = "Hareri Hizb",
+                LocalName = "Hareri Hizb"
+            },
+            new()
+            { 
+                Code = "OR",
+                Type = "State",
+                Name = "Oromiya",
+                LocalName = "Oromiya"
+            },
+            new()
+            { 
+                Code = "SO",
+                Type = "State",
+                Name = "Sumale",
+                LocalName = "Sumale"
+            },
+            new()
+            { 
+                Code = "TI",
+                Type = "State",
+                Name = "Tigray",
+                LocalName = "Tigray"
+            },
+            new()
+            { 
+                Code = "SN",
+                Type = "State",
+                Name = "YeDebub Biheroch Bihereseboch na Hizboch",
+                LocalName = "YeDebub Biheroch Bihereseboch na Hizboch"
+            }
 
         });
     }

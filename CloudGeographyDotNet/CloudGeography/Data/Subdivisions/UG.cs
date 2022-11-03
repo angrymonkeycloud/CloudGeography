@@ -7,115 +7,769 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("UG", new List<Subdivision>()
         {
-            new(){ Code ="314", LocalName="Abim", Name="Abim", Type="District" },
-            new(){ Code ="301", LocalName="Adjumani", Name="Adjumani", Type="District" },
-            new(){ Code ="315", LocalName="Amolatar", Name="Amolatar", Type="District" },
-            new(){ Code ="216", LocalName="Amuria", Name="Amuria", Type="District" },
-            new(){ Code ="316", LocalName="Amuru", Name="Amuru", Type="District" },
-            new(){ Code ="302", LocalName="Apac", Name="Apac", Type="District" },
-            new(){ Code ="303", LocalName="Arua", Name="Arua", Type="District" },
-            new(){ Code ="217", LocalName="Budaka", Name="Budaka", Type="District" },
-            new(){ Code ="218", LocalName="Bududa", Name="Bududa", Type="District" },
-            new(){ Code ="201", LocalName="Bugiri", Name="Bugiri", Type="District" },
-            new(){ Code ="420", LocalName="Buhweju", Name="Buhweju", Type="District" },
-            new(){ Code ="117", LocalName="Buikwe", Name="Buikwe", Type="District" },
-            new(){ Code ="219", LocalName="Bukedea", Name="Bukedea", Type="District" },
-            new(){ Code ="118", LocalName="Bukomansibi", Name="Bukomansibi", Type="District" },
-            new(){ Code ="220", LocalName="Bukwa", Name="Bukwa", Type="District" },
-            new(){ Code ="225", LocalName="Bulambuli", Name="Bulambuli", Type="District" },
-            new(){ Code ="416", LocalName="Buliisa", Name="Buliisa", Type="District" },
-            new(){ Code ="401", LocalName="Bundibugyo", Name="Bundibugyo", Type="District" },
-            new(){ Code ="402", LocalName="Bushenyi", Name="Bushenyi", Type="District" },
-            new(){ Code ="202", LocalName="Busia", Name="Busia", Type="District" },
-            new(){ Code ="221", LocalName="Butaleja", Name="Butaleja", Type="District" },
-            new(){ Code ="119", LocalName="Butambala", Name="Butambala", Type="District" },
-            new(){ Code ="120", LocalName="Buvuma", Name="Buvuma", Type="District" },
-            new(){ Code ="226", LocalName="Buyende", Name="Buyende", Type="District" },
-            new(){ Code ="317", LocalName="Dokolo", Name="Dokolo", Type="District" },
-            new(){ Code ="121", LocalName="Gomba", Name="Gomba", Type="District" },
-            new(){ Code ="304", LocalName="Gulu", Name="Gulu", Type="District" },
-            new(){ Code ="403", LocalName="Hoima", Name="Hoima", Type="District" },
-            new(){ Code ="417", LocalName="Ibanda", Name="Ibanda", Type="District" },
-            new(){ Code ="203", LocalName="Iganga", Name="Iganga", Type="District" },
-            new(){ Code ="418", LocalName="Isingiro", Name="Isingiro", Type="District" },
-            new(){ Code ="204", LocalName="Jinja", Name="Jinja", Type="District" },
-            new(){ Code ="318", LocalName="Kaabong", Name="Kaabong", Type="District" },
-            new(){ Code ="404", LocalName="Kabale", Name="Kabale", Type="District" },
-            new(){ Code ="405", LocalName="Kabarole", Name="Kabarole", Type="District" },
-            new(){ Code ="213", LocalName="Kaberamaido", Name="Kaberamaido", Type="District" },
-            new(){ Code ="101", LocalName="Kalangala", Name="Kalangala", Type="District" },
-            new(){ Code ="222", LocalName="Kaliro", Name="Kaliro", Type="District" },
-            new(){ Code ="122", LocalName="Kalungu", Name="Kalungu", Type="District" },
-            new(){ Code ="102", LocalName="Kampala", Name="Kampala", Type="City" },
-            new(){ Code ="205", LocalName="Kamuli", Name="Kamuli", Type="District" },
-            new(){ Code ="413", LocalName="Kamwenge", Name="Kamwenge", Type="District" },
-            new(){ Code ="414", LocalName="Kanungu", Name="Kanungu", Type="District" },
-            new(){ Code ="206", LocalName="Kapchorwa", Name="Kapchorwa", Type="District" },
-            new(){ Code ="406", LocalName="Kasese", Name="Kasese", Type="District" },
-            new(){ Code ="207", LocalName="Katakwi", Name="Katakwi", Type="District" },
-            new(){ Code ="112", LocalName="Kayunga", Name="Kayunga", Type="District" },
-            new(){ Code ="407", LocalName="Kibaale", Name="Kibaale", Type="District" },
-            new(){ Code ="103", LocalName="Kiboga", Name="Kiboga", Type="District" },
-            new(){ Code ="227", LocalName="Kibuku", Name="Kibuku", Type="District" },
-            new(){ Code ="419", LocalName="Kiruhura", Name="Kiruhura", Type="District" },
-            new(){ Code ="421", LocalName="Kiryandongo", Name="Kiryandongo", Type="District" },
-            new(){ Code ="408", LocalName="Kisoro", Name="Kisoro", Type="District" },
-            new(){ Code ="305", LocalName="Kitgum", Name="Kitgum", Type="District" },
-            new(){ Code ="319", LocalName="Koboko", Name="Koboko", Type="District" },
-            new(){ Code ="325", LocalName="Kole", Name="Kole", Type="District" },
-            new(){ Code ="306", LocalName="Kotido", Name="Kotido", Type="District" },
-            new(){ Code ="208", LocalName="Kumi", Name="Kumi", Type="District" },
-            new(){ Code ="228", LocalName="Kween", Name="Kween", Type="District" },
-            new(){ Code ="123", LocalName="Kyankwanzi", Name="Kyankwanzi", Type="District" },
-            new(){ Code ="422", LocalName="Kyegegwa", Name="Kyegegwa", Type="District" },
-            new(){ Code ="415", LocalName="Kyenjojo", Name="Kyenjojo", Type="District" },
-            new(){ Code ="326", LocalName="Lamwo", Name="Lamwo", Type="District" },
-            new(){ Code ="307", LocalName="Lira", Name="Lira", Type="District" },
-            new(){ Code ="229", LocalName="Luuka", Name="Luuka", Type="District" },
-            new(){ Code ="104", LocalName="Luwero", Name="Luwero", Type="District" },
-            new(){ Code ="124", LocalName="Lwengo", Name="Lwengo", Type="District" },
-            new(){ Code ="114", LocalName="Lyantonde", Name="Lyantonde", Type="District" },
-            new(){ Code ="223", LocalName="Manafwa", Name="Manafwa", Type="District" },
-            new(){ Code ="320", LocalName="Maracha", Name="Maracha", Type="District" },
-            new(){ Code ="105", LocalName="Masaka", Name="Masaka", Type="District" },
-            new(){ Code ="409", LocalName="Masindi", Name="Masindi", Type="District" },
-            new(){ Code ="244", LocalName="Mayuge", Name="Mayuge", Type="District" },
-            new(){ Code ="209", LocalName="Mbale", Name="Mbale", Type="District" },
-            new(){ Code ="410", LocalName="Mbarara", Name="Mbarara", Type="District" },
-            new(){ Code ="423", LocalName="Mitooma", Name="Mitooma", Type="District" },
-            new(){ Code ="115", LocalName="Mityana", Name="Mityana", Type="District" },
-            new(){ Code ="308", LocalName="Moroto", Name="Moroto", Type="District" },
-            new(){ Code ="309", LocalName="Moyo", Name="Moyo", Type="District" },
-            new(){ Code ="106", LocalName="Mpigi", Name="Mpigi", Type="District" },
-            new(){ Code ="107", LocalName="Mubende", Name="Mubende", Type="District" },
-            new(){ Code ="108", LocalName="Mukono", Name="Mukono", Type="District" },
-            new(){ Code ="311", LocalName="Nakapiripirit", Name="Nakapiripirit", Type="District" },
-            new(){ Code ="116", LocalName="Nakaseke", Name="Nakaseke", Type="District" },
-            new(){ Code ="109", LocalName="Nakasongola", Name="Nakasongola", Type="District" },
-            new(){ Code ="230", LocalName="Namayingo", Name="Namayingo", Type="District" },
-            new(){ Code ="224", LocalName="Namutumba", Name="Namutumba", Type="District" },
-            new(){ Code ="327", LocalName="Napak", Name="Napak", Type="District" },
-            new(){ Code ="310", LocalName="Nebbi", Name="Nebbi", Type="District" },
-            new(){ Code ="231", LocalName="Ngora", Name="Ngora", Type="District" },
-            new(){ Code ="424", LocalName="Ntoroko", Name="Ntoroko", Type="District" },
-            new(){ Code ="411", LocalName="Ntungamo", Name="Ntungamo", Type="District" },
-            new(){ Code ="328", LocalName="Nwoya", Name="Nwoya", Type="District" },
-            new(){ Code ="329", LocalName="Otuke", Name="Otuke", Type="District" },
-            new(){ Code ="321", LocalName="Oyam", Name="Oyam", Type="District" },
-            new(){ Code ="312", LocalName="Pader", Name="Pader", Type="District" },
-            new(){ Code ="210", LocalName="Pallisa", Name="Pallisa", Type="District" },
-            new(){ Code ="110", LocalName="Rakai", Name="Rakai", Type="District" },
-            new(){ Code ="425", LocalName="Rubirizi", Name="Rubirizi", Type="District" },
-            new(){ Code ="412", LocalName="Rukungiri", Name="Rukungiri", Type="District" },
-            new(){ Code ="111", LocalName="Sembabule", Name="Sembabule", Type="District" },
-            new(){ Code ="232", LocalName="Serere", Name="Serere", Type="District" },
-            new(){ Code ="426", LocalName="Sheema", Name="Sheema", Type="District" },
-            new(){ Code ="215", LocalName="Sironko", Name="Sironko", Type="District" },
-            new(){ Code ="211", LocalName="Soroti", Name="Soroti", Type="District" },
-            new(){ Code ="212", LocalName="Tororo", Name="Tororo", Type="District" },
-            new(){ Code ="113", LocalName="Wakiso", Name="Wakiso", Type="District" },
-            new(){ Code ="313", LocalName="Yumbe", Name="Yumbe", Type="District" },
-            new(){ Code ="330", LocalName="Zombo", Name="Zombo", Type="District" }
+            new()
+            { 
+                Code = "314",
+                Type = "District",
+                Name = "Abim",
+                LocalName = "Abim"
+            },
+            new()
+            { 
+                Code = "301",
+                Type = "District",
+                Name = "Adjumani",
+                LocalName = "Adjumani"
+            },
+            new()
+            { 
+                Code = "315",
+                Type = "District",
+                Name = "Amolatar",
+                LocalName = "Amolatar"
+            },
+            new()
+            { 
+                Code = "216",
+                Type = "District",
+                Name = "Amuria",
+                LocalName = "Amuria"
+            },
+            new()
+            { 
+                Code = "316",
+                Type = "District",
+                Name = "Amuru",
+                LocalName = "Amuru"
+            },
+            new()
+            { 
+                Code = "302",
+                Type = "District",
+                Name = "Apac",
+                LocalName = "Apac"
+            },
+            new()
+            { 
+                Code = "303",
+                Type = "District",
+                Name = "Arua",
+                LocalName = "Arua"
+            },
+            new()
+            { 
+                Code = "217",
+                Type = "District",
+                Name = "Budaka",
+                LocalName = "Budaka"
+            },
+            new()
+            { 
+                Code = "218",
+                Type = "District",
+                Name = "Bududa",
+                LocalName = "Bududa"
+            },
+            new()
+            { 
+                Code = "201",
+                Type = "District",
+                Name = "Bugiri",
+                LocalName = "Bugiri"
+            },
+            new()
+            { 
+                Code = "420",
+                Type = "District",
+                Name = "Buhweju",
+                LocalName = "Buhweju"
+            },
+            new()
+            { 
+                Code = "117",
+                Type = "District",
+                Name = "Buikwe",
+                LocalName = "Buikwe"
+            },
+            new()
+            { 
+                Code = "219",
+                Type = "District",
+                Name = "Bukedea",
+                LocalName = "Bukedea"
+            },
+            new()
+            { 
+                Code = "118",
+                Type = "District",
+                Name = "Bukomansibi",
+                LocalName = "Bukomansibi"
+            },
+            new()
+            { 
+                Code = "220",
+                Type = "District",
+                Name = "Bukwa",
+                LocalName = "Bukwa"
+            },
+            new()
+            { 
+                Code = "225",
+                Type = "District",
+                Name = "Bulambuli",
+                LocalName = "Bulambuli"
+            },
+            new()
+            { 
+                Code = "416",
+                Type = "District",
+                Name = "Buliisa",
+                LocalName = "Buliisa"
+            },
+            new()
+            { 
+                Code = "401",
+                Type = "District",
+                Name = "Bundibugyo",
+                LocalName = "Bundibugyo"
+            },
+            new()
+            { 
+                Code = "402",
+                Type = "District",
+                Name = "Bushenyi",
+                LocalName = "Bushenyi"
+            },
+            new()
+            { 
+                Code = "202",
+                Type = "District",
+                Name = "Busia",
+                LocalName = "Busia"
+            },
+            new()
+            { 
+                Code = "221",
+                Type = "District",
+                Name = "Butaleja",
+                LocalName = "Butaleja"
+            },
+            new()
+            { 
+                Code = "119",
+                Type = "District",
+                Name = "Butambala",
+                LocalName = "Butambala"
+            },
+            new()
+            { 
+                Code = "120",
+                Type = "District",
+                Name = "Buvuma",
+                LocalName = "Buvuma"
+            },
+            new()
+            { 
+                Code = "226",
+                Type = "District",
+                Name = "Buyende",
+                LocalName = "Buyende"
+            },
+            new()
+            { 
+                Code = "317",
+                Type = "District",
+                Name = "Dokolo",
+                LocalName = "Dokolo"
+            },
+            new()
+            { 
+                Code = "121",
+                Type = "District",
+                Name = "Gomba",
+                LocalName = "Gomba"
+            },
+            new()
+            { 
+                Code = "304",
+                Type = "District",
+                Name = "Gulu",
+                LocalName = "Gulu"
+            },
+            new()
+            { 
+                Code = "403",
+                Type = "District",
+                Name = "Hoima",
+                LocalName = "Hoima"
+            },
+            new()
+            { 
+                Code = "417",
+                Type = "District",
+                Name = "Ibanda",
+                LocalName = "Ibanda"
+            },
+            new()
+            { 
+                Code = "203",
+                Type = "District",
+                Name = "Iganga",
+                LocalName = "Iganga"
+            },
+            new()
+            { 
+                Code = "418",
+                Type = "District",
+                Name = "Isingiro",
+                LocalName = "Isingiro"
+            },
+            new()
+            { 
+                Code = "204",
+                Type = "District",
+                Name = "Jinja",
+                LocalName = "Jinja"
+            },
+            new()
+            { 
+                Code = "318",
+                Type = "District",
+                Name = "Kaabong",
+                LocalName = "Kaabong"
+            },
+            new()
+            { 
+                Code = "404",
+                Type = "District",
+                Name = "Kabale",
+                LocalName = "Kabale"
+            },
+            new()
+            { 
+                Code = "405",
+                Type = "District",
+                Name = "Kabarole",
+                LocalName = "Kabarole"
+            },
+            new()
+            { 
+                Code = "213",
+                Type = "District",
+                Name = "Kaberamaido",
+                LocalName = "Kaberamaido"
+            },
+            new()
+            { 
+                Code = "101",
+                Type = "District",
+                Name = "Kalangala",
+                LocalName = "Kalangala"
+            },
+            new()
+            { 
+                Code = "222",
+                Type = "District",
+                Name = "Kaliro",
+                LocalName = "Kaliro"
+            },
+            new()
+            { 
+                Code = "122",
+                Type = "District",
+                Name = "Kalungu",
+                LocalName = "Kalungu"
+            },
+            new()
+            { 
+                Code = "102",
+                Type = "City",
+                Name = "Kampala",
+                LocalName = "Kampala"
+            },
+            new()
+            { 
+                Code = "205",
+                Type = "District",
+                Name = "Kamuli",
+                LocalName = "Kamuli"
+            },
+            new()
+            { 
+                Code = "413",
+                Type = "District",
+                Name = "Kamwenge",
+                LocalName = "Kamwenge"
+            },
+            new()
+            { 
+                Code = "414",
+                Type = "District",
+                Name = "Kanungu",
+                LocalName = "Kanungu"
+            },
+            new()
+            { 
+                Code = "206",
+                Type = "District",
+                Name = "Kapchorwa",
+                LocalName = "Kapchorwa"
+            },
+            new()
+            { 
+                Code = "406",
+                Type = "District",
+                Name = "Kasese",
+                LocalName = "Kasese"
+            },
+            new()
+            { 
+                Code = "207",
+                Type = "District",
+                Name = "Katakwi",
+                LocalName = "Katakwi"
+            },
+            new()
+            { 
+                Code = "112",
+                Type = "District",
+                Name = "Kayunga",
+                LocalName = "Kayunga"
+            },
+            new()
+            { 
+                Code = "407",
+                Type = "District",
+                Name = "Kibaale",
+                LocalName = "Kibaale"
+            },
+            new()
+            { 
+                Code = "103",
+                Type = "District",
+                Name = "Kiboga",
+                LocalName = "Kiboga"
+            },
+            new()
+            { 
+                Code = "227",
+                Type = "District",
+                Name = "Kibuku",
+                LocalName = "Kibuku"
+            },
+            new()
+            { 
+                Code = "419",
+                Type = "District",
+                Name = "Kiruhura",
+                LocalName = "Kiruhura"
+            },
+            new()
+            { 
+                Code = "421",
+                Type = "District",
+                Name = "Kiryandongo",
+                LocalName = "Kiryandongo"
+            },
+            new()
+            { 
+                Code = "408",
+                Type = "District",
+                Name = "Kisoro",
+                LocalName = "Kisoro"
+            },
+            new()
+            { 
+                Code = "305",
+                Type = "District",
+                Name = "Kitgum",
+                LocalName = "Kitgum"
+            },
+            new()
+            { 
+                Code = "319",
+                Type = "District",
+                Name = "Koboko",
+                LocalName = "Koboko"
+            },
+            new()
+            { 
+                Code = "325",
+                Type = "District",
+                Name = "Kole",
+                LocalName = "Kole"
+            },
+            new()
+            { 
+                Code = "306",
+                Type = "District",
+                Name = "Kotido",
+                LocalName = "Kotido"
+            },
+            new()
+            { 
+                Code = "208",
+                Type = "District",
+                Name = "Kumi",
+                LocalName = "Kumi"
+            },
+            new()
+            { 
+                Code = "228",
+                Type = "District",
+                Name = "Kween",
+                LocalName = "Kween"
+            },
+            new()
+            { 
+                Code = "123",
+                Type = "District",
+                Name = "Kyankwanzi",
+                LocalName = "Kyankwanzi"
+            },
+            new()
+            { 
+                Code = "422",
+                Type = "District",
+                Name = "Kyegegwa",
+                LocalName = "Kyegegwa"
+            },
+            new()
+            { 
+                Code = "415",
+                Type = "District",
+                Name = "Kyenjojo",
+                LocalName = "Kyenjojo"
+            },
+            new()
+            { 
+                Code = "326",
+                Type = "District",
+                Name = "Lamwo",
+                LocalName = "Lamwo"
+            },
+            new()
+            { 
+                Code = "307",
+                Type = "District",
+                Name = "Lira",
+                LocalName = "Lira"
+            },
+            new()
+            { 
+                Code = "229",
+                Type = "District",
+                Name = "Luuka",
+                LocalName = "Luuka"
+            },
+            new()
+            { 
+                Code = "104",
+                Type = "District",
+                Name = "Luwero",
+                LocalName = "Luwero"
+            },
+            new()
+            { 
+                Code = "124",
+                Type = "District",
+                Name = "Lwengo",
+                LocalName = "Lwengo"
+            },
+            new()
+            { 
+                Code = "114",
+                Type = "District",
+                Name = "Lyantonde",
+                LocalName = "Lyantonde"
+            },
+            new()
+            { 
+                Code = "223",
+                Type = "District",
+                Name = "Manafwa",
+                LocalName = "Manafwa"
+            },
+            new()
+            { 
+                Code = "320",
+                Type = "District",
+                Name = "Maracha",
+                LocalName = "Maracha"
+            },
+            new()
+            { 
+                Code = "105",
+                Type = "District",
+                Name = "Masaka",
+                LocalName = "Masaka"
+            },
+            new()
+            { 
+                Code = "409",
+                Type = "District",
+                Name = "Masindi",
+                LocalName = "Masindi"
+            },
+            new()
+            { 
+                Code = "244",
+                Type = "District",
+                Name = "Mayuge",
+                LocalName = "Mayuge"
+            },
+            new()
+            { 
+                Code = "209",
+                Type = "District",
+                Name = "Mbale",
+                LocalName = "Mbale"
+            },
+            new()
+            { 
+                Code = "410",
+                Type = "District",
+                Name = "Mbarara",
+                LocalName = "Mbarara"
+            },
+            new()
+            { 
+                Code = "423",
+                Type = "District",
+                Name = "Mitooma",
+                LocalName = "Mitooma"
+            },
+            new()
+            { 
+                Code = "115",
+                Type = "District",
+                Name = "Mityana",
+                LocalName = "Mityana"
+            },
+            new()
+            { 
+                Code = "308",
+                Type = "District",
+                Name = "Moroto",
+                LocalName = "Moroto"
+            },
+            new()
+            { 
+                Code = "309",
+                Type = "District",
+                Name = "Moyo",
+                LocalName = "Moyo"
+            },
+            new()
+            { 
+                Code = "106",
+                Type = "District",
+                Name = "Mpigi",
+                LocalName = "Mpigi"
+            },
+            new()
+            { 
+                Code = "107",
+                Type = "District",
+                Name = "Mubende",
+                LocalName = "Mubende"
+            },
+            new()
+            { 
+                Code = "108",
+                Type = "District",
+                Name = "Mukono",
+                LocalName = "Mukono"
+            },
+            new()
+            { 
+                Code = "311",
+                Type = "District",
+                Name = "Nakapiripirit",
+                LocalName = "Nakapiripirit"
+            },
+            new()
+            { 
+                Code = "116",
+                Type = "District",
+                Name = "Nakaseke",
+                LocalName = "Nakaseke"
+            },
+            new()
+            { 
+                Code = "109",
+                Type = "District",
+                Name = "Nakasongola",
+                LocalName = "Nakasongola"
+            },
+            new()
+            { 
+                Code = "230",
+                Type = "District",
+                Name = "Namayingo",
+                LocalName = "Namayingo"
+            },
+            new()
+            { 
+                Code = "224",
+                Type = "District",
+                Name = "Namutumba",
+                LocalName = "Namutumba"
+            },
+            new()
+            { 
+                Code = "327",
+                Type = "District",
+                Name = "Napak",
+                LocalName = "Napak"
+            },
+            new()
+            { 
+                Code = "310",
+                Type = "District",
+                Name = "Nebbi",
+                LocalName = "Nebbi"
+            },
+            new()
+            { 
+                Code = "231",
+                Type = "District",
+                Name = "Ngora",
+                LocalName = "Ngora"
+            },
+            new()
+            { 
+                Code = "424",
+                Type = "District",
+                Name = "Ntoroko",
+                LocalName = "Ntoroko"
+            },
+            new()
+            { 
+                Code = "411",
+                Type = "District",
+                Name = "Ntungamo",
+                LocalName = "Ntungamo"
+            },
+            new()
+            { 
+                Code = "328",
+                Type = "District",
+                Name = "Nwoya",
+                LocalName = "Nwoya"
+            },
+            new()
+            { 
+                Code = "329",
+                Type = "District",
+                Name = "Otuke",
+                LocalName = "Otuke"
+            },
+            new()
+            { 
+                Code = "321",
+                Type = "District",
+                Name = "Oyam",
+                LocalName = "Oyam"
+            },
+            new()
+            { 
+                Code = "312",
+                Type = "District",
+                Name = "Pader",
+                LocalName = "Pader"
+            },
+            new()
+            { 
+                Code = "210",
+                Type = "District",
+                Name = "Pallisa",
+                LocalName = "Pallisa"
+            },
+            new()
+            { 
+                Code = "110",
+                Type = "District",
+                Name = "Rakai",
+                LocalName = "Rakai"
+            },
+            new()
+            { 
+                Code = "425",
+                Type = "District",
+                Name = "Rubirizi",
+                LocalName = "Rubirizi"
+            },
+            new()
+            { 
+                Code = "412",
+                Type = "District",
+                Name = "Rukungiri",
+                LocalName = "Rukungiri"
+            },
+            new()
+            { 
+                Code = "111",
+                Type = "District",
+                Name = "Sembabule",
+                LocalName = "Sembabule"
+            },
+            new()
+            { 
+                Code = "232",
+                Type = "District",
+                Name = "Serere",
+                LocalName = "Serere"
+            },
+            new()
+            { 
+                Code = "426",
+                Type = "District",
+                Name = "Sheema",
+                LocalName = "Sheema"
+            },
+            new()
+            { 
+                Code = "215",
+                Type = "District",
+                Name = "Sironko",
+                LocalName = "Sironko"
+            },
+            new()
+            { 
+                Code = "211",
+                Type = "District",
+                Name = "Soroti",
+                LocalName = "Soroti"
+            },
+            new()
+            { 
+                Code = "212",
+                Type = "District",
+                Name = "Tororo",
+                LocalName = "Tororo"
+            },
+            new()
+            { 
+                Code = "113",
+                Type = "District",
+                Name = "Wakiso",
+                LocalName = "Wakiso"
+            },
+            new()
+            { 
+                Code = "313",
+                Type = "District",
+                Name = "Yumbe",
+                LocalName = "Yumbe"
+            },
+            new()
+            { 
+                Code = "330",
+                Type = "District",
+                Name = "Zombo",
+                LocalName = "Zombo"
+            }
 
         });
     }
