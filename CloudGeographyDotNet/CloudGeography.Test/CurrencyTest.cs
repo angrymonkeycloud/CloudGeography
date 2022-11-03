@@ -30,7 +30,6 @@ namespace CloudGeography.Test
 			Assert.AreEqual("Lebanese pound", Currencies.First(key => key.Code.Equals("LBP", StringComparison.OrdinalIgnoreCase)).Name);
 		}
 
-
 		[TestMethod]
 		public void Get_Country_Currencies_By_Country_Code()
 		{

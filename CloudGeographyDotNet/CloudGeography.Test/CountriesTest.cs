@@ -3,16 +3,6 @@ namespace CloudGeography.Test
 	[TestClass]
 	public class CountriesTest
 	{
-
-        //[TestMethod]
-        //public void GetListOfCountries()
-        //{
-        //    CloudGeographyClient client = new();
-        //    List<Country>? country = client.Countries.GetAll();
-
-        //    Assert.IsTrue(country.Any());
-        //}
-
         [TestMethod]
         public void Get_Country_By_CountryCode()
         {

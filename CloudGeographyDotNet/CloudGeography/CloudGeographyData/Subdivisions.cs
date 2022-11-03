@@ -213,7 +213,6 @@ public partial class CloudGeographyClient
             FillInSubdivisionsZM();
             FillInSubdivisionsZW();
 
-
             return _subdivisions;
         }
     }
