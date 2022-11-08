@@ -22,6 +22,24 @@ namespace CloudGeography.Test
         }
 
         [TestMethod]
+        public void Get_Current_UTC_Time_Of_ZoneID()
+        {
+            CloudGeographyClient client = new();
+            DateTime DT = client.TimeZones.GetCurrentTimeByZoneId("Afghanistan Standard Time");
+
+            Assert.IsTrue(DT != null);
+        }
+
+        [TestMethod]
+        public void Convert_UTC_Time_From_Time_Zone_To_Time_Zone()
+        {
+            CloudGeographyClient client = new();
+            DateTime DT = client.TimeZones.ConvertTimeByZoneId(DateTime.Parse("2022-11-08 12:00:00 PM"), "Middle East Standard Time", "Afghanistan Standard Time");
+
+            Assert.IsTrue(DT != null);
+        }
+
+        [TestMethod]
         public void Get_All_Countries()
         {
             CloudGeographyClient client = new();
