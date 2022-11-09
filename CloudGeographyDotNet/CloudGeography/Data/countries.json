@@ -14,25 +14,25 @@
     "Languages": [
       {
         "Code": "PS",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "PRS",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "UZ",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "TK",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "AFN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -51,17 +51,17 @@
     "Languages": [
       {
         "Code": "SV",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "FI",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -80,13 +80,13 @@
     "Languages": [
       {
         "Code": "SQ",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "ALL",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -105,21 +105,21 @@
     "Languages": [
       {
         "Code": "AR",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "BER",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "FR",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "DZD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -138,21 +138,21 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "sm",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "TO",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "USD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -171,25 +171,25 @@
     "Languages": [
       {
         "Code": "CA",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "ES",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "PT",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "FR",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -208,13 +208,13 @@
     "Languages": [
       {
         "Code": "PT",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "AOA",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -233,13 +233,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "XCD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -258,21 +258,21 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "RU",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "AUD",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "GBP",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ]
   },
@@ -291,13 +291,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "XCD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -316,25 +316,25 @@
     "Languages": [
       {
         "Code": "ES",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "EN",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "IT",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "AR",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "ARS",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -353,21 +353,21 @@
     "Languages": [
       {
         "Code": "HY",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "RU",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "EN",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "AMD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -386,17 +386,17 @@
     "Languages": [
       {
         "Code": "NL",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "PAP",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "AWG",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -415,13 +415,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "AUD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -440,13 +440,13 @@
     "Languages": [
       {
         "Code": "DE",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -465,13 +465,13 @@
     "Languages": [
       {
         "Code": "AZ",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "AZN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -490,13 +490,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "BSD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -515,17 +515,17 @@
     "Languages": [
       {
         "Code": "AR",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "EN",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "BHD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -544,17 +544,17 @@
     "Languages": [
       {
         "Code": "BN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "EN",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "BDT",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -573,13 +573,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "BBD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -598,11 +598,11 @@
     "Languages": [
       {
         "Code": "RU",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "BE",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
@@ -623,21 +623,21 @@
     "Languages": [
       {
         "Code": "NL",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "DE",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -656,17 +656,17 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "ES",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "BZD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -685,13 +685,13 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "XOF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -710,13 +710,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "BMD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -735,21 +735,21 @@
     "Languages": [
       {
         "Code": "DZ",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "EN",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "BTN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "INR",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ]
   },
@@ -768,13 +768,13 @@
     "Languages": [
       {
         "Code": "ES",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "BOB",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -793,25 +793,25 @@
     "Languages": [
       {
         "Code": "NL",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "PAP",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "ES",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "EN",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "USD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -830,21 +830,21 @@
     "Languages": [
       {
         "Code": "BS",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "HR",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "SR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "BAM",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -863,17 +863,17 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "TN",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "BWP",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -892,13 +892,13 @@
     "Languages": [
       {
         "Code": "PT",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "BRL",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -917,17 +917,17 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "USD",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "GBP",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ]
   },
@@ -946,13 +946,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "USD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -971,25 +971,25 @@
     "Languages": [
       {
         "Code": "MS",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "EN",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "AR",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "BND",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "SGD",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ]
   },
@@ -1008,13 +1008,13 @@
     "Languages": [
       {
         "Code": "BG",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "BGN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1033,17 +1033,17 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "FF",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "XOF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1062,21 +1062,21 @@
     "Languages": [
       {
         "Code": "RN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "BIF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1095,17 +1095,17 @@
     "Languages": [
       {
         "Code": "PT",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "KEA",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "CVE",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1124,25 +1124,25 @@
     "Languages": [
       {
         "Code": "KM",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "EN",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "FR",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "KHR",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "USD",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ]
   },
@@ -1161,21 +1161,21 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "DE",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "XAF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1194,17 +1194,17 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "CAD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1223,13 +1223,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "KYD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1248,17 +1248,17 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "SG",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "XAF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1277,17 +1277,17 @@
     "Languages": [
       {
         "Code": "AR",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "XAF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1306,13 +1306,13 @@
     "Languages": [
       {
         "Code": "ES",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "CLP",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1331,13 +1331,13 @@
     "Languages": [
       {
         "Code": "ZH",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "CNY",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1356,13 +1356,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "AUD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1381,13 +1381,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "AUD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1406,13 +1406,13 @@
     "Languages": [
       {
         "Code": "ES",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "COP",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1431,17 +1431,17 @@
     "Languages": [
       {
         "Code": "AR",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "KMF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1460,17 +1460,17 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "LN",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "XAF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1489,25 +1489,25 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "LN",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "SW",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "LU",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "CDF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1526,17 +1526,17 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "NZD",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "CKD",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ]
   },
@@ -1555,13 +1555,13 @@
     "Languages": [
       {
         "Code": "ES",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "CRC",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1580,13 +1580,13 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "XOF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1605,13 +1605,13 @@
     "Languages": [
       {
         "Code": "HR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "HRK",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1630,17 +1630,17 @@
     "Languages": [
       {
         "Code": "ES",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "CUC",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "CUP",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ]
   },
@@ -1659,21 +1659,21 @@
     "Languages": [
       {
         "Code": "NL",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "PA",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "EN",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "ANG",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1692,21 +1692,21 @@
     "Languages": [
       {
         "Code": "EL",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "TR",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "HY",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1725,17 +1725,17 @@
     "Languages": [
       {
         "Code": "CS",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "SK",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "CZK",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1754,13 +1754,13 @@
     "Languages": [
       {
         "Code": "DA",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "DKK",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1779,17 +1779,17 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "AR",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "DJF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1808,13 +1808,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "XCD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1833,13 +1833,13 @@
     "Languages": [
       {
         "Code": "ES",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "DOP",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1858,13 +1858,13 @@
     "Languages": [
       {
         "Code": "ES",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "USD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1883,13 +1883,13 @@
     "Languages": [
       {
         "Code": "AR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EGP",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1908,13 +1908,13 @@
     "Languages": [
       {
         "Code": "ES",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "USD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1933,17 +1933,17 @@
     "Languages": [
       {
         "Code": "ES",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "FR",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "XAF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1962,21 +1962,21 @@
     "Languages": [
       {
         "Code": "TI",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "AR",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "EN",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "ERN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -1995,13 +1995,13 @@
     "Languages": [
       {
         "Code": "ET",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2020,13 +2020,13 @@
     "Languages": [
       {
         "Code": "AM",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "ETB",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2045,13 +2045,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "FKP",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2070,17 +2070,17 @@
     "Languages": [
       {
         "Code": "FO",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "DKK",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "FOK",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ]
   },
@@ -2099,21 +2099,21 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "HI",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "UR",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "FJD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2132,17 +2132,17 @@
     "Languages": [
       {
         "Code": "FI",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "SV",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2161,13 +2161,13 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2186,13 +2186,13 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2211,13 +2211,13 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "XPF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2236,13 +2236,13 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "XAF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2261,13 +2261,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "GMD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2286,13 +2286,13 @@
     "Languages": [
       {
         "Code": "KA",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "GEL",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2311,13 +2311,13 @@
     "Languages": [
       {
         "Code": "DE",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2336,13 +2336,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "GHS",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2361,13 +2361,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "GIP",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2386,13 +2386,13 @@
     "Languages": [
       {
         "Code": "EL",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2411,13 +2411,13 @@
     "Languages": [
       {
         "Code": "KL",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "DKK",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2436,13 +2436,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "XCD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2461,13 +2461,13 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2486,17 +2486,17 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "ES",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "USD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2515,13 +2515,13 @@
     "Languages": [
       {
         "Code": "ES",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "GTQ",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2540,21 +2540,21 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "FR",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "GBP",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "FOK",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ]
   },
@@ -2573,17 +2573,17 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "FF",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "GNF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2602,13 +2602,13 @@
     "Languages": [
       {
         "Code": "PT",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "XOF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2627,13 +2627,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "GYD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2652,13 +2652,13 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "HTG",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2677,25 +2677,25 @@
     "Languages": [
       {
         "Code": "LA",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "IT",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "FR",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "DE",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2714,13 +2714,13 @@
     "Languages": [
       {
         "Code": "ES",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "HNL",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2739,17 +2739,17 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "ZH",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "HKD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2768,13 +2768,13 @@
     "Languages": [
       {
         "Code": "HU",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "HUF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2793,13 +2793,13 @@
     "Languages": [
       {
         "Code": "IS",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "ISK",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2818,17 +2818,17 @@
     "Languages": [
       {
         "Code": "HI",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "EN",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "INR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2847,13 +2847,13 @@
     "Languages": [
       {
         "Code": "ID",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "IDR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2872,13 +2872,13 @@
     "Languages": [
       {
         "Code": "FA",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "IRR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2897,17 +2897,17 @@
     "Languages": [
       {
         "Code": "AR",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "KU",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "IQD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2926,17 +2926,17 @@
     "Languages": [
       {
         "Code": "GA",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "EN",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -2955,21 +2955,21 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "GV",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "GBP",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "IMP",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ]
   },
@@ -2988,17 +2988,17 @@
     "Languages": [
       {
         "Code": "HE",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "AR",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "ILS",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3017,13 +3017,13 @@
     "Languages": [
       {
         "Code": "IT",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3042,13 +3042,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "JMD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3067,13 +3067,13 @@
     "Languages": [
       {
         "Code": "JA",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "JPY",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3092,21 +3092,21 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "FR",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "GBP",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "JEP",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ]
   },
@@ -3125,13 +3125,13 @@
     "Languages": [
       {
         "Code": "AR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "JOD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3150,17 +3150,17 @@
     "Languages": [
       {
         "Code": "KK",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "RU",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "KZT",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3179,17 +3179,17 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "SW",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "KES",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3208,17 +3208,17 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "AUD",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "FOK",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ]
   },
@@ -3237,13 +3237,13 @@
     "Languages": [
       {
         "Code": "AR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "KWD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3262,17 +3262,17 @@
     "Languages": [
       {
         "Code": "KY",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "RU",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "KGS",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3291,13 +3291,13 @@
     "Languages": [
       {
         "Code": "LO",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "LAK",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3316,13 +3316,13 @@
     "Languages": [
       {
         "Code": "LV",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3341,17 +3341,17 @@
     "Languages": [
       {
         "Code": "AR",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "FR",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "LBP",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3370,21 +3370,21 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "ST",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "LSL",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "ZAR",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ]
   },
@@ -3403,13 +3403,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "LRD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3428,13 +3428,13 @@
     "Languages": [
       {
         "Code": "AR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "LYD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3453,13 +3453,13 @@
     "Languages": [
       {
         "Code": "DE",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "CHF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3478,13 +3478,13 @@
     "Languages": [
       {
         "Code": "LT",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3503,21 +3503,21 @@
     "Languages": [
       {
         "Code": "LB",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "DE",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3536,17 +3536,17 @@
     "Languages": [
       {
         "Code": "ZH",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "PT",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "MOP",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3565,13 +3565,13 @@
     "Languages": [
       {
         "Code": "MK",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "MKD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3590,17 +3590,17 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "MG",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "MGA",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3619,13 +3619,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "MWK",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3646,7 +3646,7 @@
     "Currencies": [
       {
         "Code": "MYR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3665,13 +3665,13 @@
     "Languages": [
       {
         "Code": "DV",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "MVR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3690,13 +3690,13 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "XOF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3715,17 +3715,17 @@
     "Languages": [
       {
         "Code": "MT",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "EN",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3744,13 +3744,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "USD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3769,13 +3769,13 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3794,13 +3794,13 @@
     "Languages": [
       {
         "Code": "AR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "MRO",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3819,13 +3819,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "MUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3844,13 +3844,13 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3869,13 +3869,13 @@
     "Languages": [
       {
         "Code": "ES",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "MXN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3894,13 +3894,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "USD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3919,13 +3919,13 @@
     "Languages": [
       {
         "Code": "RO",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "MDL",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3944,13 +3944,13 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3969,13 +3969,13 @@
     "Languages": [
       {
         "Code": "MN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "MNT",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -3994,25 +3994,25 @@
     "Languages": [
       {
         "Code": "SR",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "BS",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "SQ",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "HR",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4031,13 +4031,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "XCD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4056,13 +4056,13 @@
     "Languages": [
       {
         "Code": "AR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "MAD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4081,13 +4081,13 @@
     "Languages": [
       {
         "Code": "PT",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "MZN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4106,13 +4106,13 @@
     "Languages": [
       {
         "Code": "MY",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "MMK",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4131,21 +4131,21 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "AF",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "NAD",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "ZAR",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ]
   },
@@ -4164,17 +4164,17 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "AUD",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "FOK",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ]
   },
@@ -4193,13 +4193,13 @@
     "Languages": [
       {
         "Code": "NE",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "NPR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4218,13 +4218,13 @@
     "Languages": [
       {
         "Code": "NL",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4243,13 +4243,13 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "XPF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4268,17 +4268,17 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "MI",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "NZD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4297,13 +4297,13 @@
     "Languages": [
       {
         "Code": "ES",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "NIO",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4322,13 +4322,13 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "XOF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4347,13 +4347,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "NGN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4372,17 +4372,17 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "NZD",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "FOK",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ]
   },
@@ -4401,13 +4401,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "AUD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4426,13 +4426,13 @@
     "Languages": [
       {
         "Code": "KO",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "KPW",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4451,13 +4451,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "USD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4476,17 +4476,17 @@
     "Languages": [
       {
         "Code": "NB",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "NN",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "NOK",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4505,13 +4505,13 @@
     "Languages": [
       {
         "Code": "AR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "OMR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4530,17 +4530,17 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "UR",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "PKR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4559,17 +4559,17 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "FOK",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "USD",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ]
   },
@@ -4588,13 +4588,13 @@
     "Languages": [
       {
         "Code": "AR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "ILS",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4613,17 +4613,17 @@
     "Languages": [
       {
         "Code": "ES",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "PAB",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "USD",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ]
   },
@@ -4642,13 +4642,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "PGK",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4667,17 +4667,17 @@
     "Languages": [
       {
         "Code": "ES",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "GN",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "PYG",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4696,13 +4696,13 @@
     "Languages": [
       {
         "Code": "ES",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "PEN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4721,13 +4721,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "PHP",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4746,13 +4746,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "NZD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4771,13 +4771,13 @@
     "Languages": [
       {
         "Code": "PL",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "PLN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4796,13 +4796,13 @@
     "Languages": [
       {
         "Code": "PT",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4821,17 +4821,17 @@
     "Languages": [
       {
         "Code": "ES",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "EN",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "USD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4850,13 +4850,13 @@
     "Languages": [
       {
         "Code": "AR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "QAR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4875,17 +4875,17 @@
     "Languages": [
       {
         "Code": "SQ",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "SR",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4904,13 +4904,13 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4929,13 +4929,13 @@
     "Languages": [
       {
         "Code": "RO",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "RON",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4954,13 +4954,13 @@
     "Languages": [
       {
         "Code": "RU",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "RUB",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -4979,21 +4979,21 @@
     "Languages": [
       {
         "Code": "RW",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "EN",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "FR",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "RWF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5012,13 +5012,13 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5037,13 +5037,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "SHP",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5062,13 +5062,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "XCD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5087,13 +5087,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "XCD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5112,21 +5112,21 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "FR",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "NL",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5145,13 +5145,13 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5170,13 +5170,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "XCD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5195,13 +5195,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "WST",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5220,13 +5220,13 @@
     "Languages": [
       {
         "Code": "IT",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5245,13 +5245,13 @@
     "Languages": [
       {
         "Code": "PT",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "STN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5270,13 +5270,13 @@
     "Languages": [
       {
         "Code": "AR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "SAR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5295,13 +5295,13 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "XOF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5320,13 +5320,13 @@
     "Languages": [
       {
         "Code": "SR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "RSD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5345,17 +5345,17 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "EN",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "SCR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5374,13 +5374,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "SLL",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5399,29 +5399,29 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "MS",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "TA",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "ZH",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "BND",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "SGD",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ]
   },
@@ -5440,17 +5440,17 @@
     "Languages": [
       {
         "Code": "NL",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "EN",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "ANG",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5469,13 +5469,13 @@
     "Languages": [
       {
         "Code": "SK",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5494,13 +5494,13 @@
     "Languages": [
       {
         "Code": "SL",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5519,13 +5519,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "SBD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5544,17 +5544,17 @@
     "Languages": [
       {
         "Code": "SO",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "AR",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "SOS",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5573,49 +5573,49 @@
     "Languages": [
       {
         "Code": "AF",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "EN",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "NR",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "ST",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "SS",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "TN",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "TS",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "VE",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "XH",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "ZU",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "ZAR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5634,17 +5634,17 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "GBP",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "FOK",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ]
   },
@@ -5663,13 +5663,13 @@
     "Languages": [
       {
         "Code": "KO",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "KRW",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5688,13 +5688,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "SSP",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5713,13 +5713,13 @@
     "Languages": [
       {
         "Code": "ES",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "EUR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5738,17 +5738,17 @@
     "Languages": [
       {
         "Code": "SI",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "TA",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "LKR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5767,17 +5767,17 @@
     "Languages": [
       {
         "Code": "AR",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "EN",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "SDG",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5796,13 +5796,13 @@
     "Languages": [
       {
         "Code": "NL",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "SRD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5823,7 +5823,7 @@
     "Currencies": [
       {
         "Code": "NOK",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5842,17 +5842,17 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "SS",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "SZL",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5871,13 +5871,13 @@
     "Languages": [
       {
         "Code": "SV",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "SEK",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5896,25 +5896,25 @@
     "Languages": [
       {
         "Code": "DE",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "IT",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "RM",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "CHF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5933,13 +5933,13 @@
     "Languages": [
       {
         "Code": "AR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "SYP",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5958,13 +5958,13 @@
     "Languages": [
       {
         "Code": "ZH",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "TWD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -5983,17 +5983,17 @@
     "Languages": [
       {
         "Code": "TG",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "RU",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "TJS",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6012,17 +6012,17 @@
     "Languages": [
       {
         "Code": "SW",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "EN",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "TZS",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6041,13 +6041,13 @@
     "Languages": [
       {
         "Code": "TH",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "THB",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6066,13 +6066,13 @@
     "Languages": [
       {
         "Code": "PT",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "USD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6091,13 +6091,13 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "XOF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6116,13 +6116,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "NZD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6141,17 +6141,17 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "TO",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "TOP",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6170,13 +6170,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "TTD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6195,13 +6195,13 @@
     "Languages": [
       {
         "Code": "AR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "TND",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6220,13 +6220,13 @@
     "Languages": [
       {
         "Code": "TR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "TRY",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6245,17 +6245,17 @@
     "Languages": [
       {
         "Code": "TK",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "RU",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "TMT",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6274,13 +6274,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "USD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6299,17 +6299,17 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "AUD",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "TVD",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ]
   },
@@ -6328,17 +6328,17 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "SW",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "UGX",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6357,13 +6357,13 @@
     "Languages": [
       {
         "Code": "UK",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "UAH",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6382,13 +6382,13 @@
     "Languages": [
       {
         "Code": "AR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "AED",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6407,13 +6407,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "GBP",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6432,13 +6432,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "USD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6457,13 +6457,13 @@
     "Languages": [
       {
         "Code": "ES",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "UYU",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6482,17 +6482,17 @@
     "Languages": [
       {
         "Code": "UZ",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "RU",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "UZS",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6511,17 +6511,17 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "FR",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "VUV",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6540,13 +6540,13 @@
     "Languages": [
       {
         "Code": "ES",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "VEF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6565,13 +6565,13 @@
     "Languages": [
       {
         "Code": "VI",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "VND",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6590,13 +6590,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "USD",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6615,13 +6615,13 @@
     "Languages": [
       {
         "Code": "FR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "XPF",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6640,17 +6640,17 @@
     "Languages": [
       {
         "Code": "ES",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "MAD",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "DZD",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ]
   },
@@ -6669,13 +6669,13 @@
     "Languages": [
       {
         "Code": "AR",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "YER",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6694,13 +6694,13 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ],
     "Currencies": [
       {
         "Code": "ZMW",
-        "IsOfficial": true
+        "IsOffical": true
       }
     ]
   },
@@ -6719,53 +6719,53 @@
     "Languages": [
       {
         "Code": "EN",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "SN",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "ND",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ],
     "Currencies": [
       {
         "Code": "BWP",
-        "IsOfficial": true
+        "IsOffical": true
       },
       {
         "Code": "GBP",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "CNY",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "EUR",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "INR",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "JPY",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "ZAR",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "USD",
-        "IsOfficial": false
+        "IsOffical": false
       },
       {
         "Code": "FOK",
-        "IsOfficial": false
+        "IsOffical": false
       }
     ]
   }

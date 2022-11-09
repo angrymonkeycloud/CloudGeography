@@ -9,7 +9,7 @@ namespace CloudGeography.Test
 		public void Get_Subdivisions_By_CountryCode()
 		{
 			CloudGeographyClient client = new();
-			List<Subdivision> subdivisions = client.Subdivisions.GetAll("US");
+			List<Subdivision> subdivisions = client.Subdivisions.Get("US");
 
 			Assert.IsTrue(subdivisions.Any());
 		}
@@ -17,7 +17,7 @@ namespace CloudGeography.Test
 		public void Get_Subdivisions_By_CountryCode_NotAvailable()
 		{
 			CloudGeographyClient client = new();
-			List<Subdivision> subdivisions = client.Subdivisions.GetAll("XX");
+			List<Subdivision> subdivisions = client.Subdivisions.Get("XX");
 
 			Assert.IsTrue(!subdivisions.Any());
 		}

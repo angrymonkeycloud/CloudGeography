@@ -4,23 +4,26 @@ namespace AngryMonkey.Cloud;
 
 public partial class CloudGeographyClient
 {
-	public class SubdivisionsMethods
-	{
-		private CloudGeographyClient Client { get; set; }
+    public class SubdivisionsMethods
+    {
+        private CloudGeographyClient Client { get; set; }
 
-		internal SubdivisionsMethods(CloudGeographyClient client) => Client = client;
+        internal SubdivisionsMethods(CloudGeographyClient client) => Client = client;
 
-		public List<Subdivision> GetAll(string countryCode)
-		{
-			try
-			{
-				return SubdivisionsList[countryCode];
-			}
-			catch { return new List<Subdivision>(); }
-		}
+        public List<Subdivision> Get(string countryCode)
+        {
+            try
+            {
+                return SubdivisionsList[countryCode];
+            }
+            catch
+            {
+                return new List<Subdivision>();
+            }
+        }
 
-		public List<Subdivision> Get(string countryCode, params string[] subdivisionCodes) => GetAll(countryCode).Where(key => subdivisionCodes.Any(s => key.CodeCheck(s))).ToList();
+        public List<Subdivision> Get(string countryCode, params string[] subdivisionCodes) => Get(countryCode).Where(key => subdivisionCodes.Any(s => key.CodeCheck(s))).ToList();
 
-		public Subdivision? Get(string countryCode, string subdivisionCode) => GetAll(countryCode).FirstOrDefault(key => key.CodeCheck(subdivisionCode));
-	}
+        public Subdivision? Get(string countryCode, string subdivisionCode) => Get(countryCode).FirstOrDefault(key => key.CodeCheck(subdivisionCode));
+    }
 }

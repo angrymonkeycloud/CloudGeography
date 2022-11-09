@@ -17,7 +17,7 @@ public class Country
 	public string ShortName { get; set; }
 	public List<CountryCurrency> Currencies { get; set; }
 	public List<CountryLanguage> Languages { get; set; }
-    public List<string> TimeZones { get; set; }
+    public List<CountryTimeZone> TimeZones { get; set; }
 
 
     internal bool CodeCheck(string code)
