@@ -1,6 +1,6 @@
 ### For TimeZones:
 ---
-#### Get all TimeZones
+#### Get all timeZones
 
 
 ```cs
@@ -8,7 +8,7 @@ List<TimeZoneInfo> timeZones = client.TimeZones.Get();
 ```
 
 
-#### Get TimeZones by TimeZone Codes
+#### Get timeZones by timeZone codes
 
 
 ```cs
@@ -16,22 +16,29 @@ List<TimeZoneInfo> timeZones = client.TimeZones.Get(new[]{ "Hawaiian Standard Ti
 ```
 
 
-#### Get Current Time of a TimeZone by TimeZone Id
+#### Get current time of a timeZone by timeZone id
 
 
 ```cs
 DateTime dateTime = client.TimeZones.GetDateTime("Eastern Standard Time");
 ```
 
+#### Get timezones by country code
 
-#### Convert UTC Time to a TimeZone Time by TimeZone Id
+
+```cs
+List<CountryTimeZone> timeZones = client.TimeZones.GetByCountry("LB");
+```
+
+
+#### Convert UTC time to a timeZone time by timeZone id
 
 
 ```cs
 DateTime convertedTime = client.TimeZones.GetDateTime(DateTime.Parse("2022-11-09 10:00:00 AM"), "Eastern Standard Time");
 ```
 
-#### Convert Time from a TimeZone To Another TimeZone Time by TimeZone Ids
+#### Convert time from a timeZone to another timeZone time by timeZone ids
 
 
 ```cs

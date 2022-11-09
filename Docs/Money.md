@@ -1,6 +1,6 @@
 ### For Money:
 ---
-#### Add Money
+#### add money
 
 
 ```cs
@@ -18,7 +18,7 @@ Money sum = moneyA.Add(moneyB);
 ```
 
 
-#### Subtract Money
+#### subtract money
 
 
 ```cs
@@ -35,7 +35,7 @@ Money moneyB = new("USD", -1.4m);
 Money sum = moneyA.Subtract(moneyB);
 ```
 
-#### Get Decimal Part of the Money As Integer
+#### Get decimal part of the money as an integer
 
 ```cs
 //Positive Number

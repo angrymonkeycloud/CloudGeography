@@ -26,6 +26,8 @@ public partial class CloudGeographyClient
             return CountriesList.Where(key => key.CallingCode == callingCode).ToList();
         }
 
+        
+
         private List<string> CanadianCallingCodes { get; } = new()
         {
             "403", "587", "780", "825", // Alberta

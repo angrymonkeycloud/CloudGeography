@@ -1,21 +1,21 @@
 ### For Phone Numbers:
 ---
 
-#### Get The Country Code of an International Phone Number
+#### Get the country code of an international phone number
 
 ```cs
 PhoneNumber number = client.PhoneNumbers.Get("+16265895784");
 string countryCode = number?.CountryCode;
 //US
 ```
-#### Get The Country Calling Code of an International Phone Number 
+#### Get the country calling code of an international phone number 
 
 ```cs
 PhoneNumber number = client.PhoneNumbers.Get("+16265895784");
 string countryCallingCode = number?.CountryCallingCode;
 //1
 ```
-#### Get The Local Phone Number of an International Phone Number
+#### Get the local phone number of an international phone number
 
 ```cs
 PhoneNumber number = client.PhoneNumbers.Get("+16265895784");

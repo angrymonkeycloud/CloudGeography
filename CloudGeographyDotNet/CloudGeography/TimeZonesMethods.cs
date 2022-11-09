@@ -23,6 +23,7 @@ public partial class CloudGeographyClient
 
         public DateTime GetDateTime(DateTime dateTime, string fromTimeZoneId, string toTimeZoneId) => TimeZoneInfo.ConvertTime(dateTime, TimeZoneInfo.FindSystemTimeZoneById(fromTimeZoneId), TimeZoneInfo.FindSystemTimeZoneById(toTimeZoneId));
 
+        public List<CountryTimeZone>? GetByCountry(string countryCode) => Client.Countries.Get(countryCode).TimeZones;
 
     }
 }

@@ -19,6 +19,15 @@ namespace CloudGeography.Test
         }
 
         [TestMethod]
+        public void Get_TimeZones_By_Country_Code()
+        {
+            CloudGeographyClient client = new();
+            List<CountryTimeZone> timeZones = client.TimeZones.GetByCountry("LB");
+
+            Assert.IsTrue(timeZones[0].Code == "Middle East Standard Time");
+        }
+
+        [TestMethod]
         public void Get_List_Of_Specific_TimeZones()
         {
             CloudGeographyClient client = new();

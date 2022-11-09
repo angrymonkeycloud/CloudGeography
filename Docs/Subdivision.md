@@ -1,18 +1,18 @@
 ### For Subdivisions:
 
-#### Get All Subdivisions by Country Code
+#### Get all subdivisions by country code
 
 ```cs
 List<Subdivision> subdivisions = client.Subdivisions.Get("US");
 ```
 
-#### Get All Subdivisions by Country And Subdivision Code
+#### Get all subdivisions by country and subdivision code
 
 ```cs
 List<Subdivision> subdivisions = client.Subdivisions.Get("US", new[] { "AL", "AK", "AZ" });
 ```
 
-#### Get a Subdivisions by Country And Subdivision Code
+#### Get a subdivisions by country and subdivision code
 
 ```cs
 List<Subdivision> subdivisions = client.Subdivisions.Get("US", "AL");

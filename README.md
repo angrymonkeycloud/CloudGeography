@@ -189,26 +189,26 @@ Language? language = client.Languages.Get("ENG");
 ```
 ### For Subdivisions:
 
-#### Get All Subdivisions by Country Code
+#### Get all subdivisions by country code
 
 ```cs
 List<Subdivision> subdivisions = client.Subdivisions.Get("US");
 ```
 
-#### Get All Subdivisions by Country And Subdivision Code
+#### Get all subdivisions by country and subdivision code
 
 ```cs
 List<Subdivision> subdivisions = client.Subdivisions.Get("US", new[] { "AL", "AK", "AZ" });
 ```
 
-#### Get a Subdivisions by Country And Subdivision Code
+#### Get a subdivisions by country and subdivision code
 
 ```cs
 List<Subdivision> subdivisions = client.Subdivisions.Get("US", "AL");
 ```
 ### For TimeZones:
 ---
-#### Get all TimeZones
+#### Get all timeZones
 
 
 ```cs
@@ -216,7 +216,7 @@ List<TimeZoneInfo> timeZones = client.TimeZones.Get();
 ```
 
 
-#### Get TimeZones by TimeZone Codes
+#### Get timeZones by timeZone codes
 
 
 ```cs
@@ -224,22 +224,29 @@ List<TimeZoneInfo> timeZones = client.TimeZones.Get(new[]{ "Hawaiian Standard Ti
 ```
 
 
-#### Get Current Time of a TimeZone by TimeZone Id
+#### Get current time of a timeZone by timeZone id
 
 
 ```cs
 DateTime dateTime = client.TimeZones.GetDateTime("Eastern Standard Time");
 ```
 
+#### Get timezones by country code
 
-#### Convert UTC Time to a TimeZone Time by TimeZone Id
+
+```cs
+List<CountryTimeZone> timeZones = client.TimeZones.GetByCountry("LB");
+```
+
+
+#### Convert UTC time to a timeZone time by timeZone id
 
 
 ```cs
 DateTime convertedTime = client.TimeZones.GetDateTime(DateTime.Parse("2022-11-09 10:00:00 AM"), "Eastern Standard Time");
 ```
 
-#### Convert Time from a TimeZone To Another TimeZone Time by TimeZone Ids
+#### Convert time from a timeZone to another timeZone time by timeZone ids
 
 
 ```cs
@@ -248,7 +255,7 @@ DateTime convertedTime = client.TimeZones.GetDateTime(DateTime.Parse("2022-11-08
 
 ### For Money:
 ---
-#### Add Money
+#### add money
 
 
 ```cs
@@ -266,7 +273,7 @@ Money sum = moneyA.Add(moneyB);
 ```
 
 
-#### Subtract Money
+#### subtract money
 
 
 ```cs
@@ -283,7 +290,7 @@ Money moneyB = new("USD", -1.4m);
 Money sum = moneyA.Subtract(moneyB);
 ```
 
-#### Get Decimal Part of the Money As Integer
+#### Get decimal part of the money as an integer
 
 ```cs
 //Positive Number
@@ -299,21 +306,21 @@ int decimalPart = money.DecimalNumberAsInteger;
 ### For Phone Numbers:
 ---
 
-#### Get The Country Code of an International Phone Number
+#### Get the country code of an international phone number
 
 ```cs
 PhoneNumber number = client.PhoneNumbers.Get("+16265895784");
 string countryCode = number?.CountryCode;
 //US
 ```
-#### Get The Country Calling Code of an International Phone Number 
+#### Get the country calling code of an international phone number 
 
 ```cs
 PhoneNumber number = client.PhoneNumbers.Get("+16265895784");
 string countryCallingCode = number?.CountryCallingCode;
 //1
 ```
-#### Get The Local Phone Number of an International Phone Number
+#### Get the local phone number of an international phone number
 
 ```cs
 PhoneNumber number = client.PhoneNumbers.Get("+16265895784");
