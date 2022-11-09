@@ -7,25 +7,139 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("UY", new List<Subdivision>()
         {
-            new(){ Code ="AR", LocalName="Artigas", Name="Artigas", Type="Department" },
-            new(){ Code ="CA", LocalName="Canelones", Name="Canelones", Type="Department" },
-            new(){ Code ="CL", LocalName="Cerro Largo", Name="Cerro Largo", Type="Department" },
-            new(){ Code ="CO", LocalName="Colonia", Name="Colonia", Type="Department" },
-            new(){ Code ="DU", LocalName="Durazno", Name="Durazno", Type="Department" },
-            new(){ Code ="FS", LocalName="Flores", Name="Flores", Type="Department" },
-            new(){ Code ="FD", LocalName="Florida", Name="Florida", Type="Department" },
-            new(){ Code ="LA", LocalName="Lavalleja", Name="Lavalleja", Type="Department" },
-            new(){ Code ="MA", LocalName="Maldonado", Name="Maldonado", Type="Department" },
-            new(){ Code ="MO", LocalName="Montevideo", Name="Montevideo", Type="Department" },
-            new(){ Code ="PA", LocalName="Paysandú", Name="Paysandú", Type="Department" },
-            new(){ Code ="RN", LocalName="Río Negro", Name="Río Negro", Type="Department" },
-            new(){ Code ="RV", LocalName="Rivera", Name="Rivera", Type="Department" },
-            new(){ Code ="RO", LocalName="Rocha", Name="Rocha", Type="Department" },
-            new(){ Code ="SA", LocalName="Salto", Name="Salto", Type="Department" },
-            new(){ Code ="SJ", LocalName="San José", Name="San José", Type="Department" },
-            new(){ Code ="SO", LocalName="Soriano", Name="Soriano", Type="Department" },
-            new(){ Code ="TA", LocalName="Tacuarembó", Name="Tacuarembó", Type="Department" },
-            new(){ Code ="TT", LocalName="Treinta y Tres", Name="Treinta y Tres", Type="Department" }
+            new()
+            { 
+                Code = "AR",
+                Type = "Department",
+                Name = "Artigas",
+                LocalName = "Artigas"
+            },
+            new()
+            { 
+                Code = "CA",
+                Type = "Department",
+                Name = "Canelones",
+                LocalName = "Canelones"
+            },
+            new()
+            { 
+                Code = "CL",
+                Type = "Department",
+                Name = "Cerro Largo",
+                LocalName = "Cerro Largo"
+            },
+            new()
+            { 
+                Code = "CO",
+                Type = "Department",
+                Name = "Colonia",
+                LocalName = "Colonia"
+            },
+            new()
+            { 
+                Code = "DU",
+                Type = "Department",
+                Name = "Durazno",
+                LocalName = "Durazno"
+            },
+            new()
+            { 
+                Code = "FS",
+                Type = "Department",
+                Name = "Flores",
+                LocalName = "Flores"
+            },
+            new()
+            { 
+                Code = "FD",
+                Type = "Department",
+                Name = "Florida",
+                LocalName = "Florida"
+            },
+            new()
+            { 
+                Code = "LA",
+                Type = "Department",
+                Name = "Lavalleja",
+                LocalName = "Lavalleja"
+            },
+            new()
+            { 
+                Code = "MA",
+                Type = "Department",
+                Name = "Maldonado",
+                LocalName = "Maldonado"
+            },
+            new()
+            { 
+                Code = "MO",
+                Type = "Department",
+                Name = "Montevideo",
+                LocalName = "Montevideo"
+            },
+            new()
+            { 
+                Code = "PA",
+                Type = "Department",
+                Name = "Paysandú",
+                LocalName = "Paysandú"
+            },
+            new()
+            { 
+                Code = "RN",
+                Type = "Department",
+                Name = "Río Negro",
+                LocalName = "Río Negro"
+            },
+            new()
+            { 
+                Code = "RV",
+                Type = "Department",
+                Name = "Rivera",
+                LocalName = "Rivera"
+            },
+            new()
+            { 
+                Code = "RO",
+                Type = "Department",
+                Name = "Rocha",
+                LocalName = "Rocha"
+            },
+            new()
+            { 
+                Code = "SA",
+                Type = "Department",
+                Name = "Salto",
+                LocalName = "Salto"
+            },
+            new()
+            { 
+                Code = "SJ",
+                Type = "Department",
+                Name = "San José",
+                LocalName = "San José"
+            },
+            new()
+            { 
+                Code = "SO",
+                Type = "Department",
+                Name = "Soriano",
+                LocalName = "Soriano"
+            },
+            new()
+            { 
+                Code = "TA",
+                Type = "Department",
+                Name = "Tacuarembó",
+                LocalName = "Tacuarembó"
+            },
+            new()
+            { 
+                Code = "TT",
+                Type = "Department",
+                Name = "Treinta y Tres",
+                LocalName = "Treinta y Tres"
+            }
 
         });
     }

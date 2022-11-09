@@ -7,20 +7,104 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("MM", new List<Subdivision>()
         {
-            new(){ Code ="7", LocalName="Ayeyarwady", Name="Ayeyarwady", Type="Region" },
-            new(){ Code ="2", LocalName="Bago", Name="Bago", Type="Region" },
-            new(){ Code ="14", LocalName="Chin", Name="Chin", Type="State" },
-            new(){ Code ="11", LocalName="Kachin", Name="Kachin", Type="State" },
-            new(){ Code ="12", LocalName="Kayah", Name="Kayah", Type="State" },
-            new(){ Code ="13", LocalName="Kayin", Name="Kayin", Type="State" },
-            new(){ Code ="3", LocalName="Magway", Name="Magway", Type="Region" },
-            new(){ Code ="4", LocalName="Mandalay", Name="Mandalay", Type="Region" },
-            new(){ Code ="15", LocalName="Mon", Name="Mon", Type="State" },
-            new(){ Code ="16", LocalName="Rakhine", Name="Rakhine", Type="State" },
-            new(){ Code ="1", LocalName="Sagaing", Name="Sagaing", Type="Region" },
-            new(){ Code ="17", LocalName="Shan", Name="Shan", Type="State" },
-            new(){ Code ="5", LocalName="Tanintharyi", Name="Tanintharyi", Type="Region" },
-            new(){ Code ="6", LocalName="Yangon", Name="Yangon", Type="Region" }
+            new()
+            { 
+                Code = "7",
+                Type = "Region",
+                Name = "Ayeyarwady",
+                LocalName = "Ayeyarwady"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "Region",
+                Name = "Bago",
+                LocalName = "Bago"
+            },
+            new()
+            { 
+                Code = "14",
+                Type = "State",
+                Name = "Chin",
+                LocalName = "Chin"
+            },
+            new()
+            { 
+                Code = "11",
+                Type = "State",
+                Name = "Kachin",
+                LocalName = "Kachin"
+            },
+            new()
+            { 
+                Code = "12",
+                Type = "State",
+                Name = "Kayah",
+                LocalName = "Kayah"
+            },
+            new()
+            { 
+                Code = "13",
+                Type = "State",
+                Name = "Kayin",
+                LocalName = "Kayin"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "Region",
+                Name = "Magway",
+                LocalName = "Magway"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "Region",
+                Name = "Mandalay",
+                LocalName = "Mandalay"
+            },
+            new()
+            { 
+                Code = "15",
+                Type = "State",
+                Name = "Mon",
+                LocalName = "Mon"
+            },
+            new()
+            { 
+                Code = "16",
+                Type = "State",
+                Name = "Rakhine",
+                LocalName = "Rakhine"
+            },
+            new()
+            { 
+                Code = "1",
+                Type = "Region",
+                Name = "Sagaing",
+                LocalName = "Sagaing"
+            },
+            new()
+            { 
+                Code = "17",
+                Type = "State",
+                Name = "Shan",
+                LocalName = "Shan"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "Region",
+                Name = "Tanintharyi",
+                LocalName = "Tanintharyi"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "Region",
+                Name = "Yangon",
+                LocalName = "Yangon"
+            }
 
         });
     }

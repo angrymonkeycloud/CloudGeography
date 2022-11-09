@@ -7,54 +7,342 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("DZ", new List<Subdivision>()
         {
-            new(){ Code ="1", LocalName="Adrar", Name="Adrar", Type="Province" },
-            new(){ Code ="44", LocalName="Aïn Defla", Name="Aïn Defla", Type="Province" },
-            new(){ Code ="46", LocalName="Aïn Témouchent", Name="Aïn Témouchent", Type="Province" },
-            new(){ Code ="16", LocalName="Alger", Name="Alger", Type="Province" },
-            new(){ Code ="23", LocalName="Annaba", Name="Annaba", Type="Province" },
-            new(){ Code ="5", LocalName="Batna", Name="Batna", Type="Province" },
-            new(){ Code ="8", LocalName="Béchar", Name="Béchar", Type="Province" },
-            new(){ Code ="6", LocalName="Béjaïa", Name="Béjaïa", Type="Province" },
-            new(){ Code ="7", LocalName="Biskra", Name="Biskra", Type="Province" },
-            new(){ Code ="9", LocalName="Blida", Name="Blida", Type="Province" },
-            new(){ Code ="34", LocalName="Bordj Bou Arréridj", Name="Bordj Bou Arréridj", Type="Province" },
-            new(){ Code ="10", LocalName="Bouira", Name="Bouira", Type="Province" },
-            new(){ Code ="35", LocalName="Boumerdès", Name="Boumerdès", Type="Province" },
-            new(){ Code ="2", LocalName="Chlef", Name="Chlef", Type="Province" },
-            new(){ Code ="25", LocalName="Constantine", Name="Constantine", Type="Province" },
-            new(){ Code ="17", LocalName="Djelfa", Name="Djelfa", Type="Province" },
-            new(){ Code ="32", LocalName="El Bayadh", Name="El Bayadh", Type="Province" },
-            new(){ Code ="39", LocalName="El Oued", Name="El Oued", Type="Province" },
-            new(){ Code ="36", LocalName="El Tarf", Name="El Tarf", Type="Province" },
-            new(){ Code ="47", LocalName="Ghardaïa", Name="Ghardaïa", Type="Province" },
-            new(){ Code ="24", LocalName="Guelma", Name="Guelma", Type="Province" },
-            new(){ Code ="33", LocalName="Illizi", Name="Illizi", Type="Province" },
-            new(){ Code ="18", LocalName="Jijel", Name="Jijel", Type="Province" },
-            new(){ Code ="40", LocalName="Khenchela", Name="Khenchela", Type="Province" },
-            new(){ Code ="3", LocalName="Laghouat", Name="Laghouat", Type="Province" },
-            new(){ Code ="29", LocalName="Mascara", Name="Mascara", Type="Province" },
-            new(){ Code ="26", LocalName="Médéa", Name="Médéa", Type="Province" },
-            new(){ Code ="43", LocalName="Mila", Name="Mila", Type="Province" },
-            new(){ Code ="27", LocalName="Mostaganem", Name="Mostaganem", Type="Province" },
-            new(){ Code ="28", LocalName="M'sila", Name="M'sila", Type="Province" },
-            new(){ Code ="45", LocalName="Naama", Name="Naama", Type="Province" },
-            new(){ Code ="31", LocalName="Oran", Name="Oran", Type="Province" },
-            new(){ Code ="30", LocalName="Ouargla", Name="Ouargla", Type="Province" },
-            new(){ Code ="4", LocalName="Oum el Bouaghi", Name="Oum el Bouaghi", Type="Province" },
-            new(){ Code ="48", LocalName="Relizane", Name="Relizane", Type="Province" },
-            new(){ Code ="20", LocalName="Saïda", Name="Saïda", Type="Province" },
-            new(){ Code ="19", LocalName="Sétif", Name="Sétif", Type="Province" },
-            new(){ Code ="22", LocalName="Sidi Bel Abbès", Name="Sidi Bel Abbès", Type="Province" },
-            new(){ Code ="21", LocalName="Skikda", Name="Skikda", Type="Province" },
-            new(){ Code ="41", LocalName="Souk Ahras", Name="Souk Ahras", Type="Province" },
-            new(){ Code ="11", LocalName="Tamanrasset", Name="Tamanrasset", Type="Province" },
-            new(){ Code ="12", LocalName="Tébessa", Name="Tébessa", Type="Province" },
-            new(){ Code ="14", LocalName="Tiaret", Name="Tiaret", Type="Province" },
-            new(){ Code ="37", LocalName="Tindouf", Name="Tindouf", Type="Province" },
-            new(){ Code ="42", LocalName="Tipaza", Name="Tipaza", Type="Province" },
-            new(){ Code ="38", LocalName="Tissemsilt", Name="Tissemsilt", Type="Province" },
-            new(){ Code ="15", LocalName="Tizi Ouzou", Name="Tizi Ouzou", Type="Province" },
-            new(){ Code ="13", LocalName="Tlemcen", Name="Tlemcen", Type="Province" }
+            new()
+            { 
+                Code = "1",
+                Type = "Province",
+                Name = "Adrar",
+                LocalName = "Adrar"
+            },
+            new()
+            { 
+                Code = "44",
+                Type = "Province",
+                Name = "Aïn Defla",
+                LocalName = "Aïn Defla"
+            },
+            new()
+            { 
+                Code = "46",
+                Type = "Province",
+                Name = "Aïn Témouchent",
+                LocalName = "Aïn Témouchent"
+            },
+            new()
+            { 
+                Code = "16",
+                Type = "Province",
+                Name = "Alger",
+                LocalName = "Alger"
+            },
+            new()
+            { 
+                Code = "23",
+                Type = "Province",
+                Name = "Annaba",
+                LocalName = "Annaba"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "Province",
+                Name = "Batna",
+                LocalName = "Batna"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "Province",
+                Name = "Béchar",
+                LocalName = "Béchar"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "Province",
+                Name = "Béjaïa",
+                LocalName = "Béjaïa"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "Province",
+                Name = "Biskra",
+                LocalName = "Biskra"
+            },
+            new()
+            { 
+                Code = "9",
+                Type = "Province",
+                Name = "Blida",
+                LocalName = "Blida"
+            },
+            new()
+            { 
+                Code = "34",
+                Type = "Province",
+                Name = "Bordj Bou Arréridj",
+                LocalName = "Bordj Bou Arréridj"
+            },
+            new()
+            { 
+                Code = "10",
+                Type = "Province",
+                Name = "Bouira",
+                LocalName = "Bouira"
+            },
+            new()
+            { 
+                Code = "35",
+                Type = "Province",
+                Name = "Boumerdès",
+                LocalName = "Boumerdès"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "Province",
+                Name = "Chlef",
+                LocalName = "Chlef"
+            },
+            new()
+            { 
+                Code = "25",
+                Type = "Province",
+                Name = "Constantine",
+                LocalName = "Constantine"
+            },
+            new()
+            { 
+                Code = "17",
+                Type = "Province",
+                Name = "Djelfa",
+                LocalName = "Djelfa"
+            },
+            new()
+            { 
+                Code = "32",
+                Type = "Province",
+                Name = "El Bayadh",
+                LocalName = "El Bayadh"
+            },
+            new()
+            { 
+                Code = "39",
+                Type = "Province",
+                Name = "El Oued",
+                LocalName = "El Oued"
+            },
+            new()
+            { 
+                Code = "36",
+                Type = "Province",
+                Name = "El Tarf",
+                LocalName = "El Tarf"
+            },
+            new()
+            { 
+                Code = "47",
+                Type = "Province",
+                Name = "Ghardaïa",
+                LocalName = "Ghardaïa"
+            },
+            new()
+            { 
+                Code = "24",
+                Type = "Province",
+                Name = "Guelma",
+                LocalName = "Guelma"
+            },
+            new()
+            { 
+                Code = "33",
+                Type = "Province",
+                Name = "Illizi",
+                LocalName = "Illizi"
+            },
+            new()
+            { 
+                Code = "18",
+                Type = "Province",
+                Name = "Jijel",
+                LocalName = "Jijel"
+            },
+            new()
+            { 
+                Code = "40",
+                Type = "Province",
+                Name = "Khenchela",
+                LocalName = "Khenchela"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "Province",
+                Name = "Laghouat",
+                LocalName = "Laghouat"
+            },
+            new()
+            { 
+                Code = "29",
+                Type = "Province",
+                Name = "Mascara",
+                LocalName = "Mascara"
+            },
+            new()
+            { 
+                Code = "26",
+                Type = "Province",
+                Name = "Médéa",
+                LocalName = "Médéa"
+            },
+            new()
+            { 
+                Code = "43",
+                Type = "Province",
+                Name = "Mila",
+                LocalName = "Mila"
+            },
+            new()
+            { 
+                Code = "27",
+                Type = "Province",
+                Name = "Mostaganem",
+                LocalName = "Mostaganem"
+            },
+            new()
+            { 
+                Code = "28",
+                Type = "Province",
+                Name = "M'sila",
+                LocalName = "M'sila"
+            },
+            new()
+            { 
+                Code = "45",
+                Type = "Province",
+                Name = "Naama",
+                LocalName = "Naama"
+            },
+            new()
+            { 
+                Code = "31",
+                Type = "Province",
+                Name = "Oran",
+                LocalName = "Oran"
+            },
+            new()
+            { 
+                Code = "30",
+                Type = "Province",
+                Name = "Ouargla",
+                LocalName = "Ouargla"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "Province",
+                Name = "Oum el Bouaghi",
+                LocalName = "Oum el Bouaghi"
+            },
+            new()
+            { 
+                Code = "48",
+                Type = "Province",
+                Name = "Relizane",
+                LocalName = "Relizane"
+            },
+            new()
+            { 
+                Code = "20",
+                Type = "Province",
+                Name = "Saïda",
+                LocalName = "Saïda"
+            },
+            new()
+            { 
+                Code = "19",
+                Type = "Province",
+                Name = "Sétif",
+                LocalName = "Sétif"
+            },
+            new()
+            { 
+                Code = "22",
+                Type = "Province",
+                Name = "Sidi Bel Abbès",
+                LocalName = "Sidi Bel Abbès"
+            },
+            new()
+            { 
+                Code = "21",
+                Type = "Province",
+                Name = "Skikda",
+                LocalName = "Skikda"
+            },
+            new()
+            { 
+                Code = "41",
+                Type = "Province",
+                Name = "Souk Ahras",
+                LocalName = "Souk Ahras"
+            },
+            new()
+            { 
+                Code = "11",
+                Type = "Province",
+                Name = "Tamanrasset",
+                LocalName = "Tamanrasset"
+            },
+            new()
+            { 
+                Code = "12",
+                Type = "Province",
+                Name = "Tébessa",
+                LocalName = "Tébessa"
+            },
+            new()
+            { 
+                Code = "14",
+                Type = "Province",
+                Name = "Tiaret",
+                LocalName = "Tiaret"
+            },
+            new()
+            { 
+                Code = "37",
+                Type = "Province",
+                Name = "Tindouf",
+                LocalName = "Tindouf"
+            },
+            new()
+            { 
+                Code = "42",
+                Type = "Province",
+                Name = "Tipaza",
+                LocalName = "Tipaza"
+            },
+            new()
+            { 
+                Code = "38",
+                Type = "Province",
+                Name = "Tissemsilt",
+                LocalName = "Tissemsilt"
+            },
+            new()
+            { 
+                Code = "15",
+                Type = "Province",
+                Name = "Tizi Ouzou",
+                LocalName = "Tizi Ouzou"
+            },
+            new()
+            { 
+                Code = "13",
+                Type = "Province",
+                Name = "Tlemcen",
+                LocalName = "Tlemcen"
+            }
 
         });
     }

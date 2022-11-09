@@ -9,17 +9,53 @@ public partial class CloudGeographyClient
         {
             new()
             { 
-                Code ="7",
-                Type="Parish",
-                Name="Andorra la Vella",
-                LocalName="Andorra la Vella"
+                Code = "7",
+                Type = "Parish",
+                Name = "Andorra la Vella",
+                LocalName = "Andorra la Vella"
             },
-            new(){ Code ="2", LocalName="Canillo", Name="Canillo", Type="Parish" },
-            new(){ Code ="3", LocalName="Encamp", Name="Encamp", Type="Parish" },
-            new(){ Code ="8", LocalName="Escaldes-Engordany", Name="Escaldes-Engordany", Type="Parish" },
-            new(){ Code ="4", LocalName="La Massana", Name="La Massana", Type="Parish" },
-            new(){ Code ="5", LocalName="Ordino", Name="Ordino", Type="Parish" },
-            new(){ Code ="6", LocalName="Sant Julià de Lòria", Name="Sant Julià de Lòria", Type="Parish" }
+            new()
+            { 
+                Code = "2",
+                Type = "Parish",
+                Name = "Canillo",
+                LocalName = "Canillo"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "Parish",
+                Name = "Encamp",
+                LocalName = "Encamp"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "Parish",
+                Name = "Escaldes-Engordany",
+                LocalName = "Escaldes-Engordany"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "Parish",
+                Name = "La Massana",
+                LocalName = "La Massana"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "Parish",
+                Name = "Ordino",
+                LocalName = "Ordino"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "Parish",
+                Name = "Sant Julià de Lòria",
+                LocalName = "Sant Julià de Lòria"
+            }
 
         });
     }

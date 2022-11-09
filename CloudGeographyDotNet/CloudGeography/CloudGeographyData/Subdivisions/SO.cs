@@ -7,24 +7,132 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("SO", new List<Subdivision>()
         {
-            new(){ Code ="AW", LocalName="Awdal", Name="Awdal", Type="Region" },
-            new(){ Code ="BK", LocalName="Bakool", Name="Bakool", Type="Region" },
-            new(){ Code ="BN", LocalName="Banaadir", Name="Banaadir", Type="Region" },
-            new(){ Code ="BR", LocalName="Bari", Name="Bari", Type="Region" },
-            new(){ Code ="BY", LocalName="Bay", Name="Bay", Type="Region" },
-            new(){ Code ="GA", LocalName="Galguduud", Name="Galguduud", Type="Region" },
-            new(){ Code ="GE", LocalName="Gedo", Name="Gedo", Type="Region" },
-            new(){ Code ="HI", LocalName="Hiiraan", Name="Hiiraan", Type="Region" },
-            new(){ Code ="JD", LocalName="Jubbada Dhexe", Name="Jubbada Dhexe", Type="Region" },
-            new(){ Code ="JH", LocalName="Jubbada Hoose", Name="Jubbada Hoose", Type="Region" },
-            new(){ Code ="MU", LocalName="Mudug", Name="Mudug", Type="Region" },
-            new(){ Code ="NU", LocalName="Nugaal", Name="Nugaal", Type="Region" },
-            new(){ Code ="SA", LocalName="Sanaag", Name="Sanaag", Type="Region" },
-            new(){ Code ="SD", LocalName="Shabeellaha Dhexe", Name="Shabeellaha Dhexe", Type="Region" },
-            new(){ Code ="SH", LocalName="Shabeellaha Hoose", Name="Shabeellaha Hoose", Type="Region" },
-            new(){ Code ="SO", LocalName="Sool", Name="Sool", Type="Region" },
-            new(){ Code ="TO", LocalName="Togdheer", Name="Togdheer", Type="Region" },
-            new(){ Code ="WO", LocalName="Woqooyi Galbeed", Name="Woqooyi Galbeed", Type="Region" }
+            new()
+            { 
+                Code = "AW",
+                Type = "Region",
+                Name = "Awdal",
+                LocalName = "Awdal"
+            },
+            new()
+            { 
+                Code = "BK",
+                Type = "Region",
+                Name = "Bakool",
+                LocalName = "Bakool"
+            },
+            new()
+            { 
+                Code = "BN",
+                Type = "Region",
+                Name = "Banaadir",
+                LocalName = "Banaadir"
+            },
+            new()
+            { 
+                Code = "BR",
+                Type = "Region",
+                Name = "Bari",
+                LocalName = "Bari"
+            },
+            new()
+            { 
+                Code = "BY",
+                Type = "Region",
+                Name = "Bay",
+                LocalName = "Bay"
+            },
+            new()
+            { 
+                Code = "GA",
+                Type = "Region",
+                Name = "Galguduud",
+                LocalName = "Galguduud"
+            },
+            new()
+            { 
+                Code = "GE",
+                Type = "Region",
+                Name = "Gedo",
+                LocalName = "Gedo"
+            },
+            new()
+            { 
+                Code = "HI",
+                Type = "Region",
+                Name = "Hiiraan",
+                LocalName = "Hiiraan"
+            },
+            new()
+            { 
+                Code = "JD",
+                Type = "Region",
+                Name = "Jubbada Dhexe",
+                LocalName = "Jubbada Dhexe"
+            },
+            new()
+            { 
+                Code = "JH",
+                Type = "Region",
+                Name = "Jubbada Hoose",
+                LocalName = "Jubbada Hoose"
+            },
+            new()
+            { 
+                Code = "MU",
+                Type = "Region",
+                Name = "Mudug",
+                LocalName = "Mudug"
+            },
+            new()
+            { 
+                Code = "NU",
+                Type = "Region",
+                Name = "Nugaal",
+                LocalName = "Nugaal"
+            },
+            new()
+            { 
+                Code = "SA",
+                Type = "Region",
+                Name = "Sanaag",
+                LocalName = "Sanaag"
+            },
+            new()
+            { 
+                Code = "SD",
+                Type = "Region",
+                Name = "Shabeellaha Dhexe",
+                LocalName = "Shabeellaha Dhexe"
+            },
+            new()
+            { 
+                Code = "SH",
+                Type = "Region",
+                Name = "Shabeellaha Hoose",
+                LocalName = "Shabeellaha Hoose"
+            },
+            new()
+            { 
+                Code = "SO",
+                Type = "Region",
+                Name = "Sool",
+                LocalName = "Sool"
+            },
+            new()
+            { 
+                Code = "TO",
+                Type = "Region",
+                Name = "Togdheer",
+                LocalName = "Togdheer"
+            },
+            new()
+            { 
+                Code = "WO",
+                Type = "Region",
+                Name = "Woqooyi Galbeed",
+                LocalName = "Woqooyi Galbeed"
+            }
 
         });
     }

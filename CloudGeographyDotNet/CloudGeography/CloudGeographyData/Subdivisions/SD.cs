@@ -7,24 +7,132 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("SD", new List<Subdivision>()
         {
-            new(){ Code ="RS", LocalName="Al Ba?r al A?mar", Name="Al Ba?r al A?mar", Type="State" },
-            new(){ Code ="GZ", LocalName="Al Jazirah", Name="Al Jazirah", Type="State" },
-            new(){ Code ="KH", LocalName="Al Khartum", Name="Al Khartum", Type="State" },
-            new(){ Code ="GD", LocalName="Al Qadarif", Name="Al Qadarif", Type="State" },
-            new(){ Code ="NW", LocalName="An Nil al Abya?", Name="An Nil al Abya?", Type="State" },
-            new(){ Code ="NB", LocalName="An Nil al Azraq", Name="An Nil al Azraq", Type="State" },
-            new(){ Code ="NO", LocalName="Ash Shamaliyah", Name="Ash Shamaliyah", Type="State" },
-            new(){ Code ="DW", LocalName="Gharb Darfur", Name="Gharb Darfur", Type="State" },
-            new(){ Code ="GK", LocalName="Gharb Kurdufan", Name="Gharb Kurdufan", Type="State" },
-            new(){ Code ="DS", LocalName="Janub Darfur", Name="Janub Darfur", Type="State" },
-            new(){ Code ="KS", LocalName="Janub Kurdufan", Name="Janub Kurdufan", Type="State" },
-            new(){ Code ="KA", LocalName="Kassala", Name="Kassala", Type="State" },
-            new(){ Code ="NR", LocalName="Nahr an Nil", Name="Nahr an Nil", Type="State" },
-            new(){ Code ="DN", LocalName="Shamal Darfur", Name="Shamal Darfur", Type="State" },
-            new(){ Code ="DE", LocalName="Sharq Darfur", Name="Sharq Darfur", Type="State" },
-            new(){ Code ="KN", LocalName="Shiamal Kurdufan", Name="Shiamal Kurdufan", Type="State" },
-            new(){ Code ="SI", LocalName="Sinnar", Name="Sinnar", Type="State" },
-            new(){ Code ="DC", LocalName="Wasat Darfur Zalinjay", Name="Wasat Darfur Zalinjay", Type="State" }
+            new()
+            { 
+                Code = "RS",
+                Type = "State",
+                Name = "Al Ba?r al A?mar",
+                LocalName = "Al Ba?r al A?mar"
+            },
+            new()
+            { 
+                Code = "GZ",
+                Type = "State",
+                Name = "Al Jazirah",
+                LocalName = "Al Jazirah"
+            },
+            new()
+            { 
+                Code = "KH",
+                Type = "State",
+                Name = "Al Khartum",
+                LocalName = "Al Khartum"
+            },
+            new()
+            { 
+                Code = "GD",
+                Type = "State",
+                Name = "Al Qadarif",
+                LocalName = "Al Qadarif"
+            },
+            new()
+            { 
+                Code = "NW",
+                Type = "State",
+                Name = "An Nil al Abya?",
+                LocalName = "An Nil al Abya?"
+            },
+            new()
+            { 
+                Code = "NB",
+                Type = "State",
+                Name = "An Nil al Azraq",
+                LocalName = "An Nil al Azraq"
+            },
+            new()
+            { 
+                Code = "NO",
+                Type = "State",
+                Name = "Ash Shamaliyah",
+                LocalName = "Ash Shamaliyah"
+            },
+            new()
+            { 
+                Code = "DW",
+                Type = "State",
+                Name = "Gharb Darfur",
+                LocalName = "Gharb Darfur"
+            },
+            new()
+            { 
+                Code = "GK",
+                Type = "State",
+                Name = "Gharb Kurdufan",
+                LocalName = "Gharb Kurdufan"
+            },
+            new()
+            { 
+                Code = "DS",
+                Type = "State",
+                Name = "Janub Darfur",
+                LocalName = "Janub Darfur"
+            },
+            new()
+            { 
+                Code = "KS",
+                Type = "State",
+                Name = "Janub Kurdufan",
+                LocalName = "Janub Kurdufan"
+            },
+            new()
+            { 
+                Code = "KA",
+                Type = "State",
+                Name = "Kassala",
+                LocalName = "Kassala"
+            },
+            new()
+            { 
+                Code = "NR",
+                Type = "State",
+                Name = "Nahr an Nil",
+                LocalName = "Nahr an Nil"
+            },
+            new()
+            { 
+                Code = "DN",
+                Type = "State",
+                Name = "Shamal Darfur",
+                LocalName = "Shamal Darfur"
+            },
+            new()
+            { 
+                Code = "DE",
+                Type = "State",
+                Name = "Sharq Darfur",
+                LocalName = "Sharq Darfur"
+            },
+            new()
+            { 
+                Code = "KN",
+                Type = "State",
+                Name = "Shiamal Kurdufan",
+                LocalName = "Shiamal Kurdufan"
+            },
+            new()
+            { 
+                Code = "SI",
+                Type = "State",
+                Name = "Sinnar",
+                LocalName = "Sinnar"
+            },
+            new()
+            { 
+                Code = "DC",
+                Type = "State",
+                Name = "Wasat Darfur Zalinjay",
+                LocalName = "Wasat Darfur Zalinjay"
+            }
 
         });
     }

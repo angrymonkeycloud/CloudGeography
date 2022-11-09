@@ -7,9 +7,27 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("BQ", new List<Subdivision>()
         {
-            new(){ Code ="BO", LocalName="Bonaire", Name="Bonaire", Type="Municipality" },
-            new(){ Code ="SA", LocalName="Saba", Name="Saba", Type="Municipality" },
-            new(){ Code ="SE", LocalName="Sint Eustatius", Name="Sint Eustatius", Type="Municipality" }
+            new()
+            { 
+                Code = "BO",
+                Type = "Municipality",
+                Name = "Bonaire",
+                LocalName = "Bonaire"
+            },
+            new()
+            { 
+                Code = "SA",
+                Type = "Municipality",
+                Name = "Saba",
+                LocalName = "Saba"
+            },
+            new()
+            { 
+                Code = "SE",
+                Type = "Municipality",
+                Name = "Sint Eustatius",
+                LocalName = "Sint Eustatius"
+            }
 
         });
     }

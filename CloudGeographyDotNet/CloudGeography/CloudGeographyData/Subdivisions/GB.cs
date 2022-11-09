@@ -7,224 +7,1532 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("GB", new List<Subdivision>()
         {
-            new(){ Code ="ABE", LocalName="Aberdeen City", Name="Aberdeen City", Type="CouncilArea" },
-            new(){ Code ="ABD", LocalName="Aberdeenshire", Name="Aberdeenshire", Type="CouncilArea" },
-            new(){ Code ="ANS", LocalName="Angus", Name="Angus", Type="CouncilArea" },
-            new(){ Code ="ANN", LocalName="Antrim and Newtownabbey", Name="Antrim and Newtownabbey", Type="District" },
-            new(){ Code ="AND", LocalName="Ards and North Down", Name="Ards and North Down", Type="District" },
-            new(){ Code ="AGB", LocalName="Argyll and Bute", Name="Argyll and Bute", Type="CouncilArea" },
-            new(){ Code ="ARM", LocalName="Armagh", Name="Armagh", Type="CouncilArea" },
-            new(){ Code ="ABC", LocalName="Armagh", Name="Armagh", Type="District" },
-            new(){ Code ="BDG", LocalName="Barking and Dagenham", Name="Barking and Dagenham", Type="CouncilArea" },
-            new(){ Code ="BNE", LocalName="Barnet", Name="Barnet", Type="CouncilArea" },
-            new(){ Code ="BNS", LocalName="Barnsley", Name="Barnsley", Type="CouncilArea" },
-            new(){ Code ="BAS", LocalName="Bath and North East Somerset", Name="Bath and North East Somerset", Type="UnitaryAuthority" },
-            new(){ Code ="BDF", LocalName="Bedford", Name="Bedford", Type="CouncilArea" },
-            new(){ Code ="BFS", LocalName="Belfast", Name="Belfast", Type="District" },
-            new(){ Code ="BEX", LocalName="Bexley", Name="Bexley", Type="CouncilArea" },
-            new(){ Code ="BIR", LocalName="Birmingham", Name="Birmingham", Type="CouncilArea" },
-            new(){ Code ="BBD", LocalName="Blackburn with Darwen", Name="Blackburn with Darwen", Type="UnitaryAuthority" },
-            new(){ Code ="BPL", LocalName="Blackpool", Name="Blackpool", Type="UnitaryAuthority" },
-            new(){ Code ="BGW", LocalName="Blaenau Gwent", Name="Blaenau Gwent", Type="UnitaryAuthority" },
-            new(){ Code ="BOL", LocalName="Bolton", Name="Bolton", Type="CouncilArea" },
-            new(){ Code ="BMH", LocalName="Bournemouth", Name="Bournemouth", Type="UnitaryAuthority" },
-            new(){ Code ="BRC", LocalName="Bracknell Forest", Name="Bracknell Forest", Type="UnitaryAuthority" },
-            new(){ Code ="BRD", LocalName="Bradford", Name="Bradford", Type="CouncilArea" },
-            new(){ Code ="BEN", LocalName="Brent", Name="Brent", Type="CouncilArea" },
-            new(){ Code ="BGE", LocalName="Bridgend", Name="Bridgend", Type="UnitaryAuthority" },
-            new(){ Code ="BNH", LocalName="Brighton and Hove", Name="Brighton and Hove", Type="UnitaryAuthority" },
-            new(){ Code ="BST", LocalName="Bristol", Name="Bristol", Type="UnitaryAuthority" },
-            new(){ Code ="BRY", LocalName="Bromley", Name="Bromley", Type="CouncilArea" },
-            new(){ Code ="BKM", LocalName="Buckinghamshire", Name="Buckinghamshire", Type="County" },
-            new(){ Code ="BUR", LocalName="Bury", Name="Bury", Type="CouncilArea" },
-            new(){ Code ="CAY", LocalName="Caerphilly", Name="Caerphilly", Type="UnitaryAuthority" },
-            new(){ Code ="CLD", LocalName="Calderdale", Name="Calderdale", Type="CouncilArea" },
-            new(){ Code ="CAM", LocalName="Cambridgeshire", Name="Cambridgeshire", Type="County" },
-            new(){ Code ="CMD", LocalName="Camden", Name="Camden", Type="CouncilArea" },
-            new(){ Code ="CRF", LocalName="Cardiff", Name="Cardiff", Type="UnitaryAuthority" },
-            new(){ Code ="CMN", LocalName="Carmarthenshire", Name="Carmarthenshire", Type="UnitaryAuthority" },
-            new(){ Code ="CCG", LocalName="Causeway Coast and Glens", Name="Causeway Coast and Glens", Type="District" },
-            new(){ Code ="CBF", LocalName="Central Bedfordshire", Name="Central Bedfordshire", Type="UnitaryAuthority" },
-            new(){ Code ="CGN", LocalName="Ceredigion", Name="Ceredigion", Type="UnitaryAuthority" },
-            new(){ Code ="CHE", LocalName="Cheshire East", Name="Cheshire East", Type="UnitaryAuthority" },
-            new(){ Code ="CHW", LocalName="Cheshire West and Chester", Name="Cheshire West and Chester", Type="UnitaryAuthority" },
-            new(){ Code ="CLK", LocalName="Clackmannanshire", Name="Clackmannanshire", Type="CouncilArea" },
-            new(){ Code ="CWY", LocalName="Conwy", Name="Conwy", Type="UnitaryAuthority" },
-            new(){ Code ="CON", LocalName="Cornwall", Name="Cornwall", Type="UnitaryAuthority" },
-            new(){ Code ="COV", LocalName="Coventry", Name="Coventry", Type="CouncilArea" },
-            new(){ Code ="CRY", LocalName="Croydon", Name="Croydon", Type="CouncilArea" },
-            new(){ Code ="CMA", LocalName="Cumbria", Name="Cumbria", Type="County" },
-            new(){ Code ="DAL", LocalName="Darlington", Name="Darlington", Type="UnitaryAuthority" },
-            new(){ Code ="DEN", LocalName="Denbighshire", Name="Denbighshire", Type="UnitaryAuthority" },
-            new(){ Code ="DER", LocalName="Derby", Name="Derby", Type="UnitaryAuthority" },
-            new(){ Code ="DBY", LocalName="Derbyshire", Name="Derbyshire", Type="County" },
-            new(){ Code ="DRS", LocalName="Derry and Strabane", Name="Derry and Strabane", Type="District" },
-            new(){ Code ="DEV", LocalName="Devon", Name="Devon", Type="County" },
-            new(){ Code ="DNC", LocalName="Doncaster", Name="Doncaster", Type="CouncilArea" },
-            new(){ Code ="DOR", LocalName="Dorset", Name="Dorset", Type="County" },
-            new(){ Code ="DUD", LocalName="Dudley", Name="Dudley", Type="CouncilArea" },
-            new(){ Code ="DGY", LocalName="Dumfries and Galloway", Name="Dumfries and Galloway", Type="CouncilArea" },
-            new(){ Code ="DND", LocalName="Dundee City", Name="Dundee City", Type="CouncilArea" },
-            new(){ Code ="DUR", LocalName="Durham", Name="Durham", Type="UnitaryAuthority" },
-            new(){ Code ="EAL", LocalName="Ealing", Name="Ealing", Type="CouncilArea" },
-            new(){ Code ="EAY", LocalName="East Ayrshire", Name="East Ayrshire", Type="CouncilArea" },
-            new(){ Code ="EDU", LocalName="East Dunbartonshire", Name="East Dunbartonshire", Type="CouncilArea" },
-            new(){ Code ="ELN", LocalName="East Lothian", Name="East Lothian", Type="CouncilArea" },
-            new(){ Code ="ERW", LocalName="East Renfrewshire", Name="East Renfrewshire", Type="CouncilArea" },
-            new(){ Code ="ERY", LocalName="East Riding of Yorkshire", Name="East Riding of Yorkshire", Type="UnitaryAuthority" },
-            new(){ Code ="ESX", LocalName="East Sussex", Name="East Sussex", Type="County" },
-            new(){ Code ="EDH", LocalName="Edinburgh", Name="Edinburgh", Type="CouncilArea" },
-            new(){ Code ="ELS", LocalName="Eilean Siar", Name="Eilean Siar", Type="CouncilArea" },
-            new(){ Code ="ENF", LocalName="Enfield", Name="Enfield", Type="CouncilArea" },
-            new(){ Code ="ESS", LocalName="Essex", Name="Essex", Type="County" },
-            new(){ Code ="FAL", LocalName="Falkirk", Name="Falkirk", Type="CouncilArea" },
-            new(){ Code ="FMO", LocalName="Fermanagh and Omagh", Name="Fermanagh and Omagh", Type="District" },
-            new(){ Code ="FIF", LocalName="Fife", Name="Fife", Type="CouncilArea" },
-            new(){ Code ="FLN", LocalName="Flintshire", Name="Flintshire", Type="UnitaryAuthority" },
-            new(){ Code ="GAT", LocalName="Gateshead", Name="Gateshead", Type="CouncilArea" },
-            new(){ Code ="GLG", LocalName="Glasgow City", Name="Glasgow City", Type="CouncilArea" },
-            new(){ Code ="GLS", LocalName="Gloucestershire", Name="Gloucestershire", Type="County" },
-            new(){ Code ="GRE", LocalName="Greenwich", Name="Greenwich", Type="CouncilArea" },
-            new(){ Code ="GWN", LocalName="Gwynedd", Name="Gwynedd", Type="UnitaryAuthority" },
-            new(){ Code ="HCK", LocalName="Hackney", Name="Hackney", Type="CouncilArea" },
-            new(){ Code ="HAL", LocalName="Halton", Name="Halton", Type="UnitaryAuthority" },
-            new(){ Code ="HMF", LocalName="Hammersmith and Fulham", Name="Hammersmith and Fulham", Type="CouncilArea" },
-            new(){ Code ="HAM", LocalName="Hampshire", Name="Hampshire", Type="County" },
-            new(){ Code ="HRY", LocalName="Haringey", Name="Haringey", Type="CouncilArea" },
-            new(){ Code ="HRW", LocalName="Harrow", Name="Harrow", Type="CouncilArea" },
-            new(){ Code ="HPL", LocalName="Hartlepool", Name="Hartlepool", Type="UnitaryAuthority" },
-            new(){ Code ="HAV", LocalName="Havering", Name="Havering", Type="CouncilArea" },
-            new(){ Code ="HEF", LocalName="Herefordshire", Name="Herefordshire", Type="UnitaryAuthority" },
-            new(){ Code ="HRT", LocalName="Hertfordshire", Name="Hertfordshire", Type="County" },
-            new(){ Code ="HLD", LocalName="Highland", Name="Highland", Type="CouncilArea" },
-            new(){ Code ="HIL", LocalName="Hillingdon", Name="Hillingdon", Type="CouncilArea" },
-            new(){ Code ="HNS", LocalName="Hounslow", Name="Hounslow", Type="CouncilArea" },
-            new(){ Code ="IVC", LocalName="Inverclyde", Name="Inverclyde", Type="CouncilArea" },
-            new(){ Code ="AGY", LocalName="Isle of Anglesey", Name="Isle of Anglesey", Type="UnitaryAuthority" },
-            new(){ Code ="IOW", LocalName="Isle of Wight", Name="Isle of Wight", Type="UnitaryAuthority" },
-            new(){ Code ="IOS", LocalName="Isles of Scilly", Name="Isles of Scilly", Type="UnitaryAuthority" },
-            new(){ Code ="ISL", LocalName="Islington", Name="Islington", Type="CouncilArea" },
-            new(){ Code ="KEC", LocalName="Kensington and Chelsea", Name="Kensington and Chelsea", Type="CouncilArea" },
-            new(){ Code ="KEN", LocalName="Kent", Name="Kent", Type="County" },
-            new(){ Code ="KHL", LocalName="Kingston upon Hull", Name="Kingston upon Hull", Type="UnitaryAuthority" },
-            new(){ Code ="KTT", LocalName="Kingston upon Thames", Name="Kingston upon Thames", Type="CouncilArea" },
-            new(){ Code ="KIR", LocalName="Kirklees", Name="Kirklees", Type="CouncilArea" },
-            new(){ Code ="KWL", LocalName="Knowsley", Name="Knowsley", Type="CouncilArea" },
-            new(){ Code ="LBH", LocalName="Lambeth", Name="Lambeth", Type="CouncilArea" },
-            new(){ Code ="LAN", LocalName="Lancashire", Name="Lancashire", Type="County" },
-            new(){ Code ="LDS", LocalName="Leeds", Name="Leeds", Type="CouncilArea" },
-            new(){ Code ="LCE", LocalName="Leicester", Name="Leicester", Type="UnitaryAuthority" },
-            new(){ Code ="LEC", LocalName="Leicestershire", Name="Leicestershire", Type="County" },
-            new(){ Code ="LEW", LocalName="Lewisham", Name="Lewisham", Type="CouncilArea" },
-            new(){ Code ="LIN", LocalName="Lincolnshire", Name="Lincolnshire", Type="County" },
-            new(){ Code ="LBC", LocalName="Lisburn and Castlereagh", Name="Lisburn and Castlereagh", Type="District" },
-            new(){ Code ="LIV", LocalName="Liverpool", Name="Liverpool", Type="CouncilArea" },
-            new(){ Code ="LND", LocalName="London", Name="London", Type="City" },
-            new(){ Code ="LUT", LocalName="Luton", Name="Luton", Type="UnitaryAuthority" },
-            new(){ Code ="MAN", LocalName="Manchester", Name="Manchester", Type="CouncilArea" },
-            new(){ Code ="MDW", LocalName="Medway", Name="Medway", Type="UnitaryAuthority" },
-            new(){ Code ="MTY", LocalName="Merthyr Tydfil", Name="Merthyr Tydfil", Type="UnitaryAuthority" },
-            new(){ Code ="MRT", LocalName="Merton", Name="Merton", Type="CouncilArea" },
-            new(){ Code ="MEA", LocalName="Mid and East Antrim", Name="Mid and East Antrim", Type="District" },
-            new(){ Code ="MUL", LocalName="Mid Ulster", Name="Mid Ulster", Type="District" },
-            new(){ Code ="MDB", LocalName="Middlesbrough", Name="Middlesbrough", Type="UnitaryAuthority" },
-            new(){ Code ="MLN", LocalName="Midlothian", Name="Midlothian", Type="CouncilArea" },
-            new(){ Code ="MIK", LocalName="Milton Keynes", Name="Milton Keynes", Type="UnitaryAuthority" },
-            new(){ Code ="MON", LocalName="Monmouthshire", Name="Monmouthshire", Type="UnitaryAuthority" },
-            new(){ Code ="MRY", LocalName="Moray", Name="Moray", Type="CouncilArea" },
-            new(){ Code ="NTL", LocalName="Neath Port Talbot", Name="Neath Port Talbot", Type="UnitaryAuthority" },
-            new(){ Code ="NET", LocalName="Newcastle upon Tyne", Name="Newcastle upon Tyne", Type="CouncilArea" },
-            new(){ Code ="NWM", LocalName="Newham", Name="Newham", Type="CouncilArea" },
-            new(){ Code ="NWP", LocalName="Newport", Name="Newport", Type="UnitaryAuthority" },
-            new(){ Code ="NMD", LocalName="Newry", Name="Newry", Type="District" },
-            new(){ Code ="NFK", LocalName="Norfolk", Name="Norfolk", Type="County" },
-            new(){ Code ="NAY", LocalName="North Ayrshire", Name="North Ayrshire", Type="CouncilArea" },
-            new(){ Code ="NEL", LocalName="North East Lincolnshire", Name="North East Lincolnshire", Type="UnitaryAuthority" },
-            new(){ Code ="NLK", LocalName="North Lanarkshire", Name="North Lanarkshire", Type="CouncilArea" },
-            new(){ Code ="NLN", LocalName="North Lincolnshire", Name="North Lincolnshire", Type="UnitaryAuthority" },
-            new(){ Code ="NSM", LocalName="North Somerset", Name="North Somerset", Type="UnitaryAuthority" },
-            new(){ Code ="NTY", LocalName="North Tyneside", Name="North Tyneside", Type="CouncilArea" },
-            new(){ Code ="NYK", LocalName="North Yorkshire", Name="North Yorkshire", Type="County" },
-            new(){ Code ="NTH", LocalName="Northamptonshire", Name="Northamptonshire", Type="County" },
-            new(){ Code ="NBL", LocalName="Northumberland", Name="Northumberland", Type="UnitaryAuthority" },
-            new(){ Code ="NGM", LocalName="Nottingham", Name="Nottingham", Type="UnitaryAuthority" },
-            new(){ Code ="NTT", LocalName="Nottinghamshire", Name="Nottinghamshire", Type="County" },
-            new(){ Code ="OLD", LocalName="Oldham", Name="Oldham", Type="CouncilArea" },
-            new(){ Code ="ORK", LocalName="Orkney Islands", Name="Orkney Islands", Type="CouncilArea" },
-            new(){ Code ="OXF", LocalName="Oxfordshire", Name="Oxfordshire", Type="County" },
-            new(){ Code ="PEM", LocalName="Pembrokeshire", Name="Pembrokeshire", Type="UnitaryAuthority" },
-            new(){ Code ="PKN", LocalName="Perth and Kinross", Name="Perth and Kinross", Type="CouncilArea" },
-            new(){ Code ="PTE", LocalName="Peterborough", Name="Peterborough", Type="UnitaryAuthority" },
-            new(){ Code ="PLY", LocalName="Plymouth", Name="Plymouth", Type="UnitaryAuthority" },
-            new(){ Code ="POL", LocalName="Poole", Name="Poole", Type="UnitaryAuthority" },
-            new(){ Code ="POR", LocalName="Portsmouth", Name="Portsmouth", Type="UnitaryAuthority" },
-            new(){ Code ="POW", LocalName="Powys", Name="Powys", Type="UnitaryAuthority" },
-            new(){ Code ="RDG", LocalName="Reading", Name="Reading", Type="UnitaryAuthority" },
-            new(){ Code ="RDB", LocalName="Redbridge", Name="Redbridge", Type="CouncilArea" },
-            new(){ Code ="RCC", LocalName="Redcar and Cleveland", Name="Redcar and Cleveland", Type="UnitaryAuthority" },
-            new(){ Code ="RFW", LocalName="Renfrewshire", Name="Renfrewshire", Type="CouncilArea" },
-            new(){ Code ="RCT", LocalName="Rhondda", Name="Rhondda", Type="UnitaryAuthority" },
-            new(){ Code ="RIC", LocalName="Richmond upon Thames", Name="Richmond upon Thames", Type="CouncilArea" },
-            new(){ Code ="RCH", LocalName="Rochdale", Name="Rochdale", Type="CouncilArea" },
-            new(){ Code ="ROT", LocalName="Rotherham", Name="Rotherham", Type="CouncilArea" },
-            new(){ Code ="RUT", LocalName="Rutland", Name="Rutland", Type="UnitaryAuthority" },
-            new(){ Code ="SLF", LocalName="Salford", Name="Salford", Type="CouncilArea" },
-            new(){ Code ="SAW", LocalName="Sandwell", Name="Sandwell", Type="CouncilArea" },
-            new(){ Code ="SCB", LocalName="Scottish Borders", Name="Scottish Borders", Type="CouncilArea" },
-            new(){ Code ="SFT", LocalName="Sefton", Name="Sefton", Type="CouncilArea" },
-            new(){ Code ="SHF", LocalName="Sheffield", Name="Sheffield", Type="CouncilArea" },
-            new(){ Code ="ZET", LocalName="Shetland Islands", Name="Shetland Islands", Type="CouncilArea" },
-            new(){ Code ="SHR", LocalName="Shropshire", Name="Shropshire", Type="UnitaryAuthority" },
-            new(){ Code ="SLG", LocalName="Slough", Name="Slough", Type="UnitaryAuthority" },
-            new(){ Code ="SOL", LocalName="Solihull", Name="Solihull", Type="CouncilArea" },
-            new(){ Code ="SOM", LocalName="Somerset", Name="Somerset", Type="County" },
-            new(){ Code ="SAY", LocalName="South Ayrshire", Name="South Ayrshire", Type="CouncilArea" },
-            new(){ Code ="SGC", LocalName="South Gloucestershire", Name="South Gloucestershire", Type="UnitaryAuthority" },
-            new(){ Code ="SLK", LocalName="South Lanarkshire", Name="South Lanarkshire", Type="CouncilArea" },
-            new(){ Code ="STY", LocalName="South Tyneside", Name="South Tyneside", Type="CouncilArea" },
-            new(){ Code ="STH", LocalName="Southampton", Name="Southampton", Type="UnitaryAuthority" },
-            new(){ Code ="SOS", LocalName="Southend-on-Sea", Name="Southend-on-Sea", Type="UnitaryAuthority" },
-            new(){ Code ="SWK", LocalName="Southwark", Name="Southwark", Type="CouncilArea" },
-            new(){ Code ="SHN", LocalName="St. Helens", Name="St. Helens", Type="CouncilArea" },
-            new(){ Code ="STS", LocalName="Staffordshire", Name="Staffordshire", Type="County" },
-            new(){ Code ="STG", LocalName="Stirling", Name="Stirling", Type="CouncilArea" },
-            new(){ Code ="SKP", LocalName="Stockport", Name="Stockport", Type="CouncilArea" },
-            new(){ Code ="STT", LocalName="Stockton-on-Tees", Name="Stockton-on-Tees", Type="UnitaryAuthority" },
-            new(){ Code ="STE", LocalName="Stoke-on-Trent", Name="Stoke-on-Trent", Type="UnitaryAuthority" },
-            new(){ Code ="SFK", LocalName="Suffolk", Name="Suffolk", Type="County" },
-            new(){ Code ="SND", LocalName="Sunderland", Name="Sunderland", Type="CouncilArea" },
-            new(){ Code ="SRY", LocalName="Surrey", Name="Surrey", Type="County" },
-            new(){ Code ="STN", LocalName="Sutton", Name="Sutton", Type="CouncilArea" },
-            new(){ Code ="SWA", LocalName="Swansea", Name="Swansea", Type="UnitaryAuthority" },
-            new(){ Code ="SWD", LocalName="Swindon", Name="Swindon", Type="UnitaryAuthority" },
-            new(){ Code ="TAM", LocalName="Tameside", Name="Tameside", Type="CouncilArea" },
-            new(){ Code ="TFW", LocalName="Telford and Wrekin", Name="Telford and Wrekin", Type="UnitaryAuthority" },
-            new(){ Code ="THR", LocalName="Thurrock", Name="Thurrock", Type="UnitaryAuthority" },
-            new(){ Code ="TOB", LocalName="Torbay", Name="Torbay", Type="UnitaryAuthority" },
-            new(){ Code ="TOF", LocalName="Torfaen", Name="Torfaen", Type="UnitaryAuthority" },
-            new(){ Code ="TWH", LocalName="Tower Hamlets", Name="Tower Hamlets", Type="CouncilArea" },
-            new(){ Code ="TRF", LocalName="Trafford", Name="Trafford", Type="CouncilArea" },
-            new(){ Code ="VGL", LocalName="Vale of Glamorgan", Name="Vale of Glamorgan", Type="UnitaryAuthority" },
-            new(){ Code ="WKF", LocalName="Wakefield", Name="Wakefield", Type="CouncilArea" },
-            new(){ Code ="WLL", LocalName="Walsall", Name="Walsall", Type="CouncilArea" },
-            new(){ Code ="WFT", LocalName="Waltham Forest", Name="Waltham Forest", Type="CouncilArea" },
-            new(){ Code ="WND", LocalName="Wandsworth", Name="Wandsworth", Type="CouncilArea" },
-            new(){ Code ="WRT", LocalName="Warrington", Name="Warrington", Type="UnitaryAuthority" },
-            new(){ Code ="WAR", LocalName="Warwickshire", Name="Warwickshire", Type="County" },
-            new(){ Code ="WBK", LocalName="West Berkshire", Name="West Berkshire", Type="UnitaryAuthority" },
-            new(){ Code ="WDU", LocalName="West Dunbartonshire", Name="West Dunbartonshire", Type="CouncilArea" },
-            new(){ Code ="WLN", LocalName="West Lothian", Name="West Lothian", Type="CouncilArea" },
-            new(){ Code ="WSX", LocalName="West Sussex", Name="West Sussex", Type="County" },
-            new(){ Code ="WSM", LocalName="Westminster", Name="Westminster", Type="CouncilArea" },
-            new(){ Code ="WGN", LocalName="Wigan", Name="Wigan", Type="CouncilArea" },
-            new(){ Code ="WIL", LocalName="Wiltshire", Name="Wiltshire", Type="UnitaryAuthority" },
-            new(){ Code ="WNM", LocalName="Windsor and Maidenhead", Name="Windsor and Maidenhead", Type="UnitaryAuthority" },
-            new(){ Code ="WRL", LocalName="Wirral", Name="Wirral", Type="CouncilArea" },
-            new(){ Code ="WOK", LocalName="Wokingham", Name="Wokingham", Type="UnitaryAuthority" },
-            new(){ Code ="WLV", LocalName="Wolverhampton", Name="Wolverhampton", Type="CouncilArea" },
-            new(){ Code ="WOR", LocalName="Worcestershire", Name="Worcestershire", Type="County" },
-            new(){ Code ="WRX", LocalName="Wrexham", Name="Wrexham", Type="UnitaryAuthority" },
-            new(){ Code ="YOR", LocalName="York", Name="York", Type="UnitaryAuthority" }
+            new()
+            { 
+                Code = "ABE",
+                Type = "CouncilArea",
+                Name = "Aberdeen City",
+                LocalName = "Aberdeen City"
+            },
+            new()
+            { 
+                Code = "ABD",
+                Type = "CouncilArea",
+                Name = "Aberdeenshire",
+                LocalName = "Aberdeenshire"
+            },
+            new()
+            { 
+                Code = "ANS",
+                Type = "CouncilArea",
+                Name = "Angus",
+                LocalName = "Angus"
+            },
+            new()
+            { 
+                Code = "ANN",
+                Type = "District",
+                Name = "Antrim and Newtownabbey",
+                LocalName = "Antrim and Newtownabbey"
+            },
+            new()
+            { 
+                Code = "AND",
+                Type = "District",
+                Name = "Ards and North Down",
+                LocalName = "Ards and North Down"
+            },
+            new()
+            { 
+                Code = "AGB",
+                Type = "CouncilArea",
+                Name = "Argyll and Bute",
+                LocalName = "Argyll and Bute"
+            },
+            new()
+            { 
+                Code = "ARM",
+                Type = "CouncilArea",
+                Name = "Armagh",
+                LocalName = "Armagh"
+            },
+            new()
+            { 
+                Code = "ABC",
+                Type = "District",
+                Name = "Armagh",
+                LocalName = "Armagh"
+            },
+            new()
+            { 
+                Code = "BDG",
+                Type = "CouncilArea",
+                Name = "Barking and Dagenham",
+                LocalName = "Barking and Dagenham"
+            },
+            new()
+            { 
+                Code = "BNE",
+                Type = "CouncilArea",
+                Name = "Barnet",
+                LocalName = "Barnet"
+            },
+            new()
+            { 
+                Code = "BNS",
+                Type = "CouncilArea",
+                Name = "Barnsley",
+                LocalName = "Barnsley"
+            },
+            new()
+            { 
+                Code = "BAS",
+                Type = "UnitaryAuthority",
+                Name = "Bath and North East Somerset",
+                LocalName = "Bath and North East Somerset"
+            },
+            new()
+            { 
+                Code = "BDF",
+                Type = "CouncilArea",
+                Name = "Bedford",
+                LocalName = "Bedford"
+            },
+            new()
+            { 
+                Code = "BFS",
+                Type = "District",
+                Name = "Belfast",
+                LocalName = "Belfast"
+            },
+            new()
+            { 
+                Code = "BEX",
+                Type = "CouncilArea",
+                Name = "Bexley",
+                LocalName = "Bexley"
+            },
+            new()
+            { 
+                Code = "BIR",
+                Type = "CouncilArea",
+                Name = "Birmingham",
+                LocalName = "Birmingham"
+            },
+            new()
+            { 
+                Code = "BBD",
+                Type = "UnitaryAuthority",
+                Name = "Blackburn with Darwen",
+                LocalName = "Blackburn with Darwen"
+            },
+            new()
+            { 
+                Code = "BPL",
+                Type = "UnitaryAuthority",
+                Name = "Blackpool",
+                LocalName = "Blackpool"
+            },
+            new()
+            { 
+                Code = "BGW",
+                Type = "UnitaryAuthority",
+                Name = "Blaenau Gwent",
+                LocalName = "Blaenau Gwent"
+            },
+            new()
+            { 
+                Code = "BOL",
+                Type = "CouncilArea",
+                Name = "Bolton",
+                LocalName = "Bolton"
+            },
+            new()
+            { 
+                Code = "BMH",
+                Type = "UnitaryAuthority",
+                Name = "Bournemouth",
+                LocalName = "Bournemouth"
+            },
+            new()
+            { 
+                Code = "BRC",
+                Type = "UnitaryAuthority",
+                Name = "Bracknell Forest",
+                LocalName = "Bracknell Forest"
+            },
+            new()
+            { 
+                Code = "BRD",
+                Type = "CouncilArea",
+                Name = "Bradford",
+                LocalName = "Bradford"
+            },
+            new()
+            { 
+                Code = "BEN",
+                Type = "CouncilArea",
+                Name = "Brent",
+                LocalName = "Brent"
+            },
+            new()
+            { 
+                Code = "BGE",
+                Type = "UnitaryAuthority",
+                Name = "Bridgend",
+                LocalName = "Bridgend"
+            },
+            new()
+            { 
+                Code = "BNH",
+                Type = "UnitaryAuthority",
+                Name = "Brighton and Hove",
+                LocalName = "Brighton and Hove"
+            },
+            new()
+            { 
+                Code = "BST",
+                Type = "UnitaryAuthority",
+                Name = "Bristol",
+                LocalName = "Bristol"
+            },
+            new()
+            { 
+                Code = "BRY",
+                Type = "CouncilArea",
+                Name = "Bromley",
+                LocalName = "Bromley"
+            },
+            new()
+            { 
+                Code = "BKM",
+                Type = "County",
+                Name = "Buckinghamshire",
+                LocalName = "Buckinghamshire"
+            },
+            new()
+            { 
+                Code = "BUR",
+                Type = "CouncilArea",
+                Name = "Bury",
+                LocalName = "Bury"
+            },
+            new()
+            { 
+                Code = "CAY",
+                Type = "UnitaryAuthority",
+                Name = "Caerphilly",
+                LocalName = "Caerphilly"
+            },
+            new()
+            { 
+                Code = "CLD",
+                Type = "CouncilArea",
+                Name = "Calderdale",
+                LocalName = "Calderdale"
+            },
+            new()
+            { 
+                Code = "CAM",
+                Type = "County",
+                Name = "Cambridgeshire",
+                LocalName = "Cambridgeshire"
+            },
+            new()
+            { 
+                Code = "CMD",
+                Type = "CouncilArea",
+                Name = "Camden",
+                LocalName = "Camden"
+            },
+            new()
+            { 
+                Code = "CRF",
+                Type = "UnitaryAuthority",
+                Name = "Cardiff",
+                LocalName = "Cardiff"
+            },
+            new()
+            { 
+                Code = "CMN",
+                Type = "UnitaryAuthority",
+                Name = "Carmarthenshire",
+                LocalName = "Carmarthenshire"
+            },
+            new()
+            { 
+                Code = "CCG",
+                Type = "District",
+                Name = "Causeway Coast and Glens",
+                LocalName = "Causeway Coast and Glens"
+            },
+            new()
+            { 
+                Code = "CBF",
+                Type = "UnitaryAuthority",
+                Name = "Central Bedfordshire",
+                LocalName = "Central Bedfordshire"
+            },
+            new()
+            { 
+                Code = "CGN",
+                Type = "UnitaryAuthority",
+                Name = "Ceredigion",
+                LocalName = "Ceredigion"
+            },
+            new()
+            { 
+                Code = "CHE",
+                Type = "UnitaryAuthority",
+                Name = "Cheshire East",
+                LocalName = "Cheshire East"
+            },
+            new()
+            { 
+                Code = "CHW",
+                Type = "UnitaryAuthority",
+                Name = "Cheshire West and Chester",
+                LocalName = "Cheshire West and Chester"
+            },
+            new()
+            { 
+                Code = "CLK",
+                Type = "CouncilArea",
+                Name = "Clackmannanshire",
+                LocalName = "Clackmannanshire"
+            },
+            new()
+            { 
+                Code = "CWY",
+                Type = "UnitaryAuthority",
+                Name = "Conwy",
+                LocalName = "Conwy"
+            },
+            new()
+            { 
+                Code = "CON",
+                Type = "UnitaryAuthority",
+                Name = "Cornwall",
+                LocalName = "Cornwall"
+            },
+            new()
+            { 
+                Code = "COV",
+                Type = "CouncilArea",
+                Name = "Coventry",
+                LocalName = "Coventry"
+            },
+            new()
+            { 
+                Code = "CRY",
+                Type = "CouncilArea",
+                Name = "Croydon",
+                LocalName = "Croydon"
+            },
+            new()
+            { 
+                Code = "CMA",
+                Type = "County",
+                Name = "Cumbria",
+                LocalName = "Cumbria"
+            },
+            new()
+            { 
+                Code = "DAL",
+                Type = "UnitaryAuthority",
+                Name = "Darlington",
+                LocalName = "Darlington"
+            },
+            new()
+            { 
+                Code = "DEN",
+                Type = "UnitaryAuthority",
+                Name = "Denbighshire",
+                LocalName = "Denbighshire"
+            },
+            new()
+            { 
+                Code = "DER",
+                Type = "UnitaryAuthority",
+                Name = "Derby",
+                LocalName = "Derby"
+            },
+            new()
+            { 
+                Code = "DBY",
+                Type = "County",
+                Name = "Derbyshire",
+                LocalName = "Derbyshire"
+            },
+            new()
+            { 
+                Code = "DRS",
+                Type = "District",
+                Name = "Derry and Strabane",
+                LocalName = "Derry and Strabane"
+            },
+            new()
+            { 
+                Code = "DEV",
+                Type = "County",
+                Name = "Devon",
+                LocalName = "Devon"
+            },
+            new()
+            { 
+                Code = "DNC",
+                Type = "CouncilArea",
+                Name = "Doncaster",
+                LocalName = "Doncaster"
+            },
+            new()
+            { 
+                Code = "DOR",
+                Type = "County",
+                Name = "Dorset",
+                LocalName = "Dorset"
+            },
+            new()
+            { 
+                Code = "DUD",
+                Type = "CouncilArea",
+                Name = "Dudley",
+                LocalName = "Dudley"
+            },
+            new()
+            { 
+                Code = "DGY",
+                Type = "CouncilArea",
+                Name = "Dumfries and Galloway",
+                LocalName = "Dumfries and Galloway"
+            },
+            new()
+            { 
+                Code = "DND",
+                Type = "CouncilArea",
+                Name = "Dundee City",
+                LocalName = "Dundee City"
+            },
+            new()
+            { 
+                Code = "DUR",
+                Type = "UnitaryAuthority",
+                Name = "Durham",
+                LocalName = "Durham"
+            },
+            new()
+            { 
+                Code = "EAL",
+                Type = "CouncilArea",
+                Name = "Ealing",
+                LocalName = "Ealing"
+            },
+            new()
+            { 
+                Code = "EAY",
+                Type = "CouncilArea",
+                Name = "East Ayrshire",
+                LocalName = "East Ayrshire"
+            },
+            new()
+            { 
+                Code = "EDU",
+                Type = "CouncilArea",
+                Name = "East Dunbartonshire",
+                LocalName = "East Dunbartonshire"
+            },
+            new()
+            { 
+                Code = "ELN",
+                Type = "CouncilArea",
+                Name = "East Lothian",
+                LocalName = "East Lothian"
+            },
+            new()
+            { 
+                Code = "ERW",
+                Type = "CouncilArea",
+                Name = "East Renfrewshire",
+                LocalName = "East Renfrewshire"
+            },
+            new()
+            { 
+                Code = "ERY",
+                Type = "UnitaryAuthority",
+                Name = "East Riding of Yorkshire",
+                LocalName = "East Riding of Yorkshire"
+            },
+            new()
+            { 
+                Code = "ESX",
+                Type = "County",
+                Name = "East Sussex",
+                LocalName = "East Sussex"
+            },
+            new()
+            { 
+                Code = "EDH",
+                Type = "CouncilArea",
+                Name = "Edinburgh",
+                LocalName = "Edinburgh"
+            },
+            new()
+            { 
+                Code = "ELS",
+                Type = "CouncilArea",
+                Name = "Eilean Siar",
+                LocalName = "Eilean Siar"
+            },
+            new()
+            { 
+                Code = "ENF",
+                Type = "CouncilArea",
+                Name = "Enfield",
+                LocalName = "Enfield"
+            },
+            new()
+            { 
+                Code = "ESS",
+                Type = "County",
+                Name = "Essex",
+                LocalName = "Essex"
+            },
+            new()
+            { 
+                Code = "FAL",
+                Type = "CouncilArea",
+                Name = "Falkirk",
+                LocalName = "Falkirk"
+            },
+            new()
+            { 
+                Code = "FMO",
+                Type = "District",
+                Name = "Fermanagh and Omagh",
+                LocalName = "Fermanagh and Omagh"
+            },
+            new()
+            { 
+                Code = "FIF",
+                Type = "CouncilArea",
+                Name = "Fife",
+                LocalName = "Fife"
+            },
+            new()
+            { 
+                Code = "FLN",
+                Type = "UnitaryAuthority",
+                Name = "Flintshire",
+                LocalName = "Flintshire"
+            },
+            new()
+            { 
+                Code = "GAT",
+                Type = "CouncilArea",
+                Name = "Gateshead",
+                LocalName = "Gateshead"
+            },
+            new()
+            { 
+                Code = "GLG",
+                Type = "CouncilArea",
+                Name = "Glasgow City",
+                LocalName = "Glasgow City"
+            },
+            new()
+            { 
+                Code = "GLS",
+                Type = "County",
+                Name = "Gloucestershire",
+                LocalName = "Gloucestershire"
+            },
+            new()
+            { 
+                Code = "GRE",
+                Type = "CouncilArea",
+                Name = "Greenwich",
+                LocalName = "Greenwich"
+            },
+            new()
+            { 
+                Code = "GWN",
+                Type = "UnitaryAuthority",
+                Name = "Gwynedd",
+                LocalName = "Gwynedd"
+            },
+            new()
+            { 
+                Code = "HCK",
+                Type = "CouncilArea",
+                Name = "Hackney",
+                LocalName = "Hackney"
+            },
+            new()
+            { 
+                Code = "HAL",
+                Type = "UnitaryAuthority",
+                Name = "Halton",
+                LocalName = "Halton"
+            },
+            new()
+            { 
+                Code = "HMF",
+                Type = "CouncilArea",
+                Name = "Hammersmith and Fulham",
+                LocalName = "Hammersmith and Fulham"
+            },
+            new()
+            { 
+                Code = "HAM",
+                Type = "County",
+                Name = "Hampshire",
+                LocalName = "Hampshire"
+            },
+            new()
+            { 
+                Code = "HRY",
+                Type = "CouncilArea",
+                Name = "Haringey",
+                LocalName = "Haringey"
+            },
+            new()
+            { 
+                Code = "HRW",
+                Type = "CouncilArea",
+                Name = "Harrow",
+                LocalName = "Harrow"
+            },
+            new()
+            { 
+                Code = "HPL",
+                Type = "UnitaryAuthority",
+                Name = "Hartlepool",
+                LocalName = "Hartlepool"
+            },
+            new()
+            { 
+                Code = "HAV",
+                Type = "CouncilArea",
+                Name = "Havering",
+                LocalName = "Havering"
+            },
+            new()
+            { 
+                Code = "HEF",
+                Type = "UnitaryAuthority",
+                Name = "Herefordshire",
+                LocalName = "Herefordshire"
+            },
+            new()
+            { 
+                Code = "HRT",
+                Type = "County",
+                Name = "Hertfordshire",
+                LocalName = "Hertfordshire"
+            },
+            new()
+            { 
+                Code = "HLD",
+                Type = "CouncilArea",
+                Name = "Highland",
+                LocalName = "Highland"
+            },
+            new()
+            { 
+                Code = "HIL",
+                Type = "CouncilArea",
+                Name = "Hillingdon",
+                LocalName = "Hillingdon"
+            },
+            new()
+            { 
+                Code = "HNS",
+                Type = "CouncilArea",
+                Name = "Hounslow",
+                LocalName = "Hounslow"
+            },
+            new()
+            { 
+                Code = "IVC",
+                Type = "CouncilArea",
+                Name = "Inverclyde",
+                LocalName = "Inverclyde"
+            },
+            new()
+            { 
+                Code = "AGY",
+                Type = "UnitaryAuthority",
+                Name = "Isle of Anglesey",
+                LocalName = "Isle of Anglesey"
+            },
+            new()
+            { 
+                Code = "IOW",
+                Type = "UnitaryAuthority",
+                Name = "Isle of Wight",
+                LocalName = "Isle of Wight"
+            },
+            new()
+            { 
+                Code = "IOS",
+                Type = "UnitaryAuthority",
+                Name = "Isles of Scilly",
+                LocalName = "Isles of Scilly"
+            },
+            new()
+            { 
+                Code = "ISL",
+                Type = "CouncilArea",
+                Name = "Islington",
+                LocalName = "Islington"
+            },
+            new()
+            { 
+                Code = "KEC",
+                Type = "CouncilArea",
+                Name = "Kensington and Chelsea",
+                LocalName = "Kensington and Chelsea"
+            },
+            new()
+            { 
+                Code = "KEN",
+                Type = "County",
+                Name = "Kent",
+                LocalName = "Kent"
+            },
+            new()
+            { 
+                Code = "KHL",
+                Type = "UnitaryAuthority",
+                Name = "Kingston upon Hull",
+                LocalName = "Kingston upon Hull"
+            },
+            new()
+            { 
+                Code = "KTT",
+                Type = "CouncilArea",
+                Name = "Kingston upon Thames",
+                LocalName = "Kingston upon Thames"
+            },
+            new()
+            { 
+                Code = "KIR",
+                Type = "CouncilArea",
+                Name = "Kirklees",
+                LocalName = "Kirklees"
+            },
+            new()
+            { 
+                Code = "KWL",
+                Type = "CouncilArea",
+                Name = "Knowsley",
+                LocalName = "Knowsley"
+            },
+            new()
+            { 
+                Code = "LBH",
+                Type = "CouncilArea",
+                Name = "Lambeth",
+                LocalName = "Lambeth"
+            },
+            new()
+            { 
+                Code = "LAN",
+                Type = "County",
+                Name = "Lancashire",
+                LocalName = "Lancashire"
+            },
+            new()
+            { 
+                Code = "LDS",
+                Type = "CouncilArea",
+                Name = "Leeds",
+                LocalName = "Leeds"
+            },
+            new()
+            { 
+                Code = "LCE",
+                Type = "UnitaryAuthority",
+                Name = "Leicester",
+                LocalName = "Leicester"
+            },
+            new()
+            { 
+                Code = "LEC",
+                Type = "County",
+                Name = "Leicestershire",
+                LocalName = "Leicestershire"
+            },
+            new()
+            { 
+                Code = "LEW",
+                Type = "CouncilArea",
+                Name = "Lewisham",
+                LocalName = "Lewisham"
+            },
+            new()
+            { 
+                Code = "LIN",
+                Type = "County",
+                Name = "Lincolnshire",
+                LocalName = "Lincolnshire"
+            },
+            new()
+            { 
+                Code = "LBC",
+                Type = "District",
+                Name = "Lisburn and Castlereagh",
+                LocalName = "Lisburn and Castlereagh"
+            },
+            new()
+            { 
+                Code = "LIV",
+                Type = "CouncilArea",
+                Name = "Liverpool",
+                LocalName = "Liverpool"
+            },
+            new()
+            { 
+                Code = "LND",
+                Type = "City",
+                Name = "London",
+                LocalName = "London"
+            },
+            new()
+            { 
+                Code = "LUT",
+                Type = "UnitaryAuthority",
+                Name = "Luton",
+                LocalName = "Luton"
+            },
+            new()
+            { 
+                Code = "MAN",
+                Type = "CouncilArea",
+                Name = "Manchester",
+                LocalName = "Manchester"
+            },
+            new()
+            { 
+                Code = "MDW",
+                Type = "UnitaryAuthority",
+                Name = "Medway",
+                LocalName = "Medway"
+            },
+            new()
+            { 
+                Code = "MTY",
+                Type = "UnitaryAuthority",
+                Name = "Merthyr Tydfil",
+                LocalName = "Merthyr Tydfil"
+            },
+            new()
+            { 
+                Code = "MRT",
+                Type = "CouncilArea",
+                Name = "Merton",
+                LocalName = "Merton"
+            },
+            new()
+            { 
+                Code = "MEA",
+                Type = "District",
+                Name = "Mid and East Antrim",
+                LocalName = "Mid and East Antrim"
+            },
+            new()
+            { 
+                Code = "MUL",
+                Type = "District",
+                Name = "Mid Ulster",
+                LocalName = "Mid Ulster"
+            },
+            new()
+            { 
+                Code = "MDB",
+                Type = "UnitaryAuthority",
+                Name = "Middlesbrough",
+                LocalName = "Middlesbrough"
+            },
+            new()
+            { 
+                Code = "MLN",
+                Type = "CouncilArea",
+                Name = "Midlothian",
+                LocalName = "Midlothian"
+            },
+            new()
+            { 
+                Code = "MIK",
+                Type = "UnitaryAuthority",
+                Name = "Milton Keynes",
+                LocalName = "Milton Keynes"
+            },
+            new()
+            { 
+                Code = "MON",
+                Type = "UnitaryAuthority",
+                Name = "Monmouthshire",
+                LocalName = "Monmouthshire"
+            },
+            new()
+            { 
+                Code = "MRY",
+                Type = "CouncilArea",
+                Name = "Moray",
+                LocalName = "Moray"
+            },
+            new()
+            { 
+                Code = "NTL",
+                Type = "UnitaryAuthority",
+                Name = "Neath Port Talbot",
+                LocalName = "Neath Port Talbot"
+            },
+            new()
+            { 
+                Code = "NET",
+                Type = "CouncilArea",
+                Name = "Newcastle upon Tyne",
+                LocalName = "Newcastle upon Tyne"
+            },
+            new()
+            { 
+                Code = "NWM",
+                Type = "CouncilArea",
+                Name = "Newham",
+                LocalName = "Newham"
+            },
+            new()
+            { 
+                Code = "NWP",
+                Type = "UnitaryAuthority",
+                Name = "Newport",
+                LocalName = "Newport"
+            },
+            new()
+            { 
+                Code = "NMD",
+                Type = "District",
+                Name = "Newry",
+                LocalName = "Newry"
+            },
+            new()
+            { 
+                Code = "NFK",
+                Type = "County",
+                Name = "Norfolk",
+                LocalName = "Norfolk"
+            },
+            new()
+            { 
+                Code = "NAY",
+                Type = "CouncilArea",
+                Name = "North Ayrshire",
+                LocalName = "North Ayrshire"
+            },
+            new()
+            { 
+                Code = "NEL",
+                Type = "UnitaryAuthority",
+                Name = "North East Lincolnshire",
+                LocalName = "North East Lincolnshire"
+            },
+            new()
+            { 
+                Code = "NLK",
+                Type = "CouncilArea",
+                Name = "North Lanarkshire",
+                LocalName = "North Lanarkshire"
+            },
+            new()
+            { 
+                Code = "NLN",
+                Type = "UnitaryAuthority",
+                Name = "North Lincolnshire",
+                LocalName = "North Lincolnshire"
+            },
+            new()
+            { 
+                Code = "NSM",
+                Type = "UnitaryAuthority",
+                Name = "North Somerset",
+                LocalName = "North Somerset"
+            },
+            new()
+            { 
+                Code = "NTY",
+                Type = "CouncilArea",
+                Name = "North Tyneside",
+                LocalName = "North Tyneside"
+            },
+            new()
+            { 
+                Code = "NYK",
+                Type = "County",
+                Name = "North Yorkshire",
+                LocalName = "North Yorkshire"
+            },
+            new()
+            { 
+                Code = "NTH",
+                Type = "County",
+                Name = "Northamptonshire",
+                LocalName = "Northamptonshire"
+            },
+            new()
+            { 
+                Code = "NBL",
+                Type = "UnitaryAuthority",
+                Name = "Northumberland",
+                LocalName = "Northumberland"
+            },
+            new()
+            { 
+                Code = "NGM",
+                Type = "UnitaryAuthority",
+                Name = "Nottingham",
+                LocalName = "Nottingham"
+            },
+            new()
+            { 
+                Code = "NTT",
+                Type = "County",
+                Name = "Nottinghamshire",
+                LocalName = "Nottinghamshire"
+            },
+            new()
+            { 
+                Code = "OLD",
+                Type = "CouncilArea",
+                Name = "Oldham",
+                LocalName = "Oldham"
+            },
+            new()
+            { 
+                Code = "ORK",
+                Type = "CouncilArea",
+                Name = "Orkney Islands",
+                LocalName = "Orkney Islands"
+            },
+            new()
+            { 
+                Code = "OXF",
+                Type = "County",
+                Name = "Oxfordshire",
+                LocalName = "Oxfordshire"
+            },
+            new()
+            { 
+                Code = "PEM",
+                Type = "UnitaryAuthority",
+                Name = "Pembrokeshire",
+                LocalName = "Pembrokeshire"
+            },
+            new()
+            { 
+                Code = "PKN",
+                Type = "CouncilArea",
+                Name = "Perth and Kinross",
+                LocalName = "Perth and Kinross"
+            },
+            new()
+            { 
+                Code = "PTE",
+                Type = "UnitaryAuthority",
+                Name = "Peterborough",
+                LocalName = "Peterborough"
+            },
+            new()
+            { 
+                Code = "PLY",
+                Type = "UnitaryAuthority",
+                Name = "Plymouth",
+                LocalName = "Plymouth"
+            },
+            new()
+            { 
+                Code = "POL",
+                Type = "UnitaryAuthority",
+                Name = "Poole",
+                LocalName = "Poole"
+            },
+            new()
+            { 
+                Code = "POR",
+                Type = "UnitaryAuthority",
+                Name = "Portsmouth",
+                LocalName = "Portsmouth"
+            },
+            new()
+            { 
+                Code = "POW",
+                Type = "UnitaryAuthority",
+                Name = "Powys",
+                LocalName = "Powys"
+            },
+            new()
+            { 
+                Code = "RDG",
+                Type = "UnitaryAuthority",
+                Name = "Reading",
+                LocalName = "Reading"
+            },
+            new()
+            { 
+                Code = "RDB",
+                Type = "CouncilArea",
+                Name = "Redbridge",
+                LocalName = "Redbridge"
+            },
+            new()
+            { 
+                Code = "RCC",
+                Type = "UnitaryAuthority",
+                Name = "Redcar and Cleveland",
+                LocalName = "Redcar and Cleveland"
+            },
+            new()
+            { 
+                Code = "RFW",
+                Type = "CouncilArea",
+                Name = "Renfrewshire",
+                LocalName = "Renfrewshire"
+            },
+            new()
+            { 
+                Code = "RCT",
+                Type = "UnitaryAuthority",
+                Name = "Rhondda",
+                LocalName = "Rhondda"
+            },
+            new()
+            { 
+                Code = "RIC",
+                Type = "CouncilArea",
+                Name = "Richmond upon Thames",
+                LocalName = "Richmond upon Thames"
+            },
+            new()
+            { 
+                Code = "RCH",
+                Type = "CouncilArea",
+                Name = "Rochdale",
+                LocalName = "Rochdale"
+            },
+            new()
+            { 
+                Code = "ROT",
+                Type = "CouncilArea",
+                Name = "Rotherham",
+                LocalName = "Rotherham"
+            },
+            new()
+            { 
+                Code = "RUT",
+                Type = "UnitaryAuthority",
+                Name = "Rutland",
+                LocalName = "Rutland"
+            },
+            new()
+            { 
+                Code = "SLF",
+                Type = "CouncilArea",
+                Name = "Salford",
+                LocalName = "Salford"
+            },
+            new()
+            { 
+                Code = "SAW",
+                Type = "CouncilArea",
+                Name = "Sandwell",
+                LocalName = "Sandwell"
+            },
+            new()
+            { 
+                Code = "SCB",
+                Type = "CouncilArea",
+                Name = "Scottish Borders",
+                LocalName = "Scottish Borders"
+            },
+            new()
+            { 
+                Code = "SFT",
+                Type = "CouncilArea",
+                Name = "Sefton",
+                LocalName = "Sefton"
+            },
+            new()
+            { 
+                Code = "SHF",
+                Type = "CouncilArea",
+                Name = "Sheffield",
+                LocalName = "Sheffield"
+            },
+            new()
+            { 
+                Code = "ZET",
+                Type = "CouncilArea",
+                Name = "Shetland Islands",
+                LocalName = "Shetland Islands"
+            },
+            new()
+            { 
+                Code = "SHR",
+                Type = "UnitaryAuthority",
+                Name = "Shropshire",
+                LocalName = "Shropshire"
+            },
+            new()
+            { 
+                Code = "SLG",
+                Type = "UnitaryAuthority",
+                Name = "Slough",
+                LocalName = "Slough"
+            },
+            new()
+            { 
+                Code = "SOL",
+                Type = "CouncilArea",
+                Name = "Solihull",
+                LocalName = "Solihull"
+            },
+            new()
+            { 
+                Code = "SOM",
+                Type = "County",
+                Name = "Somerset",
+                LocalName = "Somerset"
+            },
+            new()
+            { 
+                Code = "SAY",
+                Type = "CouncilArea",
+                Name = "South Ayrshire",
+                LocalName = "South Ayrshire"
+            },
+            new()
+            { 
+                Code = "SGC",
+                Type = "UnitaryAuthority",
+                Name = "South Gloucestershire",
+                LocalName = "South Gloucestershire"
+            },
+            new()
+            { 
+                Code = "SLK",
+                Type = "CouncilArea",
+                Name = "South Lanarkshire",
+                LocalName = "South Lanarkshire"
+            },
+            new()
+            { 
+                Code = "STY",
+                Type = "CouncilArea",
+                Name = "South Tyneside",
+                LocalName = "South Tyneside"
+            },
+            new()
+            { 
+                Code = "STH",
+                Type = "UnitaryAuthority",
+                Name = "Southampton",
+                LocalName = "Southampton"
+            },
+            new()
+            { 
+                Code = "SOS",
+                Type = "UnitaryAuthority",
+                Name = "Southend-on-Sea",
+                LocalName = "Southend-on-Sea"
+            },
+            new()
+            { 
+                Code = "SWK",
+                Type = "CouncilArea",
+                Name = "Southwark",
+                LocalName = "Southwark"
+            },
+            new()
+            { 
+                Code = "SHN",
+                Type = "CouncilArea",
+                Name = "St. Helens",
+                LocalName = "St. Helens"
+            },
+            new()
+            { 
+                Code = "STS",
+                Type = "County",
+                Name = "Staffordshire",
+                LocalName = "Staffordshire"
+            },
+            new()
+            { 
+                Code = "STG",
+                Type = "CouncilArea",
+                Name = "Stirling",
+                LocalName = "Stirling"
+            },
+            new()
+            { 
+                Code = "SKP",
+                Type = "CouncilArea",
+                Name = "Stockport",
+                LocalName = "Stockport"
+            },
+            new()
+            { 
+                Code = "STT",
+                Type = "UnitaryAuthority",
+                Name = "Stockton-on-Tees",
+                LocalName = "Stockton-on-Tees"
+            },
+            new()
+            { 
+                Code = "STE",
+                Type = "UnitaryAuthority",
+                Name = "Stoke-on-Trent",
+                LocalName = "Stoke-on-Trent"
+            },
+            new()
+            { 
+                Code = "SFK",
+                Type = "County",
+                Name = "Suffolk",
+                LocalName = "Suffolk"
+            },
+            new()
+            { 
+                Code = "SND",
+                Type = "CouncilArea",
+                Name = "Sunderland",
+                LocalName = "Sunderland"
+            },
+            new()
+            { 
+                Code = "SRY",
+                Type = "County",
+                Name = "Surrey",
+                LocalName = "Surrey"
+            },
+            new()
+            { 
+                Code = "STN",
+                Type = "CouncilArea",
+                Name = "Sutton",
+                LocalName = "Sutton"
+            },
+            new()
+            { 
+                Code = "SWA",
+                Type = "UnitaryAuthority",
+                Name = "Swansea",
+                LocalName = "Swansea"
+            },
+            new()
+            { 
+                Code = "SWD",
+                Type = "UnitaryAuthority",
+                Name = "Swindon",
+                LocalName = "Swindon"
+            },
+            new()
+            { 
+                Code = "TAM",
+                Type = "CouncilArea",
+                Name = "Tameside",
+                LocalName = "Tameside"
+            },
+            new()
+            { 
+                Code = "TFW",
+                Type = "UnitaryAuthority",
+                Name = "Telford and Wrekin",
+                LocalName = "Telford and Wrekin"
+            },
+            new()
+            { 
+                Code = "THR",
+                Type = "UnitaryAuthority",
+                Name = "Thurrock",
+                LocalName = "Thurrock"
+            },
+            new()
+            { 
+                Code = "TOB",
+                Type = "UnitaryAuthority",
+                Name = "Torbay",
+                LocalName = "Torbay"
+            },
+            new()
+            { 
+                Code = "TOF",
+                Type = "UnitaryAuthority",
+                Name = "Torfaen",
+                LocalName = "Torfaen"
+            },
+            new()
+            { 
+                Code = "TWH",
+                Type = "CouncilArea",
+                Name = "Tower Hamlets",
+                LocalName = "Tower Hamlets"
+            },
+            new()
+            { 
+                Code = "TRF",
+                Type = "CouncilArea",
+                Name = "Trafford",
+                LocalName = "Trafford"
+            },
+            new()
+            { 
+                Code = "VGL",
+                Type = "UnitaryAuthority",
+                Name = "Vale of Glamorgan",
+                LocalName = "Vale of Glamorgan"
+            },
+            new()
+            { 
+                Code = "WKF",
+                Type = "CouncilArea",
+                Name = "Wakefield",
+                LocalName = "Wakefield"
+            },
+            new()
+            { 
+                Code = "WLL",
+                Type = "CouncilArea",
+                Name = "Walsall",
+                LocalName = "Walsall"
+            },
+            new()
+            { 
+                Code = "WFT",
+                Type = "CouncilArea",
+                Name = "Waltham Forest",
+                LocalName = "Waltham Forest"
+            },
+            new()
+            { 
+                Code = "WND",
+                Type = "CouncilArea",
+                Name = "Wandsworth",
+                LocalName = "Wandsworth"
+            },
+            new()
+            { 
+                Code = "WRT",
+                Type = "UnitaryAuthority",
+                Name = "Warrington",
+                LocalName = "Warrington"
+            },
+            new()
+            { 
+                Code = "WAR",
+                Type = "County",
+                Name = "Warwickshire",
+                LocalName = "Warwickshire"
+            },
+            new()
+            { 
+                Code = "WBK",
+                Type = "UnitaryAuthority",
+                Name = "West Berkshire",
+                LocalName = "West Berkshire"
+            },
+            new()
+            { 
+                Code = "WDU",
+                Type = "CouncilArea",
+                Name = "West Dunbartonshire",
+                LocalName = "West Dunbartonshire"
+            },
+            new()
+            { 
+                Code = "WLN",
+                Type = "CouncilArea",
+                Name = "West Lothian",
+                LocalName = "West Lothian"
+            },
+            new()
+            { 
+                Code = "WSX",
+                Type = "County",
+                Name = "West Sussex",
+                LocalName = "West Sussex"
+            },
+            new()
+            { 
+                Code = "WSM",
+                Type = "CouncilArea",
+                Name = "Westminster",
+                LocalName = "Westminster"
+            },
+            new()
+            { 
+                Code = "WGN",
+                Type = "CouncilArea",
+                Name = "Wigan",
+                LocalName = "Wigan"
+            },
+            new()
+            { 
+                Code = "WIL",
+                Type = "UnitaryAuthority",
+                Name = "Wiltshire",
+                LocalName = "Wiltshire"
+            },
+            new()
+            { 
+                Code = "WNM",
+                Type = "UnitaryAuthority",
+                Name = "Windsor and Maidenhead",
+                LocalName = "Windsor and Maidenhead"
+            },
+            new()
+            { 
+                Code = "WRL",
+                Type = "CouncilArea",
+                Name = "Wirral",
+                LocalName = "Wirral"
+            },
+            new()
+            { 
+                Code = "WOK",
+                Type = "UnitaryAuthority",
+                Name = "Wokingham",
+                LocalName = "Wokingham"
+            },
+            new()
+            { 
+                Code = "WLV",
+                Type = "CouncilArea",
+                Name = "Wolverhampton",
+                LocalName = "Wolverhampton"
+            },
+            new()
+            { 
+                Code = "WOR",
+                Type = "County",
+                Name = "Worcestershire",
+                LocalName = "Worcestershire"
+            },
+            new()
+            { 
+                Code = "WRX",
+                Type = "UnitaryAuthority",
+                Name = "Wrexham",
+                LocalName = "Wrexham"
+            },
+            new()
+            { 
+                Code = "YOR",
+                Type = "UnitaryAuthority",
+                Name = "York",
+                LocalName = "York"
+            }
 
         });
     }

@@ -7,12 +7,48 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("CY", new List<Subdivision>()
         {
-            new(){ Code ="4", LocalName="Ammochostos", Name="Ammochostos", Type="District" },
-            new(){ Code ="6", LocalName="Keryneia", Name="Keryneia", Type="District" },
-            new(){ Code ="3", LocalName="Larnaka", Name="Larnaka", Type="District" },
-            new(){ Code ="1", LocalName="Lefkosia", Name="Lefkosia", Type="District" },
-            new(){ Code ="2", LocalName="Lemesos", Name="Lemesos", Type="District" },
-            new(){ Code ="5", LocalName="Pafos", Name="Pafos", Type="District" }
+            new()
+            { 
+                Code = "4",
+                Type = "District",
+                Name = "Ammochostos",
+                LocalName = "Ammochostos"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "District",
+                Name = "Keryneia",
+                LocalName = "Keryneia"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "District",
+                Name = "Larnaka",
+                LocalName = "Larnaka"
+            },
+            new()
+            { 
+                Code = "1",
+                Type = "District",
+                Name = "Lefkosia",
+                LocalName = "Lefkosia"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "District",
+                Name = "Lemesos",
+                LocalName = "Lemesos"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "District",
+                Name = "Pafos",
+                LocalName = "Pafos"
+            }
 
         });
     }

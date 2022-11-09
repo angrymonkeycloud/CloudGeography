@@ -7,1765 +7,1605 @@ public partial class CloudGeographyClient
     {
         internal static List<Currency> CurrenciesList = new()
         {
-
             new()
             {
-                Code ="AFN",
-                Name="Afghan afghani" ,
-                NativeName=" افغانی",
-                NativeSymbol="؋",
-                PluralShortName="Afghanis",
-                ShortName="Afghani",
-                Symbol="Af"
+                Code = "AFN",
+                Name = "Afghan afghani",
+                ShortName = "Afghani",
+                Symbol = "Af",
+                NativeName = " افغانی",
+                NativeSymbol = "؋",
+                PluralShortName = "Afghanis"
             },
-
             new()
             {
-                Code ="ALL",
-                Name="Albanian lek" ,
-                NativeName="Leku Shqiptar",
-                NativeSymbol="L",
-                PluralShortName="Lekë",
-                ShortName="lek",
-                Symbol="L"
+                Code = "ALL",
+                Name = "Albanian lek",
+                ShortName = "lek",
+                Symbol = "L",
+                NativeName = "Leku Shqiptar",
+                NativeSymbol = "L",
+                PluralShortName = "Lekë"
             },
-
             new()
             {
-                Code ="DZD",
-                Name="Algerian dinar" ,
-                NativeName="دينار جزائري",
-                NativeSymbol="د.ج",
-                PluralShortName="Algerian dinars",
-                ShortName="Algerian dinar",
-                Symbol="DA"
+                Code = "DZD",
+                Name = "Algerian dinar",
+                ShortName = "Algerian dinar",
+                Symbol = "DA",
+                NativeName = "دينار جزائري",
+                NativeSymbol = "د.ج",
+                PluralShortName = "Algerian dinars"
             },
-
             new()
             {
-                Code ="AOA",
-                Name="Angolan kwanza" ,
-                NativeName="Angolan kwanza",
-                NativeSymbol="Kz",
-                PluralShortName="Angolan kwanzas",
-                ShortName="Angolan kwanza",
-                Symbol="Kz"
+                Code = "AOA",
+                Name = "Angolan kwanza",
+                ShortName = "Angolan kwanza",
+                Symbol = "Kz",
+                NativeName = "Angolan kwanza",
+                NativeSymbol = "Kz",
+                PluralShortName = "Angolan kwanzas"
             },
-
             new()
             {
-                Code ="ARS",
-                Name="Argentine peso" ,
-                NativeName="Argentine peso",
-                NativeSymbol="$",
-                PluralShortName="Argentine peso",
-                ShortName="Argentine peso",
-                Symbol="$"
+                Code = "ARS",
+                Name = "Argentine peso",
+                ShortName = "Argentine peso",
+                Symbol = "$",
+                NativeName = "Argentine peso",
+                NativeSymbol = "$",
+                PluralShortName = "Argentine peso"
             },
-
             new()
             {
-                Code ="AMD",
-                Name="Armenian dram" ,
-                NativeName="Հայկական Դրամ",
-                NativeSymbol="դր",
-                PluralShortName="Armenian dram",
-                ShortName="Armenian dram",
-                Symbol="դր"
+                Code = "AMD",
+                Name = "Armenian dram",
+                ShortName = "Armenian dram",
+                Symbol = "դր",
+                NativeName = "Հայկական Դրամ",
+                NativeSymbol = "դր",
+                PluralShortName = "Armenian dram"
             },
-
             new()
             {
-                Code ="AWG",
-                Name="Aruban florin" ,
-                NativeName="Arubaanse florijn",
-                NativeSymbol="ƒ",
-                PluralShortName="florin",
-                ShortName="florin",
-                Symbol="Afl"
+                Code = "AWG",
+                Name = "Aruban florin",
+                ShortName = "florin",
+                Symbol = "Afl",
+                NativeName = "Arubaanse florijn",
+                NativeSymbol = "ƒ",
+                PluralShortName = "florin"
             },
-
             new()
             {
-                Code ="AUD",
-                Name="Australian dollar" ,
-                NativeName="Australian dollar",
-                NativeSymbol="$",
-                PluralShortName="Australian dollars",
-                ShortName="Australian dollar",
-                Symbol="$"
+                Code = "AUD",
+                Name = "Australian dollar",
+                ShortName = "Australian dollar",
+                Symbol = "$",
+                NativeName = "Australian dollar",
+                NativeSymbol = "$",
+                PluralShortName = "Australian dollars"
             },
-
             new()
             {
-                Code ="AZN",
-                Name="Azerbaijani manat" ,
-                NativeName="Azərbaycan manatı ",
-                NativeSymbol="₼",
-                PluralShortName="Azerbaijani manat",
-                ShortName="Azerbaijani manat",
-                Symbol="₼"
+                Code = "AZN",
+                Name = "Azerbaijani manat",
+                ShortName = "Azerbaijani manat",
+                Symbol = "₼",
+                NativeName = "Azərbaycan manatı ",
+                NativeSymbol = "₼",
+                PluralShortName = "Azerbaijani manat"
             },
-
             new()
             {
-                Code ="BSD",
-                Name="Bahamian dollar" ,
-                NativeName="Bahamian dollar",
-                NativeSymbol="$",
-                PluralShortName="Bahamian dollar",
-                ShortName="Bahamian dollar",
-                Symbol="$"
+                Code = "BSD",
+                Name = "Bahamian dollar",
+                ShortName = "Bahamian dollar",
+                Symbol = "$",
+                NativeName = "Bahamian dollar",
+                NativeSymbol = "$",
+                PluralShortName = "Bahamian dollar"
             },
-
             new()
             {
-                Code ="BHD",
-                Name="Bahraini dinar" ,
-                NativeName="دينار بحريني",
-                NativeSymbol=".د.ب",
-                PluralShortName="Bahraini dinar",
-                ShortName="Bahraini dinar",
-                Symbol="BD"
+                Code = "BHD",
+                Name = "Bahraini dinar",
+                ShortName = "Bahraini dinar",
+                Symbol = "BD",
+                NativeName = "دينار بحريني",
+                NativeSymbol = ".د.ب",
+                PluralShortName = "Bahraini dinar"
             },
-
             new()
             {
-                Code ="BDT",
-                Name="Bangladeshi taka" ,
-                NativeName="টাকা",
-                NativeSymbol="৳",
-                PluralShortName="Bangladeshi taka",
-                ShortName="Bangladeshi taka",
-                Symbol="৳"
+                Code = "BDT",
+                Name = "Bangladeshi taka",
+                ShortName = "Bangladeshi taka",
+                Symbol = "৳",
+                NativeName = "টাকা",
+                NativeSymbol = "৳",
+                PluralShortName = "Bangladeshi taka"
             },
-
             new()
             {
-                Code ="BBD",
-                Name="Barbadian dollar" ,
-                NativeName="Barbadian dollar",
-                NativeSymbol="$",
-                PluralShortName="Barbadian dollars",
-                ShortName="Barbadian dollar",
-                Symbol="Bds$"
+                Code = "BBD",
+                Name = "Barbadian dollar",
+                ShortName = "Barbadian dollar",
+                Symbol = "Bds$",
+                NativeName = "Barbadian dollar",
+                NativeSymbol = "$",
+                PluralShortName = "Barbadian dollars"
             },
-
             new()
             {
-                Code ="BYN",
-                Name="Belarusian ruble" ,
-                NativeName="беларускі рубель  (Belarusian) белорусский рубль  (Russian)",
-                NativeSymbol="Br",
-                PluralShortName="Belarusian ruble",
-                ShortName="Belarusian ruble",
-                Symbol="Br"
+                Code = "BYN",
+                Name = "Belarusian ruble",
+                ShortName = "Belarusian ruble",
+                Symbol = "Br",
+                NativeName = "беларускі рубель  (Belarusian) белорусский рубль  (Russian)",
+                NativeSymbol = "Br",
+                PluralShortName = "Belarusian ruble"
             },
-
             new()
             {
-                Code ="BZD",
-                Name="Belize dollar" ,
-                NativeName="Belize dollar",
-                NativeSymbol="$",
-                PluralShortName="Belize dollar",
-                ShortName="Belize dollar",
-                Symbol="$"
+                Code = "BZD",
+                Name = "Belize dollar",
+                ShortName = "Belize dollar",
+                Symbol = "$",
+                NativeName = "Belize dollar",
+                NativeSymbol = "$",
+                PluralShortName = "Belize dollar"
             },
-
             new()
             {
-                Code ="BMD",
-                Name="Bermudian dollar" ,
-                NativeName="Bermudian dollars",
-                NativeSymbol="$",
-                PluralShortName="Bermudian dollars",
-                ShortName="Bermudian dollar",
-                Symbol="$"
+                Code = "BMD",
+                Name = "Bermudian dollar",
+                ShortName = "Bermudian dollar",
+                Symbol = "$",
+                NativeName = "Bermudian dollars",
+                NativeSymbol = "$",
+                PluralShortName = "Bermudian dollars"
             },
-
             new()
             {
-                Code ="BTN",
-                Name="Bhutanese ngultrum" ,
-                NativeName="",
-                NativeSymbol="Nu.",
-                PluralShortName="",
-                ShortName="Bhutanese ngultrum",
-                Symbol=""
+                Code = "BTN",
+                Name = "Bhutanese ngultrum",
+                ShortName = "Bhutanese ngultrum",
+                Symbol = "",
+                NativeName = "",
+                NativeSymbol = "Nu.",
+                PluralShortName = ""
             },
-
             new()
             {
-                Code ="BOB",
-                Name="Bolivian boliviano" ,
-                NativeName="Bolivian boliviano",
-                NativeSymbol="Bs.",
-                PluralShortName="Bolivian boliviano",
-                ShortName="Bolivian boliviano",
-                Symbol="Bs."
+                Code = "BOB",
+                Name = "Bolivian boliviano",
+                ShortName = "Bolivian boliviano",
+                Symbol = "Bs.",
+                NativeName = "Bolivian boliviano",
+                NativeSymbol = "Bs.",
+                PluralShortName = "Bolivian boliviano"
             },
-
             new()
             {
-                Code ="BAM",
-                Name="Bosnia and Herzegovina convertible mark" ,
-                NativeName="KM",
-                NativeSymbol="KM",
-                PluralShortName="Bosnia and Herzegovina convertible marks",
-                ShortName="Bosnia and Herzegovina convertible mark",
-                Symbol="KM"
+                Code = "BAM",
+                Name = "Bosnia and Herzegovina convertible mark",
+                ShortName = "Bosnia and Herzegovina convertible mark",
+                Symbol = "KM",
+                NativeName = "KM",
+                NativeSymbol = "KM",
+                PluralShortName = "Bosnia and Herzegovina convertible marks"
             },
-
             new()
             {
-                Code ="BWP",
-                Name="Botswana pula" ,
-                NativeName="Botswana pula",
-                NativeSymbol="P",
-                PluralShortName="Botswana pula",
-                ShortName="Botswana pula",
-                Symbol="P"
+                Code = "BWP",
+                Name = "Botswana pula",
+                ShortName = "Botswana pula",
+                Symbol = "P",
+                NativeName = "Botswana pula",
+                NativeSymbol = "P",
+                PluralShortName = "Botswana pula"
             },
-
             new()
             {
-                Code ="BRL",
-                Name="Brazilian real" ,
-                NativeName="real brasileiro",
-                NativeSymbol="R$",
-                PluralShortName="Brazilian Reais",
-                ShortName="Brazilian real",
-                Symbol="R$"
+                Code = "BRL",
+                Name = "Brazilian real",
+                ShortName = "Brazilian real",
+                Symbol = "R$",
+                NativeName = "real brasileiro",
+                NativeSymbol = "R$",
+                PluralShortName = "Brazilian Reais"
             },
-
             new()
             {
-                Code ="GBP",
-                Name="British pound" ,
-                NativeName="British pound",
-                NativeSymbol="£",
-                PluralShortName="British pounds",
-                ShortName="British pound",
-                Symbol="£"
+                Code = "GBP",
+                Name = "British pound",
+                ShortName = "British pound",
+                Symbol = "£",
+                NativeName = "British pound",
+                NativeSymbol = "£",
+                PluralShortName = "British pounds"
             },
-
             new()
             {
-                Code ="BND",
-                Name="Brunei dollar" ,
-                NativeName="Ringgit Brunei",
-                NativeSymbol="B$",
-                PluralShortName="Brunei dollars",
-                ShortName="Brunei dollar",
-                Symbol="B$"
+                Code = "BND",
+                Name = "Brunei dollar",
+                ShortName = "Brunei dollar",
+                Symbol = "B$",
+                NativeName = "Ringgit Brunei",
+                NativeSymbol = "B$",
+                PluralShortName = "Brunei dollars"
             },
-
             new()
             {
-                Code ="BGN",
-                Name="Bulgarian lev" ,
-                NativeName="Български лев",
-                NativeSymbol="лв",
-                PluralShortName="Bulgarian levove",
-                ShortName="Bulgarian lev",
-                Symbol="лв"
+                Code = "BGN",
+                Name = "Bulgarian lev",
+                ShortName = "Bulgarian lev",
+                Symbol = "лв",
+                NativeName = "Български лев",
+                NativeSymbol = "лв",
+                PluralShortName = "Bulgarian levove"
             },
-
             new()
             {
-                Code ="MMK",
-                Name="Burmese kyat" ,
-                NativeName="ကျပ်",
-                NativeSymbol="Ks",
-                PluralShortName="Burmese kyat",
-                ShortName="Burmese kyat",
-                Symbol="Ks"
+                Code = "MMK",
+                Name = "Burmese kyat",
+                ShortName = "Burmese kyat",
+                Symbol = "Ks",
+                NativeName = "ကျပ်",
+                NativeSymbol = "Ks",
+                PluralShortName = "Burmese kyat"
             },
-
             new()
             {
-                Code ="BIF",
-                Name="Burundian franc" ,
-                NativeName="franc burundais",
-                NativeSymbol="FBu",
-                PluralShortName="Burundian franc",
-                ShortName="Burundian franc",
-                Symbol="FBu"
+                Code = "BIF",
+                Name = "Burundian franc",
+                ShortName = "Burundian franc",
+                Symbol = "FBu",
+                NativeName = "franc burundais",
+                NativeSymbol = "FBu",
+                PluralShortName = "Burundian franc"
             },
-
             new()
             {
-                Code ="KHR",
-                Name="Cambodian riel" ,
-                NativeName="រៀល",
-                NativeSymbol="៛",
-                PluralShortName="Cambodian riel",
-                ShortName="Cambodian riel",
-                Symbol="៛"
+                Code = "KHR",
+                Name = "Cambodian riel",
+                ShortName = "Cambodian riel",
+                Symbol = "៛",
+                NativeName = "រៀល",
+                NativeSymbol = "៛",
+                PluralShortName = "Cambodian riel"
             },
-
             new()
             {
-                Code ="CAD",
-                Name="Canadian dollar" ,
-                NativeName="Canadian dollar",
-                NativeSymbol="$",
-                PluralShortName="Canadian dollars",
-                ShortName="Canadian dollar",
-                Symbol="C$"
+                Code = "CAD",
+                Name = "Canadian dollar",
+                ShortName = "Canadian dollar",
+                Symbol = "C$",
+                NativeName = "Canadian dollar",
+                NativeSymbol = "$",
+                PluralShortName = "Canadian dollars"
             },
-
             new()
             {
-                Code ="CVE",
-                Name="Cape Verdean escudo" ,
-                NativeName="eskudu kabu-verdianu",
-                NativeSymbol="Esc",
-                PluralShortName="Cape Verdean escudo",
-                ShortName="Cape Verdean escudo",
-                Symbol="Esc"
+                Code = "CVE",
+                Name = "Cape Verdean escudo",
+                ShortName = "Cape Verdean escudo",
+                Symbol = "Esc",
+                NativeName = "eskudu kabu-verdianu",
+                NativeSymbol = "Esc",
+                PluralShortName = "Cape Verdean escudo"
             },
-
             new()
             {
-                Code ="KYD",
-                Name="Cayman Islands dollar" ,
-                NativeName="Cayman Islands dollar",
-                NativeSymbol="$",
-                PluralShortName="Cayman Islands dollars",
-                ShortName="Cayman Islands dollar",
-                Symbol="$"
+                Code = "KYD",
+                Name = "Cayman Islands dollar",
+                ShortName = "Cayman Islands dollar",
+                Symbol = "$",
+                NativeName = "Cayman Islands dollar",
+                NativeSymbol = "$",
+                PluralShortName = "Cayman Islands dollars"
             },
-
             new()
             {
-                Code ="XAF",
-                Name="Central African CFA franc" ,
-                NativeName="Central African CFA franc",
-                NativeSymbol="Fr",
-                PluralShortName="Central African CFA franc",
-                ShortName="Central African CFA franc",
-                Symbol="FCFA"
+                Code = "XAF",
+                Name = "Central African CFA franc",
+                ShortName = "Central African CFA franc",
+                Symbol = "FCFA",
+                NativeName = "Central African CFA franc",
+                NativeSymbol = "Fr",
+                PluralShortName = "Central African CFA franc"
             },
-
             new()
             {
-                Code ="XPF",
-                Name="CFP franc" ,
-                NativeName="franc pacifique (French)",
-                NativeSymbol="Fr",
-                PluralShortName="CFP franc",
-                ShortName="CFP franc",
-                Symbol="CFP"
+                Code = "XPF",
+                Name = "CFP franc",
+                ShortName = "CFP franc",
+                Symbol = "CFP",
+                NativeName = "franc pacifique (French)",
+                NativeSymbol = "Fr",
+                PluralShortName = "CFP franc"
             },
-
             new()
             {
-                Code ="CLP",
-                Name="Chilean peso" ,
-                NativeName="Peso chileno",
-                NativeSymbol="$",
-                PluralShortName="Chilean pesos",
-                ShortName="Chilean peso",
-                Symbol="$"
+                Code = "CLP",
+                Name = "Chilean peso",
+                ShortName = "Chilean peso",
+                Symbol = "$",
+                NativeName = "Peso chileno",
+                NativeSymbol = "$",
+                PluralShortName = "Chilean pesos"
             },
-
             new()
             {
-                Code ="CNY",
-                Name="Chinese yuan" ,
-                NativeName="人民币",
-                NativeSymbol="¥",
-                PluralShortName="Chinese yuan",
-                ShortName="Chinese yuan",
-                Symbol="¥"
+                Code = "CNY",
+                Name = "Chinese yuan",
+                ShortName = "Chinese yuan",
+                Symbol = "¥",
+                NativeName = "人民币",
+                NativeSymbol = "¥",
+                PluralShortName = "Chinese yuan"
             },
-
             new()
             {
-                Code ="COP",
-                Name="Colombian peso" ,
-                NativeName="peso colombiano",
-                NativeSymbol="$",
-                PluralShortName="Colombian pesos",
-                ShortName="Colombian peso",
-                Symbol="$"
+                Code = "COP",
+                Name = "Colombian peso",
+                ShortName = "Colombian peso",
+                Symbol = "$",
+                NativeName = "peso colombiano",
+                NativeSymbol = "$",
+                PluralShortName = "Colombian pesos"
             },
-
             new()
             {
-                Code ="KMF",
-                Name="Comorian franc" ,
-                NativeName="Comorian franc",
-                NativeSymbol="Fr",
-                PluralShortName="Comorian francs",
-                ShortName="Comorian franc",
-                Symbol="CF"
+                Code = "KMF",
+                Name = "Comorian franc",
+                ShortName = "Comorian franc",
+                Symbol = "CF",
+                NativeName = "Comorian franc",
+                NativeSymbol = "Fr",
+                PluralShortName = "Comorian francs"
             },
-
             new()
             {
-                Code ="CDF",
-                Name="Congolese franc" ,
-                NativeName="franc congolais",
-                NativeSymbol="Fr",
-                PluralShortName="Congolese francs",
-                ShortName="Congolese franc",
-                Symbol="FC"
+                Code = "CDF",
+                Name = "Congolese franc",
+                ShortName = "Congolese franc",
+                Symbol = "FC",
+                NativeName = "franc congolais",
+                NativeSymbol = "Fr",
+                PluralShortName = "Congolese francs"
             },
-
             new()
             {
-                Code ="CKD",
-                Name="Cook Islands dollar" ,
-                NativeName="Cook Islands dollar",
-                NativeSymbol="$",
-                PluralShortName="Cook Islands dollars",
-                ShortName="Cook Islands dollar",
-                Symbol="$"
+                Code = "CKD",
+                Name = "Cook Islands dollar",
+                ShortName = "Cook Islands dollar",
+                Symbol = "$",
+                NativeName = "Cook Islands dollar",
+                NativeSymbol = "$",
+                PluralShortName = "Cook Islands dollars"
             },
-
             new()
             {
-                Code ="CRC",
-                Name="Costa Rican colón" ,
-                NativeName="colón costarricense  (Spanish)",
-                NativeSymbol="₡",
-                PluralShortName="Costa Rican colones",
-                ShortName="Costa Rican colón",
-                Symbol="₡"
+                Code = "CRC",
+                Name = "Costa Rican colón",
+                ShortName = "Costa Rican colón",
+                Symbol = "₡",
+                NativeName = "colón costarricense  (Spanish)",
+                NativeSymbol = "₡",
+                PluralShortName = "Costa Rican colones"
             },
-
             new()
             {
-                Code ="HRK",
-                Name="Croatian kuna" ,
-                NativeName="hrvatska kuna  (Croatian)",
-                NativeSymbol="kn",
-                PluralShortName="Croatian kuna",
-                ShortName="Croatian kuna",
-                Symbol="kn"
+                Code = "HRK",
+                Name = "Croatian kuna",
+                ShortName = "Croatian kuna",
+                Symbol = "kn",
+                NativeName = "hrvatska kuna  (Croatian)",
+                NativeSymbol = "kn",
+                PluralShortName = "Croatian kuna"
             },
-
             new()
             {
-                Code ="CUC",
-                Name="Cuban convertible peso" ,
-                NativeName="",
-                NativeSymbol="$",
-                PluralShortName="",
-                ShortName="Cuban convertible peso",
-                Symbol=""
+                Code = "CUC",
+                Name = "Cuban convertible peso",
+                ShortName = "Cuban convertible peso",
+                Symbol = "",
+                NativeName = "",
+                NativeSymbol = "$",
+                PluralShortName = ""
             },
-
             new()
             {
-                Code ="CUP",
-                Name="Cuban peso" ,
-                NativeName="peso cubano",
-                NativeSymbol="$",
-                PluralShortName="Cuban pesos",
-                ShortName="Cuban peso",
-                Symbol="$"
+                Code = "CUP",
+                Name = "Cuban peso",
+                ShortName = "Cuban peso",
+                Symbol = "$",
+                NativeName = "peso cubano",
+                NativeSymbol = "$",
+                PluralShortName = "Cuban pesos"
             },
-
             new()
             {
-                Code ="CZK",
-                Name="Czech koruna" ,
-                NativeName="koruna česká",
-                NativeSymbol="Kč",
-                PluralShortName="Czech koruna",
-                ShortName="Czech koruna",
-                Symbol="Kč"
+                Code = "CZK",
+                Name = "Czech koruna",
+                ShortName = "Czech koruna",
+                Symbol = "Kč",
+                NativeName = "koruna česká",
+                NativeSymbol = "Kč",
+                PluralShortName = "Czech koruna"
             },
-
             new()
             {
-                Code ="DKK",
-                Name="Danish krone" ,
-                NativeName="dansk krone",
-                NativeSymbol="kr",
-                PluralShortName="Danish kroner",
-                ShortName="Danish krone",
-                Symbol="kr"
+                Code = "DKK",
+                Name = "Danish krone",
+                ShortName = "Danish krone",
+                Symbol = "kr",
+                NativeName = "dansk krone",
+                NativeSymbol = "kr",
+                PluralShortName = "Danish kroner"
             },
-
             new()
             {
-                Code ="DJF",
-                Name="Djiboutian franc" ,
-                NativeName="franc djibouti",
-                NativeSymbol="Fr",
-                PluralShortName="Djiboutian francs",
-                ShortName="Djiboutian franc",
-                Symbol="Fdj"
+                Code = "DJF",
+                Name = "Djiboutian franc",
+                ShortName = "Djiboutian franc",
+                Symbol = "Fdj",
+                NativeName = "franc djibouti",
+                NativeSymbol = "Fr",
+                PluralShortName = "Djiboutian francs"
             },
-
             new()
             {
-                Code ="DOP",
-                Name="Dominican peso" ,
-                NativeName="Dominican peso",
-                NativeSymbol="$",
-                PluralShortName="Dominican pesos",
-                ShortName="Dominican peso",
-                Symbol="RD$"
+                Code = "DOP",
+                Name = "Dominican peso",
+                ShortName = "Dominican peso",
+                Symbol = "RD$",
+                NativeName = "Dominican peso",
+                NativeSymbol = "$",
+                PluralShortName = "Dominican pesos"
             },
-
             new()
             {
-                Code ="XCD",
-                Name="East Caribbean dollar" ,
-                NativeName="East Caribbean dollar",
-                NativeSymbol="$",
-                PluralShortName="East Caribbean dollars",
-                ShortName="East Caribbean dollar",
-                Symbol="$"
+                Code = "XCD",
+                Name = "East Caribbean dollar",
+                ShortName = "East Caribbean dollar",
+                Symbol = "$",
+                NativeName = "East Caribbean dollar",
+                NativeSymbol = "$",
+                PluralShortName = "East Caribbean dollars"
             },
-
             new()
             {
-                Code ="EGP",
-                Name="Egyptian pound" ,
-                NativeName="جنيه مصرى",
-                NativeSymbol="ج.م",
-                PluralShortName="Egyptian pounds",
-                ShortName="Egyptian pound",
-                Symbol="£"
+                Code = "EGP",
+                Name = "Egyptian pound",
+                ShortName = "Egyptian pound",
+                Symbol = "£",
+                NativeName = "جنيه مصرى",
+                NativeSymbol = "ج.م",
+                PluralShortName = "Egyptian pounds"
             },
-
             new()
             {
-                Code ="ERN",
-                Name="Eritrean nakfa" ,
-                NativeName="Eritrean nakfa",
-                NativeSymbol="Nfk",
-                PluralShortName="Eritrean nakfa",
-                ShortName="Eritrean nakfa",
-                Symbol="Nfk"
+                Code = "ERN",
+                Name = "Eritrean nakfa",
+                ShortName = "Eritrean nakfa",
+                Symbol = "Nfk",
+                NativeName = "Eritrean nakfa",
+                NativeSymbol = "Nfk",
+                PluralShortName = "Eritrean nakfa"
             },
-
             new()
             {
-                Code ="ETB",
-                Name="Ethiopian birr" ,
-                NativeName="Ethiopian birr",
-                NativeSymbol="Br",
-                PluralShortName="Ethiopian birr",
-                ShortName="Ethiopian birr",
-                Symbol="Br"
+                Code = "ETB",
+                Name = "Ethiopian birr",
+                ShortName = "Ethiopian birr",
+                Symbol = "Br",
+                NativeName = "Ethiopian birr",
+                NativeSymbol = "Br",
+                PluralShortName = "Ethiopian birr"
             },
-
             new()
             {
-                Code ="EUR",
-                Name="Euro" ,
-                NativeName="Euro",
-                NativeSymbol="€",
-                PluralShortName="Euro",
-                ShortName="Euro",
-                Symbol="€"
+                Code = "EUR",
+                Name = "Euro",
+                ShortName = "Euro",
+                Symbol = "€",
+                NativeName = "Euro",
+                NativeSymbol = "€",
+                PluralShortName = "Euro"
             },
-
             new()
             {
-                Code ="FKP",
-                Name="Falkland Islands pound" ,
-                NativeName="Falkland Islands pound",
-                NativeSymbol="£",
-                PluralShortName="Falkland Islands pounds",
-                ShortName="Falkland Islands pound",
-                Symbol="£"
+                Code = "FKP",
+                Name = "Falkland Islands pound",
+                ShortName = "Falkland Islands pound",
+                Symbol = "£",
+                NativeName = "Falkland Islands pound",
+                NativeSymbol = "£",
+                PluralShortName = "Falkland Islands pounds"
             },
-
             new()
             {
-                Code ="FOK",
-                Name="Faroese króna" ,
-                NativeName="kr",
-                NativeSymbol="kr",
-                PluralShortName="krónur",
-                ShortName="króna",
-                Symbol="kr"
+                Code = "FOK",
+                Name = "Faroese króna",
+                ShortName = "króna",
+                Symbol = "kr",
+                NativeName = "kr",
+                NativeSymbol = "kr",
+                PluralShortName = "krónur"
             },
-
             new()
             {
-                Code ="FJD",
-                Name="Fijian dollar" ,
-                NativeName="Fijian dollar",
-                NativeSymbol="$",
-                PluralShortName="Fijian dollars",
-                ShortName="Fijian dollar",
-                Symbol="$"
+                Code = "FJD",
+                Name = "Fijian dollar",
+                ShortName = "Fijian dollar",
+                Symbol = "$",
+                NativeName = "Fijian dollar",
+                NativeSymbol = "$",
+                PluralShortName = "Fijian dollars"
             },
-
             new()
             {
-                Code ="GMD",
-                Name="Gambian dalasi" ,
-                NativeName="Gambian dalasi",
-                NativeSymbol="D",
-                PluralShortName="Gambian dalasis",
-                ShortName="Gambian dalasi",
-                Symbol="D"
+                Code = "GMD",
+                Name = "Gambian dalasi",
+                ShortName = "Gambian dalasi",
+                Symbol = "D",
+                NativeName = "Gambian dalasi",
+                NativeSymbol = "D",
+                PluralShortName = "Gambian dalasis"
             },
-
             new()
             {
-                Code ="GEL",
-                Name="Georgian Lari" ,
-                NativeName="ქართული ლარი",
-                NativeSymbol="ლ",
-                PluralShortName="Georgian Lari",
-                ShortName="Georgian Lari",
-                Symbol="ლ"
+                Code = "GEL",
+                Name = "Georgian Lari",
+                ShortName = "Georgian Lari",
+                Symbol = "ლ",
+                NativeName = "ქართული ლარი",
+                NativeSymbol = "ლ",
+                PluralShortName = "Georgian Lari"
             },
-
             new()
             {
-                Code ="GHS",
-                Name="Ghanaian cedi" ,
-                NativeName="Ghanaian cedi",
-                NativeSymbol="₵",
-                PluralShortName="Ghanaian cedis",
-                ShortName="Ghanaian cedi",
-                Symbol="₵"
+                Code = "GHS",
+                Name = "Ghanaian cedi",
+                ShortName = "Ghanaian cedi",
+                Symbol = "₵",
+                NativeName = "Ghanaian cedi",
+                NativeSymbol = "₵",
+                PluralShortName = "Ghanaian cedis"
             },
-
             new()
             {
-                Code ="GIP",
-                Name="Gibraltar pound" ,
-                NativeName="Gibraltar pound",
-                NativeSymbol="£",
-                PluralShortName="Gibraltar pounds",
-                ShortName="Gibraltar pound",
-                Symbol="£"
+                Code = "GIP",
+                Name = "Gibraltar pound",
+                ShortName = "Gibraltar pound",
+                Symbol = "£",
+                NativeName = "Gibraltar pound",
+                NativeSymbol = "£",
+                PluralShortName = "Gibraltar pounds"
             },
-
             new()
             {
-                Code ="GTQ",
-                Name="Guatemalan quetzal" ,
-                NativeName="quetzal guatemalteco",
-                NativeSymbol="Q",
-                PluralShortName="Guatemalan quetzales",
-                ShortName="Guatemalan quetzal",
-                Symbol="Q"
+                Code = "GTQ",
+                Name = "Guatemalan quetzal",
+                ShortName = "Guatemalan quetzal",
+                Symbol = "Q",
+                NativeName = "quetzal guatemalteco",
+                NativeSymbol = "Q",
+                PluralShortName = "Guatemalan quetzales"
             },
-
             new()
             {
-                Code ="GNF",
-                Name="Guinean franc" ,
-                NativeName="franc guinéen",
-                NativeSymbol="Fr",
-                PluralShortName="Guinean francs",
-                ShortName="Guinean franc",
-                Symbol="Fr"
+                Code = "GNF",
+                Name = "Guinean franc",
+                ShortName = "Guinean franc",
+                Symbol = "Fr",
+                NativeName = "franc guinéen",
+                NativeSymbol = "Fr",
+                PluralShortName = "Guinean francs"
             },
-
             new()
             {
-                Code ="GYD",
-                Name="Guyanese dollar" ,
-                NativeName="Guyanese dollar",
-                NativeSymbol="$",
-                PluralShortName="Guyanese dollars",
-                ShortName="Guyanese dollar",
-                Symbol="G$"
+                Code = "GYD",
+                Name = "Guyanese dollar",
+                ShortName = "Guyanese dollar",
+                Symbol = "G$",
+                NativeName = "Guyanese dollar",
+                NativeSymbol = "$",
+                PluralShortName = "Guyanese dollars"
             },
-
             new()
             {
-                Code ="HTG",
-                Name="Haitian gourde" ,
-                NativeName="goud ayisyen",
-                NativeSymbol="G",
-                PluralShortName="Haitian gourde",
-                ShortName="Haitian gourde",
-                Symbol="G"
+                Code = "HTG",
+                Name = "Haitian gourde",
+                ShortName = "Haitian gourde",
+                Symbol = "G",
+                NativeName = "goud ayisyen",
+                NativeSymbol = "G",
+                PluralShortName = "Haitian gourde"
             },
-
             new()
             {
-                Code ="HNL",
-                Name="Honduran lempira" ,
-                NativeName="lempira hondureño",
-                NativeSymbol="L",
-                PluralShortName="Honduran lempira",
-                ShortName="Honduran lempira",
-                Symbol="L"
+                Code = "HNL",
+                Name = "Honduran lempira",
+                ShortName = "Honduran lempira",
+                Symbol = "L",
+                NativeName = "lempira hondureño",
+                NativeSymbol = "L",
+                PluralShortName = "Honduran lempira"
             },
-
             new()
             {
-                Code ="HKD",
-                Name="Hong Kong dollar" ,
-                NativeName="港幣",
-                NativeSymbol="$",
-                PluralShortName="Hong Kong dollars",
-                ShortName="Hong Kong dollar",
-                Symbol="$"
+                Code = "HKD",
+                Name = "Hong Kong dollar",
+                ShortName = "Hong Kong dollar",
+                Symbol = "$",
+                NativeName = "港幣",
+                NativeSymbol = "$",
+                PluralShortName = "Hong Kong dollars"
             },
-
             new()
             {
-                Code ="HUF",
-                Name="Hungarian forint" ,
-                NativeName="Magyar forint",
-                NativeSymbol="Ft",
-                PluralShortName="Hungarian forint",
-                ShortName="Hungarian forint",
-                Symbol="Ft"
+                Code = "HUF",
+                Name = "Hungarian forint",
+                ShortName = "Hungarian forint",
+                Symbol = "Ft",
+                NativeName = "Magyar forint",
+                NativeSymbol = "Ft",
+                PluralShortName = "Hungarian forint"
             },
-
             new()
             {
-                Code ="ISK",
-                Name="Icelandic króna" ,
-                NativeName="íslensk króna",
-                NativeSymbol="kr",
-                PluralShortName="Icelandic krónur",
-                ShortName="Icelandic króna",
-                Symbol="kr"
+                Code = "ISK",
+                Name = "Icelandic króna",
+                ShortName = "Icelandic króna",
+                Symbol = "kr",
+                NativeName = "íslensk króna",
+                NativeSymbol = "kr",
+                PluralShortName = "Icelandic krónur"
             },
-
             new()
             {
-                Code ="INR",
-                Name="Indian rupee" ,
-                NativeName="Indian rupee",
-                NativeSymbol="₹",
-                PluralShortName="Indian rupee",
-                ShortName="Indian rupee",
-                Symbol="₹"
+                Code = "INR",
+                Name = "Indian rupee",
+                ShortName = "Indian rupee",
+                Symbol = "₹",
+                NativeName = "Indian rupee",
+                NativeSymbol = "₹",
+                PluralShortName = "Indian rupee"
             },
-
             new()
             {
-                Code ="IDR",
-                Name="Indonesian rupiah" ,
-                NativeName="Rupiah",
-                NativeSymbol="Rp",
-                PluralShortName="Rupiah",
-                ShortName="Rupiah",
-                Symbol="Rp"
+                Code = "IDR",
+                Name = "Indonesian rupiah",
+                ShortName = "Rupiah",
+                Symbol = "Rp",
+                NativeName = "Rupiah",
+                NativeSymbol = "Rp",
+                PluralShortName = "Rupiah"
             },
-
             new()
             {
-                Code ="IRR",
-                Name="Iranian rial" ,
-                NativeName="ریال ایران",
-                NativeSymbol="﷼",
-                PluralShortName="Iranian rial",
-                ShortName="Iranian rial",
-                Symbol="﷼"
+                Code = "IRR",
+                Name = "Iranian rial",
+                ShortName = "Iranian rial",
+                Symbol = "﷼",
+                NativeName = "ریال ایران",
+                NativeSymbol = "﷼",
+                PluralShortName = "Iranian rial"
             },
-
             new()
             {
-                Code ="IQD",
-                Name="Iraqi dinar" ,
-                NativeName="دينار عراقي",
-                NativeSymbol="ع.د",
-                PluralShortName="Iraqi dinars",
-                ShortName="Iraqi dinar",
-                Symbol="ع.د"
+                Code = "IQD",
+                Name = "Iraqi dinar",
+                ShortName = "Iraqi dinar",
+                Symbol = "ع.د",
+                NativeName = "دينار عراقي",
+                NativeSymbol = "ع.د",
+                PluralShortName = "Iraqi dinars"
             },
-
             new()
             {
-                Code ="ILS",
-                Name="Israeli new shekel" ,
-                NativeName="שקל חדש",
-                NativeSymbol="₪",
-                PluralShortName="Israeli new shekels",
-                ShortName="Israeli new shekel",
-                Symbol="₪"
+                Code = "ILS",
+                Name = "Israeli new shekel",
+                ShortName = "Israeli new shekel",
+                Symbol = "₪",
+                NativeName = "שקל חדש",
+                NativeSymbol = "₪",
+                PluralShortName = "Israeli new shekels"
             },
-
             new()
             {
-                Code ="JMD",
-                Name="Jamaican dollar" ,
-                NativeName="Jamaican dollar",
-                NativeSymbol="$",
-                PluralShortName="Jamaican dollars",
-                ShortName="Jamaican dollar",
-                Symbol="$"
+                Code = "JMD",
+                Name = "Jamaican dollar",
+                ShortName = "Jamaican dollar",
+                Symbol = "$",
+                NativeName = "Jamaican dollar",
+                NativeSymbol = "$",
+                PluralShortName = "Jamaican dollars"
             },
-
             new()
             {
-                Code ="JPY",
-                Name="Japanese yen" ,
-                NativeName="日本円",
-                NativeSymbol="¥",
-                PluralShortName="Japanese yen",
-                ShortName="Japanese yen",
-                Symbol="¥"
+                Code = "JPY",
+                Name = "Japanese yen",
+                ShortName = "Japanese yen",
+                Symbol = "¥",
+                NativeName = "日本円",
+                NativeSymbol = "¥",
+                PluralShortName = "Japanese yen"
             },
-
             new()
             {
-                Code ="JEP",
-                Name="Jersey pound" ,
-                NativeName="Jersey pound",
-                NativeSymbol="£",
-                PluralShortName="Jersey pounds",
-                ShortName="Jersey pound",
-                Symbol="£"
+                Code = "JEP",
+                Name = "Jersey pound",
+                ShortName = "Jersey pound",
+                Symbol = "£",
+                NativeName = "Jersey pound",
+                NativeSymbol = "£",
+                PluralShortName = "Jersey pounds"
             },
-
             new()
             {
-                Code ="JOD",
-                Name="Jordanian dinar" ,
-                NativeName="دينار أردني",
-                NativeSymbol="د.ا",
-                PluralShortName="Jordanian dinar",
-                ShortName="Jordanian dinar",
-                Symbol="JD"
+                Code = "JOD",
+                Name = "Jordanian dinar",
+                ShortName = "Jordanian dinar",
+                Symbol = "JD",
+                NativeName = "دينار أردني",
+                NativeSymbol = "د.ا",
+                PluralShortName = "Jordanian dinar"
             },
-
             new()
             {
-                Code ="KZT",
-                Name="Kazakhstani tenge" ,
-                NativeName="Qazaq teńgesі",
-                NativeSymbol="₸",
-                PluralShortName="Kazakhstani tenge",
-                ShortName="Kazakhstani tenge",
-                Symbol="₸"
+                Code = "KZT",
+                Name = "Kazakhstani tenge",
+                ShortName = "Kazakhstani tenge",
+                Symbol = "₸",
+                NativeName = "Qazaq teńgesі",
+                NativeSymbol = "₸",
+                PluralShortName = "Kazakhstani tenge"
             },
-
             new()
             {
-                Code ="KES",
-                Name="Kenyan shilling" ,
-                NativeName="Shillingi ya Kenya ",
-                NativeSymbol="Sh",
-                PluralShortName="Kenyan shilling",
-                ShortName="Kenyan shilling",
-                Symbol="Sh"
+                Code = "KES",
+                Name = "Kenyan shilling",
+                ShortName = "Kenyan shilling",
+                Symbol = "Sh",
+                NativeName = "Shillingi ya Kenya ",
+                NativeSymbol = "Sh",
+                PluralShortName = "Kenyan shilling"
             },
-
             new()
             {
-                Code ="KWD",
-                Name="Kuwaiti dinar" ,
-                NativeName="دينار كويتي (Arabic)",
-                NativeSymbol="د.ك",
-                PluralShortName="Kuwaiti dinars",
-                ShortName="Kuwaiti dinar",
-                Symbol="KD"
+                Code = "KWD",
+                Name = "Kuwaiti dinar",
+                ShortName = "Kuwaiti dinar",
+                Symbol = "KD",
+                NativeName = "دينار كويتي (Arabic)",
+                NativeSymbol = "د.ك",
+                PluralShortName = "Kuwaiti dinars"
             },
-
             new()
             {
-                Code ="KGS",
-                Name="Kyrgyzstani som" ,
-                NativeName="Кыргыз сом",
-                NativeSymbol="с",
-                PluralShortName="Kyrgyzstani som",
-                ShortName="Kyrgyzstani som",
-                Symbol="с"
+                Code = "KGS",
+                Name = "Kyrgyzstani som",
+                ShortName = "Kyrgyzstani som",
+                Symbol = "с",
+                NativeName = "Кыргыз сом",
+                NativeSymbol = "с",
+                PluralShortName = "Kyrgyzstani som"
             },
-
             new()
             {
-                Code ="LAK",
-                Name="Lao kip" ,
-                NativeName="ເງີນກີບລາວ",
-                NativeSymbol="₭",
-                PluralShortName="Lao kip",
-                ShortName="Lao kip",
-                Symbol="₭"
+                Code = "LAK",
+                Name = "Lao kip",
+                ShortName = "Lao kip",
+                Symbol = "₭",
+                NativeName = "ເງີນກີບລາວ",
+                NativeSymbol = "₭",
+                PluralShortName = "Lao kip"
             },
-
             new()
             {
-                Code ="LBP",
-                Name="Lebanese pound" ,
-                NativeName="ليرة لبنانية",
-                NativeSymbol="ل.ل",
-                PluralShortName="Lebanese pounds",
-                ShortName="Lebanese pound",
-                Symbol="LL"
+                Code = "LBP",
+                Name = "Lebanese pound",
+                ShortName = "Lebanese pound",
+                Symbol = "LL",
+                NativeName = "ليرة لبنانية",
+                NativeSymbol = "ل.ل",
+                PluralShortName = "Lebanese pounds"
             },
-
             new()
             {
-                Code ="LSL",
-                Name="Lesotho loti" ,
-                NativeName="Lesotho loti",
-                NativeSymbol="L",
-                PluralShortName="Lesotho maloti",
-                ShortName="Lesotho loti",
-                Symbol="L"
+                Code = "LSL",
+                Name = "Lesotho loti",
+                ShortName = "Lesotho loti",
+                Symbol = "L",
+                NativeName = "Lesotho loti",
+                NativeSymbol = "L",
+                PluralShortName = "Lesotho maloti"
             },
-
             new()
             {
-                Code ="LRD",
-                Name="Liberian dollar" ,
-                NativeName="Liberian dollars",
-                NativeSymbol="$",
-                PluralShortName="Liberian dollars",
-                ShortName="Liberian dollar",
-                Symbol="$"
+                Code = "LRD",
+                Name = "Liberian dollar",
+                ShortName = "Liberian dollar",
+                Symbol = "$",
+                NativeName = "Liberian dollars",
+                NativeSymbol = "$",
+                PluralShortName = "Liberian dollars"
             },
-
             new()
             {
-                Code ="LYD",
-                Name="Libyan dinar" ,
-                NativeName="دينار ليبي",
-                NativeSymbol="ل.د",
-                PluralShortName="Libyan dinars",
-                ShortName="Libyan dinar",
-                Symbol="LD"
+                Code = "LYD",
+                Name = "Libyan dinar",
+                ShortName = "Libyan dinar",
+                Symbol = "LD",
+                NativeName = "دينار ليبي",
+                NativeSymbol = "ل.د",
+                PluralShortName = "Libyan dinars"
             },
-
             new()
             {
-                Code ="MOP",
-                Name="Macanese pataca" ,
-                NativeName="澳門圓",
-                NativeSymbol="P",
-                PluralShortName="Macanese patacas",
-                ShortName="Macanese pataca",
-                Symbol="P"
+                Code = "MOP",
+                Name = "Macanese pataca",
+                ShortName = "Macanese pataca",
+                Symbol = "P",
+                NativeName = "澳門圓",
+                NativeSymbol = "P",
+                PluralShortName = "Macanese patacas"
             },
-
             new()
             {
-                Code ="MKD",
-                Name="Macedonian denar" ,
-                NativeName="Македонски денар",
-                NativeSymbol="ден",
-                PluralShortName="Macedonian denars",
-                ShortName="Macedonian denar",
-                Symbol="den"
+                Code = "MKD",
+                Name = "Macedonian denar",
+                ShortName = "Macedonian denar",
+                Symbol = "den",
+                NativeName = "Македонски денар",
+                NativeSymbol = "ден",
+                PluralShortName = "Macedonian denars"
             },
-
             new()
             {
-                Code ="MGA",
-                Name="Malagasy ariary" ,
-                NativeName="ariary malgache ",
-                NativeSymbol="Ar",
-                PluralShortName="Malagasy ariary",
-                ShortName="Malagasy ariary",
-                Symbol="Ar"
+                Code = "MGA",
+                Name = "Malagasy ariary",
+                ShortName = "Malagasy ariary",
+                Symbol = "Ar",
+                NativeName = "ariary malgache ",
+                NativeSymbol = "Ar",
+                PluralShortName = "Malagasy ariary"
             },
-
             new()
             {
-                Code ="MWK",
-                Name="Malawian kwacha" ,
-                NativeName="Malawian kwacha",
-                NativeSymbol="MK",
-                PluralShortName="Malawian kwacha",
-                ShortName="Malawian kwacha",
-                Symbol="MK"
+                Code = "MWK",
+                Name = "Malawian kwacha",
+                ShortName = "Malawian kwacha",
+                Symbol = "MK",
+                NativeName = "Malawian kwacha",
+                NativeSymbol = "MK",
+                PluralShortName = "Malawian kwacha"
             },
-
             new()
             {
-                Code ="MYR",
-                Name="Malaysian ringgit" ,
-                NativeName="Ringgit Malaysia",
-                NativeSymbol="RM",
-                PluralShortName="Malaysian ringgit",
-                ShortName="Malaysian ringgit",
-                Symbol="RM"
+                Code = "MYR",
+                Name = "Malaysian ringgit",
+                ShortName = "Malaysian ringgit",
+                Symbol = "RM",
+                NativeName = "Ringgit Malaysia",
+                NativeSymbol = "RM",
+                PluralShortName = "Malaysian ringgit"
             },
-
             new()
             {
-                Code ="MVR",
-                Name="Maldivian rufiyaa" ,
-                NativeName="ދިވެހި ރުފިޔާ",
-                NativeSymbol=".ރ",
-                PluralShortName="Maldivian rufiyaa",
-                ShortName="Maldivian rufiyaa",
-                Symbol="Rf"
+                Code = "MVR",
+                Name = "Maldivian rufiyaa",
+                ShortName = "Maldivian rufiyaa",
+                Symbol = "Rf",
+                NativeName = "ދިވެހި ރުފިޔާ",
+                NativeSymbol = ".ރ",
+                PluralShortName = "Maldivian rufiyaa"
             },
-
             new()
             {
-                Code ="IMP",
-                Name="Manx pound" ,
-                NativeName="Punt Manninagh",
-                NativeSymbol="£",
-                PluralShortName="Manx pounds",
-                ShortName="Manx pound",
-                Symbol="£"
+                Code = "IMP",
+                Name = "Manx pound",
+                ShortName = "Manx pound",
+                Symbol = "£",
+                NativeName = "Punt Manninagh",
+                NativeSymbol = "£",
+                PluralShortName = "Manx pounds"
             },
-
             new()
             {
-                Code ="MRO",
-                Name="Mauritanian ouguiya" ,
-                NativeName="أوقية موريتانية",
-                NativeSymbol="UM",
-                PluralShortName="Mauritanian ouguiya",
-                ShortName="Mauritanian ouguiya",
-                Symbol="UM"
+                Code = "MRO",
+                Name = "Mauritanian ouguiya",
+                ShortName = "Mauritanian ouguiya",
+                Symbol = "UM",
+                NativeName = "أوقية موريتانية",
+                NativeSymbol = "UM",
+                PluralShortName = "Mauritanian ouguiya"
             },
-
             new()
             {
-                Code ="MUR",
-                Name="Mauritian rupee" ,
-                NativeName="Roupie mauricienne",
-                NativeSymbol="₨",
-                PluralShortName="Mauritian rupee",
-                ShortName="Mauritian rupee",
-                Symbol="₨"
+                Code = "MUR",
+                Name = "Mauritian rupee",
+                ShortName = "Mauritian rupee",
+                Symbol = "₨",
+                NativeName = "Roupie mauricienne",
+                NativeSymbol = "₨",
+                PluralShortName = "Mauritian rupee"
             },
-
             new()
             {
-                Code ="MXN",
-                Name="Mexican peso" ,
-                NativeName="Peso Mexicano",
-                NativeSymbol="$",
-                PluralShortName="Mexican pesos",
-                ShortName="Mexican peso",
-                Symbol="$"
+                Code = "MXN",
+                Name = "Mexican peso",
+                ShortName = "Mexican peso",
+                Symbol = "$",
+                NativeName = "Peso Mexicano",
+                NativeSymbol = "$",
+                PluralShortName = "Mexican pesos"
             },
-
             new()
             {
-                Code ="MDL",
-                Name="Moldovan leu" ,
-                NativeName="leu moldovenesc",
-                NativeSymbol="L",
-                PluralShortName="Moldovan lei",
-                ShortName="Moldovan leu",
-                Symbol="L"
+                Code = "MDL",
+                Name = "Moldovan leu",
+                ShortName = "Moldovan leu",
+                Symbol = "L",
+                NativeName = "leu moldovenesc",
+                NativeSymbol = "L",
+                PluralShortName = "Moldovan lei"
             },
-
             new()
             {
-                Code ="MNT",
-                Name="Mongolian tögrög" ,
-                NativeName="Монгол төгрөг",
-                NativeSymbol="₮",
-                PluralShortName="Mongolian tögrög",
-                ShortName="Mongolian tögrög",
-                Symbol="₮"
+                Code = "MNT",
+                Name = "Mongolian tögrög",
+                ShortName = "Mongolian tögrög",
+                Symbol = "₮",
+                NativeName = "Монгол төгрөг",
+                NativeSymbol = "₮",
+                PluralShortName = "Mongolian tögrög"
             },
-
             new()
             {
-                Code ="MAD",
-                Name="Moroccan dirham" ,
-                NativeName="درهم مغربي",
-                NativeSymbol="د.م.",
-                PluralShortName="Moroccan dirhams",
-                ShortName="Moroccan dirham",
-                Symbol="DH"
+                Code = "MAD",
+                Name = "Moroccan dirham",
+                ShortName = "Moroccan dirham",
+                Symbol = "DH",
+                NativeName = "درهم مغربي",
+                NativeSymbol = "د.م.",
+                PluralShortName = "Moroccan dirhams"
             },
-
             new()
             {
-                Code ="MZN",
-                Name="Mozambican metical" ,
-                NativeName="Metical moçambicano",
-                NativeSymbol="MT",
-                PluralShortName="Mozambican meticais",
-                ShortName="Mozambican metical",
-                Symbol="MT"
+                Code = "MZN",
+                Name = "Mozambican metical",
+                ShortName = "Mozambican metical",
+                Symbol = "MT",
+                NativeName = "Metical moçambicano",
+                NativeSymbol = "MT",
+                PluralShortName = "Mozambican meticais"
             },
-
             new()
             {
-                Code ="NAD",
-                Name="Namibian dollar" ,
-                NativeName="Namibian dollar",
-                NativeSymbol="$",
-                PluralShortName="Namibian dollars",
-                ShortName="Namibian dollar",
-                Symbol="$"
+                Code = "NAD",
+                Name = "Namibian dollar",
+                ShortName = "Namibian dollar",
+                Symbol = "$",
+                NativeName = "Namibian dollar",
+                NativeSymbol = "$",
+                PluralShortName = "Namibian dollars"
             },
-
             new()
             {
-                Code ="NPR",
-                Name="Nepalese rupee" ,
-                NativeName="रुपैयाँ ",
-                NativeSymbol="रु",
-                PluralShortName="Nepalese rupees",
-                ShortName="Nepalese rupee",
-                Symbol="₨"
+                Code = "NPR",
+                Name = "Nepalese rupee",
+                ShortName = "Nepalese rupee",
+                Symbol = "₨",
+                NativeName = "रुपैयाँ ",
+                NativeSymbol = "रु",
+                PluralShortName = "Nepalese rupees"
             },
-
             new()
             {
-                Code ="ANG",
-                Name="Netherlands Antillean guilder" ,
-                NativeName="Antilliaanse gulden",
-                NativeSymbol="ƒ",
-                PluralShortName="Netherlands Antillean guilders",
-                ShortName="Netherlands Antillean guilder",
-                Symbol="f"
+                Code = "ANG",
+                Name = "Netherlands Antillean guilder",
+                ShortName = "Netherlands Antillean guilder",
+                Symbol = "f",
+                NativeName = "Antilliaanse gulden",
+                NativeSymbol = "ƒ",
+                PluralShortName = "Netherlands Antillean guilders"
             },
-
             new()
             {
-                Code ="TWD",
-                Name="New Taiwan dollar" ,
-                NativeName="新臺幣",
-                NativeSymbol="$",
-                PluralShortName="New Taiwan dollars",
-                ShortName="New Taiwan dollar",
-                Symbol="$"
+                Code = "TWD",
+                Name = "New Taiwan dollar",
+                ShortName = "New Taiwan dollar",
+                Symbol = "$",
+                NativeName = "新臺幣",
+                NativeSymbol = "$",
+                PluralShortName = "New Taiwan dollars"
             },
-
             new()
             {
-                Code ="NZD",
-                Name="New Zealand dollar" ,
-                NativeName="New Zealand dollar",
-                NativeSymbol="$",
-                PluralShortName="New Zealand dollars",
-                ShortName="New Zealand dollar",
-                Symbol="$"
+                Code = "NZD",
+                Name = "New Zealand dollar",
+                ShortName = "New Zealand dollar",
+                Symbol = "$",
+                NativeName = "New Zealand dollar",
+                NativeSymbol = "$",
+                PluralShortName = "New Zealand dollars"
             },
-
             new()
             {
-                Code ="NIO",
-                Name="Nicaraguan córdoba" ,
-                NativeName="córdoba nicaragüense",
-                NativeSymbol="C$",
-                PluralShortName="Nicaraguan córdoba",
-                ShortName="Nicaraguan córdoba",
-                Symbol="C$"
+                Code = "NIO",
+                Name = "Nicaraguan córdoba",
+                ShortName = "Nicaraguan córdoba",
+                Symbol = "C$",
+                NativeName = "córdoba nicaragüense",
+                NativeSymbol = "C$",
+                PluralShortName = "Nicaraguan córdoba"
             },
-
             new()
             {
-                Code ="NGN",
-                Name="Nigerian naira" ,
-                NativeName="Nigerian naira",
-                NativeSymbol="₦",
-                PluralShortName="Nigerian naira",
-                ShortName="Nigerian naira",
-                Symbol="₦"
+                Code = "NGN",
+                Name = "Nigerian naira",
+                ShortName = "Nigerian naira",
+                Symbol = "₦",
+                NativeName = "Nigerian naira",
+                NativeSymbol = "₦",
+                PluralShortName = "Nigerian naira"
             },
-
             new()
             {
-                Code ="KPW",
-                Name="North Korean won" ,
-                NativeName="North Korean won",
-                NativeSymbol="₩",
-                PluralShortName="North Korean won",
-                ShortName="North Korean won",
-                Symbol="₩"
+                Code = "KPW",
+                Name = "North Korean won",
+                ShortName = "North Korean won",
+                Symbol = "₩",
+                NativeName = "North Korean won",
+                NativeSymbol = "₩",
+                PluralShortName = "North Korean won"
             },
-
             new()
             {
-                Code ="NOK",
-                Name="Norwegian krone" ,
-                NativeName="norsk krone",
-                NativeSymbol="kr",
-                PluralShortName="Norwegian kroner",
-                ShortName="Norwegian krone",
-                Symbol="kr"
+                Code = "NOK",
+                Name = "Norwegian krone",
+                ShortName = "Norwegian krone",
+                Symbol = "kr",
+                NativeName = "norsk krone",
+                NativeSymbol = "kr",
+                PluralShortName = "Norwegian kroner"
             },
-
             new()
             {
-                Code ="OMR",
-                Name="Omani rial" ,
-                NativeName="ريال عماني",
-                NativeSymbol="ر.ع.",
-                PluralShortName="Omani rials",
-                ShortName="Omani rial",
-                Symbol="rial"
+                Code = "OMR",
+                Name = "Omani rial",
+                ShortName = "Omani rial",
+                Symbol = "rial",
+                NativeName = "ريال عماني",
+                NativeSymbol = "ر.ع.",
+                PluralShortName = "Omani rials"
             },
-
             new()
             {
-                Code ="PKR",
-                Name="Pakistani rupee" ,
-                NativeName="پاکستانی روپیہ",
-                NativeSymbol="₨",
-                PluralShortName="Pakistani rupees",
-                ShortName="Pakistani rupee",
-                Symbol="₨"
+                Code = "PKR",
+                Name = "Pakistani rupee",
+                ShortName = "Pakistani rupee",
+                Symbol = "₨",
+                NativeName = "پاکستانی روپیہ",
+                NativeSymbol = "₨",
+                PluralShortName = "Pakistani rupees"
             },
-
             new()
             {
-                Code ="PAB",
-                Name="Panamanian balboa" ,
-                NativeName="Balboa panameño",
-                NativeSymbol="B/.",
-                PluralShortName="Panamanian balboa",
-                ShortName="Panamanian balboa",
-                Symbol="B/."
+                Code = "PAB",
+                Name = "Panamanian balboa",
+                ShortName = "Panamanian balboa",
+                Symbol = "B/.",
+                NativeName = "Balboa panameño",
+                NativeSymbol = "B/.",
+                PluralShortName = "Panamanian balboa"
             },
-
             new()
             {
-                Code ="PGK",
-                Name="Papua New Guinean kina" ,
-                NativeName="Papua New Guinean kina",
-                NativeSymbol="K",
-                PluralShortName="Papua New Guinean kina",
-                ShortName="Papua New Guinean kina",
-                Symbol="K"
+                Code = "PGK",
+                Name = "Papua New Guinean kina",
+                ShortName = "Papua New Guinean kina",
+                Symbol = "K",
+                NativeName = "Papua New Guinean kina",
+                NativeSymbol = "K",
+                PluralShortName = "Papua New Guinean kina"
             },
-
             new()
             {
-                Code ="PYG",
-                Name="Paraguayan guaraní" ,
-                NativeName="Guaraní paraguayo",
-                NativeSymbol="₲",
-                PluralShortName="Paraguayan guaraníes",
-                ShortName="Paraguayan guaraní",
-                Symbol="₲"
+                Code = "PYG",
+                Name = "Paraguayan guaraní",
+                ShortName = "Paraguayan guaraní",
+                Symbol = "₲",
+                NativeName = "Guaraní paraguayo",
+                NativeSymbol = "₲",
+                PluralShortName = "Paraguayan guaraníes"
             },
-
             new()
             {
-                Code ="PEN",
-                Name="Peruvian sol" ,
-                NativeName="sol peruano",
-                NativeSymbol="S/",
-                PluralShortName="Peruvian soles",
-                ShortName="Peruvian sol",
-                Symbol="S/"
+                Code = "PEN",
+                Name = "Peruvian sol",
+                ShortName = "Peruvian sol",
+                Symbol = "S/",
+                NativeName = "sol peruano",
+                NativeSymbol = "S/",
+                PluralShortName = "Peruvian soles"
             },
-
             new()
             {
-                Code ="PHP",
-                Name="Philippine peso" ,
-                NativeName="Piso ng Pilipinas",
-                NativeSymbol="₱",
-                PluralShortName="Philippine pesos",
-                ShortName="Philippine peso",
-                Symbol="₱"
+                Code = "PHP",
+                Name = "Philippine peso",
+                ShortName = "Philippine peso",
+                Symbol = "₱",
+                NativeName = "Piso ng Pilipinas",
+                NativeSymbol = "₱",
+                PluralShortName = "Philippine pesos"
             },
-
             new()
             {
-                Code ="PLN",
-                Name="Polish złoty" ,
-                NativeName="Polski złoty",
-                NativeSymbol="zł",
-                PluralShortName="Polish złoty",
-                ShortName="Polish złoty",
-                Symbol="zł"
+                Code = "PLN",
+                Name = "Polish złoty",
+                ShortName = "Polish złoty",
+                Symbol = "zł",
+                NativeName = "Polski złoty",
+                NativeSymbol = "zł",
+                PluralShortName = "Polish złoty"
             },
-
             new()
             {
-                Code ="QAR",
-                Name="Qatari riyal" ,
-                NativeName="ريال قطري",
-                NativeSymbol="ر.ق",
-                PluralShortName="Qatari riyals",
-                ShortName="Qatari riyal",
-                Symbol="QR"
+                Code = "QAR",
+                Name = "Qatari riyal",
+                ShortName = "Qatari riyal",
+                Symbol = "QR",
+                NativeName = "ريال قطري",
+                NativeSymbol = "ر.ق",
+                PluralShortName = "Qatari riyals"
             },
-
             new()
             {
-                Code ="RON",
-                Name="Romanian leu" ,
-                NativeName="Leu românesc",
-                NativeSymbol="lei",
-                PluralShortName="Romanian lei",
-                ShortName="Romanian leu",
-                Symbol="lei"
+                Code = "RON",
+                Name = "Romanian leu",
+                ShortName = "Romanian leu",
+                Symbol = "lei",
+                NativeName = "Leu românesc",
+                NativeSymbol = "lei",
+                PluralShortName = "Romanian lei"
             },
-
             new()
             {
-                Code ="RUB",
-                Name="Russian ruble" ,
-                NativeName="Российский рубль",
-                NativeSymbol="₽",
-                PluralShortName="Russian ruble",
-                ShortName="Russian ruble",
-                Symbol="₽"
+                Code = "RUB",
+                Name = "Russian ruble",
+                ShortName = "Russian ruble",
+                Symbol = "₽",
+                NativeName = "Российский рубль",
+                NativeSymbol = "₽",
+                PluralShortName = "Russian ruble"
             },
-
             new()
             {
-                Code ="RWF",
-                Name="Rwandan franc" ,
-                NativeName="Franc Rwandais",
-                NativeSymbol="Fr",
-                PluralShortName="Rwandan francs",
-                ShortName="Rwandan franc",
-                Symbol="Fr"
+                Code = "RWF",
+                Name = "Rwandan franc",
+                ShortName = "Rwandan franc",
+                Symbol = "Fr",
+                NativeName = "Franc Rwandais",
+                NativeSymbol = "Fr",
+                PluralShortName = "Rwandan francs"
             },
-
             new()
             {
-                Code ="SHP",
-                Name="Saint Helena pound" ,
-                NativeName="Saint Helena pound",
-                NativeSymbol="£",
-                PluralShortName="Saint Helena pounds",
-                ShortName="Saint Helena pound",
-                Symbol="£"
+                Code = "SHP",
+                Name = "Saint Helena pound",
+                ShortName = "Saint Helena pound",
+                Symbol = "£",
+                NativeName = "Saint Helena pound",
+                NativeSymbol = "£",
+                PluralShortName = "Saint Helena pounds"
             },
-
             new()
             {
-                Code ="WST",
-                Name="Samoan tālā" ,
-                NativeName="Samoa tālā",
-                NativeSymbol="T",
-                PluralShortName="Samoan tālā",
-                ShortName="Samoan tālā",
-                Symbol="T"
+                Code = "WST",
+                Name = "Samoan tālā",
+                ShortName = "Samoan tālā",
+                Symbol = "T",
+                NativeName = "Samoa tālā",
+                NativeSymbol = "T",
+                PluralShortName = "Samoan tālā"
             },
-
             new()
             {
-                Code ="STN",
-                Name="São Tomé and Príncipe dobra" ,
-                NativeName="dobra são-tomense",
-                NativeSymbol="Db",
-                PluralShortName="São Tomé and Príncipe dobras",
-                ShortName="São Tomé and Príncipe dobra",
-                Symbol="Db"
+                Code = "STN",
+                Name = "São Tomé and Príncipe dobra",
+                ShortName = "São Tomé and Príncipe dobra",
+                Symbol = "Db",
+                NativeName = "dobra são-tomense",
+                NativeSymbol = "Db",
+                PluralShortName = "São Tomé and Príncipe dobras"
             },
-
             new()
             {
-                Code ="SAR",
-                Name="Saudi riyal" ,
-                NativeName="ريال سعودي",
-                NativeSymbol="ر.س",
-                PluralShortName="Saudi riyals",
-                ShortName="Saudi riyal",
-                Symbol="SR"
+                Code = "SAR",
+                Name = "Saudi riyal",
+                ShortName = "Saudi riyal",
+                Symbol = "SR",
+                NativeName = "ريال سعودي",
+                NativeSymbol = "ر.س",
+                PluralShortName = "Saudi riyals"
             },
-
             new()
             {
-                Code ="RSD",
-                Name="Serbian dinar" ,
-                NativeName="Srpski dinar",
-                NativeSymbol="дин.",
-                PluralShortName="Serbian dinars",
-                ShortName="Serbian dinar",
-                Symbol="din"
+                Code = "RSD",
+                Name = "Serbian dinar",
+                ShortName = "Serbian dinar",
+                Symbol = "din",
+                NativeName = "Srpski dinar",
+                NativeSymbol = "дин.",
+                PluralShortName = "Serbian dinars"
             },
-
             new()
             {
-                Code ="SCR",
-                Name="Seychellois rupee" ,
-                NativeName="roupie seychelloise ",
-                NativeSymbol="₨",
-                PluralShortName="Seychellois rupees",
-                ShortName="Seychellois rupee",
-                Symbol="₨"
+                Code = "SCR",
+                Name = "Seychellois rupee",
+                ShortName = "Seychellois rupee",
+                Symbol = "₨",
+                NativeName = "roupie seychelloise ",
+                NativeSymbol = "₨",
+                PluralShortName = "Seychellois rupees"
             },
-
             new()
             {
-                Code ="SLL",
-                Name="Sierra Leonean leone" ,
-                NativeName="Sierra Leonean leone",
-                NativeSymbol="Le",
-                PluralShortName="Sierra Leonean leone",
-                ShortName="Sierra Leonean leone",
-                Symbol="Le"
+                Code = "SLL",
+                Name = "Sierra Leonean leone",
+                ShortName = "Sierra Leonean leone",
+                Symbol = "Le",
+                NativeName = "Sierra Leonean leone",
+                NativeSymbol = "Le",
+                PluralShortName = "Sierra Leonean leone"
             },
-
             new()
             {
-                Code ="SGD",
-                Name="Singapore dollar" ,
-                NativeName="Singapore dollar",
-                NativeSymbol="$",
-                PluralShortName="Singapore dollars",
-                ShortName="Singapore dollar",
-                Symbol="$"
+                Code = "SGD",
+                Name = "Singapore dollar",
+                ShortName = "Singapore dollar",
+                Symbol = "$",
+                NativeName = "Singapore dollar",
+                NativeSymbol = "$",
+                PluralShortName = "Singapore dollars"
             },
-
             new()
             {
-                Code ="SBD",
-                Name="Solomon Islands dollar" ,
-                NativeName="Solomon Islands dollar",
-                NativeSymbol="$",
-                PluralShortName="Solomon Islands dollars",
-                ShortName="Solomon Islands dollar",
-                Symbol="$"
+                Code = "SBD",
+                Name = "Solomon Islands dollar",
+                ShortName = "Solomon Islands dollar",
+                Symbol = "$",
+                NativeName = "Solomon Islands dollar",
+                NativeSymbol = "$",
+                PluralShortName = "Solomon Islands dollars"
             },
-
             new()
             {
-                Code ="SOS",
-                Name="Somali shilling" ,
-                NativeName="Somali shilling",
-                NativeSymbol="Sh",
-                PluralShortName="Somali shillings",
-                ShortName="Somali shilling",
-                Symbol="Sh"
+                Code = "SOS",
+                Name = "Somali shilling",
+                ShortName = "Somali shilling",
+                Symbol = "Sh",
+                NativeName = "Somali shilling",
+                NativeSymbol = "Sh",
+                PluralShortName = "Somali shillings"
             },
-
             new()
             {
-                Code ="ZAR",
-                Name="South African rand" ,
-                NativeName="South African rand",
-                NativeSymbol="R",
-                PluralShortName="South African rand",
-                ShortName="South African rand",
-                Symbol="R"
+                Code = "ZAR",
+                Name = "South African rand",
+                ShortName = "South African rand",
+                Symbol = "R",
+                NativeName = "South African rand",
+                NativeSymbol = "R",
+                PluralShortName = "South African rand"
             },
-
             new()
             {
-                Code ="KRW",
-                Name="South Korean won" ,
-                NativeName="",
-                NativeSymbol="₩",
-                PluralShortName="",
-                ShortName="South Korean won",
-                Symbol=""
+                Code = "KRW",
+                Name = "South Korean won",
+                ShortName = "South Korean won",
+                Symbol = "",
+                NativeName = "",
+                NativeSymbol = "₩",
+                PluralShortName = ""
             },
-
             new()
             {
-                Code ="SSP",
-                Name="South Sudanese pound" ,
-                NativeName="South Sudanese pound",
-                NativeSymbol="£",
-                PluralShortName="South Sudanese pounds",
-                ShortName="South Sudanese pound",
-                Symbol="£"
+                Code = "SSP",
+                Name = "South Sudanese pound",
+                ShortName = "South Sudanese pound",
+                Symbol = "£",
+                NativeName = "South Sudanese pound",
+                NativeSymbol = "£",
+                PluralShortName = "South Sudanese pounds"
             },
-
             new()
             {
-                Code ="LKR",
-                Name="Sri Lankan rupee" ,
-                NativeName="ශ්‍රී ලංකා රුපියල්",
-                NativeSymbol="Rs",
-                PluralShortName="Sri Lankan rupee",
-                ShortName="Sri Lankan rupee",
-                Symbol="Rs"
+                Code = "LKR",
+                Name = "Sri Lankan rupee",
+                ShortName = "Sri Lankan rupee",
+                Symbol = "Rs",
+                NativeName = "ශ්‍රී ලංකා රුපියල්",
+                NativeSymbol = "Rs",
+                PluralShortName = "Sri Lankan rupee"
             },
-
             new()
             {
-                Code ="SDG",
-                Name="Sudanese pound" ,
-                NativeName="جنيه سوداني",
-                NativeSymbol="ج.س.",
-                PluralShortName="Sudanese pounds",
-                ShortName="Sudanese pound",
-                Symbol="SD"
+                Code = "SDG",
+                Name = "Sudanese pound",
+                ShortName = "Sudanese pound",
+                Symbol = "SD",
+                NativeName = "جنيه سوداني",
+                NativeSymbol = "ج.س.",
+                PluralShortName = "Sudanese pounds"
             },
-
             new()
             {
-                Code ="SRD",
-                Name="Surinamese dollar" ,
-                NativeName="Surinamese dollar",
-                NativeSymbol="$",
-                PluralShortName="Surinamese dollars",
-                ShortName="Surinamese dollar",
-                Symbol="$"
+                Code = "SRD",
+                Name = "Surinamese dollar",
+                ShortName = "Surinamese dollar",
+                Symbol = "$",
+                NativeName = "Surinamese dollar",
+                NativeSymbol = "$",
+                PluralShortName = "Surinamese dollars"
             },
-
             new()
             {
-                Code ="SZL",
-                Name="Swazi lilangeni" ,
-                NativeName="Swazi lilangeni",
-                NativeSymbol="L",
-                PluralShortName="Swazi lilangeni",
-                ShortName="Swazi lilangeni",
-                Symbol="L"
+                Code = "SZL",
+                Name = "Swazi lilangeni",
+                ShortName = "Swazi lilangeni",
+                Symbol = "L",
+                NativeName = "Swazi lilangeni",
+                NativeSymbol = "L",
+                PluralShortName = "Swazi lilangeni"
             },
-
             new()
             {
-                Code ="SEK",
-                Name="Swedish krona" ,
-                NativeName="svensk krona",
-                NativeSymbol="kr",
-                PluralShortName="Swedish kronor",
-                ShortName="Swedish krona",
-                Symbol="kr"
+                Code = "SEK",
+                Name = "Swedish krona",
+                ShortName = "Swedish krona",
+                Symbol = "kr",
+                NativeName = "svensk krona",
+                NativeSymbol = "kr",
+                PluralShortName = "Swedish kronor"
             },
-
             new()
             {
-                Code ="CHF",
-                Name="Swiss franc" ,
-                NativeName="Schweizer Franken",
-                NativeSymbol="Fr",
-                PluralShortName="Swiss francs",
-                ShortName="Swiss franc",
-                Symbol="Fr"
+                Code = "CHF",
+                Name = "Swiss franc",
+                ShortName = "Swiss franc",
+                Symbol = "Fr",
+                NativeName = "Schweizer Franken",
+                NativeSymbol = "Fr",
+                PluralShortName = "Swiss francs"
             },
-
             new()
             {
-                Code ="SYP",
-                Name="Syrian pound" ,
-                NativeName="الليرة السورية",
-                NativeSymbol="£",
-                PluralShortName="Syrian pounds",
-                ShortName="Syrian pound",
-                Symbol="LS"
+                Code = "SYP",
+                Name = "Syrian pound",
+                ShortName = "Syrian pound",
+                Symbol = "LS",
+                NativeName = "الليرة السورية",
+                NativeSymbol = "£",
+                PluralShortName = "Syrian pounds"
             },
-
             new()
             {
-                Code ="TJS",
-                Name="Tajikistani somoni" ,
-                NativeName="Сомонӣ (Tajik)",
-                NativeSymbol="ЅМ",
-                PluralShortName="Tajikistani somoni",
-                ShortName="Tajikistani somoni",
-                Symbol="ЅМ"
+                Code = "TJS",
+                Name = "Tajikistani somoni",
+                ShortName = "Tajikistani somoni",
+                Symbol = "ЅМ",
+                NativeName = "Сомонӣ (Tajik)",
+                NativeSymbol = "ЅМ",
+                PluralShortName = "Tajikistani somoni"
             },
-
             new()
             {
-                Code ="TZS",
-                Name="Tanzanian shilling" ,
-                NativeName="Shilingi ya Tanzania ",
-                NativeSymbol="Sh",
-                PluralShortName="Tanzanian shilling",
-                ShortName="Tanzanian shilling",
-                Symbol="Sh"
+                Code = "TZS",
+                Name = "Tanzanian shilling",
+                ShortName = "Tanzanian shilling",
+                Symbol = "Sh",
+                NativeName = "Shilingi ya Tanzania ",
+                NativeSymbol = "Sh",
+                PluralShortName = "Tanzanian shilling"
             },
-
             new()
             {
-                Code ="THB",
-                Name="Thai baht" ,
-                NativeName="บาทไทย ",
-                NativeSymbol="฿",
-                PluralShortName="Thai baht",
-                ShortName="Thai baht",
-                Symbol="฿"
+                Code = "THB",
+                Name = "Thai baht",
+                ShortName = "Thai baht",
+                Symbol = "฿",
+                NativeName = "บาทไทย ",
+                NativeSymbol = "฿",
+                PluralShortName = "Thai baht"
             },
-
             new()
             {
-                Code ="TOP",
-                Name="Tongan paʻanga" ,
-                NativeName="Tongan paʻanga",
-                NativeSymbol="T$",
-                PluralShortName="Tongan paʻanga",
-                ShortName="Tongan paʻanga",
-                Symbol="T$"
+                Code = "TOP",
+                Name = "Tongan paʻanga",
+                ShortName = "Tongan paʻanga",
+                Symbol = "T$",
+                NativeName = "Tongan paʻanga",
+                NativeSymbol = "T$",
+                PluralShortName = "Tongan paʻanga"
             },
-
             new()
             {
-                Code ="TTD",
-                Name="Trinidad and Tobago dollar" ,
-                NativeName="Trinidad and Tobago dollar",
-                NativeSymbol="$",
-                PluralShortName="Trinidad and Tobago dollars",
-                ShortName="Trinidad and Tobago dollar",
-                Symbol="$"
+                Code = "TTD",
+                Name = "Trinidad and Tobago dollar",
+                ShortName = "Trinidad and Tobago dollar",
+                Symbol = "$",
+                NativeName = "Trinidad and Tobago dollar",
+                NativeSymbol = "$",
+                PluralShortName = "Trinidad and Tobago dollars"
             },
-
             new()
             {
-                Code ="TND",
-                Name="Tunisian dinar" ,
-                NativeName="دينار تونسي",
-                NativeSymbol="د.ت",
-                PluralShortName="Tunisian dinars",
-                ShortName="Tunisian dinar",
-                Symbol="DT"
+                Code = "TND",
+                Name = "Tunisian dinar",
+                ShortName = "Tunisian dinar",
+                Symbol = "DT",
+                NativeName = "دينار تونسي",
+                NativeSymbol = "د.ت",
+                PluralShortName = "Tunisian dinars"
             },
-
             new()
             {
-                Code ="TRY",
-                Name="Turkish lira" ,
-                NativeName="Türk lirası ",
-                NativeSymbol="₺",
-                PluralShortName="Turkish lira",
-                ShortName="Turkish lira",
-                Symbol="₺"
+                Code = "TRY",
+                Name = "Turkish lira",
+                ShortName = "Turkish lira",
+                Symbol = "₺",
+                NativeName = "Türk lirası ",
+                NativeSymbol = "₺",
+                PluralShortName = "Turkish lira"
             },
-
             new()
             {
-                Code ="TMT",
-                Name="Turkmenistan manat" ,
-                NativeName="Türkmen manady ",
-                NativeSymbol="T",
-                PluralShortName="Turkmenistan manat",
-                ShortName="Turkmenistan manat",
-                Symbol="T"
+                Code = "TMT",
+                Name = "Turkmenistan manat",
+                ShortName = "Turkmenistan manat",
+                Symbol = "T",
+                NativeName = "Türkmen manady ",
+                NativeSymbol = "T",
+                PluralShortName = "Turkmenistan manat"
             },
-
             new()
             {
-                Code ="TVD",
-                Name="Tuvaluan dollar" ,
-                NativeName="Tuvaluan dollar",
-                NativeSymbol="$",
-                PluralShortName="Tuvaluan dollars",
-                ShortName="Tuvaluan dollar",
-                Symbol="$"
+                Code = "TVD",
+                Name = "Tuvaluan dollar",
+                ShortName = "Tuvaluan dollar",
+                Symbol = "$",
+                NativeName = "Tuvaluan dollar",
+                NativeSymbol = "$",
+                PluralShortName = "Tuvaluan dollars"
             },
-
             new()
             {
-                Code ="UGX",
-                Name="Ugandan shilling" ,
-                NativeName="Shilingi ya Uganda",
-                NativeSymbol="Sh",
-                PluralShortName="Ugandan shilling",
-                ShortName="Ugandan shilling",
-                Symbol="Sh"
+                Code = "UGX",
+                Name = "Ugandan shilling",
+                ShortName = "Ugandan shilling",
+                Symbol = "Sh",
+                NativeName = "Shilingi ya Uganda",
+                NativeSymbol = "Sh",
+                PluralShortName = "Ugandan shilling"
             },
-
             new()
             {
-                Code ="UAH",
-                Name="Ukrainian hryvnia" ,
-                NativeName="українська гривня",
-                NativeSymbol="₴",
-                PluralShortName="Ukrainian hryvnia",
-                ShortName="Ukrainian hryvnia",
-                Symbol="₴"
+                Code = "UAH",
+                Name = "Ukrainian hryvnia",
+                ShortName = "Ukrainian hryvnia",
+                Symbol = "₴",
+                NativeName = "українська гривня",
+                NativeSymbol = "₴",
+                PluralShortName = "Ukrainian hryvnia"
             },
-
             new()
             {
-                Code ="AED",
-                Name="United Arab Emirates dirham" ,
-                NativeName="درهم إماراتي",
-                NativeSymbol="د.إ",
-                PluralShortName="dirhams",
-                ShortName="dirham",
-                Symbol="د.إ"
+                Code = "AED",
+                Name = "United Arab Emirates dirham",
+                ShortName = "dirham",
+                Symbol = "د.إ",
+                NativeName = "درهم إماراتي",
+                NativeSymbol = "د.إ",
+                PluralShortName = "dirhams"
             },
-
             new()
             {
-                Code ="USD",
-                Name="United States Dollar" ,
-                NativeName="US Dollars",
-                NativeSymbol="$",
-                PluralShortName="US Dollars",
-                ShortName="US Dollar",
-                Symbol="$"
+                Code = "USD",
+                Name = "United States Dollar",
+                ShortName = "US Dollar",
+                Symbol = "$",
+                NativeName = "US Dollars",
+                NativeSymbol = "$",
+                PluralShortName = "US Dollars"
             },
-
             new()
             {
-                Code ="UYU",
-                Name="Uruguayan peso" ,
-                NativeName="peso uruguayo",
-                NativeSymbol="$",
-                PluralShortName="Uruguayan pesos",
-                ShortName="Uruguayan peso",
-                Symbol="$"
+                Code = "UYU",
+                Name = "Uruguayan peso",
+                ShortName = "Uruguayan peso",
+                Symbol = "$",
+                NativeName = "peso uruguayo",
+                NativeSymbol = "$",
+                PluralShortName = "Uruguayan pesos"
             },
-
             new()
             {
-                Code ="UZS",
-                Name="Uzbekistani so'm" ,
-                NativeName="Oʻzbekiston soʻmi ",
-                NativeSymbol="NaN",
-                PluralShortName="Uzbekistani so'm",
-                ShortName="Uzbekistani so'm",
-                Symbol="NaN"
+                Code = "UZS",
+                Name = "Uzbekistani so'm",
+                ShortName = "Uzbekistani so'm",
+                Symbol = "NaN",
+                NativeName = "Oʻzbekiston soʻmi ",
+                NativeSymbol = "NaN",
+                PluralShortName = "Uzbekistani so'm"
             },
-
             new()
             {
-                Code ="VUV",
-                Name="Vanuatu vatu" ,
-                NativeName="Vanuatu vatu",
-                NativeSymbol="Vt",
-                PluralShortName="Vanuatu vatu",
-                ShortName="Vanuatu vatu",
-                Symbol="Vt"
+                Code = "VUV",
+                Name = "Vanuatu vatu",
+                ShortName = "Vanuatu vatu",
+                Symbol = "Vt",
+                NativeName = "Vanuatu vatu",
+                NativeSymbol = "Vt",
+                PluralShortName = "Vanuatu vatu"
             },
-
             new()
             {
-                Code ="VEF",
-                Name="Venezuelan bolívar" ,
-                NativeName="bolívar venezolano",
-                NativeSymbol="Bs F",
-                PluralShortName="Venezuelan bolívarVenezuelan bolívar",
-                ShortName="Venezuelan bolívar",
-                Symbol="Bs F"
+                Code = "VEF",
+                Name = "Venezuelan bolívar",
+                ShortName = "Venezuelan bolívar",
+                Symbol = "Bs F",
+                NativeName = "bolívar venezolano",
+                NativeSymbol = "Bs F",
+                PluralShortName = "Venezuelan bolívarVenezuelan bolívar"
             },
-
             new()
             {
-                Code ="VND",
-                Name="Vietnamese đồng" ,
-                NativeName="đồng Việt Nam ",
-                NativeSymbol="₫",
-                PluralShortName="Vietnamese đồng",
-                ShortName="Vietnamese đồng",
-                Symbol="₫"
+                Code = "VND",
+                Name = "Vietnamese đồng",
+                ShortName = "Vietnamese đồng",
+                Symbol = "₫",
+                NativeName = "đồng Việt Nam ",
+                NativeSymbol = "₫",
+                PluralShortName = "Vietnamese đồng"
             },
-
             new()
             {
-                Code ="XOF",
-                Name="West African CFA franc" ,
-                NativeName="West African CFA franc",
-                NativeSymbol="Fr",
-                PluralShortName="West African CFA francs",
-                ShortName="West African CFA franc",
-                Symbol="Fr"
+                Code = "XOF",
+                Name = "West African CFA franc",
+                ShortName = "West African CFA franc",
+                Symbol = "Fr",
+                NativeName = "West African CFA franc",
+                NativeSymbol = "Fr",
+                PluralShortName = "West African CFA francs"
             },
-
             new()
             {
-                Code ="YER",
-                Name="Yemeni rial" ,
-                NativeName="ريال يمني",
-                NativeSymbol="﷼",
-                PluralShortName="Yemeni rials",
-                ShortName="Yemeni rial",
-                Symbol="﷼"
+                Code = "YER",
+                Name = "Yemeni rial",
+                ShortName = "Yemeni rial",
+                Symbol = "﷼",
+                NativeName = "ريال يمني",
+                NativeSymbol = "﷼",
+                PluralShortName = "Yemeni rials"
             },
-
             new()
             {
-                Code ="ZMW",
-                Name="Zambian kwacha" ,
-                NativeName="Zambian kwacha",
-                NativeSymbol="ZK",
-                PluralShortName="Zambian kwacha",
-                ShortName="Zambian kwacha",
-                Symbol="ZK"
+                Code = "ZMW",
+                Name = "Zambian kwacha",
+                ShortName = "Zambian kwacha",
+                Symbol = "ZK",
+                NativeName = "Zambian kwacha",
+                NativeSymbol = "ZK",
+                PluralShortName = "Zambian kwacha"
             }
         };
     }

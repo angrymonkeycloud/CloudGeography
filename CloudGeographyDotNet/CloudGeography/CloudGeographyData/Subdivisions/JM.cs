@@ -7,20 +7,104 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("JM", new List<Subdivision>()
         {
-            new(){ Code ="13", LocalName="Clarendon", Name="Clarendon", Type="Parish" },
-            new(){ Code ="9", LocalName="Hanover", Name="Hanover", Type="Parish" },
-            new(){ Code ="1", LocalName="Kingston", Name="Kingston", Type="Parish" },
-            new(){ Code ="12", LocalName="Manchester", Name="Manchester", Type="Parish" },
-            new(){ Code ="4", LocalName="Portland", Name="Portland", Type="Parish" },
-            new(){ Code ="2", LocalName="Saint Andrew", Name="Saint Andrew", Type="Parish" },
-            new(){ Code ="6", LocalName="Saint Ann", Name="Saint Ann", Type="Parish" },
-            new(){ Code ="14", LocalName="Saint Catherine", Name="Saint Catherine", Type="Parish" },
-            new(){ Code ="11", LocalName="Saint Elizabeth", Name="Saint Elizabeth", Type="Parish" },
-            new(){ Code ="8", LocalName="Saint James", Name="Saint James", Type="Parish" },
-            new(){ Code ="5", LocalName="Saint Mary", Name="Saint Mary", Type="Parish" },
-            new(){ Code ="3", LocalName="Saint Thomas", Name="Saint Thomas", Type="Parish" },
-            new(){ Code ="7", LocalName="Trelawny", Name="Trelawny", Type="Parish" },
-            new(){ Code ="10", LocalName="Westmoreland", Name="Westmoreland", Type="Parish" }
+            new()
+            { 
+                Code = "13",
+                Type = "Parish",
+                Name = "Clarendon",
+                LocalName = "Clarendon"
+            },
+            new()
+            { 
+                Code = "9",
+                Type = "Parish",
+                Name = "Hanover",
+                LocalName = "Hanover"
+            },
+            new()
+            { 
+                Code = "1",
+                Type = "Parish",
+                Name = "Kingston",
+                LocalName = "Kingston"
+            },
+            new()
+            { 
+                Code = "12",
+                Type = "Parish",
+                Name = "Manchester",
+                LocalName = "Manchester"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "Parish",
+                Name = "Portland",
+                LocalName = "Portland"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "Parish",
+                Name = "Saint Andrew",
+                LocalName = "Saint Andrew"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "Parish",
+                Name = "Saint Ann",
+                LocalName = "Saint Ann"
+            },
+            new()
+            { 
+                Code = "14",
+                Type = "Parish",
+                Name = "Saint Catherine",
+                LocalName = "Saint Catherine"
+            },
+            new()
+            { 
+                Code = "11",
+                Type = "Parish",
+                Name = "Saint Elizabeth",
+                LocalName = "Saint Elizabeth"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "Parish",
+                Name = "Saint James",
+                LocalName = "Saint James"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "Parish",
+                Name = "Saint Mary",
+                LocalName = "Saint Mary"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "Parish",
+                Name = "Saint Thomas",
+                LocalName = "Saint Thomas"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "Parish",
+                Name = "Trelawny",
+                LocalName = "Trelawny"
+            },
+            new()
+            { 
+                Code = "10",
+                Type = "Parish",
+                Name = "Westmoreland",
+                LocalName = "Westmoreland"
+            }
 
         });
     }

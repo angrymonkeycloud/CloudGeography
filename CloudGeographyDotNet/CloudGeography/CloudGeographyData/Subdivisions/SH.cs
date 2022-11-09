@@ -7,9 +7,27 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("SH", new List<Subdivision>()
         {
-            new(){ Code ="AC", LocalName="Ascension", Name="Ascension", Type="Entity" },
-            new(){ Code ="HL", LocalName="Saint Helena", Name="Saint Helena", Type="Entity" },
-            new(){ Code ="TA", LocalName="Tristan da Cunha", Name="Tristan da Cunha", Type="Entity" }
+            new()
+            { 
+                Code = "AC",
+                Type = "Entity",
+                Name = "Ascension",
+                LocalName = "Ascension"
+            },
+            new()
+            { 
+                Code = "HL",
+                Type = "Entity",
+                Name = "Saint Helena",
+                LocalName = "Saint Helena"
+            },
+            new()
+            { 
+                Code = "TA",
+                Type = "Entity",
+                Name = "Tristan da Cunha",
+                LocalName = "Tristan da Cunha"
+            }
 
         });
     }

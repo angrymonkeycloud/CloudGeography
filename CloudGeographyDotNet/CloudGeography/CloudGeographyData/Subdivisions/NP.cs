@@ -7,20 +7,104 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("NP", new List<Subdivision>()
         {
-            new(){ Code ="BA", LocalName="Bagmati", Name="Bagmati", Type="Zone" },
-            new(){ Code ="BH", LocalName="Bheri", Name="Bheri", Type="Zone" },
-            new(){ Code ="DH", LocalName="Dhawalagiri", Name="Dhawalagiri", Type="Zone" },
-            new(){ Code ="GA", LocalName="Gandaki", Name="Gandaki", Type="Zone" },
-            new(){ Code ="JA", LocalName="Janakpur", Name="Janakpur", Type="Zone" },
-            new(){ Code ="KA", LocalName="Karnali", Name="Karnali", Type="Zone" },
-            new(){ Code ="KO", LocalName="Kosi", Name="Kosi", Type="Zone" },
-            new(){ Code ="LU", LocalName="Lumbini", Name="Lumbini", Type="Zone" },
-            new(){ Code ="MA", LocalName="Mahakali", Name="Mahakali", Type="Zone" },
-            new(){ Code ="ME", LocalName="Mechi", Name="Mechi", Type="Zone" },
-            new(){ Code ="NA", LocalName="Narayani", Name="Narayani", Type="Zone" },
-            new(){ Code ="RA", LocalName="Rapti", Name="Rapti", Type="Zone" },
-            new(){ Code ="SA", LocalName="Sagarmatha", Name="Sagarmatha", Type="Zone" },
-            new(){ Code ="SE", LocalName="Seti", Name="Seti", Type="Zone" }
+            new()
+            { 
+                Code = "BA",
+                Type = "Zone",
+                Name = "Bagmati",
+                LocalName = "Bagmati"
+            },
+            new()
+            { 
+                Code = "BH",
+                Type = "Zone",
+                Name = "Bheri",
+                LocalName = "Bheri"
+            },
+            new()
+            { 
+                Code = "DH",
+                Type = "Zone",
+                Name = "Dhawalagiri",
+                LocalName = "Dhawalagiri"
+            },
+            new()
+            { 
+                Code = "GA",
+                Type = "Zone",
+                Name = "Gandaki",
+                LocalName = "Gandaki"
+            },
+            new()
+            { 
+                Code = "JA",
+                Type = "Zone",
+                Name = "Janakpur",
+                LocalName = "Janakpur"
+            },
+            new()
+            { 
+                Code = "KA",
+                Type = "Zone",
+                Name = "Karnali",
+                LocalName = "Karnali"
+            },
+            new()
+            { 
+                Code = "KO",
+                Type = "Zone",
+                Name = "Kosi",
+                LocalName = "Kosi"
+            },
+            new()
+            { 
+                Code = "LU",
+                Type = "Zone",
+                Name = "Lumbini",
+                LocalName = "Lumbini"
+            },
+            new()
+            { 
+                Code = "MA",
+                Type = "Zone",
+                Name = "Mahakali",
+                LocalName = "Mahakali"
+            },
+            new()
+            { 
+                Code = "ME",
+                Type = "Zone",
+                Name = "Mechi",
+                LocalName = "Mechi"
+            },
+            new()
+            { 
+                Code = "NA",
+                Type = "Zone",
+                Name = "Narayani",
+                LocalName = "Narayani"
+            },
+            new()
+            { 
+                Code = "RA",
+                Type = "Zone",
+                Name = "Rapti",
+                LocalName = "Rapti"
+            },
+            new()
+            { 
+                Code = "SA",
+                Type = "Zone",
+                Name = "Sagarmatha",
+                LocalName = "Sagarmatha"
+            },
+            new()
+            { 
+                Code = "SE",
+                Type = "Zone",
+                Name = "Seti",
+                LocalName = "Seti"
+            }
 
         });
     }

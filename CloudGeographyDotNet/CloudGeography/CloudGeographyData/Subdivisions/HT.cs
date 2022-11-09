@@ -7,16 +7,76 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("HT", new List<Subdivision>()
         {
-            new(){ Code ="AR", LocalName="Artibonite", Name="Artibonite", Type="Department" },
-            new(){ Code ="CE", LocalName="Centre", Name="Centre", Type="Department" },
-            new(){ Code ="GA", LocalName="GrandeAnse", Name="GrandeAnse", Type="Department" },
-            new(){ Code ="NI", LocalName="Nippes", Name="Nippes", Type="Department" },
-            new(){ Code ="ND", LocalName="Nord", Name="Nord", Type="Department" },
-            new(){ Code ="NE", LocalName="Nord-Est", Name="Nord-Est", Type="Department" },
-            new(){ Code ="NO", LocalName="Nord-Ouest", Name="Nord-Ouest", Type="Department" },
-            new(){ Code ="OU", LocalName="Ouest", Name="Ouest", Type="Department" },
-            new(){ Code ="SD", LocalName="Sud", Name="Sud", Type="Department" },
-            new(){ Code ="SE", LocalName="Sud-Est", Name="Sud-Est", Type="Department" }
+            new()
+            { 
+                Code = "AR",
+                Type = "Department",
+                Name = "Artibonite",
+                LocalName = "Artibonite"
+            },
+            new()
+            { 
+                Code = "CE",
+                Type = "Department",
+                Name = "Centre",
+                LocalName = "Centre"
+            },
+            new()
+            { 
+                Code = "GA",
+                Type = "Department",
+                Name = "GrandeAnse",
+                LocalName = "GrandeAnse"
+            },
+            new()
+            { 
+                Code = "NI",
+                Type = "Department",
+                Name = "Nippes",
+                LocalName = "Nippes"
+            },
+            new()
+            { 
+                Code = "ND",
+                Type = "Department",
+                Name = "Nord",
+                LocalName = "Nord"
+            },
+            new()
+            { 
+                Code = "NE",
+                Type = "Department",
+                Name = "Nord-Est",
+                LocalName = "Nord-Est"
+            },
+            new()
+            { 
+                Code = "NO",
+                Type = "Department",
+                Name = "Nord-Ouest",
+                LocalName = "Nord-Ouest"
+            },
+            new()
+            { 
+                Code = "OU",
+                Type = "Department",
+                Name = "Ouest",
+                LocalName = "Ouest"
+            },
+            new()
+            { 
+                Code = "SD",
+                Type = "Department",
+                Name = "Sud",
+                LocalName = "Sud"
+            },
+            new()
+            { 
+                Code = "SE",
+                Type = "Department",
+                Name = "Sud-Est",
+                LocalName = "Sud-Est"
+            }
 
         });
     }

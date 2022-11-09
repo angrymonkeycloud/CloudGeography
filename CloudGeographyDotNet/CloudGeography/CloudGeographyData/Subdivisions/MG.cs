@@ -7,12 +7,48 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("MG", new List<Subdivision>()
         {
-            new(){ Code ="T", LocalName="Antananarivo", Name="Antananarivo", Type="Province" },
-            new(){ Code ="D", LocalName="Antsiranana", Name="Antsiranana", Type="Province" },
-            new(){ Code ="F", LocalName="Fianarantsoa", Name="Fianarantsoa", Type="Province" },
-            new(){ Code ="M", LocalName="Mahajanga", Name="Mahajanga", Type="Province" },
-            new(){ Code ="A", LocalName="Toamasina", Name="Toamasina", Type="Province" },
-            new(){ Code ="U", LocalName="Toliara", Name="Toliara", Type="Province" }
+            new()
+            { 
+                Code = "T",
+                Type = "Province",
+                Name = "Antananarivo",
+                LocalName = "Antananarivo"
+            },
+            new()
+            { 
+                Code = "D",
+                Type = "Province",
+                Name = "Antsiranana",
+                LocalName = "Antsiranana"
+            },
+            new()
+            { 
+                Code = "F",
+                Type = "Province",
+                Name = "Fianarantsoa",
+                LocalName = "Fianarantsoa"
+            },
+            new()
+            { 
+                Code = "M",
+                Type = "Province",
+                Name = "Mahajanga",
+                LocalName = "Mahajanga"
+            },
+            new()
+            { 
+                Code = "A",
+                Type = "Province",
+                Name = "Toamasina",
+                LocalName = "Toamasina"
+            },
+            new()
+            { 
+                Code = "U",
+                Type = "Province",
+                Name = "Toliara",
+                LocalName = "Toliara"
+            }
 
         });
     }

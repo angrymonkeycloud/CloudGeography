@@ -7,16 +7,76 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("LC", new List<Subdivision>()
         {
-            new(){ Code ="1", LocalName="Anse la Raye", Name="Anse la Raye", Type="District" },
-            new(){ Code ="12", LocalName="Canaries", Name="Canaries", Type="District" },
-            new(){ Code ="2", LocalName="Castries", Name="Castries", Type="District" },
-            new(){ Code ="3", LocalName="Choiseul", Name="Choiseul", Type="District" },
-            new(){ Code ="5", LocalName="Dennery", Name="Dennery", Type="District" },
-            new(){ Code ="6", LocalName="Gros Islet", Name="Gros Islet", Type="District" },
-            new(){ Code ="7", LocalName="Laborie", Name="Laborie", Type="District" },
-            new(){ Code ="8", LocalName="Micoud", Name="Micoud", Type="District" },
-            new(){ Code ="10", LocalName="Soufrière", Name="Soufrière", Type="District" },
-            new(){ Code ="11", LocalName="Vieux Fort", Name="Vieux Fort", Type="District" }
+            new()
+            { 
+                Code = "1",
+                Type = "District",
+                Name = "Anse la Raye",
+                LocalName = "Anse la Raye"
+            },
+            new()
+            { 
+                Code = "12",
+                Type = "District",
+                Name = "Canaries",
+                LocalName = "Canaries"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "District",
+                Name = "Castries",
+                LocalName = "Castries"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "District",
+                Name = "Choiseul",
+                LocalName = "Choiseul"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "District",
+                Name = "Dennery",
+                LocalName = "Dennery"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "District",
+                Name = "Gros Islet",
+                LocalName = "Gros Islet"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "District",
+                Name = "Laborie",
+                LocalName = "Laborie"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "District",
+                Name = "Micoud",
+                LocalName = "Micoud"
+            },
+            new()
+            { 
+                Code = "10",
+                Type = "District",
+                Name = "Soufrière",
+                LocalName = "Soufrière"
+            },
+            new()
+            { 
+                Code = "11",
+                Type = "District",
+                Name = "Vieux Fort",
+                LocalName = "Vieux Fort"
+            }
 
         });
     }

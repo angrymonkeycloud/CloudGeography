@@ -7,15 +7,69 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("GA", new List<Subdivision>()
         {
-            new(){ Code ="1", LocalName="Estuaire", Name="Estuaire", Type="Province" },
-            new(){ Code ="2", LocalName="Haut-Ogooué", Name="Haut-Ogooué", Type="Province" },
-            new(){ Code ="3", LocalName="Moyen-Ogooué", Name="Moyen-Ogooué", Type="Province" },
-            new(){ Code ="4", LocalName="Ngounié", Name="Ngounié", Type="Province" },
-            new(){ Code ="5", LocalName="Nyanga", Name="Nyanga", Type="Province" },
-            new(){ Code ="6", LocalName="Ogooué-Ivindo", Name="Ogooué-Ivindo", Type="Province" },
-            new(){ Code ="7", LocalName="Ogooué-Lolo", Name="Ogooué-Lolo", Type="Province" },
-            new(){ Code ="8", LocalName="Ogooué-Maritime", Name="Ogooué-Maritime", Type="Province" },
-            new(){ Code ="9", LocalName="Woleu-Ntem", Name="Woleu-Ntem", Type="Province" }
+            new()
+            { 
+                Code = "1",
+                Type = "Province",
+                Name = "Estuaire",
+                LocalName = "Estuaire"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "Province",
+                Name = "Haut-Ogooué",
+                LocalName = "Haut-Ogooué"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "Province",
+                Name = "Moyen-Ogooué",
+                LocalName = "Moyen-Ogooué"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "Province",
+                Name = "Ngounié",
+                LocalName = "Ngounié"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "Province",
+                Name = "Nyanga",
+                LocalName = "Nyanga"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "Province",
+                Name = "Ogooué-Ivindo",
+                LocalName = "Ogooué-Ivindo"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "Province",
+                Name = "Ogooué-Lolo",
+                LocalName = "Ogooué-Lolo"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "Province",
+                Name = "Ogooué-Maritime",
+                LocalName = "Ogooué-Maritime"
+            },
+            new()
+            { 
+                Code = "9",
+                Type = "Province",
+                Name = "Woleu-Ntem",
+                LocalName = "Woleu-Ntem"
+            }
 
         });
     }

@@ -7,11 +7,41 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("RW", new List<Subdivision>()
         {
-            new(){ Code ="2", LocalName="Est", Name="Est", Type="Province" },
-            new(){ Code ="3", LocalName="Nord", Name="Nord", Type="Province" },
-            new(){ Code ="4", LocalName="Ouest", Name="Ouest", Type="Province" },
-            new(){ Code ="5", LocalName="Sud", Name="Sud", Type="Province" },
-            new(){ Code ="1", LocalName="Ville de Kigali", Name="Ville de Kigali", Type="City" }
+            new()
+            { 
+                Code = "2",
+                Type = "Province",
+                Name = "Est",
+                LocalName = "Est"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "Province",
+                Name = "Nord",
+                LocalName = "Nord"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "Province",
+                Name = "Ouest",
+                LocalName = "Ouest"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "Province",
+                Name = "Sud",
+                LocalName = "Sud"
+            },
+            new()
+            { 
+                Code = "1",
+                Type = "City",
+                Name = "Ville de Kigali",
+                LocalName = "Ville de Kigali"
+            }
 
         });
     }

@@ -7,12 +7,48 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("ER", new List<Subdivision>()
         {
-            new(){ Code ="AN", LocalName="Anseba", Name="Anseba", Type="Region" },
-            new(){ Code ="DU", LocalName="Debub", Name="Debub", Type="Region" },
-            new(){ Code ="DK", LocalName="Debubawi Keyyi? Ba?ri", Name="Debubawi Keyyi? Ba?ri", Type="Region" },
-            new(){ Code ="GB", LocalName="Gash-Barka", Name="Gash-Barka", Type="Region" },
-            new(){ Code ="MA", LocalName="Maikel", Name="Maikel", Type="Region" },
-            new(){ Code ="SK", LocalName="Semienawi Keyyi? Ba?ri", Name="Semienawi Keyyi? Ba?ri", Type="Region" }
+            new()
+            { 
+                Code = "AN",
+                Type = "Region",
+                Name = "Anseba",
+                LocalName = "Anseba"
+            },
+            new()
+            { 
+                Code = "DU",
+                Type = "Region",
+                Name = "Debub",
+                LocalName = "Debub"
+            },
+            new()
+            { 
+                Code = "DK",
+                Type = "Region",
+                Name = "Debubawi Keyyi? Ba?ri",
+                LocalName = "Debubawi Keyyi? Ba?ri"
+            },
+            new()
+            { 
+                Code = "GB",
+                Type = "Region",
+                Name = "Gash-Barka",
+                LocalName = "Gash-Barka"
+            },
+            new()
+            { 
+                Code = "MA",
+                Type = "Region",
+                Name = "Maikel",
+                LocalName = "Maikel"
+            },
+            new()
+            { 
+                Code = "SK",
+                Type = "Region",
+                Name = "Semienawi Keyyi? Ba?ri",
+                LocalName = "Semienawi Keyyi? Ba?ri"
+            }
 
         });
     }

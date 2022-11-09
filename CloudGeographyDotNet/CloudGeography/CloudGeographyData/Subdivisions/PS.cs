@@ -7,21 +7,111 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("PS", new List<Subdivision>()
         {
-            new(){ Code ="BTH", LocalName="Bethlehem", Name="Bethlehem", Type="Governorate" },
-            new(){ Code ="DEB", LocalName="Deir El Balah", Name="Deir El Balah", Type="Governorate" },
-            new(){ Code ="GZA", LocalName="Gaza", Name="Gaza", Type="Governorate" },
-            new(){ Code ="HBN", LocalName="Hebron", Name="Hebron", Type="Governorate" },
-            new(){ Code ="JRH", LocalName="Jericho and Al Aghwar", Name="Jericho and Al Aghwar", Type="Governorate" },
-            new(){ Code ="JEM", LocalName="Jerusalem", Name="Jerusalem", Type="Governorate" },
-            new(){ Code ="KYS", LocalName="Khan Yunis", Name="Khan Yunis", Type="Governorate" },
-            new(){ Code ="NBS", LocalName="Nablus", Name="Nablus", Type="Governorate" },
-            new(){ Code ="NGZ", LocalName="North Gaza", Name="North Gaza", Type="Governorate" },
-            new(){ Code ="QQA", LocalName="Qalqilya", Name="Qalqilya", Type="Governorate" },
-            new(){ Code ="RFH", LocalName="Rafah", Name="Rafah", Type="Governorate" },
-            new(){ Code ="RBH", LocalName="Ramallah", Name="Ramallah", Type="Governorate" },
-            new(){ Code ="SLT", LocalName="Salfit", Name="Salfit", Type="Governorate" },
-            new(){ Code ="TBS", LocalName="Tubas", Name="Tubas", Type="Governorate" },
-            new(){ Code ="TKM", LocalName="Tulkarm", Name="Tulkarm", Type="Governorate" }
+            new()
+            { 
+                Code = "BTH",
+                Type = "Governorate",
+                Name = "Bethlehem",
+                LocalName = "Bethlehem"
+            },
+            new()
+            { 
+                Code = "DEB",
+                Type = "Governorate",
+                Name = "Deir El Balah",
+                LocalName = "Deir El Balah"
+            },
+            new()
+            { 
+                Code = "GZA",
+                Type = "Governorate",
+                Name = "Gaza",
+                LocalName = "Gaza"
+            },
+            new()
+            { 
+                Code = "HBN",
+                Type = "Governorate",
+                Name = "Hebron",
+                LocalName = "Hebron"
+            },
+            new()
+            { 
+                Code = "JRH",
+                Type = "Governorate",
+                Name = "Jericho and Al Aghwar",
+                LocalName = "Jericho and Al Aghwar"
+            },
+            new()
+            { 
+                Code = "JEM",
+                Type = "Governorate",
+                Name = "Jerusalem",
+                LocalName = "Jerusalem"
+            },
+            new()
+            { 
+                Code = "KYS",
+                Type = "Governorate",
+                Name = "Khan Yunis",
+                LocalName = "Khan Yunis"
+            },
+            new()
+            { 
+                Code = "NBS",
+                Type = "Governorate",
+                Name = "Nablus",
+                LocalName = "Nablus"
+            },
+            new()
+            { 
+                Code = "NGZ",
+                Type = "Governorate",
+                Name = "North Gaza",
+                LocalName = "North Gaza"
+            },
+            new()
+            { 
+                Code = "QQA",
+                Type = "Governorate",
+                Name = "Qalqilya",
+                LocalName = "Qalqilya"
+            },
+            new()
+            { 
+                Code = "RFH",
+                Type = "Governorate",
+                Name = "Rafah",
+                LocalName = "Rafah"
+            },
+            new()
+            { 
+                Code = "RBH",
+                Type = "Governorate",
+                Name = "Ramallah",
+                LocalName = "Ramallah"
+            },
+            new()
+            { 
+                Code = "SLT",
+                Type = "Governorate",
+                Name = "Salfit",
+                LocalName = "Salfit"
+            },
+            new()
+            { 
+                Code = "TBS",
+                Type = "Governorate",
+                Name = "Tubas",
+                LocalName = "Tubas"
+            },
+            new()
+            { 
+                Code = "TKM",
+                Type = "Governorate",
+                Name = "Tulkarm",
+                LocalName = "Tulkarm"
+            }
 
         });
     }

@@ -7,23 +7,125 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("NZ", new List<Subdivision>()
         {
-            new(){ Code ="AUK", LocalName="Auckland", Name="Auckland", Type="Region" },
-            new(){ Code ="BOP", LocalName="Bay of Plenty", Name="Bay of Plenty", Type="Region" },
-            new(){ Code ="CAN", LocalName="Canterbury", Name="Canterbury", Type="Region" },
-            new(){ Code ="CIT", LocalName="Chatham Islands Territory", Name="Chatham Islands Territory", Type="Island" },
-            new(){ Code ="GIS", LocalName="Gisborne", Name="Gisborne", Type="Region" },
-            new(){ Code ="HKB", LocalName="Hawkes's Bay", Name="Hawkes's Bay", Type="Region" },
-            new(){ Code ="MWT", LocalName="Manawatu-Wanganui", Name="Manawatu-Wanganui", Type="Region" },
-            new(){ Code ="MBH", LocalName="Marlborough", Name="Marlborough", Type="Region" },
-            new(){ Code ="NSN", LocalName="Nelson", Name="Nelson", Type="Region" },
-            new(){ Code ="NTL", LocalName="Northland", Name="Northland", Type="Region" },
-            new(){ Code ="OTA", LocalName="Otago", Name="Otago", Type="Region" },
-            new(){ Code ="STL", LocalName="Southland", Name="Southland", Type="Region" },
-            new(){ Code ="TKI", LocalName="Taranaki", Name="Taranaki", Type="Region" },
-            new(){ Code ="TAS", LocalName="Tasman", Name="Tasman", Type="Region" },
-            new(){ Code ="WKO", LocalName="Waikato", Name="Waikato", Type="Region" },
-            new(){ Code ="WGN", LocalName="Wellington", Name="Wellington", Type="Region" },
-            new(){ Code ="WTC", LocalName="West Coast", Name="West Coast", Type="Region" }
+            new()
+            { 
+                Code = "AUK",
+                Type = "Region",
+                Name = "Auckland",
+                LocalName = "Auckland"
+            },
+            new()
+            { 
+                Code = "BOP",
+                Type = "Region",
+                Name = "Bay of Plenty",
+                LocalName = "Bay of Plenty"
+            },
+            new()
+            { 
+                Code = "CAN",
+                Type = "Region",
+                Name = "Canterbury",
+                LocalName = "Canterbury"
+            },
+            new()
+            { 
+                Code = "CIT",
+                Type = "Island",
+                Name = "Chatham Islands Territory",
+                LocalName = "Chatham Islands Territory"
+            },
+            new()
+            { 
+                Code = "GIS",
+                Type = "Region",
+                Name = "Gisborne",
+                LocalName = "Gisborne"
+            },
+            new()
+            { 
+                Code = "HKB",
+                Type = "Region",
+                Name = "Hawkes's Bay",
+                LocalName = "Hawkes's Bay"
+            },
+            new()
+            { 
+                Code = "MWT",
+                Type = "Region",
+                Name = "Manawatu-Wanganui",
+                LocalName = "Manawatu-Wanganui"
+            },
+            new()
+            { 
+                Code = "MBH",
+                Type = "Region",
+                Name = "Marlborough",
+                LocalName = "Marlborough"
+            },
+            new()
+            { 
+                Code = "NSN",
+                Type = "Region",
+                Name = "Nelson",
+                LocalName = "Nelson"
+            },
+            new()
+            { 
+                Code = "NTL",
+                Type = "Region",
+                Name = "Northland",
+                LocalName = "Northland"
+            },
+            new()
+            { 
+                Code = "OTA",
+                Type = "Region",
+                Name = "Otago",
+                LocalName = "Otago"
+            },
+            new()
+            { 
+                Code = "STL",
+                Type = "Region",
+                Name = "Southland",
+                LocalName = "Southland"
+            },
+            new()
+            { 
+                Code = "TKI",
+                Type = "Region",
+                Name = "Taranaki",
+                LocalName = "Taranaki"
+            },
+            new()
+            { 
+                Code = "TAS",
+                Type = "Region",
+                Name = "Tasman",
+                LocalName = "Tasman"
+            },
+            new()
+            { 
+                Code = "WKO",
+                Type = "Region",
+                Name = "Waikato",
+                LocalName = "Waikato"
+            },
+            new()
+            { 
+                Code = "WGN",
+                Type = "Region",
+                Name = "Wellington",
+                LocalName = "Wellington"
+            },
+            new()
+            { 
+                Code = "WTC",
+                Type = "Region",
+                Name = "West Coast",
+                LocalName = "West Coast"
+            }
 
         });
     }

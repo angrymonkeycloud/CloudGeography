@@ -7,31 +7,181 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("VE", new List<Subdivision>()
         {
-            new(){ Code ="Z", LocalName="Amazonas", Name="Amazonas", Type="State" },
-            new(){ Code ="B", LocalName="Anzoátegui", Name="Anzoátegui", Type="State" },
-            new(){ Code ="C", LocalName="Apure", Name="Apure", Type="State" },
-            new(){ Code ="D", LocalName="Aragua", Name="Aragua", Type="State" },
-            new(){ Code ="E", LocalName="Barinas", Name="Barinas", Type="State" },
-            new(){ Code ="F", LocalName="Bolívar", Name="Bolívar", Type="State" },
-            new(){ Code ="A", LocalName="Distrito Capital", Name="Capital District", Type="District" },
-            new(){ Code ="G", LocalName="Carabobo", Name="Carabobo", Type="State" },
-            new(){ Code ="H", LocalName="Cojedes", Name="Cojedes", Type="State" },
-            new(){ Code ="Y", LocalName="Delta Amacuro", Name="Delta Amacuro", Type="State" },
-            new(){ Code ="W", LocalName="Dependencias Federales", Name="Dependencias Federales", Type="Dependencies" },
-            new(){ Code ="I", LocalName="Falcón", Name="Falcón", Type="State" },
-            new(){ Code ="J", LocalName="Guárico", Name="Guárico", Type="State" },
-            new(){ Code ="K", LocalName="Lara", Name="Lara", Type="State" },
-            new(){ Code ="L", LocalName="Mérida", Name="Mérida", Type="State" },
-            new(){ Code ="M", LocalName="Miranda", Name="Miranda", Type="State" },
-            new(){ Code ="N", LocalName="Monagas", Name="Monagas", Type="State" },
-            new(){ Code ="O", LocalName="Nueva Esparta", Name="Nueva Esparta", Type="State" },
-            new(){ Code ="P", LocalName="Portuguesa", Name="Portuguesa", Type="State" },
-            new(){ Code ="R", LocalName="Sucre", Name="Sucre", Type="State" },
-            new(){ Code ="S", LocalName="Táchira", Name="Táchira", Type="State" },
-            new(){ Code ="T", LocalName="Trujillo", Name="Trujillo", Type="State" },
-            new(){ Code ="X", LocalName="vargas", Name="vargas", Type="State" },
-            new(){ Code ="U", LocalName="Yaracuy", Name="Yaracuy", Type="State" },
-            new(){ Code ="V", LocalName="Zulia", Name="Zulia", Type="State" }
+            new()
+            { 
+                Code = "Z",
+                Type = "State",
+                Name = "Amazonas",
+                LocalName = "Amazonas"
+            },
+            new()
+            { 
+                Code = "B",
+                Type = "State",
+                Name = "Anzoátegui",
+                LocalName = "Anzoátegui"
+            },
+            new()
+            { 
+                Code = "C",
+                Type = "State",
+                Name = "Apure",
+                LocalName = "Apure"
+            },
+            new()
+            { 
+                Code = "D",
+                Type = "State",
+                Name = "Aragua",
+                LocalName = "Aragua"
+            },
+            new()
+            { 
+                Code = "E",
+                Type = "State",
+                Name = "Barinas",
+                LocalName = "Barinas"
+            },
+            new()
+            { 
+                Code = "F",
+                Type = "State",
+                Name = "Bolívar",
+                LocalName = "Bolívar"
+            },
+            new()
+            { 
+                Code = "A",
+                Type = "District",
+                Name = "Capital District",
+                LocalName = "Distrito Capital"
+            },
+            new()
+            { 
+                Code = "G",
+                Type = "State",
+                Name = "Carabobo",
+                LocalName = "Carabobo"
+            },
+            new()
+            { 
+                Code = "H",
+                Type = "State",
+                Name = "Cojedes",
+                LocalName = "Cojedes"
+            },
+            new()
+            { 
+                Code = "Y",
+                Type = "State",
+                Name = "Delta Amacuro",
+                LocalName = "Delta Amacuro"
+            },
+            new()
+            { 
+                Code = "W",
+                Type = "Dependencies",
+                Name = "Dependencias Federales",
+                LocalName = "Dependencias Federales"
+            },
+            new()
+            { 
+                Code = "I",
+                Type = "State",
+                Name = "Falcón",
+                LocalName = "Falcón"
+            },
+            new()
+            { 
+                Code = "J",
+                Type = "State",
+                Name = "Guárico",
+                LocalName = "Guárico"
+            },
+            new()
+            { 
+                Code = "K",
+                Type = "State",
+                Name = "Lara",
+                LocalName = "Lara"
+            },
+            new()
+            { 
+                Code = "L",
+                Type = "State",
+                Name = "Mérida",
+                LocalName = "Mérida"
+            },
+            new()
+            { 
+                Code = "M",
+                Type = "State",
+                Name = "Miranda",
+                LocalName = "Miranda"
+            },
+            new()
+            { 
+                Code = "N",
+                Type = "State",
+                Name = "Monagas",
+                LocalName = "Monagas"
+            },
+            new()
+            { 
+                Code = "O",
+                Type = "State",
+                Name = "Nueva Esparta",
+                LocalName = "Nueva Esparta"
+            },
+            new()
+            { 
+                Code = "P",
+                Type = "State",
+                Name = "Portuguesa",
+                LocalName = "Portuguesa"
+            },
+            new()
+            { 
+                Code = "R",
+                Type = "State",
+                Name = "Sucre",
+                LocalName = "Sucre"
+            },
+            new()
+            { 
+                Code = "S",
+                Type = "State",
+                Name = "Táchira",
+                LocalName = "Táchira"
+            },
+            new()
+            { 
+                Code = "T",
+                Type = "State",
+                Name = "Trujillo",
+                LocalName = "Trujillo"
+            },
+            new()
+            { 
+                Code = "X",
+                Type = "State",
+                Name = "vargas",
+                LocalName = "vargas"
+            },
+            new()
+            { 
+                Code = "U",
+                Type = "State",
+                Name = "Yaracuy",
+                LocalName = "Yaracuy"
+            },
+            new()
+            { 
+                Code = "V",
+                Type = "State",
+                Name = "Zulia",
+                LocalName = "Zulia"
+            }
 
         });
     }

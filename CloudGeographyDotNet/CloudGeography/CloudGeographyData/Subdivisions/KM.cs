@@ -7,9 +7,27 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("KM", new List<Subdivision>()
         {
-            new(){ Code ="A", LocalName="Anjouan", Name="Anjouan", Type="Island" },
-            new(){ Code ="G", LocalName="Grande Comore", Name="Grande Comore", Type="Island" },
-            new(){ Code ="M", LocalName="Mohéli", Name="Mohéli", Type="Island" }
+            new()
+            { 
+                Code = "A",
+                Type = "Island",
+                Name = "Anjouan",
+                LocalName = "Anjouan"
+            },
+            new()
+            { 
+                Code = "G",
+                Type = "Island",
+                Name = "Grande Comore",
+                LocalName = "Grande Comore"
+            },
+            new()
+            { 
+                Code = "M",
+                Type = "Island",
+                Name = "Mohéli",
+                LocalName = "Mohéli"
+            }
 
         });
     }

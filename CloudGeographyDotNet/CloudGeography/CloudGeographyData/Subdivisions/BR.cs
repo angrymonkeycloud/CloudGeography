@@ -7,33 +7,195 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("BR", new List<Subdivision>()
         {
-            new(){ Code ="AC", LocalName="Acre", Name="Acre", Type="State" },
-            new(){ Code ="AL", LocalName="Alagoas", Name="Alagoas", Type="State" },
-            new(){ Code ="AP", LocalName="Amapá", Name="Amapá", Type="State" },
-            new(){ Code ="AM", LocalName="Amazonas", Name="Amazonas", Type="State" },
-            new(){ Code ="BA", LocalName="Bahia", Name="Bahia", Type="State" },
-            new(){ Code ="CE", LocalName="Ceará", Name="Ceará", Type="State" },
-            new(){ Code ="DF", LocalName="Distrito Federal", Name="Distrito Federal", Type="District" },
-            new(){ Code ="ES", LocalName="Espírito Santo", Name="Espírito Santo", Type="State" },
-            new(){ Code ="GO", LocalName="Goiás", Name="Goiás", Type="State" },
-            new(){ Code ="MA", LocalName="Maranhão", Name="Maranhão", Type="State" },
-            new(){ Code ="MT", LocalName="Mato Grosso", Name="Mato Grosso", Type="State" },
-            new(){ Code ="MS", LocalName="Mato Grosso do Sul", Name="Mato Grosso do Sul", Type="State" },
-            new(){ Code ="MG", LocalName="Minas Gerais", Name="Minas Gerais", Type="State" },
-            new(){ Code ="PA", LocalName="Pará", Name="Pará", Type="State" },
-            new(){ Code ="PB", LocalName="Paraíba", Name="Paraíba", Type="State" },
-            new(){ Code ="PR", LocalName="Paraná", Name="Paraná", Type="State" },
-            new(){ Code ="PE", LocalName="Pernambuco", Name="Pernambuco", Type="State" },
-            new(){ Code ="PI", LocalName="Piauí", Name="Piauí", Type="State" },
-            new(){ Code ="RJ", LocalName="Rio de Janeiro", Name="Rio de Janeiro", Type="State" },
-            new(){ Code ="RN", LocalName="Rio Grande do Norte", Name="Rio Grande do Norte", Type="State" },
-            new(){ Code ="RS", LocalName="Rio Grande do Sul", Name="Rio Grande do Sul", Type="State" },
-            new(){ Code ="RO", LocalName="Rondônia", Name="Rondônia", Type="State" },
-            new(){ Code ="RR", LocalName="Roraima", Name="Roraima", Type="State" },
-            new(){ Code ="SC", LocalName="Santa Catarina", Name="Santa Catarina", Type="State" },
-            new(){ Code ="SP", LocalName="São Paulo", Name="São Paulo", Type="State" },
-            new(){ Code ="SE", LocalName="Sergipe", Name="Sergipe", Type="State" },
-            new(){ Code ="TO", LocalName="Tocantins", Name="Tocantins", Type="State" }
+            new()
+            { 
+                Code = "AC",
+                Type = "State",
+                Name = "Acre",
+                LocalName = "Acre"
+            },
+            new()
+            { 
+                Code = "AL",
+                Type = "State",
+                Name = "Alagoas",
+                LocalName = "Alagoas"
+            },
+            new()
+            { 
+                Code = "AP",
+                Type = "State",
+                Name = "Amapá",
+                LocalName = "Amapá"
+            },
+            new()
+            { 
+                Code = "AM",
+                Type = "State",
+                Name = "Amazonas",
+                LocalName = "Amazonas"
+            },
+            new()
+            { 
+                Code = "BA",
+                Type = "State",
+                Name = "Bahia",
+                LocalName = "Bahia"
+            },
+            new()
+            { 
+                Code = "CE",
+                Type = "State",
+                Name = "Ceará",
+                LocalName = "Ceará"
+            },
+            new()
+            { 
+                Code = "DF",
+                Type = "District",
+                Name = "Distrito Federal",
+                LocalName = "Distrito Federal"
+            },
+            new()
+            { 
+                Code = "ES",
+                Type = "State",
+                Name = "Espírito Santo",
+                LocalName = "Espírito Santo"
+            },
+            new()
+            { 
+                Code = "GO",
+                Type = "State",
+                Name = "Goiás",
+                LocalName = "Goiás"
+            },
+            new()
+            { 
+                Code = "MA",
+                Type = "State",
+                Name = "Maranhão",
+                LocalName = "Maranhão"
+            },
+            new()
+            { 
+                Code = "MT",
+                Type = "State",
+                Name = "Mato Grosso",
+                LocalName = "Mato Grosso"
+            },
+            new()
+            { 
+                Code = "MS",
+                Type = "State",
+                Name = "Mato Grosso do Sul",
+                LocalName = "Mato Grosso do Sul"
+            },
+            new()
+            { 
+                Code = "MG",
+                Type = "State",
+                Name = "Minas Gerais",
+                LocalName = "Minas Gerais"
+            },
+            new()
+            { 
+                Code = "PA",
+                Type = "State",
+                Name = "Pará",
+                LocalName = "Pará"
+            },
+            new()
+            { 
+                Code = "PB",
+                Type = "State",
+                Name = "Paraíba",
+                LocalName = "Paraíba"
+            },
+            new()
+            { 
+                Code = "PR",
+                Type = "State",
+                Name = "Paraná",
+                LocalName = "Paraná"
+            },
+            new()
+            { 
+                Code = "PE",
+                Type = "State",
+                Name = "Pernambuco",
+                LocalName = "Pernambuco"
+            },
+            new()
+            { 
+                Code = "PI",
+                Type = "State",
+                Name = "Piauí",
+                LocalName = "Piauí"
+            },
+            new()
+            { 
+                Code = "RJ",
+                Type = "State",
+                Name = "Rio de Janeiro",
+                LocalName = "Rio de Janeiro"
+            },
+            new()
+            { 
+                Code = "RN",
+                Type = "State",
+                Name = "Rio Grande do Norte",
+                LocalName = "Rio Grande do Norte"
+            },
+            new()
+            { 
+                Code = "RS",
+                Type = "State",
+                Name = "Rio Grande do Sul",
+                LocalName = "Rio Grande do Sul"
+            },
+            new()
+            { 
+                Code = "RO",
+                Type = "State",
+                Name = "Rondônia",
+                LocalName = "Rondônia"
+            },
+            new()
+            { 
+                Code = "RR",
+                Type = "State",
+                Name = "Roraima",
+                LocalName = "Roraima"
+            },
+            new()
+            { 
+                Code = "SC",
+                Type = "State",
+                Name = "Santa Catarina",
+                LocalName = "Santa Catarina"
+            },
+            new()
+            { 
+                Code = "SP",
+                Type = "State",
+                Name = "São Paulo",
+                LocalName = "São Paulo"
+            },
+            new()
+            { 
+                Code = "SE",
+                Type = "State",
+                Name = "Sergipe",
+                LocalName = "Sergipe"
+            },
+            new()
+            { 
+                Code = "TO",
+                Type = "State",
+                Name = "Tocantins",
+                LocalName = "Tocantins"
+            }
 
         });
     }

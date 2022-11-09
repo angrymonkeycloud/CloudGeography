@@ -7,12 +7,48 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("KW", new List<Subdivision>()
         {
-            new(){ Code ="HA", LocalName="?awalli", Name="?awalli", Type="Governorate" },
-            new(){ Code ="KU", LocalName="Al Asimah", Name="Al Asimah", Type="Governorate" },
-            new(){ Code ="AH", LocalName="Al A?madi", Name="Al A?madi", Type="Governorate" },
-            new(){ Code ="FA", LocalName="Al Farwaniyah", Name="Al Farwaniyah", Type="Governorate" },
-            new(){ Code ="JA", LocalName="Al Jahra", Name="Al Jahra", Type="Governorate" },
-            new(){ Code ="MU", LocalName="Mubarak al Kabir", Name="Mubarak al Kabir", Type="Governorate" }
+            new()
+            { 
+                Code = "HA",
+                Type = "Governorate",
+                Name = "?awalli",
+                LocalName = "?awalli"
+            },
+            new()
+            { 
+                Code = "KU",
+                Type = "Governorate",
+                Name = "Al Asimah",
+                LocalName = "Al Asimah"
+            },
+            new()
+            { 
+                Code = "AH",
+                Type = "Governorate",
+                Name = "Al A?madi",
+                LocalName = "Al A?madi"
+            },
+            new()
+            { 
+                Code = "FA",
+                Type = "Governorate",
+                Name = "Al Farwaniyah",
+                LocalName = "Al Farwaniyah"
+            },
+            new()
+            { 
+                Code = "JA",
+                Type = "Governorate",
+                Name = "Al Jahra",
+                LocalName = "Al Jahra"
+            },
+            new()
+            { 
+                Code = "MU",
+                Type = "Governorate",
+                Name = "Mubarak al Kabir",
+                LocalName = "Mubarak al Kabir"
+            }
 
         });
     }

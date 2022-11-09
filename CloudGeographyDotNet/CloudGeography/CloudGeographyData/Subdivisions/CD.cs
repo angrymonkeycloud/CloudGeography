@@ -7,32 +7,188 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("CD", new List<Subdivision>()
         {
-            new(){ Code ="BU", LocalName="Bas-Uélé", Name="Bas-Uélé", Type="Province" },
-            new(){ Code ="EQ", LocalName="Équateur", Name="Équateur", Type="Province" },
-            new(){ Code ="HK", LocalName="Haut-Katanga", Name="Haut-Katanga", Type="Province" },
-            new(){ Code ="HL", LocalName="Haut-Lomami", Name="Haut-Lomami", Type="Province" },
-            new(){ Code ="HU", LocalName="Haut-Uélé", Name="Haut-Uélé", Type="Province" },
-            new(){ Code ="IT", LocalName="Ituri", Name="Ituri", Type="Province" },
-            new(){ Code ="KS", LocalName="Kasaï", Name="Kasaï", Type="Province" },
-            new(){ Code ="KC", LocalName="Kasaï Central", Name="Kasaï Central", Type="Province" },
-            new(){ Code ="KE", LocalName="Kasaï Oriental", Name="Kasaï Oriental", Type="Province" },
-            new(){ Code ="KN", LocalName="Kinshasa", Name="Kinshasa", Type="City" },
-            new(){ Code ="BC", LocalName="Kongo Central", Name="Kongo Central", Type="Province" },
-            new(){ Code ="KG", LocalName="Kwango", Name="Kwango", Type="Province" },
-            new(){ Code ="KL", LocalName="Kwilu", Name="Kwilu", Type="Province" },
-            new(){ Code ="LO", LocalName="Lomami", Name="Lomami", Type="Province" },
-            new(){ Code ="LU", LocalName="Lualaba", Name="Lualaba", Type="Province" },
-            new(){ Code ="MN", LocalName="Mai-Ndombe", Name="Mai-Ndombe", Type="Province" },
-            new(){ Code ="MA", LocalName="Maniema", Name="Maniema", Type="Province" },
-            new(){ Code ="MO", LocalName="Mongala", Name="Mongala", Type="Province" },
-            new(){ Code ="NK", LocalName="Nord-Kivu", Name="Nord-Kivu", Type="Province" },
-            new(){ Code ="NU", LocalName="Nord-Ubangi", Name="Nord-Ubangi", Type="Province" },
-            new(){ Code ="SA", LocalName="Sankuru", Name="Sankuru", Type="Province" },
-            new(){ Code ="SK", LocalName="Sud-Kivu", Name="Sud-Kivu", Type="Province" },
-            new(){ Code ="SU", LocalName="Sud-Ubangi", Name="Sud-Ubangi", Type="Province" },
-            new(){ Code ="TA", LocalName="Tanganyika", Name="Tanganyika", Type="Province" },
-            new(){ Code ="TO", LocalName="Tshopo", Name="Tshopo", Type="Province" },
-            new(){ Code ="TU", LocalName="Tshuapa", Name="Tshuapa", Type="Province" }
+            new()
+            { 
+                Code = "BU",
+                Type = "Province",
+                Name = "Bas-Uélé",
+                LocalName = "Bas-Uélé"
+            },
+            new()
+            { 
+                Code = "EQ",
+                Type = "Province",
+                Name = "Équateur",
+                LocalName = "Équateur"
+            },
+            new()
+            { 
+                Code = "HK",
+                Type = "Province",
+                Name = "Haut-Katanga",
+                LocalName = "Haut-Katanga"
+            },
+            new()
+            { 
+                Code = "HL",
+                Type = "Province",
+                Name = "Haut-Lomami",
+                LocalName = "Haut-Lomami"
+            },
+            new()
+            { 
+                Code = "HU",
+                Type = "Province",
+                Name = "Haut-Uélé",
+                LocalName = "Haut-Uélé"
+            },
+            new()
+            { 
+                Code = "IT",
+                Type = "Province",
+                Name = "Ituri",
+                LocalName = "Ituri"
+            },
+            new()
+            { 
+                Code = "KS",
+                Type = "Province",
+                Name = "Kasaï",
+                LocalName = "Kasaï"
+            },
+            new()
+            { 
+                Code = "KC",
+                Type = "Province",
+                Name = "Kasaï Central",
+                LocalName = "Kasaï Central"
+            },
+            new()
+            { 
+                Code = "KE",
+                Type = "Province",
+                Name = "Kasaï Oriental",
+                LocalName = "Kasaï Oriental"
+            },
+            new()
+            { 
+                Code = "KN",
+                Type = "City",
+                Name = "Kinshasa",
+                LocalName = "Kinshasa"
+            },
+            new()
+            { 
+                Code = "BC",
+                Type = "Province",
+                Name = "Kongo Central",
+                LocalName = "Kongo Central"
+            },
+            new()
+            { 
+                Code = "KG",
+                Type = "Province",
+                Name = "Kwango",
+                LocalName = "Kwango"
+            },
+            new()
+            { 
+                Code = "KL",
+                Type = "Province",
+                Name = "Kwilu",
+                LocalName = "Kwilu"
+            },
+            new()
+            { 
+                Code = "LO",
+                Type = "Province",
+                Name = "Lomami",
+                LocalName = "Lomami"
+            },
+            new()
+            { 
+                Code = "LU",
+                Type = "Province",
+                Name = "Lualaba",
+                LocalName = "Lualaba"
+            },
+            new()
+            { 
+                Code = "MN",
+                Type = "Province",
+                Name = "Mai-Ndombe",
+                LocalName = "Mai-Ndombe"
+            },
+            new()
+            { 
+                Code = "MA",
+                Type = "Province",
+                Name = "Maniema",
+                LocalName = "Maniema"
+            },
+            new()
+            { 
+                Code = "MO",
+                Type = "Province",
+                Name = "Mongala",
+                LocalName = "Mongala"
+            },
+            new()
+            { 
+                Code = "NK",
+                Type = "Province",
+                Name = "Nord-Kivu",
+                LocalName = "Nord-Kivu"
+            },
+            new()
+            { 
+                Code = "NU",
+                Type = "Province",
+                Name = "Nord-Ubangi",
+                LocalName = "Nord-Ubangi"
+            },
+            new()
+            { 
+                Code = "SA",
+                Type = "Province",
+                Name = "Sankuru",
+                LocalName = "Sankuru"
+            },
+            new()
+            { 
+                Code = "SK",
+                Type = "Province",
+                Name = "Sud-Kivu",
+                LocalName = "Sud-Kivu"
+            },
+            new()
+            { 
+                Code = "SU",
+                Type = "Province",
+                Name = "Sud-Ubangi",
+                LocalName = "Sud-Ubangi"
+            },
+            new()
+            { 
+                Code = "TA",
+                Type = "Province",
+                Name = "Tanganyika",
+                LocalName = "Tanganyika"
+            },
+            new()
+            { 
+                Code = "TO",
+                Type = "Province",
+                Name = "Tshopo",
+                LocalName = "Tshopo"
+            },
+            new()
+            { 
+                Code = "TU",
+                Type = "Province",
+                Name = "Tshuapa",
+                LocalName = "Tshuapa"
+            }
 
         });
     }

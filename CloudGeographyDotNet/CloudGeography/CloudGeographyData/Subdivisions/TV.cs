@@ -7,13 +7,55 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("TV", new List<Subdivision>()
         {
-            new(){ Code ="NMG", LocalName="Nanumaga", Name="Nanumaga", Type="Island" },
-            new(){ Code ="NMA", LocalName="Nanumea", Name="Nanumea", Type="Island" },
-            new(){ Code ="NIT", LocalName="Niutao", Name="Niutao", Type="Island" },
-            new(){ Code ="NIU", LocalName="Nui", Name="Nui", Type="Island" },
-            new(){ Code ="NKF", LocalName="Nukufetau", Name="Nukufetau", Type="Island" },
-            new(){ Code ="NKL", LocalName="Nukulaelae", Name="Nukulaelae", Type="Island" },
-            new(){ Code ="VAI", LocalName="Vaitupu", Name="Vaitupu", Type="Island" }
+            new()
+            { 
+                Code = "NMG",
+                Type = "Island",
+                Name = "Nanumaga",
+                LocalName = "Nanumaga"
+            },
+            new()
+            { 
+                Code = "NMA",
+                Type = "Island",
+                Name = "Nanumea",
+                LocalName = "Nanumea"
+            },
+            new()
+            { 
+                Code = "NIT",
+                Type = "Island",
+                Name = "Niutao",
+                LocalName = "Niutao"
+            },
+            new()
+            { 
+                Code = "NIU",
+                Type = "Island",
+                Name = "Nui",
+                LocalName = "Nui"
+            },
+            new()
+            { 
+                Code = "NKF",
+                Type = "Island",
+                Name = "Nukufetau",
+                LocalName = "Nukufetau"
+            },
+            new()
+            { 
+                Code = "NKL",
+                Type = "Island",
+                Name = "Nukulaelae",
+                LocalName = "Nukulaelae"
+            },
+            new()
+            { 
+                Code = "VAI",
+                Type = "Island",
+                Name = "Vaitupu",
+                LocalName = "Vaitupu"
+            }
 
         });
     }

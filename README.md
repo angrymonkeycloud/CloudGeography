@@ -58,7 +58,6 @@ CloudGeographyClient cloudGeography = new CloudGeographyClient();
 
 ## Usage
 
-
 ### For Countries:
 ---
 
@@ -207,8 +206,6 @@ List<Subdivision> subdivisions = client.Subdivisions.Get("US", new[] { "AL", "AK
 ```cs
 List<Subdivision> subdivisions = client.Subdivisions.Get("US", "AL");
 ```
-
-
 ### For TimeZones:
 ---
 #### Get all TimeZones
@@ -299,7 +296,6 @@ Money money = new("USD", -50.3m);
 int decimalPart = money.DecimalNumberAsInteger;
 // decimalPart = -3
 ```
-
 ### For Phone Numbers:
 ---
 

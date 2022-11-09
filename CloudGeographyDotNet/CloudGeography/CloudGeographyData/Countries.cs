@@ -7,9 +7,19 @@ public partial class CloudGeographyClient
     {
         internal static List<Country> CountriesList = new()
         {
-
             new()
             {
+                Code = "AF",
+                Name = "Afghanistan",
+                ShortName = "Afghanistan",
+                ThreeLettersCode = "AFG",
+                LocalName = "افغانستان",
+                Capital = "Kabul",
+                Demonym = "Afghan",
+                CallingCode = 93,
+                Area = 652230,
+                Latitude = 33,
+                Longitude = 65,
                 Languages = new()
                 {
                     new()
@@ -32,8 +42,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "TK"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -42,23 +51,34 @@ public partial class CloudGeographyClient
                         Code = "AFN"
                     }
                 },
-                Code = "AF",
-                Area = 652230,
-                CallingCode=93,
-                Capital="Kabul",
-                Demonym="Afghan",
-                Latitude = 33,
-                LocalName = "افغانستان",
-                Longitude = 65,
-                Name = "Afghanistan",
-                ShortName = "Afghanistan",
-                ThreeLettersCode = "AFG"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Afghanistan Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "AX",
+                Name = "Åland Islands",
+                ShortName = "Åland",
+                ThreeLettersCode = "ALA",
+                LocalName = "Landskapet Åland",
+                Capital = "Mariehamn",
+                Demonym = "Ålandish",
+                CallingCode = 358,
+                Area = 1580,
+                Latitude = 60.1166687011719,
+                Longitude = 19.8999996185303,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "AFN"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -74,8 +94,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FI"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -84,21 +103,27 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "AX",
-                Area = 1580,
-                CallingCode=358,
-                Capital="Mariehamn",
-                Demonym="Ålandish",
-                Latitude = 60.1166687011719,
-                LocalName = "Landskapet Åland",
-                Longitude = 19.8999996185303,
-                Name = "Åland Islands",
-                ShortName = "Åland",
-                ThreeLettersCode = "ALA"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "FLE Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "AL",
+                Name = "Albania",
+                ShortName = "Albania",
+                ThreeLettersCode = "ALB",
+                LocalName = "Shqipëria",
+                Capital = "Tirana",
+                Demonym = "Albanian",
+                CallingCode = 355,
+                Area = 28748,
+                Latitude = 41,
+                Longitude = 20,
                 Languages = new()
                 {
                     new()
@@ -109,10 +134,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "SQ"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -121,23 +150,34 @@ public partial class CloudGeographyClient
                         Code = "ALL"
                     }
                 },
-                Code = "AL",
-                Area = 28748,
-                CallingCode=355,
-                Capital="Tirana",
-                Demonym="Albanian",
-                Latitude = 41,
-                LocalName = "Shqipëria",
-                Longitude = 20,
-                Name = "Albania",
-                ShortName = "Albania",
-                ThreeLettersCode = "ALB"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Europe Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "DZ",
+                Name = "Algeria",
+                ShortName = "Algeria",
+                ThreeLettersCode = "DZA",
+                LocalName = "الجزائر",
+                Capital = "Algiers",
+                Demonym = "Algerian",
+                CallingCode = 213,
+                Area = 2381741,
+                Latitude = 28,
+                Longitude = 3,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "ALL"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -158,8 +198,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -168,23 +207,34 @@ public partial class CloudGeographyClient
                         Code = "DZD"
                     }
                 },
-                Code = "DZ",
-                Area = 2381741,
-                CallingCode=213,
-                Capital="Algiers",
-                Demonym="Algerian",
-                Latitude = 28,
-                LocalName = "الجزائر",
-                Longitude = 3,
-                Name = "Algeria",
-                ShortName = "Algeria",
-                ThreeLettersCode = "DZA"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "AS",
+                Name = "American Samoa",
+                ShortName = "American Samoa",
+                ThreeLettersCode = "ASM",
+                LocalName = "American Samoa",
+                Capital = "Pago Pago",
+                Demonym = "American Samoan",
+                CallingCode = 1684,
+                Area = 199,
+                Latitude = -14.3333330154419,
+                Longitude = -170,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "DZD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -205,8 +255,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "TO"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -215,23 +264,34 @@ public partial class CloudGeographyClient
                         Code = "USD"
                     }
                 },
-                Code = "AS",
-                Area = 199,
-                CallingCode=1684,
-                Capital="Pago Pago",
-                Demonym="American Samoan",
-                Latitude = -14.3333330154419,
-                LocalName = "American Samoa",
-                Longitude = -170,
-                Name = "American Samoa",
-                ShortName = "American Samoa",
-                ThreeLettersCode = "ASM"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "UTC-11"
+                    }
+                }
             },
-
             new()
             {
+                Code = "AD",
+                Name = "Andorra",
+                ShortName = "Andorra",
+                ThreeLettersCode = "AND",
+                LocalName = "Andorra",
+                Capital = "Andorra la Vella",
+                Demonym = "Andorran",
+                CallingCode = 376,
+                Area = 467.63,
+                Latitude = 42.5,
+                Longitude = 1.5,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "USD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -257,8 +317,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -267,23 +326,34 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "AD",
-                Area = 467.63,
-                CallingCode=376,
-                Capital="Andorra la Vella",
-                Demonym="Andorran",
-                Latitude = 42.5,
-                LocalName = "Andorra",
-                Longitude = 1.5,
-                Name = "Andorra",
-                ShortName = "Andorra",
-                ThreeLettersCode = "AND"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "AO",
+                Name = "Angola",
+                ShortName = "Angola",
+                ThreeLettersCode = "AGO",
+                LocalName = "Angola",
+                Capital = "Luanda",
+                Demonym = "Angolan",
+                CallingCode = 244,
+                Area = 1246700,
+                Latitude = -12.5,
+                Longitude = 18.5,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -294,8 +364,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "PT"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -304,21 +373,27 @@ public partial class CloudGeographyClient
                         Code = "AOA"
                     }
                 },
-                Code = "AO",
-                Area = 1246700,
-                CallingCode=244,
-                Capital="Luanda",
-                Demonym="Angolan",
-                Latitude = -12.5,
-                LocalName = "Angola",
-                Longitude = 18.5,
-                Name = "Angola",
-                ShortName = "Angola",
-                ThreeLettersCode = "AGO"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "AI",
+                Name = "Anguilla",
+                ShortName = "Anguilla",
+                ThreeLettersCode = "AIA",
+                LocalName = "Anguilla",
+                Capital = "The Valley",
+                Demonym = "Anguillian",
+                CallingCode = 1264,
+                Area = 91,
+                Latitude = 18.25,
+                Longitude = -63.1666679382324,
                 Languages = new()
                 {
                     new()
@@ -329,10 +404,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "AOA"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -341,23 +420,34 @@ public partial class CloudGeographyClient
                         Code = "XCD"
                     }
                 },
-                Code = "AI",
-                Area = 91,
-                CallingCode=1264,
-                Capital="The Valley",
-                Demonym="Anguillian",
-                Latitude = 18.25,
-                LocalName = "Anguilla",
-                Longitude = -63.1666679382324,
-                Name = "Anguilla",
-                ShortName = "Anguilla",
-                ThreeLettersCode = "AIA"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "AQ",
+                Name = "Antarctica",
+                ShortName = "Antarctica",
+                ThreeLettersCode = "ATA",
+                LocalName = "Antarctica",
+                Capital = "--",
+                Demonym = "Antarctic",
+                CallingCode = 672,
+                Area = 14000000,
+                Latitude = -74.6500015258789,
+                Longitude = 4.48000001907349,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "XCD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -373,8 +463,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "RU"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -382,30 +471,73 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AUD"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "GBP"
                     }
                 },
-                Code = "AQ",
-                Area = 14000000,
-                CallingCode=672,
-                Capital="--",
-                Demonym="Antarctic",
-                Latitude = -74.6500015258789,
-                LocalName = "Antarctica",
-                Longitude = 4.48000001907349,
-                Name = "Antarctica",
-                ShortName = "Antarctica",
-                ThreeLettersCode = "ATA"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "New Zealand Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Central Pacific Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "SE Asia Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "West Pacific Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "West Asia Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "SA Eastern Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "E. Africa Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Central Asia Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "AG",
+                Name = "Antigua and Barbuda",
+                ShortName = "Antigua and Barbuda",
+                ThreeLettersCode = "ATG",
+                LocalName = "Antigua and Barbuda",
+                Capital = "Saint John's",
+                Demonym = "Antiguan, Barbudan",
+                CallingCode = 1268,
+                Area = 442,
+                Latitude = 17.0499992370605,
+                Longitude = -61.7999992370605,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "AUD"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "GBP"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -421,8 +553,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -431,23 +562,34 @@ public partial class CloudGeographyClient
                         Code = "XCD"
                     }
                 },
-                Code = "AG",
-                Area = 442,
-                CallingCode=1268,
-                Capital="Saint John's",
-                Demonym="Antiguan, Barbudan",
-                Latitude = 17.0499992370605,
-                LocalName = "Antigua and Barbuda",
-                Longitude = -61.7999992370605,
-                Name = "Antigua and Barbuda",
-                ShortName = "Antigua and Barbuda",
-                ThreeLettersCode = "ATG"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "AR",
+                Name = "Argentina",
+                ShortName = "Argentina",
+                ThreeLettersCode = "ARG",
+                LocalName = "Argentina",
+                Capital = "Buenos Aires",
+                Demonym = "Argentinean",
+                CallingCode = 54,
+                Area = 2780400,
+                Latitude = -34,
+                Longitude = -64,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "XCD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -473,8 +615,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -483,23 +624,34 @@ public partial class CloudGeographyClient
                         Code = "ARS"
                     }
                 },
-                Code = "AR",
-                Area = 2780400,
-                CallingCode=54,
-                Capital="Buenos Aires",
-                Demonym="Argentinean",
-                Latitude = -34,
-                LocalName = "Argentina",
-                Longitude = -64,
-                Name = "Argentina",
-                ShortName = "Argentina",
-                ThreeLettersCode = "ARG"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Argentina Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "AM",
+                Name = "Armenia",
+                ShortName = "Armenia",
+                ThreeLettersCode = "ARM",
+                LocalName = "Հայաստան",
+                Capital = "Yerevan",
+                Demonym = "Armenian",
+                CallingCode = 374,
+                Area = 29743,
+                Latitude = 40,
+                Longitude = 45,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "ARS"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -520,8 +672,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -530,23 +681,34 @@ public partial class CloudGeographyClient
                         Code = "AMD"
                     }
                 },
-                Code = "AM",
-                Area = 29743,
-                CallingCode=374,
-                Capital="Yerevan",
-                Demonym="Armenian",
-                Latitude = 40,
-                LocalName = "Հայաստան",
-                Longitude = 45,
-                Name = "Armenia",
-                ShortName = "Armenia",
-                ThreeLettersCode = "ARM"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Caucasus Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "AW",
+                Name = "Aruba",
+                ShortName = "Aruba",
+                ThreeLettersCode = "ABW",
+                LocalName = "Aruba",
+                Capital = "Oranjestad",
+                Demonym = "Aruban",
+                CallingCode = 297,
+                Area = 178.91,
+                Latitude = 12.5,
+                Longitude = -69.966667175293,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "AMD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -562,8 +724,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "PAP"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -572,21 +733,27 @@ public partial class CloudGeographyClient
                         Code = "AWG"
                     }
                 },
-                Code = "AW",
-                Area = 178.91,
-                CallingCode=297,
-                Capital="Oranjestad",
-                Demonym="Aruban",
-                Latitude = 12.5,
-                LocalName = "Aruba",
-                Longitude = -69.966667175293,
-                Name = "Aruba",
-                ShortName = "Aruba",
-                ThreeLettersCode = "ABW"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "AU",
+                Name = "Australia",
+                ShortName = "Australia",
+                ThreeLettersCode = "AUS",
+                LocalName = "Australia",
+                Capital = "Canberra",
+                Demonym = "Australian",
+                CallingCode = 61,
+                Area = 7692024,
+                Latitude = -27,
+                Longitude = 133,
                 Languages = new()
                 {
                     new()
@@ -597,10 +764,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "AWG"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -609,23 +780,62 @@ public partial class CloudGeographyClient
                         Code = "AUD"
                     }
                 },
-                Code = "AU",
-                Area = 7692024,
-                CallingCode=61,
-                Capital="Canberra",
-                Demonym="Australian",
-                Latitude = -27,
-                LocalName = "Australia",
-                Longitude = 133,
-                Name = "Australia",
-                ShortName = "Australia",
-                ThreeLettersCode = "AUS"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Lord Howe Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Tasmania Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "AUS Eastern Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Cen. Australia Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "E. Australia Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "AUS Central Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "W. Australia Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Aus Central W. Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "AT",
+                Name = "Austria",
+                ShortName = "Austria",
+                ThreeLettersCode = "AUT",
+                LocalName = "Österreich",
+                Capital = "Vienna",
+                Demonym = "Austrian",
+                CallingCode = 43,
+                Area = 83879,
+                Latitude = 47.3333320617676,
+                Longitude = 13.3333330154419,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "AUD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -636,8 +846,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "DE"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -646,23 +855,34 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "AT",
-                Area = 83879,
-                CallingCode=43,
-                Capital="Vienna",
-                Demonym="Austrian",
-                Latitude = 47.3333320617676,
-                LocalName = "Österreich",
-                Longitude = 13.3333330154419,
-                Name = "Austria",
-                ShortName = "Austria",
-                ThreeLettersCode = "AUT"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "AZ",
+                Name = "Azerbaijan",
+                ShortName = "Azerbaijan",
+                ThreeLettersCode = "AZE",
+                LocalName = "Azərbaycan",
+                Capital = "Baku",
+                Demonym = "Azerbaijani",
+                CallingCode = 994,
+                Area = 86600,
+                Latitude = 40.5,
+                Longitude = 47.5,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -673,8 +893,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AZ"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -683,21 +902,27 @@ public partial class CloudGeographyClient
                         Code = "AZN"
                     }
                 },
-                Code = "AZ",
-                Area = 86600,
-                CallingCode=994,
-                Capital="Baku",
-                Demonym="Azerbaijani",
-                Latitude = 40.5,
-                LocalName = "Azərbaycan",
-                Longitude = 47.5,
-                Name = "Azerbaijan",
-                ShortName = "Azerbaijan",
-                ThreeLettersCode = "AZE"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Azerbaijan Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "BS",
+                Name = "Bahamas",
+                ShortName = "Bahamas",
+                ThreeLettersCode = "BHS",
+                LocalName = "Bahamas",
+                Capital = "Nassau",
+                Demonym = "Bahamian",
+                CallingCode = 1242,
+                Area = 13943,
+                Latitude = 24.25,
+                Longitude = -76,
                 Languages = new()
                 {
                     new()
@@ -708,10 +933,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "AZN"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -720,23 +949,34 @@ public partial class CloudGeographyClient
                         Code = "BSD"
                     }
                 },
-                Code = "BS",
-                Area = 13943,
-                CallingCode=1242,
-                Capital="Nassau",
-                Demonym="Bahamian",
-                Latitude = 24.25,
-                LocalName = "Bahamas",
-                Longitude = -76,
-                Name = "Bahamas",
-                ShortName = "Bahamas",
-                ThreeLettersCode = "BHS"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Eastern Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "BH",
+                Name = "Bahrain",
+                ShortName = "Bahrain",
+                ThreeLettersCode = "BHR",
+                LocalName = "‏البحرين",
+                Capital = "Manama",
+                Demonym = "Bahraini",
+                CallingCode = 973,
+                Area = 765.3,
+                Latitude = 26,
+                Longitude = 50.5499992370605,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "BSD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -752,8 +992,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -762,23 +1001,34 @@ public partial class CloudGeographyClient
                         Code = "BHD"
                     }
                 },
-                Code = "BH",
-                Area = 765.3,
-                CallingCode=973,
-                Capital="Manama",
-                Demonym="Bahraini",
-                Latitude = 26,
-                LocalName = "‏البحرين",
-                Longitude = 50.5499992370605,
-                Name = "Bahrain",
-                ShortName = "Bahrain",
-                ThreeLettersCode = "BHR"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Arab Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "BD",
+                Name = "Bangladesh",
+                ShortName = "Bangladesh",
+                ThreeLettersCode = "BGD",
+                LocalName = "বাংলাদেশ",
+                Capital = "Dhaka",
+                Demonym = "Bangladeshi",
+                CallingCode = 880,
+                Area = 147570,
+                Latitude = 24,
+                Longitude = 90,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "BHD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -794,8 +1044,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -804,21 +1053,27 @@ public partial class CloudGeographyClient
                         Code = "BDT"
                     }
                 },
-                Code = "BD",
-                Area = 147570,
-                CallingCode=880,
-                Capital="Dhaka",
-                Demonym="Bangladeshi",
-                Latitude = 24,
-                LocalName = "বাংলাদেশ",
-                Longitude = 90,
-                Name = "Bangladesh",
-                ShortName = "Bangladesh",
-                ThreeLettersCode = "BGD"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Bangladesh Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "BB",
+                Name = "Barbados",
+                ShortName = "Barbados",
+                ThreeLettersCode = "BRB",
+                LocalName = "Barbados",
+                Capital = "Bridgetown",
+                Demonym = "Barbadian",
+                CallingCode = 1246,
+                Area = 439,
+                Latitude = 13.1666669845581,
+                Longitude = -59.533332824707,
                 Languages = new()
                 {
                     new()
@@ -829,10 +1084,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "BDT"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -841,23 +1100,34 @@ public partial class CloudGeographyClient
                         Code = "BBD"
                     }
                 },
-                Code = "BB",
-                Area = 439,
-                CallingCode=1246,
-                Capital="Bridgetown",
-                Demonym="Barbadian",
-                Latitude = 13.1666669845581,
-                LocalName = "Barbados",
-                Longitude = -59.533332824707,
-                Name = "Barbados",
-                ShortName = "Barbados",
-                ThreeLettersCode = "BRB"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "BY",
+                Name = "Belarus",
+                ShortName = "Belarus",
+                ThreeLettersCode = "BLR",
+                LocalName = "Белару́сь",
+                Capital = "Minsk",
+                Demonym = "Belarusian",
+                CallingCode = 375,
+                Area = 207595,
+                Latitude = 53,
+                Longitude = 28,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "BBD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -873,26 +1143,31 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "BE"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                 },
-                Code = "BY",
-                Area = 207595,
-                CallingCode=375,
-                Capital="Minsk",
-                Demonym="Belarusian",
-                Latitude = 53,
-                LocalName = "Белару́сь",
-                Longitude = 28,
-                Name = "Belarus",
-                ShortName = "Belarus",
-                ThreeLettersCode = "BLR"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Belarus Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "BE",
+                Name = "Belgium",
+                ShortName = "Belgium",
+                ThreeLettersCode = "BEL",
+                LocalName = "België",
+                Capital = "Brussels",
+                Demonym = "Belgian",
+                CallingCode = 32,
+                Area = 30528,
+                Latitude = 50.8333320617676,
+                Longitude = 4,
                 Languages = new()
                 {
                     new()
@@ -910,8 +1185,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "DE"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -920,23 +1194,34 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "BE",
-                Area = 30528,
-                CallingCode=32,
-                Capital="Brussels",
-                Demonym="Belgian",
-                Latitude = 50.8333320617676,
-                LocalName = "België",
-                Longitude = 4,
-                Name = "Belgium",
-                ShortName = "Belgium",
-                ThreeLettersCode = "BEL"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Romance Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "BZ",
+                Name = "Belize",
+                ShortName = "Belize",
+                ThreeLettersCode = "BLZ",
+                LocalName = "Belize",
+                Capital = "Belmopan",
+                Demonym = "Belizean",
+                CallingCode = 501,
+                Area = 22966,
+                Latitude = 17.25,
+                Longitude = -88.75,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -952,8 +1237,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -962,23 +1246,34 @@ public partial class CloudGeographyClient
                         Code = "BZD"
                     }
                 },
-                Code = "BZ",
-                Area = 22966,
-                CallingCode=501,
-                Capital="Belmopan",
-                Demonym="Belizean",
-                Latitude = 17.25,
-                LocalName = "Belize",
-                Longitude = -88.75,
-                Name = "Belize",
-                ShortName = "Belize",
-                ThreeLettersCode = "BLZ"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central America Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "BJ",
+                Name = "Benin",
+                ShortName = "Benin",
+                ThreeLettersCode = "BEN",
+                LocalName = "Bénin",
+                Capital = "Porto-Novo",
+                Demonym = "Beninese",
+                CallingCode = 229,
+                Area = 114763,
+                Latitude = 9.5,
+                Longitude = 2.25,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "BZD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -989,8 +1284,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -999,21 +1293,27 @@ public partial class CloudGeographyClient
                         Code = "XOF"
                     }
                 },
-                Code = "BJ",
-                Area = 114763,
-                CallingCode=229,
-                Capital="Porto-Novo",
-                Demonym="Beninese",
-                Latitude = 9.5,
-                LocalName = "Bénin",
-                Longitude = 2.25,
-                Name = "Benin",
-                ShortName = "Benin",
-                ThreeLettersCode = "BEN"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "BM",
+                Name = "Bermuda",
+                ShortName = "Bermuda",
+                ThreeLettersCode = "BMU",
+                LocalName = "Bermuda",
+                Capital = "Hamilton",
+                Demonym = "Bermudian",
+                CallingCode = 1441,
+                Area = 53.2,
+                Latitude = 32.3333320617676,
+                Longitude = -64.75,
                 Languages = new()
                 {
                     new()
@@ -1024,10 +1324,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XOF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -1036,23 +1340,34 @@ public partial class CloudGeographyClient
                         Code = "BMD"
                     }
                 },
-                Code = "BM",
-                Area = 53.2,
-                CallingCode=1441,
-                Capital="Hamilton",
-                Demonym="Bermudian",
-                Latitude = 32.3333320617676,
-                LocalName = "Bermuda",
-                Longitude = -64.75,
-                Name = "Bermuda",
-                ShortName = "Bermuda",
-                ThreeLettersCode = "BMU"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Atlantic Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "BT",
+                Name = "Bhutan",
+                ShortName = "Bhutan",
+                ThreeLettersCode = "BTN",
+                LocalName = "འབྲུག་ཡུལ་",
+                Capital = "Thimphu",
+                Demonym = "Bhutanese",
+                CallingCode = 975,
+                Area = 38394,
+                Latitude = 27.5,
+                Longitude = 90.5,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "BMD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -1068,8 +1383,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -1077,30 +1391,45 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "BTN"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "INR"
                     }
                 },
-                Code = "BT",
-                Area = 38394,
-                CallingCode=975,
-                Capital="Thimphu",
-                Demonym="Bhutanese",
-                Latitude = 27.5,
-                LocalName = "འབྲུག་ཡུལ་",
-                Longitude = 90.5,
-                Name = "Bhutan",
-                ShortName = "Bhutan",
-                ThreeLettersCode = "BTN"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Bangladesh Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "BO",
+                Name = "Bolivia",
+                ShortName = "Bolivia",
+                ThreeLettersCode = "BOL",
+                LocalName = "Bolivia",
+                Capital = "Sucre",
+                Demonym = "Bolivian",
+                CallingCode = 591,
+                Area = 1098581,
+                Latitude = -17,
+                Longitude = -65,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "BTN"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "INR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -1116,8 +1445,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -1126,23 +1454,34 @@ public partial class CloudGeographyClient
                         Code = "BOB"
                     }
                 },
-                Code = "BO",
-                Area = 1098581,
-                CallingCode=591,
-                Capital="Sucre",
-                Demonym="Bolivian",
-                Latitude = -17,
-                LocalName = "Bolivia",
-                Longitude = -65,
-                Name = "Bolivia",
-                ShortName = "Bolivia",
-                ThreeLettersCode = "BOL"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "BQ",
+                Name = "Bonaire",
+                ShortName = "Bonaire",
+                ThreeLettersCode = "BES",
+                LocalName = "Bonaire",
+                Capital = "Kralendijk",
+                Demonym = "Dutch",
+                CallingCode = 5997,
+                Area = 294,
+                Latitude = 12.1499996185303,
+                Longitude = -68.2666702270508,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "BOB"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -1168,8 +1507,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -1178,23 +1516,34 @@ public partial class CloudGeographyClient
                         Code = "USD"
                     }
                 },
-                Code = "BQ",
-                Area = 294,
-                CallingCode=5997,
-                Capital="Kralendijk",
-                Demonym="Dutch",
-                Latitude = 12.1499996185303,
-                LocalName = "Bonaire",
-                Longitude = -68.2666702270508,
-                Name = "Bonaire",
-                ShortName = "Bonaire",
-                ThreeLettersCode = "BES"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "BA",
+                Name = "Bosnia and Herzegovina",
+                ShortName = "Bosnia and Herzegovina",
+                ThreeLettersCode = "BIH",
+                LocalName = "Bosna i Hercegovina",
+                Capital = "Sarajevo",
+                Demonym = "Bosnian, Herzegovinian",
+                CallingCode = 387,
+                Area = 51129,
+                Latitude = 44,
+                Longitude = 18,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "USD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -1215,8 +1564,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "SR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -1225,23 +1573,34 @@ public partial class CloudGeographyClient
                         Code = "BAM"
                     }
                 },
-                Code = "BA",
-                Area = 51129,
-                CallingCode=387,
-                Capital="Sarajevo",
-                Demonym="Bosnian, Herzegovinian",
-                Latitude = 44,
-                LocalName = "Bosna i Hercegovina",
-                Longitude = 18,
-                Name = "Bosnia and Herzegovina",
-                ShortName = "Bosnia and Herzegovina",
-                ThreeLettersCode = "BIH"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central European Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "BW",
+                Name = "Botswana",
+                ShortName = "Botswana",
+                ThreeLettersCode = "BWA",
+                LocalName = "Botswana",
+                Capital = "Gaborone",
+                Demonym = "Motswana",
+                CallingCode = 267,
+                Area = 581730,
+                Latitude = -22,
+                Longitude = 24,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "BAM"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -1257,8 +1616,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "TN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -1267,23 +1625,34 @@ public partial class CloudGeographyClient
                         Code = "BWP"
                     }
                 },
-                Code = "BW",
-                Area = 581730,
-                CallingCode=267,
-                Capital="Gaborone",
-                Demonym="Motswana",
-                Latitude = -22,
-                LocalName = "Botswana",
-                Longitude = 24,
-                Name = "Botswana",
-                ShortName = "Botswana",
-                ThreeLettersCode = "BWA"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "South Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "BR",
+                Name = "Brazil",
+                ShortName = "Brazil",
+                ThreeLettersCode = "BRA",
+                LocalName = "Brasil",
+                Capital = "Brasília",
+                Demonym = "Brazilian",
+                CallingCode = 55,
+                Area = 8515767,
+                Latitude = -10,
+                Longitude = -55,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "BWP"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -1294,8 +1663,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "PT"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -1304,64 +1672,107 @@ public partial class CloudGeographyClient
                         Code = "BRL"
                     }
                 },
-                Code = "BR",
-                Area = 8515767,
-                CallingCode=55,
-                Capital="Brasília",
-                Demonym="Brazilian",
-                Latitude = -10,
-                LocalName = "Brasil",
-                Longitude = -55,
-                Name = "Brazil",
-                ShortName = "Brazil",
-                ThreeLettersCode = "BRA"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "UTC-02"
+                    },
+                    new()
+                    {
+                        Code = "SA Eastern Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Tocantins Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Bahia Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "E. South America Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Central Brazilian Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "SA Pacific Standard Time"
+                    }
+                }
             },
-
             new()
             {
-                Languages = new()
-                {
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "BRL"
-                    },
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "EN"
-                    } 
-                },
-                
-                Currencies=new()
-                {
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "USD"
-                    },
-
-                    new()
-                    {
-                        IsOfficial = false,
-                        Code = "GBP"
-                    }
-                },
                 Code = "IO",
-                Area = 60,
-                CallingCode=246,
-                Capital="Camp Justice",
-                Demonym="Indian",
-                Latitude = -6,
-                LocalName = "British Indian Ocean Territory",
-                Longitude = 71.5,
                 Name = "British Indian Ocean Territory",
                 ShortName = "British Indian Ocean Territory",
-                ThreeLettersCode = "IOT"
+                ThreeLettersCode = "IOT",
+                LocalName = "British Indian Ocean Territory",
+                Capital = "Camp Justice",
+                Demonym = "Indian",
+                CallingCode = 246,
+                Area = 60,
+                Latitude = -6,
+                Longitude = 71.5,
+                Languages = new()
+                {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "BRL"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "BRL"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EN"
+                    } 
+                },                
+                Currencies=new()
+                {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "USD"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "GBP"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Asia Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "VG",
+                Name = "British Virgin Islands",
+                ShortName = "Virgin Islands",
+                ThreeLettersCode = "VGB",
+                LocalName = "British Virgin Islands",
+                Capital = "Road Town",
+                Demonym = "Virgin Islander",
+                CallingCode = 1284,
+                Area = 153,
+                Latitude = 18.4313831329346,
+                Longitude = -64.623046875,
                 Languages = new()
                 {
                     new()
@@ -1377,10 +1788,19 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "USD"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "GBP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -1389,23 +1809,34 @@ public partial class CloudGeographyClient
                         Code = "USD"
                     }
                 },
-                Code = "VG",
-                Area = 153,
-                CallingCode=1284,
-                Capital="Road Town",
-                Demonym="Virgin Islander",
-                Latitude = 18.4313831329346,
-                LocalName = "British Virgin Islands",
-                Longitude = -64.623046875,
-                Name = "British Virgin Islands",
-                ShortName = "Virgin Islands",
-                ThreeLettersCode = "VGB"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "BN",
+                Name = "Brunei",
+                ShortName = "Brunei",
+                ThreeLettersCode = "BRN",
+                LocalName = "Brunei Darussalam",
+                Capital = "Bandar Seri Begawan",
+                Demonym = "Bruneian",
+                CallingCode = 673,
+                Area = 5765,
+                Latitude = 4.5,
+                Longitude = 114.666664123535,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "USD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -1426,8 +1857,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -1435,30 +1865,45 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "BND"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "SGD"
                     }
                 },
-                Code = "BN",
-                Area = 5765,
-                CallingCode=673,
-                Capital="Bandar Seri Begawan",
-                Demonym="Bruneian",
-                Latitude = 4.5,
-                LocalName = "Brunei Darussalam",
-                Longitude = 114.666664123535,
-                Name = "Brunei",
-                ShortName = "Brunei",
-                ThreeLettersCode = "BRN"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Singapore Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "BG",
+                Name = "Bulgaria",
+                ShortName = "Bulgaria",
+                ThreeLettersCode = "BGR",
+                LocalName = "България",
+                Capital = "Sofia",
+                Demonym = "Bulgarian",
+                CallingCode = 359,
+                Area = 110993.6,
+                Latitude = 43,
+                Longitude = 25,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "BND"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "SGD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -1474,8 +1919,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "BG"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -1484,23 +1928,34 @@ public partial class CloudGeographyClient
                         Code = "BGN"
                     }
                 },
-                Code = "BG",
-                Area = 110993.6,
-                CallingCode=359,
-                Capital="Sofia",
-                Demonym="Bulgarian",
-                Latitude = 43,
-                LocalName = "България",
-                Longitude = 25,
-                Name = "Bulgaria",
-                ShortName = "Bulgaria",
-                ThreeLettersCode = "BGR"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "FLE Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "BF",
+                Name = "Burkina Faso",
+                ShortName = "Burkina Faso",
+                ThreeLettersCode = "BFA",
+                LocalName = "Burkina Faso",
+                Capital = "Ouagadougou",
+                Demonym = "Burkinabe",
+                CallingCode = 226,
+                Area = 274200,
+                Latitude = 13,
+                Longitude = -2,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "BGN"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -1516,8 +1971,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FF"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -1526,23 +1980,34 @@ public partial class CloudGeographyClient
                         Code = "XOF"
                     }
                 },
-                Code = "BF",
-                Area = 274200,
-                CallingCode=226,
-                Capital="Ouagadougou",
-                Demonym="Burkinabe",
-                Latitude = 13,
-                LocalName = "Burkina Faso",
-                Longitude = -2,
-                Name = "Burkina Faso",
-                ShortName = "Burkina Faso",
-                ThreeLettersCode = "BFA"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "BI",
+                Name = "Burundi",
+                ShortName = "Burundi",
+                ThreeLettersCode = "BDI",
+                LocalName = "Burundi",
+                Capital = "Bujumbura",
+                Demonym = "Burundian",
+                CallingCode = 257,
+                Area = 27834,
+                Latitude = -3.5,
+                Longitude = 30,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "XOF"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -1563,8 +2028,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -1573,23 +2037,34 @@ public partial class CloudGeographyClient
                         Code = "BIF"
                     }
                 },
-                Code = "BI",
-                Area = 27834,
-                CallingCode=257,
-                Capital="Bujumbura",
-                Demonym="Burundian",
-                Latitude = -3.5,
-                LocalName = "Burundi",
-                Longitude = 30,
-                Name = "Burundi",
-                ShortName = "Burundi",
-                ThreeLettersCode = "BDI"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "South Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "CV",
+                Name = "Cabo Verde",
+                ShortName = "Cabo Verde",
+                ThreeLettersCode = "CPV",
+                LocalName = "Cabo Verde",
+                Capital = "Praia",
+                Demonym = "Cape Verdian",
+                CallingCode = 238,
+                Area = 4033,
+                Latitude = 16,
+                Longitude = -24,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "BIF"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -1605,8 +2080,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "KEA"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -1615,23 +2089,34 @@ public partial class CloudGeographyClient
                         Code = "CVE"
                     }
                 },
-                Code = "CV",
-                Area = 4033,
-                CallingCode=238,
-                Capital="Praia",
-                Demonym="Cape Verdian",
-                Latitude = 16,
-                LocalName = "Cabo Verde",
-                Longitude = -24,
-                Name = "Cabo Verde",
-                ShortName = "Cabo Verde",
-                ThreeLettersCode = "CPV"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Cape Verde Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "KH",
+                Name = "Cambodia",
+                ShortName = "Cambodia",
+                ThreeLettersCode = "KHM",
+                LocalName = "កម្ពុជា",
+                Capital = "Phnom Penh",
+                Demonym = "Cambodian",
+                CallingCode = 855,
+                Area = 181035,
+                Latitude = 13,
+                Longitude = 105,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "CVE"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -1652,8 +2137,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -1661,30 +2145,45 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "KHR"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "USD"
                     }
                 },
-                Code = "KH",
-                Area = 181035,
-                CallingCode=855,
-                Capital="Phnom Penh",
-                Demonym="Cambodian",
-                Latitude = 13,
-                LocalName = "កម្ពុជា",
-                Longitude = 105,
-                Name = "Cambodia",
-                ShortName = "Cambodia",
-                ThreeLettersCode = "KHM"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SE Asia Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "CM",
+                Name = "Cameroon",
+                ShortName = "Cameroon",
+                ThreeLettersCode = "CMR",
+                LocalName = "Cameroon",
+                Capital = "Yaoundé",
+                Demonym = "Cameroonian",
+                CallingCode = 237,
+                Area = 475442,
+                Latitude = 6,
+                Longitude = 12,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "KHR"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "USD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -1710,8 +2209,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "DE"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -1720,23 +2218,34 @@ public partial class CloudGeographyClient
                         Code = "XAF"
                     }
                 },
-                Code = "CM",
-                Area = 475442,
-                CallingCode=237,
-                Capital="Yaoundé",
-                Demonym="Cameroonian",
-                Latitude = 6,
-                LocalName = "Cameroon",
-                Longitude = 12,
-                Name = "Cameroon",
-                ShortName = "Cameroon",
-                ThreeLettersCode = "CMR"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "CA",
+                Name = "Canada",
+                ShortName = "Canada",
+                ThreeLettersCode = "CAN",
+                LocalName = "Canada",
+                Capital = "Ottawa",
+                Demonym = "Canadian",
+                CallingCode = 1,
+                Area = 9984670,
+                Latitude = 60,
+                Longitude = -95,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "XAF"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -1752,8 +2261,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -1762,21 +2270,67 @@ public partial class CloudGeographyClient
                         Code = "CAD"
                     }
                 },
-                Code = "CA",
-                Area = 9984670,
-                CallingCode=1,
-                Capital="Ottawa",
-                Demonym="Canadian",
-                Latitude = 60,
-                LocalName = "Canada",
-                Longitude = -95,
-                Name = "Canada",
-                ShortName = "Canada",
-                ThreeLettersCode = "CAN"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Newfoundland Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Atlantic Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Eastern Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "SA Pacific Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Central Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Canada Central Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Mountain Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "US Mountain Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Yukon Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Pacific Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "KY",
+                Name = "Cayman Islands",
+                ShortName = "Cayman Islands",
+                ThreeLettersCode = "CYM",
+                LocalName = "Cayman Islands",
+                Capital = "George Town",
+                Demonym = "Caymanian",
+                CallingCode = 1345,
+                Area = 264,
+                Latitude = 19.5,
+                Longitude = -80.5,
                 Languages = new()
                 {
                     new()
@@ -1787,10 +2341,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "CAD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -1799,23 +2357,34 @@ public partial class CloudGeographyClient
                         Code = "KYD"
                     }
                 },
-                Code = "KY",
-                Area = 264,
-                CallingCode=1345,
-                Capital="George Town",
-                Demonym="Caymanian",
-                Latitude = 19.5,
-                LocalName = "Cayman Islands",
-                Longitude = -80.5,
-                Name = "Cayman Islands",
-                ShortName = "Cayman Islands",
-                ThreeLettersCode = "CYM"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Pacific Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "CF",
+                Name = "Central African Republic",
+                ShortName = "Central African Republic",
+                ThreeLettersCode = "CAF",
+                LocalName = "Ködörösêse tî Bêafrîka",
+                Capital = "Bangui",
+                Demonym = "Central African",
+                CallingCode = 236,
+                Area = 622984,
+                Latitude = 7,
+                Longitude = 21,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "KYD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -1831,8 +2400,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "SG"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -1841,23 +2409,34 @@ public partial class CloudGeographyClient
                         Code = "XAF"
                     }
                 },
-                Code = "CF",
-                Area = 622984,
-                CallingCode=236,
-                Capital="Bangui",
-                Demonym="Central African",
-                Latitude = 7,
-                LocalName = "Ködörösêse tî Bêafrîka",
-                Longitude = 21,
-                Name = "Central African Republic",
-                ShortName = "Central African Republic",
-                ThreeLettersCode = "CAF"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "TD",
+                Name = "Chad",
+                ShortName = "Chad",
+                ThreeLettersCode = "TCD",
+                LocalName = "تشاد‎",
+                Capital = "N'Djamena",
+                Demonym = "Chadian",
+                CallingCode = 235,
+                Area = 1284000,
+                Latitude = 15,
+                Longitude = 19,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "XAF"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -1873,8 +2452,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -1883,21 +2461,27 @@ public partial class CloudGeographyClient
                         Code = "XAF"
                     }
                 },
-                Code = "TD",
-                Area = 1284000,
-                CallingCode=235,
-                Capital="N'Djamena",
-                Demonym="Chadian",
-                Latitude = 15,
-                LocalName = "تشاد‎",
-                Longitude = 19,
-                Name = "Chad",
-                ShortName = "Chad",
-                ThreeLettersCode = "TCD"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "CL",
+                Name = "Chile",
+                ShortName = "Chile",
+                ThreeLettersCode = "CHL",
+                LocalName = "Chile",
+                Capital = "Santiago",
+                Demonym = "Chilean",
+                CallingCode = 56,
+                Area = 756102,
+                Latitude = -30,
+                Longitude = -71,
                 Languages = new()
                 {
                     new()
@@ -1908,10 +2492,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XAF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -1920,23 +2508,42 @@ public partial class CloudGeographyClient
                         Code = "CLP"
                     }
                 },
-                Code = "CL",
-                Area = 756102,
-                CallingCode=56,
-                Capital="Santiago",
-                Demonym="Chilean",
-                Latitude = -30,
-                LocalName = "Chile",
-                Longitude = -71,
-                Name = "Chile",
-                ShortName = "Chile",
-                ThreeLettersCode = "CHL"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Pacific SA Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Magallanes Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Easter Island Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "CN",
+                Name = "China",
+                ShortName = "China",
+                ThreeLettersCode = "CHN",
+                LocalName = "中国",
+                Capital = "Beijing",
+                Demonym = "Chinese",
+                CallingCode = 86,
+                Area = 9640011,
+                Latitude = 35,
+                Longitude = 105,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "CLP"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -1947,8 +2554,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ZH"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -1957,58 +2563,78 @@ public partial class CloudGeographyClient
                         Code = "CNY"
                     }
                 },
-                Code = "CN",
-                Area = 9640011,
-                CallingCode=86,
-                Capital="Beijing",
-                Demonym="Chinese",
-                Latitude = 35,
-                LocalName = "中国",
-                Longitude = 105,
-                Name = "China",
-                ShortName = "China",
-                ThreeLettersCode = "CHN"
-            },
-
-            new()
-            {
-                Languages = new()
+                TimeZones=new()
                 {
                     new()
                     {
-                        IsOfficial = true,
-                        Code = "CNY"
+                        Code = "China Standard Time"
                     },
                     new()
                     {
-                        IsOfficial = true,
-                        Code = "EN"
-                    } 
-                },
-                
-                Currencies=new()
-                {
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "AUD"
+                        Code = "Central Asia Standard Time"
                     }
-                },
+                }
+            },
+            new()
+            {
                 Code = "CX",
-                Area = 135,
-                CallingCode=61,
-                Capital="Flying Fish Cove",
-                Demonym="Christmas Islander",
-                Latitude = -10.5,
-                LocalName = "Christmas Island",
-                Longitude = 105.666664123535,
                 Name = "Christmas Island",
                 ShortName = "Christmas Island",
-                ThreeLettersCode = "CXR"
+                ThreeLettersCode = "CXR",
+                LocalName = "Christmas Island",
+                Capital = "Flying Fish Cove",
+                Demonym = "Christmas Islander",
+                CallingCode = 61,
+                Area = 135,
+                Latitude = -10.5,
+                Longitude = 105.666664123535,
+                Languages = new()
+                {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "CNY"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "CNY"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EN"
+                    } 
+                },                
+                Currencies=new()
+                {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "AUD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SE Asia Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "CC",
+                Name = "Cocos (Keeling) Islands",
+                ShortName = "Cocos (Keeling) Islands",
+                ThreeLettersCode = "CCK",
+                LocalName = "Cocos (Keeling) Islands",
+                Capital = "West Island",
+                Demonym = "Cocos Islander",
+                CallingCode = 61,
+                Area = 14,
+                Latitude = -12.5,
+                Longitude = 96.8333358764648,
                 Languages = new()
                 {
                     new()
@@ -2019,10 +2645,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "AUD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2031,23 +2661,34 @@ public partial class CloudGeographyClient
                         Code = "AUD"
                     }
                 },
-                Code = "CC",
-                Area = 14,
-                CallingCode=61,
-                Capital="West Island",
-                Demonym="Cocos Islander",
-                Latitude = -12.5,
-                LocalName = "Cocos (Keeling) Islands",
-                Longitude = 96.8333358764648,
-                Name = "Cocos (Keeling) Islands",
-                ShortName = "Cocos (Keeling) Islands",
-                ThreeLettersCode = "CCK"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Myanmar Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "CO",
+                Name = "Colombia",
+                ShortName = "Colombia",
+                ThreeLettersCode = "COL",
+                LocalName = "Colombia",
+                Capital = "Bogotá",
+                Demonym = "Colombian",
+                CallingCode = 57,
+                Area = 1141748,
+                Latitude = 4,
+                Longitude = -72,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "AUD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -2058,8 +2699,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2068,23 +2708,34 @@ public partial class CloudGeographyClient
                         Code = "COP"
                     }
                 },
-                Code = "CO",
-                Area = 1141748,
-                CallingCode=57,
-                Capital="Bogotá",
-                Demonym="Colombian",
-                Latitude = 4,
-                LocalName = "Colombia",
-                Longitude = -72,
-                Name = "Colombia",
-                ShortName = "Colombia",
-                ThreeLettersCode = "COL"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Pacific Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "KM",
+                Name = "Comoros",
+                ShortName = "Comoros",
+                ThreeLettersCode = "COM",
+                LocalName = "جزر القمر",
+                Capital = "Moroni",
+                Demonym = "Comoran",
+                CallingCode = 269,
+                Area = 1862,
+                Latitude = -12.1666669845581,
+                Longitude = 44.25,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "COP"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -2100,8 +2751,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2110,23 +2760,34 @@ public partial class CloudGeographyClient
                         Code = "KMF"
                     }
                 },
-                Code = "KM",
-                Area = 1862,
-                CallingCode=269,
-                Capital="Moroni",
-                Demonym="Comoran",
-                Latitude = -12.1666669845581,
-                LocalName = "جزر القمر",
-                Longitude = 44.25,
-                Name = "Comoros",
-                ShortName = "Comoros",
-                ThreeLettersCode = "COM"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "E. Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "CG",
+                Name = "Congo",
+                ShortName = "Congo",
+                ThreeLettersCode = "COG",
+                LocalName = "République du Congo",
+                Capital = "Brazzaville",
+                Demonym = "Congolese",
+                CallingCode = 242,
+                Area = 342000,
+                Latitude = -1,
+                Longitude = 15,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "KMF"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -2142,8 +2803,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "LN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2152,23 +2812,34 @@ public partial class CloudGeographyClient
                         Code = "XAF"
                     }
                 },
-                Code = "CG",
-                Area = 342000,
-                CallingCode=242,
-                Capital="Brazzaville",
-                Demonym="Congolese",
-                Latitude = -1,
-                LocalName = "République du Congo",
-                Longitude = 15,
-                Name = "Congo",
-                ShortName = "Congo",
-                ThreeLettersCode = "COG"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "CD",
+                Name = "Congo (DRC)",
+                ShortName = "Congo (DRC)",
+                ThreeLettersCode = "COD",
+                LocalName = "Congo (DRC)",
+                Capital = "Kinshasa",
+                Demonym = "Congolese",
+                CallingCode = 243,
+                Area = 235409,
+                Latitude = 0,
+                Longitude = 25,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "XAF"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -2194,8 +2865,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "LU"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2204,23 +2874,38 @@ public partial class CloudGeographyClient
                         Code = "CDF"
                     }
                 },
-                Code = "CD",
-                Area = 235409,
-                CallingCode=243,
-                Capital="Kinshasa",
-                Demonym="Congolese",
-                Latitude = 0,
-                LocalName = "Congo (DRC)",
-                Longitude = 25,
-                Name = "Congo (DRC)",
-                ShortName = "Congo (DRC)",
-                ThreeLettersCode = "COD"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "South Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "CK",
+                Name = "Cook Islands",
+                ShortName = "Cook Islands",
+                ThreeLettersCode = "COK",
+                LocalName = "Cook Islands",
+                Capital = "Avarua",
+                Demonym = "Cook Islander",
+                CallingCode = 682,
+                Area = 236,
+                Latitude = -21.233333587646484,
+                Longitude = -159.76666259765625,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "CDF"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -2231,8 +2916,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2240,30 +2924,45 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "NZD"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "CKD"
                     }
                 },
-                Code = "CK",
-                Area = 236,
-                CallingCode=682,
-                Capital="Avarua",
-                Demonym="Cook Islander",
-                Latitude = -21.233333587646484,
-                LocalName = "Cook Islands",
-                Longitude = -159.76666259765625,
-                Name = "Cook Islands",
-                ShortName = "Cook Islands",
-                ThreeLettersCode = "COK"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Hawaiian Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "CR",
+                Name = "Costa Rica",
+                ShortName = "Costa Rica",
+                ThreeLettersCode = "CRI",
+                LocalName = "Costa Rica",
+                Capital = "San José",
+                Demonym = "Costa Rican",
+                CallingCode = 506,
+                Area = 51100,
+                Latitude = 10,
+                Longitude = -84,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "NZD"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "CKD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -2279,8 +2978,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2289,23 +2987,34 @@ public partial class CloudGeographyClient
                         Code = "CRC"
                     }
                 },
-                Code = "CR",
-                Area = 51100,
-                CallingCode=506,
-                Capital="San José",
-                Demonym="Costa Rican",
-                Latitude = 10,
-                LocalName = "Costa Rica",
-                Longitude = -84,
-                Name = "Costa Rica",
-                ShortName = "Costa Rica",
-                ThreeLettersCode = "CRI"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central America Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "CI",
+                Name = "Côte d'Ivoire",
+                ShortName = "Côte d'Ivoire",
+                ThreeLettersCode = "CIV",
+                LocalName = "Côte d'Ivoire",
+                Capital = "Yamoussoukro",
+                Demonym = "Ivorian",
+                CallingCode = 225,
+                Area = 322463,
+                Latitude = 8,
+                Longitude = -5,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "CRC"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -2316,8 +3025,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2326,23 +3034,34 @@ public partial class CloudGeographyClient
                         Code = "XOF"
                     }
                 },
-                Code = "CI",
-                Area = 322463,
-                CallingCode=225,
-                Capital="Yamoussoukro",
-                Demonym="Ivorian",
-                Latitude = 8,
-                LocalName = "Côte d'Ivoire",
-                Longitude = -5,
-                Name = "Côte d'Ivoire",
-                ShortName = "Côte d'Ivoire",
-                ThreeLettersCode = "CIV"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "HR",
+                Name = "Croatia",
+                ShortName = "Croatia",
+                ThreeLettersCode = "HRV",
+                LocalName = "Hrvatska",
+                Capital = "Zagreb",
+                Demonym = "Croatian",
+                CallingCode = 385,
+                Area = 56594,
+                Latitude = 45.16666793823242,
+                Longitude = 15.5,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "XOF"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -2353,8 +3072,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "HR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2363,23 +3081,34 @@ public partial class CloudGeographyClient
                         Code = "HRK"
                     }
                 },
-                Code = "HR",
-                Area = 56594,
-                CallingCode=385,
-                Capital="Zagreb",
-                Demonym="Croatian",
-                Latitude = 45.16666793823242,
-                LocalName = "Hrvatska",
-                Longitude = 15.5,
-                Name = "Croatia",
-                ShortName = "Croatia",
-                ThreeLettersCode = "HRV"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central European Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "CU",
+                Name = "Cuba",
+                ShortName = "Cuba",
+                ThreeLettersCode = "CUB",
+                LocalName = "Cuba",
+                Capital = "Havana",
+                Demonym = "Cuban",
+                CallingCode = 53,
+                Area = 109884,
+                Latitude = 21.5,
+                Longitude = -80,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "HRK"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -2390,8 +3119,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2399,30 +3127,45 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "CUC"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "CUP"
                     }
                 },
-                Code = "CU",
-                Area = 109884,
-                CallingCode=53,
-                Capital="Havana",
-                Demonym="Cuban",
-                Latitude = 21.5,
-                LocalName = "Cuba",
-                Longitude = -80,
-                Name = "Cuba",
-                ShortName = "Cuba",
-                ThreeLettersCode = "CUB"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Cuba Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "CW",
+                Name = "Curaçao",
+                ShortName = "Curaçao",
+                ThreeLettersCode = "CUW",
+                LocalName = "Curaçao",
+                Capital = "Willemstad",
+                Demonym = "Dutch",
+                CallingCode = 599,
+                Area = 444,
+                Latitude = 12.116666793823242,
+                Longitude = -68.93333435058594,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "CUC"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "CUP"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -2448,8 +3191,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2458,23 +3200,34 @@ public partial class CloudGeographyClient
                         Code = "ANG"
                     }
                 },
-                Code = "CW",
-                Area = 444,
-                CallingCode=599,
-                Capital="Willemstad",
-                Demonym="Dutch",
-                Latitude = 12.116666793823242,
-                LocalName = "Curaçao",
-                Longitude = -68.93333435058594,
-                Name = "Curaçao",
-                ShortName = "Curaçao",
-                ThreeLettersCode = "CUW"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "CY",
+                Name = "Cyprus",
+                ShortName = "Cyprus",
+                ThreeLettersCode = "CYP",
+                LocalName = "Κύπρος",
+                Capital = "Nicosia",
+                Demonym = "Cypriot",
+                CallingCode = 357,
+                Area = 9251,
+                Latitude = 35,
+                Longitude = 33,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "ANG"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -2495,8 +3248,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "HY"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2505,23 +3257,34 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "CY",
-                Area = 9251,
-                CallingCode=357,
-                Capital="Nicosia",
-                Demonym="Cypriot",
-                Latitude = 35,
-                LocalName = "Κύπρος",
-                Longitude = 33,
-                Name = "Cyprus",
-                ShortName = "Cyprus",
-                ThreeLettersCode = "CYP"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "GTB Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "CZ",
+                Name = "Czech Republic",
+                ShortName = "Czech Republic",
+                ThreeLettersCode = "CZE",
+                LocalName = "Česká republika",
+                Capital = "Prague",
+                Demonym = "Czech",
+                CallingCode = 420,
+                Area = 78865,
+                Latitude = 49.75,
+                Longitude = 15.5,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -2537,8 +3300,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "SK"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2547,23 +3309,34 @@ public partial class CloudGeographyClient
                         Code = "CZK"
                     }
                 },
-                Code = "CZ",
-                Area = 78865,
-                CallingCode=420,
-                Capital="Prague",
-                Demonym="Czech",
-                Latitude = 49.75,
-                LocalName = "Česká republika",
-                Longitude = 15.5,
-                Name = "Czech Republic",
-                ShortName = "Czech Republic",
-                ThreeLettersCode = "CZE"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Europe Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "DK",
+                Name = "Denmark",
+                ShortName = "Denmark",
+                ThreeLettersCode = "DNK",
+                LocalName = "Danmark",
+                Capital = "Copenhagen",
+                Demonym = "Danish",
+                CallingCode = 45,
+                Area = 43094,
+                Latitude = 56,
+                Longitude = 10,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "CZK"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -2574,8 +3347,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "DA"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2584,23 +3356,34 @@ public partial class CloudGeographyClient
                         Code = "DKK"
                     }
                 },
-                Code = "DK",
-                Area = 43094,
-                CallingCode=45,
-                Capital="Copenhagen",
-                Demonym="Danish",
-                Latitude = 56,
-                LocalName = "Danmark",
-                Longitude = 10,
-                Name = "Denmark",
-                ShortName = "Denmark",
-                ThreeLettersCode = "DNK"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Romance Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "DJ",
+                Name = "Djibouti",
+                ShortName = "Djibouti",
+                ThreeLettersCode = "DJI",
+                LocalName = "Djibouti",
+                Capital = "Djibouti",
+                Demonym = "Djibouti",
+                CallingCode = 253,
+                Area = 23200,
+                Latitude = 11.5,
+                Longitude = 43,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "DKK"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -2616,8 +3399,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2626,23 +3408,34 @@ public partial class CloudGeographyClient
                         Code = "DJF"
                     }
                 },
-                Code = "DJ",
-                Area = 23200,
-                CallingCode=253,
-                Capital="Djibouti",
-                Demonym="Djibouti",
-                Latitude = 11.5,
-                LocalName = "Djibouti",
-                Longitude = 43,
-                Name = "Djibouti",
-                ShortName = "Djibouti",
-                ThreeLettersCode = "DJI"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "E. Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "DM",
+                Name = "Dominica",
+                ShortName = "Dominica",
+                ThreeLettersCode = "DMA",
+                LocalName = "Dominica",
+                Capital = "Roseau",
+                Demonym = "Dominican",
+                CallingCode = 1767,
+                Area = 751,
+                Latitude = 15.416666984558105,
+                Longitude = -61.33333206176758,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "DJF"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -2653,8 +3446,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2663,58 +3455,74 @@ public partial class CloudGeographyClient
                         Code = "XCD"
                     }
                 },
-                Code = "DM",
-                Area = 751,
-                CallingCode=1767,
-                Capital="Roseau",
-                Demonym="Dominican",
-                Latitude = 15.416666984558105,
-                LocalName = "Dominica",
-                Longitude = -61.33333206176758,
-                Name = "Dominica",
-                ShortName = "Dominica",
-                ThreeLettersCode = "DMA"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    }
+                }
             },
-
             new()
             {
-                Languages = new()
-                {
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "XCD"
-                    },
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "ES"
-                    } 
-                },
-                
-                Currencies=new()
-                {
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "DOP"
-                    }
-                },
                 Code = "DO",
-                Area = 48671,
-                CallingCode=1809,
-                Capital="Santo Domingo",
-                Demonym="Dominican",
-                Latitude = 19,
-                LocalName = "República Dominicana",
-                Longitude = -70.66666412353516,
                 Name = "Dominican Republic",
                 ShortName = "Dominican Republic",
-                ThreeLettersCode = "DOM"
+                ThreeLettersCode = "DOM",
+                LocalName = "República Dominicana",
+                Capital = "Santo Domingo",
+                Demonym = "Dominican",
+                CallingCode = 1809,
+                Area = 48671,
+                Latitude = 19,
+                Longitude = -70.66666412353516,
+                Languages = new()
+                {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "XCD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "XCD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "ES"
+                    } 
+                },                
+                Currencies=new()
+                {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "DOP"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "EC",
+                Name = "Ecuador",
+                ShortName = "Ecuador",
+                ThreeLettersCode = "ECU",
+                LocalName = "Ecuador",
+                Capital = "Quito",
+                Demonym = "Ecuadorean",
+                CallingCode = 593,
+                Area = 276841,
+                Latitude = -2,
+                Longitude = -77.5,
                 Languages = new()
                 {
                     new()
@@ -2725,10 +3533,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "DOP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2737,23 +3549,38 @@ public partial class CloudGeographyClient
                         Code = "USD"
                     }
                 },
-                Code = "EC",
-                Area = 276841,
-                CallingCode=593,
-                Capital="Quito",
-                Demonym="Ecuadorean",
-                Latitude = -2,
-                LocalName = "Ecuador",
-                Longitude = -77.5,
-                Name = "Ecuador",
-                ShortName = "Ecuador",
-                ThreeLettersCode = "ECU"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Pacific Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Central America Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "EG",
+                Name = "Egypt",
+                ShortName = "Egypt",
+                ThreeLettersCode = "EGY",
+                LocalName = "مصر‎",
+                Capital = "Cairo",
+                Demonym = "Egyptian",
+                CallingCode = 20,
+                Area = 1002450,
+                Latitude = 27,
+                Longitude = 30,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "USD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -2764,8 +3591,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2774,21 +3600,27 @@ public partial class CloudGeographyClient
                         Code = "EGP"
                     }
                 },
-                Code = "EG",
-                Area = 1002450,
-                CallingCode=20,
-                Capital="Cairo",
-                Demonym="Egyptian",
-                Latitude = 27,
-                LocalName = "مصر‎",
-                Longitude = 30,
-                Name = "Egypt",
-                ShortName = "Egypt",
-                ThreeLettersCode = "EGY"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Egypt Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "SV",
+                Name = "El Salvador",
+                ShortName = "El Salvador",
+                ThreeLettersCode = "SLV",
+                LocalName = "El Salvador",
+                Capital = "San Salvador",
+                Demonym = "Salvadoran",
+                CallingCode = 503,
+                Area = 21041,
+                Latitude = 13.833333015441895,
+                Longitude = -88.91666412353516,
                 Languages = new()
                 {
                     new()
@@ -2799,10 +3631,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EGP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2811,23 +3647,34 @@ public partial class CloudGeographyClient
                         Code = "USD"
                     }
                 },
-                Code = "SV",
-                Area = 21041,
-                CallingCode=503,
-                Capital="San Salvador",
-                Demonym="Salvadoran",
-                Latitude = 13.833333015441895,
-                LocalName = "El Salvador",
-                Longitude = -88.91666412353516,
-                Name = "El Salvador",
-                ShortName = "El Salvador",
-                ThreeLettersCode = "SLV"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central America Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "GQ",
+                Name = "Equatorial Guinea",
+                ShortName = "Equatorial Guinea",
+                ThreeLettersCode = "GNQ",
+                LocalName = "Guinea Ecuatorial",
+                Capital = "Malabo",
+                Demonym = "Equatorial Guinean",
+                CallingCode = 240,
+                Area = 28051,
+                Latitude = 2,
+                Longitude = 10,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "USD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -2843,8 +3690,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2853,23 +3699,34 @@ public partial class CloudGeographyClient
                         Code = "XAF"
                     }
                 },
-                Code = "GQ",
-                Area = 28051,
-                CallingCode=240,
-                Capital="Malabo",
-                Demonym="Equatorial Guinean",
-                Latitude = 2,
-                LocalName = "Guinea Ecuatorial",
-                Longitude = 10,
-                Name = "Equatorial Guinea",
-                ShortName = "Equatorial Guinea",
-                ThreeLettersCode = "GNQ"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "ER",
+                Name = "Eritrea",
+                ShortName = "Eritrea",
+                ThreeLettersCode = "ERI",
+                LocalName = "ኤርትራ",
+                Capital = "Asmara",
+                Demonym = "Eritrean",
+                CallingCode = 291,
+                Area = 117600,
+                Latitude = 15,
+                Longitude = 39,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "XAF"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -2890,8 +3747,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2900,23 +3756,34 @@ public partial class CloudGeographyClient
                         Code = "ERN"
                     }
                 },
-                Code = "ER",
-                Area = 117600,
-                CallingCode=291,
-                Capital="Asmara",
-                Demonym="Eritrean",
-                Latitude = 15,
-                LocalName = "ኤርትራ",
-                Longitude = 39,
-                Name = "Eritrea",
-                ShortName = "Eritrea",
-                ThreeLettersCode = "ERI"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "E. Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "EE",
+                Name = "Estonia",
+                ShortName = "Estonia",
+                ThreeLettersCode = "EST",
+                LocalName = "Eesti",
+                Capital = "Tallinn",
+                Demonym = "Estonian",
+                CallingCode = 372,
+                Area = 45227,
+                Latitude = 59,
+                Longitude = 26,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "ERN"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -2927,8 +3794,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ET"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2937,23 +3803,34 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "EE",
-                Area = 45227,
-                CallingCode=372,
-                Capital="Tallinn",
-                Demonym="Estonian",
-                Latitude = 59,
-                LocalName = "Eesti",
-                Longitude = 26,
-                Name = "Estonia",
-                ShortName = "Estonia",
-                ThreeLettersCode = "EST"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "FLE Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "ET",
+                Name = "Ethiopia",
+                ShortName = "Ethiopia",
+                ThreeLettersCode = "ETH",
+                LocalName = "ኢትዮጵያ",
+                Capital = "Addis Ababa",
+                Demonym = "Ethiopian",
+                CallingCode = 251,
+                Area = 1104300,
+                Latitude = 8,
+                Longitude = 38,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -2964,8 +3841,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AM"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2974,23 +3850,34 @@ public partial class CloudGeographyClient
                         Code = "ETB"
                     }
                 },
-                Code = "ET",
-                Area = 1104300,
-                CallingCode=251,
-                Capital="Addis Ababa",
-                Demonym="Ethiopian",
-                Latitude = 8,
-                LocalName = "ኢትዮጵያ",
-                Longitude = 38,
-                Name = "Ethiopia",
-                ShortName = "Ethiopia",
-                ThreeLettersCode = "ETH"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "E. Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "FK",
+                Name = "Falkland Islands",
+                ShortName = "Falkland Islands",
+                ThreeLettersCode = "FLK",
+                LocalName = "Falkland Islands",
+                Capital = "Stanley",
+                Demonym = "Falkland Islander",
+                CallingCode = 500,
+                Area = 12200,
+                Latitude = -51.75,
+                Longitude = -59,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "ETB"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -3001,8 +3888,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -3011,23 +3897,34 @@ public partial class CloudGeographyClient
                         Code = "FKP"
                     }
                 },
-                Code = "FK",
-                Area = 12200,
-                CallingCode=500,
-                Capital="Stanley",
-                Demonym="Falkland Islander",
-                Latitude = -51.75,
-                LocalName = "Falkland Islands",
-                Longitude = -59,
-                Name = "Falkland Islands",
-                ShortName = "Falkland Islands",
-                ThreeLettersCode = "FLK"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Eastern Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "FO",
+                Name = "Faroe Islands",
+                ShortName = "Faroe Islands",
+                ThreeLettersCode = "FRO",
+                LocalName = "Føroyar",
+                Capital = "Tórshavn",
+                Demonym = "Faroese",
+                CallingCode = 298,
+                Area = 1393,
+                Latitude = 62,
+                Longitude = -7,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "FKP"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -3038,8 +3935,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FO"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -3047,30 +3943,45 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "DKK"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "FOK"
                     }
                 },
-                Code = "FO",
-                Area = 1393,
-                CallingCode=298,
-                Capital="Tórshavn",
-                Demonym="Faroese",
-                Latitude = 62,
-                LocalName = "Føroyar",
-                Longitude = -7,
-                Name = "Faroe Islands",
-                ShortName = "Faroe Islands",
-                ThreeLettersCode = "FRO"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "GMT Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "FJ",
+                Name = "Fiji",
+                ShortName = "Fiji",
+                ThreeLettersCode = "FJI",
+                LocalName = "Fiji",
+                Capital = "Suva",
+                Demonym = "Fijian",
+                CallingCode = 679,
+                Area = 18272,
+                Latitude = -18,
+                Longitude = 175,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "DKK"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "FOK"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -3096,8 +4007,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "UR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -3106,23 +4016,34 @@ public partial class CloudGeographyClient
                         Code = "FJD"
                     }
                 },
-                Code = "FJ",
-                Area = 18272,
-                CallingCode=679,
-                Capital="Suva",
-                Demonym="Fijian",
-                Latitude = -18,
-                LocalName = "Fiji",
-                Longitude = 175,
-                Name = "Fiji",
-                ShortName = "Fiji",
-                ThreeLettersCode = "FJI"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Fiji Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "FI",
+                Name = "Finland",
+                ShortName = "Finland",
+                ThreeLettersCode = "FIN",
+                LocalName = "Suomi",
+                Capital = "Helsinki",
+                Demonym = "Finnish",
+                CallingCode = 358,
+                Area = 338424,
+                Latitude = 64,
+                Longitude = 26,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "FJD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -3138,8 +4059,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "SV"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -3148,58 +4068,27 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "FI",
-                Area = 338424,
-                CallingCode=358,
-                Capital="Helsinki",
-                Demonym="Finnish",
-                Latitude = 64,
-                LocalName = "Suomi",
-                Longitude = 26,
-                Name = "Finland",
-                ShortName = "Finland",
-                ThreeLettersCode = "FIN"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "FLE Standard Time"
+                    }
+                }
             },
-
             new()
             {
-                Languages = new()
-                {
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "EUR"
-                    },
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "FR"
-                    } 
-                },
-                
-                Currencies=new()
-                {
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "EUR"
-                    }
-                },
                 Code = "FR",
-                Area = 640679,
-                CallingCode=33,
-                Capital="Paris",
-                Demonym="French",
-                Latitude = 46,
-                LocalName = "France",
-                Longitude = 2,
                 Name = "France",
                 ShortName = "France",
-                ThreeLettersCode = "FRA"
-            },
-
-            new()
-            {
+                ThreeLettersCode = "FRA",
+                LocalName = "France",
+                Capital = "Paris",
+                Demonym = "French",
+                CallingCode = 33,
+                Area = 640679,
+                Latitude = 46,
+                Longitude = 2,
                 Languages = new()
                 {
                     new()
@@ -3210,10 +4099,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -3222,21 +4115,27 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Romance Standard Time"
+                    }
+                }
+            },
+            new()
+            {
                 Code = "GF",
-                Area = 0,
-                CallingCode=594,
-                Capital="Cayenne",
-                Demonym="",
-                Latitude = 4,
-                LocalName = "Guyane française",
-                Longitude = -53,
                 Name = "French Guiana",
                 ShortName = "French Guiana",
-                ThreeLettersCode = "GUF"
-            },
-
-            new()
-            {
+                ThreeLettersCode = "GUF",
+                LocalName = "Guyane française",
+                Capital = "Cayenne",
+                Demonym = "",
+                CallingCode = 594,
+                Area = 0,
+                Latitude = 4,
+                Longitude = -53,
                 Languages = new()
                 {
                     new()
@@ -3247,10 +4146,61 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
+                },                
+                Currencies=new()
+                {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    }
                 },
-                
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Eastern Standard Time"
+                    }
+                }
+            },
+            new()
+            {
+                Code = "PF",
+                Name = "French Polynesia",
+                ShortName = "French Polynesia",
+                ThreeLettersCode = "PYF",
+                LocalName = "Polynésie française",
+                Capital = "Papeetē",
+                Demonym = "French Polynesian",
+                CallingCode = 689,
+                Area = 4167,
+                Latitude = -15,
+                Longitude = -140,
+                Languages = new()
+                {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "FR"
+                    } 
+                },                
                 Currencies=new()
                 {
                     new()
@@ -3259,21 +4209,35 @@ public partial class CloudGeographyClient
                         Code = "XPF"
                     }
                 },
-                Code = "PF",
-                Area = 4167,
-                CallingCode=689,
-                Capital="Papeetē",
-                Demonym="French Polynesian",
-                Latitude = -15,
-                LocalName = "Polynésie française",
-                Longitude = -140,
-                Name = "French Polynesia",
-                ShortName = "French Polynesia",
-                ThreeLettersCode = "PYF"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Hawaiian Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Marquesas Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "UTC-09"
+                    }
+                }
             },
-
             new()
             {
+                Code = "GA",
+                Name = "Gabon",
+                ShortName = "Gabon",
+                ThreeLettersCode = "GAB",
+                LocalName = "Gabon",
+                Capital = "Libreville",
+                Demonym = "Gabonese",
+                CallingCode = 241,
+                Area = 267668,
+                Latitude = -1,
+                Longitude = 11.75,
                 Languages = new()
                 {
                     new()
@@ -3284,10 +4248,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XPF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -3296,23 +4264,34 @@ public partial class CloudGeographyClient
                         Code = "XAF"
                     }
                 },
-                Code = "GA",
-                Area = 267668,
-                CallingCode=241,
-                Capital="Libreville",
-                Demonym="Gabonese",
-                Latitude = -1,
-                LocalName = "Gabon",
-                Longitude = 11.75,
-                Name = "Gabon",
-                ShortName = "Gabon",
-                ThreeLettersCode = "GAB"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "GM",
+                Name = "Gambia",
+                ShortName = "Gambia",
+                ThreeLettersCode = "GMB",
+                LocalName = "Gambia",
+                Capital = "Banjul",
+                Demonym = "Gambian",
+                CallingCode = 220,
+                Area = 11295,
+                Latitude = 13.466666221618652,
+                Longitude = -16.566667556762695,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "XAF"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -3323,8 +4302,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -3333,23 +4311,34 @@ public partial class CloudGeographyClient
                         Code = "GMD"
                     }
                 },
-                Code = "GM",
-                Area = 11295,
-                CallingCode=220,
-                Capital="Banjul",
-                Demonym="Gambian",
-                Latitude = 13.466666221618652,
-                LocalName = "Gambia",
-                Longitude = -16.566667556762695,
-                Name = "Gambia",
-                ShortName = "Gambia",
-                ThreeLettersCode = "GMB"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "GE",
+                Name = "Georgia",
+                ShortName = "Georgia",
+                ThreeLettersCode = "GEO",
+                LocalName = "საქართველო",
+                Capital = "Tbilisi",
+                Demonym = "Georgian",
+                CallingCode = 995,
+                Area = 69700,
+                Latitude = 42,
+                Longitude = 43.5,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "GMD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -3360,8 +4349,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "KA"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -3370,23 +4358,34 @@ public partial class CloudGeographyClient
                         Code = "GEL"
                     }
                 },
-                Code = "GE",
-                Area = 69700,
-                CallingCode=995,
-                Capital="Tbilisi",
-                Demonym="Georgian",
-                Latitude = 42,
-                LocalName = "საქართველო",
-                Longitude = 43.5,
-                Name = "Georgia",
-                ShortName = "Georgia",
-                ThreeLettersCode = "GEO"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Georgian Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "DE",
+                Name = "Germany",
+                ShortName = "Germany",
+                ThreeLettersCode = "DEU",
+                LocalName = "Deutschland",
+                Capital = "Berlin",
+                Demonym = "German",
+                CallingCode = 49,
+                Area = 357168,
+                Latitude = 51,
+                Longitude = 9,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "GEL"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -3397,8 +4396,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "DE"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -3407,58 +4405,74 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "DE",
-                Area = 357168,
-                CallingCode=49,
-                Capital="Berlin",
-                Demonym="German",
-                Latitude = 51,
-                LocalName = "Deutschland",
-                Longitude = 9,
-                Name = "Germany",
-                ShortName = "Germany",
-                ThreeLettersCode = "DEU"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
+                    }
+                }
             },
-
             new()
             {
-                Languages = new()
-                {
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "EUR"
-                    },
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "EN"
-                    } 
-                },
-                
-                Currencies=new()
-                {
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "GHS"
-                    }
-                },
                 Code = "GH",
-                Area = 238533,
-                CallingCode=233,
-                Capital="Accra",
-                Demonym="Ghanaian",
-                Latitude = 8,
-                LocalName = "Ghana",
-                Longitude = -2,
                 Name = "Ghana",
                 ShortName = "Ghana",
-                ThreeLettersCode = "GHA"
+                ThreeLettersCode = "GHA",
+                LocalName = "Ghana",
+                Capital = "Accra",
+                Demonym = "Ghanaian",
+                CallingCode = 233,
+                Area = 238533,
+                Latitude = 8,
+                Longitude = -2,
+                Languages = new()
+                {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EN"
+                    } 
+                },                
+                Currencies=new()
+                {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "GHS"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "GI",
+                Name = "Gibraltar",
+                ShortName = "Gibraltar",
+                ThreeLettersCode = "GIB",
+                LocalName = "Gibraltar",
+                Capital = "Gibraltar",
+                Demonym = "Gibraltar",
+                CallingCode = 350,
+                Area = 6,
+                Latitude = 36.13333511352539,
+                Longitude = -5.349999904632568,
                 Languages = new()
                 {
                     new()
@@ -3469,10 +4483,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "GHS"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -3481,23 +4499,34 @@ public partial class CloudGeographyClient
                         Code = "GIP"
                     }
                 },
-                Code = "GI",
-                Area = 6,
-                CallingCode=350,
-                Capital="Gibraltar",
-                Demonym="Gibraltar",
-                Latitude = 36.13333511352539,
-                LocalName = "Gibraltar",
-                Longitude = -5.349999904632568,
-                Name = "Gibraltar",
-                ShortName = "Gibraltar",
-                ThreeLettersCode = "GIB"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "GR",
+                Name = "Greece",
+                ShortName = "Greece",
+                ThreeLettersCode = "GRC",
+                LocalName = "Ελλάδα",
+                Capital = "Athens",
+                Demonym = "Greek",
+                CallingCode = 30,
+                Area = 131990,
+                Latitude = 39,
+                Longitude = 22,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "GIP"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -3508,8 +4537,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EL"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -3518,23 +4546,34 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "GR",
-                Area = 131990,
-                CallingCode=30,
-                Capital="Athens",
-                Demonym="Greek",
-                Latitude = 39,
-                LocalName = "Ελλάδα",
-                Longitude = 22,
-                Name = "Greece",
-                ShortName = "Greece",
-                ThreeLettersCode = "GRC"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "GTB Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "GL",
+                Name = "Greenland",
+                ShortName = "Greenland",
+                ThreeLettersCode = "GRL",
+                LocalName = "Kalaallit Nunaat",
+                Capital = "Nuuk",
+                Demonym = "Greenlandic",
+                CallingCode = 299,
+                Area = 2166086,
+                Latitude = 72,
+                Longitude = -40,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -3545,8 +4584,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "KL"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -3555,58 +4593,86 @@ public partial class CloudGeographyClient
                         Code = "DKK"
                     }
                 },
-                Code = "GL",
-                Area = 2166086,
-                CallingCode=299,
-                Capital="Nuuk",
-                Demonym="Greenlandic",
-                Latitude = 72,
-                LocalName = "Kalaallit Nunaat",
-                Longitude = -40,
-                Name = "Greenland",
-                ShortName = "Greenland",
-                ThreeLettersCode = "GRL"
-            },
-
-            new()
-            {
-                Languages = new()
+                TimeZones=new()
                 {
                     new()
                     {
-                        IsOfficial = true,
-                        Code = "DKK"
+                        Code = "Greenland Standard Time"
                     },
                     new()
                     {
-                        IsOfficial = true,
-                        Code = "EN"
-                    } 
-                },
-                
-                Currencies=new()
-                {
+                        Code = "Greenwich Standard Time"
+                    },
                     new()
                     {
-                        IsOfficial = true,
-                        Code = "XCD"
+                        Code = "Azores Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Atlantic Standard Time"
                     }
-                },
+                }
+            },
+            new()
+            {
                 Code = "GD",
-                Area = 344,
-                CallingCode=1473,
-                Capital="St. George's",
-                Demonym="Grenadian",
-                Latitude = 12.116666793823242,
-                LocalName = "Grenada",
-                Longitude = -61.66666793823242,
                 Name = "Grenada",
                 ShortName = "Grenada",
-                ThreeLettersCode = "GRD"
+                ThreeLettersCode = "GRD",
+                LocalName = "Grenada",
+                Capital = "St. George's",
+                Demonym = "Grenadian",
+                CallingCode = 1473,
+                Area = 344,
+                Latitude = 12.116666793823242,
+                Longitude = -61.66666793823242,
+                Languages = new()
+                {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "DKK"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "DKK"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EN"
+                    } 
+                },                
+                Currencies=new()
+                {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "XCD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "GP",
+                Name = "Guadeloupe",
+                ShortName = "Guadeloupe",
+                ThreeLettersCode = "GLP",
+                LocalName = "Guadeloupe",
+                Capital = "Basse-Terre",
+                Demonym = "Guadeloupian",
+                CallingCode = 590,
+                Area = 0,
+                Latitude = 16.25,
+                Longitude = -61.58333206176758,
                 Languages = new()
                 {
                     new()
@@ -3617,10 +4683,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XCD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -3629,63 +4699,79 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "GP",
-                Area = 0,
-                CallingCode=590,
-                Capital="Basse-Terre",
-                Demonym="Guadeloupian",
-                Latitude = 16.25,
-                LocalName = "Guadeloupe",
-                Longitude = -61.58333206176758,
-                Name = "Guadeloupe",
-                ShortName = "Guadeloupe",
-                ThreeLettersCode = "GLP"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    }
+                }
             },
-
             new()
             {
-                Languages = new()
-                {
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "EUR"
-                    },
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "EN"
-                    },
-                    new()
-                    {
-                        IsOfficial = false,
-                        Code = "ES"
-                    } 
-                },
-                
-                Currencies=new()
-                {
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "USD"
-                    }
-                },
                 Code = "GU",
-                Area = 549,
-                CallingCode=1671,
-                Capital="Hagåtña",
-                Demonym="Guamanian",
-                Latitude = 13.466666221618652,
-                LocalName = "Guam",
-                Longitude = 144.78334045410156,
                 Name = "Guam",
                 ShortName = "Guam",
-                ThreeLettersCode = "GUM"
+                ThreeLettersCode = "GUM",
+                LocalName = "Guam",
+                Capital = "Hagåtña",
+                Demonym = "Guamanian",
+                CallingCode = 1671,
+                Area = 549,
+                Latitude = 13.466666221618652,
+                Longitude = 144.78334045410156,
+                Languages = new()
+                {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EN"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "ES"
+                    } 
+                },                
+                Currencies=new()
+                {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "USD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "West Pacific Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "GT",
+                Name = "Guatemala",
+                ShortName = "Guatemala",
+                ThreeLettersCode = "GTM",
+                LocalName = "Guatemala",
+                Capital = "Guatemala City",
+                Demonym = "Guatemalan",
+                CallingCode = 502,
+                Area = 108889,
+                Latitude = 15.5,
+                Longitude = -90.25,
                 Languages = new()
                 {
                     new()
@@ -3696,10 +4782,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "USD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -3708,23 +4798,34 @@ public partial class CloudGeographyClient
                         Code = "GTQ"
                     }
                 },
-                Code = "GT",
-                Area = 108889,
-                CallingCode=502,
-                Capital="Guatemala City",
-                Demonym="Guatemalan",
-                Latitude = 15.5,
-                LocalName = "Guatemala",
-                Longitude = -90.25,
-                Name = "Guatemala",
-                ShortName = "Guatemala",
-                ThreeLettersCode = "GTM"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central America Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "GG",
+                Name = "Guernsey",
+                ShortName = "Guernsey",
+                ThreeLettersCode = "GGY",
+                LocalName = "Guernsey",
+                Capital = "St. Peter Port",
+                Demonym = "Channel Islander",
+                CallingCode = 44,
+                Area = 78,
+                Latitude = 49.46666717529297,
+                Longitude = -2.5833332538604736,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "GTQ"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -3740,8 +4841,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -3749,30 +4849,45 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "GBP"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "FOK"
                     }
                 },
-                Code = "GG",
-                Area = 78,
-                CallingCode=44,
-                Capital="St. Peter Port",
-                Demonym="Channel Islander",
-                Latitude = 49.46666717529297,
-                LocalName = "Guernsey",
-                Longitude = -2.5833332538604736,
-                Name = "Guernsey",
-                ShortName = "Guernsey",
-                ThreeLettersCode = "GGY"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "GMT Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "GN",
+                Name = "Guinea",
+                ShortName = "Guinea",
+                ThreeLettersCode = "GIN",
+                LocalName = "Guinée",
+                Capital = "Conakry",
+                Demonym = "Guinean",
+                CallingCode = 224,
+                Area = 245857,
+                Latitude = 11,
+                Longitude = -10,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "GBP"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "FOK"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -3793,8 +4908,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FF"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -3803,23 +4917,34 @@ public partial class CloudGeographyClient
                         Code = "GNF"
                     }
                 },
-                Code = "GN",
-                Area = 245857,
-                CallingCode=224,
-                Capital="Conakry",
-                Demonym="Guinean",
-                Latitude = 11,
-                LocalName = "Guinée",
-                Longitude = -10,
-                Name = "Guinea",
-                ShortName = "Guinea",
-                ThreeLettersCode = "GIN"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "GW",
+                Name = "Guinea-Bissau",
+                ShortName = "Guinea-Bissau",
+                ThreeLettersCode = "GNB",
+                LocalName = "Guiné-Bissau",
+                Capital = "Bissau",
+                Demonym = "Guinea-Bissauan",
+                CallingCode = 245,
+                Area = 36125,
+                Latitude = 12,
+                Longitude = -15,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "GNF"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -3830,8 +4955,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "PT"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -3840,23 +4964,34 @@ public partial class CloudGeographyClient
                         Code = "XOF"
                     }
                 },
-                Code = "GW",
-                Area = 36125,
-                CallingCode=245,
-                Capital="Bissau",
-                Demonym="Guinea-Bissauan",
-                Latitude = 12,
-                LocalName = "Guiné-Bissau",
-                Longitude = -15,
-                Name = "Guinea-Bissau",
-                ShortName = "Guinea-Bissau",
-                ThreeLettersCode = "GNB"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "GY",
+                Name = "Guyana",
+                ShortName = "Guyana",
+                ThreeLettersCode = "GUY",
+                LocalName = "Guyana",
+                Capital = "Georgetown",
+                Demonym = "Guyanese",
+                CallingCode = 592,
+                Area = 214969,
+                Latitude = 5,
+                Longitude = -59,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "XOF"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -3867,8 +5002,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -3877,21 +5011,27 @@ public partial class CloudGeographyClient
                         Code = "GYD"
                     }
                 },
-                Code = "GY",
-                Area = 214969,
-                CallingCode=592,
-                Capital="Georgetown",
-                Demonym="Guyanese",
-                Latitude = 5,
-                LocalName = "Guyana",
-                Longitude = -59,
-                Name = "Guyana",
-                ShortName = "Guyana",
-                ThreeLettersCode = "GUY"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "HT",
+                Name = "Haiti",
+                ShortName = "Haiti",
+                ThreeLettersCode = "HTI",
+                LocalName = "Haïti",
+                Capital = "Port-au-Prince",
+                Demonym = "Haitian",
+                CallingCode = 509,
+                Area = 27750,
+                Latitude = 19,
+                Longitude = -72.41666412353516,
                 Languages = new()
                 {
                     new()
@@ -3902,10 +5042,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "GYD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -3914,23 +5058,34 @@ public partial class CloudGeographyClient
                         Code = "HTG"
                     }
                 },
-                Code = "HT",
-                Area = 27750,
-                CallingCode=509,
-                Capital="Port-au-Prince",
-                Demonym="Haitian",
-                Latitude = 19,
-                LocalName = "Haïti",
-                Longitude = -72.41666412353516,
-                Name = "Haiti",
-                ShortName = "Haiti",
-                ThreeLettersCode = "HTI"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Haiti Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "VA",
+                Name = "Holy See",
+                ShortName = "Holy See",
+                ThreeLettersCode = "VAT",
+                LocalName = "Sancta Sedes",
+                Capital = "Rome",
+                Demonym = "",
+                CallingCode = 379,
+                Area = 0.4399999976158142,
+                Latitude = 41.900001525878906,
+                Longitude = 12.449999809265137,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "HTG"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -3956,8 +5111,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "DE"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -3966,21 +5120,27 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "VA",
-                Area = 0.4399999976158142,
-                CallingCode=379,
-                Capital="Rome",
-                Demonym="",
-                Latitude = 41.900001525878906,
-                LocalName = "Sancta Sedes",
-                Longitude = 12.449999809265137,
-                Name = "Holy See",
-                ShortName = "Holy See",
-                ThreeLettersCode = "VAT"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "HN",
+                Name = "Honduras",
+                ShortName = "Honduras",
+                ThreeLettersCode = "HND",
+                LocalName = "Honduras",
+                Capital = "Tegucigalpa",
+                Demonym = "Honduran",
+                CallingCode = 504,
+                Area = 112492,
+                Latitude = 15,
+                Longitude = -86.5,
                 Languages = new()
                 {
                     new()
@@ -3991,10 +5151,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4003,23 +5167,34 @@ public partial class CloudGeographyClient
                         Code = "HNL"
                     }
                 },
-                Code = "HN",
-                Area = 112492,
-                CallingCode=504,
-                Capital="Tegucigalpa",
-                Demonym="Honduran",
-                Latitude = 15,
-                LocalName = "Honduras",
-                Longitude = -86.5,
-                Name = "Honduras",
-                ShortName = "Honduras",
-                ThreeLettersCode = "HND"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central America Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "HK",
+                Name = "Hong Kong",
+                ShortName = "Hong Kong",
+                ThreeLettersCode = "HKG",
+                LocalName = "香港",
+                Capital = "City of Victoria",
+                Demonym = "Chinese",
+                CallingCode = 852,
+                Area = 1104,
+                Latitude = 22.25,
+                Longitude = 114.16666412353516,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "HNL"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -4035,8 +5210,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "ZH"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4045,23 +5219,34 @@ public partial class CloudGeographyClient
                         Code = "HKD"
                     }
                 },
-                Code = "HK",
-                Area = 1104,
-                CallingCode=852,
-                Capital="City of Victoria",
-                Demonym="Chinese",
-                Latitude = 22.25,
-                LocalName = "香港",
-                Longitude = 114.16666412353516,
-                Name = "Hong Kong",
-                ShortName = "Hong Kong",
-                ThreeLettersCode = "HKG"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "China Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "HU",
+                Name = "Hungary",
+                ShortName = "Hungary",
+                ThreeLettersCode = "HUN",
+                LocalName = "Magyarország",
+                Capital = "Budapest",
+                Demonym = "Hungarian",
+                CallingCode = 36,
+                Area = 93028,
+                Latitude = 47,
+                Longitude = 20,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "HKD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -4072,8 +5257,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "HU"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4082,21 +5266,27 @@ public partial class CloudGeographyClient
                         Code = "HUF"
                     }
                 },
-                Code = "HU",
-                Area = 93028,
-                CallingCode=36,
-                Capital="Budapest",
-                Demonym="Hungarian",
-                Latitude = 47,
-                LocalName = "Magyarország",
-                Longitude = 20,
-                Name = "Hungary",
-                ShortName = "Hungary",
-                ThreeLettersCode = "HUN"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Europe Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "IS",
+                Name = "Iceland",
+                ShortName = "Iceland",
+                ThreeLettersCode = "ISL",
+                LocalName = "Ísland",
+                Capital = "Reykjavík",
+                Demonym = "Icelander",
+                CallingCode = 354,
+                Area = 103000,
+                Latitude = 65,
+                Longitude = -18,
                 Languages = new()
                 {
                     new()
@@ -4107,10 +5297,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "HUF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "IS"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4119,23 +5313,34 @@ public partial class CloudGeographyClient
                         Code = "ISK"
                     }
                 },
-                Code = "IS",
-                Area = 103000,
-                CallingCode=354,
-                Capital="Reykjavík",
-                Demonym="Icelander",
-                Latitude = 65,
-                LocalName = "Ísland",
-                Longitude = -18,
-                Name = "Iceland",
-                ShortName = "Iceland",
-                ThreeLettersCode = "ISL"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "IN",
+                Name = "India",
+                ShortName = "India",
+                ThreeLettersCode = "IND",
+                LocalName = "भारत",
+                Capital = "New Delhi",
+                Demonym = "Indian",
+                CallingCode = 91,
+                Area = 3287590,
+                Latitude = 20,
+                Longitude = 77,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "ISK"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -4151,8 +5356,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4161,23 +5365,34 @@ public partial class CloudGeographyClient
                         Code = "INR"
                     }
                 },
-                Code = "IN",
-                Area = 3287590,
-                CallingCode=91,
-                Capital="New Delhi",
-                Demonym="Indian",
-                Latitude = 20,
-                LocalName = "भारत",
-                Longitude = 77,
-                Name = "India",
-                ShortName = "India",
-                ThreeLettersCode = "IND"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "India Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "ID",
+                Name = "Indonesia",
+                ShortName = "Indonesia",
+                ThreeLettersCode = "IDN",
+                LocalName = "Indonesia",
+                Capital = "Jakarta",
+                Demonym = "Indonesian",
+                CallingCode = 62,
+                Area = 1904569,
+                Latitude = -5,
+                Longitude = 120,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "INR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -4188,8 +5403,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ID"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4198,21 +5412,35 @@ public partial class CloudGeographyClient
                         Code = "IDR"
                     }
                 },
-                Code = "ID",
-                Area = 1904569,
-                CallingCode=62,
-                Capital="Jakarta",
-                Demonym="Indonesian",
-                Latitude = -5,
-                LocalName = "Indonesia",
-                Longitude = 120,
-                Name = "Indonesia",
-                ShortName = "Indonesia",
-                ThreeLettersCode = "IDN"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SE Asia Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Singapore Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Tokyo Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "IR",
+                Name = "Iran",
+                ShortName = "Iran",
+                ThreeLettersCode = "IRN",
+                LocalName = "ایران",
+                Capital = "Tehran",
+                Demonym = "Iranian",
+                CallingCode = 98,
+                Area = 1648195,
+                Latitude = 32,
+                Longitude = 53,
                 Languages = new()
                 {
                     new()
@@ -4223,10 +5451,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "IDR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FA"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4235,23 +5467,34 @@ public partial class CloudGeographyClient
                         Code = "IRR"
                     }
                 },
-                Code = "IR",
-                Area = 1648195,
-                CallingCode=98,
-                Capital="Tehran",
-                Demonym="Iranian",
-                Latitude = 32,
-                LocalName = "ایران",
-                Longitude = 53,
-                Name = "Iran",
-                ShortName = "Iran",
-                ThreeLettersCode = "IRN"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Iran Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "IQ",
+                Name = "Iraq",
+                ShortName = "Iraq",
+                ThreeLettersCode = "IRQ",
+                LocalName = "العراق",
+                Capital = "Baghdad",
+                Demonym = "Iraqi",
+                CallingCode = 964,
+                Area = 438317,
+                Latitude = 33,
+                Longitude = 44,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "IRR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -4267,8 +5510,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "KU"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4277,23 +5519,34 @@ public partial class CloudGeographyClient
                         Code = "IQD"
                     }
                 },
-                Code = "IQ",
-                Area = 438317,
-                CallingCode=964,
-                Capital="Baghdad",
-                Demonym="Iraqi",
-                Latitude = 33,
-                LocalName = "العراق",
-                Longitude = 44,
-                Name = "Iraq",
-                ShortName = "Iraq",
-                ThreeLettersCode = "IRQ"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Arabic Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "IE",
+                Name = "Ireland",
+                ShortName = "Ireland",
+                ThreeLettersCode = "IRL",
+                LocalName = "Éire",
+                Capital = "Dublin",
+                Demonym = "Irish",
+                CallingCode = 353,
+                Area = 70273,
+                Latitude = 53,
+                Longitude = -8,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "IQD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -4309,8 +5562,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4319,23 +5571,34 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "IE",
-                Area = 70273,
-                CallingCode=353,
-                Capital="Dublin",
-                Demonym="Irish",
-                Latitude = 53,
-                LocalName = "Éire",
-                Longitude = -8,
-                Name = "Ireland",
-                ShortName = "Ireland",
-                ThreeLettersCode = "IRL"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "GMT Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "IM",
+                Name = "Isle of Man",
+                ShortName = "Isle of Man",
+                ThreeLettersCode = "IMN",
+                LocalName = "Isle of Man",
+                Capital = "Douglas",
+                Demonym = "Manx",
+                CallingCode = 44,
+                Area = 572,
+                Latitude = 54.25,
+                Longitude = -4.5,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -4351,8 +5614,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "GV"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4360,30 +5622,45 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "GBP"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "IMP"
                     }
                 },
-                Code = "IM",
-                Area = 572,
-                CallingCode=44,
-                Capital="Douglas",
-                Demonym="Manx",
-                Latitude = 54.25,
-                LocalName = "Isle of Man",
-                Longitude = -4.5,
-                Name = "Isle of Man",
-                ShortName = "Isle of Man",
-                ThreeLettersCode = "IMN"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "GMT Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "IL",
+                Name = "Israel",
+                ShortName = "Israel",
+                ThreeLettersCode = "ISR",
+                LocalName = "יִשְׂרָאֵל",
+                Capital = "Jerusalem",
+                Demonym = "Israeli",
+                CallingCode = 972,
+                Area = 20770,
+                Latitude = 31.5,
+                Longitude = 34.75,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "GBP"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "IMP"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -4404,8 +5681,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4414,23 +5690,34 @@ public partial class CloudGeographyClient
                         Code = "ILS"
                     }
                 },
-                Code = "IL",
-                Area = 20770,
-                CallingCode=972,
-                Capital="Jerusalem",
-                Demonym="Israeli",
-                Latitude = 31.5,
-                LocalName = "יִשְׂרָאֵל",
-                Longitude = 34.75,
-                Name = "Israel",
-                ShortName = "Israel",
-                ThreeLettersCode = "ISR"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Israel Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "IT",
+                Name = "Italy",
+                ShortName = "Italy",
+                ThreeLettersCode = "ITA",
+                LocalName = "Italia",
+                Capital = "Rome",
+                Demonym = "Italian",
+                CallingCode = 39,
+                Area = 301336,
+                Latitude = 42.83333206176758,
+                Longitude = 12.833333015441895,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "ILS"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -4441,8 +5728,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "IT"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4451,23 +5737,34 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "IT",
-                Area = 301336,
-                CallingCode=39,
-                Capital="Rome",
-                Demonym="Italian",
-                Latitude = 42.83333206176758,
-                LocalName = "Italia",
-                Longitude = 12.833333015441895,
-                Name = "Italy",
-                ShortName = "Italy",
-                ThreeLettersCode = "ITA"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "JM",
+                Name = "Jamaica",
+                ShortName = "Jamaica",
+                ThreeLettersCode = "JAM",
+                LocalName = "Jamaica",
+                Capital = "Kingston",
+                Demonym = "Jamaican",
+                CallingCode = 1876,
+                Area = 10991,
+                Latitude = 18.25,
+                Longitude = -77.5,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -4478,8 +5775,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4488,21 +5784,27 @@ public partial class CloudGeographyClient
                         Code = "JMD"
                     }
                 },
-                Code = "JM",
-                Area = 10991,
-                CallingCode=1876,
-                Capital="Kingston",
-                Demonym="Jamaican",
-                Latitude = 18.25,
-                LocalName = "Jamaica",
-                Longitude = -77.5,
-                Name = "Jamaica",
-                ShortName = "Jamaica",
-                ThreeLettersCode = "JAM"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Pacific Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "JP",
+                Name = "Japan",
+                ShortName = "Japan",
+                ThreeLettersCode = "JPN",
+                LocalName = "日本国",
+                Capital = "Tokyo",
+                Demonym = "Japanese",
+                CallingCode = 81,
+                Area = 377962,
+                Latitude = 36,
+                Longitude = 138,
                 Languages = new()
                 {
                     new()
@@ -4513,10 +5815,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "JMD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "JA"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4525,23 +5831,34 @@ public partial class CloudGeographyClient
                         Code = "JPY"
                     }
                 },
-                Code = "JP",
-                Area = 377962,
-                CallingCode=81,
-                Capital="Tokyo",
-                Demonym="Japanese",
-                Latitude = 36,
-                LocalName = "日本国",
-                Longitude = 138,
-                Name = "Japan",
-                ShortName = "Japan",
-                ThreeLettersCode = "JPN"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Tokyo Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "JE",
+                Name = "Jersey",
+                ShortName = "Jersey",
+                ThreeLettersCode = "JEY",
+                LocalName = "Jersey",
+                Capital = "Saint Helier",
+                Demonym = "Channel Islander",
+                CallingCode = 44,
+                Area = 116,
+                Latitude = 49.25,
+                Longitude = -2.1666667461395264,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "JPY"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -4557,8 +5874,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4566,30 +5882,45 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "GBP"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "JEP"
                     }
                 },
-                Code = "JE",
-                Area = 116,
-                CallingCode=44,
-                Capital="Saint Helier",
-                Demonym="Channel Islander",
-                Latitude = 49.25,
-                LocalName = "Jersey",
-                Longitude = -2.1666667461395264,
-                Name = "Jersey",
-                ShortName = "Jersey",
-                ThreeLettersCode = "JEY"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "GMT Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "JO",
+                Name = "Jordan",
+                ShortName = "Jordan",
+                ThreeLettersCode = "JOR",
+                LocalName = "الأردن",
+                Capital = "Amman",
+                Demonym = "Jordanian",
+                CallingCode = 962,
+                Area = 89342,
+                Latitude = 31,
+                Longitude = 36,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "GBP"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "JEP"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -4605,8 +5936,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4615,23 +5945,34 @@ public partial class CloudGeographyClient
                         Code = "JOD"
                     }
                 },
-                Code = "JO",
-                Area = 89342,
-                CallingCode=962,
-                Capital="Amman",
-                Demonym="Jordanian",
-                Latitude = 31,
-                LocalName = "الأردن",
-                Longitude = 36,
-                Name = "Jordan",
-                ShortName = "Jordan",
-                ThreeLettersCode = "JOR"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Jordan Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "KZ",
+                Name = "Kazakhstan",
+                ShortName = "Kazakhstan",
+                ThreeLettersCode = "KAZ",
+                LocalName = "Қазақстан",
+                Capital = "Astana",
+                Demonym = "Kazakhstani",
+                CallingCode = 76,
+                Area = 2724900,
+                Latitude = 48,
+                Longitude = 68,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "JOD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -4647,8 +5988,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "RU"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4657,23 +5997,42 @@ public partial class CloudGeographyClient
                         Code = "KZT"
                     }
                 },
-                Code = "KZ",
-                Area = 2724900,
-                CallingCode=76,
-                Capital="Astana",
-                Demonym="Kazakhstani",
-                Latitude = 48,
-                LocalName = "Қазақстан",
-                Longitude = 68,
-                Name = "Kazakhstan",
-                ShortName = "Kazakhstan",
-                ThreeLettersCode = "KAZ"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Asia Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Qyzylorda Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "West Asia Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "KE",
+                Name = "Kenya",
+                ShortName = "Kenya",
+                ThreeLettersCode = "KEN",
+                LocalName = "Kenya",
+                Capital = "Nairobi",
+                Demonym = "Kenyan",
+                CallingCode = 254,
+                Area = 580367,
+                Latitude = 1,
+                Longitude = 38,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "KZT"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -4689,8 +6048,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "SW"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4699,23 +6057,34 @@ public partial class CloudGeographyClient
                         Code = "KES"
                     }
                 },
-                Code = "KE",
-                Area = 580367,
-                CallingCode=254,
-                Capital="Nairobi",
-                Demonym="Kenyan",
-                Latitude = 1,
-                LocalName = "Kenya",
-                Longitude = 38,
-                Name = "Kenya",
-                ShortName = "Kenya",
-                ThreeLettersCode = "KEN"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "E. Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "KI",
+                Name = "Kiribati",
+                ShortName = "Kiribati",
+                ThreeLettersCode = "KIR",
+                LocalName = "Kiribati",
+                Capital = "South Tarawa",
+                Demonym = "I-Kiribati",
+                CallingCode = 686,
+                Area = 811,
+                Latitude = 1.4166666269302368,
+                Longitude = 173,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "KES"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -4726,8 +6095,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4735,30 +6103,53 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AUD"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "FOK"
                     }
                 },
-                Code = "KI",
-                Area = 811,
-                CallingCode=686,
-                Capital="South Tarawa",
-                Demonym="I-Kiribati",
-                Latitude = 1.4166666269302368,
-                LocalName = "Kiribati",
-                Longitude = 173,
-                Name = "Kiribati",
-                ShortName = "Kiribati",
-                ThreeLettersCode = "KIR"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "UTC+12"
+                    },
+                    new()
+                    {
+                        Code = "UTC+13"
+                    },
+                    new()
+                    {
+                        Code = "Line Islands Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "KW",
+                Name = "Kuwait",
+                ShortName = "Kuwait",
+                ThreeLettersCode = "KWT",
+                LocalName = "الكويت",
+                Capital = "Kuwait City",
+                Demonym = "Kuwaiti",
+                CallingCode = 965,
+                Area = 17818,
+                Latitude = 29.5,
+                Longitude = 45.75,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "AUD"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "FOK"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -4774,8 +6165,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4784,23 +6174,34 @@ public partial class CloudGeographyClient
                         Code = "KWD"
                     }
                 },
-                Code = "KW",
-                Area = 17818,
-                CallingCode=965,
-                Capital="Kuwait City",
-                Demonym="Kuwaiti",
-                Latitude = 29.5,
-                LocalName = "الكويت",
-                Longitude = 45.75,
-                Name = "Kuwait",
-                ShortName = "Kuwait",
-                ThreeLettersCode = "KWT"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Arab Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "KG",
+                Name = "Kyrgyzstan",
+                ShortName = "Kyrgyzstan",
+                ThreeLettersCode = "KGZ",
+                LocalName = "Кыргызстан",
+                Capital = "Bishkek",
+                Demonym = "Kirghiz",
+                CallingCode = 996,
+                Area = 199951,
+                Latitude = 41,
+                Longitude = 75,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "KWD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -4816,8 +6217,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "RU"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4826,23 +6226,34 @@ public partial class CloudGeographyClient
                         Code = "KGS"
                     }
                 },
-                Code = "KG",
-                Area = 199951,
-                CallingCode=996,
-                Capital="Bishkek",
-                Demonym="Kirghiz",
-                Latitude = 41,
-                LocalName = "Кыргызстан",
-                Longitude = 75,
-                Name = "Kyrgyzstan",
-                ShortName = "Kyrgyzstan",
-                ThreeLettersCode = "KGZ"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Asia Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "LA",
+                Name = "Lao People's Democratic Republic",
+                ShortName = "Lao People's Democratic Republic",
+                ThreeLettersCode = "LAO",
+                LocalName = "ສປປລາວ",
+                Capital = "Vientiane",
+                Demonym = "Laotian",
+                CallingCode = 856,
+                Area = 236800,
+                Latitude = 18,
+                Longitude = 105,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "KGS"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -4853,8 +6264,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "LO"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4863,21 +6273,27 @@ public partial class CloudGeographyClient
                         Code = "LAK"
                     }
                 },
-                Code = "LA",
-                Area = 236800,
-                CallingCode=856,
-                Capital="Vientiane",
-                Demonym="Laotian",
-                Latitude = 18,
-                LocalName = "ສປປລາວ",
-                Longitude = 105,
-                Name = "Lao People's Democratic Republic",
-                ShortName = "Lao People's Democratic Republic",
-                ThreeLettersCode = "LAO"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SE Asia Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "LV",
+                Name = "Latvia",
+                ShortName = "Latvia",
+                ThreeLettersCode = "LVA",
+                LocalName = "Latvija",
+                Capital = "Riga",
+                Demonym = "Latvian",
+                CallingCode = 371,
+                Area = 64559,
+                Latitude = 57,
+                Longitude = 25,
                 Languages = new()
                 {
                     new()
@@ -4888,10 +6304,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "LAK"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "LV"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4900,23 +6320,34 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "LV",
-                Area = 64559,
-                CallingCode=371,
-                Capital="Riga",
-                Demonym="Latvian",
-                Latitude = 57,
-                LocalName = "Latvija",
-                Longitude = 25,
-                Name = "Latvia",
-                ShortName = "Latvia",
-                ThreeLettersCode = "LVA"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "FLE Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "LB",
+                Name = "Lebanon",
+                ShortName = "Lebanon",
+                ThreeLettersCode = "LBN",
+                LocalName = "لبنان",
+                Capital = "Beirut",
+                Demonym = "Lebanese",
+                CallingCode = 961,
+                Area = 10452,
+                Latitude = 33.83333206176758,
+                Longitude = 35.83333206176758,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -4932,8 +6363,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4942,23 +6372,34 @@ public partial class CloudGeographyClient
                         Code = "LBP"
                     }
                 },
-                Code = "LB",
-                Area = 10452,
-                CallingCode=961,
-                Capital="Beirut",
-                Demonym="Lebanese",
-                Latitude = 33.83333206176758,
-                LocalName = "لبنان",
-                Longitude = 35.83333206176758,
-                Name = "Lebanon",
-                ShortName = "Lebanon",
-                ThreeLettersCode = "LBN"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Middle East Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "LS",
+                Name = "Lesotho",
+                ShortName = "Lesotho",
+                ThreeLettersCode = "LSO",
+                LocalName = "Lesotho",
+                Capital = "Maseru",
+                Demonym = "Mosotho",
+                CallingCode = 266,
+                Area = 30355,
+                Latitude = -29.5,
+                Longitude = 28.5,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "LBP"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -4974,8 +6415,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "ST"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4983,30 +6423,45 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "LSL"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "ZAR"
                     }
                 },
-                Code = "LS",
-                Area = 30355,
-                CallingCode=266,
-                Capital="Maseru",
-                Demonym="Mosotho",
-                Latitude = -29.5,
-                LocalName = "Lesotho",
-                Longitude = 28.5,
-                Name = "Lesotho",
-                ShortName = "Lesotho",
-                ThreeLettersCode = "LSO"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "South Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "LR",
+                Name = "Liberia",
+                ShortName = "Liberia",
+                ThreeLettersCode = "LBR",
+                LocalName = "Liberia",
+                Capital = "Monrovia",
+                Demonym = "Liberian",
+                CallingCode = 231,
+                Area = 111369,
+                Latitude = 6.5,
+                Longitude = -9.5,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "LSL"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "ZAR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -5022,8 +6477,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5032,23 +6486,34 @@ public partial class CloudGeographyClient
                         Code = "LRD"
                     }
                 },
-                Code = "LR",
-                Area = 111369,
-                CallingCode=231,
-                Capital="Monrovia",
-                Demonym="Liberian",
-                Latitude = 6.5,
-                LocalName = "Liberia",
-                Longitude = -9.5,
-                Name = "Liberia",
-                ShortName = "Liberia",
-                ThreeLettersCode = "LBR"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "LY",
+                Name = "Libya",
+                ShortName = "Libya",
+                ThreeLettersCode = "LBY",
+                LocalName = "‏ليبيا",
+                Capital = "Tripoli",
+                Demonym = "Libyan",
+                CallingCode = 218,
+                Area = 1759540,
+                Latitude = 25,
+                Longitude = 17,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "LRD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -5059,8 +6524,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5069,23 +6533,34 @@ public partial class CloudGeographyClient
                         Code = "LYD"
                     }
                 },
-                Code = "LY",
-                Area = 1759540,
-                CallingCode=218,
-                Capital="Tripoli",
-                Demonym="Libyan",
-                Latitude = 25,
-                LocalName = "‏ليبيا",
-                Longitude = 17,
-                Name = "Libya",
-                ShortName = "Libya",
-                ThreeLettersCode = "LBY"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Libya Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "LI",
+                Name = "Liechtenstein",
+                ShortName = "Liechtenstein",
+                ThreeLettersCode = "LIE",
+                LocalName = "Liechtenstein",
+                Capital = "Vaduz",
+                Demonym = "Liechtensteiner",
+                CallingCode = 423,
+                Area = 160,
+                Latitude = 47.266666412353516,
+                Longitude = 9.533333778381348,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "LYD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -5096,8 +6571,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "DE"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5106,21 +6580,27 @@ public partial class CloudGeographyClient
                         Code = "CHF"
                     }
                 },
-                Code = "LI",
-                Area = 160,
-                CallingCode=423,
-                Capital="Vaduz",
-                Demonym="Liechtensteiner",
-                Latitude = 47.266666412353516,
-                LocalName = "Liechtenstein",
-                Longitude = 9.533333778381348,
-                Name = "Liechtenstein",
-                ShortName = "Liechtenstein",
-                ThreeLettersCode = "LIE"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "LT",
+                Name = "Lithuania",
+                ShortName = "Lithuania",
+                ThreeLettersCode = "LTU",
+                LocalName = "Lietuva",
+                Capital = "Vilnius",
+                Demonym = "Lithuanian",
+                CallingCode = 370,
+                Area = 65300,
+                Latitude = 56,
+                Longitude = 24,
                 Languages = new()
                 {
                     new()
@@ -5131,10 +6611,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "CHF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "LT"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5143,23 +6627,34 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "LT",
-                Area = 65300,
-                CallingCode=370,
-                Capital="Vilnius",
-                Demonym="Lithuanian",
-                Latitude = 56,
-                LocalName = "Lietuva",
-                Longitude = 24,
-                Name = "Lithuania",
-                ShortName = "Lithuania",
-                ThreeLettersCode = "LTU"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "FLE Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "LU",
+                Name = "Luxembourg",
+                ShortName = "Luxembourg",
+                ThreeLettersCode = "LUX",
+                LocalName = "Luxembourg",
+                Capital = "Luxembourg",
+                Demonym = "Luxembourger",
+                CallingCode = 352,
+                Area = 2586,
+                Latitude = 49.75,
+                Longitude = 6.166666507720947,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -5180,8 +6675,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "DE"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5190,23 +6684,34 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "LU",
-                Area = 2586,
-                CallingCode=352,
-                Capital="Luxembourg",
-                Demonym="Luxembourger",
-                Latitude = 49.75,
-                LocalName = "Luxembourg",
-                Longitude = 6.166666507720947,
-                Name = "Luxembourg",
-                ShortName = "Luxembourg",
-                ThreeLettersCode = "LUX"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "MO",
+                Name = "Macao",
+                ShortName = "Macao",
+                ThreeLettersCode = "MAC",
+                LocalName = "澳門",
+                Capital = "",
+                Demonym = "Chinese",
+                CallingCode = 853,
+                Area = 30,
+                Latitude = 22.16666603088379,
+                Longitude = 113.55000305175781,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -5222,8 +6727,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "PT"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5232,21 +6736,27 @@ public partial class CloudGeographyClient
                         Code = "MOP"
                     }
                 },
-                Code = "MO",
-                Area = 30,
-                CallingCode=853,
-                Capital="",
-                Demonym="Chinese",
-                Latitude = 22.16666603088379,
-                LocalName = "澳門",
-                Longitude = 113.55000305175781,
-                Name = "Macao",
-                ShortName = "Macao",
-                ThreeLettersCode = "MAC"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "China Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "MK",
+                Name = "Macedonia",
+                ShortName = "Macedonia",
+                ThreeLettersCode = "MKD",
+                LocalName = "Македонија",
+                Capital = "Skopje",
+                Demonym = "Macedonian",
+                CallingCode = 389,
+                Area = 25713,
+                Latitude = 41.8333320617676,
+                Longitude = 22,
                 Languages = new()
                 {
                     new()
@@ -5257,10 +6767,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "MOP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "MK"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5269,23 +6783,34 @@ public partial class CloudGeographyClient
                         Code = "MKD"
                     }
                 },
-                Code = "MK",
-                Area = 25713,
-                CallingCode=389,
-                Capital="Skopje",
-                Demonym="Macedonian",
-                Latitude = 41.8333320617676,
-                LocalName = "Македонија",
-                Longitude = 22,
-                Name = "Macedonia",
-                ShortName = "Macedonia",
-                ThreeLettersCode = "MKD"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central European Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "MG",
+                Name = "Madagascar",
+                ShortName = "Madagascar",
+                ThreeLettersCode = "MDG",
+                LocalName = "Madagasikara",
+                Capital = "Antananarivo",
+                Demonym = "Malagasy",
+                CallingCode = 261,
+                Area = 587041,
+                Latitude = -20,
+                Longitude = 47,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "MKD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -5301,8 +6826,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "MG"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5311,23 +6835,34 @@ public partial class CloudGeographyClient
                         Code = "MGA"
                     }
                 },
-                Code = "MG",
-                Area = 587041,
-                CallingCode=261,
-                Capital="Antananarivo",
-                Demonym="Malagasy",
-                Latitude = -20,
-                LocalName = "Madagasikara",
-                Longitude = 47,
-                Name = "Madagascar",
-                ShortName = "Madagascar",
-                ThreeLettersCode = "MDG"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "E. Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "MW",
+                Name = "Malawi",
+                ShortName = "Malawi",
+                ThreeLettersCode = "MWI",
+                LocalName = "Malawi",
+                Capital = "Lilongwe",
+                Demonym = "Malawian",
+                CallingCode = 265,
+                Area = 118484,
+                Latitude = -13.5,
+                Longitude = 34,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "MGA"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -5338,8 +6873,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5348,30 +6882,40 @@ public partial class CloudGeographyClient
                         Code = "MWK"
                     }
                 },
-                Code = "MW",
-                Area = 118484,
-                CallingCode=265,
-                Capital="Lilongwe",
-                Demonym="Malawian",
-                Latitude = -13.5,
-                LocalName = "Malawi",
-                Longitude = 34,
-                Name = "Malawi",
-                ShortName = "Malawi",
-                ThreeLettersCode = "MWI"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "South Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "MY",
+                Name = "Malaysia",
+                ShortName = "Malaysia",
+                ThreeLettersCode = "MYS",
+                LocalName = "Malaysia",
+                Capital = "Kuala Lumpur",
+                Demonym = "Malaysian",
+                CallingCode = 60,
+                Area = 330803,
+                Latitude = 2.5,
+                Longitude = 112.5,
                 Languages = new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "MWK"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "MWK"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5380,23 +6924,34 @@ public partial class CloudGeographyClient
                         Code = "MYR"
                     }
                 },
-                Code = "MY",
-                Area = 330803,
-                CallingCode=60,
-                Capital="Kuala Lumpur",
-                Demonym="Malaysian",
-                Latitude = 2.5,
-                LocalName = "Malaysia",
-                Longitude = 112.5,
-                Name = "Malaysia",
-                ShortName = "Malaysia",
-                ThreeLettersCode = "MYS"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Singapore Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "MV",
+                Name = "Maldives",
+                ShortName = "Maldives",
+                ThreeLettersCode = "MDV",
+                LocalName = "Maldives",
+                Capital = "Malé",
+                Demonym = "Maldivan",
+                CallingCode = 960,
+                Area = 300,
+                Latitude = 3.25,
+                Longitude = 73,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "MYR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -5407,8 +6962,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "DV"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5417,21 +6971,27 @@ public partial class CloudGeographyClient
                         Code = "MVR"
                     }
                 },
-                Code = "MV",
-                Area = 300,
-                CallingCode=960,
-                Capital="Malé",
-                Demonym="Maldivan",
-                Latitude = 3.25,
-                LocalName = "Maldives",
-                Longitude = 73,
-                Name = "Maldives",
-                ShortName = "Maldives",
-                ThreeLettersCode = "MDV"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "West Asia Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "ML",
+                Name = "Mali",
+                ShortName = "Mali",
+                ThreeLettersCode = "MLI",
+                LocalName = "Mali",
+                Capital = "Bamako",
+                Demonym = "Malian",
+                CallingCode = 223,
+                Area = 1240192,
+                Latitude = 17,
+                Longitude = -4,
                 Languages = new()
                 {
                     new()
@@ -5442,10 +7002,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "MVR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5454,23 +7018,34 @@ public partial class CloudGeographyClient
                         Code = "XOF"
                     }
                 },
-                Code = "ML",
-                Area = 1240192,
-                CallingCode=223,
-                Capital="Bamako",
-                Demonym="Malian",
-                Latitude = 17,
-                LocalName = "Mali",
-                Longitude = -4,
-                Name = "Mali",
-                ShortName = "Mali",
-                ThreeLettersCode = "MLI"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "MT",
+                Name = "Malta",
+                ShortName = "Malta",
+                ThreeLettersCode = "MLT",
+                LocalName = "Malta",
+                Capital = "Valletta",
+                Demonym = "Maltese",
+                CallingCode = 356,
+                Area = 316,
+                Latitude = 35.83333206176758,
+                Longitude = 14.583333015441895,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "XOF"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -5486,8 +7061,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5496,23 +7070,34 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "MT",
-                Area = 316,
-                CallingCode=356,
-                Capital="Valletta",
-                Demonym="Maltese",
-                Latitude = 35.83333206176758,
-                LocalName = "Malta",
-                Longitude = 14.583333015441895,
-                Name = "Malta",
-                ShortName = "Malta",
-                ThreeLettersCode = "MLT"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "MH",
+                Name = "Marshall Islands",
+                ShortName = "Marshall Islands",
+                ThreeLettersCode = "MHL",
+                LocalName = "M̧ajeļ",
+                Capital = "Majuro",
+                Demonym = "Marshallese",
+                CallingCode = 692,
+                Area = 181,
+                Latitude = 9,
+                Longitude = 168,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -5523,8 +7108,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5533,21 +7117,27 @@ public partial class CloudGeographyClient
                         Code = "USD"
                     }
                 },
-                Code = "MH",
-                Area = 181,
-                CallingCode=692,
-                Capital="Majuro",
-                Demonym="Marshallese",
-                Latitude = 9,
-                LocalName = "M̧ajeļ",
-                Longitude = 168,
-                Name = "Marshall Islands",
-                ShortName = "Marshall Islands",
-                ThreeLettersCode = "MHL"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "UTC+12"
+                    }
+                }
             },
-
             new()
             {
+                Code = "MQ",
+                Name = "Martinique",
+                ShortName = "Martinique",
+                ThreeLettersCode = "MTQ",
+                LocalName = "Martinique",
+                Capital = "Fort-de-France",
+                Demonym = "French",
+                CallingCode = 596,
+                Area = 0,
+                Latitude = 14.666666984558105,
+                Longitude = -61,
                 Languages = new()
                 {
                     new()
@@ -5558,10 +7148,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "USD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5570,23 +7164,34 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "MQ",
-                Area = 0,
-                CallingCode=596,
-                Capital="Fort-de-France",
-                Demonym="French",
-                Latitude = 14.666666984558105,
-                LocalName = "Martinique",
-                Longitude = -61,
-                Name = "Martinique",
-                ShortName = "Martinique",
-                ThreeLettersCode = "MTQ"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "MR",
+                Name = "Mauritania",
+                ShortName = "Mauritania",
+                ThreeLettersCode = "MRT",
+                LocalName = "موريتانيا",
+                Capital = "Nouakchott",
+                Demonym = "Mauritanian",
+                CallingCode = 222,
+                Area = 1030700,
+                Latitude = 20,
+                Longitude = -12,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -5597,8 +7202,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5607,23 +7211,34 @@ public partial class CloudGeographyClient
                         Code = "MRO"
                     }
                 },
-                Code = "MR",
-                Area = 1030700,
-                CallingCode=222,
-                Capital="Nouakchott",
-                Demonym="Mauritanian",
-                Latitude = 20,
-                LocalName = "موريتانيا",
-                Longitude = -12,
-                Name = "Mauritania",
-                ShortName = "Mauritania",
-                ThreeLettersCode = "MRT"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "MU",
+                Name = "Mauritius",
+                ShortName = "Mauritius",
+                ThreeLettersCode = "MUS",
+                LocalName = "Maurice",
+                Capital = "Port Louis",
+                Demonym = "Mauritian",
+                CallingCode = 230,
+                Area = 2040,
+                Latitude = -20.28333282470703,
+                Longitude = 57.54999923706055,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "MRO"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -5634,8 +7249,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5644,21 +7258,27 @@ public partial class CloudGeographyClient
                         Code = "MUR"
                     }
                 },
-                Code = "MU",
-                Area = 2040,
-                CallingCode=230,
-                Capital="Port Louis",
-                Demonym="Mauritian",
-                Latitude = -20.28333282470703,
-                LocalName = "Maurice",
-                Longitude = 57.54999923706055,
-                Name = "Mauritius",
-                ShortName = "Mauritius",
-                ThreeLettersCode = "MUS"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Mauritius Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "YT",
+                Name = "Mayotte",
+                ShortName = "Mayotte",
+                ThreeLettersCode = "MYT",
+                LocalName = "Mayotte",
+                Capital = "Mamoudzou",
+                Demonym = "French",
+                CallingCode = 262,
+                Area = 0,
+                Latitude = -12.833333015441895,
+                Longitude = 45.16666793823242,
                 Languages = new()
                 {
                     new()
@@ -5669,10 +7289,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "MUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5681,23 +7305,34 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "YT",
-                Area = 0,
-                CallingCode=262,
-                Capital="Mamoudzou",
-                Demonym="French",
-                Latitude = -12.833333015441895,
-                LocalName = "Mayotte",
-                Longitude = 45.16666793823242,
-                Name = "Mayotte",
-                ShortName = "Mayotte",
-                ThreeLettersCode = "MYT"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "E. Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "MX",
+                Name = "Mexico",
+                ShortName = "Mexico",
+                ThreeLettersCode = "MEX",
+                LocalName = "México",
+                Capital = "Mexico City",
+                Demonym = "Mexican",
+                CallingCode = 52,
+                Area = 1964375,
+                Latitude = 23,
+                Longitude = -102,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -5708,8 +7343,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5718,23 +7352,58 @@ public partial class CloudGeographyClient
                         Code = "MXN"
                     }
                 },
-                Code = "MX",
-                Area = 1964375,
-                CallingCode=52,
-                Capital="Mexico City",
-                Demonym="Mexican",
-                Latitude = 23,
-                LocalName = "México",
-                Longitude = -102,
-                Name = "Mexico",
-                ShortName = "Mexico",
-                ThreeLettersCode = "MEX"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Standard Time (Mexico)"
+                    },
+                    new()
+                    {
+                        Code = "Eastern Standard Time (Mexico)"
+                    },
+                    new()
+                    {
+                        Code = "Central Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Mountain Standard Time (Mexico)"
+                    },
+                    new()
+                    {
+                        Code = "Mountain Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "US Mountain Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Pacific Standard Time (Mexico)"
+                    }
+                }
             },
-
             new()
             {
+                Code = "FM",
+                Name = "Micronesia",
+                ShortName = "Micronesia",
+                ThreeLettersCode = "FSM",
+                LocalName = "Micronesia",
+                Capital = "Palikir",
+                Demonym = "Micronesian",
+                CallingCode = 691,
+                Area = 702,
+                Latitude = 6.91666650772095,
+                Longitude = 158.25,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "MXN"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -5745,8 +7414,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5755,23 +7423,38 @@ public partial class CloudGeographyClient
                         Code = "USD"
                     }
                 },
-                Code = "FM",
-                Area = 702,
-                CallingCode=691,
-                Capital="Palikir",
-                Demonym="Micronesian",
-                Latitude = 6.91666650772095,
-                LocalName = "Micronesia",
-                Longitude = 158.25,
-                Name = "Micronesia",
-                ShortName = "Micronesia",
-                ThreeLettersCode = "FSM"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "West Pacific Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Central Pacific Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "MD",
+                Name = "Moldova",
+                ShortName = "Moldova",
+                ThreeLettersCode = "MDA",
+                LocalName = "Moldova",
+                Capital = "Chișinău",
+                Demonym = "Moldovan",
+                CallingCode = 373,
+                Area = 33846,
+                Latitude = 47,
+                Longitude = 29,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "USD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -5782,8 +7465,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "RO"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5792,23 +7474,34 @@ public partial class CloudGeographyClient
                         Code = "MDL"
                     }
                 },
-                Code = "MD",
-                Area = 33846,
-                CallingCode=373,
-                Capital="Chișinău",
-                Demonym="Moldovan",
-                Latitude = 47,
-                LocalName = "Moldova",
-                Longitude = 29,
-                Name = "Moldova",
-                ShortName = "Moldova",
-                ThreeLettersCode = "MDA"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "E. Europe Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "MC",
+                Name = "Monaco",
+                ShortName = "Monaco",
+                ThreeLettersCode = "MCO",
+                LocalName = "Monaco",
+                Capital = "Monaco",
+                Demonym = "Monegasque",
+                CallingCode = 377,
+                Area = 2.0199999809265137,
+                Latitude = 43.733333587646484,
+                Longitude = 7.400000095367432,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "MDL"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -5819,8 +7512,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5829,21 +7521,27 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "MC",
-                Area = 2.0199999809265137,
-                CallingCode=377,
-                Capital="Monaco",
-                Demonym="Monegasque",
-                Latitude = 43.733333587646484,
-                LocalName = "Monaco",
-                Longitude = 7.400000095367432,
-                Name = "Monaco",
-                ShortName = "Monaco",
-                ThreeLettersCode = "MCO"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "MN",
+                Name = "Mongolia",
+                ShortName = "Mongolia",
+                ThreeLettersCode = "MNG",
+                LocalName = "Монгол улс",
+                Capital = "Ulan Bator",
+                Demonym = "Mongolian",
+                CallingCode = 976,
+                Area = 1564110,
+                Latitude = 46,
+                Longitude = 105,
                 Languages = new()
                 {
                     new()
@@ -5854,10 +7552,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "MN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5866,23 +7568,38 @@ public partial class CloudGeographyClient
                         Code = "MNT"
                     }
                 },
-                Code = "MN",
-                Area = 1564110,
-                CallingCode=976,
-                Capital="Ulan Bator",
-                Demonym="Mongolian",
-                Latitude = 46,
-                LocalName = "Монгол улс",
-                Longitude = 105,
-                Name = "Mongolia",
-                ShortName = "Mongolia",
-                ThreeLettersCode = "MNG"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Ulaanbaatar Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "W. Mongolia Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "ME",
+                Name = "Montenegro",
+                ShortName = "Montenegro",
+                ThreeLettersCode = "MNE",
+                LocalName = "Црна Гора",
+                Capital = "Podgorica",
+                Demonym = "Montenegrin",
+                CallingCode = 382,
+                Area = 13812,
+                Latitude = 42.5,
+                Longitude = 19.299999237060547,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "MNT"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -5908,8 +7625,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "HR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5918,23 +7634,34 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "ME",
-                Area = 13812,
-                CallingCode=382,
-                Capital="Podgorica",
-                Demonym="Montenegrin",
-                Latitude = 42.5,
-                LocalName = "Црна Гора",
-                Longitude = 19.299999237060547,
-                Name = "Montenegro",
-                ShortName = "Montenegro",
-                ThreeLettersCode = "MNE"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Europe Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "MS",
+                Name = "Montserrat",
+                ShortName = "Montserrat",
+                ThreeLettersCode = "MSR",
+                LocalName = "Montserrat",
+                Capital = "Plymouth",
+                Demonym = "Montserratian",
+                CallingCode = 1664,
+                Area = 102,
+                Latitude = 16.75,
+                Longitude = -62.20000076293945,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -5945,8 +7672,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5955,23 +7681,34 @@ public partial class CloudGeographyClient
                         Code = "XCD"
                     }
                 },
-                Code = "MS",
-                Area = 102,
-                CallingCode=1664,
-                Capital="Plymouth",
-                Demonym="Montserratian",
-                Latitude = 16.75,
-                LocalName = "Montserrat",
-                Longitude = -62.20000076293945,
-                Name = "Montserrat",
-                ShortName = "Montserrat",
-                ThreeLettersCode = "MSR"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "MA",
+                Name = "Morocco",
+                ShortName = "Morocco",
+                ThreeLettersCode = "MAR",
+                LocalName = "المغرب",
+                Capital = "Rabat",
+                Demonym = "Moroccan",
+                CallingCode = 212,
+                Area = 446550,
+                Latitude = 32,
+                Longitude = -5,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "XCD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -5982,8 +7719,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5992,23 +7728,34 @@ public partial class CloudGeographyClient
                         Code = "MAD"
                     }
                 },
-                Code = "MA",
-                Area = 446550,
-                CallingCode=212,
-                Capital="Rabat",
-                Demonym="Moroccan",
-                Latitude = 32,
-                LocalName = "المغرب",
-                Longitude = -5,
-                Name = "Morocco",
-                ShortName = "Morocco",
-                ThreeLettersCode = "MAR"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Morocco Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "MZ",
+                Name = "Mozambique",
+                ShortName = "Mozambique",
+                ThreeLettersCode = "MOZ",
+                LocalName = "Moçambique",
+                Capital = "Maputo",
+                Demonym = "Mozambican",
+                CallingCode = 258,
+                Area = 801590,
+                Latitude = -18.25,
+                Longitude = 35,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "MAD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -6019,8 +7766,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "PT"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6029,21 +7775,27 @@ public partial class CloudGeographyClient
                         Code = "MZN"
                     }
                 },
-                Code = "MZ",
-                Area = 801590,
-                CallingCode=258,
-                Capital="Maputo",
-                Demonym="Mozambican",
-                Latitude = -18.25,
-                LocalName = "Moçambique",
-                Longitude = 35,
-                Name = "Mozambique",
-                ShortName = "Mozambique",
-                ThreeLettersCode = "MOZ"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "South Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "MM",
+                Name = "Myanmar",
+                ShortName = "Myanmar",
+                ThreeLettersCode = "MMR",
+                LocalName = "Myanma",
+                Capital = "Naypyidaw",
+                Demonym = "Burmese",
+                CallingCode = 95,
+                Area = 676578,
+                Latitude = 22,
+                Longitude = 98,
                 Languages = new()
                 {
                     new()
@@ -6054,10 +7806,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "MZN"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "MY"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6066,23 +7822,34 @@ public partial class CloudGeographyClient
                         Code = "MMK"
                     }
                 },
-                Code = "MM",
-                Area = 676578,
-                CallingCode=95,
-                Capital="Naypyidaw",
-                Demonym="Burmese",
-                Latitude = 22,
-                LocalName = "Myanma",
-                Longitude = 98,
-                Name = "Myanmar",
-                ShortName = "Myanmar",
-                ThreeLettersCode = "MMR"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Myanmar Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "NA",
+                Name = "Namibia",
+                ShortName = "Namibia",
+                ThreeLettersCode = "NAM",
+                LocalName = "Namibia",
+                Capital = "Windhoek",
+                Demonym = "Namibian",
+                CallingCode = 264,
+                Area = 825615,
+                Latitude = -22,
+                Longitude = 17,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "MMK"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -6098,8 +7865,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "AF"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6107,30 +7873,45 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "NAD"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "ZAR"
                     }
                 },
-                Code = "NA",
-                Area = 825615,
-                CallingCode=264,
-                Capital="Windhoek",
-                Demonym="Namibian",
-                Latitude = -22,
-                LocalName = "Namibia",
-                Longitude = 17,
-                Name = "Namibia",
-                ShortName = "Namibia",
-                ThreeLettersCode = "NAM"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Namibia Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "NR",
+                Name = "Nauru",
+                ShortName = "Nauru",
+                ThreeLettersCode = "NRU",
+                LocalName = "Nauru",
+                Capital = "Yaren",
+                Demonym = "Nauruan",
+                CallingCode = 674,
+                Area = 21,
+                Latitude = -0.5333333015441895,
+                Longitude = 166.9166717529297,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "NAD"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "ZAR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -6146,8 +7927,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6155,30 +7935,45 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AUD"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "FOK"
                     }
                 },
-                Code = "NR",
-                Area = 21,
-                CallingCode=674,
-                Capital="Yaren",
-                Demonym="Nauruan",
-                Latitude = -0.5333333015441895,
-                LocalName = "Nauru",
-                Longitude = 166.9166717529297,
-                Name = "Nauru",
-                ShortName = "Nauru",
-                ThreeLettersCode = "NRU"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "UTC+12"
+                    }
+                }
             },
-
             new()
             {
+                Code = "NP",
+                Name = "Nepal",
+                ShortName = "Nepal",
+                ThreeLettersCode = "NPL",
+                LocalName = "नेपाल",
+                Capital = "Kathmandu",
+                Demonym = "Nepalese",
+                CallingCode = 977,
+                Area = 147181,
+                Latitude = 28,
+                Longitude = 84,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "AUD"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "FOK"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -6194,8 +7989,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "NE"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6204,23 +7998,34 @@ public partial class CloudGeographyClient
                         Code = "NPR"
                     }
                 },
-                Code = "NP",
-                Area = 147181,
-                CallingCode=977,
-                Capital="Kathmandu",
-                Demonym="Nepalese",
-                Latitude = 28,
-                LocalName = "नेपाल",
-                Longitude = 84,
-                Name = "Nepal",
-                ShortName = "Nepal",
-                ThreeLettersCode = "NPL"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Nepal Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "NL",
+                Name = "Netherlands",
+                ShortName = "Netherlands",
+                ThreeLettersCode = "NLD",
+                LocalName = "Nederland",
+                Capital = "Amsterdam",
+                Demonym = "Dutch",
+                CallingCode = 31,
+                Area = 41850,
+                Latitude = 52.5,
+                Longitude = 5.75,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "NPR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -6231,8 +8036,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "NL"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6241,21 +8045,27 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "NL",
-                Area = 41850,
-                CallingCode=31,
-                Capital="Amsterdam",
-                Demonym="Dutch",
-                Latitude = 52.5,
-                LocalName = "Nederland",
-                Longitude = 5.75,
-                Name = "Netherlands",
-                ShortName = "Netherlands",
-                ThreeLettersCode = "NLD"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "NC",
+                Name = "New Caledonia",
+                ShortName = "New Caledonia",
+                ThreeLettersCode = "NCL",
+                LocalName = "Nouvelle-Calédonie",
+                Capital = "Nouméa",
+                Demonym = "New Caledonian",
+                CallingCode = 687,
+                Area = 18575,
+                Latitude = -21.5,
+                Longitude = 165.5,
                 Languages = new()
                 {
                     new()
@@ -6266,10 +8076,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6278,23 +8092,34 @@ public partial class CloudGeographyClient
                         Code = "XPF"
                     }
                 },
-                Code = "NC",
-                Area = 18575,
-                CallingCode=687,
-                Capital="Nouméa",
-                Demonym="New Caledonian",
-                Latitude = -21.5,
-                LocalName = "Nouvelle-Calédonie",
-                Longitude = 165.5,
-                Name = "New Caledonia",
-                ShortName = "New Caledonia",
-                ThreeLettersCode = "NCL"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Pacific Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "NZ",
+                Name = "New Zealand",
+                ShortName = "New Zealand",
+                ThreeLettersCode = "NZL",
+                LocalName = "New Zealand",
+                Capital = "Wellington",
+                Demonym = "New Zealander",
+                CallingCode = 64,
+                Area = 270467,
+                Latitude = -41,
+                Longitude = 174,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "XPF"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -6310,8 +8135,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "MI"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6320,23 +8144,38 @@ public partial class CloudGeographyClient
                         Code = "NZD"
                     }
                 },
-                Code = "NZ",
-                Area = 270467,
-                CallingCode=64,
-                Capital="Wellington",
-                Demonym="New Zealander",
-                Latitude = -41,
-                LocalName = "New Zealand",
-                Longitude = 174,
-                Name = "New Zealand",
-                ShortName = "New Zealand",
-                ThreeLettersCode = "NZL"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "New Zealand Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Chatham Islands Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "NI",
+                Name = "Nicaragua",
+                ShortName = "Nicaragua",
+                ThreeLettersCode = "NIC",
+                LocalName = "Nicaragua",
+                Capital = "Managua",
+                Demonym = "Nicaraguan",
+                CallingCode = 505,
+                Area = 130373,
+                Latitude = 13,
+                Longitude = -85,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "NZD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -6347,8 +8186,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6357,23 +8195,34 @@ public partial class CloudGeographyClient
                         Code = "NIO"
                     }
                 },
-                Code = "NI",
-                Area = 130373,
-                CallingCode=505,
-                Capital="Managua",
-                Demonym="Nicaraguan",
-                Latitude = 13,
-                LocalName = "Nicaragua",
-                Longitude = -85,
-                Name = "Nicaragua",
-                ShortName = "Nicaragua",
-                ThreeLettersCode = "NIC"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central America Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "NE",
+                Name = "Niger",
+                ShortName = "Niger",
+                ThreeLettersCode = "NER",
+                LocalName = "Niger",
+                Capital = "Niamey",
+                Demonym = "Nigerien",
+                CallingCode = 227,
+                Area = 1267000,
+                Latitude = 16,
+                Longitude = 8,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "NIO"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -6384,8 +8233,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6394,58 +8242,74 @@ public partial class CloudGeographyClient
                         Code = "XOF"
                     }
                 },
-                Code = "NE",
-                Area = 1267000,
-                CallingCode=227,
-                Capital="Niamey",
-                Demonym="Nigerien",
-                Latitude = 16,
-                LocalName = "Niger",
-                Longitude = 8,
-                Name = "Niger",
-                ShortName = "Niger",
-                ThreeLettersCode = "NER"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
-                Languages = new()
-                {
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "XOF"
-                    },
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "EN"
-                    } 
-                },
-                
-                Currencies=new()
-                {
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "NGN"
-                    }
-                },
                 Code = "NG",
-                Area = 923768,
-                CallingCode=234,
-                Capital="Abuja",
-                Demonym="Nigerian",
-                Latitude = 10,
-                LocalName = "Nigeria",
-                Longitude = 8,
                 Name = "Nigeria",
                 ShortName = "Nigeria",
-                ThreeLettersCode = "NGA"
+                ThreeLettersCode = "NGA",
+                LocalName = "Nigeria",
+                Capital = "Abuja",
+                Demonym = "Nigerian",
+                CallingCode = 234,
+                Area = 923768,
+                Latitude = 10,
+                Longitude = 8,
+                Languages = new()
+                {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "XOF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "XOF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EN"
+                    } 
+                },                
+                Currencies=new()
+                {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "NGN"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "NU",
+                Name = "Niue",
+                ShortName = "Niue",
+                ThreeLettersCode = "NIU",
+                LocalName = "Niuē",
+                Capital = "Alofi",
+                Demonym = "Niuean",
+                CallingCode = 683,
+                Area = 260,
+                Latitude = -19.03333282470703,
+                Longitude = -169.86666870117188,
                 Languages = new()
                 {
                     new()
@@ -6456,10 +8320,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "NGN"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6467,28 +8335,33 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "NZD"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "FOK"
                     }
                 },
-                Code = "NU",
-                Area = 260,
-                CallingCode=683,
-                Capital="Alofi",
-                Demonym="Niuean",
-                Latitude = -19.03333282470703,
-                LocalName = "Niuē",
-                Longitude = -169.86666870117188,
-                Name = "Niue",
-                ShortName = "Niue",
-                ThreeLettersCode = "NIU"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "UTC-11"
+                    }
+                }
             },
-
             new()
             {
+                Code = "NF",
+                Name = "Norfolk Island",
+                ShortName = "Norfolk Island",
+                ThreeLettersCode = "NFK",
+                LocalName = "Norfolk Island",
+                Capital = "Kingston",
+                Demonym = "Norfolk Islander",
+                CallingCode = 672,
+                Area = 36,
+                Latitude = -29.03333282470703,
+                Longitude = 167.9499969482422,
                 Languages = new()
                 {
                     new()
@@ -6504,10 +8377,19 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "NZD"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "FOK"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6516,23 +8398,34 @@ public partial class CloudGeographyClient
                         Code = "AUD"
                     }
                 },
-                Code = "NF",
-                Area = 36,
-                CallingCode=672,
-                Capital="Kingston",
-                Demonym="Norfolk Islander",
-                Latitude = -29.03333282470703,
-                LocalName = "Norfolk Island",
-                Longitude = 167.9499969482422,
-                Name = "Norfolk Island",
-                ShortName = "Norfolk Island",
-                ThreeLettersCode = "NFK"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Norfolk Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "KP",
+                Name = "North Korea",
+                ShortName = "North Korea",
+                ThreeLettersCode = "PRK",
+                LocalName = "북한",
+                Capital = "Pyongyang",
+                Demonym = "North Korean",
+                CallingCode = 850,
+                Area = 120540,
+                Latitude = 40,
+                Longitude = 127,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "AUD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -6543,8 +8436,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "KO"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6553,21 +8445,27 @@ public partial class CloudGeographyClient
                         Code = "KPW"
                     }
                 },
-                Code = "KP",
-                Area = 120540,
-                CallingCode=850,
-                Capital="Pyongyang",
-                Demonym="North Korean",
-                Latitude = 40,
-                LocalName = "북한",
-                Longitude = 127,
-                Name = "North Korea",
-                ShortName = "North Korea",
-                ThreeLettersCode = "PRK"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "North Korea Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "MP",
+                Name = "Northern Mariana Islands",
+                ShortName = "Northern Mariana Islands",
+                ThreeLettersCode = "MNP",
+                LocalName = "Northern Mariana Islands",
+                Capital = "Saipan",
+                Demonym = "American",
+                CallingCode = 1670,
+                Area = 464,
+                Latitude = 15.199999809265137,
+                Longitude = 145.75,
                 Languages = new()
                 {
                     new()
@@ -6578,10 +8476,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "KPW"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6590,23 +8492,34 @@ public partial class CloudGeographyClient
                         Code = "USD"
                     }
                 },
-                Code = "MP",
-                Area = 464,
-                CallingCode=1670,
-                Capital="Saipan",
-                Demonym="American",
-                Latitude = 15.199999809265137,
-                LocalName = "Northern Mariana Islands",
-                Longitude = 145.75,
-                Name = "Northern Mariana Islands",
-                ShortName = "Northern Mariana Islands",
-                ThreeLettersCode = "MNP"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "West Pacific Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "NO",
+                Name = "Norway",
+                ShortName = "Norway",
+                ThreeLettersCode = "NOR",
+                LocalName = "Norge",
+                Capital = "Oslo",
+                Demonym = "Norwegian",
+                CallingCode = 47,
+                Area = 323802,
+                Latitude = 62,
+                Longitude = 10,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "USD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -6622,8 +8535,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "NN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6632,21 +8544,27 @@ public partial class CloudGeographyClient
                         Code = "NOK"
                     }
                 },
-                Code = "NO",
-                Area = 323802,
-                CallingCode=47,
-                Capital="Oslo",
-                Demonym="Norwegian",
-                Latitude = 62,
-                LocalName = "Norge",
-                Longitude = 10,
-                Name = "Norway",
-                ShortName = "Norway",
-                ThreeLettersCode = "NOR"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "OM",
+                Name = "Oman",
+                ShortName = "Oman",
+                ThreeLettersCode = "OMN",
+                LocalName = "عمان",
+                Capital = "Muscat",
+                Demonym = "Omani",
+                CallingCode = 968,
+                Area = 309500,
+                Latitude = 21,
+                Longitude = 57,
                 Languages = new()
                 {
                     new()
@@ -6657,10 +8575,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "NOK"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6669,23 +8591,34 @@ public partial class CloudGeographyClient
                         Code = "OMR"
                     }
                 },
-                Code = "OM",
-                Area = 309500,
-                CallingCode=968,
-                Capital="Muscat",
-                Demonym="Omani",
-                Latitude = 21,
-                LocalName = "عمان",
-                Longitude = 57,
-                Name = "Oman",
-                ShortName = "Oman",
-                ThreeLettersCode = "OMN"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Arabian Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "PK",
+                Name = "Pakistan",
+                ShortName = "Pakistan",
+                ThreeLettersCode = "PAK",
+                LocalName = "Pakistan",
+                Capital = "Islamabad",
+                Demonym = "Pakistani",
+                CallingCode = 92,
+                Area = 881912,
+                Latitude = 30,
+                Longitude = 70,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "OMR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -6701,8 +8634,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "UR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6711,23 +8643,34 @@ public partial class CloudGeographyClient
                         Code = "PKR"
                     }
                 },
-                Code = "PK",
-                Area = 881912,
-                CallingCode=92,
-                Capital="Islamabad",
-                Demonym="Pakistani",
-                Latitude = 30,
-                LocalName = "Pakistan",
-                Longitude = 70,
-                Name = "Pakistan",
-                ShortName = "Pakistan",
-                ThreeLettersCode = "PAK"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Pakistan Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "PW",
+                Name = "Palau",
+                ShortName = "Palau",
+                ThreeLettersCode = "PLW",
+                LocalName = "Palau",
+                Capital = "Ngerulmud",
+                Demonym = "Palauan",
+                CallingCode = 680,
+                Area = 459,
+                Latitude = 7.5,
+                Longitude = 134.5,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "PKR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -6738,8 +8681,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6747,30 +8689,45 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FOK"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "USD"
                     }
                 },
-                Code = "PW",
-                Area = 459,
-                CallingCode=680,
-                Capital="Ngerulmud",
-                Demonym="Palauan",
-                Latitude = 7.5,
-                LocalName = "Palau",
-                Longitude = 134.5,
-                Name = "Palau",
-                ShortName = "Palau",
-                ThreeLettersCode = "PLW"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Tokyo Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "PS",
+                Name = "Palestine, State of",
+                ShortName = "Palestine, State of",
+                ThreeLettersCode = "PSE",
+                LocalName = "فلسطين",
+                Capital = "Ramallah",
+                Demonym = "Palestinian",
+                CallingCode = 970,
+                Area = 0,
+                Latitude = 31.899999618530273,
+                Longitude = 35.20000076293945,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "FOK"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "USD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -6786,8 +8743,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6796,23 +8752,34 @@ public partial class CloudGeographyClient
                         Code = "ILS"
                     }
                 },
-                Code = "PS",
-                Area = 0,
-                CallingCode=970,
-                Capital="Ramallah",
-                Demonym="Palestinian",
-                Latitude = 31.899999618530273,
-                LocalName = "فلسطين",
-                Longitude = 35.20000076293945,
-                Name = "Palestine, State of",
-                ShortName = "Palestine, State of",
-                ThreeLettersCode = "PSE"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "West Bank Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "PA",
+                Name = "Panama",
+                ShortName = "Panama",
+                ThreeLettersCode = "PAN",
+                LocalName = "Panamá",
+                Capital = "Panama City",
+                Demonym = "Panamanian",
+                CallingCode = 507,
+                Area = 75417,
+                Latitude = 9,
+                Longitude = -80,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "ILS"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -6823,8 +8790,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6832,30 +8798,45 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "PAB"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "USD"
                     }
                 },
-                Code = "PA",
-                Area = 75417,
-                CallingCode=507,
-                Capital="Panama City",
-                Demonym="Panamanian",
-                Latitude = 9,
-                LocalName = "Panamá",
-                Longitude = -80,
-                Name = "Panama",
-                ShortName = "Panama",
-                ThreeLettersCode = "PAN"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Pacific Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "PG",
+                Name = "Papua New Guinea",
+                ShortName = "Papua New Guinea",
+                ThreeLettersCode = "PNG",
+                LocalName = "Papua Niugini",
+                Capital = "Port Moresby",
+                Demonym = "Papua New Guinean",
+                CallingCode = 675,
+                Area = 462840,
+                Latitude = -6,
+                Longitude = 147,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "PAB"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "USD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -6871,8 +8852,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6881,23 +8861,38 @@ public partial class CloudGeographyClient
                         Code = "PGK"
                     }
                 },
-                Code = "PG",
-                Area = 462840,
-                CallingCode=675,
-                Capital="Port Moresby",
-                Demonym="Papua New Guinean",
-                Latitude = -6,
-                LocalName = "Papua Niugini",
-                Longitude = 147,
-                Name = "Papua New Guinea",
-                ShortName = "Papua New Guinea",
-                ThreeLettersCode = "PNG"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "West Pacific Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Bougainville Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "PY",
+                Name = "Paraguay",
+                ShortName = "Paraguay",
+                ThreeLettersCode = "PRY",
+                LocalName = "Paraguay",
+                Capital = "Asunción",
+                Demonym = "Paraguayan",
+                CallingCode = 595,
+                Area = 406752,
+                Latitude = -23,
+                Longitude = -58,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "PGK"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -6913,8 +8908,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "GN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6923,23 +8917,34 @@ public partial class CloudGeographyClient
                         Code = "PYG"
                     }
                 },
-                Code = "PY",
-                Area = 406752,
-                CallingCode=595,
-                Capital="Asunción",
-                Demonym="Paraguayan",
-                Latitude = -23,
-                LocalName = "Paraguay",
-                Longitude = -58,
-                Name = "Paraguay",
-                ShortName = "Paraguay",
-                ThreeLettersCode = "PRY"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Paraguay Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "PE",
+                Name = "Peru",
+                ShortName = "Peru",
+                ThreeLettersCode = "PER",
+                LocalName = "Perú",
+                Capital = "Lima",
+                Demonym = "Peruvian",
+                CallingCode = 51,
+                Area = 1285216,
+                Latitude = -10,
+                Longitude = -76,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "PYG"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -6950,8 +8955,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6960,58 +8964,74 @@ public partial class CloudGeographyClient
                         Code = "PEN"
                     }
                 },
-                Code = "PE",
-                Area = 1285216,
-                CallingCode=51,
-                Capital="Lima",
-                Demonym="Peruvian",
-                Latitude = -10,
-                LocalName = "Perú",
-                Longitude = -76,
-                Name = "Peru",
-                ShortName = "Peru",
-                ThreeLettersCode = "PER"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Pacific Standard Time"
+                    }
+                }
             },
-
             new()
             {
-                Languages = new()
-                {
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "PEN"
-                    },
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "EN"
-                    } 
-                },
-                
-                Currencies=new()
-                {
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "PHP"
-                    }
-                },
                 Code = "PH",
-                Area = 342353,
-                CallingCode=63,
-                Capital="Manila",
-                Demonym="Filipino",
-                Latitude = 13,
-                LocalName = "Pilipinas",
-                Longitude = 122,
                 Name = "Philippines",
                 ShortName = "Philippines",
-                ThreeLettersCode = "PHL"
+                ThreeLettersCode = "PHL",
+                LocalName = "Pilipinas",
+                Capital = "Manila",
+                Demonym = "Filipino",
+                CallingCode = 63,
+                Area = 342353,
+                Latitude = 13,
+                Longitude = 122,
+                Languages = new()
+                {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "PEN"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "PEN"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EN"
+                    } 
+                },                
+                Currencies=new()
+                {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "PHP"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Singapore Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "PN",
+                Name = "Pitcairn",
+                ShortName = "Pitcairn",
+                ThreeLettersCode = "PCN",
+                LocalName = "Pitcairn Islands",
+                Capital = "Adamstown",
+                Demonym = "Pitcairn Islander",
+                CallingCode = 64,
+                Area = 47,
+                Latitude = -25.066667556762695,
+                Longitude = -130.10000610351562,
                 Languages = new()
                 {
                     new()
@@ -7022,10 +9042,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "PHP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7034,23 +9058,34 @@ public partial class CloudGeographyClient
                         Code = "NZD"
                     }
                 },
-                Code = "PN",
-                Area = 47,
-                CallingCode=64,
-                Capital="Adamstown",
-                Demonym="Pitcairn Islander",
-                Latitude = -25.066667556762695,
-                LocalName = "Pitcairn Islands",
-                Longitude = -130.10000610351562,
-                Name = "Pitcairn",
-                ShortName = "Pitcairn",
-                ThreeLettersCode = "PCN"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "UTC-08"
+                    }
+                }
             },
-
             new()
             {
+                Code = "PL",
+                Name = "Poland",
+                ShortName = "Poland",
+                ThreeLettersCode = "POL",
+                LocalName = "Polska",
+                Capital = "Warsaw",
+                Demonym = "Polish",
+                CallingCode = 48,
+                Area = 312679,
+                Latitude = 52,
+                Longitude = 20,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "NZD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -7061,8 +9096,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "PL"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7071,21 +9105,27 @@ public partial class CloudGeographyClient
                         Code = "PLN"
                     }
                 },
-                Code = "PL",
-                Area = 312679,
-                CallingCode=48,
-                Capital="Warsaw",
-                Demonym="Polish",
-                Latitude = 52,
-                LocalName = "Polska",
-                Longitude = 20,
-                Name = "Poland",
-                ShortName = "Poland",
-                ThreeLettersCode = "POL"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central European Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "PT",
+                Name = "Portugal",
+                ShortName = "Portugal",
+                ThreeLettersCode = "PRT",
+                LocalName = "Portugal",
+                Capital = "Lisbon",
+                Demonym = "Portuguese",
+                CallingCode = 351,
+                Area = 92090,
+                Latitude = 39.5,
+                Longitude = -8,
                 Languages = new()
                 {
                     new()
@@ -7096,10 +9136,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "PLN"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "PT"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7108,23 +9152,38 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "PT",
-                Area = 92090,
-                CallingCode=351,
-                Capital="Lisbon",
-                Demonym="Portuguese",
-                Latitude = 39.5,
-                LocalName = "Portugal",
-                Longitude = -8,
-                Name = "Portugal",
-                ShortName = "Portugal",
-                ThreeLettersCode = "PRT"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "GMT Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Azores Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "PR",
+                Name = "Puerto Rico",
+                ShortName = "Puerto Rico",
+                ThreeLettersCode = "PRI",
+                LocalName = "Puerto Rico",
+                Capital = "San Juan",
+                Demonym = "Puerto Rican",
+                CallingCode = 1787,
+                Area = 8870,
+                Latitude = 18.25,
+                Longitude = -66.5,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -7140,8 +9199,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7150,21 +9208,27 @@ public partial class CloudGeographyClient
                         Code = "USD"
                     }
                 },
-                Code = "PR",
-                Area = 8870,
-                CallingCode=1787,
-                Capital="San Juan",
-                Demonym="Puerto Rican",
-                Latitude = 18.25,
-                LocalName = "Puerto Rico",
-                Longitude = -66.5,
-                Name = "Puerto Rico",
-                ShortName = "Puerto Rico",
-                ThreeLettersCode = "PRI"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "QA",
+                Name = "Qatar",
+                ShortName = "Qatar",
+                ThreeLettersCode = "QAT",
+                LocalName = "قطر",
+                Capital = "Doha",
+                Demonym = "Qatari",
+                CallingCode = 974,
+                Area = 11586,
+                Latitude = 25.5,
+                Longitude = 51.25,
                 Languages = new()
                 {
                     new()
@@ -7175,10 +9239,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "USD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7187,23 +9255,34 @@ public partial class CloudGeographyClient
                         Code = "QAR"
                     }
                 },
-                Code = "QA",
-                Area = 11586,
-                CallingCode=974,
-                Capital="Doha",
-                Demonym="Qatari",
-                Latitude = 25.5,
-                LocalName = "قطر",
-                Longitude = 51.25,
-                Name = "Qatar",
-                ShortName = "Qatar",
-                ThreeLettersCode = "QAT"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Arab Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "XK",
+                Name = "Republic of Kosovo",
+                ShortName = "Republic of Kosovo",
+                ThreeLettersCode = "KOS",
+                LocalName = "Republika e Kosovës",
+                Capital = "Pristina",
+                Demonym = "Kosovar",
+                CallingCode = 383,
+                Area = 10908,
+                Latitude = 42.66666793823242,
+                Longitude = 21.166667938232422,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "QAR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -7219,8 +9298,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "SR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7229,23 +9307,30 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "XK",
-                Area = 10908,
-                CallingCode=383,
-                Capital="Pristina",
-                Demonym="Kosovar",
-                Latitude = 42.66666793823242,
-                LocalName = "Republika e Kosovës",
-                Longitude = 21.166667938232422,
-                Name = "Republic of Kosovo",
-                ShortName = "Republic of Kosovo",
-                ThreeLettersCode = "KOS"
+                TimeZones=new()
+                {
+                }
             },
-
             new()
             {
+                Code = "RE",
+                Name = "Réunion",
+                ShortName = "Réunion",
+                ThreeLettersCode = "REU",
+                LocalName = "La Réunion",
+                Capital = "Saint-Denis",
+                Demonym = "French",
+                CallingCode = 262,
+                Area = 0,
+                Latitude = -21.149999618530273,
+                Longitude = 55.5,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -7256,8 +9341,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7266,23 +9350,34 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "RE",
-                Area = 0,
-                CallingCode=262,
-                Capital="Saint-Denis",
-                Demonym="French",
-                Latitude = -21.149999618530273,
-                LocalName = "La Réunion",
-                Longitude = 55.5,
-                Name = "Réunion",
-                ShortName = "Réunion",
-                ThreeLettersCode = "REU"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Mauritius Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "RO",
+                Name = "Romania",
+                ShortName = "Romania",
+                ThreeLettersCode = "ROU",
+                LocalName = "România",
+                Capital = "Bucharest",
+                Demonym = "Romanian",
+                CallingCode = 40,
+                Area = 238391,
+                Latitude = 46,
+                Longitude = 25,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -7293,8 +9388,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "RO"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7303,21 +9397,27 @@ public partial class CloudGeographyClient
                         Code = "RON"
                     }
                 },
-                Code = "RO",
-                Area = 238391,
-                CallingCode=40,
-                Capital="Bucharest",
-                Demonym="Romanian",
-                Latitude = 46,
-                LocalName = "România",
-                Longitude = 25,
-                Name = "Romania",
-                ShortName = "Romania",
-                ThreeLettersCode = "ROU"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "GTB Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "RU",
+                Name = "Russian Federation",
+                ShortName = "Russian Federation",
+                ThreeLettersCode = "RUS",
+                LocalName = "Россия",
+                Capital = "Moscow",
+                Demonym = "Russian",
+                CallingCode = 7,
+                Area = 17124442,
+                Latitude = 60,
+                Longitude = 100,
                 Languages = new()
                 {
                     new()
@@ -7328,10 +9428,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "RON"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "RU"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7340,23 +9444,110 @@ public partial class CloudGeographyClient
                         Code = "RUB"
                     }
                 },
-                Code = "RU",
-                Area = 17124442,
-                CallingCode=7,
-                Capital="Moscow",
-                Demonym="Russian",
-                Latitude = 60,
-                LocalName = "Россия",
-                Longitude = 100,
-                Name = "Russian Federation",
-                ShortName = "Russian Federation",
-                ThreeLettersCode = "RUS"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Kaliningrad Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Russian Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Volgograd Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Astrakhan Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Saratov Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Russia Time Zone 3"
+                    },
+                    new()
+                    {
+                        Code = "Ekaterinburg Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Omsk Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "N. Central Asia Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Altai Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Tomsk Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "North Asia Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "North Asia East Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Transbaikal Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Yakutsk Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Vladivostok Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Magadan Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Sakhalin Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Russia Time Zone 10"
+                    },
+                    new()
+                    {
+                        Code = "Russia Time Zone 11"
+                    }
+                }
             },
-
             new()
             {
+                Code = "RW",
+                Name = "Rwanda",
+                ShortName = "Rwanda",
+                ThreeLettersCode = "RWA",
+                LocalName = "Rwanda",
+                Capital = "Kigali",
+                Demonym = "Rwandan",
+                CallingCode = 250,
+                Area = 26338,
+                Latitude = -2,
+                Longitude = 30,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "RUB"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -7377,8 +9568,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7387,23 +9577,34 @@ public partial class CloudGeographyClient
                         Code = "RWF"
                     }
                 },
-                Code = "RW",
-                Area = 26338,
-                CallingCode=250,
-                Capital="Kigali",
-                Demonym="Rwandan",
-                Latitude = -2,
-                LocalName = "Rwanda",
-                Longitude = 30,
-                Name = "Rwanda",
-                ShortName = "Rwanda",
-                ThreeLettersCode = "RWA"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "South Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "BL",
+                Name = "Saint Barthélemy",
+                ShortName = "Saint Barthélemy",
+                ThreeLettersCode = "BLM",
+                LocalName = "Saint-Barthélemy",
+                Capital = "Gustavia",
+                Demonym = "Saint Barthélemy Islander",
+                CallingCode = 590,
+                Area = 21,
+                Latitude = 18.5,
+                Longitude = -63.41666793823242,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "RWF"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -7414,8 +9615,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7424,58 +9624,74 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "BL",
-                Area = 21,
-                CallingCode=590,
-                Capital="Gustavia",
-                Demonym="Saint Barthélemy Islander",
-                Latitude = 18.5,
-                LocalName = "Saint-Barthélemy",
-                Longitude = -63.41666793823242,
-                Name = "Saint Barthélemy",
-                ShortName = "Saint Barthélemy",
-                ThreeLettersCode = "BLM"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    }
+                }
             },
-
             new()
             {
-                Languages = new()
-                {
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "EUR"
-                    },
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "EN"
-                    } 
-                },
-                
-                Currencies=new()
-                {
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "SHP"
-                    }
-                },
                 Code = "SH",
-                Area = 0,
-                CallingCode=290,
-                Capital="Jamestown",
-                Demonym="Saint Helenian",
-                Latitude = -15.949999809265137,
-                LocalName = "Saint Helena",
-                Longitude = -5.699999809265137,
                 Name = "Saint Helena, Ascension and Tristan da Cunha",
                 ShortName = "Saint Helena, Ascension and Tristan da Cunha",
-                ThreeLettersCode = "SHN"
+                ThreeLettersCode = "SHN",
+                LocalName = "Saint Helena",
+                Capital = "Jamestown",
+                Demonym = "Saint Helenian",
+                CallingCode = 290,
+                Area = 0,
+                Latitude = -15.949999809265137,
+                Longitude = -5.699999809265137,
+                Languages = new()
+                {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EN"
+                    } 
+                },                
+                Currencies=new()
+                {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "SHP"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "KN",
+                Name = "Saint Kitts and Nevis",
+                ShortName = "Saint Kitts and Nevis",
+                ThreeLettersCode = "KNA",
+                LocalName = "Saint Kitts and Nevis",
+                Capital = "Basseterre",
+                Demonym = "Kittian and Nevisian",
+                CallingCode = 1869,
+                Area = 261,
+                Latitude = 17.33333396911621,
+                Longitude = -62.75,
                 Languages = new()
                 {
                     new()
@@ -7486,10 +9702,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "SHP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7498,21 +9718,27 @@ public partial class CloudGeographyClient
                         Code = "XCD"
                     }
                 },
-                Code = "KN",
-                Area = 261,
-                CallingCode=1869,
-                Capital="Basseterre",
-                Demonym="Kittian and Nevisian",
-                Latitude = 17.33333396911621,
-                LocalName = "Saint Kitts and Nevis",
-                Longitude = -62.75,
-                Name = "Saint Kitts and Nevis",
-                ShortName = "Saint Kitts and Nevis",
-                ThreeLettersCode = "KNA"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "LC",
+                Name = "Saint Lucia",
+                ShortName = "Saint Lucia",
+                ThreeLettersCode = "LCA",
+                LocalName = "Saint Lucia",
+                Capital = "Castries",
+                Demonym = "Saint Lucian",
+                CallingCode = 1758,
+                Area = 616,
+                Latitude = 13.883333206176758,
+                Longitude = -60.96666717529297,
                 Languages = new()
                 {
                     new()
@@ -7523,10 +9749,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XCD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7535,23 +9765,34 @@ public partial class CloudGeographyClient
                         Code = "XCD"
                     }
                 },
-                Code = "LC",
-                Area = 616,
-                CallingCode=1758,
-                Capital="Castries",
-                Demonym="Saint Lucian",
-                Latitude = 13.883333206176758,
-                LocalName = "Saint Lucia",
-                Longitude = -60.96666717529297,
-                Name = "Saint Lucia",
-                ShortName = "Saint Lucia",
-                ThreeLettersCode = "LCA"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "MF",
+                Name = "Saint Martin (French part)",
+                ShortName = "Saint Martin (French part)",
+                ThreeLettersCode = "MAF",
+                LocalName = "Saint-Martin",
+                Capital = "Marigot",
+                Demonym = "Saint Martin Islander",
+                CallingCode = 590,
+                Area = 53,
+                Latitude = 18.08333396911621,
+                Longitude = -63.95000076293945,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "XCD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -7572,8 +9813,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "NL"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7582,23 +9822,34 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "MF",
-                Area = 53,
-                CallingCode=590,
-                Capital="Marigot",
-                Demonym="Saint Martin Islander",
-                Latitude = 18.08333396911621,
-                LocalName = "Saint-Martin",
-                Longitude = -63.95000076293945,
-                Name = "Saint Martin (French part)",
-                ShortName = "Saint Martin (French part)",
-                ThreeLettersCode = "MAF"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "PM",
+                Name = "Saint Pierre and Miquelon",
+                ShortName = "Saint Pierre and Miquelon",
+                ThreeLettersCode = "SPM",
+                LocalName = "Saint-Pierre-et-Miquelon",
+                Capital = "Saint-Pierre",
+                Demonym = "French",
+                CallingCode = 508,
+                Area = 242,
+                Latitude = 46.83333206176758,
+                Longitude = -56.33333206176758,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -7609,8 +9860,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7619,21 +9869,27 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "PM",
-                Area = 242,
-                CallingCode=508,
-                Capital="Saint-Pierre",
-                Demonym="French",
-                Latitude = 46.83333206176758,
-                LocalName = "Saint-Pierre-et-Miquelon",
-                Longitude = -56.33333206176758,
-                Name = "Saint Pierre and Miquelon",
-                ShortName = "Saint Pierre and Miquelon",
-                ThreeLettersCode = "SPM"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Saint Pierre Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "VC",
+                Name = "Saint Vincent and the Grenadines",
+                ShortName = "Saint Vincent and the Grenadines",
+                ThreeLettersCode = "VCT",
+                LocalName = "Saint Vincent and the Grenadines",
+                Capital = "Kingstown",
+                Demonym = "Saint Vincentian",
+                CallingCode = 1784,
+                Area = 389,
+                Latitude = 13.25,
+                Longitude = -61.20000076293945,
                 Languages = new()
                 {
                     new()
@@ -7644,10 +9900,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7656,23 +9916,34 @@ public partial class CloudGeographyClient
                         Code = "XCD"
                     }
                 },
-                Code = "VC",
-                Area = 389,
-                CallingCode=1784,
-                Capital="Kingstown",
-                Demonym="Saint Vincentian",
-                Latitude = 13.25,
-                LocalName = "Saint Vincent and the Grenadines",
-                Longitude = -61.20000076293945,
-                Name = "Saint Vincent and the Grenadines",
-                ShortName = "Saint Vincent and the Grenadines",
-                ThreeLettersCode = "VCT"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "WS",
+                Name = "Samoa",
+                ShortName = "Samoa",
+                ThreeLettersCode = "WSM",
+                LocalName = "Samoa",
+                Capital = "Apia",
+                Demonym = "Samoan",
+                CallingCode = 685,
+                Area = 2842,
+                Latitude = -13.583333015441895,
+                Longitude = -172.3333282470703,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "XCD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -7683,8 +9954,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7693,23 +9963,34 @@ public partial class CloudGeographyClient
                         Code = "WST"
                     }
                 },
-                Code = "WS",
-                Area = 2842,
-                CallingCode=685,
-                Capital="Apia",
-                Demonym="Samoan",
-                Latitude = -13.583333015441895,
-                LocalName = "Samoa",
-                Longitude = -172.3333282470703,
-                Name = "Samoa",
-                ShortName = "Samoa",
-                ThreeLettersCode = "WSM"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Samoa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "SM",
+                Name = "San Marino",
+                ShortName = "San Marino",
+                ThreeLettersCode = "SMR",
+                LocalName = "San Marino",
+                Capital = "City of San Marino",
+                Demonym = "Sammarinese",
+                CallingCode = 378,
+                Area = 61,
+                Latitude = 43.766666412353516,
+                Longitude = 12.416666984558105,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "WST"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -7720,8 +10001,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "IT"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7730,23 +10010,34 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "SM",
-                Area = 61,
-                CallingCode=378,
-                Capital="City of San Marino",
-                Demonym="Sammarinese",
-                Latitude = 43.766666412353516,
-                LocalName = "San Marino",
-                Longitude = 12.416666984558105,
-                Name = "San Marino",
-                ShortName = "San Marino",
-                ThreeLettersCode = "SMR"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "ST",
+                Name = "Sao Tome and Principe",
+                ShortName = "Sao Tome and Principe",
+                ThreeLettersCode = "STP",
+                LocalName = "São Tomé e Príncipe",
+                Capital = "São Tomé",
+                Demonym = "Sao Tomean",
+                CallingCode = 239,
+                Area = 964,
+                Latitude = 1,
+                Longitude = 7,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -7757,8 +10048,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "PT"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7767,23 +10057,34 @@ public partial class CloudGeographyClient
                         Code = "STN"
                     }
                 },
-                Code = "ST",
-                Area = 964,
-                CallingCode=239,
-                Capital="São Tomé",
-                Demonym="Sao Tomean",
-                Latitude = 1,
-                LocalName = "São Tomé e Príncipe",
-                Longitude = 7,
-                Name = "Sao Tome and Principe",
-                ShortName = "Sao Tome and Principe",
-                ThreeLettersCode = "STP"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Sao Tome Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "SA",
+                Name = "Saudi Arabia",
+                ShortName = "Saudi Arabia",
+                ThreeLettersCode = "KSA",
+                LocalName = "المملكة العربية السعودية",
+                Capital = "Riyadh",
+                Demonym = "Saudi Arabian",
+                CallingCode = 966,
+                Area = 2149690,
+                Latitude = 25,
+                Longitude = 45,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "STN"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -7794,8 +10095,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7804,23 +10104,34 @@ public partial class CloudGeographyClient
                         Code = "SAR"
                     }
                 },
-                Code = "SA",
-                Area = 2149690,
-                CallingCode=966,
-                Capital="Riyadh",
-                Demonym="Saudi Arabian",
-                Latitude = 25,
-                LocalName = "المملكة العربية السعودية",
-                Longitude = 45,
-                Name = "Saudi Arabia",
-                ShortName = "Saudi Arabia",
-                ThreeLettersCode = "KSA"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Arab Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "SN",
+                Name = "Senegal",
+                ShortName = "Senegal",
+                ThreeLettersCode = "SEN",
+                LocalName = "Sénégal",
+                Capital = "Dakar",
+                Demonym = "Senegalese",
+                CallingCode = 221,
+                Area = 196722,
+                Latitude = 14,
+                Longitude = -14,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "SAR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -7831,8 +10142,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7841,21 +10151,27 @@ public partial class CloudGeographyClient
                         Code = "XOF"
                     }
                 },
-                Code = "SN",
-                Area = 196722,
-                CallingCode=221,
-                Capital="Dakar",
-                Demonym="Senegalese",
-                Latitude = 14,
-                LocalName = "Sénégal",
-                Longitude = -14,
-                Name = "Senegal",
-                ShortName = "Senegal",
-                ThreeLettersCode = "SEN"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "RS",
+                Name = "Serbia",
+                ShortName = "Serbia",
+                ThreeLettersCode = "SRB",
+                LocalName = "Србија",
+                Capital = "Belgrade",
+                Demonym = "Serbian",
+                CallingCode = 381,
+                Area = 88361,
+                Latitude = 44,
+                Longitude = 21,
                 Languages = new()
                 {
                     new()
@@ -7866,10 +10182,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XOF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "SR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7878,23 +10198,34 @@ public partial class CloudGeographyClient
                         Code = "RSD"
                     }
                 },
-                Code = "RS",
-                Area = 88361,
-                CallingCode=381,
-                Capital="Belgrade",
-                Demonym="Serbian",
-                Latitude = 44,
-                LocalName = "Србија",
-                Longitude = 21,
-                Name = "Serbia",
-                ShortName = "Serbia",
-                ThreeLettersCode = "SRB"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Europe Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "SC",
+                Name = "Seychelles",
+                ShortName = "Seychelles",
+                ThreeLettersCode = "SYC",
+                LocalName = "Seychelles",
+                Capital = "Victoria",
+                Demonym = "Seychellois",
+                CallingCode = 248,
+                Area = 452,
+                Latitude = -4.583333492279053,
+                Longitude = 55.66666793823242,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "RSD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -7910,8 +10241,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7920,21 +10250,27 @@ public partial class CloudGeographyClient
                         Code = "SCR"
                     }
                 },
-                Code = "SC",
-                Area = 452,
-                CallingCode=248,
-                Capital="Victoria",
-                Demonym="Seychellois",
-                Latitude = -4.583333492279053,
-                LocalName = "Seychelles",
-                Longitude = 55.66666793823242,
-                Name = "Seychelles",
-                ShortName = "Seychelles",
-                ThreeLettersCode = "SYC"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Mauritius Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "SL",
+                Name = "Sierra Leone",
+                ShortName = "Sierra Leone",
+                ThreeLettersCode = "SLE",
+                LocalName = "Sierra Leone",
+                Capital = "Freetown",
+                Demonym = "Sierra Leonean",
+                CallingCode = 232,
+                Area = 71740,
+                Latitude = 8.5,
+                Longitude = -11.5,
                 Languages = new()
                 {
                     new()
@@ -7945,10 +10281,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "SCR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7957,23 +10297,34 @@ public partial class CloudGeographyClient
                         Code = "SLL"
                     }
                 },
-                Code = "SL",
-                Area = 71740,
-                CallingCode=232,
-                Capital="Freetown",
-                Demonym="Sierra Leonean",
-                Latitude = 8.5,
-                LocalName = "Sierra Leone",
-                Longitude = -11.5,
-                Name = "Sierra Leone",
-                ShortName = "Sierra Leone",
-                ThreeLettersCode = "SLE"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "SG",
+                Name = "Singapore",
+                ShortName = "Singapore",
+                ThreeLettersCode = "SGP",
+                LocalName = "Singapore",
+                Capital = "Singapore",
+                Demonym = "Singaporean",
+                CallingCode = 65,
+                Area = 710,
+                Latitude = 1.3666666746139526,
+                Longitude = 103.80000305175781,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "SLL"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -7999,8 +10350,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "ZH"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -8008,30 +10358,45 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "BND"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "SGD"
                     }
                 },
-                Code = "SG",
-                Area = 710,
-                CallingCode=65,
-                Capital="Singapore",
-                Demonym="Singaporean",
-                Latitude = 1.3666666746139526,
-                LocalName = "Singapore",
-                Longitude = 103.80000305175781,
-                Name = "Singapore",
-                ShortName = "Singapore",
-                ThreeLettersCode = "SGP"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Singapore Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "SX",
+                Name = "Sint Maarten (Dutch part)",
+                ShortName = "Sint Maarten (Dutch part)",
+                ThreeLettersCode = "SXM",
+                LocalName = "Sint Maarten",
+                Capital = "Philipsburg",
+                Demonym = "Dutch",
+                CallingCode = 1721,
+                Area = 34,
+                Latitude = 18.03333282470703,
+                Longitude = -63.04999923706055,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "BND"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "SGD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -8052,8 +10417,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -8062,23 +10426,34 @@ public partial class CloudGeographyClient
                         Code = "ANG"
                     }
                 },
-                Code = "SX",
-                Area = 34,
-                CallingCode=1721,
-                Capital="Philipsburg",
-                Demonym="Dutch",
-                Latitude = 18.03333282470703,
-                LocalName = "Sint Maarten",
-                Longitude = -63.04999923706055,
-                Name = "Sint Maarten (Dutch part)",
-                ShortName = "Sint Maarten (Dutch part)",
-                ThreeLettersCode = "SXM"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "SK",
+                Name = "Slovakia",
+                ShortName = "Slovakia",
+                ThreeLettersCode = "SVK",
+                LocalName = "Slovensko",
+                Capital = "Bratislava",
+                Demonym = "Slovak",
+                CallingCode = 421,
+                Area = 49037,
+                Latitude = 48.66666793823242,
+                Longitude = 19.5,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "ANG"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -8089,8 +10464,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "SK"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -8099,23 +10473,34 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "SK",
-                Area = 49037,
-                CallingCode=421,
-                Capital="Bratislava",
-                Demonym="Slovak",
-                Latitude = 48.66666793823242,
-                LocalName = "Slovensko",
-                Longitude = 19.5,
-                Name = "Slovakia",
-                ShortName = "Slovakia",
-                ThreeLettersCode = "SVK"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Europe Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "SI",
+                Name = "Slovenia",
+                ShortName = "Slovenia",
+                ThreeLettersCode = "SVN",
+                LocalName = "Slovenija",
+                Capital = "Ljubljana",
+                Demonym = "Slovene",
+                CallingCode = 386,
+                Area = 20273,
+                Latitude = 46.11666488647461,
+                Longitude = 14.816666603088379,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -8126,8 +10511,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "SL"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -8136,21 +10520,27 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "SI",
-                Area = 20273,
-                CallingCode=386,
-                Capital="Ljubljana",
-                Demonym="Slovene",
-                Latitude = 46.11666488647461,
-                LocalName = "Slovenija",
-                Longitude = 14.816666603088379,
-                Name = "Slovenia",
-                ShortName = "Slovenia",
-                ThreeLettersCode = "SVN"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Europe Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "SB",
+                Name = "Solomon Islands",
+                ShortName = "Solomon Islands",
+                ThreeLettersCode = "SLB",
+                LocalName = "Solomon Islands",
+                Capital = "Honiara",
+                Demonym = "Solomon Islander",
+                CallingCode = 677,
+                Area = 28896,
+                Latitude = -8,
+                Longitude = 159,
                 Languages = new()
                 {
                     new()
@@ -8161,10 +10551,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -8173,23 +10567,34 @@ public partial class CloudGeographyClient
                         Code = "SBD"
                     }
                 },
-                Code = "SB",
-                Area = 28896,
-                CallingCode=677,
-                Capital="Honiara",
-                Demonym="Solomon Islander",
-                Latitude = -8,
-                LocalName = "Solomon Islands",
-                Longitude = 159,
-                Name = "Solomon Islands",
-                ShortName = "Solomon Islands",
-                ThreeLettersCode = "SLB"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Pacific Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "SO",
+                Name = "Somalia",
+                ShortName = "Somalia",
+                ThreeLettersCode = "SOM",
+                LocalName = "Soomaaliya",
+                Capital = "Mogadishu",
+                Demonym = "Somali",
+                CallingCode = 252,
+                Area = 637657,
+                Latitude = 10,
+                Longitude = 49,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "SBD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -8205,8 +10610,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -8215,23 +10619,34 @@ public partial class CloudGeographyClient
                         Code = "SOS"
                     }
                 },
-                Code = "SO",
-                Area = 637657,
-                CallingCode=252,
-                Capital="Mogadishu",
-                Demonym="Somali",
-                Latitude = 10,
-                LocalName = "Soomaaliya",
-                Longitude = 49,
-                Name = "Somalia",
-                ShortName = "Somalia",
-                ThreeLettersCode = "SOM"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "E. Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "ZA",
+                Name = "South Africa",
+                ShortName = "South Africa",
+                ThreeLettersCode = "ZAF",
+                LocalName = "South Africa",
+                Capital = "Pretoria",
+                Demonym = "South African",
+                CallingCode = 27,
+                Area = 1221037,
+                Latitude = -29,
+                Longitude = 24,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "SOS"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -8287,8 +10702,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "ZU"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -8297,23 +10711,34 @@ public partial class CloudGeographyClient
                         Code = "ZAR"
                     }
                 },
-                Code = "ZA",
-                Area = 1221037,
-                CallingCode=27,
-                Capital="Pretoria",
-                Demonym="South African",
-                Latitude = -29,
-                LocalName = "South Africa",
-                Longitude = 24,
-                Name = "South Africa",
-                ShortName = "South Africa",
-                ThreeLettersCode = "ZAF"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "South Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "GS",
+                Name = "South Georgia and the South Sandwich Islands",
+                ShortName = "South Georgia and the South Sandwich Islands",
+                ThreeLettersCode = "SGS",
+                LocalName = "South Georgia",
+                Capital = "King Edward Point",
+                Demonym = "South Georgia and the South Sandwich Islander",
+                CallingCode = 500,
+                Area = 0,
+                Latitude = -54.5,
+                Longitude = -37,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "ZAR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -8324,8 +10749,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -8333,30 +10757,45 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "GBP"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "FOK"
                     }
                 },
-                Code = "GS",
-                Area = 0,
-                CallingCode=500,
-                Capital="King Edward Point",
-                Demonym="South Georgia and the South Sandwich Islander",
-                Latitude = -54.5,
-                LocalName = "South Georgia",
-                Longitude = -37,
-                Name = "South Georgia and the South Sandwich Islands",
-                ShortName = "South Georgia and the South Sandwich Islands",
-                ThreeLettersCode = "SGS"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "UTC-02"
+                    }
+                }
             },
-
             new()
             {
+                Code = "KR",
+                Name = "South Korea",
+                ShortName = "South Korea",
+                ThreeLettersCode = "KOR",
+                LocalName = "대한민국",
+                Capital = "Seoul",
+                Demonym = "South Korean",
+                CallingCode = 82,
+                Area = 100210,
+                Latitude = 37,
+                Longitude = 127.5,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "GBP"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "FOK"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -8372,8 +10811,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "KO"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -8382,23 +10820,34 @@ public partial class CloudGeographyClient
                         Code = "KRW"
                     }
                 },
-                Code = "KR",
-                Area = 100210,
-                CallingCode=82,
-                Capital="Seoul",
-                Demonym="South Korean",
-                Latitude = 37,
-                LocalName = "대한민국",
-                Longitude = 127.5,
-                Name = "South Korea",
-                ShortName = "South Korea",
-                ThreeLettersCode = "KOR"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Korea Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "SS",
+                Name = "South Sudan",
+                ShortName = "South Sudan",
+                ThreeLettersCode = "SSD",
+                LocalName = "South Sudan",
+                Capital = "Juba",
+                Demonym = "South Sudanese",
+                CallingCode = 211,
+                Area = 619745,
+                Latitude = 7,
+                Longitude = 30,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "KRW"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -8409,8 +10858,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -8419,21 +10867,27 @@ public partial class CloudGeographyClient
                         Code = "SSP"
                     }
                 },
-                Code = "SS",
-                Area = 619745,
-                CallingCode=211,
-                Capital="Juba",
-                Demonym="South Sudanese",
-                Latitude = 7,
-                LocalName = "South Sudan",
-                Longitude = 30,
-                Name = "South Sudan",
-                ShortName = "South Sudan",
-                ThreeLettersCode = "SSD"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "South Sudan Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "ES",
+                Name = "Spain",
+                ShortName = "Spain",
+                ThreeLettersCode = "ESP",
+                LocalName = "España",
+                Capital = "Madrid",
+                Demonym = "Spanish",
+                CallingCode = 34,
+                Area = 505992,
+                Latitude = 40,
+                Longitude = -4,
                 Languages = new()
                 {
                     new()
@@ -8444,10 +10898,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "SSP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -8456,23 +10914,38 @@ public partial class CloudGeographyClient
                         Code = "EUR"
                     }
                 },
-                Code = "ES",
-                Area = 505992,
-                CallingCode=34,
-                Capital="Madrid",
-                Demonym="Spanish",
-                Latitude = 40,
-                LocalName = "España",
-                Longitude = -4,
-                Name = "Spain",
-                ShortName = "Spain",
-                ThreeLettersCode = "ESP"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Romance Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "GMT Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "LK",
+                Name = "Sri Lanka",
+                ShortName = "Sri Lanka",
+                ThreeLettersCode = "LKA",
+                LocalName = "śrī laṃkāva",
+                Capital = "Colombo",
+                Demonym = "Sri Lankan",
+                CallingCode = 94,
+                Area = 65610,
+                Latitude = 7,
+                Longitude = 81,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EUR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -8488,8 +10961,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "TA"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -8498,23 +10970,34 @@ public partial class CloudGeographyClient
                         Code = "LKR"
                     }
                 },
-                Code = "LK",
-                Area = 65610,
-                CallingCode=94,
-                Capital="Colombo",
-                Demonym="Sri Lankan",
-                Latitude = 7,
-                LocalName = "śrī laṃkāva",
-                Longitude = 81,
-                Name = "Sri Lanka",
-                ShortName = "Sri Lanka",
-                ThreeLettersCode = "LKA"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Sri Lanka Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "SD",
+                Name = "Sudan",
+                ShortName = "Sudan",
+                ThreeLettersCode = "SDN",
+                LocalName = "السودان",
+                Capital = "Khartoum",
+                Demonym = "Sudanese",
+                CallingCode = 249,
+                Area = 1886068,
+                Latitude = 15,
+                Longitude = 30,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "LKR"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -8530,8 +11013,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -8540,21 +11022,27 @@ public partial class CloudGeographyClient
                         Code = "SDG"
                     }
                 },
-                Code = "SD",
-                Area = 1886068,
-                CallingCode=249,
-                Capital="Khartoum",
-                Demonym="Sudanese",
-                Latitude = 15,
-                LocalName = "السودان",
-                Longitude = 30,
-                Name = "Sudan",
-                ShortName = "Sudan",
-                ThreeLettersCode = "SDN"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Sudan Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "SR",
+                Name = "Suriname",
+                ShortName = "Suriname",
+                ThreeLettersCode = "SUR",
+                LocalName = "Suriname",
+                Capital = "Paramaribo",
+                Demonym = "Surinamer",
+                CallingCode = 597,
+                Area = 163820,
+                Latitude = 4,
+                Longitude = -56,
                 Languages = new()
                 {
                     new()
@@ -8565,10 +11053,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "SDG"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "NL"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -8577,30 +11069,40 @@ public partial class CloudGeographyClient
                         Code = "SRD"
                     }
                 },
-                Code = "SR",
-                Area = 163820,
-                CallingCode=597,
-                Capital="Paramaribo",
-                Demonym="Surinamer",
-                Latitude = 4,
-                LocalName = "Suriname",
-                Longitude = -56,
-                Name = "Suriname",
-                ShortName = "Suriname",
-                ThreeLettersCode = "SUR"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Eastern Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "SJ",
+                Name = "Svalbard and Jan Mayen",
+                ShortName = "Svalbard and Jan Mayen",
+                ThreeLettersCode = "SJM",
+                LocalName = "Svalbard og Jan Mayen",
+                Capital = "Longyearbyen",
+                Demonym = "Norwegian",
+                CallingCode = 4779,
+                Area = 0,
+                Latitude = 78,
+                Longitude = 20,
                 Languages = new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "SRD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "SRD"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -8609,23 +11111,34 @@ public partial class CloudGeographyClient
                         Code = "NOK"
                     }
                 },
-                Code = "SJ",
-                Area = 0,
-                CallingCode=4779,
-                Capital="Longyearbyen",
-                Demonym="Norwegian",
-                Latitude = 78,
-                LocalName = "Svalbard og Jan Mayen",
-                Longitude = 20,
-                Name = "Svalbard and Jan Mayen",
-                ShortName = "Svalbard and Jan Mayen",
-                ThreeLettersCode = "SJM"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "SZ",
+                Name = "Swaziland",
+                ShortName = "Swaziland",
+                ThreeLettersCode = "SWZ",
+                LocalName = "Swaziland",
+                Capital = "Lobamba",
+                Demonym = "Swazi",
+                CallingCode = 268,
+                Area = 17364,
+                Latitude = -26.5,
+                Longitude = 31.5,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "NOK"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -8641,8 +11154,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "SS"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -8651,21 +11163,27 @@ public partial class CloudGeographyClient
                         Code = "SZL"
                     }
                 },
-                Code = "SZ",
-                Area = 17364,
-                CallingCode=268,
-                Capital="Lobamba",
-                Demonym="Swazi",
-                Latitude = -26.5,
-                LocalName = "Swaziland",
-                Longitude = 31.5,
-                Name = "Swaziland",
-                ShortName = "Swaziland",
-                ThreeLettersCode = "SWZ"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "South Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "SE",
+                Name = "Sweden",
+                ShortName = "Sweden",
+                ThreeLettersCode = "SWE",
+                LocalName = "Sverige",
+                Capital = "Stockholm",
+                Demonym = "Swedish",
+                CallingCode = 46,
+                Area = 450295,
+                Latitude = 62,
+                Longitude = 15,
                 Languages = new()
                 {
                     new()
@@ -8676,10 +11194,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "SZL"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "SV"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -8688,23 +11210,34 @@ public partial class CloudGeographyClient
                         Code = "SEK"
                     }
                 },
-                Code = "SE",
-                Area = 450295,
-                CallingCode=46,
-                Capital="Stockholm",
-                Demonym="Swedish",
-                Latitude = 62,
-                LocalName = "Sverige",
-                Longitude = 15,
-                Name = "Sweden",
-                ShortName = "Sweden",
-                ThreeLettersCode = "SWE"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "CH",
+                Name = "Switzerland",
+                ShortName = "Switzerland",
+                ThreeLettersCode = "CHE",
+                LocalName = "Schweiz",
+                Capital = "Bern",
+                Demonym = "Swiss",
+                CallingCode = 41,
+                Area = 41284,
+                Latitude = 47,
+                Longitude = 8,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "SEK"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -8730,8 +11263,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "RM"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -8740,23 +11272,34 @@ public partial class CloudGeographyClient
                         Code = "CHF"
                     }
                 },
-                Code = "CH",
-                Area = 41284,
-                CallingCode=41,
-                Capital="Bern",
-                Demonym="Swiss",
-                Latitude = 47,
-                LocalName = "Schweiz",
-                Longitude = 8,
-                Name = "Switzerland",
-                ShortName = "Switzerland",
-                ThreeLettersCode = "CHE"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "SY",
+                Name = "Syria",
+                ShortName = "Syria",
+                ThreeLettersCode = "SYR",
+                LocalName = "سوريا",
+                Capital = "Damascus",
+                Demonym = "Syrian",
+                CallingCode = 963,
+                Area = 185180,
+                Latitude = 35,
+                Longitude = 38,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "CHF"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -8767,8 +11310,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -8777,21 +11319,27 @@ public partial class CloudGeographyClient
                         Code = "SYP"
                     }
                 },
-                Code = "SY",
-                Area = 185180,
-                CallingCode=963,
-                Capital="Damascus",
-                Demonym="Syrian",
-                Latitude = 35,
-                LocalName = "سوريا",
-                Longitude = 38,
-                Name = "Syria",
-                ShortName = "Syria",
-                ThreeLettersCode = "SYR"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Syria Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "TW",
+                Name = "Taiwan",
+                ShortName = "Taiwan",
+                ThreeLettersCode = "TWN",
+                LocalName = "臺灣",
+                Capital = "Taipei",
+                Demonym = "Taiwanese",
+                CallingCode = 886,
+                Area = 36193,
+                Latitude = 23.5,
+                Longitude = 121,
                 Languages = new()
                 {
                     new()
@@ -8802,10 +11350,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "SYP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ZH"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -8814,23 +11366,34 @@ public partial class CloudGeographyClient
                         Code = "TWD"
                     }
                 },
-                Code = "TW",
-                Area = 36193,
-                CallingCode=886,
-                Capital="Taipei",
-                Demonym="Taiwanese",
-                Latitude = 23.5,
-                LocalName = "臺灣",
-                Longitude = 121,
-                Name = "Taiwan",
-                ShortName = "Taiwan",
-                ThreeLettersCode = "TWN"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Taipei Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "TJ",
+                Name = "Tajikistan",
+                ShortName = "Tajikistan",
+                ThreeLettersCode = "TJK",
+                LocalName = "Тоҷикистон",
+                Capital = "Dushanbe",
+                Demonym = "Tadzhik",
+                CallingCode = 992,
+                Area = 143100,
+                Latitude = 39,
+                Longitude = 71,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "TWD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -8846,8 +11409,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "RU"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -8856,23 +11418,34 @@ public partial class CloudGeographyClient
                         Code = "TJS"
                     }
                 },
-                Code = "TJ",
-                Area = 143100,
-                CallingCode=992,
-                Capital="Dushanbe",
-                Demonym="Tadzhik",
-                Latitude = 39,
-                LocalName = "Тоҷикистон",
-                Longitude = 71,
-                Name = "Tajikistan",
-                ShortName = "Tajikistan",
-                ThreeLettersCode = "TJK"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "West Asia Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "TZ",
+                Name = "Tanzania",
+                ShortName = "Tanzania",
+                ThreeLettersCode = "TZA",
+                LocalName = "Tanzania",
+                Capital = "Dodoma",
+                Demonym = "Tanzanian",
+                CallingCode = 255,
+                Area = 947303,
+                Latitude = -6,
+                Longitude = 35,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "TJS"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -8888,8 +11461,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -8898,23 +11470,34 @@ public partial class CloudGeographyClient
                         Code = "TZS"
                     }
                 },
-                Code = "TZ",
-                Area = 947303,
-                CallingCode=255,
-                Capital="Dodoma",
-                Demonym="Tanzanian",
-                Latitude = -6,
-                LocalName = "Tanzania",
-                Longitude = 35,
-                Name = "Tanzania",
-                ShortName = "Tanzania",
-                ThreeLettersCode = "TZA"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "E. Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "TH",
+                Name = "Thailand",
+                ShortName = "Thailand",
+                ThreeLettersCode = "THA",
+                LocalName = "ประเทศไทย",
+                Capital = "Bangkok",
+                Demonym = "Thai",
+                CallingCode = 66,
+                Area = 513120,
+                Latitude = 15,
+                Longitude = 100,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "TZS"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -8925,8 +11508,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "TH"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -8935,23 +11517,34 @@ public partial class CloudGeographyClient
                         Code = "THB"
                     }
                 },
-                Code = "TH",
-                Area = 513120,
-                CallingCode=66,
-                Capital="Bangkok",
-                Demonym="Thai",
-                Latitude = 15,
-                LocalName = "ประเทศไทย",
-                Longitude = 100,
-                Name = "Thailand",
-                ShortName = "Thailand",
-                ThreeLettersCode = "THA"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SE Asia Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "TL",
+                Name = "Timor-Leste",
+                ShortName = "Timor-Leste",
+                ThreeLettersCode = "TLS",
+                LocalName = "Timor-Leste",
+                Capital = "Dili",
+                Demonym = "East Timorese",
+                CallingCode = 670,
+                Area = 14874,
+                Latitude = -8.833333015441895,
+                Longitude = 125.91666412353516,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "THB"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -8962,8 +11555,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "PT"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -8972,23 +11564,34 @@ public partial class CloudGeographyClient
                         Code = "USD"
                     }
                 },
-                Code = "TL",
-                Area = 14874,
-                CallingCode=670,
-                Capital="Dili",
-                Demonym="East Timorese",
-                Latitude = -8.833333015441895,
-                LocalName = "Timor-Leste",
-                Longitude = 125.91666412353516,
-                Name = "Timor-Leste",
-                ShortName = "Timor-Leste",
-                ThreeLettersCode = "TLS"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Tokyo Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "TG",
+                Name = "Togo",
+                ShortName = "Togo",
+                ThreeLettersCode = "TGO",
+                LocalName = "Togo",
+                Capital = "Lomé",
+                Demonym = "Togolese",
+                CallingCode = 228,
+                Area = 56785,
+                Latitude = 8,
+                Longitude = 1.1666666269302368,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "USD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -8999,8 +11602,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9009,21 +11611,27 @@ public partial class CloudGeographyClient
                         Code = "XOF"
                     }
                 },
-                Code = "TG",
-                Area = 56785,
-                CallingCode=228,
-                Capital="Lomé",
-                Demonym="Togolese",
-                Latitude = 8,
-                LocalName = "Togo",
-                Longitude = 1.1666666269302368,
-                Name = "Togo",
-                ShortName = "Togo",
-                ThreeLettersCode = "TGO"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "TK",
+                Name = "Tokelau",
+                ShortName = "Tokelau",
+                ThreeLettersCode = "TKL",
+                LocalName = "Tokelau",
+                Capital = "Fakaofo",
+                Demonym = "Tokelauan",
+                CallingCode = 690,
+                Area = 12,
+                Latitude = -9,
+                Longitude = -172,
                 Languages = new()
                 {
                     new()
@@ -9034,10 +11642,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XOF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9046,23 +11658,34 @@ public partial class CloudGeographyClient
                         Code = "NZD"
                     }
                 },
-                Code = "TK",
-                Area = 12,
-                CallingCode=690,
-                Capital="Fakaofo",
-                Demonym="Tokelauan",
-                Latitude = -9,
-                LocalName = "Tokelau",
-                Longitude = -172,
-                Name = "Tokelau",
-                ShortName = "Tokelau",
-                ThreeLettersCode = "TKL"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "UTC+13"
+                    }
+                }
             },
-
             new()
             {
+                Code = "TO",
+                Name = "Tonga",
+                ShortName = "Tonga",
+                ThreeLettersCode = "TON",
+                LocalName = "Tonga",
+                Capital = "Nuku'alofa",
+                Demonym = "Tongan",
+                CallingCode = 676,
+                Area = 747,
+                Latitude = -20,
+                Longitude = -175,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "NZD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -9078,8 +11701,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "TO"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9088,23 +11710,34 @@ public partial class CloudGeographyClient
                         Code = "TOP"
                     }
                 },
-                Code = "TO",
-                Area = 747,
-                CallingCode=676,
-                Capital="Nuku'alofa",
-                Demonym="Tongan",
-                Latitude = -20,
-                LocalName = "Tonga",
-                Longitude = -175,
-                Name = "Tonga",
-                ShortName = "Tonga",
-                ThreeLettersCode = "TON"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Tonga Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "TT",
+                Name = "Trinidad and Tobago",
+                ShortName = "Trinidad and Tobago",
+                ThreeLettersCode = "TTO",
+                LocalName = "Trinidad and Tobago",
+                Capital = "Port of Spain",
+                Demonym = "Trinidadian",
+                CallingCode = 1868,
+                Area = 5130,
+                Latitude = 11,
+                Longitude = -61,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "TOP"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -9115,8 +11748,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9125,23 +11757,34 @@ public partial class CloudGeographyClient
                         Code = "TTD"
                     }
                 },
-                Code = "TT",
-                Area = 5130,
-                CallingCode=1868,
-                Capital="Port of Spain",
-                Demonym="Trinidadian",
-                Latitude = 11,
-                LocalName = "Trinidad and Tobago",
-                Longitude = -61,
-                Name = "Trinidad and Tobago",
-                ShortName = "Trinidad and Tobago",
-                ThreeLettersCode = "TTO"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "TN",
+                Name = "Tunisia",
+                ShortName = "Tunisia",
+                ThreeLettersCode = "TUN",
+                LocalName = "تونس",
+                Capital = "Tunis",
+                Demonym = "Tunisian",
+                CallingCode = 216,
+                Area = 163610,
+                Latitude = 34,
+                Longitude = 9,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "TTD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -9152,8 +11795,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9162,21 +11804,27 @@ public partial class CloudGeographyClient
                         Code = "TND"
                     }
                 },
-                Code = "TN",
-                Area = 163610,
-                CallingCode=216,
-                Capital="Tunis",
-                Demonym="Tunisian",
-                Latitude = 34,
-                LocalName = "تونس",
-                Longitude = 9,
-                Name = "Tunisia",
-                ShortName = "Tunisia",
-                ThreeLettersCode = "TUN"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "TR",
+                Name = "Turkey",
+                ShortName = "Turkey",
+                ThreeLettersCode = "TUR",
+                LocalName = "Türkiye",
+                Capital = "Ankara",
+                Demonym = "Turkish",
+                CallingCode = 90,
+                Area = 783562,
+                Latitude = 39,
+                Longitude = 35,
                 Languages = new()
                 {
                     new()
@@ -9187,10 +11835,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "TND"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "TR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9199,23 +11851,34 @@ public partial class CloudGeographyClient
                         Code = "TRY"
                     }
                 },
-                Code = "TR",
-                Area = 783562,
-                CallingCode=90,
-                Capital="Ankara",
-                Demonym="Turkish",
-                Latitude = 39,
-                LocalName = "Türkiye",
-                Longitude = 35,
-                Name = "Turkey",
-                ShortName = "Turkey",
-                ThreeLettersCode = "TUR"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Turkey Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "TM",
+                Name = "Turkmenistan",
+                ShortName = "Turkmenistan",
+                ThreeLettersCode = "TKM",
+                LocalName = "Türkmenistan",
+                Capital = "Ashgabat",
+                Demonym = "Turkmen",
+                CallingCode = 993,
+                Area = 488100,
+                Latitude = 40,
+                Longitude = 60,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "TRY"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -9231,8 +11894,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "RU"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9241,58 +11903,74 @@ public partial class CloudGeographyClient
                         Code = "TMT"
                     }
                 },
-                Code = "TM",
-                Area = 488100,
-                CallingCode=993,
-                Capital="Ashgabat",
-                Demonym="Turkmen",
-                Latitude = 40,
-                LocalName = "Türkmenistan",
-                Longitude = 60,
-                Name = "Turkmenistan",
-                ShortName = "Turkmenistan",
-                ThreeLettersCode = "TKM"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "West Asia Standard Time"
+                    }
+                }
             },
-
             new()
             {
-                Languages = new()
-                {
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "TMT"
-                    },
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "EN"
-                    } 
-                },
-                
-                Currencies=new()
-                {
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "USD"
-                    }
-                },
                 Code = "TC",
-                Area = 948,
-                CallingCode=1649,
-                Capital="Cockburn Town",
-                Demonym="Turks and Caicos Islander",
-                Latitude = 21.75,
-                LocalName = "Turks and Caicos Islands",
-                Longitude = -71.58333587646484,
                 Name = "Turks and Caicos Islands",
                 ShortName = "Turks and Caicos Islands",
-                ThreeLettersCode = "TCA"
+                ThreeLettersCode = "TCA",
+                LocalName = "Turks and Caicos Islands",
+                Capital = "Cockburn Town",
+                Demonym = "Turks and Caicos Islander",
+                CallingCode = 1649,
+                Area = 948,
+                Latitude = 21.75,
+                Longitude = -71.58333587646484,
+                Languages = new()
+                {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "TMT"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "TMT"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EN"
+                    } 
+                },                
+                Currencies=new()
+                {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "USD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Turks And Caicos Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "TV",
+                Name = "Tuvalu",
+                ShortName = "Tuvalu",
+                ThreeLettersCode = "TUV",
+                LocalName = "Tuvalu",
+                Capital = "Funafuti",
+                Demonym = "Tuvaluan",
+                CallingCode = 688,
+                Area = 26,
+                Latitude = -8,
+                Longitude = 178,
                 Languages = new()
                 {
                     new()
@@ -9303,10 +11981,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "USD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9314,30 +11996,45 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AUD"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "TVD"
                     }
                 },
-                Code = "TV",
-                Area = 26,
-                CallingCode=688,
-                Capital="Funafuti",
-                Demonym="Tuvaluan",
-                Latitude = -8,
-                LocalName = "Tuvalu",
-                Longitude = 178,
-                Name = "Tuvalu",
-                ShortName = "Tuvalu",
-                ThreeLettersCode = "TUV"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "UTC+12"
+                    }
+                }
             },
-
             new()
             {
+                Code = "UG",
+                Name = "Uganda",
+                ShortName = "Uganda",
+                ThreeLettersCode = "UGA",
+                LocalName = "Uganda",
+                Capital = "Kampala",
+                Demonym = "Ugandan",
+                CallingCode = 256,
+                Area = 241550,
+                Latitude = 1,
+                Longitude = 32,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "AUD"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "TVD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -9358,8 +12055,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "SW"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9368,23 +12064,34 @@ public partial class CloudGeographyClient
                         Code = "UGX"
                     }
                 },
-                Code = "UG",
-                Area = 241550,
-                CallingCode=256,
-                Capital="Kampala",
-                Demonym="Ugandan",
-                Latitude = 1,
-                LocalName = "Uganda",
-                Longitude = 32,
-                Name = "Uganda",
-                ShortName = "Uganda",
-                ThreeLettersCode = "UGA"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "E. Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "UA",
+                Name = "Ukraine",
+                ShortName = "Ukraine",
+                ThreeLettersCode = "UKR",
+                LocalName = "Україна",
+                Capital = "Kiev",
+                Demonym = "Ukrainian",
+                CallingCode = 380,
+                Area = 603700,
+                Latitude = 49,
+                Longitude = 32,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "UGX"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -9395,8 +12102,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "UK"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9405,23 +12111,38 @@ public partial class CloudGeographyClient
                         Code = "UAH"
                     }
                 },
-                Code = "UA",
-                Area = 603700,
-                CallingCode=380,
-                Capital="Kiev",
-                Demonym="Ukrainian",
-                Latitude = 49,
-                LocalName = "Україна",
-                Longitude = 32,
-                Name = "Ukraine",
-                ShortName = "Ukraine",
-                ThreeLettersCode = "UKR"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Russian Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "FLE Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "AE",
+                Name = "United Arab Emirates",
+                ShortName = "Emirates",
+                ThreeLettersCode = "UAE",
+                LocalName = "الإمارات العربية المتحدة",
+                Capital = "Abu Dhabi",
+                Demonym = "Emirati",
+                CallingCode = 971,
+                Area = 83600,
+                Latitude = 24,
+                Longitude = 54,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "UAH"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -9432,8 +12153,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9442,58 +12162,74 @@ public partial class CloudGeographyClient
                         Code = "AED"
                     }
                 },
-                Code = "AE",
-                Area = 83600,
-                CallingCode=971,
-                Capital="Abu Dhabi",
-                Demonym="Emirati",
-                Latitude = 24,
-                LocalName = "الإمارات العربية المتحدة",
-                Longitude = 54,
-                Name = "United Arab Emirates",
-                ShortName = "Emirates",
-                ThreeLettersCode = "UAE"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Arabian Standard Time"
+                    }
+                }
             },
-
             new()
             {
-                Languages = new()
-                {
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "AED"
-                    },
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "EN"
-                    } 
-                },
-                
-                Currencies=new()
-                {
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "GBP"
-                    }
-                },
                 Code = "GB",
-                Area = 242495,
-                CallingCode=44,
-                Capital="London",
-                Demonym="British",
-                Latitude = 54,
-                LocalName = "United Kingdom",
-                Longitude = -2,
                 Name = "United Kingdom",
                 ShortName = "United Kingdom",
-                ThreeLettersCode = "GBR"
+                ThreeLettersCode = "GBR",
+                LocalName = "United Kingdom",
+                Capital = "London",
+                Demonym = "British",
+                CallingCode = 44,
+                Area = 242495,
+                Latitude = 54,
+                Longitude = -2,
+                Languages = new()
+                {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "AED"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "AED"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "EN"
+                    } 
+                },                
+                Currencies=new()
+                {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "GBP"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "GMT Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "US",
+                Name = "United States of America",
+                ShortName = "United States",
+                ThreeLettersCode = "USA",
+                LocalName = "United States",
+                Capital = "Washington, D.C.",
+                Demonym = "American",
+                CallingCode = 1,
+                Area = 9629091,
+                Latitude = 38,
+                Longitude = -97,
                 Languages = new()
                 {
                     new()
@@ -9504,10 +12240,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "GBP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9516,23 +12256,66 @@ public partial class CloudGeographyClient
                         Code = "USD"
                     }
                 },
-                Code = "US",
-                Area = 9629091,
-                CallingCode=1,
-                Capital="Washington, D.C.",
-                Demonym="American",
-                Latitude = 38,
-                LocalName = "United States",
-                Longitude = -97,
-                Name = "United States of America",
-                ShortName = "United States",
-                ThreeLettersCode = "USA"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Eastern Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "US Eastern Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Central Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Mountain Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "US Mountain Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Pacific Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Alaskan Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Aleutian Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Hawaiian Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "UY",
+                Name = "Uruguay",
+                ShortName = "Uruguay",
+                ThreeLettersCode = "URY",
+                LocalName = "Uruguay",
+                Capital = "Montevideo",
+                Demonym = "Uruguayan",
+                CallingCode = 598,
+                Area = 181034,
+                Latitude = -33,
+                Longitude = -56,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "USD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -9543,8 +12326,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9553,23 +12335,34 @@ public partial class CloudGeographyClient
                         Code = "UYU"
                     }
                 },
-                Code = "UY",
-                Area = 181034,
-                CallingCode=598,
-                Capital="Montevideo",
-                Demonym="Uruguayan",
-                Latitude = -33,
-                LocalName = "Uruguay",
-                Longitude = -56,
-                Name = "Uruguay",
-                ShortName = "Uruguay",
-                ThreeLettersCode = "URY"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Montevideo Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "UZ",
+                Name = "Uzbekistan",
+                ShortName = "Uzbekistan",
+                ThreeLettersCode = "UZB",
+                LocalName = "O‘zbekiston",
+                Capital = "Tashkent",
+                Demonym = "Uzbekistani",
+                CallingCode = 998,
+                Area = 447400,
+                Latitude = 41,
+                Longitude = 64,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "UYU"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -9585,8 +12378,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "RU"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9595,23 +12387,34 @@ public partial class CloudGeographyClient
                         Code = "UZS"
                     }
                 },
-                Code = "UZ",
-                Area = 447400,
-                CallingCode=998,
-                Capital="Tashkent",
-                Demonym="Uzbekistani",
-                Latitude = 41,
-                LocalName = "O‘zbekiston",
-                Longitude = 64,
-                Name = "Uzbekistan",
-                ShortName = "Uzbekistan",
-                ThreeLettersCode = "UZB"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "West Asia Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "VU",
+                Name = "Vanuatu",
+                ShortName = "Vanuatu",
+                ThreeLettersCode = "VUT",
+                LocalName = "Vanuatu",
+                Capital = "Port Vila",
+                Demonym = "Ni-Vanuatu",
+                CallingCode = 678,
+                Area = 12189,
+                Latitude = -16,
+                Longitude = 167,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "UZS"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -9627,8 +12430,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9637,21 +12439,27 @@ public partial class CloudGeographyClient
                         Code = "VUV"
                     }
                 },
-                Code = "VU",
-                Area = 12189,
-                CallingCode=678,
-                Capital="Port Vila",
-                Demonym="Ni-Vanuatu",
-                Latitude = -16,
-                LocalName = "Vanuatu",
-                Longitude = 167,
-                Name = "Vanuatu",
-                ShortName = "Vanuatu",
-                ThreeLettersCode = "VUT"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Pacific Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "VE",
+                Name = "Venezuela",
+                ShortName = "Venezuela",
+                ThreeLettersCode = "VEN",
+                LocalName = "Venezuela",
+                Capital = "Caracas",
+                Demonym = "Venezuelan",
+                CallingCode = 58,
+                Area = 916445,
+                Latitude = 8,
+                Longitude = -66,
                 Languages = new()
                 {
                     new()
@@ -9662,10 +12470,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "VUV"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9674,23 +12486,34 @@ public partial class CloudGeographyClient
                         Code = "VEF"
                     }
                 },
-                Code = "VE",
-                Area = 916445,
-                CallingCode=58,
-                Capital="Caracas",
-                Demonym="Venezuelan",
-                Latitude = 8,
-                LocalName = "Venezuela",
-                Longitude = -66,
-                Name = "Venezuela",
-                ShortName = "Venezuela",
-                ThreeLettersCode = "VEN"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Venezuela Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "VN",
+                Name = "Viet Nam",
+                ShortName = "Viet Nam",
+                ThreeLettersCode = "VNM",
+                LocalName = "Việt Nam",
+                Capital = "Hanoi",
+                Demonym = "Vietnamese",
+                CallingCode = 84,
+                Area = 331212,
+                Latitude = 16.16666603088379,
+                Longitude = 107.83333587646484,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "VEF"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -9701,8 +12524,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "VI"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9711,23 +12533,34 @@ public partial class CloudGeographyClient
                         Code = "VND"
                     }
                 },
-                Code = "VN",
-                Area = 331212,
-                CallingCode=84,
-                Capital="Hanoi",
-                Demonym="Vietnamese",
-                Latitude = 16.16666603088379,
-                LocalName = "Việt Nam",
-                Longitude = 107.83333587646484,
-                Name = "Viet Nam",
-                ShortName = "Viet Nam",
-                ThreeLettersCode = "VNM"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SE Asia Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "VI",
+                Name = "Virgin Islands of the United States",
+                ShortName = "Virgin Islands",
+                ThreeLettersCode = "VIR",
+                LocalName = "Virgin Islands",
+                Capital = "Charlotte Amalie",
+                Demonym = "Virgin Islander",
+                CallingCode = 1340,
+                Area = 346.359985351563,
+                Latitude = 18.3400001525879,
+                Longitude = -64.9300003051758,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "VND"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -9738,8 +12571,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9748,23 +12580,34 @@ public partial class CloudGeographyClient
                         Code = "USD"
                     }
                 },
-                Code = "VI",
-                Area = 346.359985351563,
-                CallingCode=1340,
-                Capital="Charlotte Amalie",
-                Demonym="Virgin Islander",
-                Latitude = 18.3400001525879,
-                LocalName = "Virgin Islands",
-                Longitude = -64.9300003051758,
-                Name = "Virgin Islands of the United States",
-                ShortName = "Virgin Islands",
-                ThreeLettersCode = "VIR"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "WF",
+                Name = "Wallis and Futuna",
+                ShortName = "Wallis and Futuna",
+                ThreeLettersCode = "WLF",
+                LocalName = "Wallis et Futuna",
+                Capital = "Mata-Utu",
+                Demonym = "Wallis and Futuna Islander",
+                CallingCode = 681,
+                Area = 142,
+                Latitude = -13.300000190734863,
+                Longitude = -176.1999969482422,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "USD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -9775,8 +12618,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9785,23 +12627,34 @@ public partial class CloudGeographyClient
                         Code = "XPF"
                     }
                 },
-                Code = "WF",
-                Area = 142,
-                CallingCode=681,
-                Capital="Mata-Utu",
-                Demonym="Wallis and Futuna Islander",
-                Latitude = -13.300000190734863,
-                LocalName = "Wallis et Futuna",
-                Longitude = -176.1999969482422,
-                Name = "Wallis and Futuna",
-                ShortName = "Wallis and Futuna",
-                ThreeLettersCode = "WLF"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "UTC+12"
+                    }
+                }
             },
-
             new()
             {
+                Code = "EH",
+                Name = "Western Sahara",
+                ShortName = "Western Sahara",
+                ThreeLettersCode = "ESH",
+                LocalName = "الصحراء الغربية",
+                Capital = "El Aaiún",
+                Demonym = "Sahrawi",
+                CallingCode = 212,
+                Area = 266000,
+                Latitude = 24.5,
+                Longitude = -13,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "XPF"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -9812,8 +12665,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9821,30 +12673,45 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "MAD"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "DZD"
                     }
                 },
-                Code = "EH",
-                Area = 266000,
-                CallingCode=212,
-                Capital="El Aaiún",
-                Demonym="Sahrawi",
-                Latitude = 24.5,
-                LocalName = "الصحراء الغربية",
-                Longitude = -13,
-                Name = "Western Sahara",
-                ShortName = "Western Sahara",
-                ThreeLettersCode = "ESH"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Morocco Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "YE",
+                Name = "Yemen",
+                ShortName = "Yemen",
+                ThreeLettersCode = "YEM",
+                LocalName = "اليَمَن",
+                Capital = "Sana'a",
+                Demonym = "Yemeni",
+                CallingCode = 967,
+                Area = 527968,
+                Latitude = 15,
+                Longitude = 48,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "MAD"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "DZD"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -9860,8 +12727,7 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9870,21 +12736,27 @@ public partial class CloudGeographyClient
                         Code = "YER"
                     }
                 },
-                Code = "YE",
-                Area = 527968,
-                CallingCode=967,
-                Capital="Sana'a",
-                Demonym="Yemeni",
-                Latitude = 15,
-                LocalName = "اليَمَن",
-                Longitude = 48,
-                Name = "Yemen",
-                ShortName = "Yemen",
-                ThreeLettersCode = "YEM"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Arab Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "ZM",
+                Name = "Zambia",
+                ShortName = "Zambia",
+                ThreeLettersCode = "ZMB",
+                LocalName = "Zambia",
+                Capital = "Lusaka",
+                Demonym = "Zambian",
+                CallingCode = 260,
+                Area = 752612,
+                Latitude = -15,
+                Longitude = 30,
                 Languages = new()
                 {
                     new()
@@ -9895,10 +12767,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "YER"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9907,23 +12783,34 @@ public partial class CloudGeographyClient
                         Code = "ZMW"
                     }
                 },
-                Code = "ZM",
-                Area = 752612,
-                CallingCode=260,
-                Capital="Lusaka",
-                Demonym="Zambian",
-                Latitude = -15,
-                LocalName = "Zambia",
-                Longitude = 30,
-                Name = "Zambia",
-                ShortName = "Zambia",
-                ThreeLettersCode = "ZMB"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "South Africa Standard Time"
+                    }
+                }
             },
-
             new()
             {
+                Code = "ZW",
+                Name = "Zimbabwe",
+                ShortName = "Zimbabwe",
+                ThreeLettersCode = "ZWE",
+                LocalName = "Zimbabwe",
+                Capital = "Harare",
+                Demonym = "Zimbabwean",
+                CallingCode = 263,
+                Area = 390757,
+                Latitude = -20,
+                Longitude = 30,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "ZMW"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -9944,8 +12831,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "ND"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9953,66 +12839,54 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "BWP"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "GBP"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "CNY"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "EUR"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "INR"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "JPY"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "ZAR"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "USD"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "FOK"
                     }
                 },
-                Code = "ZW",
-                Area = 390757,
-                CallingCode=263,
-                Capital="Harare",
-                Demonym="Zimbabwean",
-                Latitude = -20,
-                LocalName = "Zimbabwe",
-                Longitude = 30,
-                Name = "Zimbabwe",
-                ShortName = "Zimbabwe",
-                ThreeLettersCode = "ZWE"
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "South Africa Standard Time"
+                    }
+                }
             }
         };
     };

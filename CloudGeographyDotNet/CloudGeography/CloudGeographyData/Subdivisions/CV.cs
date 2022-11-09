@@ -7,28 +7,160 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("CV", new List<Subdivision>()
         {
-            new(){ Code ="BV", LocalName="Boa Vista", Name="Boa Vista", Type="Municipality" },
-            new(){ Code ="BR", LocalName="Brava", Name="Brava", Type="Municipality" },
-            new(){ Code ="MA", LocalName="Maio", Name="Maio", Type="Municipality" },
-            new(){ Code ="MO", LocalName="Mosteiros", Name="Mosteiros", Type="Municipality" },
-            new(){ Code ="PA", LocalName="Paul", Name="Paul", Type="Municipality" },
-            new(){ Code ="PN", LocalName="Porto Novo", Name="Porto Novo", Type="Municipality" },
-            new(){ Code ="PR", LocalName="Praia", Name="Praia", Type="Municipality" },
-            new(){ Code ="RB", LocalName="Ribeira Brava", Name="Ribeira Brava", Type="Municipality" },
-            new(){ Code ="RG", LocalName="Ribeira Grande", Name="Ribeira Grande", Type="Municipality" },
-            new(){ Code ="RS", LocalName="Ribeira Grande de Santiago", Name="Ribeira Grande de Santiago", Type="Municipality" },
-            new(){ Code ="SL", LocalName="Sal", Name="Sal", Type="Municipality" },
-            new(){ Code ="CA", LocalName="Santa Catarina", Name="Santa Catarina", Type="Municipality" },
-            new(){ Code ="CF", LocalName="Santa Catarina do Fogo", Name="Santa Catarina do Fogo", Type="Municipality" },
-            new(){ Code ="CR", LocalName="Santa Cruz", Name="Santa Cruz", Type="Municipality" },
-            new(){ Code ="SD", LocalName="São Domingos", Name="São Domingos", Type="Municipality" },
-            new(){ Code ="SF", LocalName="São Filipe", Name="São Filipe", Type="Municipality" },
-            new(){ Code ="SO", LocalName="São Lourenço dos Órgãos", Name="São Lourenço dos Órgãos", Type="Municipality" },
-            new(){ Code ="SM", LocalName="São Miguel", Name="São Miguel", Type="Municipality" },
-            new(){ Code ="SS", LocalName="São Salvador do Mundo", Name="São Salvador do Mundo", Type="Municipality" },
-            new(){ Code ="SV", LocalName="São Vicente", Name="São Vicente", Type="Municipality" },
-            new(){ Code ="TA", LocalName="Tarrafal", Name="Tarrafal", Type="Municipality" },
-            new(){ Code ="TS", LocalName="Tarrafal de São Nicolau", Name="Tarrafal de São Nicolau", Type="Municipality" }
+            new()
+            { 
+                Code = "BV",
+                Type = "Municipality",
+                Name = "Boa Vista",
+                LocalName = "Boa Vista"
+            },
+            new()
+            { 
+                Code = "BR",
+                Type = "Municipality",
+                Name = "Brava",
+                LocalName = "Brava"
+            },
+            new()
+            { 
+                Code = "MA",
+                Type = "Municipality",
+                Name = "Maio",
+                LocalName = "Maio"
+            },
+            new()
+            { 
+                Code = "MO",
+                Type = "Municipality",
+                Name = "Mosteiros",
+                LocalName = "Mosteiros"
+            },
+            new()
+            { 
+                Code = "PA",
+                Type = "Municipality",
+                Name = "Paul",
+                LocalName = "Paul"
+            },
+            new()
+            { 
+                Code = "PN",
+                Type = "Municipality",
+                Name = "Porto Novo",
+                LocalName = "Porto Novo"
+            },
+            new()
+            { 
+                Code = "PR",
+                Type = "Municipality",
+                Name = "Praia",
+                LocalName = "Praia"
+            },
+            new()
+            { 
+                Code = "RB",
+                Type = "Municipality",
+                Name = "Ribeira Brava",
+                LocalName = "Ribeira Brava"
+            },
+            new()
+            { 
+                Code = "RG",
+                Type = "Municipality",
+                Name = "Ribeira Grande",
+                LocalName = "Ribeira Grande"
+            },
+            new()
+            { 
+                Code = "RS",
+                Type = "Municipality",
+                Name = "Ribeira Grande de Santiago",
+                LocalName = "Ribeira Grande de Santiago"
+            },
+            new()
+            { 
+                Code = "SL",
+                Type = "Municipality",
+                Name = "Sal",
+                LocalName = "Sal"
+            },
+            new()
+            { 
+                Code = "CA",
+                Type = "Municipality",
+                Name = "Santa Catarina",
+                LocalName = "Santa Catarina"
+            },
+            new()
+            { 
+                Code = "CF",
+                Type = "Municipality",
+                Name = "Santa Catarina do Fogo",
+                LocalName = "Santa Catarina do Fogo"
+            },
+            new()
+            { 
+                Code = "CR",
+                Type = "Municipality",
+                Name = "Santa Cruz",
+                LocalName = "Santa Cruz"
+            },
+            new()
+            { 
+                Code = "SD",
+                Type = "Municipality",
+                Name = "São Domingos",
+                LocalName = "São Domingos"
+            },
+            new()
+            { 
+                Code = "SF",
+                Type = "Municipality",
+                Name = "São Filipe",
+                LocalName = "São Filipe"
+            },
+            new()
+            { 
+                Code = "SO",
+                Type = "Municipality",
+                Name = "São Lourenço dos Órgãos",
+                LocalName = "São Lourenço dos Órgãos"
+            },
+            new()
+            { 
+                Code = "SM",
+                Type = "Municipality",
+                Name = "São Miguel",
+                LocalName = "São Miguel"
+            },
+            new()
+            { 
+                Code = "SS",
+                Type = "Municipality",
+                Name = "São Salvador do Mundo",
+                LocalName = "São Salvador do Mundo"
+            },
+            new()
+            { 
+                Code = "SV",
+                Type = "Municipality",
+                Name = "São Vicente",
+                LocalName = "São Vicente"
+            },
+            new()
+            { 
+                Code = "TA",
+                Type = "Municipality",
+                Name = "Tarrafal",
+                LocalName = "Tarrafal"
+            },
+            new()
+            { 
+                Code = "TS",
+                Type = "Municipality",
+                Name = "Tarrafal de São Nicolau",
+                LocalName = "Tarrafal de São Nicolau"
+            }
 
         });
     }

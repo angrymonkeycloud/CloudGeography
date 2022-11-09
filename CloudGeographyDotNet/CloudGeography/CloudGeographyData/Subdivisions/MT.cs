@@ -7,74 +7,482 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("MT", new List<Subdivision>()
         {
-            new(){ Code ="1", LocalName="Attard", Name="Attard", Type="LocalCouncil" },
-            new(){ Code ="2", LocalName="Balzan", Name="Balzan", Type="LocalCouncil" },
-            new(){ Code ="3", LocalName="Birgu", Name="Birgu", Type="LocalCouncil" },
-            new(){ Code ="4", LocalName="Birkirkara", Name="Birkirkara", Type="LocalCouncil" },
-            new(){ Code ="5", LocalName="Birzebbuga", Name="Birzebbuga", Type="LocalCouncil" },
-            new(){ Code ="6", LocalName="Bormla", Name="Bormla", Type="LocalCouncil" },
-            new(){ Code ="7", LocalName="Dingli", Name="Dingli", Type="LocalCouncil" },
-            new(){ Code ="8", LocalName="Fgura", Name="Fgura", Type="LocalCouncil" },
-            new(){ Code ="9", LocalName="Floriana", Name="Floriana", Type="LocalCouncil" },
-            new(){ Code ="10", LocalName="Fontana", Name="Fontana", Type="LocalCouncil" },
-            new(){ Code ="13", LocalName="Ghajnsielem", Name="Ghajnsielem", Type="LocalCouncil" },
-            new(){ Code ="14", LocalName="Gharb", Name="Gharb", Type="LocalCouncil" },
-            new(){ Code ="15", LocalName="Gharghur", Name="Gharghur", Type="LocalCouncil" },
-            new(){ Code ="16", LocalName="Ghasri", Name="Ghasri", Type="LocalCouncil" },
-            new(){ Code ="17", LocalName="Ghaxaq", Name="Ghaxaq", Type="LocalCouncil" },
-            new(){ Code ="11", LocalName="Gudja", Name="Gudja", Type="LocalCouncil" },
-            new(){ Code ="12", LocalName="Gzira", Name="Gzira", Type="LocalCouncil" },
-            new(){ Code ="18", LocalName="Hamrun", Name="Hamrun", Type="LocalCouncil" },
-            new(){ Code ="19", LocalName="Iklin", Name="Iklin", Type="LocalCouncil" },
-            new(){ Code ="20", LocalName="Isla", Name="Isla", Type="LocalCouncil" },
-            new(){ Code ="21", LocalName="Kalkara", Name="Kalkara", Type="LocalCouncil" },
-            new(){ Code ="22", LocalName="Kercem", Name="Kercem", Type="LocalCouncil" },
-            new(){ Code ="23", LocalName="Kirkop", Name="Kirkop", Type="LocalCouncil" },
-            new(){ Code ="24", LocalName="Lija", Name="Lija", Type="LocalCouncil" },
-            new(){ Code ="25", LocalName="Luqa", Name="Luqa", Type="LocalCouncil" },
-            new(){ Code ="26", LocalName="Marsa", Name="Marsa", Type="LocalCouncil" },
-            new(){ Code ="27", LocalName="Marsaskala", Name="Marsaskala", Type="LocalCouncil" },
-            new(){ Code ="28", LocalName="Marsaxlokk", Name="Marsaxlokk", Type="LocalCouncil" },
-            new(){ Code ="29", LocalName="Mdina", Name="Mdina", Type="LocalCouncil" },
-            new(){ Code ="30", LocalName="Mellieha", Name="Mellieha", Type="LocalCouncil" },
-            new(){ Code ="31", LocalName="Mgarr", Name="Mgarr", Type="LocalCouncil" },
-            new(){ Code ="32", LocalName="Mosta", Name="Mosta", Type="LocalCouncil" },
-            new(){ Code ="33", LocalName="Mqabba", Name="Mqabba", Type="LocalCouncil" },
-            new(){ Code ="34", LocalName="Msida", Name="Msida", Type="LocalCouncil" },
-            new(){ Code ="35", LocalName="Mtarfa", Name="Mtarfa", Type="LocalCouncil" },
-            new(){ Code ="36", LocalName="Munxar", Name="Munxar", Type="LocalCouncil" },
-            new(){ Code ="37", LocalName="Nadur", Name="Nadur", Type="LocalCouncil" },
-            new(){ Code ="38", LocalName="Naxxar", Name="Naxxar", Type="LocalCouncil" },
-            new(){ Code ="39", LocalName="Paola", Name="Paola", Type="LocalCouncil" },
-            new(){ Code ="40", LocalName="Pembroke", Name="Pembroke", Type="LocalCouncil" },
-            new(){ Code ="41", LocalName="Pietà", Name="Pietà", Type="LocalCouncil" },
-            new(){ Code ="42", LocalName="Qala", Name="Qala", Type="LocalCouncil" },
-            new(){ Code ="43", LocalName="Qormi", Name="Qormi", Type="LocalCouncil" },
-            new(){ Code ="44", LocalName="Qrendi", Name="Qrendi", Type="LocalCouncil" },
-            new(){ Code ="45", LocalName="Rabat Gozo", Name="Rabat Gozo", Type="LocalCouncil" },
-            new(){ Code ="46", LocalName="Rabat Malta", Name="Rabat Malta", Type="LocalCouncil" },
-            new(){ Code ="47", LocalName="Safi", Name="Safi", Type="LocalCouncil" },
-            new(){ Code ="49", LocalName="Saint John", Name="Saint John", Type="LocalCouncil" },
-            new(){ Code ="48", LocalName="Saint Julian's", Name="Saint Julian's", Type="LocalCouncil" },
-            new(){ Code ="50", LocalName="Saint Lawrence", Name="Saint Lawrence", Type="LocalCouncil" },
-            new(){ Code ="53", LocalName="Saint Lucia's", Name="Saint Lucia's", Type="LocalCouncil" },
-            new(){ Code ="51", LocalName="Saint Paul's Bay", Name="Saint Paul's Bay", Type="LocalCouncil" },
-            new(){ Code ="52", LocalName="Sannat", Name="Sannat", Type="LocalCouncil" },
-            new(){ Code ="54", LocalName="Santa Venera", Name="Santa Venera", Type="LocalCouncil" },
-            new(){ Code ="55", LocalName="Siggiewi", Name="Siggiewi", Type="LocalCouncil" },
-            new(){ Code ="56", LocalName="Sliema", Name="Sliema", Type="LocalCouncil" },
-            new(){ Code ="57", LocalName="Swieqi", Name="Swieqi", Type="LocalCouncil" },
-            new(){ Code ="58", LocalName="Ta' Xbiex", Name="Ta' Xbiex", Type="LocalCouncil" },
-            new(){ Code ="59", LocalName="Tarxien", Name="Tarxien", Type="LocalCouncil" },
-            new(){ Code ="60", LocalName="Valletta", Name="Valletta", Type="LocalCouncil" },
-            new(){ Code ="61", LocalName="Xaghra", Name="Xaghra", Type="LocalCouncil" },
-            new(){ Code ="62", LocalName="Xewkija", Name="Xewkija", Type="LocalCouncil" },
-            new(){ Code ="63", LocalName="Xghajra", Name="Xghajra", Type="LocalCouncil" },
-            new(){ Code ="64", LocalName="Zabbar", Name="Zabbar", Type="LocalCouncil" },
-            new(){ Code ="65", LocalName="Zebbug Gozo", Name="Zebbug Gozo", Type="LocalCouncil" },
-            new(){ Code ="66", LocalName="Zebbug Malta", Name="Zebbug Malta", Type="LocalCouncil" },
-            new(){ Code ="67", LocalName="Zejtun", Name="Zejtun", Type="LocalCouncil" },
-            new(){ Code ="68", LocalName="Zurrieq", Name="Zurrieq", Type="LocalCouncil" }
+            new()
+            { 
+                Code = "1",
+                Type = "LocalCouncil",
+                Name = "Attard",
+                LocalName = "Attard"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "LocalCouncil",
+                Name = "Balzan",
+                LocalName = "Balzan"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "LocalCouncil",
+                Name = "Birgu",
+                LocalName = "Birgu"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "LocalCouncil",
+                Name = "Birkirkara",
+                LocalName = "Birkirkara"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "LocalCouncil",
+                Name = "Birzebbuga",
+                LocalName = "Birzebbuga"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "LocalCouncil",
+                Name = "Bormla",
+                LocalName = "Bormla"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "LocalCouncil",
+                Name = "Dingli",
+                LocalName = "Dingli"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "LocalCouncil",
+                Name = "Fgura",
+                LocalName = "Fgura"
+            },
+            new()
+            { 
+                Code = "9",
+                Type = "LocalCouncil",
+                Name = "Floriana",
+                LocalName = "Floriana"
+            },
+            new()
+            { 
+                Code = "10",
+                Type = "LocalCouncil",
+                Name = "Fontana",
+                LocalName = "Fontana"
+            },
+            new()
+            { 
+                Code = "13",
+                Type = "LocalCouncil",
+                Name = "Ghajnsielem",
+                LocalName = "Ghajnsielem"
+            },
+            new()
+            { 
+                Code = "14",
+                Type = "LocalCouncil",
+                Name = "Gharb",
+                LocalName = "Gharb"
+            },
+            new()
+            { 
+                Code = "15",
+                Type = "LocalCouncil",
+                Name = "Gharghur",
+                LocalName = "Gharghur"
+            },
+            new()
+            { 
+                Code = "16",
+                Type = "LocalCouncil",
+                Name = "Ghasri",
+                LocalName = "Ghasri"
+            },
+            new()
+            { 
+                Code = "17",
+                Type = "LocalCouncil",
+                Name = "Ghaxaq",
+                LocalName = "Ghaxaq"
+            },
+            new()
+            { 
+                Code = "11",
+                Type = "LocalCouncil",
+                Name = "Gudja",
+                LocalName = "Gudja"
+            },
+            new()
+            { 
+                Code = "12",
+                Type = "LocalCouncil",
+                Name = "Gzira",
+                LocalName = "Gzira"
+            },
+            new()
+            { 
+                Code = "18",
+                Type = "LocalCouncil",
+                Name = "Hamrun",
+                LocalName = "Hamrun"
+            },
+            new()
+            { 
+                Code = "19",
+                Type = "LocalCouncil",
+                Name = "Iklin",
+                LocalName = "Iklin"
+            },
+            new()
+            { 
+                Code = "20",
+                Type = "LocalCouncil",
+                Name = "Isla",
+                LocalName = "Isla"
+            },
+            new()
+            { 
+                Code = "21",
+                Type = "LocalCouncil",
+                Name = "Kalkara",
+                LocalName = "Kalkara"
+            },
+            new()
+            { 
+                Code = "22",
+                Type = "LocalCouncil",
+                Name = "Kercem",
+                LocalName = "Kercem"
+            },
+            new()
+            { 
+                Code = "23",
+                Type = "LocalCouncil",
+                Name = "Kirkop",
+                LocalName = "Kirkop"
+            },
+            new()
+            { 
+                Code = "24",
+                Type = "LocalCouncil",
+                Name = "Lija",
+                LocalName = "Lija"
+            },
+            new()
+            { 
+                Code = "25",
+                Type = "LocalCouncil",
+                Name = "Luqa",
+                LocalName = "Luqa"
+            },
+            new()
+            { 
+                Code = "26",
+                Type = "LocalCouncil",
+                Name = "Marsa",
+                LocalName = "Marsa"
+            },
+            new()
+            { 
+                Code = "27",
+                Type = "LocalCouncil",
+                Name = "Marsaskala",
+                LocalName = "Marsaskala"
+            },
+            new()
+            { 
+                Code = "28",
+                Type = "LocalCouncil",
+                Name = "Marsaxlokk",
+                LocalName = "Marsaxlokk"
+            },
+            new()
+            { 
+                Code = "29",
+                Type = "LocalCouncil",
+                Name = "Mdina",
+                LocalName = "Mdina"
+            },
+            new()
+            { 
+                Code = "30",
+                Type = "LocalCouncil",
+                Name = "Mellieha",
+                LocalName = "Mellieha"
+            },
+            new()
+            { 
+                Code = "31",
+                Type = "LocalCouncil",
+                Name = "Mgarr",
+                LocalName = "Mgarr"
+            },
+            new()
+            { 
+                Code = "32",
+                Type = "LocalCouncil",
+                Name = "Mosta",
+                LocalName = "Mosta"
+            },
+            new()
+            { 
+                Code = "33",
+                Type = "LocalCouncil",
+                Name = "Mqabba",
+                LocalName = "Mqabba"
+            },
+            new()
+            { 
+                Code = "34",
+                Type = "LocalCouncil",
+                Name = "Msida",
+                LocalName = "Msida"
+            },
+            new()
+            { 
+                Code = "35",
+                Type = "LocalCouncil",
+                Name = "Mtarfa",
+                LocalName = "Mtarfa"
+            },
+            new()
+            { 
+                Code = "36",
+                Type = "LocalCouncil",
+                Name = "Munxar",
+                LocalName = "Munxar"
+            },
+            new()
+            { 
+                Code = "37",
+                Type = "LocalCouncil",
+                Name = "Nadur",
+                LocalName = "Nadur"
+            },
+            new()
+            { 
+                Code = "38",
+                Type = "LocalCouncil",
+                Name = "Naxxar",
+                LocalName = "Naxxar"
+            },
+            new()
+            { 
+                Code = "39",
+                Type = "LocalCouncil",
+                Name = "Paola",
+                LocalName = "Paola"
+            },
+            new()
+            { 
+                Code = "40",
+                Type = "LocalCouncil",
+                Name = "Pembroke",
+                LocalName = "Pembroke"
+            },
+            new()
+            { 
+                Code = "41",
+                Type = "LocalCouncil",
+                Name = "Pietà",
+                LocalName = "Pietà"
+            },
+            new()
+            { 
+                Code = "42",
+                Type = "LocalCouncil",
+                Name = "Qala",
+                LocalName = "Qala"
+            },
+            new()
+            { 
+                Code = "43",
+                Type = "LocalCouncil",
+                Name = "Qormi",
+                LocalName = "Qormi"
+            },
+            new()
+            { 
+                Code = "44",
+                Type = "LocalCouncil",
+                Name = "Qrendi",
+                LocalName = "Qrendi"
+            },
+            new()
+            { 
+                Code = "45",
+                Type = "LocalCouncil",
+                Name = "Rabat Gozo",
+                LocalName = "Rabat Gozo"
+            },
+            new()
+            { 
+                Code = "46",
+                Type = "LocalCouncil",
+                Name = "Rabat Malta",
+                LocalName = "Rabat Malta"
+            },
+            new()
+            { 
+                Code = "47",
+                Type = "LocalCouncil",
+                Name = "Safi",
+                LocalName = "Safi"
+            },
+            new()
+            { 
+                Code = "49",
+                Type = "LocalCouncil",
+                Name = "Saint John",
+                LocalName = "Saint John"
+            },
+            new()
+            { 
+                Code = "48",
+                Type = "LocalCouncil",
+                Name = "Saint Julian's",
+                LocalName = "Saint Julian's"
+            },
+            new()
+            { 
+                Code = "50",
+                Type = "LocalCouncil",
+                Name = "Saint Lawrence",
+                LocalName = "Saint Lawrence"
+            },
+            new()
+            { 
+                Code = "53",
+                Type = "LocalCouncil",
+                Name = "Saint Lucia's",
+                LocalName = "Saint Lucia's"
+            },
+            new()
+            { 
+                Code = "51",
+                Type = "LocalCouncil",
+                Name = "Saint Paul's Bay",
+                LocalName = "Saint Paul's Bay"
+            },
+            new()
+            { 
+                Code = "52",
+                Type = "LocalCouncil",
+                Name = "Sannat",
+                LocalName = "Sannat"
+            },
+            new()
+            { 
+                Code = "54",
+                Type = "LocalCouncil",
+                Name = "Santa Venera",
+                LocalName = "Santa Venera"
+            },
+            new()
+            { 
+                Code = "55",
+                Type = "LocalCouncil",
+                Name = "Siggiewi",
+                LocalName = "Siggiewi"
+            },
+            new()
+            { 
+                Code = "56",
+                Type = "LocalCouncil",
+                Name = "Sliema",
+                LocalName = "Sliema"
+            },
+            new()
+            { 
+                Code = "57",
+                Type = "LocalCouncil",
+                Name = "Swieqi",
+                LocalName = "Swieqi"
+            },
+            new()
+            { 
+                Code = "58",
+                Type = "LocalCouncil",
+                Name = "Ta' Xbiex",
+                LocalName = "Ta' Xbiex"
+            },
+            new()
+            { 
+                Code = "59",
+                Type = "LocalCouncil",
+                Name = "Tarxien",
+                LocalName = "Tarxien"
+            },
+            new()
+            { 
+                Code = "60",
+                Type = "LocalCouncil",
+                Name = "Valletta",
+                LocalName = "Valletta"
+            },
+            new()
+            { 
+                Code = "61",
+                Type = "LocalCouncil",
+                Name = "Xaghra",
+                LocalName = "Xaghra"
+            },
+            new()
+            { 
+                Code = "62",
+                Type = "LocalCouncil",
+                Name = "Xewkija",
+                LocalName = "Xewkija"
+            },
+            new()
+            { 
+                Code = "63",
+                Type = "LocalCouncil",
+                Name = "Xghajra",
+                LocalName = "Xghajra"
+            },
+            new()
+            { 
+                Code = "64",
+                Type = "LocalCouncil",
+                Name = "Zabbar",
+                LocalName = "Zabbar"
+            },
+            new()
+            { 
+                Code = "65",
+                Type = "LocalCouncil",
+                Name = "Zebbug Gozo",
+                LocalName = "Zebbug Gozo"
+            },
+            new()
+            { 
+                Code = "66",
+                Type = "LocalCouncil",
+                Name = "Zebbug Malta",
+                LocalName = "Zebbug Malta"
+            },
+            new()
+            { 
+                Code = "67",
+                Type = "LocalCouncil",
+                Name = "Zejtun",
+                LocalName = "Zejtun"
+            },
+            new()
+            { 
+                Code = "68",
+                Type = "LocalCouncil",
+                Name = "Zurrieq",
+                LocalName = "Zurrieq"
+            }
 
         });
     }

@@ -7,53 +7,335 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("JP", new List<Subdivision>()
         {
-            new(){ Code ="23", LocalName="Aiti", Name="Aiti", Type="Prefecture" },
-            new(){ Code ="5", LocalName="Akita", Name="Akita", Type="Prefecture" },
-            new(){ Code ="2", LocalName="Aomori", Name="Aomori", Type="Prefecture" },
-            new(){ Code ="38", LocalName="Ehime", Name="Ehime", Type="Prefecture" },
-            new(){ Code ="21", LocalName="Gihu", Name="Gihu", Type="Prefecture" },
-            new(){ Code ="10", LocalName="Gunma", Name="Gunma", Type="Prefecture" },
-            new(){ Code ="34", LocalName="Hirosima", Name="Hirosima", Type="Prefecture" },
-            new(){ Code ="1", LocalName="Hokkaidô", Name="Hokkaidô", Type="Prefecture" },
-            new(){ Code ="18", LocalName="Hukui", Name="Hukui", Type="Prefecture" },
-            new(){ Code ="40", LocalName="Hukuoka", Name="Hukuoka", Type="Prefecture" },
-            new(){ Code ="7", LocalName="Hukusima", Name="Hukusima", Type="Prefecture" },
-            new(){ Code ="26", LocalName="Hyôgo", Name="Hyôgo", Type="Prefecture" },
-            new(){ Code ="28", LocalName="Hyôgo", Name="Hyôgo", Type="Prefecture" },
-            new(){ Code ="8", LocalName="Ibaraki", Name="Ibaraki", Type="Prefecture" },
-            new(){ Code ="17", LocalName="Isikawa", Name="Isikawa", Type="Prefecture" },
-            new(){ Code ="3", LocalName="Iwate", Name="Iwate", Type="Prefecture" },
-            new(){ Code ="37", LocalName="Kagawa", Name="Kagawa", Type="Prefecture" },
-            new(){ Code ="46", LocalName="Kagosima", Name="Kagosima", Type="Prefecture" },
-            new(){ Code ="14", LocalName="Kanagawa", Name="Kanagawa", Type="Prefecture" },
-            new(){ Code ="39", LocalName="Kôti", Name="Kôti", Type="Prefecture" },
-            new(){ Code ="43", LocalName="Kumamoto", Name="Kumamoto", Type="Prefecture" },
-            new(){ Code ="24", LocalName="Mie", Name="Mie", Type="Prefecture" },
-            new(){ Code ="4", LocalName="Miyagi", Name="Miyagi", Type="Prefecture" },
-            new(){ Code ="45", LocalName="Miyazaki", Name="Miyazaki", Type="Prefecture" },
-            new(){ Code ="20", LocalName="Nagano", Name="Nagano", Type="Prefecture" },
-            new(){ Code ="42", LocalName="Nagasaki", Name="Nagasaki", Type="Prefecture" },
-            new(){ Code ="29", LocalName="Nara", Name="Nara", Type="Prefecture" },
-            new(){ Code ="15", LocalName="Niigata", Name="Niigata", Type="Prefecture" },
-            new(){ Code ="44", LocalName="Ôita", Name="Ôita", Type="Prefecture" },
-            new(){ Code ="33", LocalName="Okayama", Name="Okayama", Type="Prefecture" },
-            new(){ Code ="47", LocalName="Okinawa", Name="Okinawa", Type="Prefecture" },
-            new(){ Code ="27", LocalName="Ôsaka", Name="Ôsaka", Type="Prefecture" },
-            new(){ Code ="41", LocalName="Saga", Name="Saga", Type="Prefecture" },
-            new(){ Code ="11", LocalName="Saitama", Name="Saitama", Type="Prefecture" },
-            new(){ Code ="25", LocalName="Siga", Name="Siga", Type="Prefecture" },
-            new(){ Code ="32", LocalName="Simane", Name="Simane", Type="Prefecture" },
-            new(){ Code ="22", LocalName="Sizuoka", Name="Sizuoka", Type="Prefecture" },
-            new(){ Code ="12", LocalName="Tiba", Name="Tiba", Type="Prefecture" },
-            new(){ Code ="36", LocalName="Tokusima", Name="Tokusima", Type="Prefecture" },
-            new(){ Code ="13", LocalName="Tôkyô", Name="Tôkyô", Type="Prefecture" },
-            new(){ Code ="9", LocalName="Totigi", Name="Totigi", Type="Prefecture" },
-            new(){ Code ="31", LocalName="Tottori", Name="Tottori", Type="Prefecture" },
-            new(){ Code ="16", LocalName="Toyama", Name="Toyama", Type="Prefecture" },
-            new(){ Code ="30", LocalName="Wakayama", Name="Wakayama", Type="Prefecture" },
-            new(){ Code ="6", LocalName="Yamagata", Name="Yamagata", Type="Prefecture" },
-            new(){ Code ="35", LocalName="Yamaguti", Name="Yamaguti", Type="Prefecture" },
-            new(){ Code ="19", LocalName="Yamanasi", Name="Yamanasi", Type="Prefecture" }
+            new()
+            { 
+                Code = "23",
+                Type = "Prefecture",
+                Name = "Aiti",
+                LocalName = "Aiti"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "Prefecture",
+                Name = "Akita",
+                LocalName = "Akita"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "Prefecture",
+                Name = "Aomori",
+                LocalName = "Aomori"
+            },
+            new()
+            { 
+                Code = "38",
+                Type = "Prefecture",
+                Name = "Ehime",
+                LocalName = "Ehime"
+            },
+            new()
+            { 
+                Code = "21",
+                Type = "Prefecture",
+                Name = "Gihu",
+                LocalName = "Gihu"
+            },
+            new()
+            { 
+                Code = "10",
+                Type = "Prefecture",
+                Name = "Gunma",
+                LocalName = "Gunma"
+            },
+            new()
+            { 
+                Code = "34",
+                Type = "Prefecture",
+                Name = "Hirosima",
+                LocalName = "Hirosima"
+            },
+            new()
+            { 
+                Code = "1",
+                Type = "Prefecture",
+                Name = "Hokkaidô",
+                LocalName = "Hokkaidô"
+            },
+            new()
+            { 
+                Code = "18",
+                Type = "Prefecture",
+                Name = "Hukui",
+                LocalName = "Hukui"
+            },
+            new()
+            { 
+                Code = "40",
+                Type = "Prefecture",
+                Name = "Hukuoka",
+                LocalName = "Hukuoka"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "Prefecture",
+                Name = "Hukusima",
+                LocalName = "Hukusima"
+            },
+            new()
+            { 
+                Code = "26",
+                Type = "Prefecture",
+                Name = "Hyôgo",
+                LocalName = "Hyôgo"
+            },
+            new()
+            { 
+                Code = "28",
+                Type = "Prefecture",
+                Name = "Hyôgo",
+                LocalName = "Hyôgo"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "Prefecture",
+                Name = "Ibaraki",
+                LocalName = "Ibaraki"
+            },
+            new()
+            { 
+                Code = "17",
+                Type = "Prefecture",
+                Name = "Isikawa",
+                LocalName = "Isikawa"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "Prefecture",
+                Name = "Iwate",
+                LocalName = "Iwate"
+            },
+            new()
+            { 
+                Code = "37",
+                Type = "Prefecture",
+                Name = "Kagawa",
+                LocalName = "Kagawa"
+            },
+            new()
+            { 
+                Code = "46",
+                Type = "Prefecture",
+                Name = "Kagosima",
+                LocalName = "Kagosima"
+            },
+            new()
+            { 
+                Code = "14",
+                Type = "Prefecture",
+                Name = "Kanagawa",
+                LocalName = "Kanagawa"
+            },
+            new()
+            { 
+                Code = "39",
+                Type = "Prefecture",
+                Name = "Kôti",
+                LocalName = "Kôti"
+            },
+            new()
+            { 
+                Code = "43",
+                Type = "Prefecture",
+                Name = "Kumamoto",
+                LocalName = "Kumamoto"
+            },
+            new()
+            { 
+                Code = "24",
+                Type = "Prefecture",
+                Name = "Mie",
+                LocalName = "Mie"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "Prefecture",
+                Name = "Miyagi",
+                LocalName = "Miyagi"
+            },
+            new()
+            { 
+                Code = "45",
+                Type = "Prefecture",
+                Name = "Miyazaki",
+                LocalName = "Miyazaki"
+            },
+            new()
+            { 
+                Code = "20",
+                Type = "Prefecture",
+                Name = "Nagano",
+                LocalName = "Nagano"
+            },
+            new()
+            { 
+                Code = "42",
+                Type = "Prefecture",
+                Name = "Nagasaki",
+                LocalName = "Nagasaki"
+            },
+            new()
+            { 
+                Code = "29",
+                Type = "Prefecture",
+                Name = "Nara",
+                LocalName = "Nara"
+            },
+            new()
+            { 
+                Code = "15",
+                Type = "Prefecture",
+                Name = "Niigata",
+                LocalName = "Niigata"
+            },
+            new()
+            { 
+                Code = "44",
+                Type = "Prefecture",
+                Name = "Ôita",
+                LocalName = "Ôita"
+            },
+            new()
+            { 
+                Code = "33",
+                Type = "Prefecture",
+                Name = "Okayama",
+                LocalName = "Okayama"
+            },
+            new()
+            { 
+                Code = "47",
+                Type = "Prefecture",
+                Name = "Okinawa",
+                LocalName = "Okinawa"
+            },
+            new()
+            { 
+                Code = "27",
+                Type = "Prefecture",
+                Name = "Ôsaka",
+                LocalName = "Ôsaka"
+            },
+            new()
+            { 
+                Code = "41",
+                Type = "Prefecture",
+                Name = "Saga",
+                LocalName = "Saga"
+            },
+            new()
+            { 
+                Code = "11",
+                Type = "Prefecture",
+                Name = "Saitama",
+                LocalName = "Saitama"
+            },
+            new()
+            { 
+                Code = "25",
+                Type = "Prefecture",
+                Name = "Siga",
+                LocalName = "Siga"
+            },
+            new()
+            { 
+                Code = "32",
+                Type = "Prefecture",
+                Name = "Simane",
+                LocalName = "Simane"
+            },
+            new()
+            { 
+                Code = "22",
+                Type = "Prefecture",
+                Name = "Sizuoka",
+                LocalName = "Sizuoka"
+            },
+            new()
+            { 
+                Code = "12",
+                Type = "Prefecture",
+                Name = "Tiba",
+                LocalName = "Tiba"
+            },
+            new()
+            { 
+                Code = "36",
+                Type = "Prefecture",
+                Name = "Tokusima",
+                LocalName = "Tokusima"
+            },
+            new()
+            { 
+                Code = "13",
+                Type = "Prefecture",
+                Name = "Tôkyô",
+                LocalName = "Tôkyô"
+            },
+            new()
+            { 
+                Code = "9",
+                Type = "Prefecture",
+                Name = "Totigi",
+                LocalName = "Totigi"
+            },
+            new()
+            { 
+                Code = "31",
+                Type = "Prefecture",
+                Name = "Tottori",
+                LocalName = "Tottori"
+            },
+            new()
+            { 
+                Code = "16",
+                Type = "Prefecture",
+                Name = "Toyama",
+                LocalName = "Toyama"
+            },
+            new()
+            { 
+                Code = "30",
+                Type = "Prefecture",
+                Name = "Wakayama",
+                LocalName = "Wakayama"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "Prefecture",
+                Name = "Yamagata",
+                LocalName = "Yamagata"
+            },
+            new()
+            { 
+                Code = "35",
+                Type = "Prefecture",
+                Name = "Yamaguti",
+                LocalName = "Yamaguti"
+            },
+            new()
+            { 
+                Code = "19",
+                Type = "Prefecture",
+                Name = "Yamanasi",
+                LocalName = "Yamanasi"
+            }
 
         });
     }

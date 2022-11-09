@@ -7,19 +7,97 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("SA", new List<Subdivision>()
         {
-            new(){ Code ="11", LocalName="AI Bahah", Name="AI Bahah", Type="Province" },
-            new(){ Code ="8", LocalName="AI Hudud ash Shamaliyah", Name="AI Hudud ash Shamaliyah", Type="Province" },
-            new(){ Code ="12", LocalName="AI Jawf", Name="AI Jawf", Type="Province" },
-            new(){ Code ="5", LocalName="AI Qasim", Name="AI Qasim", Type="Province" },
-            new(){ Code ="3", LocalName="Al Madinah al Munawwarah", Name="Al Madinah al Munawwarah", Type="Province" },
-            new(){ Code ="1", LocalName="Ar Riyad", Name="Ar Riyad", Type="Province" },
-            new(){ Code ="4", LocalName="Ash Sharqiyah", Name="Ash Sharqiyah", Type="Province" },
-            new(){ Code ="14", LocalName="'Asir", Name="'Asir", Type="Province" },
-            new(){ Code ="6", LocalName="Ha'il", Name="Ha'il", Type="Province" },
-            new(){ Code ="9", LocalName="Jazan", Name="Jazan", Type="Province" },
-            new(){ Code ="2", LocalName="Makkah al Mukarramah", Name="Makkah al Mukarramah", Type="Province" },
-            new(){ Code ="10", LocalName="Najran", Name="Najran", Type="Province" },
-            new(){ Code ="7", LocalName="Tabuk", Name="Tabuk", Type="Province" }
+            new()
+            { 
+                Code = "11",
+                Type = "Province",
+                Name = "AI Bahah",
+                LocalName = "AI Bahah"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "Province",
+                Name = "AI Hudud ash Shamaliyah",
+                LocalName = "AI Hudud ash Shamaliyah"
+            },
+            new()
+            { 
+                Code = "12",
+                Type = "Province",
+                Name = "AI Jawf",
+                LocalName = "AI Jawf"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "Province",
+                Name = "AI Qasim",
+                LocalName = "AI Qasim"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "Province",
+                Name = "Al Madinah al Munawwarah",
+                LocalName = "Al Madinah al Munawwarah"
+            },
+            new()
+            { 
+                Code = "1",
+                Type = "Province",
+                Name = "Ar Riyad",
+                LocalName = "Ar Riyad"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "Province",
+                Name = "Ash Sharqiyah",
+                LocalName = "Ash Sharqiyah"
+            },
+            new()
+            { 
+                Code = "14",
+                Type = "Province",
+                Name = "'Asir",
+                LocalName = "'Asir"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "Province",
+                Name = "Ha'il",
+                LocalName = "Ha'il"
+            },
+            new()
+            { 
+                Code = "9",
+                Type = "Province",
+                Name = "Jazan",
+                LocalName = "Jazan"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "Province",
+                Name = "Makkah al Mukarramah",
+                LocalName = "Makkah al Mukarramah"
+            },
+            new()
+            { 
+                Code = "10",
+                Type = "Province",
+                Name = "Najran",
+                LocalName = "Najran"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "Province",
+                Name = "Tabuk",
+                LocalName = "Tabuk"
+            }
 
         });
     }

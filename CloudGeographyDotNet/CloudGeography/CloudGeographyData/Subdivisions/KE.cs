@@ -7,53 +7,335 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("KE", new List<Subdivision>()
         {
-            new(){ Code ="1", LocalName="Baringo", Name="Baringo", Type="County" },
-            new(){ Code ="2", LocalName="Bomet", Name="Bomet", Type="County" },
-            new(){ Code ="3", LocalName="Bungoma", Name="Bungoma", Type="County" },
-            new(){ Code ="4", LocalName="Busia", Name="Busia", Type="County" },
-            new(){ Code ="5", LocalName="Elgeyo/Marakwet", Name="Elgeyo/Marakwet", Type="County" },
-            new(){ Code ="6", LocalName="Embu", Name="Embu", Type="County" },
-            new(){ Code ="7", LocalName="Garissa", Name="Garissa", Type="County" },
-            new(){ Code ="8", LocalName="Homa Bay", Name="Homa Bay", Type="County" },
-            new(){ Code ="9", LocalName="Isiolo", Name="Isiolo", Type="County" },
-            new(){ Code ="10", LocalName="Kajiado", Name="Kajiado", Type="County" },
-            new(){ Code ="11", LocalName="Kakamega", Name="Kakamega", Type="County" },
-            new(){ Code ="12", LocalName="Kericho", Name="Kericho", Type="County" },
-            new(){ Code ="13", LocalName="Kiambu", Name="Kiambu", Type="County" },
-            new(){ Code ="14", LocalName="Kilifi", Name="Kilifi", Type="County" },
-            new(){ Code ="15", LocalName="Kirinyaga", Name="Kirinyaga", Type="County" },
-            new(){ Code ="16", LocalName="Kisii", Name="Kisii", Type="County" },
-            new(){ Code ="17", LocalName="Kisumu", Name="Kisumu", Type="County" },
-            new(){ Code ="18", LocalName="Kitui", Name="Kitui", Type="County" },
-            new(){ Code ="19", LocalName="Kwale", Name="Kwale", Type="County" },
-            new(){ Code ="20", LocalName="Laikipia", Name="Laikipia", Type="County" },
-            new(){ Code ="21", LocalName="Lamu", Name="Lamu", Type="County" },
-            new(){ Code ="22", LocalName="Machakos", Name="Machakos", Type="County" },
-            new(){ Code ="23", LocalName="Makueni", Name="Makueni", Type="County" },
-            new(){ Code ="24", LocalName="Mandera", Name="Mandera", Type="County" },
-            new(){ Code ="25", LocalName="Marsabit", Name="Marsabit", Type="County" },
-            new(){ Code ="26", LocalName="Meru", Name="Meru", Type="County" },
-            new(){ Code ="27", LocalName="Migori", Name="Migori", Type="County" },
-            new(){ Code ="28", LocalName="Mombasa", Name="Mombasa", Type="County" },
-            new(){ Code ="29", LocalName="Murang'a", Name="Murang'a", Type="County" },
-            new(){ Code ="30", LocalName="Nairobi City", Name="Nairobi City", Type="County" },
-            new(){ Code ="31", LocalName="Nakuru", Name="Nakuru", Type="County" },
-            new(){ Code ="32", LocalName="Nandi", Name="Nandi", Type="County" },
-            new(){ Code ="33", LocalName="Narok", Name="Narok", Type="County" },
-            new(){ Code ="34", LocalName="Nyamira", Name="Nyamira", Type="County" },
-            new(){ Code ="35", LocalName="Nyandarua", Name="Nyandarua", Type="County" },
-            new(){ Code ="36", LocalName="Nyeri", Name="Nyeri", Type="County" },
-            new(){ Code ="37", LocalName="Samburu", Name="Samburu", Type="County" },
-            new(){ Code ="38", LocalName="Siaya", Name="Siaya", Type="County" },
-            new(){ Code ="39", LocalName="Taita/Taveta", Name="Taita/Taveta", Type="County" },
-            new(){ Code ="40", LocalName="Tana River", Name="Tana River", Type="County" },
-            new(){ Code ="41", LocalName="Tharaka-Nithi", Name="Tharaka-Nithi", Type="County" },
-            new(){ Code ="42", LocalName="Trans Nzoia", Name="Trans Nzoia", Type="County" },
-            new(){ Code ="43", LocalName="Turkana", Name="Turkana", Type="County" },
-            new(){ Code ="44", LocalName="Uasin Gishu", Name="Uasin Gishu", Type="County" },
-            new(){ Code ="45", LocalName="Vihiga", Name="Vihiga", Type="County" },
-            new(){ Code ="46", LocalName="Wajir", Name="Wajir", Type="County" },
-            new(){ Code ="47", LocalName="West Pokot", Name="West Pokot", Type="County" }
+            new()
+            { 
+                Code = "1",
+                Type = "County",
+                Name = "Baringo",
+                LocalName = "Baringo"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "County",
+                Name = "Bomet",
+                LocalName = "Bomet"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "County",
+                Name = "Bungoma",
+                LocalName = "Bungoma"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "County",
+                Name = "Busia",
+                LocalName = "Busia"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "County",
+                Name = "Elgeyo/Marakwet",
+                LocalName = "Elgeyo/Marakwet"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "County",
+                Name = "Embu",
+                LocalName = "Embu"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "County",
+                Name = "Garissa",
+                LocalName = "Garissa"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "County",
+                Name = "Homa Bay",
+                LocalName = "Homa Bay"
+            },
+            new()
+            { 
+                Code = "9",
+                Type = "County",
+                Name = "Isiolo",
+                LocalName = "Isiolo"
+            },
+            new()
+            { 
+                Code = "10",
+                Type = "County",
+                Name = "Kajiado",
+                LocalName = "Kajiado"
+            },
+            new()
+            { 
+                Code = "11",
+                Type = "County",
+                Name = "Kakamega",
+                LocalName = "Kakamega"
+            },
+            new()
+            { 
+                Code = "12",
+                Type = "County",
+                Name = "Kericho",
+                LocalName = "Kericho"
+            },
+            new()
+            { 
+                Code = "13",
+                Type = "County",
+                Name = "Kiambu",
+                LocalName = "Kiambu"
+            },
+            new()
+            { 
+                Code = "14",
+                Type = "County",
+                Name = "Kilifi",
+                LocalName = "Kilifi"
+            },
+            new()
+            { 
+                Code = "15",
+                Type = "County",
+                Name = "Kirinyaga",
+                LocalName = "Kirinyaga"
+            },
+            new()
+            { 
+                Code = "16",
+                Type = "County",
+                Name = "Kisii",
+                LocalName = "Kisii"
+            },
+            new()
+            { 
+                Code = "17",
+                Type = "County",
+                Name = "Kisumu",
+                LocalName = "Kisumu"
+            },
+            new()
+            { 
+                Code = "18",
+                Type = "County",
+                Name = "Kitui",
+                LocalName = "Kitui"
+            },
+            new()
+            { 
+                Code = "19",
+                Type = "County",
+                Name = "Kwale",
+                LocalName = "Kwale"
+            },
+            new()
+            { 
+                Code = "20",
+                Type = "County",
+                Name = "Laikipia",
+                LocalName = "Laikipia"
+            },
+            new()
+            { 
+                Code = "21",
+                Type = "County",
+                Name = "Lamu",
+                LocalName = "Lamu"
+            },
+            new()
+            { 
+                Code = "22",
+                Type = "County",
+                Name = "Machakos",
+                LocalName = "Machakos"
+            },
+            new()
+            { 
+                Code = "23",
+                Type = "County",
+                Name = "Makueni",
+                LocalName = "Makueni"
+            },
+            new()
+            { 
+                Code = "24",
+                Type = "County",
+                Name = "Mandera",
+                LocalName = "Mandera"
+            },
+            new()
+            { 
+                Code = "25",
+                Type = "County",
+                Name = "Marsabit",
+                LocalName = "Marsabit"
+            },
+            new()
+            { 
+                Code = "26",
+                Type = "County",
+                Name = "Meru",
+                LocalName = "Meru"
+            },
+            new()
+            { 
+                Code = "27",
+                Type = "County",
+                Name = "Migori",
+                LocalName = "Migori"
+            },
+            new()
+            { 
+                Code = "28",
+                Type = "County",
+                Name = "Mombasa",
+                LocalName = "Mombasa"
+            },
+            new()
+            { 
+                Code = "29",
+                Type = "County",
+                Name = "Murang'a",
+                LocalName = "Murang'a"
+            },
+            new()
+            { 
+                Code = "30",
+                Type = "County",
+                Name = "Nairobi City",
+                LocalName = "Nairobi City"
+            },
+            new()
+            { 
+                Code = "31",
+                Type = "County",
+                Name = "Nakuru",
+                LocalName = "Nakuru"
+            },
+            new()
+            { 
+                Code = "32",
+                Type = "County",
+                Name = "Nandi",
+                LocalName = "Nandi"
+            },
+            new()
+            { 
+                Code = "33",
+                Type = "County",
+                Name = "Narok",
+                LocalName = "Narok"
+            },
+            new()
+            { 
+                Code = "34",
+                Type = "County",
+                Name = "Nyamira",
+                LocalName = "Nyamira"
+            },
+            new()
+            { 
+                Code = "35",
+                Type = "County",
+                Name = "Nyandarua",
+                LocalName = "Nyandarua"
+            },
+            new()
+            { 
+                Code = "36",
+                Type = "County",
+                Name = "Nyeri",
+                LocalName = "Nyeri"
+            },
+            new()
+            { 
+                Code = "37",
+                Type = "County",
+                Name = "Samburu",
+                LocalName = "Samburu"
+            },
+            new()
+            { 
+                Code = "38",
+                Type = "County",
+                Name = "Siaya",
+                LocalName = "Siaya"
+            },
+            new()
+            { 
+                Code = "39",
+                Type = "County",
+                Name = "Taita/Taveta",
+                LocalName = "Taita/Taveta"
+            },
+            new()
+            { 
+                Code = "40",
+                Type = "County",
+                Name = "Tana River",
+                LocalName = "Tana River"
+            },
+            new()
+            { 
+                Code = "41",
+                Type = "County",
+                Name = "Tharaka-Nithi",
+                LocalName = "Tharaka-Nithi"
+            },
+            new()
+            { 
+                Code = "42",
+                Type = "County",
+                Name = "Trans Nzoia",
+                LocalName = "Trans Nzoia"
+            },
+            new()
+            { 
+                Code = "43",
+                Type = "County",
+                Name = "Turkana",
+                LocalName = "Turkana"
+            },
+            new()
+            { 
+                Code = "44",
+                Type = "County",
+                Name = "Uasin Gishu",
+                LocalName = "Uasin Gishu"
+            },
+            new()
+            { 
+                Code = "45",
+                Type = "County",
+                Name = "Vihiga",
+                LocalName = "Vihiga"
+            },
+            new()
+            { 
+                Code = "46",
+                Type = "County",
+                Name = "Wajir",
+                LocalName = "Wajir"
+            },
+            new()
+            { 
+                Code = "47",
+                Type = "County",
+                Name = "West Pokot",
+                LocalName = "West Pokot"
+            }
 
         });
     }

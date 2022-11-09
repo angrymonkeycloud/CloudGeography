@@ -7,18 +7,90 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("AL", new List<Subdivision>()
         {
-            new(){ Code ="1", LocalName="Berat", Name="Berat", Type="County" },
-            new(){ Code ="9", LocalName="Dibër", Name="Dibër", Type="County" },
-            new(){ Code ="2", LocalName="Durrës", Name="Durrës", Type="County" },
-            new(){ Code ="3", LocalName="Elbasan", Name="Elbasan", Type="County" },
-            new(){ Code ="4", LocalName="Fier", Name="Fier", Type="County" },
-            new(){ Code ="5", LocalName="Gjirokastër", Name="Gjirokastër", Type="County" },
-            new(){ Code ="6", LocalName="Korçë", Name="Korçë", Type="County" },
-            new(){ Code ="7", LocalName="Kukës", Name="Kukës", Type="County" },
-            new(){ Code ="8", LocalName="Lezhë", Name="Lezhë", Type="County" },
-            new(){ Code ="10", LocalName="Shkodër", Name="Shkodër", Type="County" },
-            new(){ Code ="11", LocalName="Tiranë", Name="Tiranë", Type="County" },
-            new(){ Code ="12", LocalName="Vlorë", Name="Vlorë", Type="County" }
+            new()
+            { 
+                Code = "1",
+                Type = "County",
+                Name = "Berat",
+                LocalName = "Berat"
+            },
+            new()
+            { 
+                Code = "9",
+                Type = "County",
+                Name = "Dibër",
+                LocalName = "Dibër"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "County",
+                Name = "Durrës",
+                LocalName = "Durrës"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "County",
+                Name = "Elbasan",
+                LocalName = "Elbasan"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "County",
+                Name = "Fier",
+                LocalName = "Fier"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "County",
+                Name = "Gjirokastër",
+                LocalName = "Gjirokastër"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "County",
+                Name = "Korçë",
+                LocalName = "Korçë"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "County",
+                Name = "Kukës",
+                LocalName = "Kukës"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "County",
+                Name = "Lezhë",
+                LocalName = "Lezhë"
+            },
+            new()
+            { 
+                Code = "10",
+                Type = "County",
+                Name = "Shkodër",
+                LocalName = "Shkodër"
+            },
+            new()
+            { 
+                Code = "11",
+                Type = "County",
+                Name = "Tiranë",
+                LocalName = "Tiranë"
+            },
+            new()
+            { 
+                Code = "12",
+                Type = "County",
+                Name = "Vlorë",
+                LocalName = "Vlorë"
+            }
 
         });
     }

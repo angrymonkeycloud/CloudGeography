@@ -7,14 +7,62 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("PK", new List<Subdivision>()
         {
-            new(){ Code ="JK", LocalName="Azad Kashmir", Name="Azad Kashmir", Type="Area" },
-            new(){ Code ="BA", LocalName="Balochistan", Name="Balochistan", Type="Province" },
-            new(){ Code ="TA", LocalName="Federally Administered Tribal Areas", Name="Federally Administered Tribal Areas", Type="Territory" },
-            new(){ Code ="GB", LocalName="Gilgit-Baltistan", Name="Gilgit-Baltistan", Type="Area" },
-            new(){ Code ="IS", LocalName="Islamabad", Name="Islamabad", Type="Territory" },
-            new(){ Code ="KP", LocalName="Khyber Pakhtunkhwa", Name="Khyber Pakhtunkhwa", Type="Province" },
-            new(){ Code ="PB", LocalName="Punjab", Name="Punjab", Type="Province" },
-            new(){ Code ="SD", LocalName="Sindh", Name="Sindh", Type="Province" }
+            new()
+            { 
+                Code = "JK",
+                Type = "Area",
+                Name = "Azad Kashmir",
+                LocalName = "Azad Kashmir"
+            },
+            new()
+            { 
+                Code = "BA",
+                Type = "Province",
+                Name = "Balochistan",
+                LocalName = "Balochistan"
+            },
+            new()
+            { 
+                Code = "TA",
+                Type = "Territory",
+                Name = "Federally Administered Tribal Areas",
+                LocalName = "Federally Administered Tribal Areas"
+            },
+            new()
+            { 
+                Code = "GB",
+                Type = "Area",
+                Name = "Gilgit-Baltistan",
+                LocalName = "Gilgit-Baltistan"
+            },
+            new()
+            { 
+                Code = "IS",
+                Type = "Territory",
+                Name = "Islamabad",
+                LocalName = "Islamabad"
+            },
+            new()
+            { 
+                Code = "KP",
+                Type = "Province",
+                Name = "Khyber Pakhtunkhwa",
+                LocalName = "Khyber Pakhtunkhwa"
+            },
+            new()
+            { 
+                Code = "PB",
+                Type = "Province",
+                Name = "Punjab",
+                LocalName = "Punjab"
+            },
+            new()
+            { 
+                Code = "SD",
+                Type = "Province",
+                Name = "Sindh",
+                LocalName = "Sindh"
+            }
 
         });
     }

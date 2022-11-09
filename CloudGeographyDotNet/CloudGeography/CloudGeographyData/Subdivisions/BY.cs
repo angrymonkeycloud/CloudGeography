@@ -7,13 +7,55 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("BY", new List<Subdivision>()
         {
-            new(){ Code ="BR", LocalName="Бре́стская о́бласть", Name="Brest Oblast", Type="Oblast" },
-            new(){ Code ="HO", LocalName="Гомельская область", Name="Gomel Oblast", Type="Oblast" },
-            new(){ Code ="HR", LocalName="Гродненская область", Name="Grodno Oblast", Type="Oblast" },
-            new(){ Code ="HM", LocalName="Минск", Name="Minsk", Type="City" },
-            new(){ Code ="MI", LocalName="Минская о́бласть", Name="Minsk Oblast", Type="Oblast" },
-            new(){ Code ="MA", LocalName="Могилёвская о́бласть", Name="Mogilev Oblast", Type="Oblast" },
-            new(){ Code ="VI", LocalName="Ви́тебская о́бласть", Name="Vitebsk Oblast", Type="Oblast" }
+            new()
+            { 
+                Code = "BR",
+                Type = "Oblast",
+                Name = "Brest Oblast",
+                LocalName = "Бре́стская о́бласть"
+            },
+            new()
+            { 
+                Code = "HO",
+                Type = "Oblast",
+                Name = "Gomel Oblast",
+                LocalName = "Гомельская область"
+            },
+            new()
+            { 
+                Code = "HR",
+                Type = "Oblast",
+                Name = "Grodno Oblast",
+                LocalName = "Гродненская область"
+            },
+            new()
+            { 
+                Code = "HM",
+                Type = "City",
+                Name = "Minsk",
+                LocalName = "Минск"
+            },
+            new()
+            { 
+                Code = "MI",
+                Type = "Oblast",
+                Name = "Minsk Oblast",
+                LocalName = "Минская о́бласть"
+            },
+            new()
+            { 
+                Code = "MA",
+                Type = "Oblast",
+                Name = "Mogilev Oblast",
+                LocalName = "Могилёвская о́бласть"
+            },
+            new()
+            { 
+                Code = "VI",
+                Type = "Oblast",
+                Name = "Vitebsk Oblast",
+                LocalName = "Ви́тебская о́бласть"
+            }
 
         });
     }

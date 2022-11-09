@@ -7,24 +7,132 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("HN", new List<Subdivision>()
         {
-            new(){ Code ="AT", LocalName="Atlántida", Name="Atlántida", Type="Department" },
-            new(){ Code ="CH", LocalName="Choluteca", Name="Choluteca", Type="Department" },
-            new(){ Code ="CL", LocalName="Colón", Name="Colón", Type="Department" },
-            new(){ Code ="CM", LocalName="Comayagua", Name="Comayagua", Type="Department" },
-            new(){ Code ="CP", LocalName="Copán", Name="Copán", Type="Department" },
-            new(){ Code ="CR", LocalName="Cortés", Name="Cortés", Type="Department" },
-            new(){ Code ="EP", LocalName="El Paraíso", Name="El Paraíso", Type="Department" },
-            new(){ Code ="FM", LocalName="Francisco Morazán", Name="Francisco Morazán", Type="Department" },
-            new(){ Code ="GD", LocalName="Gracias a Dios", Name="Gracias a Dios", Type="Department" },
-            new(){ Code ="IN", LocalName="Intibucá", Name="Intibucá", Type="Department" },
-            new(){ Code ="IB", LocalName="Islas de la Bahía", Name="Islas de la Bahía", Type="Department" },
-            new(){ Code ="LP", LocalName="La Paz", Name="La Paz", Type="Department" },
-            new(){ Code ="LE", LocalName="Lempira", Name="Lempira", Type="Department" },
-            new(){ Code ="OC", LocalName="Ocotepeque", Name="Ocotepeque", Type="Department" },
-            new(){ Code ="OL", LocalName="Olancho", Name="Olancho", Type="Department" },
-            new(){ Code ="SB", LocalName="Santa Bárbara", Name="Santa Bárbara", Type="Department" },
-            new(){ Code ="VA", LocalName="Valle", Name="Valle", Type="Department" },
-            new(){ Code ="YO", LocalName="Yoro", Name="Yoro", Type="Department" }
+            new()
+            { 
+                Code = "AT",
+                Type = "Department",
+                Name = "Atlántida",
+                LocalName = "Atlántida"
+            },
+            new()
+            { 
+                Code = "CH",
+                Type = "Department",
+                Name = "Choluteca",
+                LocalName = "Choluteca"
+            },
+            new()
+            { 
+                Code = "CL",
+                Type = "Department",
+                Name = "Colón",
+                LocalName = "Colón"
+            },
+            new()
+            { 
+                Code = "CM",
+                Type = "Department",
+                Name = "Comayagua",
+                LocalName = "Comayagua"
+            },
+            new()
+            { 
+                Code = "CP",
+                Type = "Department",
+                Name = "Copán",
+                LocalName = "Copán"
+            },
+            new()
+            { 
+                Code = "CR",
+                Type = "Department",
+                Name = "Cortés",
+                LocalName = "Cortés"
+            },
+            new()
+            { 
+                Code = "EP",
+                Type = "Department",
+                Name = "El Paraíso",
+                LocalName = "El Paraíso"
+            },
+            new()
+            { 
+                Code = "FM",
+                Type = "Department",
+                Name = "Francisco Morazán",
+                LocalName = "Francisco Morazán"
+            },
+            new()
+            { 
+                Code = "GD",
+                Type = "Department",
+                Name = "Gracias a Dios",
+                LocalName = "Gracias a Dios"
+            },
+            new()
+            { 
+                Code = "IN",
+                Type = "Department",
+                Name = "Intibucá",
+                LocalName = "Intibucá"
+            },
+            new()
+            { 
+                Code = "IB",
+                Type = "Department",
+                Name = "Islas de la Bahía",
+                LocalName = "Islas de la Bahía"
+            },
+            new()
+            { 
+                Code = "LP",
+                Type = "Department",
+                Name = "La Paz",
+                LocalName = "La Paz"
+            },
+            new()
+            { 
+                Code = "LE",
+                Type = "Department",
+                Name = "Lempira",
+                LocalName = "Lempira"
+            },
+            new()
+            { 
+                Code = "OC",
+                Type = "Department",
+                Name = "Ocotepeque",
+                LocalName = "Ocotepeque"
+            },
+            new()
+            { 
+                Code = "OL",
+                Type = "Department",
+                Name = "Olancho",
+                LocalName = "Olancho"
+            },
+            new()
+            { 
+                Code = "SB",
+                Type = "Department",
+                Name = "Santa Bárbara",
+                LocalName = "Santa Bárbara"
+            },
+            new()
+            { 
+                Code = "VA",
+                Type = "Department",
+                Name = "Valle",
+                LocalName = "Valle"
+            },
+            new()
+            { 
+                Code = "YO",
+                Type = "Department",
+                Name = "Yoro",
+                LocalName = "Yoro"
+            }
 
         });
     }

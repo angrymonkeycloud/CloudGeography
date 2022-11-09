@@ -7,14 +7,62 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("MV", new List<Subdivision>()
         {
-            new(){ Code ="SU", LocalName="Dhekunu", Name="Dhekunu", Type="Province" },
-            new(){ Code ="MLE", LocalName="Male", Name="Male", Type="Capital" },
-            new(){ Code ="US", LocalName="Mathi-Dhekunu", Name="Mathi-Dhekunu", Type="Province" },
-            new(){ Code ="UN", LocalName="Mathi-Uthuru", Name="Mathi-Uthuru", Type="Province" },
-            new(){ Code ="CE", LocalName="Medhu", Name="Medhu", Type="Province" },
-            new(){ Code ="SC", LocalName="Medhu-Dhekunu", Name="Medhu-Dhekunu", Type="Province" },
-            new(){ Code ="NC", LocalName="Medhu-Uthuru", Name="Medhu-Uthuru", Type="Province" },
-            new(){ Code ="NO", LocalName="Uthuru", Name="Uthuru", Type="Province" }
+            new()
+            { 
+                Code = "SU",
+                Type = "Province",
+                Name = "Dhekunu",
+                LocalName = "Dhekunu"
+            },
+            new()
+            { 
+                Code = "MLE",
+                Type = "Capital",
+                Name = "Male",
+                LocalName = "Male"
+            },
+            new()
+            { 
+                Code = "US",
+                Type = "Province",
+                Name = "Mathi-Dhekunu",
+                LocalName = "Mathi-Dhekunu"
+            },
+            new()
+            { 
+                Code = "UN",
+                Type = "Province",
+                Name = "Mathi-Uthuru",
+                LocalName = "Mathi-Uthuru"
+            },
+            new()
+            { 
+                Code = "CE",
+                Type = "Province",
+                Name = "Medhu",
+                LocalName = "Medhu"
+            },
+            new()
+            { 
+                Code = "SC",
+                Type = "Province",
+                Name = "Medhu-Dhekunu",
+                LocalName = "Medhu-Dhekunu"
+            },
+            new()
+            { 
+                Code = "NC",
+                Type = "Province",
+                Name = "Medhu-Uthuru",
+                LocalName = "Medhu-Uthuru"
+            },
+            new()
+            { 
+                Code = "NO",
+                Type = "Province",
+                Name = "Uthuru",
+                LocalName = "Uthuru"
+            }
 
         });
     }

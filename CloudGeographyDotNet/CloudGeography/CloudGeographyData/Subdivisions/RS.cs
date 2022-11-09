@@ -7,38 +7,230 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("RS", new List<Subdivision>()
         {
-            new(){ Code ="12", LocalName="umadijski okrug", Name="umadijski okrug", Type="District" },
-            new(){ Code ="0", LocalName="Beograd", Name="Beograd", Type="City" },
-            new(){ Code ="14", LocalName="Borski okrug", Name="Borski okrug", Type="District" },
-            new(){ Code ="11", LocalName="Branicevski okrug", Name="Branicevski okrug", Type="District" },
-            new(){ Code ="23", LocalName="Jablanicki okrug", Name="Jablanicki okrug", Type="District" },
-            new(){ Code ="6", LocalName="Junobacki okrug", Name="Junobacki okrug", Type="District" },
-            new(){ Code ="4", LocalName="Junobanatski okrug", Name="Junobanatski okrug", Type="District" },
-            new(){ Code ="9", LocalName="Kolubarski okrug", Name="Kolubarski okrug", Type="District" },
-            new(){ Code ="KM", LocalName="Kosovo-Metohija", Name="Kosovo-Metohija", Type="Province" },
-            new(){ Code ="25", LocalName="Kosovski okrug", Name="Kosovski okrug", Type="District" },
-            new(){ Code ="28", LocalName="Kosovsko-Mitrovacki okrug", Name="Kosovsko-Mitrovacki okrug", Type="District" },
-            new(){ Code ="29", LocalName="Kosovsko-Pomoravski okrug", Name="Kosovsko-Pomoravski okrug", Type="District" },
-            new(){ Code ="8", LocalName="Macvanski okrug", Name="Macvanski okrug", Type="District" },
-            new(){ Code ="17", LocalName="Moravicki okrug", Name="Moravicki okrug", Type="District" },
-            new(){ Code ="20", LocalName="Niavski okrug", Name="Niavski okrug", Type="District" },
-            new(){ Code ="24", LocalName="Pcinjski okrug", Name="Pcinjski okrug", Type="District" },
-            new(){ Code ="26", LocalName="Pecki okrug", Name="Pecki okrug", Type="District" },
-            new(){ Code ="22", LocalName="Pirotski okrug", Name="Pirotski okrug", Type="District" },
-            new(){ Code ="10", LocalName="Podunavski okrug", Name="Podunavski okrug", Type="District" },
-            new(){ Code ="13", LocalName="Pomoravski okrug", Name="Pomoravski okrug", Type="District" },
-            new(){ Code ="27", LocalName="Prizrenski okrug", Name="Prizrenski okrug", Type="District" },
-            new(){ Code ="18", LocalName="Raki okrug", Name="Raki okrug", Type="District" },
-            new(){ Code ="19", LocalName="Rasinski okrug", Name="Rasinski okrug", Type="District" },
-            new(){ Code ="1", LocalName="Severnobacki okrug", Name="Severnobacki okrug", Type="District" },
-            new(){ Code ="3", LocalName="Severnobanatski okrug", Name="Severnobanatski okrug", Type="District" },
-            new(){ Code ="2", LocalName="Srednjebanatski okrug", Name="Srednjebanatski okrug", Type="District" },
-            new(){ Code ="7", LocalName="Sremski okrug", Name="Sremski okrug", Type="District" },
-            new(){ Code ="21", LocalName="Toplicki okrug", Name="Toplicki okrug", Type="District" },
-            new(){ Code ="VO", LocalName="Vojvodina", Name="Vojvodina", Type="Province" },
-            new(){ Code ="15", LocalName="Zajecarski okrug", Name="Zajecarski okrug", Type="District" },
-            new(){ Code ="5", LocalName="Zapadnobacki okrug", Name="Zapadnobacki okrug", Type="District" },
-            new(){ Code ="16", LocalName="Zlatiborski okrug", Name="Zlatiborski okrug", Type="District" }
+            new()
+            { 
+                Code = "12",
+                Type = "District",
+                Name = "umadijski okrug",
+                LocalName = "umadijski okrug"
+            },
+            new()
+            { 
+                Code = "0",
+                Type = "City",
+                Name = "Beograd",
+                LocalName = "Beograd"
+            },
+            new()
+            { 
+                Code = "14",
+                Type = "District",
+                Name = "Borski okrug",
+                LocalName = "Borski okrug"
+            },
+            new()
+            { 
+                Code = "11",
+                Type = "District",
+                Name = "Branicevski okrug",
+                LocalName = "Branicevski okrug"
+            },
+            new()
+            { 
+                Code = "23",
+                Type = "District",
+                Name = "Jablanicki okrug",
+                LocalName = "Jablanicki okrug"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "District",
+                Name = "Junobacki okrug",
+                LocalName = "Junobacki okrug"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "District",
+                Name = "Junobanatski okrug",
+                LocalName = "Junobanatski okrug"
+            },
+            new()
+            { 
+                Code = "9",
+                Type = "District",
+                Name = "Kolubarski okrug",
+                LocalName = "Kolubarski okrug"
+            },
+            new()
+            { 
+                Code = "KM",
+                Type = "Province",
+                Name = "Kosovo-Metohija",
+                LocalName = "Kosovo-Metohija"
+            },
+            new()
+            { 
+                Code = "25",
+                Type = "District",
+                Name = "Kosovski okrug",
+                LocalName = "Kosovski okrug"
+            },
+            new()
+            { 
+                Code = "28",
+                Type = "District",
+                Name = "Kosovsko-Mitrovacki okrug",
+                LocalName = "Kosovsko-Mitrovacki okrug"
+            },
+            new()
+            { 
+                Code = "29",
+                Type = "District",
+                Name = "Kosovsko-Pomoravski okrug",
+                LocalName = "Kosovsko-Pomoravski okrug"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "District",
+                Name = "Macvanski okrug",
+                LocalName = "Macvanski okrug"
+            },
+            new()
+            { 
+                Code = "17",
+                Type = "District",
+                Name = "Moravicki okrug",
+                LocalName = "Moravicki okrug"
+            },
+            new()
+            { 
+                Code = "20",
+                Type = "District",
+                Name = "Niavski okrug",
+                LocalName = "Niavski okrug"
+            },
+            new()
+            { 
+                Code = "24",
+                Type = "District",
+                Name = "Pcinjski okrug",
+                LocalName = "Pcinjski okrug"
+            },
+            new()
+            { 
+                Code = "26",
+                Type = "District",
+                Name = "Pecki okrug",
+                LocalName = "Pecki okrug"
+            },
+            new()
+            { 
+                Code = "22",
+                Type = "District",
+                Name = "Pirotski okrug",
+                LocalName = "Pirotski okrug"
+            },
+            new()
+            { 
+                Code = "10",
+                Type = "District",
+                Name = "Podunavski okrug",
+                LocalName = "Podunavski okrug"
+            },
+            new()
+            { 
+                Code = "13",
+                Type = "District",
+                Name = "Pomoravski okrug",
+                LocalName = "Pomoravski okrug"
+            },
+            new()
+            { 
+                Code = "27",
+                Type = "District",
+                Name = "Prizrenski okrug",
+                LocalName = "Prizrenski okrug"
+            },
+            new()
+            { 
+                Code = "18",
+                Type = "District",
+                Name = "Raki okrug",
+                LocalName = "Raki okrug"
+            },
+            new()
+            { 
+                Code = "19",
+                Type = "District",
+                Name = "Rasinski okrug",
+                LocalName = "Rasinski okrug"
+            },
+            new()
+            { 
+                Code = "1",
+                Type = "District",
+                Name = "Severnobacki okrug",
+                LocalName = "Severnobacki okrug"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "District",
+                Name = "Severnobanatski okrug",
+                LocalName = "Severnobanatski okrug"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "District",
+                Name = "Srednjebanatski okrug",
+                LocalName = "Srednjebanatski okrug"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "District",
+                Name = "Sremski okrug",
+                LocalName = "Sremski okrug"
+            },
+            new()
+            { 
+                Code = "21",
+                Type = "District",
+                Name = "Toplicki okrug",
+                LocalName = "Toplicki okrug"
+            },
+            new()
+            { 
+                Code = "VO",
+                Type = "Province",
+                Name = "Vojvodina",
+                LocalName = "Vojvodina"
+            },
+            new()
+            { 
+                Code = "15",
+                Type = "District",
+                Name = "Zajecarski okrug",
+                LocalName = "Zajecarski okrug"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "District",
+                Name = "Zapadnobacki okrug",
+                LocalName = "Zapadnobacki okrug"
+            },
+            new()
+            { 
+                Code = "16",
+                Type = "District",
+                Name = "Zlatiborski okrug",
+                LocalName = "Zlatiborski okrug"
+            }
 
         });
     }

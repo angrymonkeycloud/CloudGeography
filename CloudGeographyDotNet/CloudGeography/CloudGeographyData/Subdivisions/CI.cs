@@ -7,20 +7,104 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("CI", new List<Subdivision>()
         {
-            new(){ Code ="AB", LocalName="Abidjan", Name="Abidjan", Type="District" },
-            new(){ Code ="BS", LocalName="Bas-Sassandra", Name="Bas-Sassandra", Type="District" },
-            new(){ Code ="CM", LocalName="Comoé", Name="Comoé", Type="District" },
-            new(){ Code ="DN", LocalName="Denguélé", Name="Denguélé", Type="District" },
-            new(){ Code ="GD", LocalName="Gôh-Djiboua", Name="Gôh-Djiboua", Type="District" },
-            new(){ Code ="LC", LocalName="Lacs", Name="Lacs", Type="District" },
-            new(){ Code ="LG", LocalName="Lagunes", Name="Lagunes", Type="District" },
-            new(){ Code ="MG", LocalName="Montagnes", Name="Montagnes", Type="District" },
-            new(){ Code ="SM", LocalName="Sassandra-Marahoué", Name="Sassandra-Marahoué", Type="District" },
-            new(){ Code ="SV", LocalName="Savanes", Name="Savanes", Type="District" },
-            new(){ Code ="VB", LocalName="Vallée du Bandama", Name="Vallée du Bandama", Type="District" },
-            new(){ Code ="WR", LocalName="Woroba", Name="Woroba", Type="District" },
-            new(){ Code ="YM", LocalName="Yamoussoukro", Name="Yamoussoukro", Type="District" },
-            new(){ Code ="ZZ", LocalName="Zanzan", Name="Zanzan", Type="District" }
+            new()
+            { 
+                Code = "AB",
+                Type = "District",
+                Name = "Abidjan",
+                LocalName = "Abidjan"
+            },
+            new()
+            { 
+                Code = "BS",
+                Type = "District",
+                Name = "Bas-Sassandra",
+                LocalName = "Bas-Sassandra"
+            },
+            new()
+            { 
+                Code = "CM",
+                Type = "District",
+                Name = "Comoé",
+                LocalName = "Comoé"
+            },
+            new()
+            { 
+                Code = "DN",
+                Type = "District",
+                Name = "Denguélé",
+                LocalName = "Denguélé"
+            },
+            new()
+            { 
+                Code = "GD",
+                Type = "District",
+                Name = "Gôh-Djiboua",
+                LocalName = "Gôh-Djiboua"
+            },
+            new()
+            { 
+                Code = "LC",
+                Type = "District",
+                Name = "Lacs",
+                LocalName = "Lacs"
+            },
+            new()
+            { 
+                Code = "LG",
+                Type = "District",
+                Name = "Lagunes",
+                LocalName = "Lagunes"
+            },
+            new()
+            { 
+                Code = "MG",
+                Type = "District",
+                Name = "Montagnes",
+                LocalName = "Montagnes"
+            },
+            new()
+            { 
+                Code = "SM",
+                Type = "District",
+                Name = "Sassandra-Marahoué",
+                LocalName = "Sassandra-Marahoué"
+            },
+            new()
+            { 
+                Code = "SV",
+                Type = "District",
+                Name = "Savanes",
+                LocalName = "Savanes"
+            },
+            new()
+            { 
+                Code = "VB",
+                Type = "District",
+                Name = "Vallée du Bandama",
+                LocalName = "Vallée du Bandama"
+            },
+            new()
+            { 
+                Code = "WR",
+                Type = "District",
+                Name = "Woroba",
+                LocalName = "Woroba"
+            },
+            new()
+            { 
+                Code = "YM",
+                Type = "District",
+                Name = "Yamoussoukro",
+                LocalName = "Yamoussoukro"
+            },
+            new()
+            { 
+                Code = "ZZ",
+                Type = "District",
+                Name = "Zanzan",
+                LocalName = "Zanzan"
+            }
 
         });
     }

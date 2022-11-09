@@ -7,22 +7,118 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("DE", new List<Subdivision>()
         {
-            new(){ Code ="BW", LocalName="Baden-Württemberg", Name="Baden-Württemberg", Type="Land" },
-            new(){ Code ="BY", LocalName="Bayern", Name="Bayern", Type="Land" },
-            new(){ Code ="BE", LocalName="Berlin", Name="Berlin", Type="Land" },
-            new(){ Code ="BB", LocalName="Brandenburg", Name="Brandenburg", Type="Land" },
-            new(){ Code ="HB", LocalName="Bremen", Name="Bremen", Type="Land" },
-            new(){ Code ="HH", LocalName="Hamburg", Name="Hamburg", Type="Land" },
-            new(){ Code ="HE", LocalName="Hessen", Name="Hessen", Type="Land" },
-            new(){ Code ="MV", LocalName="Mecklenburg-Vorpommern", Name="Mecklenburg-Vorpommern", Type="Land" },
-            new(){ Code ="NI", LocalName="Niedersachsen", Name="Niedersachsen", Type="Land" },
-            new(){ Code ="NW", LocalName="Nordrhein-Westfalen", Name="Nordrhein-Westfalen", Type="Land" },
-            new(){ Code ="RP", LocalName="Rheinland-Pfalz", Name="Rheinland-Pfalz", Type="Land" },
-            new(){ Code ="SL", LocalName="Saarland", Name="Saarland", Type="Land" },
-            new(){ Code ="SN", LocalName="Sachsen", Name="Sachsen", Type="Land" },
-            new(){ Code ="ST", LocalName="Sachsen-Anhalt", Name="Sachsen-Anhalt", Type="Land" },
-            new(){ Code ="SH", LocalName="Schleswig-Holstein", Name="Schleswig-Holstein", Type="Land" },
-            new(){ Code ="TH", LocalName="Thüringen", Name="Thüringen", Type="Land" }
+            new()
+            { 
+                Code = "BW",
+                Type = "Land",
+                Name = "Baden-Württemberg",
+                LocalName = "Baden-Württemberg"
+            },
+            new()
+            { 
+                Code = "BY",
+                Type = "Land",
+                Name = "Bayern",
+                LocalName = "Bayern"
+            },
+            new()
+            { 
+                Code = "BE",
+                Type = "Land",
+                Name = "Berlin",
+                LocalName = "Berlin"
+            },
+            new()
+            { 
+                Code = "BB",
+                Type = "Land",
+                Name = "Brandenburg",
+                LocalName = "Brandenburg"
+            },
+            new()
+            { 
+                Code = "HB",
+                Type = "Land",
+                Name = "Bremen",
+                LocalName = "Bremen"
+            },
+            new()
+            { 
+                Code = "HH",
+                Type = "Land",
+                Name = "Hamburg",
+                LocalName = "Hamburg"
+            },
+            new()
+            { 
+                Code = "HE",
+                Type = "Land",
+                Name = "Hessen",
+                LocalName = "Hessen"
+            },
+            new()
+            { 
+                Code = "MV",
+                Type = "Land",
+                Name = "Mecklenburg-Vorpommern",
+                LocalName = "Mecklenburg-Vorpommern"
+            },
+            new()
+            { 
+                Code = "NI",
+                Type = "Land",
+                Name = "Niedersachsen",
+                LocalName = "Niedersachsen"
+            },
+            new()
+            { 
+                Code = "NW",
+                Type = "Land",
+                Name = "Nordrhein-Westfalen",
+                LocalName = "Nordrhein-Westfalen"
+            },
+            new()
+            { 
+                Code = "RP",
+                Type = "Land",
+                Name = "Rheinland-Pfalz",
+                LocalName = "Rheinland-Pfalz"
+            },
+            new()
+            { 
+                Code = "SL",
+                Type = "Land",
+                Name = "Saarland",
+                LocalName = "Saarland"
+            },
+            new()
+            { 
+                Code = "SN",
+                Type = "Land",
+                Name = "Sachsen",
+                LocalName = "Sachsen"
+            },
+            new()
+            { 
+                Code = "ST",
+                Type = "Land",
+                Name = "Sachsen-Anhalt",
+                LocalName = "Sachsen-Anhalt"
+            },
+            new()
+            { 
+                Code = "SH",
+                Type = "Land",
+                Name = "Schleswig-Holstein",
+                LocalName = "Schleswig-Holstein"
+            },
+            new()
+            { 
+                Code = "TH",
+                Type = "Land",
+                Name = "Thüringen",
+                LocalName = "Thüringen"
+            }
 
         });
     }

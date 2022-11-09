@@ -7,23 +7,125 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("KZ", new List<Subdivision>()
         {
-            new(){ Code ="ALA", LocalName="Almaty", Name="Almaty", Type="City" },
-            new(){ Code ="ALM", LocalName="Almaty oblysy", Name="Almaty oblysy", Type="Region" },
-            new(){ Code ="AKM", LocalName="Aqmola oblysy", Name="Aqmola oblysy", Type="Region" },
-            new(){ Code ="AKT", LocalName="Aqtöbe oblysy", Name="Aqtöbe oblysy", Type="Region" },
-            new(){ Code ="AST", LocalName="Astana", Name="Astana", Type="City" },
-            new(){ Code ="ATY", LocalName="Atyrau oblysy", Name="Atyrau oblysy", Type="Region" },
-            new(){ Code ="ZAP", LocalName="Batys Qazaqstan oblysy", Name="Batys Qazaqstan oblysy", Type="Region" },
-            new(){ Code ="BAY", LocalName="Bayqonyr", Name="Bayqonyr", Type="City" },
-            new(){ Code ="MAN", LocalName="Mangghystau oblysy", Name="Mangghystau oblysy", Type="Region" },
-            new(){ Code ="YUZ", LocalName="Ongtüstik Qazaqstan oblysy", Name="Ongtüstik Qazaqstan oblysy", Type="Region" },
-            new(){ Code ="PAV", LocalName="Pavlodar oblysy", Name="Pavlodar oblysy", Type="Region" },
-            new(){ Code ="KAR", LocalName="Qaraghandy oblysy", Name="Qaraghandy oblysy", Type="Region" },
-            new(){ Code ="KUS", LocalName="Qostanay oblysy", Name="Qostanay oblysy", Type="Region" },
-            new(){ Code ="KZY", LocalName="Qyzylorda oblysy", Name="Qyzylorda oblysy", Type="Region" },
-            new(){ Code ="VOS", LocalName="Shyghys Qazaqstan oblysy", Name="Shyghys Qazaqstan oblysy", Type="Region" },
-            new(){ Code ="SEV", LocalName="Soltüstik Qazaqstan oblysy", Name="Soltüstik Qazaqstan oblysy", Type="Region" },
-            new(){ Code ="ZHA", LocalName="Zhambyl oblysy", Name="Zhambyl oblysy", Type="Region" }
+            new()
+            { 
+                Code = "ALA",
+                Type = "City",
+                Name = "Almaty",
+                LocalName = "Almaty"
+            },
+            new()
+            { 
+                Code = "ALM",
+                Type = "Region",
+                Name = "Almaty oblysy",
+                LocalName = "Almaty oblysy"
+            },
+            new()
+            { 
+                Code = "AKM",
+                Type = "Region",
+                Name = "Aqmola oblysy",
+                LocalName = "Aqmola oblysy"
+            },
+            new()
+            { 
+                Code = "AKT",
+                Type = "Region",
+                Name = "Aqtöbe oblysy",
+                LocalName = "Aqtöbe oblysy"
+            },
+            new()
+            { 
+                Code = "AST",
+                Type = "City",
+                Name = "Astana",
+                LocalName = "Astana"
+            },
+            new()
+            { 
+                Code = "ATY",
+                Type = "Region",
+                Name = "Atyrau oblysy",
+                LocalName = "Atyrau oblysy"
+            },
+            new()
+            { 
+                Code = "ZAP",
+                Type = "Region",
+                Name = "Batys Qazaqstan oblysy",
+                LocalName = "Batys Qazaqstan oblysy"
+            },
+            new()
+            { 
+                Code = "BAY",
+                Type = "City",
+                Name = "Bayqonyr",
+                LocalName = "Bayqonyr"
+            },
+            new()
+            { 
+                Code = "MAN",
+                Type = "Region",
+                Name = "Mangghystau oblysy",
+                LocalName = "Mangghystau oblysy"
+            },
+            new()
+            { 
+                Code = "YUZ",
+                Type = "Region",
+                Name = "Ongtüstik Qazaqstan oblysy",
+                LocalName = "Ongtüstik Qazaqstan oblysy"
+            },
+            new()
+            { 
+                Code = "PAV",
+                Type = "Region",
+                Name = "Pavlodar oblysy",
+                LocalName = "Pavlodar oblysy"
+            },
+            new()
+            { 
+                Code = "KAR",
+                Type = "Region",
+                Name = "Qaraghandy oblysy",
+                LocalName = "Qaraghandy oblysy"
+            },
+            new()
+            { 
+                Code = "KUS",
+                Type = "Region",
+                Name = "Qostanay oblysy",
+                LocalName = "Qostanay oblysy"
+            },
+            new()
+            { 
+                Code = "KZY",
+                Type = "Region",
+                Name = "Qyzylorda oblysy",
+                LocalName = "Qyzylorda oblysy"
+            },
+            new()
+            { 
+                Code = "VOS",
+                Type = "Region",
+                Name = "Shyghys Qazaqstan oblysy",
+                LocalName = "Shyghys Qazaqstan oblysy"
+            },
+            new()
+            { 
+                Code = "SEV",
+                Type = "Region",
+                Name = "Soltüstik Qazaqstan oblysy",
+                LocalName = "Soltüstik Qazaqstan oblysy"
+            },
+            new()
+            { 
+                Code = "ZHA",
+                Type = "Region",
+                Name = "Zhambyl oblysy",
+                LocalName = "Zhambyl oblysy"
+            }
 
         });
     }

@@ -7,16 +7,76 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("GH", new List<Subdivision>()
         {
-            new(){ Code ="AH", LocalName="Ashanti", Name="Ashanti", Type="Region" },
-            new(){ Code ="BA", LocalName="Brong-Ahafo", Name="Brong-Ahafo", Type="Region" },
-            new(){ Code ="CP", LocalName="Central", Name="Central", Type="Region" },
-            new(){ Code ="EP", LocalName="Eastern", Name="Eastern", Type="Region" },
-            new(){ Code ="AA", LocalName="Greater Accra", Name="Greater Accra", Type="Region" },
-            new(){ Code ="NP", LocalName="Northern", Name="Northern", Type="Region" },
-            new(){ Code ="UE", LocalName="Upper East", Name="Upper East", Type="Region" },
-            new(){ Code ="UW", LocalName="Upper West", Name="Upper West", Type="Region" },
-            new(){ Code ="TV", LocalName="Volta", Name="Volta", Type="Region" },
-            new(){ Code ="WP", LocalName="Western", Name="Western", Type="Region" }
+            new()
+            { 
+                Code = "AH",
+                Type = "Region",
+                Name = "Ashanti",
+                LocalName = "Ashanti"
+            },
+            new()
+            { 
+                Code = "BA",
+                Type = "Region",
+                Name = "Brong-Ahafo",
+                LocalName = "Brong-Ahafo"
+            },
+            new()
+            { 
+                Code = "CP",
+                Type = "Region",
+                Name = "Central",
+                LocalName = "Central"
+            },
+            new()
+            { 
+                Code = "EP",
+                Type = "Region",
+                Name = "Eastern",
+                LocalName = "Eastern"
+            },
+            new()
+            { 
+                Code = "AA",
+                Type = "Region",
+                Name = "Greater Accra",
+                LocalName = "Greater Accra"
+            },
+            new()
+            { 
+                Code = "NP",
+                Type = "Region",
+                Name = "Northern",
+                LocalName = "Northern"
+            },
+            new()
+            { 
+                Code = "UE",
+                Type = "Region",
+                Name = "Upper East",
+                LocalName = "Upper East"
+            },
+            new()
+            { 
+                Code = "UW",
+                Type = "Region",
+                Name = "Upper West",
+                LocalName = "Upper West"
+            },
+            new()
+            { 
+                Code = "TV",
+                Type = "Region",
+                Name = "Volta",
+                LocalName = "Volta"
+            },
+            new()
+            { 
+                Code = "WP",
+                Type = "Region",
+                Name = "Western",
+                LocalName = "Western"
+            }
 
         });
     }

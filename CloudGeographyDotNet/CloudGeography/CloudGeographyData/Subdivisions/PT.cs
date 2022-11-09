@@ -7,26 +7,146 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("PT", new List<Subdivision>()
         {
-            new(){ Code ="1", LocalName="Aveiro", Name="Aveiro", Type="District" },
-            new(){ Code ="2", LocalName="Beja", Name="Beja", Type="District" },
-            new(){ Code ="3", LocalName="Braga", Name="Braga", Type="District" },
-            new(){ Code ="4", LocalName="Bragança", Name="Bragança", Type="District" },
-            new(){ Code ="5", LocalName="Castelo Branco", Name="Castelo Branco", Type="District" },
-            new(){ Code ="6", LocalName="Coimbra", Name="Coimbra", Type="District" },
-            new(){ Code ="7", LocalName="Évora", Name="Évora", Type="District" },
-            new(){ Code ="8", LocalName="Faro", Name="Faro", Type="District" },
-            new(){ Code ="9", LocalName="Guarda", Name="Guarda", Type="District" },
-            new(){ Code ="10", LocalName="Leiria", Name="Leiria", Type="District" },
-            new(){ Code ="11", LocalName="Lisboa", Name="Lisboa", Type="District" },
-            new(){ Code ="12", LocalName="Portalegre", Name="Portalegre", Type="District" },
-            new(){ Code ="13", LocalName="Porto", Name="Porto", Type="District" },
-            new(){ Code ="30", LocalName="Região Autónoma da Madeira", Name="Região Autónoma da Madeira", Type="Region" },
-            new(){ Code ="20", LocalName="Região Autónoma dos Açores", Name="Região Autónoma dos Açores", Type="Region" },
-            new(){ Code ="14", LocalName="Santarém", Name="Santarém", Type="District" },
-            new(){ Code ="15", LocalName="Setúbal", Name="Setúbal", Type="District" },
-            new(){ Code ="16", LocalName="Viana do Castelo", Name="Viana do Castelo", Type="District" },
-            new(){ Code ="17", LocalName="Vila Real", Name="Vila Real", Type="District" },
-            new(){ Code ="18", LocalName="Viseu", Name="Viseu", Type="District" }
+            new()
+            { 
+                Code = "1",
+                Type = "District",
+                Name = "Aveiro",
+                LocalName = "Aveiro"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "District",
+                Name = "Beja",
+                LocalName = "Beja"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "District",
+                Name = "Braga",
+                LocalName = "Braga"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "District",
+                Name = "Bragança",
+                LocalName = "Bragança"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "District",
+                Name = "Castelo Branco",
+                LocalName = "Castelo Branco"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "District",
+                Name = "Coimbra",
+                LocalName = "Coimbra"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "District",
+                Name = "Évora",
+                LocalName = "Évora"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "District",
+                Name = "Faro",
+                LocalName = "Faro"
+            },
+            new()
+            { 
+                Code = "9",
+                Type = "District",
+                Name = "Guarda",
+                LocalName = "Guarda"
+            },
+            new()
+            { 
+                Code = "10",
+                Type = "District",
+                Name = "Leiria",
+                LocalName = "Leiria"
+            },
+            new()
+            { 
+                Code = "11",
+                Type = "District",
+                Name = "Lisboa",
+                LocalName = "Lisboa"
+            },
+            new()
+            { 
+                Code = "12",
+                Type = "District",
+                Name = "Portalegre",
+                LocalName = "Portalegre"
+            },
+            new()
+            { 
+                Code = "13",
+                Type = "District",
+                Name = "Porto",
+                LocalName = "Porto"
+            },
+            new()
+            { 
+                Code = "30",
+                Type = "Region",
+                Name = "Região Autónoma da Madeira",
+                LocalName = "Região Autónoma da Madeira"
+            },
+            new()
+            { 
+                Code = "20",
+                Type = "Region",
+                Name = "Região Autónoma dos Açores",
+                LocalName = "Região Autónoma dos Açores"
+            },
+            new()
+            { 
+                Code = "14",
+                Type = "District",
+                Name = "Santarém",
+                LocalName = "Santarém"
+            },
+            new()
+            { 
+                Code = "15",
+                Type = "District",
+                Name = "Setúbal",
+                LocalName = "Setúbal"
+            },
+            new()
+            { 
+                Code = "16",
+                Type = "District",
+                Name = "Viana do Castelo",
+                LocalName = "Viana do Castelo"
+            },
+            new()
+            { 
+                Code = "17",
+                Type = "District",
+                Name = "Vila Real",
+                LocalName = "Vila Real"
+            },
+            new()
+            { 
+                Code = "18",
+                Type = "District",
+                Name = "Viseu",
+                LocalName = "Viseu"
+            }
 
         });
     }

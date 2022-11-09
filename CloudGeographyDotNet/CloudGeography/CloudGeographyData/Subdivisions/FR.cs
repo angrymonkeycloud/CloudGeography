@@ -7,102 +7,678 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("FR", new List<Subdivision>()
         {
-            new(){ Code ="1", LocalName="Ain", Name="Ain", Type="MetropolitanDepartment" },
-            new(){ Code ="2", LocalName="Aisne", Name="Aisne", Type="MetropolitanDepartment" },
-            new(){ Code ="3", LocalName="Allier", Name="Allier", Type="MetropolitanDepartment" },
-            new(){ Code ="4", LocalName="Alpes-de-Haute-Provence", Name="Alpes-de-Haute-Provence", Type="MetropolitanDepartment" },
-            new(){ Code ="6", LocalName="Alpes-Maritimes", Name="Alpes-Maritimes", Type="MetropolitanDepartment" },
-            new(){ Code ="7", LocalName="Ardèche", Name="Ardèche", Type="MetropolitanDepartment" },
-            new(){ Code ="8", LocalName="Ardennes", Name="Ardennes", Type="MetropolitanDepartment" },
-            new(){ Code ="9", LocalName="Ariège", Name="Ariège", Type="MetropolitanDepartment" },
-            new(){ Code ="10", LocalName="Aube", Name="Aube", Type="MetropolitanDepartment" },
-            new(){ Code ="11", LocalName="Aude", Name="Aude", Type="MetropolitanDepartment" },
-            new(){ Code ="12", LocalName="Aveyron", Name="Aveyron", Type="MetropolitanDepartment" },
-            new(){ Code ="67", LocalName="Bas-Rhin", Name="Bas-Rhin", Type="MetropolitanDepartment" },
-            new(){ Code ="13", LocalName="Bouches-du-Rhône", Name="Bouches-du-Rhône", Type="MetropolitanDepartment" },
-            new(){ Code ="14", LocalName="Calvados", Name="Calvados", Type="MetropolitanDepartment" },
-            new(){ Code ="15", LocalName="Cantal", Name="Cantal", Type="MetropolitanDepartment" },
-            new(){ Code ="16", LocalName="Charente", Name="Charente", Type="MetropolitanDepartment" },
-            new(){ Code ="17", LocalName="Charente-Maritime", Name="Charente-Maritime", Type="MetropolitanDepartment" },
-            new(){ Code ="18", LocalName="Cher", Name="Cher", Type="MetropolitanDepartment" },
-            new(){ Code ="19", LocalName="Corrèze", Name="Corrèze", Type="MetropolitanDepartment" },
-            new(){ Code ="2A", LocalName="Corse-du-Sud", Name="Corse-du-Sud", Type="MetropolitanDepartment" },
-            new(){ Code ="21", LocalName="Côte-d'Or", Name="Côte-d'Or", Type="MetropolitanDepartment" },
-            new(){ Code ="22", LocalName="Côtes-d'Armor", Name="Côtes-d'Armor", Type="MetropolitanDepartment" },
-            new(){ Code ="23", LocalName="Creuse", Name="Creuse", Type="MetropolitanDepartment" },
-            new(){ Code ="79", LocalName="Deux-Sèvres", Name="Deux-Sèvres", Type="MetropolitanDepartment" },
-            new(){ Code ="24", LocalName="Dordogne", Name="Dordogne", Type="MetropolitanDepartment" },
-            new(){ Code ="25", LocalName="Doubs", Name="Doubs", Type="MetropolitanDepartment" },
-            new(){ Code ="26", LocalName="Drôme", Name="Drôme", Type="MetropolitanDepartment" },
-            new(){ Code ="91", LocalName="Essonne", Name="Essonne", Type="MetropolitanDepartment" },
-            new(){ Code ="27", LocalName="Eure", Name="Eure", Type="MetropolitanDepartment" },
-            new(){ Code ="28", LocalName="Eure-et-Loir", Name="Eure-et-Loir", Type="MetropolitanDepartment" },
-            new(){ Code ="29", LocalName="Finistère", Name="Finistère", Type="MetropolitanDepartment" },
-            new(){ Code ="30", LocalName="Gard", Name="Gard", Type="MetropolitanDepartment" },
-            new(){ Code ="32", LocalName="Gers", Name="Gers", Type="MetropolitanDepartment" },
-            new(){ Code ="33", LocalName="Gironde", Name="Gironde", Type="MetropolitanDepartment" },
-            new(){ Code ="2B", LocalName="Haute-Corse", Name="Haute-Corse", Type="MetropolitanDepartment" },
-            new(){ Code ="31", LocalName="Haute-Garonne", Name="Haute-Garonne", Type="MetropolitanDepartment" },
-            new(){ Code ="43", LocalName="Haute-Loire", Name="Haute-Loire", Type="MetropolitanDepartment" },
-            new(){ Code ="52", LocalName="Haute-Marne", Name="Haute-Marne", Type="MetropolitanDepartment" },
-            new(){ Code ="5", LocalName="Hautes-Alpes", Name="Hautes-Alpes", Type="MetropolitanDepartment" },
-            new(){ Code ="70", LocalName="Haute-Saône", Name="Haute-Saône", Type="MetropolitanDepartment" },
-            new(){ Code ="74", LocalName="Haute-Savoie", Name="Haute-Savoie", Type="MetropolitanDepartment" },
-            new(){ Code ="65", LocalName="Hautes-Pyrénées", Name="Hautes-Pyrénées", Type="MetropolitanDepartment" },
-            new(){ Code ="87", LocalName="Haute-Vienne", Name="Haute-Vienne", Type="MetropolitanDepartment" },
-            new(){ Code ="68", LocalName="Haut-Rhin", Name="Haut-Rhin", Type="MetropolitanDepartment" },
-            new(){ Code ="92", LocalName="Hauts-de-Seine", Name="Hauts-de-Seine", Type="MetropolitanDepartment" },
-            new(){ Code ="34", LocalName="Hérault", Name="Hérault", Type="MetropolitanDepartment" },
-            new(){ Code ="35", LocalName="Ille-et-Vilaine", Name="Ille-et-Vilaine", Type="MetropolitanDepartment" },
-            new(){ Code ="36", LocalName="Indre", Name="Indre", Type="MetropolitanDepartment" },
-            new(){ Code ="37", LocalName="Indre-et-Loire", Name="Indre-et-Loire", Type="MetropolitanDepartment" },
-            new(){ Code ="38", LocalName="Isère", Name="Isère", Type="MetropolitanDepartment" },
-            new(){ Code ="39", LocalName="Jura", Name="Jura", Type="MetropolitanDepartment" },
-            new(){ Code ="40", LocalName="Landes", Name="Landes", Type="MetropolitanDepartment" },
-            new(){ Code ="42", LocalName="Loire", Name="Loire", Type="MetropolitanDepartment" },
-            new(){ Code ="44", LocalName="Loire-Atlantique", Name="Loire-Atlantique", Type="MetropolitanDepartment" },
-            new(){ Code ="45", LocalName="Loiret", Name="Loiret", Type="MetropolitanDepartment" },
-            new(){ Code ="41", LocalName="Loir-et-Cher", Name="Loir-et-Cher", Type="MetropolitanDepartment" },
-            new(){ Code ="46", LocalName="Lot", Name="Lot", Type="MetropolitanDepartment" },
-            new(){ Code ="47", LocalName="Lot-et-Garonne", Name="Lot-et-Garonne", Type="MetropolitanDepartment" },
-            new(){ Code ="48", LocalName="Lozère", Name="Lozère", Type="MetropolitanDepartment" },
-            new(){ Code ="49", LocalName="Maine-et-Loire", Name="Maine-et-Loire", Type="MetropolitanDepartment" },
-            new(){ Code ="50", LocalName="Manche", Name="Manche", Type="MetropolitanDepartment" },
-            new(){ Code ="51", LocalName="Marne", Name="Marne", Type="MetropolitanDepartment" },
-            new(){ Code ="53", LocalName="Mayenne", Name="Mayenne", Type="MetropolitanDepartment" },
-            new(){ Code ="54", LocalName="Meurthe-et-Moselle", Name="Meurthe-et-Moselle", Type="MetropolitanDepartment" },
-            new(){ Code ="55", LocalName="Meuse", Name="Meuse", Type="MetropolitanDepartment" },
-            new(){ Code ="56", LocalName="Morbihan", Name="Morbihan", Type="MetropolitanDepartment" },
-            new(){ Code ="57", LocalName="Moselle", Name="Moselle", Type="MetropolitanDepartment" },
-            new(){ Code ="58", LocalName="Nièvre", Name="Nièvre", Type="MetropolitanDepartment" },
-            new(){ Code ="59", LocalName="Nord", Name="Nord", Type="MetropolitanDepartment" },
-            new(){ Code ="60", LocalName="Oise", Name="Oise", Type="MetropolitanDepartment" },
-            new(){ Code ="61", LocalName="Orne", Name="Orne", Type="MetropolitanDepartment" },
-            new(){ Code ="75", LocalName="Paris", Name="Paris", Type="MetropolitanDepartment" },
-            new(){ Code ="62", LocalName="Pas-de-Calais", Name="Pas-de-Calais", Type="MetropolitanDepartment" },
-            new(){ Code ="63", LocalName="Puy-de-Dôme", Name="Puy-de-Dôme", Type="MetropolitanDepartment" },
-            new(){ Code ="64", LocalName="Pyrénées-Atlantiques", Name="Pyrénées-Atlantiques", Type="MetropolitanDepartment" },
-            new(){ Code ="66", LocalName="Pyrénées-Orientales", Name="Pyrénées-Orientales", Type="MetropolitanDepartment" },
-            new(){ Code ="69", LocalName="Rhône", Name="Rhône", Type="MetropolitanDepartment" },
-            new(){ Code ="71", LocalName="Saône-et-Loire", Name="Saône-et-Loire", Type="MetropolitanDepartment" },
-            new(){ Code ="72", LocalName="Sarthe", Name="Sarthe", Type="MetropolitanDepartment" },
-            new(){ Code ="73", LocalName="Savoie", Name="Savoie", Type="MetropolitanDepartment" },
-            new(){ Code ="77", LocalName="Seine-et-Marne", Name="Seine-et-Marne", Type="MetropolitanDepartment" },
-            new(){ Code ="76", LocalName="Seine-Maritime", Name="Seine-Maritime", Type="MetropolitanDepartment" },
-            new(){ Code ="93", LocalName="Seine-Saint-Denis", Name="Seine-Saint-Denis", Type="MetropolitanDepartment" },
-            new(){ Code ="80", LocalName="Somme", Name="Somme", Type="MetropolitanDepartment" },
-            new(){ Code ="81", LocalName="Tarn", Name="Tarn", Type="MetropolitanDepartment" },
-            new(){ Code ="82", LocalName="Tarn-et-Garonne", Name="Tarn-et-Garonne", Type="MetropolitanDepartment" },
-            new(){ Code ="90", LocalName="Territoire de Belfort", Name="Territoire de Belfort", Type="MetropolitanDepartment" },
-            new(){ Code ="94", LocalName="Val-de-Marne", Name="Val-de-Marne", Type="MetropolitanDepartment" },
-            new(){ Code ="95", LocalName="Val-d'Oise", Name="Val-d'Oise", Type="MetropolitanDepartment" },
-            new(){ Code ="83", LocalName="Var", Name="Var", Type="MetropolitanDepartment" },
-            new(){ Code ="84", LocalName="Vaucluse", Name="Vaucluse", Type="MetropolitanDepartment" },
-            new(){ Code ="85", LocalName="Vendée", Name="Vendée", Type="MetropolitanDepartment" },
-            new(){ Code ="86", LocalName="Vienne", Name="Vienne", Type="MetropolitanDepartment" },
-            new(){ Code ="88", LocalName="Vosges", Name="Vosges", Type="MetropolitanDepartment" },
-            new(){ Code ="89", LocalName="Yonne", Name="Yonne", Type="MetropolitanDepartment" },
-            new(){ Code ="78", LocalName="Yvelines", Name="Yvelines", Type="MetropolitanDepartment" }
+            new()
+            { 
+                Code = "1",
+                Type = "MetropolitanDepartment",
+                Name = "Ain",
+                LocalName = "Ain"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "MetropolitanDepartment",
+                Name = "Aisne",
+                LocalName = "Aisne"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "MetropolitanDepartment",
+                Name = "Allier",
+                LocalName = "Allier"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "MetropolitanDepartment",
+                Name = "Alpes-de-Haute-Provence",
+                LocalName = "Alpes-de-Haute-Provence"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "MetropolitanDepartment",
+                Name = "Alpes-Maritimes",
+                LocalName = "Alpes-Maritimes"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "MetropolitanDepartment",
+                Name = "Ardèche",
+                LocalName = "Ardèche"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "MetropolitanDepartment",
+                Name = "Ardennes",
+                LocalName = "Ardennes"
+            },
+            new()
+            { 
+                Code = "9",
+                Type = "MetropolitanDepartment",
+                Name = "Ariège",
+                LocalName = "Ariège"
+            },
+            new()
+            { 
+                Code = "10",
+                Type = "MetropolitanDepartment",
+                Name = "Aube",
+                LocalName = "Aube"
+            },
+            new()
+            { 
+                Code = "11",
+                Type = "MetropolitanDepartment",
+                Name = "Aude",
+                LocalName = "Aude"
+            },
+            new()
+            { 
+                Code = "12",
+                Type = "MetropolitanDepartment",
+                Name = "Aveyron",
+                LocalName = "Aveyron"
+            },
+            new()
+            { 
+                Code = "67",
+                Type = "MetropolitanDepartment",
+                Name = "Bas-Rhin",
+                LocalName = "Bas-Rhin"
+            },
+            new()
+            { 
+                Code = "13",
+                Type = "MetropolitanDepartment",
+                Name = "Bouches-du-Rhône",
+                LocalName = "Bouches-du-Rhône"
+            },
+            new()
+            { 
+                Code = "14",
+                Type = "MetropolitanDepartment",
+                Name = "Calvados",
+                LocalName = "Calvados"
+            },
+            new()
+            { 
+                Code = "15",
+                Type = "MetropolitanDepartment",
+                Name = "Cantal",
+                LocalName = "Cantal"
+            },
+            new()
+            { 
+                Code = "16",
+                Type = "MetropolitanDepartment",
+                Name = "Charente",
+                LocalName = "Charente"
+            },
+            new()
+            { 
+                Code = "17",
+                Type = "MetropolitanDepartment",
+                Name = "Charente-Maritime",
+                LocalName = "Charente-Maritime"
+            },
+            new()
+            { 
+                Code = "18",
+                Type = "MetropolitanDepartment",
+                Name = "Cher",
+                LocalName = "Cher"
+            },
+            new()
+            { 
+                Code = "19",
+                Type = "MetropolitanDepartment",
+                Name = "Corrèze",
+                LocalName = "Corrèze"
+            },
+            new()
+            { 
+                Code = "2A",
+                Type = "MetropolitanDepartment",
+                Name = "Corse-du-Sud",
+                LocalName = "Corse-du-Sud"
+            },
+            new()
+            { 
+                Code = "21",
+                Type = "MetropolitanDepartment",
+                Name = "Côte-d'Or",
+                LocalName = "Côte-d'Or"
+            },
+            new()
+            { 
+                Code = "22",
+                Type = "MetropolitanDepartment",
+                Name = "Côtes-d'Armor",
+                LocalName = "Côtes-d'Armor"
+            },
+            new()
+            { 
+                Code = "23",
+                Type = "MetropolitanDepartment",
+                Name = "Creuse",
+                LocalName = "Creuse"
+            },
+            new()
+            { 
+                Code = "79",
+                Type = "MetropolitanDepartment",
+                Name = "Deux-Sèvres",
+                LocalName = "Deux-Sèvres"
+            },
+            new()
+            { 
+                Code = "24",
+                Type = "MetropolitanDepartment",
+                Name = "Dordogne",
+                LocalName = "Dordogne"
+            },
+            new()
+            { 
+                Code = "25",
+                Type = "MetropolitanDepartment",
+                Name = "Doubs",
+                LocalName = "Doubs"
+            },
+            new()
+            { 
+                Code = "26",
+                Type = "MetropolitanDepartment",
+                Name = "Drôme",
+                LocalName = "Drôme"
+            },
+            new()
+            { 
+                Code = "91",
+                Type = "MetropolitanDepartment",
+                Name = "Essonne",
+                LocalName = "Essonne"
+            },
+            new()
+            { 
+                Code = "27",
+                Type = "MetropolitanDepartment",
+                Name = "Eure",
+                LocalName = "Eure"
+            },
+            new()
+            { 
+                Code = "28",
+                Type = "MetropolitanDepartment",
+                Name = "Eure-et-Loir",
+                LocalName = "Eure-et-Loir"
+            },
+            new()
+            { 
+                Code = "29",
+                Type = "MetropolitanDepartment",
+                Name = "Finistère",
+                LocalName = "Finistère"
+            },
+            new()
+            { 
+                Code = "30",
+                Type = "MetropolitanDepartment",
+                Name = "Gard",
+                LocalName = "Gard"
+            },
+            new()
+            { 
+                Code = "32",
+                Type = "MetropolitanDepartment",
+                Name = "Gers",
+                LocalName = "Gers"
+            },
+            new()
+            { 
+                Code = "33",
+                Type = "MetropolitanDepartment",
+                Name = "Gironde",
+                LocalName = "Gironde"
+            },
+            new()
+            { 
+                Code = "2B",
+                Type = "MetropolitanDepartment",
+                Name = "Haute-Corse",
+                LocalName = "Haute-Corse"
+            },
+            new()
+            { 
+                Code = "31",
+                Type = "MetropolitanDepartment",
+                Name = "Haute-Garonne",
+                LocalName = "Haute-Garonne"
+            },
+            new()
+            { 
+                Code = "43",
+                Type = "MetropolitanDepartment",
+                Name = "Haute-Loire",
+                LocalName = "Haute-Loire"
+            },
+            new()
+            { 
+                Code = "52",
+                Type = "MetropolitanDepartment",
+                Name = "Haute-Marne",
+                LocalName = "Haute-Marne"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "MetropolitanDepartment",
+                Name = "Hautes-Alpes",
+                LocalName = "Hautes-Alpes"
+            },
+            new()
+            { 
+                Code = "70",
+                Type = "MetropolitanDepartment",
+                Name = "Haute-Saône",
+                LocalName = "Haute-Saône"
+            },
+            new()
+            { 
+                Code = "74",
+                Type = "MetropolitanDepartment",
+                Name = "Haute-Savoie",
+                LocalName = "Haute-Savoie"
+            },
+            new()
+            { 
+                Code = "65",
+                Type = "MetropolitanDepartment",
+                Name = "Hautes-Pyrénées",
+                LocalName = "Hautes-Pyrénées"
+            },
+            new()
+            { 
+                Code = "87",
+                Type = "MetropolitanDepartment",
+                Name = "Haute-Vienne",
+                LocalName = "Haute-Vienne"
+            },
+            new()
+            { 
+                Code = "68",
+                Type = "MetropolitanDepartment",
+                Name = "Haut-Rhin",
+                LocalName = "Haut-Rhin"
+            },
+            new()
+            { 
+                Code = "92",
+                Type = "MetropolitanDepartment",
+                Name = "Hauts-de-Seine",
+                LocalName = "Hauts-de-Seine"
+            },
+            new()
+            { 
+                Code = "34",
+                Type = "MetropolitanDepartment",
+                Name = "Hérault",
+                LocalName = "Hérault"
+            },
+            new()
+            { 
+                Code = "35",
+                Type = "MetropolitanDepartment",
+                Name = "Ille-et-Vilaine",
+                LocalName = "Ille-et-Vilaine"
+            },
+            new()
+            { 
+                Code = "36",
+                Type = "MetropolitanDepartment",
+                Name = "Indre",
+                LocalName = "Indre"
+            },
+            new()
+            { 
+                Code = "37",
+                Type = "MetropolitanDepartment",
+                Name = "Indre-et-Loire",
+                LocalName = "Indre-et-Loire"
+            },
+            new()
+            { 
+                Code = "38",
+                Type = "MetropolitanDepartment",
+                Name = "Isère",
+                LocalName = "Isère"
+            },
+            new()
+            { 
+                Code = "39",
+                Type = "MetropolitanDepartment",
+                Name = "Jura",
+                LocalName = "Jura"
+            },
+            new()
+            { 
+                Code = "40",
+                Type = "MetropolitanDepartment",
+                Name = "Landes",
+                LocalName = "Landes"
+            },
+            new()
+            { 
+                Code = "42",
+                Type = "MetropolitanDepartment",
+                Name = "Loire",
+                LocalName = "Loire"
+            },
+            new()
+            { 
+                Code = "44",
+                Type = "MetropolitanDepartment",
+                Name = "Loire-Atlantique",
+                LocalName = "Loire-Atlantique"
+            },
+            new()
+            { 
+                Code = "45",
+                Type = "MetropolitanDepartment",
+                Name = "Loiret",
+                LocalName = "Loiret"
+            },
+            new()
+            { 
+                Code = "41",
+                Type = "MetropolitanDepartment",
+                Name = "Loir-et-Cher",
+                LocalName = "Loir-et-Cher"
+            },
+            new()
+            { 
+                Code = "46",
+                Type = "MetropolitanDepartment",
+                Name = "Lot",
+                LocalName = "Lot"
+            },
+            new()
+            { 
+                Code = "47",
+                Type = "MetropolitanDepartment",
+                Name = "Lot-et-Garonne",
+                LocalName = "Lot-et-Garonne"
+            },
+            new()
+            { 
+                Code = "48",
+                Type = "MetropolitanDepartment",
+                Name = "Lozère",
+                LocalName = "Lozère"
+            },
+            new()
+            { 
+                Code = "49",
+                Type = "MetropolitanDepartment",
+                Name = "Maine-et-Loire",
+                LocalName = "Maine-et-Loire"
+            },
+            new()
+            { 
+                Code = "50",
+                Type = "MetropolitanDepartment",
+                Name = "Manche",
+                LocalName = "Manche"
+            },
+            new()
+            { 
+                Code = "51",
+                Type = "MetropolitanDepartment",
+                Name = "Marne",
+                LocalName = "Marne"
+            },
+            new()
+            { 
+                Code = "53",
+                Type = "MetropolitanDepartment",
+                Name = "Mayenne",
+                LocalName = "Mayenne"
+            },
+            new()
+            { 
+                Code = "54",
+                Type = "MetropolitanDepartment",
+                Name = "Meurthe-et-Moselle",
+                LocalName = "Meurthe-et-Moselle"
+            },
+            new()
+            { 
+                Code = "55",
+                Type = "MetropolitanDepartment",
+                Name = "Meuse",
+                LocalName = "Meuse"
+            },
+            new()
+            { 
+                Code = "56",
+                Type = "MetropolitanDepartment",
+                Name = "Morbihan",
+                LocalName = "Morbihan"
+            },
+            new()
+            { 
+                Code = "57",
+                Type = "MetropolitanDepartment",
+                Name = "Moselle",
+                LocalName = "Moselle"
+            },
+            new()
+            { 
+                Code = "58",
+                Type = "MetropolitanDepartment",
+                Name = "Nièvre",
+                LocalName = "Nièvre"
+            },
+            new()
+            { 
+                Code = "59",
+                Type = "MetropolitanDepartment",
+                Name = "Nord",
+                LocalName = "Nord"
+            },
+            new()
+            { 
+                Code = "60",
+                Type = "MetropolitanDepartment",
+                Name = "Oise",
+                LocalName = "Oise"
+            },
+            new()
+            { 
+                Code = "61",
+                Type = "MetropolitanDepartment",
+                Name = "Orne",
+                LocalName = "Orne"
+            },
+            new()
+            { 
+                Code = "75",
+                Type = "MetropolitanDepartment",
+                Name = "Paris",
+                LocalName = "Paris"
+            },
+            new()
+            { 
+                Code = "62",
+                Type = "MetropolitanDepartment",
+                Name = "Pas-de-Calais",
+                LocalName = "Pas-de-Calais"
+            },
+            new()
+            { 
+                Code = "63",
+                Type = "MetropolitanDepartment",
+                Name = "Puy-de-Dôme",
+                LocalName = "Puy-de-Dôme"
+            },
+            new()
+            { 
+                Code = "64",
+                Type = "MetropolitanDepartment",
+                Name = "Pyrénées-Atlantiques",
+                LocalName = "Pyrénées-Atlantiques"
+            },
+            new()
+            { 
+                Code = "66",
+                Type = "MetropolitanDepartment",
+                Name = "Pyrénées-Orientales",
+                LocalName = "Pyrénées-Orientales"
+            },
+            new()
+            { 
+                Code = "69",
+                Type = "MetropolitanDepartment",
+                Name = "Rhône",
+                LocalName = "Rhône"
+            },
+            new()
+            { 
+                Code = "71",
+                Type = "MetropolitanDepartment",
+                Name = "Saône-et-Loire",
+                LocalName = "Saône-et-Loire"
+            },
+            new()
+            { 
+                Code = "72",
+                Type = "MetropolitanDepartment",
+                Name = "Sarthe",
+                LocalName = "Sarthe"
+            },
+            new()
+            { 
+                Code = "73",
+                Type = "MetropolitanDepartment",
+                Name = "Savoie",
+                LocalName = "Savoie"
+            },
+            new()
+            { 
+                Code = "77",
+                Type = "MetropolitanDepartment",
+                Name = "Seine-et-Marne",
+                LocalName = "Seine-et-Marne"
+            },
+            new()
+            { 
+                Code = "76",
+                Type = "MetropolitanDepartment",
+                Name = "Seine-Maritime",
+                LocalName = "Seine-Maritime"
+            },
+            new()
+            { 
+                Code = "93",
+                Type = "MetropolitanDepartment",
+                Name = "Seine-Saint-Denis",
+                LocalName = "Seine-Saint-Denis"
+            },
+            new()
+            { 
+                Code = "80",
+                Type = "MetropolitanDepartment",
+                Name = "Somme",
+                LocalName = "Somme"
+            },
+            new()
+            { 
+                Code = "81",
+                Type = "MetropolitanDepartment",
+                Name = "Tarn",
+                LocalName = "Tarn"
+            },
+            new()
+            { 
+                Code = "82",
+                Type = "MetropolitanDepartment",
+                Name = "Tarn-et-Garonne",
+                LocalName = "Tarn-et-Garonne"
+            },
+            new()
+            { 
+                Code = "90",
+                Type = "MetropolitanDepartment",
+                Name = "Territoire de Belfort",
+                LocalName = "Territoire de Belfort"
+            },
+            new()
+            { 
+                Code = "94",
+                Type = "MetropolitanDepartment",
+                Name = "Val-de-Marne",
+                LocalName = "Val-de-Marne"
+            },
+            new()
+            { 
+                Code = "95",
+                Type = "MetropolitanDepartment",
+                Name = "Val-d'Oise",
+                LocalName = "Val-d'Oise"
+            },
+            new()
+            { 
+                Code = "83",
+                Type = "MetropolitanDepartment",
+                Name = "Var",
+                LocalName = "Var"
+            },
+            new()
+            { 
+                Code = "84",
+                Type = "MetropolitanDepartment",
+                Name = "Vaucluse",
+                LocalName = "Vaucluse"
+            },
+            new()
+            { 
+                Code = "85",
+                Type = "MetropolitanDepartment",
+                Name = "Vendée",
+                LocalName = "Vendée"
+            },
+            new()
+            { 
+                Code = "86",
+                Type = "MetropolitanDepartment",
+                Name = "Vienne",
+                LocalName = "Vienne"
+            },
+            new()
+            { 
+                Code = "88",
+                Type = "MetropolitanDepartment",
+                Name = "Vosges",
+                LocalName = "Vosges"
+            },
+            new()
+            { 
+                Code = "89",
+                Type = "MetropolitanDepartment",
+                Name = "Yonne",
+                LocalName = "Yonne"
+            },
+            new()
+            { 
+                Code = "78",
+                Type = "MetropolitanDepartment",
+                Name = "Yvelines",
+                LocalName = "Yvelines"
+            }
 
         });
     }

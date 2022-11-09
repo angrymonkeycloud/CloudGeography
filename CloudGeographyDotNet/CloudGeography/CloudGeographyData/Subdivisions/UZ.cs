@@ -7,21 +7,111 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("UZ", new List<Subdivision>()
         {
-            new(){ Code ="AN", LocalName="Andijon", Name="Andijon", Type="Region" },
-            new(){ Code ="BU", LocalName="Bukhoro", Name="Bukhoro", Type="Region" },
-            new(){ Code ="FA", LocalName="Fargona", Name="Fargona", Type="Region" },
-            new(){ Code ="JI", LocalName="Jizzax", Name="Jizzax", Type="Region" },
-            new(){ Code ="KH", LocalName="Khorazm", Name="Khorazm", Type="Region" },
-            new(){ Code ="NG", LocalName="Namangan", Name="Namangan", Type="Region" },
-            new(){ Code ="NW", LocalName="Nawoiy", Name="Nawoiy", Type="Region" },
-            new(){ Code ="QA", LocalName="Qashqadaryo", Name="Qashqadaryo", Type="Region" },
-            new(){ Code ="QR", LocalName="Qoraqalpogiston Respublikasi", Name="Qoraqalpogiston Respublikasi", Type="Republic" },
-            new(){ Code ="SA", LocalName="Samarqand", Name="Samarqand", Type="Region" },
-            new(){ Code ="SI", LocalName="Sirdaryo", Name="Sirdaryo", Type="Region" },
-            new(){ Code ="SU", LocalName="Surkhondaryo", Name="Surkhondaryo", Type="Region" },
-            new(){ Code ="TO", LocalName="Toshkent", Name="Toshkent", Type="Region" },
-            new(){ Code ="TK", LocalName="Toshkent", Name="Toshkent", Type="City" },
-            new(){ Code ="XO", LocalName="Xorazm", Name="Xorazm", Type="Region" }
+            new()
+            { 
+                Code = "AN",
+                Type = "Region",
+                Name = "Andijon",
+                LocalName = "Andijon"
+            },
+            new()
+            { 
+                Code = "BU",
+                Type = "Region",
+                Name = "Bukhoro",
+                LocalName = "Bukhoro"
+            },
+            new()
+            { 
+                Code = "FA",
+                Type = "Region",
+                Name = "Fargona",
+                LocalName = "Fargona"
+            },
+            new()
+            { 
+                Code = "JI",
+                Type = "Region",
+                Name = "Jizzax",
+                LocalName = "Jizzax"
+            },
+            new()
+            { 
+                Code = "KH",
+                Type = "Region",
+                Name = "Khorazm",
+                LocalName = "Khorazm"
+            },
+            new()
+            { 
+                Code = "NG",
+                Type = "Region",
+                Name = "Namangan",
+                LocalName = "Namangan"
+            },
+            new()
+            { 
+                Code = "NW",
+                Type = "Region",
+                Name = "Nawoiy",
+                LocalName = "Nawoiy"
+            },
+            new()
+            { 
+                Code = "QA",
+                Type = "Region",
+                Name = "Qashqadaryo",
+                LocalName = "Qashqadaryo"
+            },
+            new()
+            { 
+                Code = "QR",
+                Type = "Republic",
+                Name = "Qoraqalpogiston Respublikasi",
+                LocalName = "Qoraqalpogiston Respublikasi"
+            },
+            new()
+            { 
+                Code = "SA",
+                Type = "Region",
+                Name = "Samarqand",
+                LocalName = "Samarqand"
+            },
+            new()
+            { 
+                Code = "SI",
+                Type = "Region",
+                Name = "Sirdaryo",
+                LocalName = "Sirdaryo"
+            },
+            new()
+            { 
+                Code = "SU",
+                Type = "Region",
+                Name = "Surkhondaryo",
+                LocalName = "Surkhondaryo"
+            },
+            new()
+            { 
+                Code = "TO",
+                Type = "Region",
+                Name = "Toshkent",
+                LocalName = "Toshkent"
+            },
+            new()
+            { 
+                Code = "TK",
+                Type = "City",
+                Name = "Toshkent",
+                LocalName = "Toshkent"
+            },
+            new()
+            { 
+                Code = "XO",
+                Type = "Region",
+                Name = "Xorazm",
+                LocalName = "Xorazm"
+            }
 
         });
     }

@@ -7,12 +7,48 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("BZ", new List<Subdivision>()
         {
-            new(){ Code ="BZ", LocalName="Belize", Name="Belize", Type="District" },
-            new(){ Code ="CY", LocalName="Cayo", Name="Cayo", Type="District" },
-            new(){ Code ="CZL", LocalName="Corozal", Name="Corozal", Type="District" },
-            new(){ Code ="OW", LocalName="Orange Walk", Name="Orange Walk", Type="District" },
-            new(){ Code ="SC", LocalName="Stann Creek", Name="Stann Creek", Type="District" },
-            new(){ Code ="TOL", LocalName="Toledo", Name="Toledo", Type="District" }
+            new()
+            { 
+                Code = "BZ",
+                Type = "District",
+                Name = "Belize",
+                LocalName = "Belize"
+            },
+            new()
+            { 
+                Code = "CY",
+                Type = "District",
+                Name = "Cayo",
+                LocalName = "Cayo"
+            },
+            new()
+            { 
+                Code = "CZL",
+                Type = "District",
+                Name = "Corozal",
+                LocalName = "Corozal"
+            },
+            new()
+            { 
+                Code = "OW",
+                Type = "District",
+                Name = "Orange Walk",
+                LocalName = "Orange Walk"
+            },
+            new()
+            { 
+                Code = "SC",
+                Type = "District",
+                Name = "Stann Creek",
+                LocalName = "Stann Creek"
+            },
+            new()
+            { 
+                Code = "TOL",
+                Type = "District",
+                Name = "Toledo",
+                LocalName = "Toledo"
+            }
 
         });
     }

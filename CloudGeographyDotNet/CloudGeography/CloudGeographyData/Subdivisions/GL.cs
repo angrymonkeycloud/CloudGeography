@@ -7,10 +7,34 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("GL", new List<Subdivision>()
         {
-            new(){ Code ="KU", LocalName="Kommune Kujalleq", Name="Kommune Kujalleq", Type="Municipality" },
-            new(){ Code ="SM", LocalName="Kommuneqarfik Sermersooq", Name="Kommuneqarfik Sermersooq", Type="Municipality" },
-            new(){ Code ="QA", LocalName="Qaasuitsup Kommunia", Name="Qaasuitsup Kommunia", Type="Municipality" },
-            new(){ Code ="QE", LocalName="Qeqqata Kommunia", Name="Qeqqata Kommunia", Type="Municipality" }
+            new()
+            { 
+                Code = "KU",
+                Type = "Municipality",
+                Name = "Kommune Kujalleq",
+                LocalName = "Kommune Kujalleq"
+            },
+            new()
+            { 
+                Code = "SM",
+                Type = "Municipality",
+                Name = "Kommuneqarfik Sermersooq",
+                LocalName = "Kommuneqarfik Sermersooq"
+            },
+            new()
+            { 
+                Code = "QA",
+                Type = "Municipality",
+                Name = "Qaasuitsup Kommunia",
+                LocalName = "Qaasuitsup Kommunia"
+            },
+            new()
+            { 
+                Code = "QE",
+                Type = "Municipality",
+                Name = "Qeqqata Kommunia",
+                LocalName = "Qeqqata Kommunia"
+            }
 
         });
     }

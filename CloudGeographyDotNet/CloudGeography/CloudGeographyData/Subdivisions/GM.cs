@@ -7,12 +7,48 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("GM", new List<Subdivision>()
         {
-            new(){ Code ="B", LocalName="Banjul", Name="Banjul", Type="City" },
-            new(){ Code ="M", LocalName="Central River", Name="Central River", Type="Division" },
-            new(){ Code ="L", LocalName="Lower River", Name="Lower River", Type="Division" },
-            new(){ Code ="N", LocalName="North Bank", Name="North Bank", Type="Division" },
-            new(){ Code ="U", LocalName="Upper River", Name="Upper River", Type="Division" },
-            new(){ Code ="W", LocalName="Western", Name="Western", Type="Division" }
+            new()
+            { 
+                Code = "B",
+                Type = "City",
+                Name = "Banjul",
+                LocalName = "Banjul"
+            },
+            new()
+            { 
+                Code = "M",
+                Type = "Division",
+                Name = "Central River",
+                LocalName = "Central River"
+            },
+            new()
+            { 
+                Code = "L",
+                Type = "Division",
+                Name = "Lower River",
+                LocalName = "Lower River"
+            },
+            new()
+            { 
+                Code = "N",
+                Type = "Division",
+                Name = "North Bank",
+                LocalName = "North Bank"
+            },
+            new()
+            { 
+                Code = "U",
+                Type = "Division",
+                Name = "Upper River",
+                LocalName = "Upper River"
+            },
+            new()
+            { 
+                Code = "W",
+                Type = "Division",
+                Name = "Western",
+                LocalName = "Western"
+            }
 
         });
     }

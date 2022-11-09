@@ -7,20 +7,104 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("KN", new List<Subdivision>()
         {
-            new(){ Code ="1", LocalName="Christ Church Nichola Town", Name="Christ Church Nichola Town", Type="Parish" },
-            new(){ Code ="2", LocalName="Saint Anne Sandy Point", Name="Saint Anne Sandy Point", Type="Parish" },
-            new(){ Code ="3", LocalName="Saint George Basseterre", Name="Saint George Basseterre", Type="Parish" },
-            new(){ Code ="4", LocalName="Saint George Gingerland", Name="Saint George Gingerland", Type="Parish" },
-            new(){ Code ="5", LocalName="Saint James Windward", Name="Saint James Windward", Type="Parish" },
-            new(){ Code ="6", LocalName="Saint John Capisterre", Name="Saint John Capisterre", Type="Parish" },
-            new(){ Code ="7", LocalName="Saint John Figtree", Name="Saint John Figtree", Type="Parish" },
-            new(){ Code ="8", LocalName="Saint Mary Cayon", Name="Saint Mary Cayon", Type="Parish" },
-            new(){ Code ="9", LocalName="Saint Paul Capisterre", Name="Saint Paul Capisterre", Type="Parish" },
-            new(){ Code ="10", LocalName="Saint Paul Charlestown", Name="Saint Paul Charlestown", Type="Parish" },
-            new(){ Code ="11", LocalName="Saint Peter Basseterre", Name="Saint Peter Basseterre", Type="Parish" },
-            new(){ Code ="12", LocalName="Saint Thomas Lowland", Name="Saint Thomas Lowland", Type="Parish" },
-            new(){ Code ="13", LocalName="Saint Thomas Middle Island", Name="Saint Thomas Middle Island", Type="Parish" },
-            new(){ Code ="15", LocalName="Trinity Palmetto Point", Name="Trinity Palmetto Point", Type="Parish" }
+            new()
+            { 
+                Code = "1",
+                Type = "Parish",
+                Name = "Christ Church Nichola Town",
+                LocalName = "Christ Church Nichola Town"
+            },
+            new()
+            { 
+                Code = "2",
+                Type = "Parish",
+                Name = "Saint Anne Sandy Point",
+                LocalName = "Saint Anne Sandy Point"
+            },
+            new()
+            { 
+                Code = "3",
+                Type = "Parish",
+                Name = "Saint George Basseterre",
+                LocalName = "Saint George Basseterre"
+            },
+            new()
+            { 
+                Code = "4",
+                Type = "Parish",
+                Name = "Saint George Gingerland",
+                LocalName = "Saint George Gingerland"
+            },
+            new()
+            { 
+                Code = "5",
+                Type = "Parish",
+                Name = "Saint James Windward",
+                LocalName = "Saint James Windward"
+            },
+            new()
+            { 
+                Code = "6",
+                Type = "Parish",
+                Name = "Saint John Capisterre",
+                LocalName = "Saint John Capisterre"
+            },
+            new()
+            { 
+                Code = "7",
+                Type = "Parish",
+                Name = "Saint John Figtree",
+                LocalName = "Saint John Figtree"
+            },
+            new()
+            { 
+                Code = "8",
+                Type = "Parish",
+                Name = "Saint Mary Cayon",
+                LocalName = "Saint Mary Cayon"
+            },
+            new()
+            { 
+                Code = "9",
+                Type = "Parish",
+                Name = "Saint Paul Capisterre",
+                LocalName = "Saint Paul Capisterre"
+            },
+            new()
+            { 
+                Code = "10",
+                Type = "Parish",
+                Name = "Saint Paul Charlestown",
+                LocalName = "Saint Paul Charlestown"
+            },
+            new()
+            { 
+                Code = "11",
+                Type = "Parish",
+                Name = "Saint Peter Basseterre",
+                LocalName = "Saint Peter Basseterre"
+            },
+            new()
+            { 
+                Code = "12",
+                Type = "Parish",
+                Name = "Saint Thomas Lowland",
+                LocalName = "Saint Thomas Lowland"
+            },
+            new()
+            { 
+                Code = "13",
+                Type = "Parish",
+                Name = "Saint Thomas Middle Island",
+                LocalName = "Saint Thomas Middle Island"
+            },
+            new()
+            { 
+                Code = "15",
+                Type = "Parish",
+                Name = "Trinity Palmetto Point",
+                LocalName = "Trinity Palmetto Point"
+            }
 
         });
     }

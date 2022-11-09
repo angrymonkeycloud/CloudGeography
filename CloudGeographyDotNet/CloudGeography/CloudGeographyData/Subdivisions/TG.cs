@@ -7,11 +7,41 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("TG", new List<Subdivision>()
         {
-            new(){ Code ="C", LocalName="Centrale", Name="Centrale", Type="Region" },
-            new(){ Code ="K", LocalName="Kara", Name="Kara", Type="Region" },
-            new(){ Code ="M", LocalName="Maritime", Name="Maritime", Type="Region" },
-            new(){ Code ="P", LocalName="Plateaux", Name="Plateaux", Type="Region" },
-            new(){ Code ="S", LocalName="Savannes", Name="Savannes", Type="Region" }
+            new()
+            { 
+                Code = "C",
+                Type = "Region",
+                Name = "Centrale",
+                LocalName = "Centrale"
+            },
+            new()
+            { 
+                Code = "K",
+                Type = "Region",
+                Name = "Kara",
+                LocalName = "Kara"
+            },
+            new()
+            { 
+                Code = "M",
+                Type = "Region",
+                Name = "Maritime",
+                LocalName = "Maritime"
+            },
+            new()
+            { 
+                Code = "P",
+                Type = "Region",
+                Name = "Plateaux",
+                LocalName = "Plateaux"
+            },
+            new()
+            { 
+                Code = "S",
+                Type = "Region",
+                Name = "Savannes",
+                LocalName = "Savannes"
+            }
 
         });
     }

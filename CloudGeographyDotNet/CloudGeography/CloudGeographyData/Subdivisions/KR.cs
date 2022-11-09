@@ -7,23 +7,125 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("KR", new List<Subdivision>()
         {
-            new(){ Code ="26", LocalName="Busan Gwang'yeogsi", Name="Busan Gwang'yeogsi", Type="MetropolitanCity" },
-            new(){ Code ="43", LocalName="Chungcheongbugdo", Name="Chungcheongbugdo", Type="Province" },
-            new(){ Code ="44", LocalName="Chungcheongnamdo", Name="Chungcheongnamdo", Type="Province" },
-            new(){ Code ="27", LocalName="Daegu Gwang'yeogsi", Name="Daegu Gwang'yeogsi", Type="MetropolitanCity" },
-            new(){ Code ="30", LocalName="Daejeon Gwang'yeogsi", Name="Daejeon Gwang'yeogsi", Type="MetropolitanCity" },
-            new(){ Code ="42", LocalName="Gang'weondo", Name="Gang'weondo", Type="Province" },
-            new(){ Code ="29", LocalName="Gwangju Gwang'yeogsi", Name="Gwangju Gwang'yeogsi", Type="MetropolitanCity" },
-            new(){ Code ="41", LocalName="Gyeonggido", Name="Gyeonggido", Type="Province" },
-            new(){ Code ="47", LocalName="Gyeongsangbugdo", Name="Gyeongsangbugdo", Type="Province" },
-            new(){ Code ="48", LocalName="Gyeongsangnamdo", Name="Gyeongsangnamdo", Type="Province" },
-            new(){ Code ="28", LocalName="Incheon Gwang'yeogsi", Name="Incheon Gwang'yeogsi", Type="MetropolitanCity" },
-            new(){ Code ="49", LocalName="Jeju-teukbyeoljachido", Name="Jeju-teukbyeoljachido", Type="Province" },
-            new(){ Code ="45", LocalName="Jeonrabugdo", Name="Jeonrabugdo", Type="Province" },
-            new(){ Code ="46", LocalName="Jeonranamdo", Name="Jeonranamdo", Type="Province" },
-            new(){ Code ="50", LocalName="Sejong", Name="Sejong", Type="City" },
-            new(){ Code ="11", LocalName="Seoul-teukbyeolsi", Name="Seoul-teukbyeolsi", Type="SpecialCity" },
-            new(){ Code ="31", LocalName="Ulsan Gwang'yeogsi", Name="Ulsan Gwang'yeogsi", Type="MetropolitanCity" }
+            new()
+            { 
+                Code = "26",
+                Type = "MetropolitanCity",
+                Name = "Busan Gwang'yeogsi",
+                LocalName = "Busan Gwang'yeogsi"
+            },
+            new()
+            { 
+                Code = "43",
+                Type = "Province",
+                Name = "Chungcheongbugdo",
+                LocalName = "Chungcheongbugdo"
+            },
+            new()
+            { 
+                Code = "44",
+                Type = "Province",
+                Name = "Chungcheongnamdo",
+                LocalName = "Chungcheongnamdo"
+            },
+            new()
+            { 
+                Code = "27",
+                Type = "MetropolitanCity",
+                Name = "Daegu Gwang'yeogsi",
+                LocalName = "Daegu Gwang'yeogsi"
+            },
+            new()
+            { 
+                Code = "30",
+                Type = "MetropolitanCity",
+                Name = "Daejeon Gwang'yeogsi",
+                LocalName = "Daejeon Gwang'yeogsi"
+            },
+            new()
+            { 
+                Code = "42",
+                Type = "Province",
+                Name = "Gang'weondo",
+                LocalName = "Gang'weondo"
+            },
+            new()
+            { 
+                Code = "29",
+                Type = "MetropolitanCity",
+                Name = "Gwangju Gwang'yeogsi",
+                LocalName = "Gwangju Gwang'yeogsi"
+            },
+            new()
+            { 
+                Code = "41",
+                Type = "Province",
+                Name = "Gyeonggido",
+                LocalName = "Gyeonggido"
+            },
+            new()
+            { 
+                Code = "47",
+                Type = "Province",
+                Name = "Gyeongsangbugdo",
+                LocalName = "Gyeongsangbugdo"
+            },
+            new()
+            { 
+                Code = "48",
+                Type = "Province",
+                Name = "Gyeongsangnamdo",
+                LocalName = "Gyeongsangnamdo"
+            },
+            new()
+            { 
+                Code = "28",
+                Type = "MetropolitanCity",
+                Name = "Incheon Gwang'yeogsi",
+                LocalName = "Incheon Gwang'yeogsi"
+            },
+            new()
+            { 
+                Code = "49",
+                Type = "Province",
+                Name = "Jeju-teukbyeoljachido",
+                LocalName = "Jeju-teukbyeoljachido"
+            },
+            new()
+            { 
+                Code = "45",
+                Type = "Province",
+                Name = "Jeonrabugdo",
+                LocalName = "Jeonrabugdo"
+            },
+            new()
+            { 
+                Code = "46",
+                Type = "Province",
+                Name = "Jeonranamdo",
+                LocalName = "Jeonranamdo"
+            },
+            new()
+            { 
+                Code = "50",
+                Type = "City",
+                Name = "Sejong",
+                LocalName = "Sejong"
+            },
+            new()
+            { 
+                Code = "11",
+                Type = "SpecialCity",
+                Name = "Seoul-teukbyeolsi",
+                LocalName = "Seoul-teukbyeolsi"
+            },
+            new()
+            { 
+                Code = "31",
+                Type = "MetropolitanCity",
+                Name = "Ulsan Gwang'yeogsi",
+                LocalName = "Ulsan Gwang'yeogsi"
+            }
 
         });
     }

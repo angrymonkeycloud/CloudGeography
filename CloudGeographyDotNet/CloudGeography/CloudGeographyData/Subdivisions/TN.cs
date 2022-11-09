@@ -7,30 +7,174 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("TN", new List<Subdivision>()
         {
-            new(){ Code ="31", LocalName="Béja", Name="Béja", Type="Governorate" },
-            new(){ Code ="13", LocalName="Ben Arous", Name="Ben Arous", Type="Governorate" },
-            new(){ Code ="23", LocalName="Bizerte", Name="Bizerte", Type="Governorate" },
-            new(){ Code ="81", LocalName="Gabès", Name="Gabès", Type="Governorate" },
-            new(){ Code ="71", LocalName="Gafsa", Name="Gafsa", Type="Governorate" },
-            new(){ Code ="32", LocalName="Jendouba", Name="Jendouba", Type="Governorate" },
-            new(){ Code ="41", LocalName="Kairouan", Name="Kairouan", Type="Governorate" },
-            new(){ Code ="42", LocalName="Kasserine", Name="Kasserine", Type="Governorate" },
-            new(){ Code ="73", LocalName="Kébili", Name="Kébili", Type="Governorate" },
-            new(){ Code ="14", LocalName="La Manouba", Name="La Manouba", Type="Governorate" },
-            new(){ Code ="12", LocalName="L'Ariana", Name="L'Ariana", Type="Governorate" },
-            new(){ Code ="33", LocalName="Le Kef", Name="Le Kef", Type="Governorate" },
-            new(){ Code ="53", LocalName="Mahdia", Name="Mahdia", Type="Governorate" },
-            new(){ Code ="82", LocalName="Médenine", Name="Médenine", Type="Governorate" },
-            new(){ Code ="52", LocalName="Monastir", Name="Monastir", Type="Governorate" },
-            new(){ Code ="21", LocalName="Nabeul", Name="Nabeul", Type="Governorate" },
-            new(){ Code ="61", LocalName="Sfax", Name="Sfax", Type="Governorate" },
-            new(){ Code ="43", LocalName="Sidi Bouzid", Name="Sidi Bouzid", Type="Governorate" },
-            new(){ Code ="34", LocalName="Siliana", Name="Siliana", Type="Governorate" },
-            new(){ Code ="51", LocalName="Sousse", Name="Sousse", Type="Governorate" },
-            new(){ Code ="83", LocalName="Tataouine", Name="Tataouine", Type="Governorate" },
-            new(){ Code ="72", LocalName="Tozeur", Name="Tozeur", Type="Governorate" },
-            new(){ Code ="11", LocalName="Tunis", Name="Tunis", Type="Governorate" },
-            new(){ Code ="22", LocalName="Zaghouan", Name="Zaghouan", Type="Governorate" }
+            new()
+            { 
+                Code = "31",
+                Type = "Governorate",
+                Name = "Béja",
+                LocalName = "Béja"
+            },
+            new()
+            { 
+                Code = "13",
+                Type = "Governorate",
+                Name = "Ben Arous",
+                LocalName = "Ben Arous"
+            },
+            new()
+            { 
+                Code = "23",
+                Type = "Governorate",
+                Name = "Bizerte",
+                LocalName = "Bizerte"
+            },
+            new()
+            { 
+                Code = "81",
+                Type = "Governorate",
+                Name = "Gabès",
+                LocalName = "Gabès"
+            },
+            new()
+            { 
+                Code = "71",
+                Type = "Governorate",
+                Name = "Gafsa",
+                LocalName = "Gafsa"
+            },
+            new()
+            { 
+                Code = "32",
+                Type = "Governorate",
+                Name = "Jendouba",
+                LocalName = "Jendouba"
+            },
+            new()
+            { 
+                Code = "41",
+                Type = "Governorate",
+                Name = "Kairouan",
+                LocalName = "Kairouan"
+            },
+            new()
+            { 
+                Code = "42",
+                Type = "Governorate",
+                Name = "Kasserine",
+                LocalName = "Kasserine"
+            },
+            new()
+            { 
+                Code = "73",
+                Type = "Governorate",
+                Name = "Kébili",
+                LocalName = "Kébili"
+            },
+            new()
+            { 
+                Code = "14",
+                Type = "Governorate",
+                Name = "La Manouba",
+                LocalName = "La Manouba"
+            },
+            new()
+            { 
+                Code = "12",
+                Type = "Governorate",
+                Name = "L'Ariana",
+                LocalName = "L'Ariana"
+            },
+            new()
+            { 
+                Code = "33",
+                Type = "Governorate",
+                Name = "Le Kef",
+                LocalName = "Le Kef"
+            },
+            new()
+            { 
+                Code = "53",
+                Type = "Governorate",
+                Name = "Mahdia",
+                LocalName = "Mahdia"
+            },
+            new()
+            { 
+                Code = "82",
+                Type = "Governorate",
+                Name = "Médenine",
+                LocalName = "Médenine"
+            },
+            new()
+            { 
+                Code = "52",
+                Type = "Governorate",
+                Name = "Monastir",
+                LocalName = "Monastir"
+            },
+            new()
+            { 
+                Code = "21",
+                Type = "Governorate",
+                Name = "Nabeul",
+                LocalName = "Nabeul"
+            },
+            new()
+            { 
+                Code = "61",
+                Type = "Governorate",
+                Name = "Sfax",
+                LocalName = "Sfax"
+            },
+            new()
+            { 
+                Code = "43",
+                Type = "Governorate",
+                Name = "Sidi Bouzid",
+                LocalName = "Sidi Bouzid"
+            },
+            new()
+            { 
+                Code = "34",
+                Type = "Governorate",
+                Name = "Siliana",
+                LocalName = "Siliana"
+            },
+            new()
+            { 
+                Code = "51",
+                Type = "Governorate",
+                Name = "Sousse",
+                LocalName = "Sousse"
+            },
+            new()
+            { 
+                Code = "83",
+                Type = "Governorate",
+                Name = "Tataouine",
+                LocalName = "Tataouine"
+            },
+            new()
+            { 
+                Code = "72",
+                Type = "Governorate",
+                Name = "Tozeur",
+                LocalName = "Tozeur"
+            },
+            new()
+            { 
+                Code = "11",
+                Type = "Governorate",
+                Name = "Tunis",
+                LocalName = "Tunis"
+            },
+            new()
+            { 
+                Code = "22",
+                Type = "Governorate",
+                Name = "Zaghouan",
+                LocalName = "Zaghouan"
+            }
 
         });
     }

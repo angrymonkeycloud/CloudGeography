@@ -7,12 +7,48 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("IL", new List<Subdivision>()
         {
-            new(){ Code ="M", LocalName="Al Awsat", Name="Al Awsat", Type="District" },
-            new(){ Code ="D", LocalName="Al Janubi", Name="Al Janubi", Type="District" },
-            new(){ Code ="Z", LocalName="Ash Shamali", Name="Ash Shamali", Type="District" },
-            new(){ Code ="HA", LocalName="H_efa", Name="H_efa", Type="District" },
-            new(){ Code ="TA", LocalName="Tel-Aviv", Name="Tel-Aviv", Type="District" },
-            new(){ Code ="JM", LocalName="Yerushalayim", Name="Yerushalayim", Type="District" }
+            new()
+            { 
+                Code = "M",
+                Type = "District",
+                Name = "Al Awsat",
+                LocalName = "Al Awsat"
+            },
+            new()
+            { 
+                Code = "D",
+                Type = "District",
+                Name = "Al Janubi",
+                LocalName = "Al Janubi"
+            },
+            new()
+            { 
+                Code = "Z",
+                Type = "District",
+                Name = "Ash Shamali",
+                LocalName = "Ash Shamali"
+            },
+            new()
+            { 
+                Code = "HA",
+                Type = "District",
+                Name = "H_efa",
+                LocalName = "H_efa"
+            },
+            new()
+            { 
+                Code = "TA",
+                Type = "District",
+                Name = "Tel-Aviv",
+                LocalName = "Tel-Aviv"
+            },
+            new()
+            { 
+                Code = "JM",
+                Type = "District",
+                Name = "Yerushalayim",
+                LocalName = "Yerushalayim"
+            }
 
         });
     }

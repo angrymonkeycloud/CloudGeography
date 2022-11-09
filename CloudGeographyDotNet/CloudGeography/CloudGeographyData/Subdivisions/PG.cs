@@ -7,28 +7,160 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("PG", new List<Subdivision>()
         {
-            new(){ Code ="NSB", LocalName="Bougainville", Name="Bougainville", Type="Region" },
-            new(){ Code ="CPM", LocalName="Central", Name="Central", Type="Province" },
-            new(){ Code ="CPK", LocalName="Chimbu", Name="Chimbu", Type="Province" },
-            new(){ Code ="EBR", LocalName="East New Britain", Name="East New Britain", Type="Province" },
-            new(){ Code ="ESW", LocalName="East Sepik", Name="East Sepik", Type="Province" },
-            new(){ Code ="EHG", LocalName="Eastern Highlands", Name="Eastern Highlands", Type="Province" },
-            new(){ Code ="EPW", LocalName="Enga", Name="Enga", Type="Province" },
-            new(){ Code ="GPK", LocalName="Gulf", Name="Gulf", Type="Province" },
-            new(){ Code ="HLA", LocalName="Hela", Name="Hela", Type="Province" },
-            new(){ Code ="JWK", LocalName="Jiwaka", Name="Jiwaka", Type="Province" },
-            new(){ Code ="MPM", LocalName="Madang", Name="Madang", Type="Province" },
-            new(){ Code ="MRL", LocalName="Manus", Name="Manus", Type="Province" },
-            new(){ Code ="MBA", LocalName="Milne Bay", Name="Milne Bay", Type="Province" },
-            new(){ Code ="MPL", LocalName="Morobe", Name="Morobe", Type="Province" },
-            new(){ Code ="NCD", LocalName="National Capital District", Name="National Capital District", Type="District" },
-            new(){ Code ="NIK", LocalName="New Ireland", Name="New Ireland", Type="Province" },
-            new(){ Code ="NPP", LocalName="Northern", Name="Northern", Type="Province" },
-            new(){ Code ="SHM", LocalName="Southern Highlands", Name="Southern Highlands", Type="Province" },
-            new(){ Code ="WBK", LocalName="West New Britain", Name="West New Britain", Type="Province" },
-            new(){ Code ="SAN", LocalName="West Sepik", Name="West Sepik", Type="Province" },
-            new(){ Code ="WPD", LocalName="Western", Name="Western", Type="Province" },
-            new(){ Code ="WHM", LocalName="Western Highlands", Name="Western Highlands", Type="Province" }
+            new()
+            { 
+                Code = "NSB",
+                Type = "Region",
+                Name = "Bougainville",
+                LocalName = "Bougainville"
+            },
+            new()
+            { 
+                Code = "CPM",
+                Type = "Province",
+                Name = "Central",
+                LocalName = "Central"
+            },
+            new()
+            { 
+                Code = "CPK",
+                Type = "Province",
+                Name = "Chimbu",
+                LocalName = "Chimbu"
+            },
+            new()
+            { 
+                Code = "EBR",
+                Type = "Province",
+                Name = "East New Britain",
+                LocalName = "East New Britain"
+            },
+            new()
+            { 
+                Code = "ESW",
+                Type = "Province",
+                Name = "East Sepik",
+                LocalName = "East Sepik"
+            },
+            new()
+            { 
+                Code = "EHG",
+                Type = "Province",
+                Name = "Eastern Highlands",
+                LocalName = "Eastern Highlands"
+            },
+            new()
+            { 
+                Code = "EPW",
+                Type = "Province",
+                Name = "Enga",
+                LocalName = "Enga"
+            },
+            new()
+            { 
+                Code = "GPK",
+                Type = "Province",
+                Name = "Gulf",
+                LocalName = "Gulf"
+            },
+            new()
+            { 
+                Code = "HLA",
+                Type = "Province",
+                Name = "Hela",
+                LocalName = "Hela"
+            },
+            new()
+            { 
+                Code = "JWK",
+                Type = "Province",
+                Name = "Jiwaka",
+                LocalName = "Jiwaka"
+            },
+            new()
+            { 
+                Code = "MPM",
+                Type = "Province",
+                Name = "Madang",
+                LocalName = "Madang"
+            },
+            new()
+            { 
+                Code = "MRL",
+                Type = "Province",
+                Name = "Manus",
+                LocalName = "Manus"
+            },
+            new()
+            { 
+                Code = "MBA",
+                Type = "Province",
+                Name = "Milne Bay",
+                LocalName = "Milne Bay"
+            },
+            new()
+            { 
+                Code = "MPL",
+                Type = "Province",
+                Name = "Morobe",
+                LocalName = "Morobe"
+            },
+            new()
+            { 
+                Code = "NCD",
+                Type = "District",
+                Name = "National Capital District",
+                LocalName = "National Capital District"
+            },
+            new()
+            { 
+                Code = "NIK",
+                Type = "Province",
+                Name = "New Ireland",
+                LocalName = "New Ireland"
+            },
+            new()
+            { 
+                Code = "NPP",
+                Type = "Province",
+                Name = "Northern",
+                LocalName = "Northern"
+            },
+            new()
+            { 
+                Code = "SHM",
+                Type = "Province",
+                Name = "Southern Highlands",
+                LocalName = "Southern Highlands"
+            },
+            new()
+            { 
+                Code = "WBK",
+                Type = "Province",
+                Name = "West New Britain",
+                LocalName = "West New Britain"
+            },
+            new()
+            { 
+                Code = "SAN",
+                Type = "Province",
+                Name = "West Sepik",
+                LocalName = "West Sepik"
+            },
+            new()
+            { 
+                Code = "WPD",
+                Type = "Province",
+                Name = "Western",
+                LocalName = "Western"
+            },
+            new()
+            { 
+                Code = "WHM",
+                Type = "Province",
+                Name = "Western Highlands",
+                LocalName = "Western Highlands"
+            }
 
         });
     }

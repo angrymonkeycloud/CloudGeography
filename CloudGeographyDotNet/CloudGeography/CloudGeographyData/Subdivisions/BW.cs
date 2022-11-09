@@ -7,16 +7,76 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("BW", new List<Subdivision>()
         {
-            new(){ Code ="CE", LocalName="Central", Name="Central", Type="District" },
-            new(){ Code ="CH", LocalName="Chobe", Name="Chobe", Type="District" },
-            new(){ Code ="GH", LocalName="Ghanzi", Name="Ghanzi", Type="District" },
-            new(){ Code ="KG", LocalName="Kgalagadi", Name="Kgalagadi", Type="District" },
-            new(){ Code ="KL", LocalName="Kgatleng", Name="Kgatleng", Type="District" },
-            new(){ Code ="KW", LocalName="Kweneng", Name="Kweneng", Type="District" },
-            new(){ Code ="NE", LocalName="North East", Name="North East", Type="District" },
-            new(){ Code ="NW", LocalName="North West", Name="North West", Type="District" },
-            new(){ Code ="SE", LocalName="South East", Name="South East", Type="District" },
-            new(){ Code ="SO", LocalName="Southern", Name="Southern", Type="District" }
+            new()
+            { 
+                Code = "CE",
+                Type = "District",
+                Name = "Central",
+                LocalName = "Central"
+            },
+            new()
+            { 
+                Code = "CH",
+                Type = "District",
+                Name = "Chobe",
+                LocalName = "Chobe"
+            },
+            new()
+            { 
+                Code = "GH",
+                Type = "District",
+                Name = "Ghanzi",
+                LocalName = "Ghanzi"
+            },
+            new()
+            { 
+                Code = "KG",
+                Type = "District",
+                Name = "Kgalagadi",
+                LocalName = "Kgalagadi"
+            },
+            new()
+            { 
+                Code = "KL",
+                Type = "District",
+                Name = "Kgatleng",
+                LocalName = "Kgatleng"
+            },
+            new()
+            { 
+                Code = "KW",
+                Type = "District",
+                Name = "Kweneng",
+                LocalName = "Kweneng"
+            },
+            new()
+            { 
+                Code = "NE",
+                Type = "District",
+                Name = "North East",
+                LocalName = "North East"
+            },
+            new()
+            { 
+                Code = "NW",
+                Type = "District",
+                Name = "North West",
+                LocalName = "North West"
+            },
+            new()
+            { 
+                Code = "SE",
+                Type = "District",
+                Name = "South East",
+                LocalName = "South East"
+            },
+            new()
+            { 
+                Code = "SO",
+                Type = "District",
+                Name = "Southern",
+                LocalName = "Southern"
+            }
 
         });
     }

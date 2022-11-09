@@ -7,15 +7,69 @@ public partial class CloudGeographyClient
     {
         AddSubdivisions("SR", new List<Subdivision>()
         {
-            new(){ Code ="BR", LocalName="Brokopondo", Name="Brokopondo", Type="District" },
-            new(){ Code ="CM", LocalName="Commewijne", Name="Commewijne", Type="District" },
-            new(){ Code ="CR", LocalName="Coronie", Name="Coronie", Type="District" },
-            new(){ Code ="MA", LocalName="Marowijne", Name="Marowijne", Type="District" },
-            new(){ Code ="NI", LocalName="Nickerie", Name="Nickerie", Type="District" },
-            new(){ Code ="PR", LocalName="Para", Name="Para", Type="District" },
-            new(){ Code ="SA", LocalName="Saramacca", Name="Saramacca", Type="District" },
-            new(){ Code ="SI", LocalName="Sipaliwini", Name="Sipaliwini", Type="District" },
-            new(){ Code ="WA", LocalName="Wanica", Name="Wanica", Type="District" }
+            new()
+            { 
+                Code = "BR",
+                Type = "District",
+                Name = "Brokopondo",
+                LocalName = "Brokopondo"
+            },
+            new()
+            { 
+                Code = "CM",
+                Type = "District",
+                Name = "Commewijne",
+                LocalName = "Commewijne"
+            },
+            new()
+            { 
+                Code = "CR",
+                Type = "District",
+                Name = "Coronie",
+                LocalName = "Coronie"
+            },
+            new()
+            { 
+                Code = "MA",
+                Type = "District",
+                Name = "Marowijne",
+                LocalName = "Marowijne"
+            },
+            new()
+            { 
+                Code = "NI",
+                Type = "District",
+                Name = "Nickerie",
+                LocalName = "Nickerie"
+            },
+            new()
+            { 
+                Code = "PR",
+                Type = "District",
+                Name = "Para",
+                LocalName = "Para"
+            },
+            new()
+            { 
+                Code = "SA",
+                Type = "District",
+                Name = "Saramacca",
+                LocalName = "Saramacca"
+            },
+            new()
+            { 
+                Code = "SI",
+                Type = "District",
+                Name = "Sipaliwini",
+                LocalName = "Sipaliwini"
+            },
+            new()
+            { 
+                Code = "WA",
+                Type = "District",
+                Name = "Wanica",
+                LocalName = "Wanica"
+            }
 
         });
     }
