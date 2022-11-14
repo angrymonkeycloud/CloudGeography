@@ -22,7 +22,9 @@ Currency Currency = client.Currencies.Get("USD");
 
 
 ```cs
-List<Currency> Currencies = client.Currencies.Get(new[] { "AFN", "USD" });
+string[] currencyCodes = new(){"AFN", "USD"};
+
+List<Currency> Currencies = client.Currencies.Get(new[] {currencyCodes});
 ```
 
 

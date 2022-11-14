@@ -32,7 +32,7 @@ namespace CloudGeography.Test
         {
             CloudGeographyClient client = new();
             List<TimeZoneInfo> timeZones = client.TimeZones.Get(new[]{ "Hawaiian Standard Time", "Middle East Standard Time", "Greenland Standard Time" });
-
+            
             List<string> input =new() { "Hawaiian Standard Time", "Middle East Standard Time","Greenland Standard Time" };
             List<TimeZoneInfo> expectedList = TimeZoneInfo.GetSystemTimeZones().ToList().Where(TZ => input.Any(key => key == TZ.Id)).ToList();
 
@@ -44,7 +44,7 @@ namespace CloudGeography.Test
         public void Get_Current_Time_Of_TimeZoneID()
         {
             CloudGeographyClient client = new();
-            DateTime dateTime = client.TimeZones.GetDateTime("Eastern Standard Time");
+            DateTime dateTime = client.TimeZones.GetTime("Eastern Standard Time");
 
             DateTime expextedValue = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time"));
 
@@ -56,9 +56,13 @@ namespace CloudGeography.Test
         public void Convert_UTC_Time_To_TimeZone_By_TimeZone_Id()
         {
             CloudGeographyClient client = new();
-            DateTime convertedTime = client.TimeZones.GetDateTime(DateTime.Parse("2022-11-09 10:00:00 AM"), "Middle East Standard Time");
+            string toTimeZone = "Middle East Standard Time";
+            DateTime timeToConvert = DateTime.Parse("2022-11-09 12:00:00 PM");
 
-            DateTime expectedTime = DateTime.Parse("2022-11-09 12:00:00 PM");
+
+            DateTime convertedTime = client.TimeZones.GetTime(toTimeZone, timeToConvert);
+
+            DateTime expectedTime = DateTime.Parse("2022-11-09 2:00:00 PM");
 
             Assert.IsTrue(expectedTime >= convertedTime);
             Assert.IsTrue(expectedTime <= convertedTime.AddMinutes(0.1));
@@ -68,7 +72,11 @@ namespace CloudGeography.Test
         public void Convert_UTC_Time_From_TimeZone_To_TimeZone()
         {
             CloudGeographyClient client = new();
-            DateTime dateTime = client.TimeZones.GetDateTime(DateTime.Parse("2022-11-08 12:00:00 PM"), "Middle East Standard Time", "Afghanistan Standard Time");
+            string toTimeZone = "Afghanistan Standard Time";
+            string fromTimeZone = "Middle East Standard Time";
+            DateTime timeToConvert = DateTime.Parse("2022-11-08 12:00:00 PM");
+
+            DateTime dateTime = client.TimeZones.GetTime(toTimeZone, timeToConvert, fromTimeZone);
 
             DateTime expextedValue = TimeZoneInfo.ConvertTime(DateTime.Parse("2022-11-08 12:00:00 PM"), TimeZoneInfo.FindSystemTimeZoneById("Middle East Standard Time"), TimeZoneInfo.FindSystemTimeZoneById("Afghanistan Standard Time"));
 

@@ -27,10 +27,14 @@ Country country = client.Countries.Get("USA");
 
 ```cs
 //by 2 letters code
-List<Country> countries = client.Countries.Get(new[] {"CA", "US"});
+string [] twoLettersCountryCodes = new {"CA", "US"};
+
+List<Country> countries = client.Countries.Get(twoLettersCountryCodes);
 
 //by 3 letters code
-List<Country> countries = client.Countries.Get(new[] {"CAN", "USA"});
+string [] threeLettersCountryCodes = new {"CAN", "USA"};
+
+List<Country> countries = client.Countries.Get(threeLettersCountryCodes);
 ```
 
 

@@ -87,10 +87,14 @@ Country country = client.Countries.Get("USA");
 
 ```cs
 //by 2 letters code
-List<Country> countries = client.Countries.Get(new[] {"CA", "US"});
+string [] twoLettersCountryCodes = new {"CA", "US"};
+
+List<Country> countries = client.Countries.Get(twoLettersCountryCodes);
 
 //by 3 letters code
-List<Country> countries = client.Countries.Get(new[] {"CAN", "USA"});
+string [] threeLettersCountryCodes = new {"CAN", "USA"};
+
+List<Country> countries = client.Countries.Get(threeLettersCountryCodes);
 ```
 
 
@@ -127,7 +131,9 @@ Currency Currency = client.Currencies.Get("USD");
 
 
 ```cs
-List<Currency> Currencies = client.Currencies.Get(new[] { "AFN", "USD" });
+string[] currencyCodes = new(){"AFN", "USD"};
+
+List<Currency> Currencies = client.Currencies.Get(new[] {currencyCodes});
 ```
 
 
@@ -161,7 +167,9 @@ List<Language> languages = client.Languages.Get();
 
 
 ```cs
-List<Language> languages = client.Languages.Get(new[]{"USA","CA"});
+string[] languageCodes = new(){"USA","CA"};
+
+List<Language> languages = client.Languages.Get(languageCodes);
 ```
 
 
@@ -198,7 +206,9 @@ List<Subdivision> subdivisions = client.Subdivisions.Get("US");
 #### Get all subdivisions by country and subdivision code
 
 ```cs
-List<Subdivision> subdivisions = client.Subdivisions.Get("US", new[] { "AL", "AK", "AZ" });
+string []  subdivisionCodes = new(){"AL", "AK", "AZ" };
+
+List<Subdivision> subdivisions = client.Subdivisions.Get("US", subdivisionCodes);
 ```
 
 #### Get a subdivisions by country and subdivision code
@@ -208,7 +218,7 @@ List<Subdivision> subdivisions = client.Subdivisions.Get("US", "AL");
 ```
 ### For TimeZones:
 ---
-#### Get all timeZones
+#### Get all timezone
 
 
 ```cs
@@ -216,21 +226,14 @@ List<TimeZoneInfo> timeZones = client.TimeZones.Get();
 ```
 
 
-#### Get timeZones by timeZone codes
+#### Get timezone by timezone Ids
 
 
 ```cs
-List<TimeZoneInfo> timeZones = client.TimeZones.Get(new[]{ "Hawaiian Standard Time", "Middle East Standard Time", "Greenland Standard Time" });
+string[] timeZonesIds = new[] {"Hawaiian Standard Time", "Middle East Standard Time", "Greenland Standard Time"};
+
+List<TimeZoneInfo> timeZones = client.TimeZones.Get(timeZonesIds);
 ```
-
-
-#### Get current time of a timeZone by timeZone id
-
-
-```cs
-DateTime dateTime = client.TimeZones.GetDateTime("Eastern Standard Time");
-```
-
 #### Get timezones by country code
 
 
@@ -239,18 +242,36 @@ List<CountryTimeZone> timeZones = client.TimeZones.GetByCountry("LB");
 ```
 
 
-#### Convert UTC time to a timeZone time by timeZone id
+#### Get current time of a timezone by timezone id
 
 
 ```cs
-DateTime convertedTime = client.TimeZones.GetDateTime(DateTime.Parse("2022-11-09 10:00:00 AM"), "Eastern Standard Time");
+string toTimeZone = "Eastern Standard Time";
+
+DateTime convertedTime = client.TimeZones.GetTime(toTimeZone);
 ```
 
-#### Convert time from a timeZone to another timeZone time by timeZone ids
+
+
+#### Convert UTC time to a timezone time by timezone id
 
 
 ```cs
-DateTime convertedTime = client.TimeZones.GetDateTime(DateTime.Parse("2022-11-08 12:00:00 PM"), "Middle East Standard Time", "Eastern Standard Time");
+string toTimeZone = "Eastern Standard Time";
+DateTime UTCTime = DateTime.Parse("2022-11-09 10:00:00 AM");
+
+DateTime convertedTime = client.TimeZones.GetTime(toTimeZone , UTCTime);
+```
+
+#### Convert time from a timezone to another timezone time by timezone ids
+
+
+```cs
+string toTimeZone = "Afghanistan Standard Time";
+string fromTimeZone = "Middle East Standard Time";
+DateTime timeToConvert = DateTime.Parse("2022-11-08 12:00:00 PM")
+
+DateTime convertedTime = client.TimeZones.GetTime(toTimeZone, timeToConvert, fromTimeZone);
 ```
 
 ### For Money:

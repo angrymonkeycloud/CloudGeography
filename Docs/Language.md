@@ -14,7 +14,9 @@ List<Language> languages = client.Languages.Get();
 
 
 ```cs
-List<Language> languages = client.Languages.Get(new[]{"USA","CA"});
+string[] languageCodes = new(){"USA","CA"};
+
+List<Language> languages = client.Languages.Get(languageCodes);
 ```
 
 

@@ -15,15 +15,15 @@ public partial class CloudGeographyClient
 
         internal TimeZonesMethods(CloudGeographyClient client) => Client = client;
 
-        public List<TimeZoneInfo> Get(params string[] timeZoneCodes) => timeZoneCodes.Any() ? TimeZoneInfo.GetSystemTimeZones().ToList().Where(TimeZone => timeZoneCodes.Any(key => key == TimeZone.Id) ).ToList() : TimeZoneInfo.GetSystemTimeZones().ToList();
+        public List<TimeZoneInfo> Get(params string[] timeZoneCodes) => timeZoneCodes.Any() ? TimeZoneInfo.GetSystemTimeZones().ToList().Where(TimeZone => timeZoneCodes.Any(key => key == TimeZone.Id)).ToList() : TimeZoneInfo.GetSystemTimeZones().ToList();
 
-        public DateTime GetDateTime(string timeZoneId) => TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, TimeZoneInfo.FindSystemTimeZoneById(timeZoneId));
+        public DateTime GetTime(string toTimeZoneId) => TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, TimeZoneInfo.FindSystemTimeZoneById(toTimeZoneId));
 
-        public DateTime GetDateTime(DateTime dateTime, string timeZoneId) => TimeZoneInfo.ConvertTimeFromUtc(dateTime, TimeZoneInfo.FindSystemTimeZoneById(timeZoneId));
+        public DateTime GetTime(string toTimeZoneId, DateTime dateTime) => TimeZoneInfo.ConvertTimeFromUtc(dateTime, TimeZoneInfo.FindSystemTimeZoneById(toTimeZoneId));
 
-        public DateTime GetDateTime(DateTime dateTime, string fromTimeZoneId, string toTimeZoneId) => TimeZoneInfo.ConvertTime(dateTime, TimeZoneInfo.FindSystemTimeZoneById(fromTimeZoneId), TimeZoneInfo.FindSystemTimeZoneById(toTimeZoneId));
+        public DateTime GetTime(string toTimeZoneId, DateTime dateTime, string fromTimeZoneId) => TimeZoneInfo.ConvertTime(dateTime, TimeZoneInfo.FindSystemTimeZoneById(fromTimeZoneId), TimeZoneInfo.FindSystemTimeZoneById(toTimeZoneId));
 
-        public List<CountryTimeZone>? GetByCountry(string countryCode) => Client.Countries.Get(countryCode).TimeZones;
+        public List<CountryTimeZone>? GetByCountry(string countryCode) => Client.Countries.Get(countryCode)?.TimeZones;
 
     }
 }
