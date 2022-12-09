@@ -41,8 +41,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "TK"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -93,8 +93,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FI"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -140,8 +140,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "SQ"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -197,8 +197,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -254,8 +254,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "TO"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -316,8 +316,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -363,8 +363,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "PT"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -410,8 +410,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -462,8 +462,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "RU"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -552,8 +552,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -614,8 +614,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "AR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -671,8 +671,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -723,8 +723,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "PAP"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -770,8 +770,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -845,8 +845,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "DE"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -892,8 +892,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "AZ"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -939,8 +939,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -991,8 +991,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -1043,8 +1043,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -1090,8 +1090,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -1142,8 +1142,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "BE"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                 },
@@ -1184,8 +1184,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "DE"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -1236,8 +1236,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "ES"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -1283,8 +1283,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -1330,8 +1330,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -1382,8 +1382,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -1444,8 +1444,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "ES"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -1506,8 +1506,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -1563,8 +1563,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "SR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -1615,8 +1615,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "TN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -1662,8 +1662,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "PT"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -1737,8 +1737,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -1799,8 +1799,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -1856,8 +1856,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "AR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -1918,8 +1918,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "BG"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -1970,8 +1970,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "FF"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -2027,8 +2027,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -2079,8 +2079,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "KEA"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -2136,8 +2136,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -2208,8 +2208,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "DE"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -2260,8 +2260,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -2347,8 +2347,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -2399,8 +2399,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "SG"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -2451,8 +2451,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -2498,8 +2498,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "ES"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -2553,8 +2553,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "ZH"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -2604,8 +2604,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -2651,8 +2651,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -2698,8 +2698,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "ES"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -2750,8 +2750,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -2802,8 +2802,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "LN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -2864,8 +2864,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "LU"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -2915,8 +2915,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -2977,8 +2977,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "ES"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -3024,8 +3024,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -3071,8 +3071,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "HR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -3118,8 +3118,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "ES"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -3190,8 +3190,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -3247,8 +3247,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "HY"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -3299,8 +3299,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "SK"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -3346,8 +3346,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "DA"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -3398,8 +3398,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "AR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -3445,8 +3445,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -3492,8 +3492,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "ES"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -3539,8 +3539,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "ES"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -3590,8 +3590,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "AR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -3637,8 +3637,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "ES"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -3689,8 +3689,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -3746,8 +3746,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -3793,8 +3793,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "ET"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -3840,8 +3840,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "AM"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -3887,8 +3887,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -3934,8 +3934,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FO"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -4006,8 +4006,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "UR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -4058,8 +4058,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "SV"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -4105,8 +4105,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -4152,8 +4152,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -4199,8 +4199,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -4254,8 +4254,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -4301,8 +4301,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -4348,8 +4348,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "KA"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -4395,8 +4395,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "DE"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -4442,8 +4442,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -4489,8 +4489,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -4536,8 +4536,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EL"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -4583,8 +4583,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "KL"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -4642,8 +4642,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -4689,8 +4689,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -4741,8 +4741,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "ES"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -4788,8 +4788,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "ES"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -4840,8 +4840,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -4907,8 +4907,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "FF"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -4954,8 +4954,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "PT"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -5001,8 +5001,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -5048,8 +5048,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -5110,8 +5110,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "DE"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -5157,8 +5157,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "ES"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -5209,8 +5209,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "ZH"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -5256,8 +5256,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "HU"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -5303,8 +5303,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "IS"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -5355,8 +5355,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -5402,8 +5402,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "ID"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -5457,8 +5457,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FA"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -5509,8 +5509,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "KU"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -5561,8 +5561,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -5613,8 +5613,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "GV"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -5680,8 +5680,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "AR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -5727,8 +5727,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "IT"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -5774,8 +5774,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -5821,8 +5821,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "JA"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -5873,8 +5873,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -5935,8 +5935,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "AR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -5987,8 +5987,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "RU"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -6047,8 +6047,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "SW"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -6094,8 +6094,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -6164,8 +6164,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "AR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -6216,8 +6216,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "RU"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -6263,8 +6263,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "LO"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -6310,8 +6310,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "LV"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -6362,8 +6362,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -6414,8 +6414,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "ST"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -6476,8 +6476,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -6523,8 +6523,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "AR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -6570,8 +6570,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "DE"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -6617,8 +6617,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "LT"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -6674,8 +6674,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "DE"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -6726,8 +6726,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "PT"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -6773,8 +6773,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "MK"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -6825,8 +6825,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "MG"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -6872,8 +6872,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -6914,8 +6914,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "MWK"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -6961,8 +6961,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "DV"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -7008,8 +7008,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -7060,8 +7060,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -7107,8 +7107,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -7154,8 +7154,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -7201,8 +7201,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "AR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -7248,8 +7248,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -7295,8 +7295,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -7342,8 +7342,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "ES"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -7413,8 +7413,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -7464,8 +7464,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "RO"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -7511,8 +7511,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -7558,8 +7558,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "MN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -7624,8 +7624,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "HR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -7671,8 +7671,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -7718,8 +7718,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "AR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -7765,8 +7765,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "PT"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -7812,8 +7812,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "MY"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -7864,8 +7864,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "AF"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -7926,8 +7926,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -7988,8 +7988,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "NE"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -8035,8 +8035,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "NL"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -8082,8 +8082,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -8134,8 +8134,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "MI"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -8185,8 +8185,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "ES"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -8232,8 +8232,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -8279,8 +8279,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -8326,8 +8326,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -8388,8 +8388,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -8435,8 +8435,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "KO"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -8482,8 +8482,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -8534,8 +8534,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "NN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -8581,8 +8581,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "AR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -8633,8 +8633,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "UR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -8680,8 +8680,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -8742,8 +8742,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "AR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -8789,8 +8789,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "ES"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -8851,8 +8851,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -8907,8 +8907,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "GN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -8954,8 +8954,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "ES"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -9001,8 +9001,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -9048,8 +9048,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -9095,8 +9095,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "PL"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -9142,8 +9142,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "PT"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -9198,8 +9198,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -9245,8 +9245,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "AR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -9297,8 +9297,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "SR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -9340,8 +9340,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -9387,8 +9387,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "RO"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -9434,8 +9434,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "RU"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -9567,8 +9567,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -9614,8 +9614,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -9661,8 +9661,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -9708,8 +9708,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -9755,8 +9755,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -9812,8 +9812,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "NL"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -9859,8 +9859,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -9906,8 +9906,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -9953,8 +9953,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -10000,8 +10000,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "IT"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -10047,8 +10047,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "PT"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -10094,8 +10094,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "AR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -10141,8 +10141,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -10188,8 +10188,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "SR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -10240,8 +10240,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -10287,8 +10287,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -10349,8 +10349,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "ZH"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -10416,8 +10416,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -10463,8 +10463,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "SK"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -10510,8 +10510,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "SL"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -10557,8 +10557,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -10609,8 +10609,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "AR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -10701,8 +10701,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "ZU"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -10748,8 +10748,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -10810,8 +10810,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "KO"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -10857,8 +10857,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -10904,8 +10904,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "ES"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -10960,8 +10960,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "TA"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -11012,8 +11012,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -11059,8 +11059,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "NL"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -11101,8 +11101,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "SRD"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -11153,8 +11153,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "SS"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -11200,8 +11200,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "SV"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -11262,8 +11262,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "RM"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -11309,8 +11309,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "AR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -11356,8 +11356,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "ZH"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -11408,8 +11408,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "RU"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -11460,8 +11460,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -11507,8 +11507,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "TH"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -11554,8 +11554,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "PT"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -11601,8 +11601,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -11648,8 +11648,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -11700,8 +11700,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "TO"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -11747,8 +11747,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -11794,8 +11794,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "AR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -11841,8 +11841,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "TR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -11893,8 +11893,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "RU"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -11940,8 +11940,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -11987,8 +11987,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -12054,8 +12054,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "SW"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -12101,8 +12101,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "UK"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -12152,8 +12152,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "AR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -12199,8 +12199,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -12246,8 +12246,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -12325,8 +12325,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "ES"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -12377,8 +12377,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "RU"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -12429,8 +12429,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -12476,8 +12476,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "ES"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -12523,8 +12523,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "VI"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -12570,8 +12570,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -12617,8 +12617,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "FR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -12664,8 +12664,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "ES"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -12726,8 +12726,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "AR"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -12773,8 +12773,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "EN"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
@@ -12830,8 +12830,8 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = false,
                         Code = "ND"
-                    } 
-                },                
+                    }
+                },
                 Currencies=new()
                 {
                     new()
