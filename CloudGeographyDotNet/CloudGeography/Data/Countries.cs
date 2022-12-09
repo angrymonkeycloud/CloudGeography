@@ -42,14 +42,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "TK"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "AFN"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Afghanistan Standard Time"
                     }
                 }
             },
@@ -76,6 +82,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "AFN"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "SV"
                     },
                     new()
@@ -83,14 +94,20 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FI"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "FLE Standard Time"
                     }
                 }
             },
@@ -117,16 +134,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "SQ"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "ALL"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Europe Standard Time"
                     }
                 }
             },
@@ -153,6 +181,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "ALL"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "AR"
                     },
                     new()
@@ -165,14 +198,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "DZD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
                     }
                 }
             },
@@ -199,6 +238,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "DZD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     },
                     new()
@@ -211,14 +255,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "TO"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "UTC-11"
                     }
                 }
             },
@@ -245,6 +295,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "USD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "CA"
                     },
                     new()
@@ -262,14 +317,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
                     }
                 }
             },
@@ -296,16 +357,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "PT"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "AOA"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
                     }
                 }
             },
@@ -332,16 +404,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "AOA"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "XCD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
                     }
                 }
             },
@@ -368,6 +451,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XCD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     },
                     new()
@@ -375,8 +463,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "RU"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -384,11 +471,45 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AUD"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "GBP"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "New Zealand Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Central Pacific Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "SE Asia Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "West Pacific Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "West Asia Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "SA Eastern Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "E. Africa Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Central Asia Standard Time"
                     }
                 }
             },
@@ -420,16 +541,32 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "AUD"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "GBP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "XCD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
                     }
                 }
             },
@@ -456,6 +593,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XCD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     },
                     new()
@@ -473,14 +615,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "ARS"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Argentina Standard Time"
                     }
                 }
             },
@@ -507,6 +655,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "ARS"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "HY"
                     },
                     new()
@@ -519,14 +672,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "AMD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Caucasus Standard Time"
                     }
                 }
             },
@@ -553,6 +712,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "AMD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "NL"
                     },
                     new()
@@ -560,14 +724,20 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "PAP"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "AWG"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
                     }
                 }
             },
@@ -594,16 +764,55 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "AWG"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "AUD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Lord Howe Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Tasmania Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "AUS Eastern Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Cen. Australia Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "E. Australia Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "AUS Central Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "W. Australia Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Aus Central W. Standard Time"
                     }
                 }
             },
@@ -630,16 +839,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "AUD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "DE"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
                     }
                 }
             },
@@ -666,16 +886,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "AZ"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "AZN"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Azerbaijan Standard Time"
                     }
                 }
             },
@@ -702,16 +933,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "AZN"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "BSD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Eastern Standard Time"
                     }
                 }
             },
@@ -738,6 +980,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "BSD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "AR"
                     },
                     new()
@@ -745,14 +992,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "BHD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Arab Standard Time"
                     }
                 }
             },
@@ -779,6 +1032,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "BHD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "BN"
                     },
                     new()
@@ -786,14 +1044,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "BDT"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Bangladesh Standard Time"
                     }
                 }
             },
@@ -820,16 +1084,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "BDT"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "BBD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
                     }
                 }
             },
@@ -856,6 +1131,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "BBD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "RU"
                     },
                     new()
@@ -863,10 +1143,16 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "BE"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Belarus Standard Time"
+                    }
                 }
             },
             new()
@@ -899,14 +1185,20 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "DE"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Romance Standard Time"
                     }
                 }
             },
@@ -933,6 +1225,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     },
                     new()
@@ -940,14 +1237,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "BZD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central America Standard Time"
                     }
                 }
             },
@@ -974,16 +1277,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "BZD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "XOF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
                     }
                 }
             },
@@ -1010,16 +1324,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XOF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "BMD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Atlantic Standard Time"
                     }
                 }
             },
@@ -1046,6 +1371,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "BMD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "DZ"
                     },
                     new()
@@ -1053,8 +1383,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -1062,11 +1391,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "BTN"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "INR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Bangladesh Standard Time"
                     }
                 }
             },
@@ -1098,16 +1433,32 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "BTN"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "INR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "BOB"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
                     }
                 }
             },
@@ -1134,6 +1485,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "BOB"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "NL"
                     },
                     new()
@@ -1151,14 +1507,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
                     }
                 }
             },
@@ -1185,6 +1547,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "USD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "BS"
                     },
                     new()
@@ -1197,14 +1564,20 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "SR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "BAM"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central European Standard Time"
                     }
                 }
             },
@@ -1231,6 +1604,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "BAM"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     },
                     new()
@@ -1238,14 +1616,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "TN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "BWP"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "South Africa Standard Time"
                     }
                 }
             },
@@ -1272,16 +1656,55 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "BWP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "PT"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "BRL"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "UTC-02"
+                    },
+                    new()
+                    {
+                        Code = "SA Eastern Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Tocantins Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Bahia Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "E. South America Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Central Brazilian Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "SA Pacific Standard Time"
                     }
                 }
             },
@@ -1308,10 +1731,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "BRL"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -1319,11 +1746,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "USD"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "GBP"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Asia Standard Time"
                     }
                 }
             },
@@ -1355,16 +1788,32 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "USD"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "GBP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
                     }
                 }
             },
@@ -1391,6 +1840,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "USD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "MS"
                     },
                     new()
@@ -1403,8 +1857,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -1412,11 +1865,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "BND"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "SGD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Singapore Standard Time"
                     }
                 }
             },
@@ -1448,16 +1907,32 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "BND"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "SGD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "BG"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "BGN"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "FLE Standard Time"
                     }
                 }
             },
@@ -1484,6 +1959,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "BGN"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     },
                     new()
@@ -1491,14 +1971,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FF"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "XOF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
                     }
                 }
             },
@@ -1525,6 +2011,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XOF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "RN"
                     },
                     new()
@@ -1537,14 +2028,20 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "BIF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "South Africa Standard Time"
                     }
                 }
             },
@@ -1571,6 +2068,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "BIF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "PT"
                     },
                     new()
@@ -1578,14 +2080,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "KEA"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "CVE"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Cape Verde Standard Time"
                     }
                 }
             },
@@ -1612,6 +2120,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "CVE"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "KM"
                     },
                     new()
@@ -1624,8 +2137,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -1633,11 +2145,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "KHR"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "USD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SE Asia Standard Time"
                     }
                 }
             },
@@ -1669,6 +2187,16 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "KHR"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "USD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     },
                     new()
@@ -1681,14 +2209,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "DE"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "XAF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
                     }
                 }
             },
@@ -1715,6 +2249,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XAF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     },
                     new()
@@ -1722,14 +2261,60 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "CAD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Newfoundland Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Atlantic Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Eastern Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "SA Pacific Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Central Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Canada Central Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Mountain Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "US Mountain Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Yukon Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Pacific Standard Time"
                     }
                 }
             },
@@ -1756,16 +2341,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "CAD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "KYD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Pacific Standard Time"
                     }
                 }
             },
@@ -1792,6 +2388,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "KYD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     },
                     new()
@@ -1799,14 +2400,20 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "SG"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "XAF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
                     }
                 }
             },
@@ -1833,6 +2440,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XAF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "AR"
                     },
                     new()
@@ -1840,14 +2452,20 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "XAF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
                     }
                 }
             },
@@ -1874,16 +2492,35 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XAF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "CLP"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Pacific SA Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Magallanes Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Easter Island Standard Time"
                     }
                 }
             },
@@ -1910,16 +2547,31 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "CLP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ZH"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "CNY"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "China Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Central Asia Standard Time"
                     }
                 }
             },
@@ -1946,16 +2598,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "CNY"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "AUD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SE Asia Standard Time"
                     }
                 }
             },
@@ -1982,16 +2645,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "AUD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "AUD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Myanmar Standard Time"
                     }
                 }
             },
@@ -2018,16 +2692,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "AUD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "COP"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Pacific Standard Time"
                     }
                 }
             },
@@ -2054,6 +2739,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "COP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "AR"
                     },
                     new()
@@ -2061,14 +2751,20 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "KMF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "E. Africa Standard Time"
                     }
                 }
             },
@@ -2095,6 +2791,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "KMF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     },
                     new()
@@ -2102,14 +2803,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "LN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "XAF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
                     }
                 }
             },
@@ -2136,6 +2843,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XAF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     },
                     new()
@@ -2153,14 +2865,24 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "LU"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "CDF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "South Africa Standard Time"
                     }
                 }
             },
@@ -2187,10 +2909,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "CDF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2198,11 +2924,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "NZD"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "CKD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Hawaiian Standard Time"
                     }
                 }
             },
@@ -2234,16 +2966,32 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "NZD"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "CKD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "CRC"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central America Standard Time"
                     }
                 }
             },
@@ -2270,16 +3018,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "CRC"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "XOF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
                     }
                 }
             },
@@ -2306,16 +3065,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XOF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "HR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "HRK"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central European Standard Time"
                     }
                 }
             },
@@ -2342,10 +3112,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "HRK"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2353,11 +3127,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "CUC"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "CUP"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Cuba Standard Time"
                     }
                 }
             },
@@ -2389,6 +3169,16 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "CUC"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "CUP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "NL"
                     },
                     new()
@@ -2401,14 +3191,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "ANG"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
                     }
                 }
             },
@@ -2435,6 +3231,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "ANG"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EL"
                     },
                     new()
@@ -2447,14 +3248,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "HY"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "GTB Standard Time"
                     }
                 }
             },
@@ -2481,6 +3288,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "CS"
                     },
                     new()
@@ -2488,14 +3300,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "SK"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "CZK"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Europe Standard Time"
                     }
                 }
             },
@@ -2522,16 +3340,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "CZK"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "DA"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "DKK"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Romance Standard Time"
                     }
                 }
             },
@@ -2558,6 +3387,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "DKK"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     },
                     new()
@@ -2565,14 +3399,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "DJF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "E. Africa Standard Time"
                     }
                 }
             },
@@ -2599,16 +3439,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "DJF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "XCD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
                     }
                 }
             },
@@ -2635,16 +3486,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XCD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "DOP"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
                     }
                 }
             },
@@ -2671,16 +3533,31 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "DOP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Pacific Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Central America Standard Time"
                     }
                 }
             },
@@ -2707,16 +3584,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "USD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EGP"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Egypt Standard Time"
                     }
                 }
             },
@@ -2743,16 +3631,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EGP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central America Standard Time"
                     }
                 }
             },
@@ -2779,6 +3678,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "USD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     },
                     new()
@@ -2786,14 +3690,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "XAF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
                     }
                 }
             },
@@ -2820,6 +3730,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XAF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "TI"
                     },
                     new()
@@ -2832,14 +3747,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "ERN"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "E. Africa Standard Time"
                     }
                 }
             },
@@ -2866,16 +3787,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "ERN"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ET"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "FLE Standard Time"
                     }
                 }
             },
@@ -2902,16 +3834,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "AM"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "ETB"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "E. Africa Standard Time"
                     }
                 }
             },
@@ -2938,16 +3881,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "ETB"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "FKP"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Eastern Standard Time"
                     }
                 }
             },
@@ -2974,10 +3928,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "FKP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FO"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -2985,11 +3943,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "DKK"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "FOK"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "GMT Standard Time"
                     }
                 }
             },
@@ -3021,6 +3985,16 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "DKK"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "FOK"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     },
                     new()
@@ -3033,14 +4007,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "UR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "FJD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Fiji Standard Time"
                     }
                 }
             },
@@ -3067,6 +4047,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "FJD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FI"
                     },
                     new()
@@ -3074,14 +4059,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "SV"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "FLE Standard Time"
                     }
                 }
             },
@@ -3108,16 +4099,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Romance Standard Time"
                     }
                 }
             },
@@ -3144,16 +4146,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Eastern Standard Time"
                     }
                 }
             },
@@ -3180,16 +4193,35 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "XPF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Hawaiian Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Marquesas Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "UTC-09"
                     }
                 }
             },
@@ -3216,16 +4248,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XPF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "XAF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
                     }
                 }
             },
@@ -3252,16 +4295,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XAF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "GMD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
                     }
                 }
             },
@@ -3288,16 +4342,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "GMD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "KA"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "GEL"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Georgian Standard Time"
                     }
                 }
             },
@@ -3324,16 +4389,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "GEL"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "DE"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
                     }
                 }
             },
@@ -3360,16 +4436,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "GHS"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
                     }
                 }
             },
@@ -3396,16 +4483,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "GHS"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "GIP"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
                     }
                 }
             },
@@ -3432,16 +4530,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "GIP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EL"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "GTB Standard Time"
                     }
                 }
             },
@@ -3468,16 +4577,39 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "KL"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "DKK"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenland Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Azores Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Atlantic Standard Time"
                     }
                 }
             },
@@ -3504,16 +4636,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "DKK"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "XCD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
                     }
                 }
             },
@@ -3540,16 +4683,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XCD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
                     }
                 }
             },
@@ -3576,6 +4730,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     },
                     new()
@@ -3583,14 +4742,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "West Pacific Standard Time"
                     }
                 }
             },
@@ -3617,16 +4782,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "USD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "GTQ"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central America Standard Time"
                     }
                 }
             },
@@ -3653,6 +4829,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "GTQ"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     },
                     new()
@@ -3660,8 +4841,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -3669,11 +4849,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "GBP"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "FOK"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "GMT Standard Time"
                     }
                 }
             },
@@ -3705,6 +4891,16 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "GBP"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "FOK"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     },
                     new()
@@ -3712,14 +4908,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FF"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "GNF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
                     }
                 }
             },
@@ -3746,16 +4948,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "GNF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "PT"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "XOF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
                     }
                 }
             },
@@ -3782,16 +4995,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XOF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "GYD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
                     }
                 }
             },
@@ -3818,16 +5042,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "GYD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "HTG"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Haiti Standard Time"
                     }
                 }
             },
@@ -3854,6 +5089,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "HTG"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "LA"
                     },
                     new()
@@ -3871,14 +5111,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "DE"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
                     }
                 }
             },
@@ -3905,16 +5151,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "HNL"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central America Standard Time"
                     }
                 }
             },
@@ -3941,6 +5198,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "HNL"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     },
                     new()
@@ -3948,14 +5210,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "ZH"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "HKD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "China Standard Time"
                     }
                 }
             },
@@ -3982,16 +5250,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "HKD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "HU"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "HUF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Europe Standard Time"
                     }
                 }
             },
@@ -4018,16 +5297,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "HUF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "IS"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "ISK"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
                     }
                 }
             },
@@ -4054,6 +5344,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "ISK"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "HI"
                     },
                     new()
@@ -4061,14 +5356,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "INR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "India Standard Time"
                     }
                 }
             },
@@ -4095,16 +5396,35 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "INR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ID"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "IDR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SE Asia Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Singapore Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Tokyo Standard Time"
                     }
                 }
             },
@@ -4131,16 +5451,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "IDR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FA"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "IRR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Iran Standard Time"
                     }
                 }
             },
@@ -4167,6 +5498,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "IRR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "AR"
                     },
                     new()
@@ -4174,14 +5510,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "KU"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "IQD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Arabic Standard Time"
                     }
                 }
             },
@@ -4208,6 +5550,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "IQD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "GA"
                     },
                     new()
@@ -4215,14 +5562,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "GMT Standard Time"
                     }
                 }
             },
@@ -4249,6 +5602,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     },
                     new()
@@ -4256,8 +5614,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "GV"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4265,11 +5622,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "GBP"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "IMP"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "GMT Standard Time"
                     }
                 }
             },
@@ -4301,6 +5664,16 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "GBP"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "IMP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "HE"
                     },
                     new()
@@ -4308,14 +5681,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "ILS"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Israel Standard Time"
                     }
                 }
             },
@@ -4342,16 +5721,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "ILS"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "IT"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
                     }
                 }
             },
@@ -4378,16 +5768,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "JMD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Pacific Standard Time"
                     }
                 }
             },
@@ -4414,16 +5815,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "JMD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "JA"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "JPY"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Tokyo Standard Time"
                     }
                 }
             },
@@ -4450,6 +5862,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "JPY"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     },
                     new()
@@ -4457,8 +5874,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4466,11 +5882,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "GBP"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "JEP"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "GMT Standard Time"
                     }
                 }
             },
@@ -4502,16 +5924,32 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "GBP"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "JEP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "JOD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Jordan Standard Time"
                     }
                 }
             },
@@ -4538,6 +5976,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "JOD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "KK"
                     },
                     new()
@@ -4545,14 +5988,28 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "RU"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "KZT"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Asia Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Qyzylorda Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "West Asia Standard Time"
                     }
                 }
             },
@@ -4579,6 +6036,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "KZT"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     },
                     new()
@@ -4586,14 +6048,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "SW"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "KES"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "E. Africa Standard Time"
                     }
                 }
             },
@@ -4620,10 +6088,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "KES"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4631,11 +6103,25 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AUD"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "FOK"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "UTC+12"
+                    },
+                    new()
+                    {
+                        Code = "UTC+13"
+                    },
+                    new()
+                    {
+                        Code = "Line Islands Standard Time"
                     }
                 }
             },
@@ -4667,16 +6153,32 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "AUD"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "FOK"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "KWD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Arab Standard Time"
                     }
                 }
             },
@@ -4703,6 +6205,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "KWD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "KY"
                     },
                     new()
@@ -4710,14 +6217,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "RU"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "KGS"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Asia Standard Time"
                     }
                 }
             },
@@ -4744,16 +6257,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "KGS"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "LO"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "LAK"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SE Asia Standard Time"
                     }
                 }
             },
@@ -4780,16 +6304,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "LAK"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "LV"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "FLE Standard Time"
                     }
                 }
             },
@@ -4816,6 +6351,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "AR"
                     },
                     new()
@@ -4823,14 +6363,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "LBP"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Middle East Standard Time"
                     }
                 }
             },
@@ -4857,6 +6403,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "LBP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     },
                     new()
@@ -4864,8 +6415,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "ST"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -4873,11 +6423,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "LSL"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "ZAR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "South Africa Standard Time"
                     }
                 }
             },
@@ -4909,16 +6465,32 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "LSL"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "ZAR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "LRD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
                     }
                 }
             },
@@ -4945,16 +6517,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "LRD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "LYD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Libya Standard Time"
                     }
                 }
             },
@@ -4981,16 +6564,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "LYD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "DE"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "CHF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
                     }
                 }
             },
@@ -5017,16 +6611,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "CHF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "LT"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "FLE Standard Time"
                     }
                 }
             },
@@ -5053,6 +6658,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "LB"
                     },
                     new()
@@ -5065,14 +6675,20 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "DE"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
                     }
                 }
             },
@@ -5099,6 +6715,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ZH"
                     },
                     new()
@@ -5106,14 +6727,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "PT"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "MOP"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "China Standard Time"
                     }
                 }
             },
@@ -5140,16 +6767,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "MOP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "MK"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "MKD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central European Standard Time"
                     }
                 }
             },
@@ -5176,6 +6814,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "MKD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     },
                     new()
@@ -5183,14 +6826,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "MG"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "MGA"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "E. Africa Standard Time"
                     }
                 }
             },
@@ -5217,16 +6866,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "MGA"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "MWK"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "South Africa Standard Time"
                     }
                 }
             },
@@ -5249,15 +6909,26 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "MWK"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "MWK"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "MYR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Singapore Standard Time"
                     }
                 }
             },
@@ -5284,16 +6955,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "MYR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "DV"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "MVR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "West Asia Standard Time"
                     }
                 }
             },
@@ -5320,16 +7002,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "MVR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "XOF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
                     }
                 }
             },
@@ -5356,6 +7049,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XOF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "MT"
                     },
                     new()
@@ -5363,14 +7061,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
                     }
                 }
             },
@@ -5397,16 +7101,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "UTC+12"
                     }
                 }
             },
@@ -5433,16 +7148,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "USD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
                     }
                 }
             },
@@ -5469,16 +7195,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "MRO"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
                     }
                 }
             },
@@ -5505,16 +7242,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "MRO"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "MUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Mauritius Standard Time"
                     }
                 }
             },
@@ -5541,16 +7289,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "MUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "E. Africa Standard Time"
                     }
                 }
             },
@@ -5577,16 +7336,51 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "MXN"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Standard Time (Mexico)"
+                    },
+                    new()
+                    {
+                        Code = "Eastern Standard Time (Mexico)"
+                    },
+                    new()
+                    {
+                        Code = "Central Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Mountain Standard Time (Mexico)"
+                    },
+                    new()
+                    {
+                        Code = "Mountain Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "US Mountain Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Pacific Standard Time (Mexico)"
                     }
                 }
             },
@@ -5613,16 +7407,31 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "MXN"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "West Pacific Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Central Pacific Standard Time"
                     }
                 }
             },
@@ -5649,16 +7458,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "USD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "RO"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "MDL"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "E. Europe Standard Time"
                     }
                 }
             },
@@ -5685,16 +7505,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "MDL"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
                     }
                 }
             },
@@ -5721,16 +7552,31 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "MN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "MNT"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Ulaanbaatar Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "W. Mongolia Standard Time"
                     }
                 }
             },
@@ -5757,6 +7603,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "MNT"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "SR"
                     },
                     new()
@@ -5774,14 +7625,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "HR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Europe Standard Time"
                     }
                 }
             },
@@ -5808,16 +7665,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "XCD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
                     }
                 }
             },
@@ -5844,16 +7712,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XCD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "MAD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Morocco Standard Time"
                     }
                 }
             },
@@ -5880,16 +7759,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "MAD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "PT"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "MZN"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "South Africa Standard Time"
                     }
                 }
             },
@@ -5916,16 +7806,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "MZN"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "MY"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "MMK"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Myanmar Standard Time"
                     }
                 }
             },
@@ -5952,6 +7853,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "MMK"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     },
                     new()
@@ -5959,8 +7865,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "AF"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -5968,11 +7873,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "NAD"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "ZAR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Namibia Standard Time"
                     }
                 }
             },
@@ -6004,10 +7915,19 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "NAD"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "ZAR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6015,11 +7935,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AUD"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "FOK"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "UTC+12"
                     }
                 }
             },
@@ -6051,16 +7977,32 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "AUD"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "FOK"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "NE"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "NPR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Nepal Standard Time"
                     }
                 }
             },
@@ -6087,16 +8029,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "NPR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "NL"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
                     }
                 }
             },
@@ -6123,16 +8076,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "XPF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Pacific Standard Time"
                     }
                 }
             },
@@ -6159,6 +8123,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XPF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     },
                     new()
@@ -6166,14 +8135,24 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "MI"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "NZD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "New Zealand Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Chatham Islands Standard Time"
                     }
                 }
             },
@@ -6200,16 +8179,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "NZD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "NIO"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central America Standard Time"
                     }
                 }
             },
@@ -6236,16 +8226,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "NIO"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "XOF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
                     }
                 }
             },
@@ -6272,16 +8273,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XOF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "NGN"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
                     }
                 }
             },
@@ -6308,10 +8320,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "NGN"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6319,11 +8335,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "NZD"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "FOK"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "UTC-11"
                     }
                 }
             },
@@ -6355,16 +8377,32 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "NZD"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "FOK"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "AUD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Norfolk Standard Time"
                     }
                 }
             },
@@ -6391,16 +8429,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "AUD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "KO"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "KPW"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "North Korea Standard Time"
                     }
                 }
             },
@@ -6427,16 +8476,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "KPW"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "West Pacific Standard Time"
                     }
                 }
             },
@@ -6462,6 +8522,11 @@ public partial class CloudGeographyClient
                     },
                     new()
                     {
+                        IsOfficial = true,
+                        Code = "USD"
+                    },
+                    new()
+                    {
                         IsOfficial = false,
                         Code = "NB"
                     },
@@ -6470,14 +8535,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "NN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "NOK"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
                     }
                 }
             },
@@ -6504,16 +8575,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "NOK"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "OMR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Arabian Standard Time"
                     }
                 }
             },
@@ -6540,6 +8622,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "OMR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     },
                     new()
@@ -6547,14 +8634,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "UR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "PKR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Pakistan Standard Time"
                     }
                 }
             },
@@ -6581,10 +8674,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "PKR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6592,11 +8689,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FOK"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "USD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Tokyo Standard Time"
                     }
                 }
             },
@@ -6628,16 +8731,32 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "FOK"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "USD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "ILS"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "West Bank Standard Time"
                     }
                 }
             },
@@ -6664,10 +8783,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "ILS"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -6675,11 +8798,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "PAB"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "USD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Pacific Standard Time"
                     }
                 }
             },
@@ -6711,16 +8840,36 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "PAB"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "USD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "PGK"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "West Pacific Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Bougainville Standard Time"
                     }
                 }
             },
@@ -6747,6 +8896,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "PGK"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     },
                     new()
@@ -6754,14 +8908,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "GN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "PYG"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Paraguay Standard Time"
                     }
                 }
             },
@@ -6788,16 +8948,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "PYG"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "PEN"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Pacific Standard Time"
                     }
                 }
             },
@@ -6824,16 +8995,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "PEN"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "PHP"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Singapore Standard Time"
                     }
                 }
             },
@@ -6860,16 +9042,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "PHP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "NZD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "UTC-08"
                     }
                 }
             },
@@ -6896,16 +9089,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "NZD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "PL"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "PLN"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central European Standard Time"
                     }
                 }
             },
@@ -6932,16 +9136,31 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "PLN"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "PT"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "GMT Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Azores Standard Time"
                     }
                 }
             },
@@ -6968,6 +9187,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     },
                     new()
@@ -6975,14 +9199,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
                     }
                 }
             },
@@ -7009,16 +9239,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "USD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "QAR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Arab Standard Time"
                     }
                 }
             },
@@ -7045,6 +9286,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "QAR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "SQ"
                     },
                     new()
@@ -7052,8 +9298,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "SR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7061,6 +9306,9 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EUR"
                     }
+                },
+                TimeZones=new()
+                {
                 }
             },
             new()
@@ -7086,16 +9334,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Mauritius Standard Time"
                     }
                 }
             },
@@ -7122,16 +9381,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "RO"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "RON"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "GTB Standard Time"
                     }
                 }
             },
@@ -7158,16 +9428,103 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "RON"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "RU"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "RUB"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Kaliningrad Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Russian Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Volgograd Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Astrakhan Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Saratov Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Russia Time Zone 3"
+                    },
+                    new()
+                    {
+                        Code = "Ekaterinburg Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Omsk Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "N. Central Asia Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Altai Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Tomsk Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "North Asia Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "North Asia East Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Transbaikal Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Yakutsk Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Vladivostok Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Magadan Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Sakhalin Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Russia Time Zone 10"
+                    },
+                    new()
+                    {
+                        Code = "Russia Time Zone 11"
                     }
                 }
             },
@@ -7194,6 +9551,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "RUB"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "RW"
                     },
                     new()
@@ -7206,14 +9568,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "RWF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "South Africa Standard Time"
                     }
                 }
             },
@@ -7240,16 +9608,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "RWF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
                     }
                 }
             },
@@ -7276,16 +9655,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "SHP"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
                     }
                 }
             },
@@ -7312,16 +9702,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "SHP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "XCD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
                     }
                 }
             },
@@ -7348,16 +9749,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XCD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "XCD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
                     }
                 }
             },
@@ -7384,6 +9796,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XCD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     },
                     new()
@@ -7396,14 +9813,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "NL"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
                     }
                 }
             },
@@ -7430,16 +9853,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Saint Pierre Standard Time"
                     }
                 }
             },
@@ -7466,16 +9900,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "XCD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
                     }
                 }
             },
@@ -7501,17 +9946,28 @@ public partial class CloudGeographyClient
                     },
                     new()
                     {
+                        IsOfficial = true,
+                        Code = "XCD"
+                    },
+                    new()
+                    {
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "WST"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Samoa Standard Time"
                     }
                 }
             },
@@ -7538,16 +9994,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "WST"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "IT"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
                     }
                 }
             },
@@ -7574,16 +10041,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "PT"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "STN"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Sao Tome Standard Time"
                     }
                 }
             },
@@ -7610,16 +10088,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "STN"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "SAR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Arab Standard Time"
                     }
                 }
             },
@@ -7646,16 +10135,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "SAR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "XOF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
                     }
                 }
             },
@@ -7682,16 +10182,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XOF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "SR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "RSD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Europe Standard Time"
                     }
                 }
             },
@@ -7718,6 +10229,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "RSD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     },
                     new()
@@ -7725,14 +10241,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "SCR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Mauritius Standard Time"
                     }
                 }
             },
@@ -7759,16 +10281,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "SCR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "SLL"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
                     }
                 }
             },
@@ -7795,6 +10328,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "SLL"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     },
                     new()
@@ -7812,8 +10350,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "ZH"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -7821,11 +10358,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "BND"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "SGD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Singapore Standard Time"
                     }
                 }
             },
@@ -7857,6 +10400,16 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "BND"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "SGD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "NL"
                     },
                     new()
@@ -7864,14 +10417,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "ANG"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
                     }
                 }
             },
@@ -7898,16 +10457,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "ANG"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "SK"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Europe Standard Time"
                     }
                 }
             },
@@ -7934,16 +10504,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "SL"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Europe Standard Time"
                     }
                 }
             },
@@ -7970,16 +10551,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "SBD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Pacific Standard Time"
                     }
                 }
             },
@@ -8006,6 +10598,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "SBD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "SO"
                     },
                     new()
@@ -8013,14 +10610,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "SOS"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "E. Africa Standard Time"
                     }
                 }
             },
@@ -8039,6 +10642,11 @@ public partial class CloudGeographyClient
                 Longitude = 24,
                 Languages = new()
                 {
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "SOS"
+                    },
                     new()
                     {
                         IsOfficial = true,
@@ -8094,14 +10702,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "ZU"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "ZAR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "South Africa Standard Time"
                     }
                 }
             },
@@ -8128,10 +10742,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "ZAR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -8139,11 +10757,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "GBP"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "FOK"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "UTC-02"
                     }
                 }
             },
@@ -8175,16 +10799,32 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "GBP"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "FOK"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "KO"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "KRW"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Korea Standard Time"
                     }
                 }
             },
@@ -8211,16 +10851,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "KRW"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "SSP"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "South Sudan Standard Time"
                     }
                 }
             },
@@ -8247,16 +10898,31 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "SSP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Romance Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "GMT Standard Time"
                     }
                 }
             },
@@ -8283,6 +10949,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "EUR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "SI"
                     },
                     new()
@@ -8290,14 +10961,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "TA"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "LKR"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Sri Lanka Standard Time"
                     }
                 }
             },
@@ -8324,6 +11001,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "LKR"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "AR"
                     },
                     new()
@@ -8331,14 +11013,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "SDG"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Sudan Standard Time"
                     }
                 }
             },
@@ -8365,16 +11053,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "SDG"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "NL"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "SRD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Eastern Standard Time"
                     }
                 }
             },
@@ -8397,15 +11096,26 @@ public partial class CloudGeographyClient
                     {
                         IsOfficial = true,
                         Code = "SRD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
+                        Code = "SRD"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "NOK"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
                     }
                 }
             },
@@ -8432,6 +11142,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "NOK"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     },
                     new()
@@ -8439,14 +11154,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "SS"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "SZL"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "South Africa Standard Time"
                     }
                 }
             },
@@ -8473,16 +11194,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "SZL"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "SV"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "SEK"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
                     }
                 }
             },
@@ -8509,6 +11241,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "SEK"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "DE"
                     },
                     new()
@@ -8526,14 +11263,20 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "RM"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "CHF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Europe Standard Time"
                     }
                 }
             },
@@ -8560,16 +11303,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "CHF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "SYP"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Syria Standard Time"
                     }
                 }
             },
@@ -8596,16 +11350,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "SYP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ZH"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "TWD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Taipei Standard Time"
                     }
                 }
             },
@@ -8632,6 +11397,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "TWD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "TG"
                     },
                     new()
@@ -8639,14 +11409,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "RU"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "TJS"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "West Asia Standard Time"
                     }
                 }
             },
@@ -8673,6 +11449,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "TJS"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "SW"
                     },
                     new()
@@ -8680,14 +11461,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "TZS"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "E. Africa Standard Time"
                     }
                 }
             },
@@ -8714,16 +11501,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "TZS"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "TH"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "THB"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SE Asia Standard Time"
                     }
                 }
             },
@@ -8750,16 +11548,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "THB"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "PT"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Tokyo Standard Time"
                     }
                 }
             },
@@ -8786,16 +11595,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "USD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "XOF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Greenwich Standard Time"
                     }
                 }
             },
@@ -8822,16 +11642,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XOF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "NZD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "UTC+13"
                     }
                 }
             },
@@ -8858,6 +11689,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "NZD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     },
                     new()
@@ -8865,14 +11701,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "TO"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "TOP"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Tonga Standard Time"
                     }
                 }
             },
@@ -8899,16 +11741,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "TOP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "TTD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
                     }
                 }
             },
@@ -8935,16 +11788,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "TTD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "TND"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "W. Central Africa Standard Time"
                     }
                 }
             },
@@ -8971,16 +11835,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "TND"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "TR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "TRY"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Turkey Standard Time"
                     }
                 }
             },
@@ -9007,6 +11882,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "TRY"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "TK"
                     },
                     new()
@@ -9014,14 +11894,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "RU"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "TMT"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "West Asia Standard Time"
                     }
                 }
             },
@@ -9048,16 +11934,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "TMT"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Turks And Caicos Standard Time"
                     }
                 }
             },
@@ -9084,10 +11981,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "USD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9095,11 +11996,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AUD"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "TVD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "UTC+12"
                     }
                 }
             },
@@ -9131,6 +12038,16 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "AUD"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "TVD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     },
                     new()
@@ -9138,14 +12055,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "SW"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "UGX"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "E. Africa Standard Time"
                     }
                 }
             },
@@ -9172,16 +12095,31 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "UGX"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "UK"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "UAH"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Russian Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "FLE Standard Time"
                     }
                 }
             },
@@ -9208,16 +12146,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "UAH"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "AED"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Arabian Standard Time"
                     }
                 }
             },
@@ -9244,16 +12193,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "AED"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "GBP"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "GMT Standard Time"
                     }
                 }
             },
@@ -9280,16 +12240,59 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "GBP"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Eastern Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "US Eastern Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Central Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Mountain Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "US Mountain Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Pacific Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Alaskan Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Aleutian Standard Time"
+                    },
+                    new()
+                    {
+                        Code = "Hawaiian Standard Time"
                     }
                 }
             },
@@ -9316,16 +12319,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "USD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "UYU"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Montevideo Standard Time"
                     }
                 }
             },
@@ -9352,6 +12366,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "UYU"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "UZ"
                     },
                     new()
@@ -9359,14 +12378,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "RU"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "UZS"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "West Asia Standard Time"
                     }
                 }
             },
@@ -9392,6 +12417,11 @@ public partial class CloudGeographyClient
                     },
                     new()
                     {
+                        IsOfficial = true,
+                        Code = "UZS"
+                    },
+                    new()
+                    {
                         IsOfficial = false,
                         Code = "EN"
                     },
@@ -9400,14 +12430,20 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "VUV"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Central Pacific Standard Time"
                     }
                 }
             },
@@ -9434,16 +12470,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "VUV"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "VEF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Venezuela Standard Time"
                     }
                 }
             },
@@ -9470,16 +12517,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "VEF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "VI"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "VND"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SE Asia Standard Time"
                     }
                 }
             },
@@ -9506,16 +12564,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "VND"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "SA Western Standard Time"
                     }
                 }
             },
@@ -9542,16 +12611,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "USD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "FR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "XPF"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "UTC+12"
                     }
                 }
             },
@@ -9578,10 +12658,14 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "XPF"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "ES"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9589,11 +12673,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "MAD"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "DZD"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Morocco Standard Time"
                     }
                 }
             },
@@ -9625,16 +12715,32 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "MAD"
+                    },
+                    new()
+                    {
+                        IsOfficial = false,
+                        Code = "DZD"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "AR"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "YER"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "Arab Standard Time"
                     }
                 }
             },
@@ -9661,16 +12767,27 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "YER"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
                     {
                         IsOfficial = true,
                         Code = "ZMW"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "South Africa Standard Time"
                     }
                 }
             },
@@ -9697,6 +12814,11 @@ public partial class CloudGeographyClient
                     new()
                     {
                         IsOfficial = true,
+                        Code = "ZMW"
+                    },
+                    new()
+                    {
+                        IsOfficial = true,
                         Code = "EN"
                     },
                     new()
@@ -9709,8 +12831,7 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "ND"
                     } 
-                },
-                
+                },                
                 Currencies=new()
                 {
                     new()
@@ -9718,53 +12839,52 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "BWP"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "GBP"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "CNY"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "EUR"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "INR"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "JPY"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "ZAR"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "USD"
                     },
-
                     new()
                     {
                         IsOfficial = false,
                         Code = "FOK"
+                    }
+                },
+                TimeZones=new()
+                {
+                    new()
+                    {
+                        Code = "South Africa Standard Time"
                     }
                 }
             }
