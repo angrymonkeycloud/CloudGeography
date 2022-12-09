@@ -133,6 +133,6 @@ namespace CloudGeography.Test
 			Money money = new("USD", -50.3m);
 
 			Assert.AreEqual(-3, money.DecimalNumberAsInteger);
-		}
-	}
+        }
+    }
 }
