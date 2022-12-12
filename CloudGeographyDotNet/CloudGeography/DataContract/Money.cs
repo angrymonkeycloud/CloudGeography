@@ -227,27 +227,22 @@ public partial class Money
         return money.Subtract(newMoney);
     }
 
-    public Money Multiple(decimal value)
+    public Money Multiple(Money money)
     {
         if (IsEmpty) return this;
 
-        Money money = Clone();
-
-        Money newMoney = new(money.Currency, Value * value);
-
-        return money.Add(newMoney);
+        return new(Currency, Value * money.Value);
     }
 
-    public Money Divide(decimal value)
+    public Money Multiple(decimal value) => Multiple(new Money(Currency, value));
+
+    public Money Divide(Money money)
     {
         if (IsEmpty) return this;
 
-        Money money = Clone();
-
-        Money newMoney = new(money.Currency, Value / value);
-
-        return money.Add(newMoney);
+        return new(Currency, Value / money.Value);
     }
+    public Money Divide(decimal value) => Divide(new Money(Currency, value));
 
     #endregion
 

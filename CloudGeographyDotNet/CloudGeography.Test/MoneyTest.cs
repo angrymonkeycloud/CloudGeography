@@ -134,5 +134,25 @@ namespace CloudGeography.Test
 
 			Assert.AreEqual(-3, money.DecimalNumberAsInteger);
         }
+
+        [TestMethod]
+        public void Multiply_Positive()
+        {
+            Money moneyA = new("USD", 4m);
+
+            Money result = moneyA.Multiple(1.5m);
+
+            Assert.AreEqual(6m, result.Value);
+        }
+
+        [TestMethod]
+        public void Divide_Positive()
+        {
+            Money moneyA = new("USD", 40m);
+
+            Money result = moneyA.Divide(10m);
+
+            Assert.AreEqual(4m, result.Value);
+        }
     }
 }
