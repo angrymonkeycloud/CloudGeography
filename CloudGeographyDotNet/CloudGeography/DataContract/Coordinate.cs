@@ -10,6 +10,19 @@ public class Coordinate
         Latitude = latitude;
         Longitude = longitude;
     }
+    private static char StringifySeparator { get; set; } = ',';
+
+    public static Coordinate? Parse(string value)
+    {
+        if (string.IsNullOrEmpty(value))
+            return null;
+
+        string[] values = value.Split(StringifySeparator);
+
+        return new Coordinate(double.Parse(values[0]), double.Parse(values[1]));
+    }
+
+    public override string ToString() => $"{Latitude}{StringifySeparator}{Longitude}";
 
     public double CalculateDistance(Coordinate targetCoordinate, DistanceUnit distanceUnit)
         => CalculateDistance(new Coordinate(Latitude, Longitude), targetCoordinate, distanceUnit);
