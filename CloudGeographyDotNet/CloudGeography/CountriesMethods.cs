@@ -1,7 +1,5 @@
 ﻿using AngryMonkey.Cloud.Geography;
-using System.Collections.ObjectModel;
-using System;
-using System.Text.RegularExpressions;
+using Newtonsoft.Json;
 
 namespace AngryMonkey.Cloud;
 
@@ -85,6 +83,69 @@ public partial class CloudGeographyClient
                 catch { }
 
             return null;
+        }
+
+        /// <summary>
+        /// Azure Maps API Key required in client.
+        /// </summary>
+        /// <param name="coordinate">Coordinates to search.<param>
+        /// <returns></returns>
+        public async Task<Country?> GetByCoordinates(Coordinate coordinates)
+        {
+            if (string.IsNullOrEmpty(Client.Configuration.AzureMapsKey))
+                return null;
+            // Define the API endpoint
+            var endpoint = $"https://atlas.microsoft.com/search/address/reverse/json?subscription-key={Client.Configuration.AzureMapsKey}&api-version=1.0&query={coordinates.Latitude},{coordinates.Longitude}";
+
+            // Create an HTTP client object
+            var client = new HttpClient();
+
+            // Call the API endpoint and get the response
+            var response = await client.GetAsync(endpoint);
+
+            // Read the response content as a string
+            var content = await response.Content.ReadAsStringAsync();
+
+            // Deserialize the JSON response into an object
+            BingModels.AddressResponse? addressReponse = JsonConvert.DeserializeObject<BingModels.AddressResponse>(content);
+
+            BingModels.AddressReponseList? addressReponseList = addressReponse?.Addresses.FirstOrDefault();
+
+            if (addressReponseList == null)
+                return null;
+
+            return Get(addressReponseList.address.countryCode);
+        }
+
+        /// <summary>
+        /// Azure Maps API Key required in client.
+        /// </summary>
+        /// <param name="IPAdress">IP Adress to search.</param>
+        /// <returns></returns>
+        public async Task<Country?> GetByIP(string IPAddress)
+        {
+            if (string.IsNullOrEmpty(Client.Configuration.AzureMapsKey))
+                return null;
+            // Define the API endpoint
+            var endpoint = $"https://atlas.microsoft.com/geolocation/ip/json?api-version=1.0&ip={IPAddress}&subscription-key={Client.Configuration.AzureMapsKey}";
+
+            // Create an HTTP client object
+            var client = new HttpClient();
+
+            // Call the API endpoint and get the response
+            var response = await client.GetAsync(endpoint);
+
+            // Read the response content as a string
+            var content = await response.Content.ReadAsStringAsync();
+
+            // Deserialize the JSON response into an object
+            BingModels.IPAddressResponse? addressReponse = JsonConvert.DeserializeObject<BingModels.IPAddressResponse>(content);
+
+            if (addressReponse == null)
+                return null;
+
+            return Get(addressReponse.countryRegion.isoCode);
+
         }
     }
 }
