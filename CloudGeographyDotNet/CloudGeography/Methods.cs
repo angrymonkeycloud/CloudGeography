@@ -1,12 +1,12 @@
-﻿using System.Diagnostics.Metrics;
-using System.Reflection;
-using System.Reflection.PortableExecutable;
+﻿using System.Reflection;
 using Newtonsoft.Json;
+using AngryMonkey.Cloud.Geography;
 
 namespace AngryMonkey.Cloud;
 
 public partial class CloudGeographyClient
 {
+	public CloudGeographyConfig? Configuration { get; set; }
 	public CountriesMethods Countries { get; set; }
 	public LanguagesMethods Languages { get; set; }
 	public CurrenciesMethods Currencies { get; set; }
@@ -15,7 +15,7 @@ public partial class CloudGeographyClient
     public TimeZonesMethods TimeZones { get; set; }
 
 
-    public CloudGeographyClient()
+    public CloudGeographyClient(CloudGeographyConfig? cloudGeographyConfig = null)
 	{
 		Countries = new CountriesMethods(this);
 		Languages = new LanguagesMethods(this);
@@ -23,7 +23,7 @@ public partial class CloudGeographyClient
 		Subdivisions = new SubdivisionsMethods(this);
 		PhoneNumbers = new PhoneNumbersMethods(this);
 		TimeZones = new TimeZonesMethods(this);
-
+        Configuration = cloudGeographyConfig;
     }
 
 	internal static T? DeserializeModel<T>(string fileName, string directory = "")

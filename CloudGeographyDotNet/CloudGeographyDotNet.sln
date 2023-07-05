@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.32804.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudGeography", "CloudGeography\CloudGeography.csproj", "{3ECB3BDF-C6D7-460A-AADF-6F6CB6E6C13A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudGeography.Test", "CloudGeography.Test\CloudGeography.Test.csproj", "{0A717A73-34E1-42E5-92C3-B70DDA9802F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudGeography.Test", "CloudGeography.Test\CloudGeography.Test.csproj", "{0A717A73-34E1-42E5-92C3-B70DDA9802F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

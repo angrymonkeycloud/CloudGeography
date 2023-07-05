@@ -1,8 +1,50 @@
+using Microsoft.Extensions.Configuration;
+using Microsoft.VisualStudio.TestPlatform.TestHost;
+
 namespace CloudGeography.Test
 {
     [TestClass]
     public class CountriesTest
     {
+        public static IConfiguration InitConfiguration()
+        {
+            var config = new ConfigurationBuilder()
+                .AddUserSecrets<CountriesTest>()
+                .Build();
+            return config;
+        }
+
+        [TestMethod]
+        public async Task Get_Country_By_Coordinates()
+        {
+            var config = InitConfiguration();
+            CloudGeographyConfig Configuration = new()
+            {
+                AzureMapsKey = config["AzureMapsKey"]
+            };
+
+            CloudGeographyClient client = new(Configuration);
+            Country? country = await client.Countries.GetByCoordinates(new(33.84625085832766, 35.53432447938888));
+
+            Assert.AreEqual("LB", country?.Code);
+        }
+
+        [TestMethod]
+        public async Task Get_Country_By_IP()
+        {
+
+            var config = InitConfiguration();
+            CloudGeographyConfig Configuration = new()
+            {
+                AzureMapsKey = config["AzureMapsKey"]
+            };
+
+            CloudGeographyClient client = new(Configuration);
+            Country? country = await client.Countries.GetByIP("178.135.2.147");
+
+            Assert.AreEqual("LB", country?.Code);
+        }
+
         [TestMethod]
         public void Get_Country_By_CountryCode()
         {
