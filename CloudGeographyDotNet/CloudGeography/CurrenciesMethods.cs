@@ -5,10 +5,10 @@ namespace AngryMonkey.Cloud;
 public partial class CloudGeographyClient
 {
 	public partial class CurrenciesMethods
-	{
-		private CloudGeographyClient Client { get; set; }
+    {
+        private readonly CloudGeographyClient Client;
 
-		internal CurrenciesMethods(CloudGeographyClient client) => Client = client;
+        internal CurrenciesMethods(CloudGeographyClient client) => Client = client;
 
 		public List<Currency> Get(params string[] currencyCodes) => currencyCodes.Any() ? CurrenciesList.Where(key => currencyCodes.Any(c => key.CodeCheck(c))).ToList() : CurrenciesList;
 

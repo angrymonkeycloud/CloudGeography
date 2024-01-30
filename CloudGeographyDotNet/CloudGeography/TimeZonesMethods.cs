@@ -11,7 +11,7 @@ public partial class CloudGeographyClient
 {
     public class TimeZonesMethods
     {
-        private CloudGeographyClient Client { get; set; }
+        private readonly CloudGeographyClient Client;
 
         internal TimeZonesMethods(CloudGeographyClient client) => Client = client;
 

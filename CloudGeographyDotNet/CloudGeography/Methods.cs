@@ -25,16 +25,4 @@ public partial class CloudGeographyClient
 		TimeZones = new TimeZonesMethods(this);
         Configuration = cloudGeographyConfig;
     }
-
-	internal static T? DeserializeModel<T>(string fileName, string directory = "")
-	{
-		Assembly assembly = Assembly.GetExecutingAssembly();
-
-		string fullFileName = $"AngryMonkey.Cloud.Data.{(!string.IsNullOrEmpty(directory) ? $"{directory}." : null)}{fileName.ToLower()}.json";
-
-		using Stream stream = assembly.GetManifestResourceStream(fullFileName);
-		StreamReader reader = new(stream);
-
-		return JsonConvert.DeserializeObject<T>(reader.ReadToEnd());
-	}
 }

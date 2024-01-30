@@ -6,7 +6,7 @@ public partial class CloudGeographyClient
 {
     public class SubdivisionsMethods
     {
-        private CloudGeographyClient Client { get; set; }
+        private readonly CloudGeographyClient Client;
 
         internal SubdivisionsMethods(CloudGeographyClient client) => Client = client;
 

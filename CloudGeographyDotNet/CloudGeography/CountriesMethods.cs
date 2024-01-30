@@ -7,7 +7,7 @@ public partial class CloudGeographyClient
 {
     public partial class CountriesMethods
     {
-        private CloudGeographyClient Client { get; set; }
+        private readonly CloudGeographyClient Client;
 
         internal CountriesMethods(CloudGeographyClient client) => Client = client;
 
@@ -92,8 +92,9 @@ public partial class CloudGeographyClient
         /// <returns></returns>
         public async Task<Country?> GetByCoordinates(Coordinate coordinates)
         {
-            if (string.IsNullOrEmpty(Client.Configuration.AzureMapsKey))
+            if (string.IsNullOrEmpty(Client.Configuration?.AzureMapsKey))
                 return null;
+
             // Define the API endpoint
             var endpoint = $"https://atlas.microsoft.com/search/address/reverse/json?subscription-key={Client.Configuration.AzureMapsKey}&api-version=1.0&query={coordinates.Latitude},{coordinates.Longitude}";
 
@@ -124,8 +125,9 @@ public partial class CloudGeographyClient
         /// <returns></returns>
         public async Task<Country?> GetByIP(string IPAddress)
         {
-            if (string.IsNullOrEmpty(Client.Configuration.AzureMapsKey))
+            if (string.IsNullOrEmpty(Client.Configuration?.AzureMapsKey))
                 return null;
+
             // Define the API endpoint
             var endpoint = $"https://atlas.microsoft.com/geolocation/ip/json?api-version=1.0&ip={IPAddress}&subscription-key={Client.Configuration.AzureMapsKey}";
 
@@ -145,7 +147,6 @@ public partial class CloudGeographyClient
                 return null;
 
             return Get(addressReponse.countryRegion.isoCode);
-
         }
     }
 }

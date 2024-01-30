@@ -6,10 +6,10 @@ namespace AngryMonkey.Cloud;
 public partial class CloudGeographyClient
 {
 	public class PhoneNumbersMethods
-	{
-		private CloudGeographyClient Client { get; set; }
+    {
+        private readonly CloudGeographyClient Client;
 
-		internal PhoneNumbersMethods(CloudGeographyClient client) => Client = client;
+        internal PhoneNumbersMethods(CloudGeographyClient client) => Client = client;
 
 		public bool IsValidPhoneNumber(string number) => Regex.IsMatch(number, @$"^\+?[0-9({PhoneNumberValidCharacters})]{{8,20}}$");
 		public static string PhoneNumberValidCharacters => string.Join(@"\", new[] { ' ', '.', '-', '/', '\\', '(', ')' });
