@@ -8,7 +8,7 @@
 		<Title>Cloud Geography</Title>
 		<AssemblyVersion>$(PackageVersion)</AssemblyVersion>
 		<FileVersion>$(PackageVersion)</FileVersion>
-		<Version>2.6.1</Version>
+		<Version>2.6.2</Version>
 		<AssemblyName>AngryMonkey.Cloud.Geography</AssemblyName>
 		<Authors>Angry Monkey</Authors>
 		<Description>A .Net client to retrieve Countries, Languages, and Currencies information.</Description>
@@ -17,10 +17,6 @@
 		<IncludeSymbols>False</IncludeSymbols>
 		<PackageOutputPath>..\..\NugetPackage\</PackageOutputPath>
 	</PropertyGroup>
-
-	<ItemGroup>
-		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-	</ItemGroup>
 
 	<ItemGroup>
 		<None Update="AngryMonkeyCloudLogo-64x64.png">

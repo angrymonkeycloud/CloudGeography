@@ -1,5 +1,5 @@
 ﻿using AngryMonkey.Cloud.Geography;
-using Newtonsoft.Json;
+using System.Text.Json;
 
 namespace AngryMonkey.Cloud;
 
@@ -108,7 +108,7 @@ public partial class CloudGeographyClient
             var content = await response.Content.ReadAsStringAsync();
 
             // Deserialize the JSON response into an object
-            BingModels.AddressResponse? addressReponse = JsonConvert.DeserializeObject<BingModels.AddressResponse>(content);
+            BingModels.AddressResponse? addressReponse = JsonSerializer.Deserialize<BingModels.AddressResponse>(content);
 
             BingModels.AddressReponseList? addressReponseList = addressReponse?.Addresses.FirstOrDefault();
 
@@ -141,7 +141,7 @@ public partial class CloudGeographyClient
             var content = await response.Content.ReadAsStringAsync();
 
             // Deserialize the JSON response into an object
-            BingModels.IPAddressResponse? addressReponse = JsonConvert.DeserializeObject<BingModels.IPAddressResponse>(content);
+            BingModels.IPAddressResponse? addressReponse = JsonSerializer.Deserialize<BingModels.IPAddressResponse>(content);
 
             if (addressReponse == null)
                 return null;

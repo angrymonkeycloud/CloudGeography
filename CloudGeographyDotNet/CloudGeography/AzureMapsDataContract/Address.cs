@@ -1,6 +1,4 @@
-﻿using Newtonsoft.Json;
-
-namespace AngryMonkey.Cloud.Geography;
+﻿namespace AngryMonkey.Cloud.Geography;
 
 internal partial class BingModels
 {
