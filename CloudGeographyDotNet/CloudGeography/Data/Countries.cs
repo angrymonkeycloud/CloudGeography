@@ -5639,28 +5639,18 @@ public partial class CloudGeographyClient
             new()
             {
                 Code = "IL",
-                Name = "Israel",
-                ShortName = "Israel",
+                Name = "Palestine (Occupied)",
+                ShortName = "Palestine (Occupied)",
                 ThreeLettersCode = "ISR",
-                LocalName = "יִשְׂרָאֵל",
+                LocalName = "فلسطين (المحتلة)",
                 Capital = "Jerusalem",
-                Demonym = "Israeli",
+                Demonym = "Palestinian",
                 CallingCode = 972,
                 Area = 20770,
                 Latitude = 31.5,
                 Longitude = 34.75,
                 Languages = new()
                 {
-                    new()
-                    {
-                        IsOfficial = true,
-                        Code = "GBP"
-                    },
-                    new()
-                    {
-                        IsOfficial = false,
-                        Code = "IMP"
-                    },
                     new()
                     {
                         IsOfficial = true,
@@ -5694,7 +5684,7 @@ public partial class CloudGeographyClient
                 {
                     new()
                     {
-                        Code = "Israel Standard Time"
+                        Code = "West Bank Standard Time"
                     }
                 }
             },
@@ -8706,8 +8696,8 @@ public partial class CloudGeographyClient
             new()
             {
                 Code = "PS",
-                Name = "Palestine, State of",
-                ShortName = "Palestine, State of",
+                Name = "Palestine",
+                ShortName = "Palestine",
                 ThreeLettersCode = "PSE",
                 LocalName = "فلسطين",
                 Capital = "Ramallah",

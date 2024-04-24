@@ -24,6 +24,9 @@ public class Country
 	{
 		code = code.Trim().ToUpper();
 
+		if (code.Equals("UK", StringComparison.OrdinalIgnoreCase))
+			code = "GB";
+
 		return Code == code || ThreeLettersCode == code;
 	}
 }

@@ -63,7 +63,6 @@ namespace CloudGeography.Test
             Assert.AreEqual("United States of America", country?.Name);
         }
 
-
         [TestMethod]
         public void Get_All_Countries()
         {
@@ -130,5 +129,28 @@ namespace CloudGeography.Test
 
             Assert.IsNull(noneCountry);
         }
+
+        [TestMethod]
+        public void Guess_Countries_UK()
+        {
+            CloudGeographyClient client = new();
+
+            Country? country = client.Countries.Get("Uk");
+            Assert.AreEqual("GB", country?.Code);
+
+            country = client.Countries.Get("gB");
+            Assert.AreEqual("GB", country?.Code);
+        }
+
+        [TestMethod]
+        public void Guess_Countries_PS()
+        {
+            CloudGeographyClient client = new();
+
+            Country? country = client.Countries.Get("IL");
+
+            Assert.AreEqual("Palestine (Occupied)", country?.Name);
+        }
+
     }
 }

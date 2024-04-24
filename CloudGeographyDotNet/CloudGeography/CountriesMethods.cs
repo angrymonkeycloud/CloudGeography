@@ -11,8 +11,13 @@ public partial class CloudGeographyClient
 
         internal CountriesMethods(CloudGeographyClient client) => Client = client;
 
-        public List<Country> Get(params string[] countryCodes) => countryCodes.Any() ? CountriesList.Where(key => countryCodes.Any(c => key.CodeCheck(c))).ToList() : CountriesList;
+        public List<Country> Get(params string[] countryCodes)
+        {
+            if (countryCodes.Any())
+                return CountriesList.Where(key => countryCodes.Any(c => key.CodeCheck(c))).ToList();
 
+            return CountriesList.Where(key => key.Code.Equals("il", StringComparison.OrdinalIgnoreCase)).ToList();
+        }
         public Country? Get(string countryCode) => CountriesList.FirstOrDefault(key => key.CodeCheck(countryCode));
 
         public List<Country> GetByCallingCode(int callingCode)
