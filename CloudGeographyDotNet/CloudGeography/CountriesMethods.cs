@@ -16,7 +16,7 @@ public partial class CloudGeographyClient
             if (countryCodes.Any())
                 return CountriesList.Where(key => countryCodes.Any(c => key.CodeCheck(c))).ToList();
 
-            return CountriesList.Where(key => key.Code.Equals("il", StringComparison.OrdinalIgnoreCase)).ToList();
+            return CountriesList.ToList();
         }
         public Country? Get(string countryCode) => CountriesList.FirstOrDefault(key => key.CodeCheck(countryCode));
 

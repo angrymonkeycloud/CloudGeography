@@ -69,7 +69,7 @@ namespace CloudGeography.Test
             CloudGeographyClient client = new();
             List<Country> country = client.Countries.Get();
 
-            Assert.IsTrue(country.Any());
+            Assert.IsTrue(country.Count > 200);
         }
 
         [TestMethod]
