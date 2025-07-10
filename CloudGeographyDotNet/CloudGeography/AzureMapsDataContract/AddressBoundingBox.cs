@@ -1,10 +1,24 @@
-﻿namespace AngryMonkey.Cloud.Geography;
+﻿using System.Text.Json.Serialization;
+
+namespace AngryMonkey.Cloud.Geography;
+
 internal partial class BingModels
 {
     internal class AddressBoundingBox
     {
-        public string northEast { get; set; }
-        public string southWest { get; set; }
-        public string entity { get; set; }
+        [JsonPropertyName("topLeftPoint")]
+        public BoundingBoxPoint? TopLeftPoint { get; set; }
+        
+        [JsonPropertyName("btmRightPoint")]
+        public BoundingBoxPoint? BottomRightPoint { get; set; }
+    }
+    
+    internal class BoundingBoxPoint
+    {
+        [JsonPropertyName("lat")]
+        public double Latitude { get; set; }
+        
+        [JsonPropertyName("lon")]
+        public double Longitude { get; set; }
     }
 }

@@ -100,27 +100,44 @@ public partial class CloudGeographyClient
             if (string.IsNullOrEmpty(Client.Configuration?.AzureMapsKey))
                 return null;
 
-            // Define the API endpoint
-            var endpoint = $"https://atlas.microsoft.com/search/address/reverse/json?subscription-key={Client.Configuration.AzureMapsKey}&api-version=1.0&query={coordinates.Latitude},{coordinates.Longitude}";
+            try
+            {
+                // Define the API endpoint
+                var endpoint = $"https://atlas.microsoft.com/search/address/reverse/json?subscription-key={Client.Configuration.AzureMapsKey}&api-version=1.0&query={coordinates.Latitude},{coordinates.Longitude}";
 
-            // Create an HTTP client object
-            var client = new HttpClient();
+                // Create an HTTP client object
+                using var client = new HttpClient();
 
-            // Call the API endpoint and get the response
-            var response = await client.GetAsync(endpoint);
+                // Call the API endpoint and get the response
+                var response = await client.GetAsync(endpoint);
 
-            // Read the response content as a string
-            var content = await response.Content.ReadAsStringAsync();
+                // Read the response content as a string
+                var content = await response.Content.ReadAsStringAsync();
 
-            // Deserialize the JSON response into an object
-            BingModels.AddressResponse? addressReponse = JsonSerializer.Deserialize<BingModels.AddressResponse>(content);
+                // Configure JSON deserialization options to be case insensitive
+                var options = new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                };
 
-            BingModels.AddressReponseList? addressReponseList = addressReponse?.Addresses.FirstOrDefault();
+                // Deserialize the JSON response into an object
+                var addressResponse = JsonSerializer.Deserialize<BingModels.AddressResponse>(content, options);
 
-            if (addressReponseList == null)
+                if (addressResponse?.Results == null || !addressResponse.Results.Any())
+                    return null;
+
+                var addressResult = addressResponse.Results.FirstOrDefault();
+                
+                if (addressResult?.Address?.CountryCode == null)
+                    return null;
+
+                return Get(addressResult.Address.CountryCode);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error retrieving country by coordinates: {ex.Message}");
                 return null;
-
-            return Get(addressReponseList.address.countryCode);
+            }
         }
 
         /// <summary>
@@ -133,25 +150,39 @@ public partial class CloudGeographyClient
             if (string.IsNullOrEmpty(Client.Configuration?.AzureMapsKey))
                 return null;
 
-            // Define the API endpoint
-            var endpoint = $"https://atlas.microsoft.com/geolocation/ip/json?api-version=1.0&ip={IPAddress}&subscription-key={Client.Configuration.AzureMapsKey}";
+            try
+            {
+                // Define the API endpoint
+                var endpoint = $"https://atlas.microsoft.com/geolocation/ip/json?api-version=1.0&ip={IPAddress}&subscription-key={Client.Configuration.AzureMapsKey}";
 
-            // Create an HTTP client object
-            var client = new HttpClient();
+                // Create an HTTP client object
+                using var client = new HttpClient();
 
-            // Call the API endpoint and get the response
-            var response = await client.GetAsync(endpoint);
+                // Call the API endpoint and get the response
+                var response = await client.GetAsync(endpoint);
 
-            // Read the response content as a string
-            var content = await response.Content.ReadAsStringAsync();
+                // Read the response content as a string
+                var content = await response.Content.ReadAsStringAsync();
 
-            // Deserialize the JSON response into an object
-            BingModels.IPAddressResponse? addressReponse = JsonSerializer.Deserialize<BingModels.IPAddressResponse>(content);
+                // Configure JSON deserialization options to be case insensitive
+                var options = new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                };
 
-            if (addressReponse == null)
+                // Deserialize the JSON response into an object
+                var addressResponse = JsonSerializer.Deserialize<BingModels.IPAddressResponse>(content, options);
+
+                if (addressResponse?.CountryRegion?.IsoCode == null)
+                    return null;
+
+                return Get(addressResponse.CountryRegion.IsoCode);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error retrieving country by IP: {ex.Message}");
                 return null;
-
-            return Get(addressReponse.countryRegion.isoCode);
+            }
         }
     }
 }
