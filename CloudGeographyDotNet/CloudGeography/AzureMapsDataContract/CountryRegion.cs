@@ -1,9 +1,12 @@
-﻿namespace AngryMonkey.Cloud.Geography;
+﻿using System.Text.Json.Serialization;
+
+namespace AngryMonkey.Cloud.Geography;
 
 internal partial class BingModels
 {
     internal class CountryRegion
     {
-        public string isoCode { get; set; }
+        [JsonPropertyName("isoCode")]
+        public string? IsoCode { get; set; }
     }
 }

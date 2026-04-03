@@ -1,9 +1,16 @@
-﻿namespace AngryMonkey.Cloud.Geography;
+﻿using System.Text.Json.Serialization;
+
+namespace AngryMonkey.Cloud.Geography;
 internal partial class BingModels
 {
+    // Note: This class is retained for backward compatibility,
+    // but the AddressResponse.Results and AddressResult classes are now used instead
     internal class AddressReponseList
     {
-        public string position { get; set; }
-        public Address address { get; set; }
+        [JsonPropertyName("position")]
+        public string? Position { get; set; }
+        
+        [JsonPropertyName("address")]
+        public Address? Address { get; set; }
     }
 }

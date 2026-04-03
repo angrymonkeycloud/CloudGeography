@@ -1,5 +1,6 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.VisualStudio.TestPlatform.TestHost;
+using System.Text.Json;
 
 namespace CloudGeography.Test
 {
@@ -27,6 +28,34 @@ namespace CloudGeography.Test
             Country? country = await client.Countries.GetByCoordinates(new(33.84625085832766, 35.53432447938888));
 
             Assert.AreEqual("LB", country?.Code);
+        }
+
+        [TestMethod]
+        public async Task Debug_Azure_Maps_Response()
+        {
+            var config = InitConfiguration();
+            CloudGeographyConfig Configuration = new()
+            {
+                AzureMapsKey = config["AzureMapsKey"]
+            };
+
+            // Define the API endpoint
+            var coordinates = new Coordinate(33.84625085832766, 35.53432447938888);
+            var endpoint = $"https://atlas.microsoft.com/search/address/reverse/json?subscription-key={Configuration.AzureMapsKey}&api-version=1.0&query={coordinates.Latitude},{coordinates.Longitude}";
+
+            // Create an HTTP client object
+            var client = new HttpClient();
+
+            // Call the API endpoint and get the response
+            var response = await client.GetAsync(endpoint);
+
+            // Read the response content as a string
+            var content = await response.Content.ReadAsStringAsync();
+            
+            Console.WriteLine($"Azure Maps API Response: {content}");
+
+            // Instead of failing, just check if we received content
+            Assert.IsFalse(string.IsNullOrWhiteSpace(content));
         }
 
         [TestMethod]

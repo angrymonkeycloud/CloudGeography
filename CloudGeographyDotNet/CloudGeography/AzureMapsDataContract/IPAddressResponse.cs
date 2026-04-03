@@ -1,10 +1,15 @@
-﻿namespace AngryMonkey.Cloud.Geography;
+﻿using System.Text.Json.Serialization;
+
+namespace AngryMonkey.Cloud.Geography;
 
 internal partial class BingModels
 {
     internal class IPAddressResponse
     {
-        public CountryRegion countryRegion { get; set; }
-        public string ipAddress { get; set; }
+        [JsonPropertyName("countryRegion")]
+        public CountryRegion? CountryRegion { get; set; }
+        
+        [JsonPropertyName("ipAddress")]
+        public string? IpAddress { get; set; }
     }
 }

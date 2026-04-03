@@ -1,10 +1,15 @@
-﻿namespace AngryMonkey.Cloud.Geography;
+﻿using System.Text.Json.Serialization;
+
+namespace AngryMonkey.Cloud.Geography;
 
 internal partial class BingModels
 {
     internal class AddressSummary
     {
-        public int queryTime { get; set; }
-        public int numResults { get; set; }
+        [JsonPropertyName("queryTime")]
+        public int QueryTime { get; set; }
+        
+        [JsonPropertyName("numResults")]
+        public int NumResults { get; set; }
     }
 }
