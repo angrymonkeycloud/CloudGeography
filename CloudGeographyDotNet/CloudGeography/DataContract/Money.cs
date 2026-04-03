@@ -77,7 +77,7 @@ public partial class Money
             return nanosString;
 
         if (nanosString.Length > digits)
-            return nanosString.Remove(digits);
+            return nanosString[..digits];
 
         while (nanosString.Length < digits)
             nanosString += "0";
