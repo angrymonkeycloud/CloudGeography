@@ -13,7 +13,7 @@ public partial class CloudGeographyClient
             if (_subdivisions != null)
                 return _subdivisions;
 
-            _subdivisions = new();
+            _subdivisions = [];
 
             FillInSubdivisionsAF();
             FillInSubdivisionsAL();

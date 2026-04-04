@@ -5,107 +5,107 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsSY()
     {
-        AddSubdivisions("SY", new List<Subdivision>()
-        {
+        AddSubdivisions("SY",
+        [
             new()
             { 
                 Code = "HA",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "AI Hasakah",
                 LocalName = "الحسكة"
             },
             new()
             { 
                 Code = "HL",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Aleppo",
                 LocalName = "حلب"
             },
             new()
             { 
                 Code = "SU",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "As-Suwayda",
                 LocalName = "السويداء"
             },
             new()
             { 
                 Code = "DI",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Damascus",
                 LocalName = "دمشق‎"
             },
             new()
             { 
                 Code = "DR",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Daraa",
                 LocalName = "درعا"
             },
             new()
             { 
                 Code = "DY",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Deir ez-Zor",
                 LocalName = "دير الزور"
             },
             new()
             { 
                 Code = "HM",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Hama",
                 LocalName = "حماة"
             },
             new()
             { 
                 Code = "HI",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Homs",
                 LocalName = "حمص"
             },
             new()
             { 
                 Code = "ID",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Idlib",
                 LocalName = "ادلب"
             },
             new()
             { 
                 Code = "LA",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Latakia",
                 LocalName = "اللاذقية"
             },
             new()
             { 
                 Code = "QU",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Quneitra",
                 LocalName = "القنيطرة"
             },
             new()
             { 
                 Code = "RA",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Raqqa",
                 LocalName = "الرقة"
             },
             new()
             { 
                 Code = "RD",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Rif Dimashq",
                 LocalName = "ريف دمشق"
             },
             new()
             { 
                 Code = "TA",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Tartus",
                 LocalName = "طرطوس"
             }
 
-        });
+        ]);
     }
 }

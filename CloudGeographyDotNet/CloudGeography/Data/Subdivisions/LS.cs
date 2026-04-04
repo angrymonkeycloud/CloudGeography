@@ -5,79 +5,79 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsLS()
     {
-        AddSubdivisions("LS", new List<Subdivision>()
-        {
+        AddSubdivisions("LS",
+        [
             new()
             { 
                 Code = "D",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Berea",
                 LocalName = "Berea"
             },
             new()
             { 
                 Code = "B",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Butha-Buthe",
                 LocalName = "Butha-Buthe"
             },
             new()
             { 
                 Code = "C",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Leribe",
                 LocalName = "Leribe"
             },
             new()
             { 
                 Code = "E",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Mafeteng",
                 LocalName = "Mafeteng"
             },
             new()
             { 
                 Code = "A",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Maseru",
                 LocalName = "Maseru"
             },
             new()
             { 
                 Code = "F",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Mohale's Hoek",
                 LocalName = "Mohale's Hoek"
             },
             new()
             { 
                 Code = "J",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Mokhotlong",
                 LocalName = "Mokhotlong"
             },
             new()
             { 
                 Code = "H",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Qacha's Nek",
                 LocalName = "Qacha's Nek"
             },
             new()
             { 
                 Code = "G",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Quthing",
                 LocalName = "Quthing"
             },
             new()
             { 
                 Code = "K",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Thaba-Tseka",
                 LocalName = "Thaba-Tseka"
             }
 
-        });
+        ]);
     }
 }

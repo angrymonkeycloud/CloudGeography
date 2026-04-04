@@ -5,79 +5,79 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsZW()
     {
-        AddSubdivisions("ZW", new List<Subdivision>()
-        {
+        AddSubdivisions("ZW",
+        [
             new()
             { 
                 Code = "BU",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Bulawayo",
                 LocalName = "Bulawayo"
             },
             new()
             { 
                 Code = "HA",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Harare",
                 LocalName = "Harare"
             },
             new()
             { 
                 Code = "MA",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Manicaland",
                 LocalName = "Manicaland"
             },
             new()
             { 
                 Code = "MC",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Mashonaland Central",
                 LocalName = "Mashonaland Central"
             },
             new()
             { 
                 Code = "ME",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Mashonaland East",
                 LocalName = "Mashonaland East"
             },
             new()
             { 
                 Code = "MW",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Mashonaland West",
                 LocalName = "Mashonaland West"
             },
             new()
             { 
                 Code = "MV",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Masvingo",
                 LocalName = "Masvingo"
             },
             new()
             { 
                 Code = "MN",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Matabeleland North",
                 LocalName = "Matabeleland North"
             },
             new()
             { 
                 Code = "MS",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Matabeleland South",
                 LocalName = "Matabeleland South"
             },
             new()
             { 
                 Code = "MI",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Midlands",
                 LocalName = "Midlands"
             }
 
-        });
+        ]);
     }
 }

@@ -5,779 +5,779 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsIT()
     {
-        AddSubdivisions("IT", new List<Subdivision>()
-        {
+        AddSubdivisions("IT",
+        [
             new()
             { 
                 Code = "AG",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Agrigento",
                 LocalName = "Agrigento"
             },
             new()
             { 
                 Code = "AL",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Alessandria",
                 LocalName = "Alessandria"
             },
             new()
             { 
                 Code = "AN",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Ancona",
                 LocalName = "Ancona"
             },
             new()
             { 
                 Code = "AO",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Aosta / Aoste",
                 LocalName = "Aosta / Aoste"
             },
             new()
             { 
                 Code = "AR",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Arezzo",
                 LocalName = "Arezzo"
             },
             new()
             { 
                 Code = "AP",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Ascoli Piceno",
                 LocalName = "Ascoli Piceno"
             },
             new()
             { 
                 Code = "AT",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Asti",
                 LocalName = "Asti"
             },
             new()
             { 
                 Code = "AV",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Avellino",
                 LocalName = "Avellino"
             },
             new()
             { 
                 Code = "BA",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Bari",
                 LocalName = "Bari"
             },
             new()
             { 
                 Code = "BT",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Barletta-Andria-Trani",
                 LocalName = "Barletta-Andria-Trani"
             },
             new()
             { 
                 Code = "BL",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Belluno",
                 LocalName = "Belluno"
             },
             new()
             { 
                 Code = "BN",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Benevento",
                 LocalName = "Benevento"
             },
             new()
             { 
                 Code = "BG",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Bergamo",
                 LocalName = "Bergamo"
             },
             new()
             { 
                 Code = "BI",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Biella",
                 LocalName = "Biella"
             },
             new()
             { 
                 Code = "BO",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Bologna",
                 LocalName = "Bologna"
             },
             new()
             { 
                 Code = "BZ",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Bolzano / Bozen",
                 LocalName = "Bolzano / Bozen"
             },
             new()
             { 
                 Code = "BS",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Brescia",
                 LocalName = "Brescia"
             },
             new()
             { 
                 Code = "BR",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Brindisi",
                 LocalName = "Brindisi"
             },
             new()
             { 
                 Code = "CA",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Cagliari",
                 LocalName = "Cagliari"
             },
             new()
             { 
                 Code = "CL",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Caltanissetta",
                 LocalName = "Caltanissetta"
             },
             new()
             { 
                 Code = "CB",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Campobasso",
                 LocalName = "Campobasso"
             },
             new()
             { 
                 Code = "CI",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Carbonia-Iglesias",
                 LocalName = "Carbonia-Iglesias"
             },
             new()
             { 
                 Code = "CE",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Caserta",
                 LocalName = "Caserta"
             },
             new()
             { 
                 Code = "CT",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Catania",
                 LocalName = "Catania"
             },
             new()
             { 
                 Code = "CZ",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Catanzaro",
                 LocalName = "Catanzaro"
             },
             new()
             { 
                 Code = "CH",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Chieti",
                 LocalName = "Chieti"
             },
             new()
             { 
                 Code = "CO",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Como",
                 LocalName = "Como"
             },
             new()
             { 
                 Code = "CS",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Cosenza",
                 LocalName = "Cosenza"
             },
             new()
             { 
                 Code = "CR",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Cremona",
                 LocalName = "Cremona"
             },
             new()
             { 
                 Code = "KR",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Crotone",
                 LocalName = "Crotone"
             },
             new()
             { 
                 Code = "CN",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Cuneo",
                 LocalName = "Cuneo"
             },
             new()
             { 
                 Code = "EN",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Enna",
                 LocalName = "Enna"
             },
             new()
             { 
                 Code = "FM",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Fermo",
                 LocalName = "Fermo"
             },
             new()
             { 
                 Code = "FE",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Ferrara",
                 LocalName = "Ferrara"
             },
             new()
             { 
                 Code = "FI",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Firenze",
                 LocalName = "Firenze"
             },
             new()
             { 
                 Code = "FG",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Foggia",
                 LocalName = "Foggia"
             },
             new()
             { 
                 Code = "FC",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Forlì-Cesena",
                 LocalName = "Forlì-Cesena"
             },
             new()
             { 
                 Code = "FR",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Frosinone",
                 LocalName = "Frosinone"
             },
             new()
             { 
                 Code = "GE",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Genova",
                 LocalName = "Genova"
             },
             new()
             { 
                 Code = "GO",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Gorizia",
                 LocalName = "Gorizia"
             },
             new()
             { 
                 Code = "GR",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Grosseto",
                 LocalName = "Grosseto"
             },
             new()
             { 
                 Code = "IM",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Imperia",
                 LocalName = "Imperia"
             },
             new()
             { 
                 Code = "IS",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Isernia",
                 LocalName = "Isernia"
             },
             new()
             { 
                 Code = "SP",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "La Spezia",
                 LocalName = "La Spezia"
             },
             new()
             { 
                 Code = "AQ",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "L'Aquila",
                 LocalName = "L'Aquila"
             },
             new()
             { 
                 Code = "LT",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Latina",
                 LocalName = "Latina"
             },
             new()
             { 
                 Code = "LE",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Lecce",
                 LocalName = "Lecce"
             },
             new()
             { 
                 Code = "LC",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Lecco",
                 LocalName = "Lecco"
             },
             new()
             { 
                 Code = "LI",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Livorno",
                 LocalName = "Livorno"
             },
             new()
             { 
                 Code = "LO",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Lodi",
                 LocalName = "Lodi"
             },
             new()
             { 
                 Code = "LU",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Lucca",
                 LocalName = "Lucca"
             },
             new()
             { 
                 Code = "MC",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Macerata",
                 LocalName = "Macerata"
             },
             new()
             { 
                 Code = "MN",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Mantova",
                 LocalName = "Mantova"
             },
             new()
             { 
                 Code = "MS",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Massa-Carrara",
                 LocalName = "Massa-Carrara"
             },
             new()
             { 
                 Code = "MT",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Matera",
                 LocalName = "Matera"
             },
             new()
             { 
                 Code = "VS",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Medio Campidano",
                 LocalName = "Medio Campidano"
             },
             new()
             { 
                 Code = "ME",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Messina",
                 LocalName = "Messina"
             },
             new()
             { 
                 Code = "MI",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Milano",
                 LocalName = "Milano"
             },
             new()
             { 
                 Code = "MO",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Modena",
                 LocalName = "Modena"
             },
             new()
             { 
                 Code = "MB",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Monza e Brianza",
                 LocalName = "Monza e Brianza"
             },
             new()
             { 
                 Code = "NA",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Napoli",
                 LocalName = "Napoli"
             },
             new()
             { 
                 Code = "NO",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Novara",
                 LocalName = "Novara"
             },
             new()
             { 
                 Code = "NU",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Nuoro",
                 LocalName = "Nuoro"
             },
             new()
             { 
                 Code = "OG",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Ogliastra",
                 LocalName = "Ogliastra"
             },
             new()
             { 
                 Code = "OT",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Olbia-Tempio",
                 LocalName = "Olbia-Tempio"
             },
             new()
             { 
                 Code = "OR",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Oristano",
                 LocalName = "Oristano"
             },
             new()
             { 
                 Code = "PD",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Padova",
                 LocalName = "Padova"
             },
             new()
             { 
                 Code = "PA",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Palermo",
                 LocalName = "Palermo"
             },
             new()
             { 
                 Code = "PR",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Parma",
                 LocalName = "Parma"
             },
             new()
             { 
                 Code = "PV",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Pavia",
                 LocalName = "Pavia"
             },
             new()
             { 
                 Code = "PG",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Perugia",
                 LocalName = "Perugia"
             },
             new()
             { 
                 Code = "PU",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Pesaro e Urbino",
                 LocalName = "Pesaro e Urbino"
             },
             new()
             { 
                 Code = "PE",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Pescara",
                 LocalName = "Pescara"
             },
             new()
             { 
                 Code = "PC",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Piacenza",
                 LocalName = "Piacenza"
             },
             new()
             { 
                 Code = "PI",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Pisa",
                 LocalName = "Pisa"
             },
             new()
             { 
                 Code = "PT",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Pistoia",
                 LocalName = "Pistoia"
             },
             new()
             { 
                 Code = "PN",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Pordenone",
                 LocalName = "Pordenone"
             },
             new()
             { 
                 Code = "PZ",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Potenza",
                 LocalName = "Potenza"
             },
             new()
             { 
                 Code = "PO",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Prato",
                 LocalName = "Prato"
             },
             new()
             { 
                 Code = "RG",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Ragusa",
                 LocalName = "Ragusa"
             },
             new()
             { 
                 Code = "RA",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Ravenna",
                 LocalName = "Ravenna"
             },
             new()
             { 
                 Code = "RC",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Reggio Calabria",
                 LocalName = "Reggio Calabria"
             },
             new()
             { 
                 Code = "RE",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Reggio Emilia",
                 LocalName = "Reggio Emilia"
             },
             new()
             { 
                 Code = "RI",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Rieti",
                 LocalName = "Rieti"
             },
             new()
             { 
                 Code = "RN",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Rimini",
                 LocalName = "Rimini"
             },
             new()
             { 
                 Code = "RM",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Roma",
                 LocalName = "Roma"
             },
             new()
             { 
                 Code = "RO",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Rovigo",
                 LocalName = "Rovigo"
             },
             new()
             { 
                 Code = "SA",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Salerno",
                 LocalName = "Salerno"
             },
             new()
             { 
                 Code = "SS",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Sassari",
                 LocalName = "Sassari"
             },
             new()
             { 
                 Code = "SV",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Savona",
                 LocalName = "Savona"
             },
             new()
             { 
                 Code = "SI",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Siena",
                 LocalName = "Siena"
             },
             new()
             { 
                 Code = "SR",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Siracusa",
                 LocalName = "Siracusa"
             },
             new()
             { 
                 Code = "SO",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Sondrio",
                 LocalName = "Sondrio"
             },
             new()
             { 
                 Code = "TA",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Taranto",
                 LocalName = "Taranto"
             },
             new()
             { 
                 Code = "TE",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Teramo",
                 LocalName = "Teramo"
             },
             new()
             { 
                 Code = "TR",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Terni",
                 LocalName = "Terni"
             },
             new()
             { 
                 Code = "TO",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Torino",
                 LocalName = "Torino"
             },
             new()
             { 
                 Code = "TP",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Trapani",
                 LocalName = "Trapani"
             },
             new()
             { 
                 Code = "TN",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Trento",
                 LocalName = "Trento"
             },
             new()
             { 
                 Code = "TV",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Treviso",
                 LocalName = "Treviso"
             },
             new()
             { 
                 Code = "TS",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Trieste",
                 LocalName = "Trieste"
             },
             new()
             { 
                 Code = "UD",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Udine",
                 LocalName = "Udine"
             },
             new()
             { 
                 Code = "VA",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Varese",
                 LocalName = "Varese"
             },
             new()
             { 
                 Code = "VE",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Venezia",
                 LocalName = "Venezia"
             },
             new()
             { 
                 Code = "VB",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Verbano-Cusio-Ossola",
                 LocalName = "Verbano-Cusio-Ossola"
             },
             new()
             { 
                 Code = "VC",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Vercelli",
                 LocalName = "Vercelli"
             },
             new()
             { 
                 Code = "VR",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Verona",
                 LocalName = "Verona"
             },
             new()
             { 
                 Code = "VV",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Vibo Valentia",
                 LocalName = "Vibo Valentia"
             },
             new()
             { 
                 Code = "VI",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Vicenza",
                 LocalName = "Vicenza"
             },
             new()
             { 
                 Code = "VT",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Viterbo",
                 LocalName = "Viterbo"
             }
 
-        });
+        ]);
     }
 }

@@ -5,86 +5,86 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsLI()
     {
-        AddSubdivisions("LI", new List<Subdivision>()
-        {
+        AddSubdivisions("LI",
+        [
             new()
             { 
                 Code = "1",
-                Type = "Commune",
+                Type = SubdivisionTypes.Commune,
                 Name = "Balzers",
                 LocalName = "Balzers"
             },
             new()
             { 
                 Code = "2",
-                Type = "Commune",
+                Type = SubdivisionTypes.Commune,
                 Name = "Eschen",
                 LocalName = "Eschen"
             },
             new()
             { 
                 Code = "3",
-                Type = "Commune",
+                Type = SubdivisionTypes.Commune,
                 Name = "Gamprin",
                 LocalName = "Gamprin"
             },
             new()
             { 
                 Code = "4",
-                Type = "Commune",
+                Type = SubdivisionTypes.Commune,
                 Name = "Mauren",
                 LocalName = "Mauren"
             },
             new()
             { 
                 Code = "5",
-                Type = "Commune",
+                Type = SubdivisionTypes.Commune,
                 Name = "Planken",
                 LocalName = "Planken"
             },
             new()
             { 
                 Code = "6",
-                Type = "Commune",
+                Type = SubdivisionTypes.Commune,
                 Name = "Ruggell",
                 LocalName = "Ruggell"
             },
             new()
             { 
                 Code = "7",
-                Type = "Commune",
+                Type = SubdivisionTypes.Commune,
                 Name = "Schaan",
                 LocalName = "Schaan"
             },
             new()
             { 
                 Code = "8",
-                Type = "Commune",
+                Type = SubdivisionTypes.Commune,
                 Name = "Schellenberg",
                 LocalName = "Schellenberg"
             },
             new()
             { 
                 Code = "9",
-                Type = "Commune",
+                Type = SubdivisionTypes.Commune,
                 Name = "Triesen",
                 LocalName = "Triesen"
             },
             new()
             { 
                 Code = "10",
-                Type = "Commune",
+                Type = SubdivisionTypes.Commune,
                 Name = "Triesenberg",
                 LocalName = "Triesenberg"
             },
             new()
             { 
                 Code = "11",
-                Type = "Commune",
+                Type = SubdivisionTypes.Commune,
                 Name = "Vaduz",
                 LocalName = "Vaduz"
             }
 
-        });
+        ]);
     }
 }

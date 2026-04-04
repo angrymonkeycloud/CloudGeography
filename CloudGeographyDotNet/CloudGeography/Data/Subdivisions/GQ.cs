@@ -5,58 +5,58 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsGQ()
     {
-        AddSubdivisions("GQ", new List<Subdivision>()
-        {
+        AddSubdivisions("GQ",
+        [
             new()
             { 
                 Code = "AN",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Annobón",
                 LocalName = "Annobón"
             },
             new()
             { 
                 Code = "BN",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Bioko Norte",
                 LocalName = "Bioko Norte"
             },
             new()
             { 
                 Code = "BS",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Bioko Sur",
                 LocalName = "Bioko Sur"
             },
             new()
             { 
                 Code = "CS",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Centro Sur",
                 LocalName = "Centro Sur"
             },
             new()
             { 
                 Code = "KN",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Kié-Ntem",
                 LocalName = "Kié-Ntem"
             },
             new()
             { 
                 Code = "LI",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Litoral",
                 LocalName = "Litoral"
             },
             new()
             { 
                 Code = "WN",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Wele-Nzas",
                 LocalName = "Wele-Nzas"
             }
 
-        });
+        ]);
     }
 }

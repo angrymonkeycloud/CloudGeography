@@ -5,58 +5,58 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsBY()
     {
-        AddSubdivisions("BY", new List<Subdivision>()
-        {
+        AddSubdivisions("BY",
+        [
             new()
             { 
                 Code = "BR",
-                Type = "Oblast",
+                Type = SubdivisionTypes.Oblast,
                 Name = "Brest Oblast",
                 LocalName = "Бре́стская о́бласть"
             },
             new()
             { 
                 Code = "HO",
-                Type = "Oblast",
+                Type = SubdivisionTypes.Oblast,
                 Name = "Gomel Oblast",
                 LocalName = "Гомельская область"
             },
             new()
             { 
                 Code = "HR",
-                Type = "Oblast",
+                Type = SubdivisionTypes.Oblast,
                 Name = "Grodno Oblast",
                 LocalName = "Гродненская область"
             },
             new()
             { 
                 Code = "HM",
-                Type = "City",
+                Type = SubdivisionTypes.City,
                 Name = "Minsk",
                 LocalName = "Минск"
             },
             new()
             { 
                 Code = "MI",
-                Type = "Oblast",
+                Type = SubdivisionTypes.Oblast,
                 Name = "Minsk Oblast",
                 LocalName = "Минская о́бласть"
             },
             new()
             { 
                 Code = "MA",
-                Type = "Oblast",
+                Type = SubdivisionTypes.Oblast,
                 Name = "Mogilev Oblast",
                 LocalName = "Могилёвская о́бласть"
             },
             new()
             { 
                 Code = "VI",
-                Type = "Oblast",
+                Type = SubdivisionTypes.Oblast,
                 Name = "Vitebsk Oblast",
                 LocalName = "Ви́тебская о́бласть"
             }
 
-        });
+        ]);
     }
 }

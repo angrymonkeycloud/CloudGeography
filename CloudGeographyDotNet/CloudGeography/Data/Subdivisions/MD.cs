@@ -5,268 +5,268 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsMD()
     {
-        AddSubdivisions("MD", new List<Subdivision>()
-        {
+        AddSubdivisions("MD",
+        [
             new()
             { 
                 Code = "AN",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Anenii Noi",
                 LocalName = "Raionul Anenii Noi"
             },
             new()
             { 
                 Code = "BA",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Balti",
                 LocalName = "Balti"
             },
             new()
             { 
                 Code = "BS",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Basarabeasca",
                 LocalName = "Basarabeasca"
             },
             new()
             { 
                 Code = "BD",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Bender",
                 LocalName = "Bendery"
             },
             new()
             { 
                 Code = "BR",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Briceni",
                 LocalName = "Briceni"
             },
             new()
             { 
                 Code = "CA",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Cahul",
                 LocalName = "Cahul"
             },
             new()
             { 
                 Code = "CL",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Calarasi",
                 LocalName = "Calarasi"
             },
             new()
             { 
                 Code = "CT",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Cantemir",
                 LocalName = "Cantemir"
             },
             new()
             { 
                 Code = "CS",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Causeni",
                 LocalName = "Causeni"
             },
             new()
             { 
                 Code = "CU",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Chisinau",
                 LocalName = "Chisinau"
             },
             new()
             { 
                 Code = "CM",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Cimislia",
                 LocalName = "Cimislia"
             },
             new()
             { 
                 Code = "CR",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Criuleni",
                 LocalName = "Criuleni"
             },
             new()
             { 
                 Code = "DO",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Donduseni",
                 LocalName = "Donduseni"
             },
             new()
             { 
                 Code = "DR",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Drochia",
                 LocalName = "Drochia"
             },
             new()
             { 
                 Code = "DU",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Dubasari",
                 LocalName = "Dubasari"
             },
             new()
             { 
                 Code = "ED",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Edinet",
                 LocalName = "Edinet"
             },
             new()
             { 
                 Code = "FA",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Falesti",
                 LocalName = "Falesti"
             },
             new()
             { 
                 Code = "FL",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Floresti",
                 LocalName = "Floresti"
             },
             new()
             { 
                 Code = "GZ",
-                Type = "Territory",
+                Type = SubdivisionTypes.Territory,
                 Name = "Gagauzia",
                 LocalName = "Găgăuzia"
             },
             new()
             { 
                 Code = "GL",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Glodeni",
                 LocalName = "Glodeni"
             },
             new()
             { 
                 Code = "HI",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Hîncesti",
                 LocalName = "Hîncesti"
             },
             new()
             { 
                 Code = "IA",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Ialoveni",
                 LocalName = "Ialoveni"
             },
             new()
             { 
                 Code = "LE",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Leova",
                 LocalName = "Leova"
             },
             new()
             { 
                 Code = "NI",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Nisporeni",
                 LocalName = "Nisporeni"
             },
             new()
             { 
                 Code = "OC",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Ocniþa",
                 LocalName = "Ocniþa"
             },
             new()
             { 
                 Code = "OR",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Orhei",
                 LocalName = "Orhei"
             },
             new()
             { 
                 Code = "RE",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Rezina",
                 LocalName = "Rezina"
             },
             new()
             { 
                 Code = "RI",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Rîscani",
                 LocalName = "Rîscani"
             },
             new()
             { 
                 Code = "SI",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Sîngerei",
                 LocalName = "Sîngerei"
             },
             new()
             { 
                 Code = "SD",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Soldanesti",
                 LocalName = "Soldanesti"
             },
             new()
             { 
                 Code = "SO",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Soroca",
                 LocalName = "Soroca"
             },
             new()
             { 
                 Code = "SV",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Stefan Voda",
                 LocalName = "Stefan Voda"
             },
             new()
             { 
                 Code = "SN",
-                Type = "Territory",
+                Type = SubdivisionTypes.Territory,
                 Name = "Stînga Nistrului",
                 LocalName = "Stînga Nistrului"
             },
             new()
             { 
                 Code = "ST",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Straseni",
                 LocalName = "Straseni"
             },
             new()
             { 
                 Code = "TA",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Taraclia",
                 LocalName = "Taraclia"
             },
             new()
             { 
                 Code = "TE",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Telenesti",
                 LocalName = "Telenesti"
             },
             new()
             { 
                 Code = "UN",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Ungheni",
                 LocalName = "Ungheni"
             }
 
-        });
+        ]);
     }
 }

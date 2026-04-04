@@ -5,555 +5,555 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsAZ()
     {
-        AddSubdivisions("AZ", new List<Subdivision>()
-        {
+        AddSubdivisions("AZ",
+        [
             new()
             { 
                 Code = "ABS",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Abseron",
                 LocalName = "Abseron"
             },
             new()
             { 
                 Code = "AGC",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Agcab?di",
                 LocalName = "Agcab?di"
             },
             new()
             { 
                 Code = "AGM",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Agdam",
                 LocalName = "Agdam"
             },
             new()
             { 
                 Code = "AGS",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Agdas",
                 LocalName = "Agdas"
             },
             new()
             { 
                 Code = "AGA",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Agstafa",
                 LocalName = "Agstafa"
             },
             new()
             { 
                 Code = "AGU",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Agsu",
                 LocalName = "Agsu"
             },
             new()
             { 
                 Code = "AST",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Astara",
                 LocalName = "Astara"
             },
             new()
             { 
                 Code = "BAR",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "B?rd?",
                 LocalName = "B?rd?"
             },
             new()
             { 
                 Code = "BAB",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Bab?k",
                 LocalName = "Bab?k"
             },
             new()
             { 
                 Code = "BA",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Baki",
                 LocalName = "Baki"
             },
             new()
             { 
                 Code = "BAL",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Balak?n",
                 LocalName = "Balak?n"
             },
             new()
             { 
                 Code = "BEY",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Beyl?qan",
                 LocalName = "Beyl?qan"
             },
             new()
             { 
                 Code = "BIL",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Bil?suvar",
                 LocalName = "Bil?suvar"
             },
             new()
             { 
                 Code = "CAB",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "C?brayil",
                 LocalName = "C?brayil"
             },
             new()
             { 
                 Code = "CAL",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "C?lilabad",
                 LocalName = "C?lilabad"
             },
             new()
             { 
                 Code = "CUL",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Culfa",
                 LocalName = "Culfa"
             },
             new()
             { 
                 Code = "DAS",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Dask?s?n",
                 LocalName = "Dask?s?n"
             },
             new()
             { 
                 Code = "FUZ",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Füzuli",
                 LocalName = "Füzuli"
             },
             new()
             { 
                 Code = "GAD",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "G?d?b?y",
                 LocalName = "G?d?b?y"
             },
             new()
             { 
                 Code = "GA",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "G?nc?",
                 LocalName = "G?nc?"
             },
             new()
             { 
                 Code = "GOR",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Goranboy",
                 LocalName = "Goranboy"
             },
             new()
             { 
                 Code = "GOY",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Göyçay",
                 LocalName = "Göyçay"
             },
             new()
             { 
                 Code = "GYG",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Göygöl",
                 LocalName = "Göygöl"
             },
             new()
             { 
                 Code = "HAC",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Haciqabul",
                 LocalName = "Haciqabul"
             },
             new()
             { 
                 Code = "IMI",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Imisli",
                 LocalName = "Imisli"
             },
             new()
             { 
                 Code = "ISM",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Ismayilli",
                 LocalName = "Ismayilli"
             },
             new()
             { 
                 Code = "KAL",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "K?lb?c?r",
                 LocalName = "K?lb?c?r"
             },
             new()
             { 
                 Code = "KAN",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "K?ng?rli",
                 LocalName = "K?ng?rli"
             },
             new()
             { 
                 Code = "KUR",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Kürd?mir",
                 LocalName = "Kürd?mir"
             },
             new()
             { 
                 Code = "LA",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "L?nk?ran",
                 LocalName = "L?nk?ran"
             },
             new()
             { 
                 Code = "LAN",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "L?nk?ran",
                 LocalName = "L?nk?ran"
             },
             new()
             { 
                 Code = "LAC",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Laçin",
                 LocalName = "Laçin"
             },
             new()
             { 
                 Code = "LER",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Lerik",
                 LocalName = "Lerik"
             },
             new()
             { 
                 Code = "MAS",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Masalli",
                 LocalName = "Masalli"
             },
             new()
             { 
                 Code = "MI",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Ming?çevir",
                 LocalName = "Ming?çevir"
             },
             new()
             { 
                 Code = "NA",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Naftalan",
                 LocalName = "Naftalan"
             },
             new()
             { 
                 Code = "NX",
-                Type = "Republic",
+                Type = SubdivisionTypes.Republic,
                 Name = "Naxçivan",
                 LocalName = "Naxçivan"
             },
             new()
             { 
                 Code = "NV",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Naxçivan",
                 LocalName = "Naxçivan"
             },
             new()
             { 
                 Code = "NEF",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Neftçala",
                 LocalName = "Neftçala"
             },
             new()
             { 
                 Code = "OGU",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Oguz",
                 LocalName = "Oguz"
             },
             new()
             { 
                 Code = "ORD",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Ordubad",
                 LocalName = "Ordubad"
             },
             new()
             { 
                 Code = "QAB",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Q?b?l?",
                 LocalName = "Q?b?l?"
             },
             new()
             { 
                 Code = "QAX",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Qax",
                 LocalName = "Qax"
             },
             new()
             { 
                 Code = "QAZ",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Qazax",
                 LocalName = "Qazax"
             },
             new()
             { 
                 Code = "QOB",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Qobustan",
                 LocalName = "Qobustan"
             },
             new()
             { 
                 Code = "QBA",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Quba",
                 LocalName = "Quba"
             },
             new()
             { 
                 Code = "QBI",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Qubadli",
                 LocalName = "Qubadli"
             },
             new()
             { 
                 Code = "QUS",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Qusar",
                 LocalName = "Qusar"
             },
             new()
             { 
                 Code = "SAD",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "S?d?r?k",
                 LocalName = "S?d?r?k"
             },
             new()
             { 
                 Code = "SA",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "S?ki",
                 LocalName = "S?ki"
             },
             new()
             { 
                 Code = "SAK",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "S?ki",
                 LocalName = "S?ki"
             },
             new()
             { 
                 Code = "SKR",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "S?mkir",
                 LocalName = "S?mkir"
             },
             new()
             { 
                 Code = "SAR",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "S?rur",
                 LocalName = "S?rur"
             },
             new()
             { 
                 Code = "SAT",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Saatli",
                 LocalName = "Saatli"
             },
             new()
             { 
                 Code = "SAB",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Sabirabad",
                 LocalName = "Sabirabad"
             },
             new()
             { 
                 Code = "SBN",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Sabran",
                 LocalName = "Sabran"
             },
             new()
             { 
                 Code = "SAH",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Sahbuz",
                 LocalName = "Sahbuz"
             },
             new()
             { 
                 Code = "SAL",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Salyan",
                 LocalName = "Salyan"
             },
             new()
             { 
                 Code = "SMI",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Samaxi",
                 LocalName = "Samaxi"
             },
             new()
             { 
                 Code = "SMX",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Samux",
                 LocalName = "Samux"
             },
             new()
             { 
                 Code = "SR",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Sirvan",
                 LocalName = "Sirvan"
             },
             new()
             { 
                 Code = "SIY",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Siy?z?n",
                 LocalName = "Siy?z?n"
             },
             new()
             { 
                 Code = "SM",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Sumqayit",
                 LocalName = "Sumqayit"
             },
             new()
             { 
                 Code = "SUS",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Susa",
                 LocalName = "Susa"
             },
             new()
             { 
                 Code = "TAR",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "T?rt?r",
                 LocalName = "T?rt?r"
             },
             new()
             { 
                 Code = "TOV",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Tovuz",
                 LocalName = "Tovuz"
             },
             new()
             { 
                 Code = "UCA",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Ucar",
                 LocalName = "Ucar"
             },
             new()
             { 
                 Code = "XAC",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Xaçmaz",
                 LocalName = "Xaçmaz"
             },
             new()
             { 
                 Code = "XA",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Xank?ndi",
                 LocalName = "Xank?ndi"
             },
             new()
             { 
                 Code = "XIZ",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Xizi",
                 LocalName = "Xizi"
             },
             new()
             { 
                 Code = "XCI",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Xocali",
                 LocalName = "Xocali"
             },
             new()
             { 
                 Code = "XVD",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Xocav?nd",
                 LocalName = "Xocav?nd"
             },
             new()
             { 
                 Code = "YAR",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Yardimli",
                 LocalName = "Yardimli"
             },
             new()
             { 
                 Code = "YEV",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Yevlax",
                 LocalName = "Yevlax"
             },
             new()
             { 
                 Code = "YE",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Yevlax",
                 LocalName = "Yevlax"
             },
             new()
             { 
                 Code = "ZAN",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Z?ngilan",
                 LocalName = "Z?ngilan"
             },
             new()
             { 
                 Code = "ZAR",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Z?rdab",
                 LocalName = "Z?rdab"
             },
             new()
             { 
                 Code = "ZAQ",
-                Type = "Rayon",
+                Type = SubdivisionTypes.Rayon,
                 Name = "Zaqatala",
                 LocalName = "Zaqatala"
             }
 
-        });
+        ]);
     }
 }

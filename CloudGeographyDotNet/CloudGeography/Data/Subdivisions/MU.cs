@@ -5,128 +5,128 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsMU()
     {
-        AddSubdivisions("MU", new List<Subdivision>()
-        {
+        AddSubdivisions("MU",
+        [
             new()
             { 
                 Code = "AG",
-                Type = "Dependency",
+                Type = SubdivisionTypes.Dependency,
                 Name = "Agalega Islands",
                 LocalName = "Agalega Islands"
             },
             new()
             { 
                 Code = "BR",
-                Type = "City",
+                Type = SubdivisionTypes.City,
                 Name = "Beau Bassin-Rose Hill",
                 LocalName = "Beau Bassin-Rose Hill"
             },
             new()
             { 
                 Code = "BL",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Black River",
                 LocalName = "Black River"
             },
             new()
             { 
                 Code = "CC",
-                Type = "Dependency",
+                Type = SubdivisionTypes.Dependency,
                 Name = "Cargados Carajos Shoals",
                 LocalName = "Cargados Carajos Shoals"
             },
             new()
             { 
                 Code = "CU",
-                Type = "City",
+                Type = SubdivisionTypes.City,
                 Name = "Curepipe",
                 LocalName = "Curepipe"
             },
             new()
             { 
                 Code = "FL",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Flacq",
                 LocalName = "Flacq"
             },
             new()
             { 
                 Code = "GP",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Grand Port",
                 LocalName = "Grand Port"
             },
             new()
             { 
                 Code = "MO",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Moka",
                 LocalName = "Moka"
             },
             new()
             { 
                 Code = "PA",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Pamplemousses",
                 LocalName = "Pamplemousses"
             },
             new()
             { 
                 Code = "PW",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Plaines wilhems",
                 LocalName = "Plaines wilhems"
             },
             new()
             { 
                 Code = "PL",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Port Louis",
                 LocalName = "Port Louis"
             },
             new()
             { 
                 Code = "PU",
-                Type = "City",
+                Type = SubdivisionTypes.City,
                 Name = "Port Louis",
                 LocalName = "Port Louis"
             },
             new()
             { 
                 Code = "QB",
-                Type = "City",
+                Type = SubdivisionTypes.City,
                 Name = "Quatre Bornes",
                 LocalName = "Quatre Bornes"
             },
             new()
             { 
                 Code = "RR",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Rivière du Rempart",
                 LocalName = "Rivière du Rempart"
             },
             new()
             { 
                 Code = "RO",
-                Type = "Dependency",
+                Type = SubdivisionTypes.Dependency,
                 Name = "Rodrigues Island",
                 LocalName = "Rodrigues Island"
             },
             new()
             { 
                 Code = "SA",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Savanne",
                 LocalName = "Savanne"
             },
             new()
             { 
                 Code = "VP",
-                Type = "City",
+                Type = SubdivisionTypes.City,
                 Name = "Vacoas-Phoenix",
                 LocalName = "Vacoas-Phoenix"
             }
 
-        });
+        ]);
     }
 }

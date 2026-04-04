@@ -5,51 +5,51 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsKW()
     {
-        AddSubdivisions("KW", new List<Subdivision>()
-        {
+        AddSubdivisions("KW",
+        [
             new()
             { 
                 Code = "HA",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "?awalli",
                 LocalName = "?awalli"
             },
             new()
             { 
                 Code = "KU",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Al Asimah",
                 LocalName = "Al Asimah"
             },
             new()
             { 
                 Code = "AH",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Al A?madi",
                 LocalName = "Al A?madi"
             },
             new()
             { 
                 Code = "FA",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Al Farwaniyah",
                 LocalName = "Al Farwaniyah"
             },
             new()
             { 
                 Code = "JA",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Al Jahra",
                 LocalName = "Al Jahra"
             },
             new()
             { 
                 Code = "MU",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Mubarak al Kabir",
                 LocalName = "Mubarak al Kabir"
             }
 
-        });
+        ]);
     }
 }

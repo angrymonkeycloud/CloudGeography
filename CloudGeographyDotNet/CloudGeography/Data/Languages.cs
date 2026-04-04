@@ -5,8 +5,8 @@ public partial class CloudGeographyClient
 {
     public partial class LanguagesMethods
     {
-        private static List<Language> LanguagesList = new()
-        {
+        private static List<Language> LanguagesList =
+        [
             new()
             {
                 Code = "AA",
@@ -2535,6 +2535,6 @@ public partial class CloudGeographyClient
                 Direction = "LTR",
                 ThreeLettersCode = "DJE",
             }
-        };
+        ];
     }
 }

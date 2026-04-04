@@ -5,114 +5,114 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsUZ()
     {
-        AddSubdivisions("UZ", new List<Subdivision>()
-        {
+        AddSubdivisions("UZ",
+        [
             new()
             { 
                 Code = "AN",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Andijon",
                 LocalName = "Andijon"
             },
             new()
             { 
                 Code = "BU",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Bukhoro",
                 LocalName = "Bukhoro"
             },
             new()
             { 
                 Code = "FA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Fargona",
                 LocalName = "Fargona"
             },
             new()
             { 
                 Code = "JI",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Jizzax",
                 LocalName = "Jizzax"
             },
             new()
             { 
                 Code = "KH",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Khorazm",
                 LocalName = "Khorazm"
             },
             new()
             { 
                 Code = "NG",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Namangan",
                 LocalName = "Namangan"
             },
             new()
             { 
                 Code = "NW",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Nawoiy",
                 LocalName = "Nawoiy"
             },
             new()
             { 
                 Code = "QA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Qashqadaryo",
                 LocalName = "Qashqadaryo"
             },
             new()
             { 
                 Code = "QR",
-                Type = "Republic",
+                Type = SubdivisionTypes.Republic,
                 Name = "Qoraqalpogiston Respublikasi",
                 LocalName = "Qoraqalpogiston Respublikasi"
             },
             new()
             { 
                 Code = "SA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Samarqand",
                 LocalName = "Samarqand"
             },
             new()
             { 
                 Code = "SI",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Sirdaryo",
                 LocalName = "Sirdaryo"
             },
             new()
             { 
                 Code = "SU",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Surkhondaryo",
                 LocalName = "Surkhondaryo"
             },
             new()
             { 
                 Code = "TO",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Toshkent",
                 LocalName = "Toshkent"
             },
             new()
             { 
                 Code = "TK",
-                Type = "City",
+                Type = SubdivisionTypes.City,
                 Name = "Toshkent",
                 LocalName = "Toshkent"
             },
             new()
             { 
                 Code = "XO",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Xorazm",
                 LocalName = "Xorazm"
             }
 
-        });
+        ]);
     }
 }

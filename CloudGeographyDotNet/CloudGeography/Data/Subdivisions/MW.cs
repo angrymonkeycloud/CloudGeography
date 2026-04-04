@@ -5,226 +5,226 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsMW()
     {
-        AddSubdivisions("MW", new List<Subdivision>()
-        {
+        AddSubdivisions("MW",
+        [
             new()
             { 
                 Code = "BA",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Balaka",
                 LocalName = "Balaka"
             },
             new()
             { 
                 Code = "BL",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Blantyre",
                 LocalName = "Blantyre"
             },
             new()
             { 
                 Code = "C",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Central",
                 LocalName = "Central"
             },
             new()
             { 
                 Code = "CK",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Chikwawa",
                 LocalName = "Chikwawa"
             },
             new()
             { 
                 Code = "CR",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Chiradzulu",
                 LocalName = "Chiradzulu"
             },
             new()
             { 
                 Code = "CT",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Chitipa",
                 LocalName = "Chitipa"
             },
             new()
             { 
                 Code = "DE",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Dedza",
                 LocalName = "Dedza"
             },
             new()
             { 
                 Code = "DO",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Dowa",
                 LocalName = "Dowa"
             },
             new()
             { 
                 Code = "KR",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Karonga",
                 LocalName = "Karonga"
             },
             new()
             { 
                 Code = "KS",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Kasungu",
                 LocalName = "Kasungu"
             },
             new()
             { 
                 Code = "LK",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Likoma",
                 LocalName = "Likoma"
             },
             new()
             { 
                 Code = "LI",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Lilongwe",
                 LocalName = "Lilongwe"
             },
             new()
             { 
                 Code = "MH",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Machinga",
                 LocalName = "Machinga"
             },
             new()
             { 
                 Code = "MG",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Mangochi",
                 LocalName = "Mangochi"
             },
             new()
             { 
                 Code = "MC",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Mchinji",
                 LocalName = "Mchinji"
             },
             new()
             { 
                 Code = "MU",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Mulanje",
                 LocalName = "Mulanje"
             },
             new()
             { 
                 Code = "MW",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Mwanza",
                 LocalName = "Mwanza"
             },
             new()
             { 
                 Code = "MZ",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Mzimba",
                 LocalName = "Mzimba"
             },
             new()
             { 
                 Code = "NE",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Neno",
                 LocalName = "Neno"
             },
             new()
             { 
                 Code = "NB",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Nkhata Bay",
                 LocalName = "Nkhata Bay"
             },
             new()
             { 
                 Code = "NK",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Nkhotakota",
                 LocalName = "Nkhotakota"
             },
             new()
             { 
                 Code = "N",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Northern",
                 LocalName = "Northern"
             },
             new()
             { 
                 Code = "NS",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Nsanje",
                 LocalName = "Nsanje"
             },
             new()
             { 
                 Code = "NU",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Ntcheu",
                 LocalName = "Ntcheu"
             },
             new()
             { 
                 Code = "NI",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Ntchisi",
                 LocalName = "Ntchisi"
             },
             new()
             { 
                 Code = "PH",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Phalombe",
                 LocalName = "Phalombe"
             },
             new()
             { 
                 Code = "RU",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Rumphi",
                 LocalName = "Rumphi"
             },
             new()
             { 
                 Code = "SA",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Salima",
                 LocalName = "Salima"
             },
             new()
             { 
                 Code = "S",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Southern",
                 LocalName = "Southern"
             },
             new()
             { 
                 Code = "TH",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Thyolo",
                 LocalName = "Thyolo"
             },
             new()
             { 
                 Code = "ZO",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Zomba",
                 LocalName = "Zomba"
             }
 
-        });
+        ]);
     }
 }

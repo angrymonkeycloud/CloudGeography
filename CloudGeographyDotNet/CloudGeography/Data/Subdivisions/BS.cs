@@ -5,226 +5,226 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsBS()
     {
-        AddSubdivisions("BS", new List<Subdivision>()
-        {
+        AddSubdivisions("BS",
+        [
             new()
             { 
                 Code = "AK",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Acklins",
                 LocalName = "Acklins"
             },
             new()
             { 
                 Code = "BY",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Berry Islands",
                 LocalName = "Berry Islands"
             },
             new()
             { 
                 Code = "BI",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Bimini",
                 LocalName = "Bimini"
             },
             new()
             { 
                 Code = "BP",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Black Point",
                 LocalName = "Black Point"
             },
             new()
             { 
                 Code = "CI",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Cat Island",
                 LocalName = "Cat Island"
             },
             new()
             { 
                 Code = "CO",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Central Abaco",
                 LocalName = "Central Abaco"
             },
             new()
             { 
                 Code = "CS",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Central Andros",
                 LocalName = "Central Andros"
             },
             new()
             { 
                 Code = "CE",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Central Eleuthera",
                 LocalName = "Central Eleuthera"
             },
             new()
             { 
                 Code = "FP",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "City of Freeport",
                 LocalName = "City of Freeport"
             },
             new()
             { 
                 Code = "CK",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Crooked Island and Long Cay",
                 LocalName = "Crooked Island and Long Cay"
             },
             new()
             { 
                 Code = "EG",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "East Grand Bahama",
                 LocalName = "East Grand Bahama"
             },
             new()
             { 
                 Code = "EX",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Exuma",
                 LocalName = "Exuma"
             },
             new()
             { 
                 Code = "GC",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Grand Cay",
                 LocalName = "Grand Cay"
             },
             new()
             { 
                 Code = "HI",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Harbour Island",
                 LocalName = "Harbour Island"
             },
             new()
             { 
                 Code = "HT",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Hope Town",
                 LocalName = "Hope Town"
             },
             new()
             { 
                 Code = "IN",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Inagua",
                 LocalName = "Inagua"
             },
             new()
             { 
                 Code = "LI",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Long Island",
                 LocalName = "Long Island"
             },
             new()
             { 
                 Code = "MC",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Mangrove Cay",
                 LocalName = "Mangrove Cay"
             },
             new()
             { 
                 Code = "MG",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Mayaguana",
                 LocalName = "Mayaguana"
             },
             new()
             { 
                 Code = "MI",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Moore's Island",
                 LocalName = "Moore's Island"
             },
             new()
             { 
                 Code = "NO",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "North Abaco",
                 LocalName = "North Abaco"
             },
             new()
             { 
                 Code = "NS",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "North Andros",
                 LocalName = "North Andros"
             },
             new()
             { 
                 Code = "NE",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "North Eleuthera",
                 LocalName = "North Eleuthera"
             },
             new()
             { 
                 Code = "RI",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Ragged Island",
                 LocalName = "Ragged Island"
             },
             new()
             { 
                 Code = "RC",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Rum Cay",
                 LocalName = "Rum Cay"
             },
             new()
             { 
                 Code = "SS",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "San Salvador",
                 LocalName = "San Salvador"
             },
             new()
             { 
                 Code = "SO",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "South Abaco",
                 LocalName = "South Abaco"
             },
             new()
             { 
                 Code = "SA",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "South Andros",
                 LocalName = "South Andros"
             },
             new()
             { 
                 Code = "SE",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "South Eleuthera",
                 LocalName = "South Eleuthera"
             },
             new()
             { 
                 Code = "SW",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Spanish Wells",
                 LocalName = "Spanish Wells"
             },
             new()
             { 
                 Code = "WG",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "West Grand Bahama",
                 LocalName = "West Grand Bahama"
             }
 
-        });
+        ]);
     }
 }

@@ -5,86 +5,86 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsBE()
     {
-        AddSubdivisions("BE", new List<Subdivision>()
-        {
+        AddSubdivisions("BE",
+        [
             new()
             { 
                 Code = "VAN",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Antwerp",
                 LocalName = "Antwerpen"
             },
             new()
             { 
                 Code = "BRU",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Brussels-Capital Region",
                 LocalName = "Brussels Hoofdstedelijk Gewest"
             },
             new()
             { 
                 Code = "VOV",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "East Flanders",
                 LocalName = "Oost-Vlaanderen"
             },
             new()
             { 
                 Code = "VBR",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Flemish Brabant",
                 LocalName = "Vlaams-Brabant"
             },
             new()
             { 
                 Code = "WHT",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Hainaut",
                 LocalName = "Henegouwen"
             },
             new()
             { 
                 Code = "WLG",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Liège",
                 LocalName = "Luik"
             },
             new()
             { 
                 Code = "VLI",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Limburg",
                 LocalName = "Limburg"
             },
             new()
             { 
                 Code = "WLX",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Luxembourg",
                 LocalName = "Luxemburg"
             },
             new()
             { 
                 Code = "WNA",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Namur",
                 LocalName = "Namen"
             },
             new()
             { 
                 Code = "WBR",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Walloon Brabant",
                 LocalName = "Waals-Brabant"
             },
             new()
             { 
                 Code = "VWV",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "West Flanders",
                 LocalName = "West-Vlaanderen"
             }
 
-        });
+        ]);
     }
 }

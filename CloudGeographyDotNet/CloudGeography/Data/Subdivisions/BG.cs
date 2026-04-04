@@ -5,205 +5,205 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsBG()
     {
-        AddSubdivisions("BG", new List<Subdivision>()
-        {
+        AddSubdivisions("BG",
+        [
             new()
             { 
                 Code = "1",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Blagoevgrad",
                 LocalName = "Благоевград"
             },
             new()
             { 
                 Code = "2",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Burgas",
                 LocalName = "Бургас"
             },
             new()
             { 
                 Code = "8",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Dobrich",
                 LocalName = "Добрич"
             },
             new()
             { 
                 Code = "7",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Gabrovo",
                 LocalName = "Габрово"
             },
             new()
             { 
                 Code = "26",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Haskovo",
                 LocalName = "Хасково"
             },
             new()
             { 
                 Code = "9",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Kardzhali",
                 LocalName = "Кърджали"
             },
             new()
             { 
                 Code = "10",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Kyustendil",
                 LocalName = "Кюстендил"
             },
             new()
             { 
                 Code = "11",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Lovech",
                 LocalName = "Ловеч"
             },
             new()
             { 
                 Code = "12",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Montana",
                 LocalName = "Монтана"
             },
             new()
             { 
                 Code = "13",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Pazardzik",
                 LocalName = "Пазарджик"
             },
             new()
             { 
                 Code = "14",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Pernik",
                 LocalName = "Перник"
             },
             new()
             { 
                 Code = "15",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Pleven",
                 LocalName = "Плевен"
             },
             new()
             { 
                 Code = "16",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Plovdiv",
                 LocalName = "Пловдив"
             },
             new()
             { 
                 Code = "17",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Razgrad",
                 LocalName = "Разград"
             },
             new()
             { 
                 Code = "18",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Ruse",
                 LocalName = "Русе"
             },
             new()
             { 
                 Code = "27",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Shumen",
                 LocalName = "Шумен"
             },
             new()
             { 
                 Code = "19",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Silistra",
                 LocalName = "Шумен"
             },
             new()
             { 
                 Code = "20",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Sliven",
                 LocalName = "Сливен"
             },
             new()
             { 
                 Code = "21",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Smolyan",
                 LocalName = "Смолян"
             },
             new()
             { 
                 Code = "23",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Sofia",
                 LocalName = "Софийска"
             },
             new()
             { 
                 Code = "22",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Sofia City",
                 LocalName = "София-град"
             },
             new()
             { 
                 Code = "24",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Stara Zagora",
                 LocalName = "Стара Загора"
             },
             new()
             { 
                 Code = "25",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Targovishte",
                 LocalName = "Търговище"
             },
             new()
             { 
                 Code = "3",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Varna",
                 LocalName = "Варна"
             },
             new()
             { 
                 Code = "4",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Veliko Tarnovo",
                 LocalName = "Велико Търново"
             },
             new()
             { 
                 Code = "5",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Vidin",
                 LocalName = "Видин"
             },
             new()
             { 
                 Code = "6",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Vratsa",
                 LocalName = "Враца"
             },
             new()
             { 
                 Code = "28",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Yambol",
                 LocalName = "Ямбол"
             }
 
-        });
+        ]);
     }
 }

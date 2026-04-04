@@ -5,114 +5,114 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsPS()
     {
-        AddSubdivisions("PS", new List<Subdivision>()
-        {
+        AddSubdivisions("PS",
+        [
             new()
             { 
                 Code = "BTH",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Bethlehem",
                 LocalName = "Bethlehem"
             },
             new()
             { 
                 Code = "DEB",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Deir El Balah",
                 LocalName = "Deir El Balah"
             },
             new()
             { 
                 Code = "GZA",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Gaza",
                 LocalName = "Gaza"
             },
             new()
             { 
                 Code = "HBN",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Hebron",
                 LocalName = "Hebron"
             },
             new()
             { 
                 Code = "JRH",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Jericho and Al Aghwar",
                 LocalName = "Jericho and Al Aghwar"
             },
             new()
             { 
                 Code = "JEM",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Jerusalem",
                 LocalName = "Jerusalem"
             },
             new()
             { 
                 Code = "KYS",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Khan Yunis",
                 LocalName = "Khan Yunis"
             },
             new()
             { 
                 Code = "NBS",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Nablus",
                 LocalName = "Nablus"
             },
             new()
             { 
                 Code = "NGZ",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "North Gaza",
                 LocalName = "North Gaza"
             },
             new()
             { 
                 Code = "QQA",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Qalqilya",
                 LocalName = "Qalqilya"
             },
             new()
             { 
                 Code = "RFH",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Rafah",
                 LocalName = "Rafah"
             },
             new()
             { 
                 Code = "RBH",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Ramallah",
                 LocalName = "Ramallah"
             },
             new()
             { 
                 Code = "SLT",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Salfit",
                 LocalName = "Salfit"
             },
             new()
             { 
                 Code = "TBS",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Tubas",
                 LocalName = "Tubas"
             },
             new()
             { 
                 Code = "TKM",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Tulkarm",
                 LocalName = "Tulkarm"
             }
 
-        });
+        ]);
     }
 }

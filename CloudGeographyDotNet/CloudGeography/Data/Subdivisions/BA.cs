@@ -5,30 +5,30 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsBA()
     {
-        AddSubdivisions("BA", new List<Subdivision>()
-        {
+        AddSubdivisions("BA",
+        [
             new()
             { 
                 Code = "BRC",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Brčko District",
                 LocalName = "Brčko Distrikt"
             },
             new()
             { 
                 Code = "BIH",
-                Type = "Entity",
+                Type = SubdivisionTypes.Entity,
                 Name = "Federation of Bosnia and Herzegovina",
                 LocalName = "Federacija Bosne i Hercegovine"
             },
             new()
             { 
                 Code = "SRP",
-                Type = "Entity",
+                Type = SubdivisionTypes.Entity,
                 Name = "Republika Srpska",
                 LocalName = "Република Српскa"
             }
 
-        });
+        ]);
     }
 }

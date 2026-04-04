@@ -5,177 +5,177 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsEC()
     {
-        AddSubdivisions("EC", new List<Subdivision>()
-        {
+        AddSubdivisions("EC",
+        [
             new()
             { 
                 Code = "A",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Azuay",
                 LocalName = "Azuay"
             },
             new()
             { 
                 Code = "B",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Bolívar",
                 LocalName = "Bolívar"
             },
             new()
             { 
                 Code = "F",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Cañar",
                 LocalName = "Cañar"
             },
             new()
             { 
                 Code = "C",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Carchi",
                 LocalName = "Carchi"
             },
             new()
             { 
                 Code = "H",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Chimborazo",
                 LocalName = "Chimborazo"
             },
             new()
             { 
                 Code = "X",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Cotopaxi",
                 LocalName = "Cotopaxi"
             },
             new()
             { 
                 Code = "O",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "El Oro",
                 LocalName = "El Oro"
             },
             new()
             { 
                 Code = "E",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Esmeraldas",
                 LocalName = "Esmeraldas"
             },
             new()
             { 
                 Code = "W",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Galápagos",
                 LocalName = "Galápagos"
             },
             new()
             { 
                 Code = "G",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Guayas",
                 LocalName = "Guayas"
             },
             new()
             { 
                 Code = "I",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Imbabura",
                 LocalName = "Imbabura"
             },
             new()
             { 
                 Code = "L",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Loja",
                 LocalName = "Loja"
             },
             new()
             { 
                 Code = "R",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Los Ríos",
                 LocalName = "Los Ríos"
             },
             new()
             { 
                 Code = "M",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Manabí",
                 LocalName = "Manabí"
             },
             new()
             { 
                 Code = "S",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Morona-Santiago",
                 LocalName = "Morona-Santiago"
             },
             new()
             { 
                 Code = "N",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Napo",
                 LocalName = "Napo"
             },
             new()
             { 
                 Code = "D",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Orellana",
                 LocalName = "Orellana"
             },
             new()
             { 
                 Code = "Y",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Pastaza",
                 LocalName = "Pastaza"
             },
             new()
             { 
                 Code = "P",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Pichincha",
                 LocalName = "Pichincha"
             },
             new()
             { 
                 Code = "SE",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Santa Elena",
                 LocalName = "Santa Elena"
             },
             new()
             { 
                 Code = "SD",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Santo Domingo de los Tsáchilas",
                 LocalName = "Santo Domingo de los Tsáchilas"
             },
             new()
             { 
                 Code = "U",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Sucumbíos",
                 LocalName = "Sucumbíos"
             },
             new()
             { 
                 Code = "T",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Tungurahua",
                 LocalName = "Tungurahua"
             },
             new()
             { 
                 Code = "Z",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Zamora-Chinchipe",
                 LocalName = "Zamora-Chinchipe"
             }
 
-        });
+        ]);
     }
 }

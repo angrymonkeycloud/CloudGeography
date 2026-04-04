@@ -5,30 +5,30 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsSH()
     {
-        AddSubdivisions("SH", new List<Subdivision>()
-        {
+        AddSubdivisions("SH",
+        [
             new()
             { 
                 Code = "AC",
-                Type = "Entity",
+                Type = SubdivisionTypes.Entity,
                 Name = "Ascension",
                 LocalName = "Ascension"
             },
             new()
             { 
                 Code = "HL",
-                Type = "Entity",
+                Type = SubdivisionTypes.Entity,
                 Name = "Saint Helena",
                 LocalName = "Saint Helena"
             },
             new()
             { 
                 Code = "TA",
-                Type = "Entity",
+                Type = SubdivisionTypes.Entity,
                 Name = "Tristan da Cunha",
                 LocalName = "Tristan da Cunha"
             }
 
-        });
+        ]);
     }
 }

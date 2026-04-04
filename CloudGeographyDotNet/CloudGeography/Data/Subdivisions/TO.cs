@@ -5,44 +5,44 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsTO()
     {
-        AddSubdivisions("TO", new List<Subdivision>()
-        {
+        AddSubdivisions("TO",
+        [
             new()
             { 
                 Code = "1",
-                Type = "Division",
+                Type = SubdivisionTypes.Division,
                 Name = "'Eua",
                 LocalName = "'Eua"
             },
             new()
             { 
                 Code = "2",
-                Type = "Division",
+                Type = SubdivisionTypes.Division,
                 Name = "Ha'apai",
                 LocalName = "Ha'apai"
             },
             new()
             { 
                 Code = "3",
-                Type = "Division",
+                Type = SubdivisionTypes.Division,
                 Name = "Niuas",
                 LocalName = "Niuas"
             },
             new()
             { 
                 Code = "4",
-                Type = "Division",
+                Type = SubdivisionTypes.Division,
                 Name = "Tongatapu",
                 LocalName = "Tongatapu"
             },
             new()
             { 
                 Code = "5",
-                Type = "Division",
+                Type = SubdivisionTypes.Division,
                 Name = "Vava'u",
                 LocalName = "Vava'u"
             }
 
-        });
+        ]);
     }
 }

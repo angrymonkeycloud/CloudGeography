@@ -5,240 +5,240 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsCO()
     {
-        AddSubdivisions("CO", new List<Subdivision>()
-        {
+        AddSubdivisions("CO",
+        [
             new()
             { 
                 Code = "AMA",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Amazonas",
                 LocalName = "Amazonas"
             },
             new()
             { 
                 Code = "ANT",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Antioquia",
                 LocalName = "Antioquia"
             },
             new()
             { 
                 Code = "ARA",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Arauca",
                 LocalName = "Arauca"
             },
             new()
             { 
                 Code = "ATL",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Atlántico",
                 LocalName = "Atlántico"
             },
             new()
             { 
                 Code = "BOL",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Bolívar",
                 LocalName = "Bolívar"
             },
             new()
             { 
                 Code = "BOY",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Boyacá",
                 LocalName = "Boyacá"
             },
             new()
             { 
                 Code = "CAL",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Caldas",
                 LocalName = "Caldas"
             },
             new()
             { 
                 Code = "CAQ",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Caquetá",
                 LocalName = "Caquetá"
             },
             new()
             { 
                 Code = "CAS",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Casanare",
                 LocalName = "Casanare"
             },
             new()
             { 
                 Code = "CAU",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Cauca",
                 LocalName = "Cauca"
             },
             new()
             { 
                 Code = "CES",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Cesar",
                 LocalName = "Cesar"
             },
             new()
             { 
                 Code = "CHO",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Chocó",
                 LocalName = "Chocó"
             },
             new()
             { 
                 Code = "COR",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Córdoba",
                 LocalName = "Córdoba"
             },
             new()
             { 
                 Code = "CUN",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Cundinamarca",
                 LocalName = "Cundinamarca"
             },
             new()
             { 
                 Code = "DC",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Distrito Capital de Bogotá",
                 LocalName = "Distrito Capital de Bogotá"
             },
             new()
             { 
                 Code = "GUA",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Guainía",
                 LocalName = "Guainía"
             },
             new()
             { 
                 Code = "GUV",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Guaviare",
                 LocalName = "Guaviare"
             },
             new()
             { 
                 Code = "HUI",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Huila",
                 LocalName = "Huila"
             },
             new()
             { 
                 Code = "LAG",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "La Guajira",
                 LocalName = "La Guajira"
             },
             new()
             { 
                 Code = "MAG",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Magdalena",
                 LocalName = "Magdalena"
             },
             new()
             { 
                 Code = "MET",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Meta",
                 LocalName = "Meta"
             },
             new()
             { 
                 Code = "NAR",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Nariño",
                 LocalName = "Nariño"
             },
             new()
             { 
                 Code = "NSA",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Norte de Santander",
                 LocalName = "Norte de Santander"
             },
             new()
             { 
                 Code = "PUT",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Putumayo",
                 LocalName = "Putumayo"
             },
             new()
             { 
                 Code = "QUI",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Quindío",
                 LocalName = "Quindío"
             },
             new()
             { 
                 Code = "RIS",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Risaralda",
                 LocalName = "Risaralda"
             },
             new()
             { 
                 Code = "SAP",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "San Andrés",
                 LocalName = "San Andrés"
             },
             new()
             { 
                 Code = "SAN",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Santander",
                 LocalName = "Santander"
             },
             new()
             { 
                 Code = "SUC",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Sucre",
                 LocalName = "Sucre"
             },
             new()
             { 
                 Code = "TOL",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Tolima",
                 LocalName = "Tolima"
             },
             new()
             { 
                 Code = "VAC",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Valle del Cauca",
                 LocalName = "Valle del Cauca"
             },
             new()
             { 
                 Code = "VAU",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Vaupés",
                 LocalName = "Vaupés"
             },
             new()
             { 
                 Code = "VID",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Vichada",
                 LocalName = "Vichada"
             }
 
-        });
+        ]);
     }
 }

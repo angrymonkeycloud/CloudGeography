@@ -5,8 +5,8 @@ public partial class CloudGeographyClient
 {
     public partial class CurrenciesMethods
     {
-        internal static List<Currency> CurrenciesList = new()
-        {
+        internal static List<Currency> CurrenciesList =
+        [
             new()
             {
                 Code = "AFN",
@@ -1607,6 +1607,6 @@ public partial class CloudGeographyClient
                 NativeSymbol = "ZK",
                 PluralShortName = "Zambian kwacha"
             }
-        };
+        ];
     }
 }

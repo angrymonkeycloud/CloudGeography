@@ -5,233 +5,233 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsMX()
     {
-        AddSubdivisions("MX", new List<Subdivision>()
-        {
+        AddSubdivisions("MX",
+        [
             new()
             { 
                 Code = "AGU",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Aguascalientes",
                 LocalName = "Aguascalientes"
             },
             new()
             { 
                 Code = "BCN",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Baja California",
                 LocalName = "Baja California"
             },
             new()
             { 
                 Code = "BCS",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Baja California Sur",
                 LocalName = "Baja California Sur"
             },
             new()
             { 
                 Code = "CAM",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Campeche",
                 LocalName = "Campeche"
             },
             new()
             { 
                 Code = "CHP",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Chiapas",
                 LocalName = "Chiapas"
             },
             new()
             { 
                 Code = "CHH",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Chihuahua",
                 LocalName = "Chihuahua"
             },
             new()
             { 
                 Code = "CMX",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Ciudad de Mexico",
                 LocalName = "Ciudad de Mexico"
             },
             new()
             { 
                 Code = "COA",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Coahuila de Zaragoza",
                 LocalName = "Coahuila de Zaragoza"
             },
             new()
             { 
                 Code = "COL",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Colima",
                 LocalName = "Colima"
             },
             new()
             { 
                 Code = "DUR",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Durango",
                 LocalName = "Durango"
             },
             new()
             { 
                 Code = "GUA",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Guanajuato",
                 LocalName = "Guanajuato"
             },
             new()
             { 
                 Code = "GRO",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Guerrero",
                 LocalName = "Guerrero"
             },
             new()
             { 
                 Code = "HID",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Hidalgo",
                 LocalName = "Hidalgo"
             },
             new()
             { 
                 Code = "JAL",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Jalisco",
                 LocalName = "Jalisco"
             },
             new()
             { 
                 Code = "MEX",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "México",
                 LocalName = "México"
             },
             new()
             { 
                 Code = "MIC",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Michoacán de Ocampo",
                 LocalName = "Michoacán de Ocampo"
             },
             new()
             { 
                 Code = "MOR",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Morelos",
                 LocalName = "Morelos"
             },
             new()
             { 
                 Code = "NAY",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Nayarit",
                 LocalName = "Nayarit"
             },
             new()
             { 
                 Code = "NLE",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Nuevo León",
                 LocalName = "Nuevo León"
             },
             new()
             { 
                 Code = "OAX",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Oaxaca",
                 LocalName = "Oaxaca"
             },
             new()
             { 
                 Code = "PUE",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Puebla",
                 LocalName = "Puebla"
             },
             new()
             { 
                 Code = "QUE",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Querétaro",
                 LocalName = "Querétaro"
             },
             new()
             { 
                 Code = "ROO",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Quintana Roo",
                 LocalName = "Quintana Roo"
             },
             new()
             { 
                 Code = "SLP",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "San Luis Potosí",
                 LocalName = "San Luis Potosí"
             },
             new()
             { 
                 Code = "SIN",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Sinaloa",
                 LocalName = "Sinaloa"
             },
             new()
             { 
                 Code = "SON",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Sonora",
                 LocalName = "Sonora"
             },
             new()
             { 
                 Code = "TAB",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Tabasco",
                 LocalName = "Tabasco"
             },
             new()
             { 
                 Code = "TAM",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Tamaulipas",
                 LocalName = "Tamaulipas"
             },
             new()
             { 
                 Code = "TLA",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Tlaxcala",
                 LocalName = "Tlaxcala"
             },
             new()
             { 
                 Code = "VER",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Veracruz de Ignacio de la Llave",
                 LocalName = "Veracruz de Ignacio de la Llave"
             },
             new()
             { 
                 Code = "YUC",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Yucatán",
                 LocalName = "Yucatán"
             },
             new()
             { 
                 Code = "ZAC",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Zacatecas",
                 LocalName = "Zacatecas"
             }
 
-        });
+        ]);
     }
 }

@@ -5,79 +5,79 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsGY()
     {
-        AddSubdivisions("GY", new List<Subdivision>()
-        {
+        AddSubdivisions("GY",
+        [
             new()
             { 
                 Code = "BA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Barima-Waini",
                 LocalName = "Barima-Waini"
             },
             new()
             { 
                 Code = "CU",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Cuyuni-Mazaruni",
                 LocalName = "Cuyuni-Mazaruni"
             },
             new()
             { 
                 Code = "DE",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Demerara-Mahaica",
                 LocalName = "Demerara-Mahaica"
             },
             new()
             { 
                 Code = "EB",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "East Berbice-Corentyne",
                 LocalName = "East Berbice-Corentyne"
             },
             new()
             { 
                 Code = "ES",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Essequibo Islands-West Demerara",
                 LocalName = "Essequibo Islands-West Demerara"
             },
             new()
             { 
                 Code = "MA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Mahaica-Berbice",
                 LocalName = "Mahaica-Berbice"
             },
             new()
             { 
                 Code = "PM",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Pomeroon-Supenaam",
                 LocalName = "Pomeroon-Supenaam"
             },
             new()
             { 
                 Code = "PT",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Potaro-Siparuni",
                 LocalName = "Potaro-Siparuni"
             },
             new()
             { 
                 Code = "UD",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Upper Demerara-Berbice",
                 LocalName = "Upper Demerara-Berbice"
             },
             new()
             { 
                 Code = "UT",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Upper Takutu-Upper Essequibo",
                 LocalName = "Upper Takutu-Upper Essequibo"
             }
 
-        });
+        ]);
     }
 }

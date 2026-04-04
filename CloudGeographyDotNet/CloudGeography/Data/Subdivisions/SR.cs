@@ -5,72 +5,72 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsSR()
     {
-        AddSubdivisions("SR", new List<Subdivision>()
-        {
+        AddSubdivisions("SR",
+        [
             new()
             { 
                 Code = "BR",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Brokopondo",
                 LocalName = "Brokopondo"
             },
             new()
             { 
                 Code = "CM",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Commewijne",
                 LocalName = "Commewijne"
             },
             new()
             { 
                 Code = "CR",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Coronie",
                 LocalName = "Coronie"
             },
             new()
             { 
                 Code = "MA",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Marowijne",
                 LocalName = "Marowijne"
             },
             new()
             { 
                 Code = "NI",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Nickerie",
                 LocalName = "Nickerie"
             },
             new()
             { 
                 Code = "PR",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Para",
                 LocalName = "Para"
             },
             new()
             { 
                 Code = "SA",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Saramacca",
                 LocalName = "Saramacca"
             },
             new()
             { 
                 Code = "SI",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Sipaliwini",
                 LocalName = "Sipaliwini"
             },
             new()
             { 
                 Code = "WA",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Wanica",
                 LocalName = "Wanica"
             }
 
-        });
+        ]);
     }
 }

@@ -5,58 +5,58 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsQA()
     {
-        AddSubdivisions("QA", new List<Subdivision>()
-        {
+        AddSubdivisions("QA",
+        [
             new()
             { 
                 Code = "DA",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Ad Dawhah",
                 LocalName = "Ad Dawhah"
             },
             new()
             { 
                 Code = "KH",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Al Khawr wa adh Dhakhirah",
                 LocalName = "Al Khawr wa adh Dhakhirah"
             },
             new()
             { 
                 Code = "WA",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Al Wakrah",
                 LocalName = "Al Wakrah"
             },
             new()
             { 
                 Code = "RA",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Ar Rayyan",
                 LocalName = "Ar Rayyan"
             },
             new()
             { 
                 Code = "MS",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Ash Shamal",
                 LocalName = "Ash Shamal"
             },
             new()
             { 
                 Code = "ZA",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Az¸ Z¸aayin",
                 LocalName = "Az¸ Z¸aayin"
             },
             new()
             { 
                 Code = "US",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Umm Salal",
                 LocalName = "Umm Salal"
             }
 
-        });
+        ]);
     }
 }

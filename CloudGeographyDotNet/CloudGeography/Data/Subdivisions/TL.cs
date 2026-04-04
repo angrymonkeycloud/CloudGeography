@@ -5,100 +5,100 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsTL()
     {
-        AddSubdivisions("TL", new List<Subdivision>()
-        {
+        AddSubdivisions("TL",
+        [
             new()
             { 
                 Code = "AL",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Aileu",
                 LocalName = "Aileu"
             },
             new()
             { 
                 Code = "AN",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Ainaro",
                 LocalName = "Ainaro"
             },
             new()
             { 
                 Code = "BA",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Baucau",
                 LocalName = "Baucau"
             },
             new()
             { 
                 Code = "BO",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Bobonaro",
                 LocalName = "Bobonaro"
             },
             new()
             { 
                 Code = "CO",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Cova Lima",
                 LocalName = "Cova Lima"
             },
             new()
             { 
                 Code = "DI",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Díli",
                 LocalName = "Díli"
             },
             new()
             { 
                 Code = "ER",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Ermera",
                 LocalName = "Ermera"
             },
             new()
             { 
                 Code = "LA",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Lautem",
                 LocalName = "Lautem"
             },
             new()
             { 
                 Code = "LI",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Liquiça",
                 LocalName = "Liquiça"
             },
             new()
             { 
                 Code = "MT",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Manatuto",
                 LocalName = "Manatuto"
             },
             new()
             { 
                 Code = "MF",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Manufahi",
                 LocalName = "Manufahi"
             },
             new()
             { 
                 Code = "OE",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Oecussi",
                 LocalName = "Oecussi"
             },
             new()
             { 
                 Code = "VI",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Viqueque",
                 LocalName = "Viqueque"
             }
 
-        });
+        ]);
     }
 }

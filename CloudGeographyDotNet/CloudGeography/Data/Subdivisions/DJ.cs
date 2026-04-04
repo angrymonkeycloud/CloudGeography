@@ -5,51 +5,51 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsDJ()
     {
-        AddSubdivisions("DJ", new List<Subdivision>()
-        {
+        AddSubdivisions("DJ",
+        [
             new()
             { 
                 Code = "AS",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Ali Sabieh",
                 LocalName = "Ali Sabieh"
             },
             new()
             { 
                 Code = "AR",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Arta",
                 LocalName = "Arta"
             },
             new()
             { 
                 Code = "DI",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Dikhil",
                 LocalName = "Dikhil"
             },
             new()
             { 
                 Code = "DJ",
-                Type = "City",
+                Type = SubdivisionTypes.City,
                 Name = "Djibouti",
                 LocalName = "Djibouti"
             },
             new()
             { 
                 Code = "OB",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Obock",
                 LocalName = "Obock"
             },
             new()
             { 
                 Code = "TA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Tadjourah",
                 LocalName = "Tadjourah"
             }
 
-        });
+        ]);
     }
 }

@@ -5,191 +5,191 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsMH()
     {
-        AddSubdivisions("MH", new List<Subdivision>()
-        {
+        AddSubdivisions("MH",
+        [
             new()
             { 
                 Code = "ALL",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Ailinglapalap",
                 LocalName = "Ailinglapalap"
             },
             new()
             { 
                 Code = "ALK",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Ailuk",
                 LocalName = "Ailuk"
             },
             new()
             { 
                 Code = "ARN",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Arno",
                 LocalName = "Arno"
             },
             new()
             { 
                 Code = "AUR",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Aur",
                 LocalName = "Aur"
             },
             new()
             { 
                 Code = "KIL",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Bikini and Kili",
                 LocalName = "Bikini and Kili"
             },
             new()
             { 
                 Code = "EBO",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Ebon",
                 LocalName = "Ebon"
             },
             new()
             { 
                 Code = "ENI",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Enewetak and Ujelang",
                 LocalName = "Enewetak and Ujelang"
             },
             new()
             { 
                 Code = "JAB",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Jabat",
                 LocalName = "Jabat"
             },
             new()
             { 
                 Code = "JAL",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Jaluit",
                 LocalName = "Jaluit"
             },
             new()
             { 
                 Code = "KWA",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Kwajalein",
                 LocalName = "Kwajalein"
             },
             new()
             { 
                 Code = "LAE",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Lae",
                 LocalName = "Lae"
             },
             new()
             { 
                 Code = "LIB",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Lib",
                 LocalName = "Lib"
             },
             new()
             { 
                 Code = "LIK",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Likiep",
                 LocalName = "Likiep"
             },
             new()
             { 
                 Code = "MAJ",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Majuro",
                 LocalName = "Majuro"
             },
             new()
             { 
                 Code = "MAL",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Maloelap",
                 LocalName = "Maloelap"
             },
             new()
             { 
                 Code = "MEJ",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Mejit",
                 LocalName = "Mejit"
             },
             new()
             { 
                 Code = "MIL",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Mili",
                 LocalName = "Mili"
             },
             new()
             { 
                 Code = "NMK",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Namdrik",
                 LocalName = "Namdrik"
             },
             new()
             { 
                 Code = "NMU",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Namu",
                 LocalName = "Namu"
             },
             new()
             { 
                 Code = "L",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Ralik chain",
                 LocalName = "Ralik chain"
             },
             new()
             { 
                 Code = "T",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Ratak chain",
                 LocalName = "Ratak chain"
             },
             new()
             { 
                 Code = "RON",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Rongelap",
                 LocalName = "Rongelap"
             },
             new()
             { 
                 Code = "UJA",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Ujae",
                 LocalName = "Ujae"
             },
             new()
             { 
                 Code = "UTI",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Utrik",
                 LocalName = "Utrik"
             },
             new()
             { 
                 Code = "WTH",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Wotho",
                 LocalName = "Wotho"
             },
             new()
             { 
                 Code = "WTJ",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Wotje",
                 LocalName = "Wotje"
             }
 
-        });
+        ]);
     }
 }

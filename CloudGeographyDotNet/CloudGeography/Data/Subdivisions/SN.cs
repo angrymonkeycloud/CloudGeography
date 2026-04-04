@@ -5,107 +5,107 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsSN()
     {
-        AddSubdivisions("SN", new List<Subdivision>()
-        {
+        AddSubdivisions("SN",
+        [
             new()
             { 
                 Code = "DK",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Dakar",
                 LocalName = "Dakar"
             },
             new()
             { 
                 Code = "DB",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Diourbel",
                 LocalName = "Diourbel"
             },
             new()
             { 
                 Code = "FK",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Fatick",
                 LocalName = "Fatick"
             },
             new()
             { 
                 Code = "KA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Kaffrine",
                 LocalName = "Kaffrine"
             },
             new()
             { 
                 Code = "KL",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Kaolack",
                 LocalName = "Kaolack"
             },
             new()
             { 
                 Code = "KE",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Kédougou",
                 LocalName = "Kédougou"
             },
             new()
             { 
                 Code = "KD",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Kolda",
                 LocalName = "Kolda"
             },
             new()
             { 
                 Code = "LG",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Louga",
                 LocalName = "Louga"
             },
             new()
             { 
                 Code = "MT",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Matam",
                 LocalName = "Matam"
             },
             new()
             { 
                 Code = "SL",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Saint-Louis",
                 LocalName = "Saint-Louis"
             },
             new()
             { 
                 Code = "SE",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Sédhiou",
                 LocalName = "Sédhiou"
             },
             new()
             { 
                 Code = "TC",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Tambacounda",
                 LocalName = "Tambacounda"
             },
             new()
             { 
                 Code = "TH",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Thiès",
                 LocalName = "Thiès"
             },
             new()
             { 
                 Code = "ZG",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Ziguinchor",
                 LocalName = "Ziguinchor"
             }
 
-        });
+        ]);
     }
 }

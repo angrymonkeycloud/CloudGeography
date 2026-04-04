@@ -5,72 +5,72 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsGW()
     {
-        AddSubdivisions("GW", new List<Subdivision>()
-        {
+        AddSubdivisions("GW",
+        [
             new()
             { 
                 Code = "BA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Bafatá",
                 LocalName = "Bafatá"
             },
             new()
             { 
                 Code = "BM",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Biombo",
                 LocalName = "Biombo"
             },
             new()
             { 
                 Code = "BS",
-                Type = "Sector",
+                Type = SubdivisionTypes.Sector,
                 Name = "Bissau",
                 LocalName = "Bissau"
             },
             new()
             { 
                 Code = "BL",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Bolama",
                 LocalName = "Bolama"
             },
             new()
             { 
                 Code = "CA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Cacheu",
                 LocalName = "Cacheu"
             },
             new()
             { 
                 Code = "GA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Gabú",
                 LocalName = "Gabú"
             },
             new()
             { 
                 Code = "OI",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Oio",
                 LocalName = "Oio"
             },
             new()
             { 
                 Code = "QU",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Quinara",
                 LocalName = "Quinara"
             },
             new()
             { 
                 Code = "TO",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Tombali",
                 LocalName = "Tombali"
             }
 
-        });
+        ]);
     }
 }

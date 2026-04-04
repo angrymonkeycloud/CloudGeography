@@ -44,5 +44,58 @@ namespace CloudGeography.Test
 
 			Assert.AreEqual("Alabama", subdivision?.Name);
 		}
+
+		[TestMethod]
+		public void Get_Lebanon_Subdivisions()
+		{
+			CloudGeographyClient client = new();
+			List<Subdivision> subdivisions = client.Subdivisions.Get("LB");
+
+			Assert.AreEqual(8, subdivisions.Count);
+		}
+
+		[TestMethod]
+		public void Get_Lebanon_Subdivision_Type_Is_Governorate()
+		{
+			CloudGeographyClient client = new();
+			Subdivision? beirut = client.Subdivisions.Get("LB", "BA");
+
+			Assert.IsNotNull(beirut);
+			Assert.AreEqual(SubdivisionTypes.Governorate, beirut.Type);
+			Assert.AreEqual("Beirut", beirut.Name);
+		}
+
+		[TestMethod]
+		public void Get_Lebanon_Subdivision_Children()
+		{
+			CloudGeographyClient client = new();
+			List<Subdivision>? children = client.Subdivisions.GetChildren("LB", "JL");
+
+			Assert.IsNotNull(children);
+			Assert.AreEqual(6, children.Count);
+			Assert.IsTrue(children.All(c => c.Type == SubdivisionTypes.District));
+		}
+
+		[TestMethod]
+		public void Get_Lebanon_Subdivision_Child()
+		{
+			CloudGeographyClient client = new();
+			Subdivision? child = client.Subdivisions.GetChild("LB", "BH", "BK");
+
+			Assert.IsNotNull(child);
+			Assert.AreEqual("Baalbek", child.Name);
+			Assert.AreEqual(SubdivisionTypes.District, child.Type);
+		}
+
+		[TestMethod]
+		public void Get_Lebanon_All_Subdivisions_Flat()
+		{
+			CloudGeographyClient client = new();
+			List<Subdivision> all = client.Subdivisions.GetAll("LB");
+
+			Assert.IsTrue(all.Count > 8);
+			Assert.IsTrue(all.Any(s => s.Type == SubdivisionTypes.Governorate));
+			Assert.IsTrue(all.Any(s => s.Type == SubdivisionTypes.District));
+		}
 	}
 }

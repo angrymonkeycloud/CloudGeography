@@ -5,359 +5,359 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsES()
     {
-        AddSubdivisions("ES", new List<Subdivision>()
-        {
+        AddSubdivisions("ES",
+        [
             new()
             { 
                 Code = "C",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "A Coruña",
                 LocalName = "A Coruña"
             },
             new()
             { 
                 Code = "VI",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Álava / Araba",
                 LocalName = "Álava / Araba"
             },
             new()
             { 
                 Code = "AB",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Albacete",
                 LocalName = "Albacete"
             },
             new()
             { 
                 Code = "A",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Alicante / Alacant",
                 LocalName = "Alicante / Alacant"
             },
             new()
             { 
                 Code = "AL",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Almería",
                 LocalName = "Almería"
             },
             new()
             { 
                 Code = "O",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Asturias",
                 LocalName = "Asturias"
             },
             new()
             { 
                 Code = "AV",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Ávila",
                 LocalName = "Ávila"
             },
             new()
             { 
                 Code = "BA",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Badajoz",
                 LocalName = "Badajoz"
             },
             new()
             { 
                 Code = "PM",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Balears",
                 LocalName = "Balears"
             },
             new()
             { 
                 Code = "B",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Barcelona",
                 LocalName = "Barcelona"
             },
             new()
             { 
                 Code = "BI",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Biskaia",
                 LocalName = "Biskaia"
             },
             new()
             { 
                 Code = "BU",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Burgos",
                 LocalName = "Burgos"
             },
             new()
             { 
                 Code = "CC",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Cáceres",
                 LocalName = "Cáceres"
             },
             new()
             { 
                 Code = "CA",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Cádiz",
                 LocalName = "Cádiz"
             },
             new()
             { 
                 Code = "S",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Cantabria",
                 LocalName = "Cantabria"
             },
             new()
             { 
                 Code = "CS",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Castellón / Castelló",
                 LocalName = "Castellón / Castelló"
             },
             new()
             { 
                 Code = "CR",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Ciudad Real",
                 LocalName = "Ciudad Real"
             },
             new()
             { 
                 Code = "CO",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Córdoba",
                 LocalName = "Córdoba"
             },
             new()
             { 
                 Code = "CU",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Cuenca",
                 LocalName = "Cuenca"
             },
             new()
             { 
                 Code = "SS",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Gipuzkoa",
                 LocalName = "Gipuzkoa"
             },
             new()
             { 
                 Code = "GI",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Girona",
                 LocalName = "Girona"
             },
             new()
             { 
                 Code = "GR",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Granada",
                 LocalName = "Granada"
             },
             new()
             { 
                 Code = "GU",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Guadalajara",
                 LocalName = "Guadalajara"
             },
             new()
             { 
                 Code = "H",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Huelva",
                 LocalName = "Huelva"
             },
             new()
             { 
                 Code = "HU",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Huesca",
                 LocalName = "Huesca"
             },
             new()
             { 
                 Code = "J",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Jaén",
                 LocalName = "Jaén"
             },
             new()
             { 
                 Code = "LO",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "La Rioja",
                 LocalName = "La Rioja"
             },
             new()
             { 
                 Code = "GC",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Las Palmas",
                 LocalName = "Las Palmas"
             },
             new()
             { 
                 Code = "LE",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "León",
                 LocalName = "León"
             },
             new()
             { 
                 Code = "L",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Lleida",
                 LocalName = "Lleida"
             },
             new()
             { 
                 Code = "LU",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Lugo",
                 LocalName = "Lugo"
             },
             new()
             { 
                 Code = "M",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Madrid",
                 LocalName = "Madrid"
             },
             new()
             { 
                 Code = "MA",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Málaga",
                 LocalName = "Málaga"
             },
             new()
             { 
                 Code = "MU",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Murcia",
                 LocalName = "Murcia"
             },
             new()
             { 
                 Code = "NA",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Navarra / Nafarroa",
                 LocalName = "Navarra / Nafarroa"
             },
             new()
             { 
                 Code = "OR",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Ourense",
                 LocalName = "Ourense"
             },
             new()
             { 
                 Code = "P",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Palencia",
                 LocalName = "Palencia"
             },
             new()
             { 
                 Code = "PO",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Pontevedra",
                 LocalName = "Pontevedra"
             },
             new()
             { 
                 Code = "SA",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Salamanca",
                 LocalName = "Salamanca"
             },
             new()
             { 
                 Code = "TF",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Santa Cruz de Tenerife",
                 LocalName = "Santa Cruz de Tenerife"
             },
             new()
             { 
                 Code = "SG",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Segovia",
                 LocalName = "Segovia"
             },
             new()
             { 
                 Code = "SE",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Sevilla",
                 LocalName = "Sevilla"
             },
             new()
             { 
                 Code = "SO",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Soria",
                 LocalName = "Soria"
             },
             new()
             { 
                 Code = "T",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Tarragona",
                 LocalName = "Tarragona"
             },
             new()
             { 
                 Code = "TE",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Teruel",
                 LocalName = "Teruel"
             },
             new()
             { 
                 Code = "TO",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Toledo",
                 LocalName = "Toledo"
             },
             new()
             { 
                 Code = "V",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Valencia / València",
                 LocalName = "Valencia / València"
             },
             new()
             { 
                 Code = "VA",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Valladolid",
                 LocalName = "Valladolid"
             },
             new()
             { 
                 Code = "ZA",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Zamora",
                 LocalName = "Zamora"
             },
             new()
             { 
                 Code = "Z",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Zaragoza",
                 LocalName = "Zaragoza"
             }
 
-        });
+        ]);
     }
 }

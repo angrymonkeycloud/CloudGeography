@@ -5,44 +5,44 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsDK()
     {
-        AddSubdivisions("DK", new List<Subdivision>()
-        {
+        AddSubdivisions("DK",
+        [
             new()
             { 
                 Code = "84",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Hovedstaden",
                 LocalName = "Hovedstaden"
             },
             new()
             { 
                 Code = "82",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Midtjylland",
                 LocalName = "Midtjylland"
             },
             new()
             { 
                 Code = "81",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Nordjylland",
                 LocalName = "Nordjylland"
             },
             new()
             { 
                 Code = "85",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Sjælland",
                 LocalName = "Sjælland"
             },
             new()
             { 
                 Code = "83",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Syddanmark",
                 LocalName = "Syddanmark"
             }
 
-        });
+        ]);
     }
 }

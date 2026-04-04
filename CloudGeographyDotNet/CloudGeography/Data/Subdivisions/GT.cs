@@ -5,163 +5,163 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsGT()
     {
-        AddSubdivisions("GT", new List<Subdivision>()
-        {
+        AddSubdivisions("GT",
+        [
             new()
             { 
                 Code = "AV",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Alta Verapaz",
                 LocalName = "Alta Verapaz"
             },
             new()
             { 
                 Code = "BV",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Baja Verapaz",
                 LocalName = "Baja Verapaz"
             },
             new()
             { 
                 Code = "CM",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Chimaltenango",
                 LocalName = "Chimaltenango"
             },
             new()
             { 
                 Code = "CQ",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Chiquimula",
                 LocalName = "Chiquimula"
             },
             new()
             { 
                 Code = "PR",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "El Progreso",
                 LocalName = "El Progreso"
             },
             new()
             { 
                 Code = "ES",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Escuintla",
                 LocalName = "Escuintla"
             },
             new()
             { 
                 Code = "GU",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Guatemala",
                 LocalName = "Guatemala"
             },
             new()
             { 
                 Code = "HU",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Huehuetenango",
                 LocalName = "Huehuetenango"
             },
             new()
             { 
                 Code = "IZ",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Izabal",
                 LocalName = "Izabal"
             },
             new()
             { 
                 Code = "JA",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Jalapa",
                 LocalName = "Jalapa"
             },
             new()
             { 
                 Code = "JU",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Jutiapa",
                 LocalName = "Jutiapa"
             },
             new()
             { 
                 Code = "PE",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Petén",
                 LocalName = "Petén"
             },
             new()
             { 
                 Code = "QZ",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Quetzaltenango",
                 LocalName = "Quetzaltenango"
             },
             new()
             { 
                 Code = "QC",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Quiché",
                 LocalName = "Quiché"
             },
             new()
             { 
                 Code = "RE",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Retalhuleu",
                 LocalName = "Retalhuleu"
             },
             new()
             { 
                 Code = "SA",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Sacatepéquez",
                 LocalName = "Sacatepéquez"
             },
             new()
             { 
                 Code = "SM",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "San Marcos",
                 LocalName = "San Marcos"
             },
             new()
             { 
                 Code = "SR",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Santa Rosa",
                 LocalName = "Santa Rosa"
             },
             new()
             { 
                 Code = "SO",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Sololá",
                 LocalName = "Sololá"
             },
             new()
             { 
                 Code = "SU",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Suchitepéquez",
                 LocalName = "Suchitepéquez"
             },
             new()
             { 
                 Code = "TO",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Totonicapán",
                 LocalName = "Totonicapán"
             },
             new()
             { 
                 Code = "ZA",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Zacapa",
                 LocalName = "Zacapa"
             }
 
-        });
+        ]);
     }
 }

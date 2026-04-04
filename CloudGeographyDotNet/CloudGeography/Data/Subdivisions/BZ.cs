@@ -5,51 +5,51 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsBZ()
     {
-        AddSubdivisions("BZ", new List<Subdivision>()
-        {
+        AddSubdivisions("BZ",
+        [
             new()
             { 
                 Code = "BZ",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Belize",
                 LocalName = "Belize"
             },
             new()
             { 
                 Code = "CY",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Cayo",
                 LocalName = "Cayo"
             },
             new()
             { 
                 Code = "CZL",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Corozal",
                 LocalName = "Corozal"
             },
             new()
             { 
                 Code = "OW",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Orange Walk",
                 LocalName = "Orange Walk"
             },
             new()
             { 
                 Code = "SC",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Stann Creek",
                 LocalName = "Stann Creek"
             },
             new()
             { 
                 Code = "TOL",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Toledo",
                 LocalName = "Toledo"
             }
 
-        });
+        ]);
     }
 }

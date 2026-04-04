@@ -29,8 +29,8 @@ public partial class CloudGeographyClient
             return CountriesList.Where(key => key.CallingCode == callingCode).ToList();
         }
 
-        private List<string> CanadianCallingCodes { get; } = new()
-        {
+        private List<string> CanadianCallingCodes { get; } =
+        [
             "403", "587", "780", "825", // Alberta
 			"236", "250", "604", "672", "778", // British Columbia
 			"204", "431", // Manitoba
@@ -42,7 +42,7 @@ public partial class CloudGeographyClient
 			"418", "438", "450", "514", "579", "581", "819", "873", // Quebec
 			"306", "639", // Saskatchewan
 			"867" // Yukon, Northwest Territories and Nunavut
-		};
+		];
 
         public Country? GuessCountryByPhoneNumber(string phoneNumber)
         {

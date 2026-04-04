@@ -5,163 +5,163 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsPG()
     {
-        AddSubdivisions("PG", new List<Subdivision>()
-        {
+        AddSubdivisions("PG",
+        [
             new()
             { 
                 Code = "NSB",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Bougainville",
                 LocalName = "Bougainville"
             },
             new()
             { 
                 Code = "CPM",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Central",
                 LocalName = "Central"
             },
             new()
             { 
                 Code = "CPK",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Chimbu",
                 LocalName = "Chimbu"
             },
             new()
             { 
                 Code = "EBR",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "East New Britain",
                 LocalName = "East New Britain"
             },
             new()
             { 
                 Code = "ESW",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "East Sepik",
                 LocalName = "East Sepik"
             },
             new()
             { 
                 Code = "EHG",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Eastern Highlands",
                 LocalName = "Eastern Highlands"
             },
             new()
             { 
                 Code = "EPW",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Enga",
                 LocalName = "Enga"
             },
             new()
             { 
                 Code = "GPK",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Gulf",
                 LocalName = "Gulf"
             },
             new()
             { 
                 Code = "HLA",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Hela",
                 LocalName = "Hela"
             },
             new()
             { 
                 Code = "JWK",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Jiwaka",
                 LocalName = "Jiwaka"
             },
             new()
             { 
                 Code = "MPM",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Madang",
                 LocalName = "Madang"
             },
             new()
             { 
                 Code = "MRL",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Manus",
                 LocalName = "Manus"
             },
             new()
             { 
                 Code = "MBA",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Milne Bay",
                 LocalName = "Milne Bay"
             },
             new()
             { 
                 Code = "MPL",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Morobe",
                 LocalName = "Morobe"
             },
             new()
             { 
                 Code = "NCD",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "National Capital District",
                 LocalName = "National Capital District"
             },
             new()
             { 
                 Code = "NIK",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "New Ireland",
                 LocalName = "New Ireland"
             },
             new()
             { 
                 Code = "NPP",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Northern",
                 LocalName = "Northern"
             },
             new()
             { 
                 Code = "SHM",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Southern Highlands",
                 LocalName = "Southern Highlands"
             },
             new()
             { 
                 Code = "WBK",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "West New Britain",
                 LocalName = "West New Britain"
             },
             new()
             { 
                 Code = "SAN",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "West Sepik",
                 LocalName = "West Sepik"
             },
             new()
             { 
                 Code = "WPD",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Western",
                 LocalName = "Western"
             },
             new()
             { 
                 Code = "WHM",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Western Highlands",
                 LocalName = "Western Highlands"
             }
 
-        });
+        ]);
     }
 }

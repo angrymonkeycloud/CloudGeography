@@ -5,58 +5,58 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsTV()
     {
-        AddSubdivisions("TV", new List<Subdivision>()
-        {
+        AddSubdivisions("TV",
+        [
             new()
             { 
                 Code = "NMG",
-                Type = "Island",
+                Type = SubdivisionTypes.Island,
                 Name = "Nanumaga",
                 LocalName = "Nanumaga"
             },
             new()
             { 
                 Code = "NMA",
-                Type = "Island",
+                Type = SubdivisionTypes.Island,
                 Name = "Nanumea",
                 LocalName = "Nanumea"
             },
             new()
             { 
                 Code = "NIT",
-                Type = "Island",
+                Type = SubdivisionTypes.Island,
                 Name = "Niutao",
                 LocalName = "Niutao"
             },
             new()
             { 
                 Code = "NIU",
-                Type = "Island",
+                Type = SubdivisionTypes.Island,
                 Name = "Nui",
                 LocalName = "Nui"
             },
             new()
             { 
                 Code = "NKF",
-                Type = "Island",
+                Type = SubdivisionTypes.Island,
                 Name = "Nukufetau",
                 LocalName = "Nukufetau"
             },
             new()
             { 
                 Code = "NKL",
-                Type = "Island",
+                Type = SubdivisionTypes.Island,
                 Name = "Nukulaelae",
                 LocalName = "Nukulaelae"
             },
             new()
             { 
                 Code = "VAI",
-                Type = "Island",
+                Type = SubdivisionTypes.Island,
                 Name = "Vaitupu",
                 LocalName = "Vaitupu"
             }
 
-        });
+        ]);
     }
 }

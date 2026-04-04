@@ -5,30 +5,30 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsKM()
     {
-        AddSubdivisions("KM", new List<Subdivision>()
-        {
+        AddSubdivisions("KM",
+        [
             new()
             { 
                 Code = "A",
-                Type = "Island",
+                Type = SubdivisionTypes.Island,
                 Name = "Anjouan",
                 LocalName = "Anjouan"
             },
             new()
             { 
                 Code = "G",
-                Type = "Island",
+                Type = SubdivisionTypes.Island,
                 Name = "Grande Comore",
                 LocalName = "Grande Comore"
             },
             new()
             { 
                 Code = "M",
-                Type = "Island",
+                Type = SubdivisionTypes.Island,
                 Name = "Mohéli",
                 LocalName = "Mohéli"
             }
 
-        });
+        ]);
     }
 }

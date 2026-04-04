@@ -5,86 +5,86 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsOM()
     {
-        AddSubdivisions("OM", new List<Subdivision>()
-        {
+        AddSubdivisions("OM",
+        [
             new()
             { 
                 Code = "DA",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Ad Dakhiliyah",
                 LocalName = "Ad Dakhiliyah"
             },
             new()
             { 
                 Code = "WU",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "AI Wusta",
                 LocalName = "AI Wusta"
             },
             new()
             { 
                 Code = "BU",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Al Buraymi",
                 LocalName = "Al Buraymi"
             },
             new()
             { 
                 Code = "ZA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Az Zahirah",
                 LocalName = "Az Zahirah"
             },
             new()
             { 
                 Code = "BJ",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Janub al Batinah",
                 LocalName = "Janub al Batinah"
             },
             new()
             { 
                 Code = "SJ",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Janub ash Sharqiyah",
                 LocalName = "Janub ash Sharqiyah"
             },
             new()
             { 
                 Code = "MA",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Masqat",
                 LocalName = "Masqat"
             },
             new()
             { 
                 Code = "MU",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Musandam",
                 LocalName = "Musandam"
             },
             new()
             { 
                 Code = "BS",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Shamal al Batinah",
                 LocalName = "Shamal al Batinah"
             },
             new()
             { 
                 Code = "SS",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Shamal ash Sharqiyah",
                 LocalName = "Shamal ash Sharqiyah"
             },
             new()
             { 
                 Code = "ZU",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Z¸ufar",
                 LocalName = "Z¸ufar"
             }
 
-        });
+        ]);
     }
 }

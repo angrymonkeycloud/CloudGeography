@@ -5,191 +5,191 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsPE()
     {
-        AddSubdivisions("PE", new List<Subdivision>()
-        {
+        AddSubdivisions("PE",
+        [
             new()
             { 
                 Code = "AMA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Amazonas",
                 LocalName = "Amazonas"
             },
             new()
             { 
                 Code = "ANC",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Ancash",
                 LocalName = "Ancash"
             },
             new()
             { 
                 Code = "APU",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Apurímac",
                 LocalName = "Apurímac"
             },
             new()
             { 
                 Code = "ARE",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Arequipa",
                 LocalName = "Arequipa"
             },
             new()
             { 
                 Code = "AYA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Ayacucho",
                 LocalName = "Ayacucho"
             },
             new()
             { 
                 Code = "CAJ",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Cajamarca",
                 LocalName = "Cajamarca"
             },
             new()
             { 
                 Code = "CUS",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Cuzco",
                 LocalName = "Cuzco"
             },
             new()
             { 
                 Code = "CAL",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "El Callao",
                 LocalName = "El Callao"
             },
             new()
             { 
                 Code = "HUV",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Huancavelica",
                 LocalName = "Huancavelica"
             },
             new()
             { 
                 Code = "HUC",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Huánuco",
                 LocalName = "Huánuco"
             },
             new()
             { 
                 Code = "ICA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Ica",
                 LocalName = "Ica"
             },
             new()
             { 
                 Code = "JUN",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Junín",
                 LocalName = "Junín"
             },
             new()
             { 
                 Code = "LAL",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "La Libertad",
                 LocalName = "La Libertad"
             },
             new()
             { 
                 Code = "LAM",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Lambayeque",
                 LocalName = "Lambayeque"
             },
             new()
             { 
                 Code = "LIM",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Lima",
                 LocalName = "Lima"
             },
             new()
             { 
                 Code = "LMA",
-                Type = "Municipality",
+                Type = SubdivisionTypes.Municipality,
                 Name = "Lima hatun llaqta",
                 LocalName = "Lima hatun llaqta"
             },
             new()
             { 
                 Code = "LOR",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Loreto",
                 LocalName = "Loreto"
             },
             new()
             { 
                 Code = "MDD",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Madre de Dios",
                 LocalName = "Madre de Dios"
             },
             new()
             { 
                 Code = "MOQ",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Moquegua",
                 LocalName = "Moquegua"
             },
             new()
             { 
                 Code = "PAS",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Pasco",
                 LocalName = "Pasco"
             },
             new()
             { 
                 Code = "PIU",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Piura",
                 LocalName = "Piura"
             },
             new()
             { 
                 Code = "PUN",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Puno",
                 LocalName = "Puno"
             },
             new()
             { 
                 Code = "SAM",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "San Martín",
                 LocalName = "San Martín"
             },
             new()
             { 
                 Code = "TAC",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Tacna",
                 LocalName = "Tacna"
             },
             new()
             { 
                 Code = "TUM",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Tumbes",
                 LocalName = "Tumbes"
             },
             new()
             { 
                 Code = "UCA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Ucayali",
                 LocalName = "Ucayali"
             }
 
-        });
+        ]);
     }
 }

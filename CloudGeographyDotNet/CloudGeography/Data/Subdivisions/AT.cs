@@ -5,72 +5,72 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsAT()
     {
-        AddSubdivisions("AT", new List<Subdivision>()
-        {
+        AddSubdivisions("AT",
+        [
             new()
             { 
                 Code = "1",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Burgenland",
                 LocalName = "Burgenland"
             },
             new()
             { 
                 Code = "2",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Kärnten",
                 LocalName = "Kärnten"
             },
             new()
             { 
                 Code = "3",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Niederösterreich",
                 LocalName = "Niederösterreich"
             },
             new()
             { 
                 Code = "4",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Oberösterreich",
                 LocalName = "Oberösterreich"
             },
             new()
             { 
                 Code = "5",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Salzburg",
                 LocalName = "Salzburg"
             },
             new()
             { 
                 Code = "6",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Steiermark",
                 LocalName = "Steiermark"
             },
             new()
             { 
                 Code = "7",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Tirol",
                 LocalName = "Tirol"
             },
             new()
             { 
                 Code = "8",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Vorarlberg",
                 LocalName = "Vorarlberg"
             },
             new()
             { 
                 Code = "9",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Wien",
                 LocalName = "Wien"
             }
 
-        });
+        ]);
     }
 }

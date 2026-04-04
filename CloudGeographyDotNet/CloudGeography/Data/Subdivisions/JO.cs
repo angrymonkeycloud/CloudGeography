@@ -5,93 +5,93 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsJO()
     {
-        AddSubdivisions("JO", new List<Subdivision>()
-        {
+        AddSubdivisions("JO",
+        [
             new()
             { 
                 Code = "AJ",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Ajlun",
                 LocalName = "Ajlun"
             },
             new()
             { 
                 Code = "KA",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "AI Karak",
                 LocalName = "AI Karak"
             },
             new()
             { 
                 Code = "MA",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "AI Mafraq",
                 LocalName = "AI Mafraq"
             },
             new()
             { 
                 Code = "AM",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Al A¯simah",
                 LocalName = "Al A¯simah"
             },
             new()
             { 
                 Code = "AQ",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Al Aqabah",
                 LocalName = "Al Aqabah"
             },
             new()
             { 
                 Code = "BA",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Al Balqa",
                 LocalName = "Al Balqa"
             },
             new()
             { 
                 Code = "AT",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "At Tafilah",
                 LocalName = "At Tafilah"
             },
             new()
             { 
                 Code = "AZ",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Az Zarqa",
                 LocalName = "Az Zarqa"
             },
             new()
             { 
                 Code = "IR",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Irbid",
                 LocalName = "Irbid"
             },
             new()
             { 
                 Code = "JA",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Jarash",
                 LocalName = "Jarash"
             },
             new()
             { 
                 Code = "MN",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Maan",
                 LocalName = "Maan"
             },
             new()
             { 
                 Code = "MD",
-                Type = "Governorate",
+                Type = SubdivisionTypes.Governorate,
                 Name = "Madaba",
                 LocalName = "Madaba"
             }
 
-        });
+        ]);
     }
 }

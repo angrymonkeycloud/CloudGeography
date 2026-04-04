@@ -5,198 +5,198 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsBR()
     {
-        AddSubdivisions("BR", new List<Subdivision>()
-        {
+        AddSubdivisions("BR",
+        [
             new()
             { 
                 Code = "AC",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Acre",
                 LocalName = "Acre"
             },
             new()
             { 
                 Code = "AL",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Alagoas",
                 LocalName = "Alagoas"
             },
             new()
             { 
                 Code = "AP",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Amapá",
                 LocalName = "Amapá"
             },
             new()
             { 
                 Code = "AM",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Amazonas",
                 LocalName = "Amazonas"
             },
             new()
             { 
                 Code = "BA",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Bahia",
                 LocalName = "Bahia"
             },
             new()
             { 
                 Code = "CE",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Ceará",
                 LocalName = "Ceará"
             },
             new()
             { 
                 Code = "DF",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Distrito Federal",
                 LocalName = "Distrito Federal"
             },
             new()
             { 
                 Code = "ES",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Espírito Santo",
                 LocalName = "Espírito Santo"
             },
             new()
             { 
                 Code = "GO",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Goiás",
                 LocalName = "Goiás"
             },
             new()
             { 
                 Code = "MA",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Maranhão",
                 LocalName = "Maranhão"
             },
             new()
             { 
                 Code = "MT",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Mato Grosso",
                 LocalName = "Mato Grosso"
             },
             new()
             { 
                 Code = "MS",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Mato Grosso do Sul",
                 LocalName = "Mato Grosso do Sul"
             },
             new()
             { 
                 Code = "MG",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Minas Gerais",
                 LocalName = "Minas Gerais"
             },
             new()
             { 
                 Code = "PA",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Pará",
                 LocalName = "Pará"
             },
             new()
             { 
                 Code = "PB",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Paraíba",
                 LocalName = "Paraíba"
             },
             new()
             { 
                 Code = "PR",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Paraná",
                 LocalName = "Paraná"
             },
             new()
             { 
                 Code = "PE",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Pernambuco",
                 LocalName = "Pernambuco"
             },
             new()
             { 
                 Code = "PI",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Piauí",
                 LocalName = "Piauí"
             },
             new()
             { 
                 Code = "RJ",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Rio de Janeiro",
                 LocalName = "Rio de Janeiro"
             },
             new()
             { 
                 Code = "RN",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Rio Grande do Norte",
                 LocalName = "Rio Grande do Norte"
             },
             new()
             { 
                 Code = "RS",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Rio Grande do Sul",
                 LocalName = "Rio Grande do Sul"
             },
             new()
             { 
                 Code = "RO",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Rondônia",
                 LocalName = "Rondônia"
             },
             new()
             { 
                 Code = "RR",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Roraima",
                 LocalName = "Roraima"
             },
             new()
             { 
                 Code = "SC",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Santa Catarina",
                 LocalName = "Santa Catarina"
             },
             new()
             { 
                 Code = "SP",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "São Paulo",
                 LocalName = "São Paulo"
             },
             new()
             { 
                 Code = "SE",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Sergipe",
                 LocalName = "Sergipe"
             },
             new()
             { 
                 Code = "TO",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Tocantins",
                 LocalName = "Tocantins"
             }
 
-        });
+        ]);
     }
 }

@@ -5,65 +5,65 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsNE()
     {
-        AddSubdivisions("NE", new List<Subdivision>()
-        {
+        AddSubdivisions("NE",
+        [
             new()
             { 
                 Code = "1",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Agadez",
                 LocalName = "Agadez"
             },
             new()
             { 
                 Code = "2",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Diffa",
                 LocalName = "Diffa"
             },
             new()
             { 
                 Code = "3",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Dosso",
                 LocalName = "Dosso"
             },
             new()
             { 
                 Code = "4",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Maradi",
                 LocalName = "Maradi"
             },
             new()
             { 
                 Code = "8",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Niamey",
                 LocalName = "Niamey"
             },
             new()
             { 
                 Code = "5",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Tahoua",
                 LocalName = "Tahoua"
             },
             new()
             { 
                 Code = "6",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Tillabéri",
                 LocalName = "Tillabéri"
             },
             new()
             { 
                 Code = "7",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Zinder",
                 LocalName = "Zinder"
             }
 
-        });
+        ]);
     }
 }

@@ -5,100 +5,100 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsCA()
     {
-        AddSubdivisions("CA", new List<Subdivision>()
-        {
+        AddSubdivisions("CA",
+        [
             new()
             { 
                 Code = "AB",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Alberta",
                 LocalName = "Alberta"
             },
             new()
             { 
                 Code = "BC",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "British Columbia",
                 LocalName = "British Columbia"
             },
             new()
             { 
                 Code = "MB",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Manitoba",
                 LocalName = "Manitoba"
             },
             new()
             { 
                 Code = "NB",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "New Brunswick",
                 LocalName = "New Brunswick"
             },
             new()
             { 
                 Code = "NL",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Newfoundland and Labrador",
                 LocalName = "Newfoundland and Labrador"
             },
             new()
             { 
                 Code = "NT",
-                Type = "Territory",
+                Type = SubdivisionTypes.Territory,
                 Name = "Northwest Territories",
                 LocalName = "Northwest Territories"
             },
             new()
             { 
                 Code = "NS",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Nova Scotia",
                 LocalName = "Nova Scotia"
             },
             new()
             { 
                 Code = "NU",
-                Type = "Territory",
+                Type = SubdivisionTypes.Territory,
                 Name = "Nunavut",
                 LocalName = "Nunavut"
             },
             new()
             { 
                 Code = "ON",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Ontario",
                 LocalName = "Ontario"
             },
             new()
             { 
                 Code = "PE",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Prince Edward Island",
                 LocalName = "Prince Edward Island"
             },
             new()
             { 
                 Code = "QC",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Quebec",
                 LocalName = "Quebec"
             },
             new()
             { 
                 Code = "SK",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Saskatchewan",
                 LocalName = "Saskatchewan"
             },
             new()
             { 
                 Code = "YT",
-                Type = "Territory",
+                Type = SubdivisionTypes.Territory,
                 Name = "Yukon",
                 LocalName = "Yukon"
             }
 
-        });
+        ]);
     }
 }

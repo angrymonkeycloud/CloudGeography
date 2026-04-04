@@ -5,8 +5,8 @@ public partial class CloudGeographyClient
 {
     public partial class CountriesMethods
     {
-        internal static List<Country> CountriesList = new()
-        {
+        internal static List<Country> CountriesList =
+        [
             new()
             {
                 Code = "AF",
@@ -20,8 +20,8 @@ public partial class CloudGeographyClient
                 Area = 652230,
                 Latitude = 33,
                 Longitude = 65,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -42,22 +42,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "TK"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "AFN"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Afghanistan Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -72,8 +72,8 @@ public partial class CloudGeographyClient
                 Area = 1580,
                 Latitude = 60.1166687011719,
                 Longitude = 19.8999996185303,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -94,22 +94,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FI"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "FLE Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -124,8 +124,8 @@ public partial class CloudGeographyClient
                 Area = 28748,
                 Latitude = 41,
                 Longitude = 20,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -141,22 +141,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "SQ"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "ALL"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Central Europe Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -171,8 +171,8 @@ public partial class CloudGeographyClient
                 Area = 2381741,
                 Latitude = 28,
                 Longitude = 3,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -198,22 +198,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "DZD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Central Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -228,8 +228,8 @@ public partial class CloudGeographyClient
                 Area = 199,
                 Latitude = -14.3333330154419,
                 Longitude = -170,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -255,22 +255,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "TO"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "UTC-11"
                     }
-                }
+                ]
             },
             new()
             {
@@ -285,8 +285,8 @@ public partial class CloudGeographyClient
                 Area = 467.63,
                 Latitude = 42.5,
                 Longitude = 1.5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -317,22 +317,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Europe Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -347,8 +347,8 @@ public partial class CloudGeographyClient
                 Area = 1246700,
                 Latitude = -12.5,
                 Longitude = 18.5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -364,22 +364,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "PT"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "AOA"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Central Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -394,8 +394,8 @@ public partial class CloudGeographyClient
                 Area = 91,
                 Latitude = 18.25,
                 Longitude = -63.1666679382324,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -411,22 +411,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "XCD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Western Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -441,8 +441,8 @@ public partial class CloudGeographyClient
                 Area = 14000000,
                 Latitude = -74.6500015258789,
                 Longitude = 4.48000001907349,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -463,9 +463,9 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "RU"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -476,9 +476,9 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "GBP"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "New Zealand Standard Time"
@@ -511,7 +511,7 @@ public partial class CloudGeographyClient
                     {
                         Code = "Central Asia Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -526,8 +526,8 @@ public partial class CloudGeographyClient
                 Area = 442,
                 Latitude = 17.0499992370605,
                 Longitude = -61.7999992370605,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -553,22 +553,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "XCD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Western Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -583,8 +583,8 @@ public partial class CloudGeographyClient
                 Area = 2780400,
                 Latitude = -34,
                 Longitude = -64,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -615,22 +615,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "AR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "ARS"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Argentina Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -645,8 +645,8 @@ public partial class CloudGeographyClient
                 Area = 29743,
                 Latitude = 40,
                 Longitude = 45,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -672,22 +672,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "AMD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Caucasus Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -702,8 +702,8 @@ public partial class CloudGeographyClient
                 Area = 178.91,
                 Latitude = 12.5,
                 Longitude = -69.966667175293,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -724,22 +724,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "PAP"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "AWG"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Western Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -754,8 +754,8 @@ public partial class CloudGeographyClient
                 Area = 7692024,
                 Latitude = -27,
                 Longitude = 133,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -771,17 +771,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "AUD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Lord Howe Standard Time"
@@ -814,7 +814,7 @@ public partial class CloudGeographyClient
                     {
                         Code = "Aus Central W. Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -829,8 +829,8 @@ public partial class CloudGeographyClient
                 Area = 83879,
                 Latitude = 47.3333320617676,
                 Longitude = 13.3333330154419,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -846,22 +846,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "DE"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Europe Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -876,8 +876,8 @@ public partial class CloudGeographyClient
                 Area = 86600,
                 Latitude = 40.5,
                 Longitude = 47.5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -893,22 +893,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AZ"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "AZN"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Azerbaijan Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -923,8 +923,8 @@ public partial class CloudGeographyClient
                 Area = 13943,
                 Latitude = 24.25,
                 Longitude = -76,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -940,22 +940,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "BSD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Eastern Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -970,8 +970,8 @@ public partial class CloudGeographyClient
                 Area = 765.3,
                 Latitude = 26,
                 Longitude = 50.5499992370605,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -992,22 +992,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "BHD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Arab Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -1022,8 +1022,8 @@ public partial class CloudGeographyClient
                 Area = 147570,
                 Latitude = 24,
                 Longitude = 90,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -1044,22 +1044,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "BDT"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Bangladesh Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -1074,8 +1074,8 @@ public partial class CloudGeographyClient
                 Area = 439,
                 Latitude = 13.1666669845581,
                 Longitude = -59.533332824707,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -1091,22 +1091,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "BBD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Western Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -1121,8 +1121,8 @@ public partial class CloudGeographyClient
                 Area = 207595,
                 Latitude = 53,
                 Longitude = 28,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -1143,17 +1143,15 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "BE"
                     }
-                },
-                Currencies=new()
-                {
-                },
-                TimeZones=new()
-                {
+                ],
+                Currencies=[],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Belarus Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -1168,8 +1166,8 @@ public partial class CloudGeographyClient
                 Area = 30528,
                 Latitude = 50.8333320617676,
                 Longitude = 4,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -1185,22 +1183,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "DE"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Romance Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -1215,8 +1213,8 @@ public partial class CloudGeographyClient
                 Area = 22966,
                 Latitude = 17.25,
                 Longitude = -88.75,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -1237,22 +1235,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "ES"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "BZD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Central America Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -1267,8 +1265,8 @@ public partial class CloudGeographyClient
                 Area = 114763,
                 Latitude = 9.5,
                 Longitude = 2.25,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -1284,22 +1282,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "XOF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Central Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -1314,8 +1312,8 @@ public partial class CloudGeographyClient
                 Area = 53.2,
                 Latitude = 32.3333320617676,
                 Longitude = -64.75,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -1331,22 +1329,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "BMD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Atlantic Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -1361,8 +1359,8 @@ public partial class CloudGeographyClient
                 Area = 38394,
                 Latitude = 27.5,
                 Longitude = 90.5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -1383,9 +1381,9 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -1396,14 +1394,14 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "INR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Bangladesh Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -1418,8 +1416,8 @@ public partial class CloudGeographyClient
                 Area = 1098581,
                 Latitude = -17,
                 Longitude = -65,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -1445,22 +1443,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "BOB"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Western Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -1475,8 +1473,8 @@ public partial class CloudGeographyClient
                 Area = 294,
                 Latitude = 12.1499996185303,
                 Longitude = -68.2666702270508,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -1507,22 +1505,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Western Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -1537,8 +1535,8 @@ public partial class CloudGeographyClient
                 Area = 51129,
                 Latitude = 44,
                 Longitude = 18,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -1564,22 +1562,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "SR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "BAM"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Central European Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -1594,8 +1592,8 @@ public partial class CloudGeographyClient
                 Area = 581730,
                 Latitude = -22,
                 Longitude = 24,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -1616,22 +1614,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "TN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "BWP"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "South Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -1646,8 +1644,8 @@ public partial class CloudGeographyClient
                 Area = 8515767,
                 Latitude = -10,
                 Longitude = -55,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -1663,17 +1661,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "PT"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "BRL"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "UTC-02"
@@ -1706,7 +1704,7 @@ public partial class CloudGeographyClient
                     {
                         Code = "SA Pacific Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -1721,8 +1719,8 @@ public partial class CloudGeographyClient
                 Area = 60,
                 Latitude = -6,
                 Longitude = 71.5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -1738,9 +1736,9 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -1751,14 +1749,14 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "GBP"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Central Asia Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -1773,8 +1771,8 @@ public partial class CloudGeographyClient
                 Area = 153,
                 Latitude = 18.4313831329346,
                 Longitude = -64.623046875,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -1800,22 +1798,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Western Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -1830,8 +1828,8 @@ public partial class CloudGeographyClient
                 Area = 5765,
                 Latitude = 4.5,
                 Longitude = 114.666664123535,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -1857,9 +1855,9 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "AR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -1870,14 +1868,14 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "SGD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Singapore Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -1892,8 +1890,8 @@ public partial class CloudGeographyClient
                 Area = 110993.6,
                 Latitude = 43,
                 Longitude = 25,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -1919,22 +1917,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "BG"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "BGN"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "FLE Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -1949,8 +1947,8 @@ public partial class CloudGeographyClient
                 Area = 274200,
                 Latitude = 13,
                 Longitude = -2,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -1971,22 +1969,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FF"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "XOF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Greenwich Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -2001,8 +1999,8 @@ public partial class CloudGeographyClient
                 Area = 27834,
                 Latitude = -3.5,
                 Longitude = 30,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -2028,22 +2026,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "BIF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "South Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -2058,8 +2056,8 @@ public partial class CloudGeographyClient
                 Area = 4033,
                 Latitude = 16,
                 Longitude = -24,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -2080,22 +2078,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "KEA"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "CVE"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Cape Verde Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -2110,8 +2108,8 @@ public partial class CloudGeographyClient
                 Area = 181035,
                 Latitude = 13,
                 Longitude = 105,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -2137,9 +2135,9 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -2150,14 +2148,14 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "USD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SE Asia Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -2172,8 +2170,8 @@ public partial class CloudGeographyClient
                 Area = 475442,
                 Latitude = 6,
                 Longitude = 12,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -2209,22 +2207,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "DE"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "XAF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Central Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -2239,8 +2237,8 @@ public partial class CloudGeographyClient
                 Area = 9984670,
                 Latitude = 60,
                 Longitude = -95,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -2261,17 +2259,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "CAD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Newfoundland Standard Time"
@@ -2316,7 +2314,7 @@ public partial class CloudGeographyClient
                     {
                         Code = "Pacific Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -2331,8 +2329,8 @@ public partial class CloudGeographyClient
                 Area = 264,
                 Latitude = 19.5,
                 Longitude = -80.5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -2348,22 +2346,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "KYD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Pacific Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -2378,8 +2376,8 @@ public partial class CloudGeographyClient
                 Area = 622984,
                 Latitude = 7,
                 Longitude = 21,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -2400,22 +2398,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "SG"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "XAF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Central Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -2430,8 +2428,8 @@ public partial class CloudGeographyClient
                 Area = 1284000,
                 Latitude = 15,
                 Longitude = 19,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -2452,22 +2450,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "XAF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Central Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -2482,8 +2480,8 @@ public partial class CloudGeographyClient
                 Area = 756102,
                 Latitude = -30,
                 Longitude = -71,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -2499,17 +2497,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "CLP"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Pacific SA Standard Time"
@@ -2522,7 +2520,7 @@ public partial class CloudGeographyClient
                     {
                         Code = "Easter Island Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -2537,8 +2535,8 @@ public partial class CloudGeographyClient
                 Area = 9640011,
                 Latitude = 35,
                 Longitude = 105,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -2554,17 +2552,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ZH"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "CNY"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "China Standard Time"
@@ -2573,7 +2571,7 @@ public partial class CloudGeographyClient
                     {
                         Code = "Central Asia Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -2588,8 +2586,8 @@ public partial class CloudGeographyClient
                 Area = 135,
                 Latitude = -10.5,
                 Longitude = 105.666664123535,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -2605,22 +2603,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "AUD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SE Asia Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -2635,8 +2633,8 @@ public partial class CloudGeographyClient
                 Area = 14,
                 Latitude = -12.5,
                 Longitude = 96.8333358764648,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -2652,22 +2650,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "AUD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Myanmar Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -2682,8 +2680,8 @@ public partial class CloudGeographyClient
                 Area = 1141748,
                 Latitude = 4,
                 Longitude = -72,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -2699,22 +2697,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "COP"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Pacific Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -2729,8 +2727,8 @@ public partial class CloudGeographyClient
                 Area = 1862,
                 Latitude = -12.1666669845581,
                 Longitude = 44.25,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -2751,22 +2749,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "KMF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "E. Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -2781,8 +2779,8 @@ public partial class CloudGeographyClient
                 Area = 342000,
                 Latitude = -1,
                 Longitude = 15,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -2803,22 +2801,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "LN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "XAF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Central Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -2833,8 +2831,8 @@ public partial class CloudGeographyClient
                 Area = 235409,
                 Latitude = 0,
                 Longitude = 25,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -2865,17 +2863,17 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "LU"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "CDF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Central Africa Standard Time"
@@ -2884,7 +2882,7 @@ public partial class CloudGeographyClient
                     {
                         Code = "South Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -2899,8 +2897,8 @@ public partial class CloudGeographyClient
                 Area = 236,
                 Latitude = -21.233333587646484,
                 Longitude = -159.76666259765625,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -2916,9 +2914,9 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -2929,14 +2927,14 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "CKD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Hawaiian Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -2951,8 +2949,8 @@ public partial class CloudGeographyClient
                 Area = 51100,
                 Latitude = 10,
                 Longitude = -84,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -2978,22 +2976,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "CRC"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Central America Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -3008,8 +3006,8 @@ public partial class CloudGeographyClient
                 Area = 322463,
                 Latitude = 8,
                 Longitude = -5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -3025,22 +3023,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "XOF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Greenwich Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -3055,8 +3053,8 @@ public partial class CloudGeographyClient
                 Area = 56594,
                 Latitude = 45.16666793823242,
                 Longitude = 15.5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -3072,22 +3070,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "HR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "HRK"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Central European Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -3102,8 +3100,8 @@ public partial class CloudGeographyClient
                 Area = 109884,
                 Latitude = 21.5,
                 Longitude = -80,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -3119,9 +3117,9 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -3132,14 +3130,14 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "CUP"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Cuba Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -3154,8 +3152,8 @@ public partial class CloudGeographyClient
                 Area = 444,
                 Latitude = 12.116666793823242,
                 Longitude = -68.93333435058594,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -3191,22 +3189,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "ANG"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Western Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -3221,8 +3219,8 @@ public partial class CloudGeographyClient
                 Area = 9251,
                 Latitude = 35,
                 Longitude = 33,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -3248,22 +3246,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "HY"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "GTB Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -3278,8 +3276,8 @@ public partial class CloudGeographyClient
                 Area = 78865,
                 Latitude = 49.75,
                 Longitude = 15.5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -3300,22 +3298,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "SK"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "CZK"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Central Europe Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -3330,8 +3328,8 @@ public partial class CloudGeographyClient
                 Area = 43094,
                 Latitude = 56,
                 Longitude = 10,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -3347,22 +3345,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "DA"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "DKK"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Romance Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -3377,8 +3375,8 @@ public partial class CloudGeographyClient
                 Area = 23200,
                 Latitude = 11.5,
                 Longitude = 43,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -3399,22 +3397,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "AR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "DJF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "E. Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -3429,8 +3427,8 @@ public partial class CloudGeographyClient
                 Area = 751,
                 Latitude = 15.416666984558105,
                 Longitude = -61.33333206176758,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -3446,22 +3444,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "XCD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Western Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -3476,8 +3474,8 @@ public partial class CloudGeographyClient
                 Area = 48671,
                 Latitude = 19,
                 Longitude = -70.66666412353516,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -3493,22 +3491,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "DOP"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Western Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -3523,8 +3521,8 @@ public partial class CloudGeographyClient
                 Area = 276841,
                 Latitude = -2,
                 Longitude = -77.5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -3540,17 +3538,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Pacific Standard Time"
@@ -3559,7 +3557,7 @@ public partial class CloudGeographyClient
                     {
                         Code = "Central America Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -3574,8 +3572,8 @@ public partial class CloudGeographyClient
                 Area = 1002450,
                 Latitude = 27,
                 Longitude = 30,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -3591,22 +3589,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EGP"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Egypt Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -3621,8 +3619,8 @@ public partial class CloudGeographyClient
                 Area = 21041,
                 Latitude = 13.833333015441895,
                 Longitude = -88.91666412353516,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -3638,22 +3636,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Central America Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -3668,8 +3666,8 @@ public partial class CloudGeographyClient
                 Area = 28051,
                 Latitude = 2,
                 Longitude = 10,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -3690,22 +3688,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "XAF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Central Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -3720,8 +3718,8 @@ public partial class CloudGeographyClient
                 Area = 117600,
                 Latitude = 15,
                 Longitude = 39,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -3747,22 +3745,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "ERN"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "E. Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -3777,8 +3775,8 @@ public partial class CloudGeographyClient
                 Area = 45227,
                 Latitude = 59,
                 Longitude = 26,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -3794,22 +3792,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ET"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "FLE Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -3824,8 +3822,8 @@ public partial class CloudGeographyClient
                 Area = 1104300,
                 Latitude = 8,
                 Longitude = 38,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -3841,22 +3839,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AM"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "ETB"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "E. Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -3871,8 +3869,8 @@ public partial class CloudGeographyClient
                 Area = 12200,
                 Latitude = -51.75,
                 Longitude = -59,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -3888,22 +3886,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "FKP"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Eastern Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -3918,8 +3916,8 @@ public partial class CloudGeographyClient
                 Area = 1393,
                 Latitude = 62,
                 Longitude = -7,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -3935,9 +3933,9 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FO"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -3948,14 +3946,14 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FOK"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "GMT Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -3970,8 +3968,8 @@ public partial class CloudGeographyClient
                 Area = 18272,
                 Latitude = -18,
                 Longitude = 175,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -4007,22 +4005,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "UR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "FJD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Fiji Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -4037,8 +4035,8 @@ public partial class CloudGeographyClient
                 Area = 338424,
                 Latitude = 64,
                 Longitude = 26,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -4059,22 +4057,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "SV"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "FLE Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -4089,8 +4087,8 @@ public partial class CloudGeographyClient
                 Area = 640679,
                 Latitude = 46,
                 Longitude = 2,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -4106,22 +4104,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Romance Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -4136,8 +4134,8 @@ public partial class CloudGeographyClient
                 Area = 0,
                 Latitude = 4,
                 Longitude = -53,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -4153,22 +4151,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Eastern Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -4183,8 +4181,8 @@ public partial class CloudGeographyClient
                 Area = 4167,
                 Latitude = -15,
                 Longitude = -140,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -4200,17 +4198,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "XPF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Hawaiian Standard Time"
@@ -4223,7 +4221,7 @@ public partial class CloudGeographyClient
                     {
                         Code = "UTC-09"
                     }
-                }
+                ]
             },
             new()
             {
@@ -4238,8 +4236,8 @@ public partial class CloudGeographyClient
                 Area = 267668,
                 Latitude = -1,
                 Longitude = 11.75,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -4255,22 +4253,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "XAF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Central Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -4285,8 +4283,8 @@ public partial class CloudGeographyClient
                 Area = 11295,
                 Latitude = 13.466666221618652,
                 Longitude = -16.566667556762695,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -4302,22 +4300,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "GMD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Greenwich Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -4332,8 +4330,8 @@ public partial class CloudGeographyClient
                 Area = 69700,
                 Latitude = 42,
                 Longitude = 43.5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -4349,22 +4347,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "KA"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "GEL"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Georgian Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -4379,8 +4377,8 @@ public partial class CloudGeographyClient
                 Area = 357168,
                 Latitude = 51,
                 Longitude = 9,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -4396,22 +4394,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "DE"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Europe Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -4426,8 +4424,8 @@ public partial class CloudGeographyClient
                 Area = 238533,
                 Latitude = 8,
                 Longitude = -2,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -4443,22 +4441,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "GHS"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Greenwich Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -4473,8 +4471,8 @@ public partial class CloudGeographyClient
                 Area = 6,
                 Latitude = 36.13333511352539,
                 Longitude = -5.349999904632568,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -4490,22 +4488,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "GIP"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Europe Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -4520,8 +4518,8 @@ public partial class CloudGeographyClient
                 Area = 131990,
                 Latitude = 39,
                 Longitude = 22,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -4537,22 +4535,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EL"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "GTB Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -4567,8 +4565,8 @@ public partial class CloudGeographyClient
                 Area = 2166086,
                 Latitude = 72,
                 Longitude = -40,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -4584,17 +4582,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "KL"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "DKK"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Greenland Standard Time"
@@ -4611,7 +4609,7 @@ public partial class CloudGeographyClient
                     {
                         Code = "Atlantic Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -4626,8 +4624,8 @@ public partial class CloudGeographyClient
                 Area = 344,
                 Latitude = 12.116666793823242,
                 Longitude = -61.66666793823242,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -4643,22 +4641,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "XCD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Western Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -4673,8 +4671,8 @@ public partial class CloudGeographyClient
                 Area = 0,
                 Latitude = 16.25,
                 Longitude = -61.58333206176758,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -4690,22 +4688,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Western Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -4720,8 +4718,8 @@ public partial class CloudGeographyClient
                 Area = 549,
                 Latitude = 13.466666221618652,
                 Longitude = 144.78334045410156,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -4742,22 +4740,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "ES"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "West Pacific Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -4772,8 +4770,8 @@ public partial class CloudGeographyClient
                 Area = 108889,
                 Latitude = 15.5,
                 Longitude = -90.25,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -4789,22 +4787,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "GTQ"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Central America Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -4819,8 +4817,8 @@ public partial class CloudGeographyClient
                 Area = 78,
                 Latitude = 49.46666717529297,
                 Longitude = -2.5833332538604736,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -4841,9 +4839,9 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -4854,14 +4852,14 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FOK"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "GMT Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -4876,8 +4874,8 @@ public partial class CloudGeographyClient
                 Area = 245857,
                 Latitude = 11,
                 Longitude = -10,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -4908,22 +4906,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FF"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "GNF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Greenwich Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -4938,8 +4936,8 @@ public partial class CloudGeographyClient
                 Area = 36125,
                 Latitude = 12,
                 Longitude = -15,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -4955,22 +4953,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "PT"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "XOF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Greenwich Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -4985,8 +4983,8 @@ public partial class CloudGeographyClient
                 Area = 214969,
                 Latitude = 5,
                 Longitude = -59,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -5002,22 +5000,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "GYD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Western Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -5032,8 +5030,8 @@ public partial class CloudGeographyClient
                 Area = 27750,
                 Latitude = 19,
                 Longitude = -72.41666412353516,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -5049,22 +5047,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "HTG"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Haiti Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -5079,8 +5077,8 @@ public partial class CloudGeographyClient
                 Area = 0.4399999976158142,
                 Latitude = 41.900001525878906,
                 Longitude = 12.449999809265137,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -5111,22 +5109,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "DE"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Europe Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -5141,8 +5139,8 @@ public partial class CloudGeographyClient
                 Area = 112492,
                 Latitude = 15,
                 Longitude = -86.5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -5158,22 +5156,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "HNL"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Central America Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -5188,8 +5186,8 @@ public partial class CloudGeographyClient
                 Area = 1104,
                 Latitude = 22.25,
                 Longitude = 114.16666412353516,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -5210,22 +5208,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "ZH"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "HKD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "China Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -5240,8 +5238,8 @@ public partial class CloudGeographyClient
                 Area = 93028,
                 Latitude = 47,
                 Longitude = 20,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -5257,22 +5255,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "HU"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "HUF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Central Europe Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -5287,8 +5285,8 @@ public partial class CloudGeographyClient
                 Area = 103000,
                 Latitude = 65,
                 Longitude = -18,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -5304,22 +5302,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "IS"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "ISK"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Greenwich Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -5334,8 +5332,8 @@ public partial class CloudGeographyClient
                 Area = 3287590,
                 Latitude = 20,
                 Longitude = 77,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -5356,22 +5354,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "INR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "India Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -5386,8 +5384,8 @@ public partial class CloudGeographyClient
                 Area = 1904569,
                 Latitude = -5,
                 Longitude = 120,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -5403,17 +5401,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ID"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "IDR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SE Asia Standard Time"
@@ -5426,7 +5424,7 @@ public partial class CloudGeographyClient
                     {
                         Code = "Tokyo Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -5441,8 +5439,8 @@ public partial class CloudGeographyClient
                 Area = 1648195,
                 Latitude = 32,
                 Longitude = 53,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -5458,22 +5456,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FA"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "IRR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Iran Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -5488,8 +5486,8 @@ public partial class CloudGeographyClient
                 Area = 438317,
                 Latitude = 33,
                 Longitude = 44,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -5510,22 +5508,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "KU"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "IQD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Arabic Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -5540,8 +5538,8 @@ public partial class CloudGeographyClient
                 Area = 70273,
                 Latitude = 53,
                 Longitude = -8,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -5562,22 +5560,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "GMT Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -5592,8 +5590,8 @@ public partial class CloudGeographyClient
                 Area = 572,
                 Latitude = 54.25,
                 Longitude = -4.5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -5614,9 +5612,9 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "GV"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -5627,14 +5625,14 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "IMP"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "GMT Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -5649,8 +5647,8 @@ public partial class CloudGeographyClient
                 Area = 20770,
                 Latitude = 31.5,
                 Longitude = 34.75,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -5671,22 +5669,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "AR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "ILS"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "West Bank Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -5701,8 +5699,8 @@ public partial class CloudGeographyClient
                 Area = 301336,
                 Latitude = 42.83333206176758,
                 Longitude = 12.833333015441895,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -5718,22 +5716,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "IT"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Europe Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -5748,8 +5746,8 @@ public partial class CloudGeographyClient
                 Area = 10991,
                 Latitude = 18.25,
                 Longitude = -77.5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -5765,22 +5763,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "JMD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Pacific Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -5795,8 +5793,8 @@ public partial class CloudGeographyClient
                 Area = 377962,
                 Latitude = 36,
                 Longitude = 138,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -5812,22 +5810,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "JA"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "JPY"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Tokyo Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -5842,8 +5840,8 @@ public partial class CloudGeographyClient
                 Area = 116,
                 Latitude = 49.25,
                 Longitude = -2.1666667461395264,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -5864,9 +5862,9 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -5877,14 +5875,14 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "JEP"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "GMT Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -5899,8 +5897,8 @@ public partial class CloudGeographyClient
                 Area = 89342,
                 Latitude = 31,
                 Longitude = 36,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -5926,22 +5924,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "JOD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Jordan Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -5956,8 +5954,8 @@ public partial class CloudGeographyClient
                 Area = 2724900,
                 Latitude = 48,
                 Longitude = 68,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -5978,17 +5976,17 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "RU"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "KZT"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Central Asia Standard Time"
@@ -6001,7 +5999,7 @@ public partial class CloudGeographyClient
                     {
                         Code = "West Asia Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -6016,8 +6014,8 @@ public partial class CloudGeographyClient
                 Area = 580367,
                 Latitude = 1,
                 Longitude = 38,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -6038,22 +6036,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "SW"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "KES"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "E. Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -6068,8 +6066,8 @@ public partial class CloudGeographyClient
                 Area = 811,
                 Latitude = 1.4166666269302368,
                 Longitude = 173,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -6085,9 +6083,9 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -6098,9 +6096,9 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FOK"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "UTC+12"
@@ -6113,7 +6111,7 @@ public partial class CloudGeographyClient
                     {
                         Code = "Line Islands Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -6128,8 +6126,8 @@ public partial class CloudGeographyClient
                 Area = 17818,
                 Latitude = 29.5,
                 Longitude = 45.75,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -6155,22 +6153,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "KWD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Arab Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -6185,8 +6183,8 @@ public partial class CloudGeographyClient
                 Area = 199951,
                 Latitude = 41,
                 Longitude = 75,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -6207,22 +6205,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "RU"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "KGS"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Central Asia Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -6237,8 +6235,8 @@ public partial class CloudGeographyClient
                 Area = 236800,
                 Latitude = 18,
                 Longitude = 105,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -6254,22 +6252,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "LO"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "LAK"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SE Asia Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -6284,8 +6282,8 @@ public partial class CloudGeographyClient
                 Area = 64559,
                 Latitude = 57,
                 Longitude = 25,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -6301,22 +6299,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "LV"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "FLE Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -6331,8 +6329,8 @@ public partial class CloudGeographyClient
                 Area = 10452,
                 Latitude = 33.83333206176758,
                 Longitude = 35.83333206176758,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -6353,22 +6351,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "LBP"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Middle East Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -6383,8 +6381,8 @@ public partial class CloudGeographyClient
                 Area = 30355,
                 Latitude = -29.5,
                 Longitude = 28.5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -6405,9 +6403,9 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "ST"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -6418,14 +6416,14 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "ZAR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "South Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -6440,8 +6438,8 @@ public partial class CloudGeographyClient
                 Area = 111369,
                 Latitude = 6.5,
                 Longitude = -9.5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -6467,22 +6465,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "LRD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Greenwich Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -6497,8 +6495,8 @@ public partial class CloudGeographyClient
                 Area = 1759540,
                 Latitude = 25,
                 Longitude = 17,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -6514,22 +6512,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "LYD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Libya Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -6544,8 +6542,8 @@ public partial class CloudGeographyClient
                 Area = 160,
                 Latitude = 47.266666412353516,
                 Longitude = 9.533333778381348,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -6561,22 +6559,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "DE"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "CHF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Europe Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -6591,8 +6589,8 @@ public partial class CloudGeographyClient
                 Area = 65300,
                 Latitude = 56,
                 Longitude = 24,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -6608,22 +6606,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "LT"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "FLE Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -6638,8 +6636,8 @@ public partial class CloudGeographyClient
                 Area = 2586,
                 Latitude = 49.75,
                 Longitude = 6.166666507720947,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -6665,22 +6663,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "DE"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Europe Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -6695,8 +6693,8 @@ public partial class CloudGeographyClient
                 Area = 30,
                 Latitude = 22.16666603088379,
                 Longitude = 113.55000305175781,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -6717,22 +6715,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "PT"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "MOP"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "China Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -6747,8 +6745,8 @@ public partial class CloudGeographyClient
                 Area = 25713,
                 Latitude = 41.8333320617676,
                 Longitude = 22,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -6764,22 +6762,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "MK"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "MKD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Central European Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -6794,8 +6792,8 @@ public partial class CloudGeographyClient
                 Area = 587041,
                 Latitude = -20,
                 Longitude = 47,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -6816,22 +6814,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "MG"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "MGA"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "E. Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -6846,8 +6844,8 @@ public partial class CloudGeographyClient
                 Area = 118484,
                 Latitude = -13.5,
                 Longitude = 34,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -6863,22 +6861,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "MWK"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "South Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -6893,8 +6891,8 @@ public partial class CloudGeographyClient
                 Area = 330803,
                 Latitude = 2.5,
                 Longitude = 112.5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -6905,22 +6903,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "MWK"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "MYR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Singapore Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -6935,8 +6933,8 @@ public partial class CloudGeographyClient
                 Area = 300,
                 Latitude = 3.25,
                 Longitude = 73,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -6952,22 +6950,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "DV"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "MVR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "West Asia Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -6982,8 +6980,8 @@ public partial class CloudGeographyClient
                 Area = 1240192,
                 Latitude = 17,
                 Longitude = -4,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -6999,22 +6997,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "XOF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Greenwich Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -7029,8 +7027,8 @@ public partial class CloudGeographyClient
                 Area = 316,
                 Latitude = 35.83333206176758,
                 Longitude = 14.583333015441895,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -7051,22 +7049,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Europe Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -7081,8 +7079,8 @@ public partial class CloudGeographyClient
                 Area = 181,
                 Latitude = 9,
                 Longitude = 168,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -7098,22 +7096,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "UTC+12"
                     }
-                }
+                ]
             },
             new()
             {
@@ -7128,8 +7126,8 @@ public partial class CloudGeographyClient
                 Area = 0,
                 Latitude = 14.666666984558105,
                 Longitude = -61,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -7145,22 +7143,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Western Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -7175,8 +7173,8 @@ public partial class CloudGeographyClient
                 Area = 1030700,
                 Latitude = 20,
                 Longitude = -12,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -7192,22 +7190,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "MRO"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Greenwich Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -7222,8 +7220,8 @@ public partial class CloudGeographyClient
                 Area = 2040,
                 Latitude = -20.28333282470703,
                 Longitude = 57.54999923706055,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -7239,22 +7237,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "MUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Mauritius Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -7269,8 +7267,8 @@ public partial class CloudGeographyClient
                 Area = 0,
                 Latitude = -12.833333015441895,
                 Longitude = 45.16666793823242,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -7286,22 +7284,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "E. Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -7316,8 +7314,8 @@ public partial class CloudGeographyClient
                 Area = 1964375,
                 Latitude = 23,
                 Longitude = -102,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -7333,17 +7331,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "MXN"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Central Standard Time (Mexico)"
@@ -7372,7 +7370,7 @@ public partial class CloudGeographyClient
                     {
                         Code = "Pacific Standard Time (Mexico)"
                     }
-                }
+                ]
             },
             new()
             {
@@ -7387,8 +7385,8 @@ public partial class CloudGeographyClient
                 Area = 702,
                 Latitude = 6.91666650772095,
                 Longitude = 158.25,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -7404,17 +7402,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "West Pacific Standard Time"
@@ -7423,7 +7421,7 @@ public partial class CloudGeographyClient
                     {
                         Code = "Central Pacific Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -7438,8 +7436,8 @@ public partial class CloudGeographyClient
                 Area = 33846,
                 Latitude = 47,
                 Longitude = 29,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -7455,22 +7453,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "RO"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "MDL"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "E. Europe Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -7485,8 +7483,8 @@ public partial class CloudGeographyClient
                 Area = 2.0199999809265137,
                 Latitude = 43.733333587646484,
                 Longitude = 7.400000095367432,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -7502,22 +7500,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Europe Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -7532,8 +7530,8 @@ public partial class CloudGeographyClient
                 Area = 1564110,
                 Latitude = 46,
                 Longitude = 105,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -7549,17 +7547,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "MN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "MNT"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Ulaanbaatar Standard Time"
@@ -7568,7 +7566,7 @@ public partial class CloudGeographyClient
                     {
                         Code = "W. Mongolia Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -7583,8 +7581,8 @@ public partial class CloudGeographyClient
                 Area = 13812,
                 Latitude = 42.5,
                 Longitude = 19.299999237060547,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -7615,22 +7613,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "HR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Central Europe Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -7645,8 +7643,8 @@ public partial class CloudGeographyClient
                 Area = 102,
                 Latitude = 16.75,
                 Longitude = -62.20000076293945,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -7662,22 +7660,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "XCD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Western Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -7692,8 +7690,8 @@ public partial class CloudGeographyClient
                 Area = 446550,
                 Latitude = 32,
                 Longitude = -5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -7709,22 +7707,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "MAD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Morocco Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -7739,8 +7737,8 @@ public partial class CloudGeographyClient
                 Area = 801590,
                 Latitude = -18.25,
                 Longitude = 35,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -7756,22 +7754,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "PT"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "MZN"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "South Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -7786,8 +7784,8 @@ public partial class CloudGeographyClient
                 Area = 676578,
                 Latitude = 22,
                 Longitude = 98,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -7803,22 +7801,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "MY"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "MMK"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Myanmar Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -7833,8 +7831,8 @@ public partial class CloudGeographyClient
                 Area = 825615,
                 Latitude = -22,
                 Longitude = 17,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -7855,9 +7853,9 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "AF"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -7868,14 +7866,14 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "ZAR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Namibia Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -7890,8 +7888,8 @@ public partial class CloudGeographyClient
                 Area = 21,
                 Latitude = -0.5333333015441895,
                 Longitude = 166.9166717529297,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -7917,9 +7915,9 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -7930,14 +7928,14 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FOK"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "UTC+12"
                     }
-                }
+                ]
             },
             new()
             {
@@ -7952,8 +7950,8 @@ public partial class CloudGeographyClient
                 Area = 147181,
                 Latitude = 28,
                 Longitude = 84,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -7979,22 +7977,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "NE"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "NPR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Nepal Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -8009,8 +8007,8 @@ public partial class CloudGeographyClient
                 Area = 41850,
                 Latitude = 52.5,
                 Longitude = 5.75,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -8026,22 +8024,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "NL"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Europe Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -8056,8 +8054,8 @@ public partial class CloudGeographyClient
                 Area = 18575,
                 Latitude = -21.5,
                 Longitude = 165.5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -8073,22 +8071,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "XPF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Central Pacific Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -8103,8 +8101,8 @@ public partial class CloudGeographyClient
                 Area = 270467,
                 Latitude = -41,
                 Longitude = 174,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -8125,17 +8123,17 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "MI"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "NZD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "New Zealand Standard Time"
@@ -8144,7 +8142,7 @@ public partial class CloudGeographyClient
                     {
                         Code = "Chatham Islands Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -8159,8 +8157,8 @@ public partial class CloudGeographyClient
                 Area = 130373,
                 Latitude = 13,
                 Longitude = -85,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -8176,22 +8174,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "NIO"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Central America Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -8206,8 +8204,8 @@ public partial class CloudGeographyClient
                 Area = 1267000,
                 Latitude = 16,
                 Longitude = 8,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -8223,22 +8221,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "XOF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Central Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -8253,8 +8251,8 @@ public partial class CloudGeographyClient
                 Area = 923768,
                 Latitude = 10,
                 Longitude = 8,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -8270,22 +8268,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "NGN"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Central Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -8300,8 +8298,8 @@ public partial class CloudGeographyClient
                 Area = 260,
                 Latitude = -19.03333282470703,
                 Longitude = -169.86666870117188,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -8317,9 +8315,9 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -8330,14 +8328,14 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FOK"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "UTC-11"
                     }
-                }
+                ]
             },
             new()
             {
@@ -8352,8 +8350,8 @@ public partial class CloudGeographyClient
                 Area = 36,
                 Latitude = -29.03333282470703,
                 Longitude = 167.9499969482422,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -8379,22 +8377,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "AUD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Norfolk Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -8409,8 +8407,8 @@ public partial class CloudGeographyClient
                 Area = 120540,
                 Latitude = 40,
                 Longitude = 127,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -8426,22 +8424,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "KO"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "KPW"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "North Korea Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -8456,8 +8454,8 @@ public partial class CloudGeographyClient
                 Area = 464,
                 Latitude = 15.199999809265137,
                 Longitude = 145.75,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -8473,22 +8471,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "West Pacific Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -8503,8 +8501,8 @@ public partial class CloudGeographyClient
                 Area = 323802,
                 Latitude = 62,
                 Longitude = 10,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -8525,22 +8523,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "NN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "NOK"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Europe Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -8555,8 +8553,8 @@ public partial class CloudGeographyClient
                 Area = 309500,
                 Latitude = 21,
                 Longitude = 57,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -8572,22 +8570,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "OMR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Arabian Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -8602,8 +8600,8 @@ public partial class CloudGeographyClient
                 Area = 881912,
                 Latitude = 30,
                 Longitude = 70,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -8624,22 +8622,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "UR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "PKR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Pakistan Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -8654,8 +8652,8 @@ public partial class CloudGeographyClient
                 Area = 459,
                 Latitude = 7.5,
                 Longitude = 134.5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -8671,9 +8669,9 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -8684,14 +8682,14 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "USD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Tokyo Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -8706,8 +8704,8 @@ public partial class CloudGeographyClient
                 Area = 0,
                 Latitude = 31.899999618530273,
                 Longitude = 35.20000076293945,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -8733,22 +8731,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "ILS"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "West Bank Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -8763,8 +8761,8 @@ public partial class CloudGeographyClient
                 Area = 75417,
                 Latitude = 9,
                 Longitude = -80,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -8780,9 +8778,9 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -8793,14 +8791,14 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "USD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Pacific Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -8815,8 +8813,8 @@ public partial class CloudGeographyClient
                 Area = 462840,
                 Latitude = -6,
                 Longitude = 147,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -8842,17 +8840,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "PGK"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "West Pacific Standard Time"
@@ -8861,7 +8859,7 @@ public partial class CloudGeographyClient
                     {
                         Code = "Bougainville Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -8876,8 +8874,8 @@ public partial class CloudGeographyClient
                 Area = 406752,
                 Latitude = -23,
                 Longitude = -58,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -8898,22 +8896,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "GN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "PYG"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Paraguay Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -8928,8 +8926,8 @@ public partial class CloudGeographyClient
                 Area = 1285216,
                 Latitude = -10,
                 Longitude = -76,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -8945,22 +8943,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "PEN"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Pacific Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -8975,8 +8973,8 @@ public partial class CloudGeographyClient
                 Area = 342353,
                 Latitude = 13,
                 Longitude = 122,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -8992,22 +8990,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "PHP"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Singapore Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -9022,8 +9020,8 @@ public partial class CloudGeographyClient
                 Area = 47,
                 Latitude = -25.066667556762695,
                 Longitude = -130.10000610351562,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -9039,22 +9037,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "NZD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "UTC-08"
                     }
-                }
+                ]
             },
             new()
             {
@@ -9069,8 +9067,8 @@ public partial class CloudGeographyClient
                 Area = 312679,
                 Latitude = 52,
                 Longitude = 20,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -9086,22 +9084,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "PL"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "PLN"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Central European Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -9116,8 +9114,8 @@ public partial class CloudGeographyClient
                 Area = 92090,
                 Latitude = 39.5,
                 Longitude = -8,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -9133,17 +9131,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "PT"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "GMT Standard Time"
@@ -9152,7 +9150,7 @@ public partial class CloudGeographyClient
                     {
                         Code = "Azores Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -9167,8 +9165,8 @@ public partial class CloudGeographyClient
                 Area = 8870,
                 Latitude = 18.25,
                 Longitude = -66.5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -9189,22 +9187,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Western Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -9219,8 +9217,8 @@ public partial class CloudGeographyClient
                 Area = 11586,
                 Latitude = 25.5,
                 Longitude = 51.25,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -9236,22 +9234,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "QAR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Arab Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -9266,8 +9264,8 @@ public partial class CloudGeographyClient
                 Area = 10908,
                 Latitude = 42.66666793823242,
                 Longitude = 21.166667938232422,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -9288,18 +9286,16 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "SR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
-                }
+                ],
+                TimeZones=[]
             },
             new()
             {
@@ -9314,8 +9310,8 @@ public partial class CloudGeographyClient
                 Area = 0,
                 Latitude = -21.149999618530273,
                 Longitude = 55.5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -9331,22 +9327,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Mauritius Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -9361,8 +9357,8 @@ public partial class CloudGeographyClient
                 Area = 238391,
                 Latitude = 46,
                 Longitude = 25,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -9378,22 +9374,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "RO"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "RON"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "GTB Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -9408,8 +9404,8 @@ public partial class CloudGeographyClient
                 Area = 17124442,
                 Latitude = 60,
                 Longitude = 100,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -9425,17 +9421,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "RU"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "RUB"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Kaliningrad Standard Time"
@@ -9516,7 +9512,7 @@ public partial class CloudGeographyClient
                     {
                         Code = "Russia Time Zone 11"
                     }
-                }
+                ]
             },
             new()
             {
@@ -9531,8 +9527,8 @@ public partial class CloudGeographyClient
                 Area = 26338,
                 Latitude = -2,
                 Longitude = 30,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -9558,22 +9554,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "RWF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "South Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -9588,8 +9584,8 @@ public partial class CloudGeographyClient
                 Area = 21,
                 Latitude = 18.5,
                 Longitude = -63.41666793823242,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -9605,22 +9601,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Western Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -9635,8 +9631,8 @@ public partial class CloudGeographyClient
                 Area = 0,
                 Latitude = -15.949999809265137,
                 Longitude = -5.699999809265137,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -9652,22 +9648,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "SHP"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Greenwich Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -9682,8 +9678,8 @@ public partial class CloudGeographyClient
                 Area = 261,
                 Latitude = 17.33333396911621,
                 Longitude = -62.75,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -9699,22 +9695,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "XCD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Western Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -9729,8 +9725,8 @@ public partial class CloudGeographyClient
                 Area = 616,
                 Latitude = 13.883333206176758,
                 Longitude = -60.96666717529297,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -9746,22 +9742,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "XCD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Western Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -9776,8 +9772,8 @@ public partial class CloudGeographyClient
                 Area = 53,
                 Latitude = 18.08333396911621,
                 Longitude = -63.95000076293945,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -9803,22 +9799,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "NL"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Western Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -9833,8 +9829,8 @@ public partial class CloudGeographyClient
                 Area = 242,
                 Latitude = 46.83333206176758,
                 Longitude = -56.33333206176758,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -9850,22 +9846,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Saint Pierre Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -9880,8 +9876,8 @@ public partial class CloudGeographyClient
                 Area = 389,
                 Latitude = 13.25,
                 Longitude = -61.20000076293945,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -9897,22 +9893,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "XCD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Western Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -9927,8 +9923,8 @@ public partial class CloudGeographyClient
                 Area = 2842,
                 Latitude = -13.583333015441895,
                 Longitude = -172.3333282470703,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -9944,22 +9940,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "WST"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Samoa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -9974,8 +9970,8 @@ public partial class CloudGeographyClient
                 Area = 61,
                 Latitude = 43.766666412353516,
                 Longitude = 12.416666984558105,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -9991,22 +9987,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "IT"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Europe Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -10021,8 +10017,8 @@ public partial class CloudGeographyClient
                 Area = 964,
                 Latitude = 1,
                 Longitude = 7,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -10038,22 +10034,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "PT"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "STN"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Sao Tome Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -10068,8 +10064,8 @@ public partial class CloudGeographyClient
                 Area = 2149690,
                 Latitude = 25,
                 Longitude = 45,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -10085,22 +10081,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "SAR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Arab Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -10115,8 +10111,8 @@ public partial class CloudGeographyClient
                 Area = 196722,
                 Latitude = 14,
                 Longitude = -14,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -10132,22 +10128,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "XOF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Greenwich Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -10162,8 +10158,8 @@ public partial class CloudGeographyClient
                 Area = 88361,
                 Latitude = 44,
                 Longitude = 21,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -10179,22 +10175,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "SR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "RSD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Central Europe Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -10209,8 +10205,8 @@ public partial class CloudGeographyClient
                 Area = 452,
                 Latitude = -4.583333492279053,
                 Longitude = 55.66666793823242,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -10231,22 +10227,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "SCR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Mauritius Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -10261,8 +10257,8 @@ public partial class CloudGeographyClient
                 Area = 71740,
                 Latitude = 8.5,
                 Longitude = -11.5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -10278,22 +10274,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "SLL"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Greenwich Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -10308,8 +10304,8 @@ public partial class CloudGeographyClient
                 Area = 710,
                 Latitude = 1.3666666746139526,
                 Longitude = 103.80000305175781,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -10340,9 +10336,9 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "ZH"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -10353,14 +10349,14 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "SGD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Singapore Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -10375,8 +10371,8 @@ public partial class CloudGeographyClient
                 Area = 34,
                 Latitude = 18.03333282470703,
                 Longitude = -63.04999923706055,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -10407,22 +10403,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "ANG"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Western Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -10437,8 +10433,8 @@ public partial class CloudGeographyClient
                 Area = 49037,
                 Latitude = 48.66666793823242,
                 Longitude = 19.5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -10454,22 +10450,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "SK"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Central Europe Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -10484,8 +10480,8 @@ public partial class CloudGeographyClient
                 Area = 20273,
                 Latitude = 46.11666488647461,
                 Longitude = 14.816666603088379,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -10501,22 +10497,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "SL"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Central Europe Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -10531,8 +10527,8 @@ public partial class CloudGeographyClient
                 Area = 28896,
                 Latitude = -8,
                 Longitude = 159,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -10548,22 +10544,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "SBD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Central Pacific Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -10578,8 +10574,8 @@ public partial class CloudGeographyClient
                 Area = 637657,
                 Latitude = 10,
                 Longitude = 49,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -10600,22 +10596,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "AR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "SOS"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "E. Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -10630,8 +10626,8 @@ public partial class CloudGeographyClient
                 Area = 1221037,
                 Latitude = -29,
                 Longitude = 24,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -10692,22 +10688,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "ZU"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "ZAR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "South Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -10722,8 +10718,8 @@ public partial class CloudGeographyClient
                 Area = 0,
                 Latitude = -54.5,
                 Longitude = -37,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -10739,9 +10735,9 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -10752,14 +10748,14 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FOK"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "UTC-02"
                     }
-                }
+                ]
             },
             new()
             {
@@ -10774,8 +10770,8 @@ public partial class CloudGeographyClient
                 Area = 100210,
                 Latitude = 37,
                 Longitude = 127.5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -10801,22 +10797,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "KO"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "KRW"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Korea Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -10831,8 +10827,8 @@ public partial class CloudGeographyClient
                 Area = 619745,
                 Latitude = 7,
                 Longitude = 30,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -10848,22 +10844,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "SSP"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "South Sudan Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -10878,8 +10874,8 @@ public partial class CloudGeographyClient
                 Area = 505992,
                 Latitude = 40,
                 Longitude = -4,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -10895,17 +10891,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "EUR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Romance Standard Time"
@@ -10914,7 +10910,7 @@ public partial class CloudGeographyClient
                     {
                         Code = "GMT Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -10929,8 +10925,8 @@ public partial class CloudGeographyClient
                 Area = 65610,
                 Latitude = 7,
                 Longitude = 81,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -10951,22 +10947,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "TA"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "LKR"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Sri Lanka Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -10981,8 +10977,8 @@ public partial class CloudGeographyClient
                 Area = 1886068,
                 Latitude = 15,
                 Longitude = 30,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -11003,22 +10999,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "SDG"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Sudan Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -11033,8 +11029,8 @@ public partial class CloudGeographyClient
                 Area = 163820,
                 Latitude = 4,
                 Longitude = -56,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -11050,22 +11046,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "NL"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "SRD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Eastern Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -11080,8 +11076,8 @@ public partial class CloudGeographyClient
                 Area = 0,
                 Latitude = 78,
                 Longitude = 20,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -11092,22 +11088,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "SRD"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "NOK"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Europe Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -11122,8 +11118,8 @@ public partial class CloudGeographyClient
                 Area = 17364,
                 Latitude = -26.5,
                 Longitude = 31.5,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -11144,22 +11140,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "SS"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "SZL"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "South Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -11174,8 +11170,8 @@ public partial class CloudGeographyClient
                 Area = 450295,
                 Latitude = 62,
                 Longitude = 15,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -11191,22 +11187,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "SV"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "SEK"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Europe Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -11221,8 +11217,8 @@ public partial class CloudGeographyClient
                 Area = 41284,
                 Latitude = 47,
                 Longitude = 8,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -11253,22 +11249,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "RM"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "CHF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Europe Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -11283,8 +11279,8 @@ public partial class CloudGeographyClient
                 Area = 185180,
                 Latitude = 35,
                 Longitude = 38,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -11300,22 +11296,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "SYP"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Syria Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -11330,8 +11326,8 @@ public partial class CloudGeographyClient
                 Area = 36193,
                 Latitude = 23.5,
                 Longitude = 121,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -11347,22 +11343,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ZH"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "TWD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Taipei Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -11377,8 +11373,8 @@ public partial class CloudGeographyClient
                 Area = 143100,
                 Latitude = 39,
                 Longitude = 71,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -11399,22 +11395,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "RU"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "TJS"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "West Asia Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -11429,8 +11425,8 @@ public partial class CloudGeographyClient
                 Area = 947303,
                 Latitude = -6,
                 Longitude = 35,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -11451,22 +11447,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "TZS"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "E. Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -11481,8 +11477,8 @@ public partial class CloudGeographyClient
                 Area = 513120,
                 Latitude = 15,
                 Longitude = 100,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -11498,22 +11494,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "TH"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "THB"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SE Asia Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -11528,8 +11524,8 @@ public partial class CloudGeographyClient
                 Area = 14874,
                 Latitude = -8.833333015441895,
                 Longitude = 125.91666412353516,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -11545,22 +11541,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "PT"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Tokyo Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -11575,8 +11571,8 @@ public partial class CloudGeographyClient
                 Area = 56785,
                 Latitude = 8,
                 Longitude = 1.1666666269302368,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -11592,22 +11588,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "XOF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Greenwich Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -11622,8 +11618,8 @@ public partial class CloudGeographyClient
                 Area = 12,
                 Latitude = -9,
                 Longitude = -172,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -11639,22 +11635,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "NZD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "UTC+13"
                     }
-                }
+                ]
             },
             new()
             {
@@ -11669,8 +11665,8 @@ public partial class CloudGeographyClient
                 Area = 747,
                 Latitude = -20,
                 Longitude = -175,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -11691,22 +11687,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "TO"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "TOP"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Tonga Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -11721,8 +11717,8 @@ public partial class CloudGeographyClient
                 Area = 5130,
                 Latitude = 11,
                 Longitude = -61,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -11738,22 +11734,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "TTD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Western Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -11768,8 +11764,8 @@ public partial class CloudGeographyClient
                 Area = 163610,
                 Latitude = 34,
                 Longitude = 9,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -11785,22 +11781,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "TND"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "W. Central Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -11815,8 +11811,8 @@ public partial class CloudGeographyClient
                 Area = 783562,
                 Latitude = 39,
                 Longitude = 35,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -11832,22 +11828,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "TR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "TRY"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Turkey Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -11862,8 +11858,8 @@ public partial class CloudGeographyClient
                 Area = 488100,
                 Latitude = 40,
                 Longitude = 60,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -11884,22 +11880,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "RU"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "TMT"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "West Asia Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -11914,8 +11910,8 @@ public partial class CloudGeographyClient
                 Area = 948,
                 Latitude = 21.75,
                 Longitude = -71.58333587646484,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -11931,22 +11927,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Turks And Caicos Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -11961,8 +11957,8 @@ public partial class CloudGeographyClient
                 Area = 26,
                 Latitude = -8,
                 Longitude = 178,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -11978,9 +11974,9 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -11991,14 +11987,14 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "TVD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "UTC+12"
                     }
-                }
+                ]
             },
             new()
             {
@@ -12013,8 +12009,8 @@ public partial class CloudGeographyClient
                 Area = 241550,
                 Latitude = 1,
                 Longitude = 32,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -12045,22 +12041,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "SW"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "UGX"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "E. Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -12075,8 +12071,8 @@ public partial class CloudGeographyClient
                 Area = 603700,
                 Latitude = 49,
                 Longitude = 32,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -12092,17 +12088,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "UK"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "UAH"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Russian Standard Time"
@@ -12111,7 +12107,7 @@ public partial class CloudGeographyClient
                     {
                         Code = "FLE Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -12126,8 +12122,8 @@ public partial class CloudGeographyClient
                 Area = 83600,
                 Latitude = 24,
                 Longitude = 54,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -12143,22 +12139,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "AED"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Arabian Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -12173,8 +12169,8 @@ public partial class CloudGeographyClient
                 Area = 242495,
                 Latitude = 54,
                 Longitude = -2,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -12190,22 +12186,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "GBP"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "GMT Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -12220,8 +12216,8 @@ public partial class CloudGeographyClient
                 Area = 9629091,
                 Latitude = 38,
                 Longitude = -97,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -12237,17 +12233,17 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Eastern Standard Time"
@@ -12284,7 +12280,7 @@ public partial class CloudGeographyClient
                     {
                         Code = "Hawaiian Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -12299,8 +12295,8 @@ public partial class CloudGeographyClient
                 Area = 181034,
                 Latitude = -33,
                 Longitude = -56,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -12316,22 +12312,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "UYU"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Montevideo Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -12346,8 +12342,8 @@ public partial class CloudGeographyClient
                 Area = 447400,
                 Latitude = 41,
                 Longitude = 64,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -12368,22 +12364,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "RU"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "UZS"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "West Asia Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -12398,8 +12394,8 @@ public partial class CloudGeographyClient
                 Area = 12189,
                 Latitude = -16,
                 Longitude = 167,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -12420,22 +12416,22 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "VUV"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Central Pacific Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -12450,8 +12446,8 @@ public partial class CloudGeographyClient
                 Area = 916445,
                 Latitude = 8,
                 Longitude = -66,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -12467,22 +12463,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "VEF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Venezuela Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -12497,8 +12493,8 @@ public partial class CloudGeographyClient
                 Area = 331212,
                 Latitude = 16.16666603088379,
                 Longitude = 107.83333587646484,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -12514,22 +12510,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "VI"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "VND"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SE Asia Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -12544,8 +12540,8 @@ public partial class CloudGeographyClient
                 Area = 346.359985351563,
                 Latitude = 18.3400001525879,
                 Longitude = -64.9300003051758,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -12561,22 +12557,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "USD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "SA Western Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -12591,8 +12587,8 @@ public partial class CloudGeographyClient
                 Area = 142,
                 Latitude = -13.300000190734863,
                 Longitude = -176.1999969482422,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -12608,22 +12604,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "FR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "XPF"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "UTC+12"
                     }
-                }
+                ]
             },
             new()
             {
@@ -12638,8 +12634,8 @@ public partial class CloudGeographyClient
                 Area = 266000,
                 Latitude = 24.5,
                 Longitude = -13,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -12655,9 +12651,9 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "ES"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -12668,14 +12664,14 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "DZD"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Morocco Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -12690,8 +12686,8 @@ public partial class CloudGeographyClient
                 Area = 527968,
                 Latitude = 15,
                 Longitude = 48,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -12717,22 +12713,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "AR"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "YER"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "Arab Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -12747,8 +12743,8 @@ public partial class CloudGeographyClient
                 Area = 752612,
                 Latitude = -15,
                 Longitude = 30,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -12764,22 +12760,22 @@ public partial class CloudGeographyClient
                         IsOfficial = true,
                         Code = "EN"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
                         Code = "ZMW"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "South Africa Standard Time"
                     }
-                }
+                ]
             },
             new()
             {
@@ -12794,8 +12790,8 @@ public partial class CloudGeographyClient
                 Area = 390757,
                 Latitude = -20,
                 Longitude = 30,
-                Languages = new()
-                {
+                Languages =
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -12821,9 +12817,9 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "ND"
                     }
-                },
-                Currencies=new()
-                {
+                ],
+                Currencies=
+                [
                     new()
                     {
                         IsOfficial = true,
@@ -12869,16 +12865,16 @@ public partial class CloudGeographyClient
                         IsOfficial = false,
                         Code = "FOK"
                     }
-                },
-                TimeZones=new()
-                {
+                ],
+                TimeZones=
+                [
                     new()
                     {
                         Code = "South Africa Standard Time"
                     }
-                }
+                ]
             }
-        };
+        ];
     };
 }
 

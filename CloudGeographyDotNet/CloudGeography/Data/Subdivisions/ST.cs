@@ -5,23 +5,23 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsST()
     {
-        AddSubdivisions("ST", new List<Subdivision>()
-        {
+        AddSubdivisions("ST",
+        [
             new()
             { 
                 Code = "P",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Príncipe",
                 LocalName = "Príncipe"
             },
             new()
             { 
                 Code = "S",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "São Tomé",
                 LocalName = "São Tomé"
             }
 
-        });
+        ]);
     }
 }

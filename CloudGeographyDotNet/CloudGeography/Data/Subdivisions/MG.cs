@@ -5,51 +5,51 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsMG()
     {
-        AddSubdivisions("MG", new List<Subdivision>()
-        {
+        AddSubdivisions("MG",
+        [
             new()
             { 
                 Code = "T",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Antananarivo",
                 LocalName = "Antananarivo"
             },
             new()
             { 
                 Code = "D",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Antsiranana",
                 LocalName = "Antsiranana"
             },
             new()
             { 
                 Code = "F",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Fianarantsoa",
                 LocalName = "Fianarantsoa"
             },
             new()
             { 
                 Code = "M",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Mahajanga",
                 LocalName = "Mahajanga"
             },
             new()
             { 
                 Code = "A",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Toamasina",
                 LocalName = "Toamasina"
             },
             new()
             { 
                 Code = "U",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Toliara",
                 LocalName = "Toliara"
             }
 
-        });
+        ]);
     }
 }

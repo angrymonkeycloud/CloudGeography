@@ -5,7 +5,8 @@ public class Subdivision
 	public string Code { get; set; }
 	public string Name { get; set; }
 	public string LocalName { get; set; }
-	public string Type { get; set; }
+	public SubdivisionTypes Type { get; set; }
+	public List<Subdivision>? Children { get; set; }
 
 	internal bool CodeCheck(string code)
 	{

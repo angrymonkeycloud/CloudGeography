@@ -5,100 +5,100 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsGR()
     {
-        AddSubdivisions("GR", new List<Subdivision>()
-        {
+        AddSubdivisions("GR",
+        [
             new()
             { 
                 Code = "A",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Anatolikí Makedonía kai Thráki",
                 LocalName = "Anatolikí Makedonía kai Thráki"
             },
             new()
             { 
                 Code = "I",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Attikí",
                 LocalName = "Attikí"
             },
             new()
             { 
                 Code = "G",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Dytikí Elláda",
                 LocalName = "Dytikí Elláda"
             },
             new()
             { 
                 Code = "C",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Dytiki Makedonia",
                 LocalName = "Dytiki Makedonia"
             },
             new()
             { 
                 Code = "F",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Ionía Nísia",
                 LocalName = "Ionía Nísia"
             },
             new()
             { 
                 Code = "D",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Ípeiros",
                 LocalName = "Ípeiros"
             },
             new()
             { 
                 Code = "B",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Kentrikí Makedonía",
                 LocalName = "Kentrikí Makedonía"
             },
             new()
             { 
                 Code = "M",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Kríti",
                 LocalName = "Kríti"
             },
             new()
             { 
                 Code = "L",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Notío Aigaío",
                 LocalName = "Notío Aigaío"
             },
             new()
             { 
                 Code = "J",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Peloponnísos",
                 LocalName = "Peloponnísos"
             },
             new()
             { 
                 Code = "H",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Stereá Elláda",
                 LocalName = "Stereá Elláda"
             },
             new()
             { 
                 Code = "E",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Thessalía",
                 LocalName = "Thessalía"
             },
             new()
             { 
                 Code = "K",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Voreío Aigaío",
                 LocalName = "Voreío Aigaío"
             }
 
-        });
+        ]);
     }
 }

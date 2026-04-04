@@ -5,128 +5,128 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsNZ()
     {
-        AddSubdivisions("NZ", new List<Subdivision>()
-        {
+        AddSubdivisions("NZ",
+        [
             new()
             { 
                 Code = "AUK",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Auckland",
                 LocalName = "Auckland"
             },
             new()
             { 
                 Code = "BOP",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Bay of Plenty",
                 LocalName = "Bay of Plenty"
             },
             new()
             { 
                 Code = "CAN",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Canterbury",
                 LocalName = "Canterbury"
             },
             new()
             { 
                 Code = "CIT",
-                Type = "Island",
+                Type = SubdivisionTypes.Island,
                 Name = "Chatham Islands Territory",
                 LocalName = "Chatham Islands Territory"
             },
             new()
             { 
                 Code = "GIS",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Gisborne",
                 LocalName = "Gisborne"
             },
             new()
             { 
                 Code = "HKB",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Hawkes's Bay",
                 LocalName = "Hawkes's Bay"
             },
             new()
             { 
                 Code = "MWT",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Manawatu-Wanganui",
                 LocalName = "Manawatu-Wanganui"
             },
             new()
             { 
                 Code = "MBH",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Marlborough",
                 LocalName = "Marlborough"
             },
             new()
             { 
                 Code = "NSN",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Nelson",
                 LocalName = "Nelson"
             },
             new()
             { 
                 Code = "NTL",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Northland",
                 LocalName = "Northland"
             },
             new()
             { 
                 Code = "OTA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Otago",
                 LocalName = "Otago"
             },
             new()
             { 
                 Code = "STL",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Southland",
                 LocalName = "Southland"
             },
             new()
             { 
                 Code = "TKI",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Taranaki",
                 LocalName = "Taranaki"
             },
             new()
             { 
                 Code = "TAS",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Tasman",
                 LocalName = "Tasman"
             },
             new()
             { 
                 Code = "WKO",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Waikato",
                 LocalName = "Waikato"
             },
             new()
             { 
                 Code = "WGN",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Wellington",
                 LocalName = "Wellington"
             },
             new()
             { 
                 Code = "WTC",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "West Coast",
                 LocalName = "West Coast"
             }
 
-        });
+        ]);
     }
 }

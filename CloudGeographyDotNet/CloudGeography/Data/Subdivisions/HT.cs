@@ -5,79 +5,79 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsHT()
     {
-        AddSubdivisions("HT", new List<Subdivision>()
-        {
+        AddSubdivisions("HT",
+        [
             new()
             { 
                 Code = "AR",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Artibonite",
                 LocalName = "Artibonite"
             },
             new()
             { 
                 Code = "CE",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Centre",
                 LocalName = "Centre"
             },
             new()
             { 
                 Code = "GA",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "GrandeAnse",
                 LocalName = "GrandeAnse"
             },
             new()
             { 
                 Code = "NI",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Nippes",
                 LocalName = "Nippes"
             },
             new()
             { 
                 Code = "ND",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Nord",
                 LocalName = "Nord"
             },
             new()
             { 
                 Code = "NE",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Nord-Est",
                 LocalName = "Nord-Est"
             },
             new()
             { 
                 Code = "NO",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Nord-Ouest",
                 LocalName = "Nord-Ouest"
             },
             new()
             { 
                 Code = "OU",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Ouest",
                 LocalName = "Ouest"
             },
             new()
             { 
                 Code = "SD",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Sud",
                 LocalName = "Sud"
             },
             new()
             { 
                 Code = "SE",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Sud-Est",
                 LocalName = "Sud-Est"
             }
 
-        });
+        ]);
     }
 }

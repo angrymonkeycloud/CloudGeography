@@ -5,72 +5,72 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsBO()
     {
-        AddSubdivisions("BO", new List<Subdivision>()
-        {
+        AddSubdivisions("BO",
+        [
             new()
             { 
                 Code = "H",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Chuquisaca",
                 LocalName = "Chuquisaca"
             },
             new()
             { 
                 Code = "C",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Cochabamba",
                 LocalName = "Cochabamba"
             },
             new()
             { 
                 Code = "B",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "El Beni",
                 LocalName = "El Beni"
             },
             new()
             { 
                 Code = "L",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "La Paz",
                 LocalName = "La Paz"
             },
             new()
             { 
                 Code = "O",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Oruro",
                 LocalName = "Oruro"
             },
             new()
             { 
                 Code = "N",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Pando",
                 LocalName = "Pando"
             },
             new()
             { 
                 Code = "P",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Potosí",
                 LocalName = "Potosí"
             },
             new()
             { 
                 Code = "S",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Santa Cruz",
                 LocalName = "Santa Cruz"
             },
             new()
             { 
                 Code = "T",
-                Type = "Department",
+                Type = SubdivisionTypes.Department,
                 Name = "Tarija",
                 LocalName = "Tarija"
             }
 
-        });
+        ]);
     }
 }

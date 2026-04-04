@@ -5,149 +5,149 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsHU()
     {
-        AddSubdivisions("HU", new List<Subdivision>()
-        {
+        AddSubdivisions("HU",
+        [
             new()
             { 
                 Code = "BK",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Bács-Kiskun",
                 LocalName = "Bács-Kiskun"
             },
             new()
             { 
                 Code = "BA",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Baranya",
                 LocalName = "Baranya"
             },
             new()
             { 
                 Code = "BE",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Békés",
                 LocalName = "Békés"
             },
             new()
             { 
                 Code = "BZ",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Borsod-Abaúj-Zemplén",
                 LocalName = "Borsod-Abaúj-Zemplén"
             },
             new()
             { 
                 Code = "BU",
-                Type = "CapitalCity",
+                Type = SubdivisionTypes.CapitalCity,
                 Name = "Budapest",
                 LocalName = "Budapest"
             },
             new()
             { 
                 Code = "CS",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Csongrád",
                 LocalName = "Csongrád"
             },
             new()
             { 
                 Code = "FE",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Fejér",
                 LocalName = "Fejér"
             },
             new()
             { 
                 Code = "GS",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Gyor-Moson-Sopron",
                 LocalName = "Gyor-Moson-Sopron"
             },
             new()
             { 
                 Code = "HB",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Hajdú-Bihar",
                 LocalName = "Hajdú-Bihar"
             },
             new()
             { 
                 Code = "HE",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Heves",
                 LocalName = "Heves"
             },
             new()
             { 
                 Code = "JN",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Jász-Nagykun-Szolnok",
                 LocalName = "Jász-Nagykun-Szolnok"
             },
             new()
             { 
                 Code = "KE",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Komárom-Esztergom",
                 LocalName = "Komárom-Esztergom"
             },
             new()
             { 
                 Code = "NO",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Nógrád",
                 LocalName = "Nógrád"
             },
             new()
             { 
                 Code = "PE",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Pest",
                 LocalName = "Pest"
             },
             new()
             { 
                 Code = "SO",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Somogy",
                 LocalName = "Somogy"
             },
             new()
             { 
                 Code = "SZ",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Szabolcs-Szatmár-Bereg",
                 LocalName = "Szabolcs-Szatmár-Bereg"
             },
             new()
             { 
                 Code = "TO",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Tolna",
                 LocalName = "Tolna"
             },
             new()
             { 
                 Code = "VA",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Vas",
                 LocalName = "Vas"
             },
             new()
             { 
                 Code = "VE",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Veszprém",
                 LocalName = "Veszprém"
             },
             new()
             { 
                 Code = "ZA",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Zala",
                 LocalName = "Zala"
             }
 
-        });
+        ]);
     }
 }

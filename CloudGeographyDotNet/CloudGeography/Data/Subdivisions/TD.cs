@@ -5,170 +5,170 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsTD()
     {
-        AddSubdivisions("TD", new List<Subdivision>()
-        {
+        AddSubdivisions("TD",
+        [
             new()
             { 
                 Code = "BG",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Bahr el Gazel",
                 LocalName = "بحر الغزال"
             },
             new()
             { 
                 Code = "BA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Batha",
                 LocalName = "البطحة"
             },
             new()
             { 
                 Code = "BO",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Borkou",
                 LocalName = "بركو"
             },
             new()
             { 
                 Code = "CB",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Chari-Baguirmi",
                 LocalName = "شاري باقرمي"
             },
             new()
             { 
                 Code = "EE",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Ennedi-Est",
                 LocalName = "نيدي الشرقية"
             },
             new()
             { 
                 Code = "EO",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Ennedi-Ouest",
                 LocalName = "إنيدي الغربية"
             },
             new()
             { 
                 Code = "GR",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Guéra",
                 LocalName = "قيرا"
             },
             new()
             { 
                 Code = "HL",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Hadjer-Lamis",
                 LocalName = "حجر لميس"
             },
             new()
             { 
                 Code = "KA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Kanem",
                 LocalName = "كانم"
             },
             new()
             { 
                 Code = "LC",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Lac",
                 LocalName = "البحيرة"
             },
             new()
             { 
                 Code = "LO",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Logone-Occidental",
                 LocalName = "Logone-Occidental"
             },
             new()
             { 
                 Code = "LR",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Logone-Oriental",
                 LocalName = "Logone-Oriental"
             },
             new()
             { 
                 Code = "MA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Mandoul",
                 LocalName = "Mandoul"
             },
             new()
             { 
                 Code = "ME",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Mayo-Kebbi-Est",
                 LocalName = "Mayo-Kebbi-Est"
             },
             new()
             { 
                 Code = "MO",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Mayo-Kebbi-Ouest",
                 LocalName = "Mayo-Kebbi-Ouest"
             },
             new()
             { 
                 Code = "MC",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Moyen-Chari",
                 LocalName = "Moyen-Chari"
             },
             new()
             { 
                 Code = "ND",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "N’Djamena",
                 LocalName = "انجمينا‎"
             },
             new()
             { 
                 Code = "OD",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Ouaddaï",
                 LocalName = "وداي"
             },
             new()
             { 
                 Code = "SA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Salamat",
                 LocalName = "Salamat"
             },
             new()
             { 
                 Code = "SI",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Sila",
                 LocalName = "Sila"
             },
             new()
             { 
                 Code = "TA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Tandjilé",
                 LocalName = "Tandjilé"
             },
             new()
             { 
                 Code = "TI",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Tibasti",
                 LocalName = "تيبستي"
             },
             new()
             { 
                 Code = "WF",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Wadi Fira",
                 LocalName = "وادي فيرا"
             }
 
-        });
+        ]);
     }
 }

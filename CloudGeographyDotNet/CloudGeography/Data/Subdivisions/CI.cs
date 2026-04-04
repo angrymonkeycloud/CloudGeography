@@ -5,107 +5,107 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsCI()
     {
-        AddSubdivisions("CI", new List<Subdivision>()
-        {
+        AddSubdivisions("CI",
+        [
             new()
             { 
                 Code = "AB",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Abidjan",
                 LocalName = "Abidjan"
             },
             new()
             { 
                 Code = "BS",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Bas-Sassandra",
                 LocalName = "Bas-Sassandra"
             },
             new()
             { 
                 Code = "CM",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Comoé",
                 LocalName = "Comoé"
             },
             new()
             { 
                 Code = "DN",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Denguélé",
                 LocalName = "Denguélé"
             },
             new()
             { 
                 Code = "GD",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Gôh-Djiboua",
                 LocalName = "Gôh-Djiboua"
             },
             new()
             { 
                 Code = "LC",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Lacs",
                 LocalName = "Lacs"
             },
             new()
             { 
                 Code = "LG",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Lagunes",
                 LocalName = "Lagunes"
             },
             new()
             { 
                 Code = "MG",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Montagnes",
                 LocalName = "Montagnes"
             },
             new()
             { 
                 Code = "SM",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Sassandra-Marahoué",
                 LocalName = "Sassandra-Marahoué"
             },
             new()
             { 
                 Code = "SV",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Savanes",
                 LocalName = "Savanes"
             },
             new()
             { 
                 Code = "VB",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Vallée du Bandama",
                 LocalName = "Vallée du Bandama"
             },
             new()
             { 
                 Code = "WR",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Woroba",
                 LocalName = "Woroba"
             },
             new()
             { 
                 Code = "YM",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Yamoussoukro",
                 LocalName = "Yamoussoukro"
             },
             new()
             { 
                 Code = "ZZ",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Zanzan",
                 LocalName = "Zanzan"
             }
 
-        });
+        ]);
     }
 }

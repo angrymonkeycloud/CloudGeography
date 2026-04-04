@@ -5,65 +5,65 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsAU()
     {
-        AddSubdivisions("AU", new List<Subdivision>()
-        {
+        AddSubdivisions("AU",
+        [
             new()
             { 
                 Code = "ACT",
-                Type = "Territory",
+                Type = SubdivisionTypes.Territory,
                 Name = "Australian Capital Territory",
                 LocalName = "Australian Capital Territory"
             },
             new()
             { 
                 Code = "NSW",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "New South Wales",
                 LocalName = "New South Wales"
             },
             new()
             { 
                 Code = "NT",
-                Type = "Territory",
+                Type = SubdivisionTypes.Territory,
                 Name = "Northern Territory",
                 LocalName = "Northern Territory"
             },
             new()
             { 
                 Code = "QLD",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Queensland",
                 LocalName = "Queensland"
             },
             new()
             { 
                 Code = "SA",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "South Australia",
                 LocalName = "South Australia"
             },
             new()
             { 
                 Code = "TAS",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Tasmania",
                 LocalName = "Tasmania"
             },
             new()
             { 
                 Code = "VIC",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Victoria",
                 LocalName = "Victoria"
             },
             new()
             { 
                 Code = "WA",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Western Australia",
                 LocalName = "Western Australia"
             }
 
-        });
+        ]);
     }
 }

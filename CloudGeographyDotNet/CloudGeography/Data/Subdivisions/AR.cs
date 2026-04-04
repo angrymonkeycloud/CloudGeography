@@ -5,177 +5,177 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsAR()
     {
-        AddSubdivisions("AR", new List<Subdivision>()
-        {
+        AddSubdivisions("AR",
+        [
             new()
             { 
                 Code = "B",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Buenos Aires",
                 LocalName = "Buenos Aires"
             },
             new()
             { 
                 Code = "K",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Catamarca",
                 LocalName = "Catamarca"
             },
             new()
             { 
                 Code = "H",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Chaco",
                 LocalName = "Chaco"
             },
             new()
             { 
                 Code = "U",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Chubut",
                 LocalName = "Chubut"
             },
             new()
             { 
                 Code = "C",
-                Type = "City",
+                Type = SubdivisionTypes.City,
                 Name = "Ciudad Autónoma de Buenos Aires",
                 LocalName = "Ciudad Autónoma de Buenos Aires"
             },
             new()
             { 
                 Code = "X",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Córdoba",
                 LocalName = "Córdoba"
             },
             new()
             { 
                 Code = "W",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Corrientes",
                 LocalName = "Corrientes"
             },
             new()
             { 
                 Code = "E",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Entre Ríos",
                 LocalName = "Entre Ríos"
             },
             new()
             { 
                 Code = "P",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Formosa",
                 LocalName = "Formosa"
             },
             new()
             { 
                 Code = "Y",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Jujuy",
                 LocalName = "Jujuy"
             },
             new()
             { 
                 Code = "L",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "La Pampa",
                 LocalName = "La Pampa"
             },
             new()
             { 
                 Code = "F",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "La Rioja",
                 LocalName = "La Rioja"
             },
             new()
             { 
                 Code = "M",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Mendoza",
                 LocalName = "Mendoza"
             },
             new()
             { 
                 Code = "N",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Misiones",
                 LocalName = "Misiones"
             },
             new()
             { 
                 Code = "Q",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Neuquén",
                 LocalName = "Neuquén"
             },
             new()
             { 
                 Code = "R",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Río Negro",
                 LocalName = "Río Negro"
             },
             new()
             { 
                 Code = "A",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Salta",
                 LocalName = "Salta"
             },
             new()
             { 
                 Code = "J",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "San Juan",
                 LocalName = "San Juan"
             },
             new()
             { 
                 Code = "D",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "San Luis",
                 LocalName = "San Luis"
             },
             new()
             { 
                 Code = "Z",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Santa Cruz",
                 LocalName = "Santa Cruz"
             },
             new()
             { 
                 Code = "S",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Santa Fe",
                 LocalName = "Santa Fe"
             },
             new()
             { 
                 Code = "G",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Santiago del Estero",
                 LocalName = "Santiago del Estero"
             },
             new()
             { 
                 Code = "V",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Tierra del Fuego",
                 LocalName = "Tierra del Fuego"
             },
             new()
             { 
                 Code = "T",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Tucumán",
                 LocalName = "Tucumán"
             }
 
-        });
+        ]);
     }
 }

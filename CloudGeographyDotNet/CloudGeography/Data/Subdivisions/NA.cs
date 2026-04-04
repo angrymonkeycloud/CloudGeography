@@ -5,100 +5,100 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsNA()
     {
-        AddSubdivisions("NA", new List<Subdivision>()
-        {
+        AddSubdivisions("NA",
+        [
             new()
             { 
                 Code = "ER",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Erongo",
                 LocalName = "Erongo"
             },
             new()
             { 
                 Code = "HA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Hardap",
                 LocalName = "Hardap"
             },
             new()
             { 
                 Code = "KA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Karas",
                 LocalName = "Karas"
             },
             new()
             { 
                 Code = "KE",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Kavango East",
                 LocalName = "Kavango East"
             },
             new()
             { 
                 Code = "KH",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Khomas",
                 LocalName = "Khomas"
             },
             new()
             { 
                 Code = "KU",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Kunene",
                 LocalName = "Kunene"
             },
             new()
             { 
                 Code = "OW",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Ohangwena",
                 LocalName = "Ohangwena"
             },
             new()
             { 
                 Code = "OH",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Omaheke",
                 LocalName = "Omaheke"
             },
             new()
             { 
                 Code = "OS",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Omusati",
                 LocalName = "Omusati"
             },
             new()
             { 
                 Code = "ON",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Oshana",
                 LocalName = "Oshana"
             },
             new()
             { 
                 Code = "OT",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Oshikoto",
                 LocalName = "Oshikoto"
             },
             new()
             { 
                 Code = "OD",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Otjozondjupa",
                 LocalName = "Otjozondjupa"
             },
             new()
             { 
                 Code = "CA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Zambezi",
                 LocalName = "Zambezi"
             }
 
-        });
+        ]);
     }
 }

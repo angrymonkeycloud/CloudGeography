@@ -5,135 +5,135 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsLA()
     {
-        AddSubdivisions("LA", new List<Subdivision>()
-        {
+        AddSubdivisions("LA",
+        [
             new()
             { 
                 Code = "AT",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Attapu",
                 LocalName = "Attapu"
             },
             new()
             { 
                 Code = "BK",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Bokèo",
                 LocalName = "Bokèo"
             },
             new()
             { 
                 Code = "BL",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Bolikhamxai",
                 LocalName = "Bolikhamxai"
             },
             new()
             { 
                 Code = "CH",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Champasak",
                 LocalName = "Champasak"
             },
             new()
             { 
                 Code = "HO",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Houaphan",
                 LocalName = "Houaphan"
             },
             new()
             { 
                 Code = "KH",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Khammouan",
                 LocalName = "Khammouan"
             },
             new()
             { 
                 Code = "LM",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Louang Namtha",
                 LocalName = "Louang Namtha"
             },
             new()
             { 
                 Code = "LP",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Louangphabang",
                 LocalName = "Louangphabang"
             },
             new()
             { 
                 Code = "OU",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Oudômxai",
                 LocalName = "Oudômxai"
             },
             new()
             { 
                 Code = "PH",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Phôngsali",
                 LocalName = "Phôngsali"
             },
             new()
             { 
                 Code = "SL",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Salavan",
                 LocalName = "Salavan"
             },
             new()
             { 
                 Code = "SV",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Savannakhét",
                 LocalName = "Savannakhét"
             },
             new()
             { 
                 Code = "VI",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Vientiane",
                 LocalName = "Vientiane"
             },
             new()
             { 
                 Code = "VT",
-                Type = "Prefecture",
+                Type = SubdivisionTypes.Prefecture,
                 Name = "Vientiane",
                 LocalName = "Vientiane"
             },
             new()
             { 
                 Code = "XA",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Xaignabouli",
                 LocalName = "Xaignabouli"
             },
             new()
             { 
                 Code = "XS",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Xaisômboun",
                 LocalName = "Xaisômboun"
             },
             new()
             { 
                 Code = "XE",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Xékong",
                 LocalName = "Xékong"
             },
             new()
             { 
                 Code = "XI",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Xiangkhouang",
                 LocalName = "Xiangkhouang"
             }
 
-        });
+        ]);
     }
 }

@@ -5,37 +5,37 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsSL()
     {
-        AddSubdivisions("SL", new List<Subdivision>()
-        {
+        AddSubdivisions("SL",
+        [
             new()
             { 
                 Code = "E",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Eastern",
                 LocalName = "Eastern"
             },
             new()
             { 
                 Code = "N",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Northern",
                 LocalName = "Northern"
             },
             new()
             { 
                 Code = "S",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Southern",
                 LocalName = "Southern"
             },
             new()
             { 
                 Code = "W",
-                Type = "Area",
+                Type = SubdivisionTypes.Area,
                 Name = "Western Area",
                 LocalName = "Western Area"
             }
 
-        });
+        ]);
     }
 }

@@ -5,184 +5,184 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsVE()
     {
-        AddSubdivisions("VE", new List<Subdivision>()
-        {
+        AddSubdivisions("VE",
+        [
             new()
             { 
                 Code = "Z",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Amazonas",
                 LocalName = "Amazonas"
             },
             new()
             { 
                 Code = "B",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Anzoátegui",
                 LocalName = "Anzoátegui"
             },
             new()
             { 
                 Code = "C",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Apure",
                 LocalName = "Apure"
             },
             new()
             { 
                 Code = "D",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Aragua",
                 LocalName = "Aragua"
             },
             new()
             { 
                 Code = "E",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Barinas",
                 LocalName = "Barinas"
             },
             new()
             { 
                 Code = "F",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Bolívar",
                 LocalName = "Bolívar"
             },
             new()
             { 
                 Code = "A",
-                Type = "District",
+                Type = SubdivisionTypes.District,
                 Name = "Capital District",
                 LocalName = "Distrito Capital"
             },
             new()
             { 
                 Code = "G",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Carabobo",
                 LocalName = "Carabobo"
             },
             new()
             { 
                 Code = "H",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Cojedes",
                 LocalName = "Cojedes"
             },
             new()
             { 
                 Code = "Y",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Delta Amacuro",
                 LocalName = "Delta Amacuro"
             },
             new()
             { 
                 Code = "W",
-                Type = "Dependencies",
+                Type = SubdivisionTypes.Dependencies,
                 Name = "Dependencias Federales",
                 LocalName = "Dependencias Federales"
             },
             new()
             { 
                 Code = "I",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Falcón",
                 LocalName = "Falcón"
             },
             new()
             { 
                 Code = "J",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Guárico",
                 LocalName = "Guárico"
             },
             new()
             { 
                 Code = "K",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Lara",
                 LocalName = "Lara"
             },
             new()
             { 
                 Code = "L",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Mérida",
                 LocalName = "Mérida"
             },
             new()
             { 
                 Code = "M",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Miranda",
                 LocalName = "Miranda"
             },
             new()
             { 
                 Code = "N",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Monagas",
                 LocalName = "Monagas"
             },
             new()
             { 
                 Code = "O",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Nueva Esparta",
                 LocalName = "Nueva Esparta"
             },
             new()
             { 
                 Code = "P",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Portuguesa",
                 LocalName = "Portuguesa"
             },
             new()
             { 
                 Code = "R",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Sucre",
                 LocalName = "Sucre"
             },
             new()
             { 
                 Code = "S",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Táchira",
                 LocalName = "Táchira"
             },
             new()
             { 
                 Code = "T",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Trujillo",
                 LocalName = "Trujillo"
             },
             new()
             { 
                 Code = "X",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "vargas",
                 LocalName = "vargas"
             },
             new()
             { 
                 Code = "U",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Yaracuy",
                 LocalName = "Yaracuy"
             },
             new()
             { 
                 Code = "V",
-                Type = "State",
+                Type = SubdivisionTypes.State,
                 Name = "Zulia",
                 LocalName = "Zulia"
             }
 
-        });
+        ]);
     }
 }

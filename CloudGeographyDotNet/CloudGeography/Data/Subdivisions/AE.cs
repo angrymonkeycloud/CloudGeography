@@ -5,58 +5,58 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsAE()
     {
-        AddSubdivisions("AE", new List<Subdivision>()
-        {
+        AddSubdivisions("AE",
+        [
             new()
             { 
                 Code = "AZ",
-                Type = "Emirate",
+                Type = SubdivisionTypes.Emirate,
                 Name = "Abu Dhabi",
                 LocalName = "أَبُـوظَـبِي"
             },
             new()
             { 
                 Code = "AJ",
-                Type = "Emirate",
+                Type = SubdivisionTypes.Emirate,
                 Name = "Ajman",
                 LocalName = "عجمان"
             },
             new()
             { 
                 Code = "FU",
-                Type = "Emirate",
+                Type = SubdivisionTypes.Emirate,
                 Name = "Al Fujairah",
                 LocalName = "الفجيرة"
             },
             new()
             { 
                 Code = "DU",
-                Type = "Emirate",
+                Type = SubdivisionTypes.Emirate,
                 Name = "Dubai",
                 LocalName = "دبيّ"
             },
             new()
             { 
                 Code = "RK",
-                Type = "Emirate",
+                Type = SubdivisionTypes.Emirate,
                 Name = "Ras Al Khaimah",
                 LocalName = "رَأْس ٱلْخَيْمَة"
             },
             new()
             { 
                 Code = "SH",
-                Type = "Emirate",
+                Type = SubdivisionTypes.Emirate,
                 Name = "Sharjah",
                 LocalName = "ٱلشَّارِقَة"
             },
             new()
             { 
                 Code = "UQ",
-                Type = "Emirate",
+                Type = SubdivisionTypes.Emirate,
                 Name = "Umm Al Quwain",
                 LocalName = "أم القيوين"
             }
 
-        });
+        ]);
     }
 }

@@ -5,135 +5,135 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsSO()
     {
-        AddSubdivisions("SO", new List<Subdivision>()
-        {
+        AddSubdivisions("SO",
+        [
             new()
             { 
                 Code = "AW",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Awdal",
                 LocalName = "Awdal"
             },
             new()
             { 
                 Code = "BK",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Bakool",
                 LocalName = "Bakool"
             },
             new()
             { 
                 Code = "BN",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Banaadir",
                 LocalName = "Banaadir"
             },
             new()
             { 
                 Code = "BR",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Bari",
                 LocalName = "Bari"
             },
             new()
             { 
                 Code = "BY",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Bay",
                 LocalName = "Bay"
             },
             new()
             { 
                 Code = "GA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Galguduud",
                 LocalName = "Galguduud"
             },
             new()
             { 
                 Code = "GE",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Gedo",
                 LocalName = "Gedo"
             },
             new()
             { 
                 Code = "HI",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Hiiraan",
                 LocalName = "Hiiraan"
             },
             new()
             { 
                 Code = "JD",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Jubbada Dhexe",
                 LocalName = "Jubbada Dhexe"
             },
             new()
             { 
                 Code = "JH",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Jubbada Hoose",
                 LocalName = "Jubbada Hoose"
             },
             new()
             { 
                 Code = "MU",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Mudug",
                 LocalName = "Mudug"
             },
             new()
             { 
                 Code = "NU",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Nugaal",
                 LocalName = "Nugaal"
             },
             new()
             { 
                 Code = "SA",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Sanaag",
                 LocalName = "Sanaag"
             },
             new()
             { 
                 Code = "SD",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Shabeellaha Dhexe",
                 LocalName = "Shabeellaha Dhexe"
             },
             new()
             { 
                 Code = "SH",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Shabeellaha Hoose",
                 LocalName = "Shabeellaha Hoose"
             },
             new()
             { 
                 Code = "SO",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Sool",
                 LocalName = "Sool"
             },
             new()
             { 
                 Code = "TO",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Togdheer",
                 LocalName = "Togdheer"
             },
             new()
             { 
                 Code = "WO",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Woqooyi Galbeed",
                 LocalName = "Woqooyi Galbeed"
             }
 
-        });
+        ]);
     }
 }

@@ -5,72 +5,72 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsKG()
     {
-        AddSubdivisions("KG", new List<Subdivision>()
-        {
+        AddSubdivisions("KG",
+        [
             new()
             { 
                 Code = "B",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Batken",
                 LocalName = "Batken"
             },
             new()
             { 
                 Code = "GB",
-                Type = "City",
+                Type = SubdivisionTypes.City,
                 Name = "Bishkek",
                 LocalName = "Bishkek"
             },
             new()
             { 
                 Code = "C",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Chüy",
                 LocalName = "Chüy"
             },
             new()
             { 
                 Code = "J",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Jalal-Abad",
                 LocalName = "Jalal-Abad"
             },
             new()
             { 
                 Code = "N",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Naryn",
                 LocalName = "Naryn"
             },
             new()
             { 
                 Code = "GO",
-                Type = "City",
+                Type = SubdivisionTypes.City,
                 Name = "Osh",
                 LocalName = "Osh"
             },
             new()
             { 
                 Code = "O",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Osh",
                 LocalName = "Osh"
             },
             new()
             { 
                 Code = "T",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Talas",
                 LocalName = "Talas"
             },
             new()
             { 
                 Code = "Y",
-                Type = "Region",
+                Type = SubdivisionTypes.Region,
                 Name = "Ysyk-Köl",
                 LocalName = "Ysyk-Köl"
             }
 
-        });
+        ]);
     }
 }

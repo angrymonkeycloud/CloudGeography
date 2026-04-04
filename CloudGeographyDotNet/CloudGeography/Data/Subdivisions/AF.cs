@@ -5,247 +5,247 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsAF()
     {
-        AddSubdivisions("AF", new List<Subdivision>()
-        {
+        AddSubdivisions("AF",
+        [
             new()
             { 
                 Code = "BDS",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Badakhshan",
                 LocalName = "Badakhshan"
             },
             new()
             { 
                 Code = "BDG",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Badghis",
                 LocalName = "Badghis"
             },
             new()
             { 
                 Code = "BGL",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Baghlan",
                 LocalName = "Baghlan"
             },
             new()
             { 
                 Code = "BAL",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Balkh",
                 LocalName = "Balkh"
             },
             new()
             { 
                 Code = "BAM",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Bamyan",
                 LocalName = "Bamyan"
             },
             new()
             { 
                 Code = "DAY",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Daykundi",
                 LocalName = "Daykundi"
             },
             new()
             { 
                 Code = "FRA",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Farah",
                 LocalName = "Farah"
             },
             new()
             { 
                 Code = "FYB",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Faryab",
                 LocalName = "Faryab"
             },
             new()
             { 
                 Code = "GHA",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Ghazni",
                 LocalName = "Ghazni"
             },
             new()
             { 
                 Code = "GHO",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Ghor",
                 LocalName = "Ghor"
             },
             new()
             { 
                 Code = "HEL",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Helmand",
                 LocalName = "Helmand"
             },
             new()
             { 
                 Code = "HER",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Herat",
                 LocalName = "Herat"
             },
             new()
             { 
                 Code = "JOW",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Jowzjan",
                 LocalName = "Jowzjan"
             },
             new()
             { 
                 Code = "KAB",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Kabul",
                 LocalName = "Kabul"
             },
             new()
             { 
                 Code = "KAN",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Kandahar",
                 LocalName = "Kandahar"
             },
             new()
             { 
                 Code = "KAP",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Kapisa",
                 LocalName = "Kapisa"
             },
             new()
             { 
                 Code = "KHO",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Khost",
                 LocalName = "Khost"
             },
             new()
             { 
                 Code = "KNR",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Kuna?",
                 LocalName = "Kuna?"
             },
             new()
             { 
                 Code = "KDZ",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Kunduz",
                 LocalName = "Kunduz"
             },
             new()
             { 
                 Code = "LAG",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Laghman",
                 LocalName = "Laghman"
             },
             new()
             { 
                 Code = "LOG",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Logar",
                 LocalName = "Logar"
             },
             new()
             { 
                 Code = "NAN",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Nangarhar",
                 LocalName = "Nangarhar"
             },
             new()
             { 
                 Code = "NIM",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Nimroz",
                 LocalName = "Nimroz"
             },
             new()
             { 
                 Code = "NUR",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Nuristan",
                 LocalName = "Nuristan"
             },
             new()
             { 
                 Code = "PKA",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Paktika",
                 LocalName = "Paktika"
             },
             new()
             { 
                 Code = "PIA",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Paktiya",
                 LocalName = "Paktiya"
             },
             new()
             { 
                 Code = "PAN",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Panjshayr",
                 LocalName = "Panjshayr"
             },
             new()
             { 
                 Code = "PAR",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Parwan",
                 LocalName = "Parwan"
             },
             new()
             { 
                 Code = "SAM",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Samangan",
                 LocalName = "Samangan"
             },
             new()
             { 
                 Code = "SAR",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Sar-e Pul",
                 LocalName = "Sar-e Pul"
             },
             new()
             { 
                 Code = "TAK",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Takhar",
                 LocalName = "Takhar"
             },
             new()
             { 
                 Code = "URU",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Uruzgan",
                 LocalName = "Uruzgan"
             },
             new()
             { 
                 Code = "WAR",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Wardak",
                 LocalName = "Wardak"
             },
             new()
             { 
                 Code = "ZAB",
-                Type = "Province",
+                Type = SubdivisionTypes.Province,
                 Name = "Zabul",
                 LocalName = "Zabul"
             }
 
-        });
+        ]);
     }
 }

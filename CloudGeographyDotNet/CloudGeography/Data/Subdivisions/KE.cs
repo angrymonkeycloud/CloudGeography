@@ -5,338 +5,338 @@ public partial class CloudGeographyClient
 {
     private static void FillInSubdivisionsKE()
     {
-        AddSubdivisions("KE", new List<Subdivision>()
-        {
+        AddSubdivisions("KE",
+        [
             new()
             { 
                 Code = "1",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Baringo",
                 LocalName = "Baringo"
             },
             new()
             { 
                 Code = "2",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Bomet",
                 LocalName = "Bomet"
             },
             new()
             { 
                 Code = "3",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Bungoma",
                 LocalName = "Bungoma"
             },
             new()
             { 
                 Code = "4",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Busia",
                 LocalName = "Busia"
             },
             new()
             { 
                 Code = "5",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Elgeyo/Marakwet",
                 LocalName = "Elgeyo/Marakwet"
             },
             new()
             { 
                 Code = "6",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Embu",
                 LocalName = "Embu"
             },
             new()
             { 
                 Code = "7",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Garissa",
                 LocalName = "Garissa"
             },
             new()
             { 
                 Code = "8",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Homa Bay",
                 LocalName = "Homa Bay"
             },
             new()
             { 
                 Code = "9",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Isiolo",
                 LocalName = "Isiolo"
             },
             new()
             { 
                 Code = "10",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Kajiado",
                 LocalName = "Kajiado"
             },
             new()
             { 
                 Code = "11",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Kakamega",
                 LocalName = "Kakamega"
             },
             new()
             { 
                 Code = "12",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Kericho",
                 LocalName = "Kericho"
             },
             new()
             { 
                 Code = "13",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Kiambu",
                 LocalName = "Kiambu"
             },
             new()
             { 
                 Code = "14",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Kilifi",
                 LocalName = "Kilifi"
             },
             new()
             { 
                 Code = "15",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Kirinyaga",
                 LocalName = "Kirinyaga"
             },
             new()
             { 
                 Code = "16",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Kisii",
                 LocalName = "Kisii"
             },
             new()
             { 
                 Code = "17",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Kisumu",
                 LocalName = "Kisumu"
             },
             new()
             { 
                 Code = "18",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Kitui",
                 LocalName = "Kitui"
             },
             new()
             { 
                 Code = "19",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Kwale",
                 LocalName = "Kwale"
             },
             new()
             { 
                 Code = "20",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Laikipia",
                 LocalName = "Laikipia"
             },
             new()
             { 
                 Code = "21",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Lamu",
                 LocalName = "Lamu"
             },
             new()
             { 
                 Code = "22",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Machakos",
                 LocalName = "Machakos"
             },
             new()
             { 
                 Code = "23",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Makueni",
                 LocalName = "Makueni"
             },
             new()
             { 
                 Code = "24",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Mandera",
                 LocalName = "Mandera"
             },
             new()
             { 
                 Code = "25",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Marsabit",
                 LocalName = "Marsabit"
             },
             new()
             { 
                 Code = "26",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Meru",
                 LocalName = "Meru"
             },
             new()
             { 
                 Code = "27",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Migori",
                 LocalName = "Migori"
             },
             new()
             { 
                 Code = "28",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Mombasa",
                 LocalName = "Mombasa"
             },
             new()
             { 
                 Code = "29",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Murang'a",
                 LocalName = "Murang'a"
             },
             new()
             { 
                 Code = "30",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Nairobi City",
                 LocalName = "Nairobi City"
             },
             new()
             { 
                 Code = "31",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Nakuru",
                 LocalName = "Nakuru"
             },
             new()
             { 
                 Code = "32",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Nandi",
                 LocalName = "Nandi"
             },
             new()
             { 
                 Code = "33",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Narok",
                 LocalName = "Narok"
             },
             new()
             { 
                 Code = "34",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Nyamira",
                 LocalName = "Nyamira"
             },
             new()
             { 
                 Code = "35",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Nyandarua",
                 LocalName = "Nyandarua"
             },
             new()
             { 
                 Code = "36",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Nyeri",
                 LocalName = "Nyeri"
             },
             new()
             { 
                 Code = "37",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Samburu",
                 LocalName = "Samburu"
             },
             new()
             { 
                 Code = "38",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Siaya",
                 LocalName = "Siaya"
             },
             new()
             { 
                 Code = "39",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Taita/Taveta",
                 LocalName = "Taita/Taveta"
             },
             new()
             { 
                 Code = "40",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Tana River",
                 LocalName = "Tana River"
             },
             new()
             { 
                 Code = "41",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Tharaka-Nithi",
                 LocalName = "Tharaka-Nithi"
             },
             new()
             { 
                 Code = "42",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Trans Nzoia",
                 LocalName = "Trans Nzoia"
             },
             new()
             { 
                 Code = "43",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Turkana",
                 LocalName = "Turkana"
             },
             new()
             { 
                 Code = "44",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Uasin Gishu",
                 LocalName = "Uasin Gishu"
             },
             new()
             { 
                 Code = "45",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Vihiga",
                 LocalName = "Vihiga"
             },
             new()
             { 
                 Code = "46",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "Wajir",
                 LocalName = "Wajir"
             },
             new()
             { 
                 Code = "47",
-                Type = "County",
+                Type = SubdivisionTypes.County,
                 Name = "West Pokot",
                 LocalName = "West Pokot"
             }
 
-        });
+        ]);
     }
 }
