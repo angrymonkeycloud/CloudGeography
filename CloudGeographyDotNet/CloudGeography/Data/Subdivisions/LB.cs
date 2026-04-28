@@ -120,18 +120,28 @@ public partial class CloudGeographyClient
                     },
                     new()
                     {
-                        Code = "JB",
-                        Type = SubdivisionTypes.District,
-                        Name = "Jbeil",
-                        LocalName = "جبيل"
-                    },
-                    new()
-                    {
                         Code = "CH",
                         Type = SubdivisionTypes.District,
                         Name = "Chouf",
                         LocalName = "الشوف"
                     },
+                    new()
+                    {
+                        Code = "MT",
+                        Type = SubdivisionTypes.District,
+                        Name = "El Metn",
+                        LocalName = "المتن"
+                    }
+                ]
+            },
+            new()
+            {
+                Code = "KJ",
+                Type = SubdivisionTypes.Governorate,
+                Name = "Keserwan-Jbeil",
+                LocalName = "كسروان - جبيل",
+                Children =
+                [
                     new()
                     {
                         Code = "KE",
@@ -141,10 +151,10 @@ public partial class CloudGeographyClient
                     },
                     new()
                     {
-                        Code = "MT",
+                        Code = "JB",
                         Type = SubdivisionTypes.District,
-                        Name = "El Metn",
-                        LocalName = "المتن"
+                        Name = "Byblos",
+                        LocalName = "جبيل"
                     }
                 ]
             },

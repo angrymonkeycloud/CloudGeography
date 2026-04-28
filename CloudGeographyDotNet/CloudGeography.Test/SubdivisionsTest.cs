@@ -51,7 +51,7 @@ namespace CloudGeography.Test
 			CloudGeographyClient client = new();
 			List<Subdivision> subdivisions = client.Subdivisions.Get("LB");
 
-			Assert.AreEqual(8, subdivisions.Count);
+			Assert.AreEqual(9, subdivisions.Count);
 		}
 
 		[TestMethod]
@@ -72,7 +72,7 @@ namespace CloudGeography.Test
 			List<Subdivision>? children = client.Subdivisions.GetChildren("LB", "JL");
 
 			Assert.IsNotNull(children);
-			Assert.AreEqual(6, children.Count);
+			Assert.AreEqual(4, children.Count);
 			Assert.IsTrue(children.All(c => c.Type == SubdivisionTypes.District));
 		}
 
@@ -85,6 +85,23 @@ namespace CloudGeography.Test
 			Assert.IsNotNull(child);
 			Assert.AreEqual("Baalbek", child.Name);
 			Assert.AreEqual(SubdivisionTypes.District, child.Type);
+		}
+
+		[TestMethod]
+		public void Get_Lebanon_KeserwanJbeil_Governorate()
+		{
+			CloudGeographyClient client = new();
+			Subdivision? gov = client.Subdivisions.Get("LB", "KJ");
+
+			Assert.IsNotNull(gov);
+			Assert.AreEqual("Keserwan-Jbeil", gov.Name);
+			Assert.AreEqual(SubdivisionTypes.Governorate, gov.Type);
+
+			List<Subdivision>? children = client.Subdivisions.GetChildren("LB", "KJ");
+			Assert.IsNotNull(children);
+			Assert.AreEqual(2, children.Count);
+			Assert.IsTrue(children.Any(c => c.Code == "KE" && c.Name == "Keserwan"));
+			Assert.IsTrue(children.Any(c => c.Code == "JB" && c.Name == "Byblos"));
 		}
 
 		[TestMethod]
