@@ -1,3 +1,5 @@
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 namespace CloudGeography.Test
 {
 	[TestClass]
@@ -48,13 +50,12 @@ namespace CloudGeography.Test
 		}
 
 		[TestMethod]
-		[ExpectedException(typeof(Exception))]
 		public void Addition_DifferentCurrencies()
 		{
 			Money moneyA = new("USD", -1.6m);
 			Money moneyB = new("LBP", -1.8m);
 
-			moneyA.Add(moneyB);
+			Assert.ThrowsExactly<Exception>(() => moneyA.Add(moneyB));
 		}
 
 		[TestMethod]
@@ -102,13 +103,12 @@ namespace CloudGeography.Test
 		}
 
 		[TestMethod]
-		[ExpectedException(typeof(Exception))]
 		public void Subtraction_DifferentCurrencies()
 		{
 			Money moneyA = new("USD", -1.6m);
 			Money moneyB = new("LBP", -1.8m);
 
-			moneyA.Subtract(moneyB);
+			Assert.ThrowsExactly<Exception>(() => moneyA.Subtract(moneyB));
 		}
 
 		[TestMethod]

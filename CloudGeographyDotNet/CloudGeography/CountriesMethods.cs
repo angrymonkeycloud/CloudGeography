@@ -106,7 +106,7 @@ public partial class CloudGeographyClient
                 var endpoint = $"https://atlas.microsoft.com/search/address/reverse/json?subscription-key={Client.Configuration.AzureMapsKey}&api-version=1.0&query={coordinates.Latitude},{coordinates.Longitude}";
 
                 // Create an HTTP client object
-                using var client = new HttpClient();
+                using HttpClient client = new();
 
                 // Call the API endpoint and get the response
                 var response = await client.GetAsync(endpoint);
@@ -115,7 +115,7 @@ public partial class CloudGeographyClient
                 var content = await response.Content.ReadAsStringAsync();
 
                 // Configure JSON deserialization options to be case insensitive
-                var options = new JsonSerializerOptions
+                JsonSerializerOptions options = new()
                 {
                     PropertyNameCaseInsensitive = true
                 };
@@ -156,7 +156,7 @@ public partial class CloudGeographyClient
                 var endpoint = $"https://atlas.microsoft.com/geolocation/ip/json?api-version=1.0&ip={IPAddress}&subscription-key={Client.Configuration.AzureMapsKey}";
 
                 // Create an HTTP client object
-                using var client = new HttpClient();
+                using HttpClient client = new();
 
                 // Call the API endpoint and get the response
                 var response = await client.GetAsync(endpoint);
@@ -165,7 +165,7 @@ public partial class CloudGeographyClient
                 var content = await response.Content.ReadAsStringAsync();
 
                 // Configure JSON deserialization options to be case insensitive
-                var options = new JsonSerializerOptions
+                JsonSerializerOptions options = new()
                 {
                     PropertyNameCaseInsensitive = true
                 };
