@@ -84,7 +84,7 @@ public partial class CloudGeographyClient
                     {
                         Code = "BG",
                         Type = SubdivisionTypes.District,
-                        Name = "Western Beqaa",
+                        Name = "West Beqaa",
                         LocalName = "البقاع الغربي"
                     },
                     new()
@@ -129,7 +129,7 @@ public partial class CloudGeographyClient
                     {
                         Code = "MT",
                         Type = SubdivisionTypes.District,
-                        Name = "El Metn",
+                        Name = "Matn",
                         LocalName = "المتن"
                     }
                 ]
