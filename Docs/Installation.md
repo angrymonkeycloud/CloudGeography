@@ -2,12 +2,12 @@
 
 ### Package Manager
 
-```batch
+```powershell
 Install-Package AngryMonkey.Cloud.Geography
 ```
 
-### .Net CLI
-```
-dotnet add package AngryMonkey.Cloud.Geography 
-```
+### .NET CLI
 
+```bash
+dotnet add package AngryMonkey.Cloud.Geography
+```

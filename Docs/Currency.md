@@ -1,43 +1,33 @@
-### For Currency:
----
+### Currencies
 
-
-#### Get all available currencies
-
+#### Get all currencies
 
 ```cs
-List<Currency> Currencies = client.Currencies.Get();
+List<Currency> currencies = client.Currencies.Get();
 ```
 
-
-#### Get a currecny from its code
-
-
- ```cs
-Currency Currency = client.Currencies.Get("USD");
-```
-
-
-#### Get multiple currencies from currency codes
-
+#### Get a currency by code
 
 ```cs
-string[] currencyCodes = new(){"AFN", "USD"};
-
-List<Currency> Currencies = client.Currencies.Get(new[] {currencyCodes});
+Currency currency = client.Currencies.Get("USD");
 ```
 
+#### Get multiple currencies by code
 
-#### Get  multiple currencies from country code
+```cs
+string[] currencyCodes = ["AFN", "USD"];
+List<Currency> currencies = client.Currencies.Get(currencyCodes);
+```
 
+#### Get currencies by country code
 
- ```cs
- // by 2 letter country code
-List<CountryCurrency> Currencies = client.Currencies.GetByCountry("US");
+```cs
+// 2-letter country code
+List<CountryCurrency> currencies = client.Currencies.GetByCountry("US");
 
- // by 3 letter country code
-List<CountryCurrency> Currencies = client.Currencies.GetByCountry("USA");
+// 3-letter country code
+List<CountryCurrency> currencies = client.Currencies.GetByCountry("USA");
 
-//Note: A country can have multiple currencies
+// A country can have multiple currencies.
 ```
 

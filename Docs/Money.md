@@ -1,50 +1,41 @@
-### For Money:
----
-#### add money
+### Money
 
+#### Add money
 
 ```cs
-//Positive Addition
+// Positive addition
 Money moneyA = new("USD", 1.2m);
 Money moneyB = new("USD", 1.4m);
-//2.6m
-Money sum = moneyA.Add(moneyB); 
+Money sum = moneyA.Add(moneyB); // 2.6m
 
-//Negatice Addition
-Money moneyA = new("USD", -1.2m);
-Money moneyB = new("USD", -1.4m);
-//-2.6m
-Money sum = moneyA.Add(moneyB);
+// Negative addition
+Money negativeA = new("USD", -1.2m);
+Money negativeB = new("USD", -1.4m);
+Money negativeSum = negativeA.Add(negativeB); // -2.6m
 ```
 
-
-#### subtract money
-
+#### Subtract money
 
 ```cs
-//Positive Subtraction
+// Positive subtraction
 Money moneyA = new("USD", 1.2m);
 Money moneyB = new("USD", 1.4m);
-//-.2m
-Money sum = moneyA.Subtract(moneyB); 
+Money difference = moneyA.Subtract(moneyB); // -0.2m
 
-//Negatice Subtraction
-Money moneyA = new("USD", -1.2m);
-Money moneyB = new("USD", -1.4m);
-//.2m
-Money sum = moneyA.Subtract(moneyB);
+// Negative subtraction
+Money negativeA = new("USD", -1.2m);
+Money negativeB = new("USD", -1.4m);
+Money negativeDifference = negativeA.Subtract(negativeB); // 0.2m
 ```
 
-#### Get decimal part of the money as an integer
+#### Get decimal part of money as an integer
 
 ```cs
-//Positive Number
+// Positive number
 Money money = new("USD", 50.3m);
-int decimalPart = money.DecimalNumberAsInteger;
-// decimalPart = 3
+int decimalPart = money.DecimalNumberAsInteger; // 3
 
-//Negative Number
-Money money = new("USD", -50.3m);
-int decimalPart = money.DecimalNumberAsInteger;
-// decimalPart = -3
+// Negative number
+Money negativeMoney = new("USD", -50.3m);
+int negativeDecimalPart = negativeMoney.DecimalNumberAsInteger; // -3
 ```

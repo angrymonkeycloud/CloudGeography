@@ -1,48 +1,36 @@
-### For Countries:
----
+### Countries
 
-
-#### Get all available countries
-
+#### Get all countries
 
 ```cs
 List<Country> countries = client.Countries.Get();
 ```
 
+#### Get a country by code
 
-#### Get a country by its code
-
-
- ```cs
- // by 2 letters code
+```cs
+// 2-letter code
 Country country = client.Countries.Get("US");
 
-// by 3 letters code
+// 3-letter code
 Country country = client.Countries.Get("USA");
 ```
 
-
-#### Get multiple countries by their code
-
+#### Get multiple countries by code
 
 ```cs
-//by 2 letters code
-string [] twoLettersCountryCodes = new {"CA", "US"};
-
+// 2-letter codes
+string[] twoLettersCountryCodes = ["CA", "US"];
 List<Country> countries = client.Countries.Get(twoLettersCountryCodes);
 
-//by 3 letters code
-string [] threeLettersCountryCodes = new {"CAN", "USA"};
-
+// 3-letter codes
+string[] threeLettersCountryCodes = ["CAN", "USA"];
 List<Country> countries = client.Countries.Get(threeLettersCountryCodes);
 ```
 
+#### Get countries by calling code
 
-
-#### Get a country by its phone code
-
-
- ```cs
+```cs
 Country country = client.Countries.GetByCallingCode(1);
-//returns USA and Canada because they share the same phone code
+// returns USA and Canada because they share the same calling code
 ```

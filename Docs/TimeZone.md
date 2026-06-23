@@ -1,57 +1,44 @@
-### For TimeZones:
----
-#### Get all timezone
+### Time Zones
 
+#### Get all time zones
 
 ```cs
 List<TimeZoneInfo> timeZones = client.TimeZones.Get();
 ```
 
-
-#### Get timezone by timezone Ids
-
+#### Get time zones by IDs
 
 ```cs
-string[] timeZonesIds = new[] {"Hawaiian Standard Time", "Middle East Standard Time", "Greenland Standard Time"};
-
-List<TimeZoneInfo> timeZones = client.TimeZones.Get(timeZonesIds);
+string[] timeZoneIds = ["Hawaiian Standard Time", "Middle East Standard Time", "Greenland Standard Time"];
+List<TimeZoneInfo> timeZones = client.TimeZones.Get(timeZoneIds);
 ```
-#### Get timezones by country code
 
+#### Get time zones by country code
 
 ```cs
 List<CountryTimeZone> timeZones = client.TimeZones.GetByCountry("LB");
 ```
 
-
-#### Get current time of a timezone by timezone id
-
+#### Get current time in a time zone
 
 ```cs
 string toTimeZone = "Eastern Standard Time";
-
 DateTime convertedTime = client.TimeZones.GetTime(toTimeZone);
 ```
 
-
-
-#### Convert UTC time to a timezone time by timezone id
-
+#### Convert UTC to a time zone
 
 ```cs
 string toTimeZone = "Eastern Standard Time";
-DateTime UTCTime = DateTime.Parse("2022-11-09 10:00:00 AM");
-
-DateTime convertedTime = client.TimeZones.GetTime(toTimeZone , UTCTime);
+DateTime utcTime = DateTime.Parse("2022-11-09 10:00:00 AM");
+DateTime convertedTime = client.TimeZones.GetTime(toTimeZone, utcTime);
 ```
 
-#### Convert time from a timezone to another timezone time by timezone ids
-
+#### Convert between time zones
 
 ```cs
 string toTimeZone = "Afghanistan Standard Time";
 string fromTimeZone = "Middle East Standard Time";
-DateTime timeToConvert = DateTime.Parse("2022-11-08 12:00:00 PM")
-
+DateTime timeToConvert = DateTime.Parse("2022-11-08 12:00:00 PM");
 DateTime convertedTime = client.TimeZones.GetTime(toTimeZone, timeToConvert, fromTimeZone);
 ```

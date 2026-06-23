@@ -1,44 +1,34 @@
-### For Language:
----
+### Languages
 
-
-#### Get all available langugaes
-
+#### Get all languages
 
 ```cs
 List<Language> languages = client.Languages.Get();
 ```
 
-
 #### Get languages by language codes
 
-
 ```cs
-string[] languageCodes = new(){"USA","CA"};
-
+string[] languageCodes = ["EN", "FR"];
 List<Language> languages = client.Languages.Get(languageCodes);
 ```
 
-
 #### Get languages by country code
 
-
 ```cs
-//by 2 letters code
+// 2-letter country code
 List<CountryLanguage> languages = client.Languages.GetByCountry("US");
 
-//by 3 letters code
+// 3-letter country code
 List<CountryLanguage> languages = client.Languages.GetByCountry("USA");
 ```
 
+#### Get a language by code
 
-#### Get language by language code
+```cs
+// 2-letter code
+Language? language = client.Languages.Get("EN");
 
-
- ```cs
- //by 2 letter code
-Language ?language = client.Languages.Get("EN");
-
-//by 3 letter code
+// 3-letter code
 Language? language = client.Languages.Get("ENG");
 ```
