@@ -105,7 +105,7 @@ namespace CloudGeography.Test
         public void Get_Countries_By_Country_Codes()
         {
             CloudGeographyClient client = new();
-            List<Country> countries = client.Countries.Get(new[] { "US", "LB" });
+            List<Country> countries = client.Countries.Get(["US", "LB"]);
 
             Assert.IsTrue(countries.Count == 2);
 
@@ -117,7 +117,7 @@ namespace CloudGeography.Test
         public void Get_Countries_By_CountryCode_Cases()
         {
             CloudGeographyClient client = new();
-            List<Country> countries = client.Countries.Get(new[] { "Us", "lB" });
+            List<Country> countries = client.Countries.Get(["Us", "lB"]);
 
             Assert.IsTrue(countries.Count == 2);
 

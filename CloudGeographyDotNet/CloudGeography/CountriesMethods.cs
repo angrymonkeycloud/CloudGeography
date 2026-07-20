@@ -20,6 +20,10 @@ public partial class CloudGeographyClient
         }
         public Country? Get(string countryCode) => CountriesList.FirstOrDefault(key => key.CodeCheck(countryCode));
 
+        public Country? Find(string query) => CountriesList.FirstOrDefault(key => key.NameCheck(query));
+
+        public List<Country> FindAll(string query) => CountriesList.Where(key => key.NameCheck(query)).ToList();
+
         public List<Country> GetByCallingCode(int callingCode)
         {
             string callingCodeString = callingCode.ToString().TrimStart('0');

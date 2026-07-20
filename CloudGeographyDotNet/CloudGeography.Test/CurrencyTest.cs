@@ -22,7 +22,7 @@ namespace CloudGeography.Test
 		public void Get_Currencies_From_Currency_Codes()
 		{
 			CloudGeographyClient client = new();
-			List<Currency> Currencies = client.Currencies.Get(new[] { "USd", "LbP" });
+			List<Currency> Currencies = client.Currencies.Get(["USd", "LbP"]);
 
 			Assert.IsTrue(Currencies.Count == 2);
 

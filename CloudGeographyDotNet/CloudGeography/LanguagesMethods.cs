@@ -14,6 +14,10 @@ public partial class CloudGeographyClient
 
         public Language? Get(string languageCode) => LanguagesList.FirstOrDefault(key => key.CodeCheck(languageCode));
 
+        public Language? Find(string query) => LanguagesList.FirstOrDefault(key => key.NameCheck(query));
+
+        public List<Language> FindAll(string query) => LanguagesList.Where(key => key.NameCheck(query)).ToList();
+
         public List<CountryLanguage> GetByCountry(string countryCode) => Client.Countries.Get(countryCode).Languages;
     }
 }

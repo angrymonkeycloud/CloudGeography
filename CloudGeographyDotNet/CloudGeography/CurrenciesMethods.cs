@@ -14,6 +14,10 @@ public partial class CloudGeographyClient
 
 		public Currency? Get(string currencyCode) => CurrenciesList.FirstOrDefault(key => key.CodeCheck(currencyCode));
 
+		public Currency? Find(string query) => CurrenciesList.FirstOrDefault(key => key.NameCheck(query));
+
+		public List<Currency> FindAll(string query) => CurrenciesList.Where(key => key.NameCheck(query)).ToList();
+
 		public List<CountryCurrency> GetByCountry(string countryCode) => Client.Countries.Get(countryCode).Currencies;
 	}
 }

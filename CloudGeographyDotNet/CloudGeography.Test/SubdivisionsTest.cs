@@ -27,7 +27,7 @@ namespace CloudGeography.Test
 		public void Get_Subdivisions_By_CountryCode_And_SubDivisionCode()
 		{
 			CloudGeographyClient client = new();
-			List<Subdivision> subdivisions = client.Subdivisions.Get("US", new[] { "aL", "Ak", "az" });
+			List<Subdivision> subdivisions = client.Subdivisions.Get("US", ["aL", "Ak", "az"]);
 
 			Assert.IsTrue(subdivisions.Count == 3);
 

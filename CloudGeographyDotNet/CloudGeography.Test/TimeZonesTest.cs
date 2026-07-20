@@ -31,7 +31,7 @@ namespace CloudGeography.Test
         public void Get_List_Of_Specific_TimeZones()
         {
             CloudGeographyClient client = new();
-            List<TimeZoneInfo> timeZones = client.TimeZones.Get(new[]{ "Hawaiian Standard Time", "Middle East Standard Time", "Greenland Standard Time" });
+            List<TimeZoneInfo> timeZones = client.TimeZones.Get(["Hawaiian Standard Time", "Middle East Standard Time", "Greenland Standard Time"]);
             
             List<string> input =["Hawaiian Standard Time", "Middle East Standard Time","Greenland Standard Time"];
             List<TimeZoneInfo> expectedList = TimeZoneInfo.GetSystemTimeZones().ToList().Where(TZ => input.Any(key => key == TZ.Id)).ToList();

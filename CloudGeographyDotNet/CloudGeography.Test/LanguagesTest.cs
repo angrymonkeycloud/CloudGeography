@@ -17,7 +17,7 @@ namespace CloudGeography.Test
 		public void Get_Languages_By_Language_Codes()
 		{
 			CloudGeographyClient client = new();
-			List<Language> languages = client.Languages.Get(new[] { "EN", "AR" });
+			List<Language> languages = client.Languages.Get(["EN", "AR"]);
 
 			Assert.IsTrue(languages.Count == 2);
 
@@ -29,7 +29,7 @@ namespace CloudGeography.Test
 		public void Get_Languages_By_LanguageCode_Cases()
 		{
 			CloudGeographyClient client = new();
-			List<Language> languages = client.Languages.Get(new[] { "En", "aR" });
+			List<Language> languages = client.Languages.Get(["En", "aR"]);
 
 			Assert.IsTrue(languages.Count == 2);
 

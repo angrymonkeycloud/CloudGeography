@@ -15,4 +15,23 @@ public class Language
 
 		return Code == code || ThreeLettersCode == code;
 	}
+
+	internal bool NameCheck(string query)
+	{
+		if (string.IsNullOrWhiteSpace(query))
+			return false;
+
+		query = query.Trim();
+
+		if (Name != null && Name.Equals(query, StringComparison.OrdinalIgnoreCase))
+			return true;
+
+		if (NativeName != null && NativeName.Equals(query, StringComparison.OrdinalIgnoreCase))
+			return true;
+
+		if (CodeCheck(query))
+			return true;
+
+		return false;
+	}
 }
