@@ -5,13 +5,13 @@ For general AI-assisted development guidance that applies to this repository as 
 - [AI Instructions](https://github.com/angrymonkeycloud/CloudDocs/blob/main/docs/ai/instructions.md)
 
 ## Project Overview
-Cloud Geography is a .NET library (`AngryMonkey.Cloud.Geography`, targets net9.0) exposing geographic data — countries, currencies, languages, subdivisions, time zones, money arithmetic, and phone number parsing — through a single `CloudGeographyClient` entry point. All data is stored as static C# initializers (no runtime JSON loading), except for the optional Azure Maps coordinate-to-country lookup.
+Cloud Geography is a .NET library (`AngryMonkey.Cloud.Geography`, targets net11.0) exposing geographic data — countries, currencies, languages, subdivisions, time zones, money arithmetic, and phone number parsing — through a single `CloudGeographyClient` entry point. All data is stored as static C# initializers (no runtime JSON loading), except for the optional Azure Maps coordinate-to-country lookup.
 
 ## Solution Layout
 | Project | Role |
 |---|---|
-| `CloudGeography/` | Main library (net9.0) |
-| `CloudGeography.Test/` | MSTest suite (net10.0) |
+| `CloudGeography/` | Main library (net11.0) |
+| `CloudGeography.Test/` | MSTest suite (net11.0) |
 | `CloudGeography.Packing/` | NuGet packaging + README generation via CloudMate |
 
 ## Architecture: Partial Class Pattern
