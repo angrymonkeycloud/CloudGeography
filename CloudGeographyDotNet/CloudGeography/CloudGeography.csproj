@@ -8,7 +8,7 @@
 		<Title>Cloud Geography</Title>
 		<AssemblyVersion>$(PackageVersion)</AssemblyVersion>
 		<FileVersion>$(PackageVersion)</FileVersion>
-		<Version>2.8.0</Version>
+		<Version>2.8.2</Version>
 		<AssemblyName>AngryMonkey.CloudGeography</AssemblyName>
 		<Authors>Angry Monkey</Authors>
 		<Description>A .NET client library for geographic and financial data operations, including countries, currencies, languages, subdivisions, time zones, money, and international phone number parsing. Find countries, currencies, and languages by name with flexible search, alternative names, and multilingual support.</Description>
